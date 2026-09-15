@@ -47,6 +47,66 @@ window.OBSERVATORY = {
 
     /* ---------- LEVEL-5「LEVEL5 VISION 2026 II 夢」（2026-09-10 发表） ---------- */
 
+    /* 本体在窗口外发售、但窗口内有付费 DLC 发表 —— 按 2026-09-15 新口径建条目。
+       本体『ファンタジーライフi』2025 年発売、DLC は 2026-09-10 の
+       「LEVEL5 VISION 2026 II 夢」内で発表。 */
+    {
+      id: "fantasy-life-i-celestial-express",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "ファンタジーライフi 有料大型DLC「天界列車としあわせの終着駅」", cn: "幻想生活 i 付费大型 DLC「天界列车与幸福终点站」", en: "FANTASY LIFE i: The Girl Who Steals Time — The Celestial Express" },
+      genre: "慢生活 RPG（大型付费追加内容）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "PC (Steam)"],
+      release: "未定",
+      releasePrecision: "未定",
+      summary: "LEVEL-5 在线上发表会「LEVEL5 VISION 2026 II 夢」公布了《幻想生活 i 转圈圈的龙和偷取时间的少女》的付费大型追加内容《天界列车与幸福终点站》。本体已发售且累计出货据报突破百万，这次 DLC 面向已通关玩家扩展终盘内容：在既存最高职业等级「英雄」之上新增「神候补（神みならい）」与「神（ゴッド）」两个等级；制作系统新增同一配方可产出不同外观的模式，部分「神配方」制成品会附带「神技能」；新增会飞行随行的支援系配件；新增特殊坐骑，装配神级制作部件后外观与性能会变化、且骑乘时可攻击；另追加新家具套装与房屋设计、新怪物与采集物，以及比「金冠」更强的「神冠」等级。发售日与价格官方均未公布。",
+      highlight: "本体销量破百万的长卖作品首次推出付费大型 DLC，把职业上限从「英雄」直接推到「神」，属终盘内容的大幅扩容；也是本站首次按「DLC 也收」口径收录的条目。",
+      console: {
+        status: "発売時期未定（2026-09-10 の「LEVEL5 VISION 2026 II 夢」で発表）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "PC (Steam)"],
+        monetization: "未発表（「有料大型DLC」と告知。価格は未公表）",
+        developer: "レベルファイブ 大阪開発室",
+        publisher: "レベルファイブ",
+        region: "日本（本体は世界展開済み。DLC の地域展開は未発表）",
+        distribution: "ダウンロード（本体の各ストア経由とみられるが、DLC 単体の配信方法は公式に明示なし）",
+        features: [
+          "既存最高ランク「英雄」の上に「神みならい」「ゴッド」の 2 ランクを新設、各ライフごとに新たな試練へ挑戦",
+          "クラフトに新モードを追加：同一レシピから見た目の異なるアイテムを作成でき、ゴッドレシピ製の一部には「ゴッドスキル」が付く",
+          "飛び回って冒険を助ける新アクセサリーを追加（媒体により「Wingmate」／「Otomobile」と表記が分かれる）",
+          "新たな特殊マウント：ゴッドランクのクラフトで作るパーツを装着すると外観と性能が変化し、騎乗したまま攻撃も可能",
+          "新家具セット・新たな家のデザイン、新モンスター、新採集物を追加",
+          "ゴールドクラウンより上位の「ゴッドクラウン」を新設"
+        ],
+        synopsis: "本体『ファンタジーライフi グルグルの竜と時をぬすむ少女』の物語を終えた後の暮らしを拡張する有料大型コンテンツ。各ライフの最上位ランクと、それに紐づくクラフト・装備・拠点要素をまとめて追加する。",
+        ipSource: "『ファンタジーライフ』シリーズ（LEVEL-5）",
+        series: "本体は世界累計出荷 100 万本超と報じられる長寿タイトル。シリーズでは 3DS『ファンタジーライフ LINK!』以来となる「神みならい／ゴッド」ランクの復活"
+      },
+      news: [
+        { source: "Nintendo Everything（DLC 発表・日野晃博コメント）", url: "https://nintendoeverything.com/fantasy-life-i-the-girl-who-steals-time-announces-the-celestial-express-dlc/" },
+        { source: "GoNintendo（価格・発売日いずれも未公表と明記）", url: "https://gonintendo.com/contents/64833-fantasy-life-i-the-celestial-express-paid-dlc-announced" },
+        { source: "Gematsu（LEVEL-5 タグ／発表一覧）", url: "https://www.gematsu.com/tag/level-5" },
+        { source: "Nintendo Life（Vision 2026 II 全発表まとめ）", url: "https://www.nintendolife.com/news/2026/09/round-up-everything-announced-in-the-level-5-vision-2026-ii-showcase" }
+      ],
+      videos: [
+        { label: "「LEVEL5 VISION 2026 II 夢」配信内で発表（LEVEL-5 公式サイト）", platform: "官方站", url: "https://www.level5.co.jp/" },
+        { label: "Nintendo Life 全発表まとめ", platform: "媒体", url: "https://www.nintendolife.com/news/2026/09/round-up-everything-announced-in-the-level-5-vision-2026-ii-showcase" }
+      ],
+      hype: {
+        score: 71,
+        signals: [
+          "本体は世界累計 100 万本超（中国語メディア報道）の長寿タイトルで、追加コンテンツへの関心は高い",
+          "発売日・価格がいずれも未公表のため、話題は即時爆発型ではなく持続型",
+          "Nintendo Everything / GoNintendo / Nintendo Life など英米メディアが一斉に報道、海外カバレッジ良好"
+        ]
+      },
+      tags: ["追加内容", "DLC", "慢生活RPG", "多平台", "LEVEL-5"],
+      caution: "① DLC 自身の対応機種・価格・配信日・配信方法は公式に未発表。ここには本体の家庭用・PC 対応機種を記載した（本体は iOS / Android 版も 2026-08-20 より配信）。② 新アクセサリーは Nintendo Everything が「Wingmate」、yomimono 経由の報道が「Otomobile」と表記し、同一物かは未確認——判定せず両方記録。③ 本体の価格帯は DLC 価格とは無関係。"
+    },
+
     {
       id: "layton-curious-village-remake",
       company: "LEVEL-5",
@@ -1733,6 +1793,24 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "《勇者斗恶龙 V》女主角 Bianca 与 Nera 担任主角的怪物收集作品，舞台为 Witherwood 王国。玩家可侦查、培育并合成怪物，Square Enix 称登场怪物超过 500 种，并计划加入线上 PvP。Demo 已配信且存档可继承至正式版。",
       highlight: "同期 State of Play Japan 展示斗技场战斗与剧情演出；TGS2026 设「Fluffy Meet and Greet」可合影。",
+      console: {
+        status: "2026年12月3日発売予定（Demo 配信中・セーブ引き継ぎ可）",
+        os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
+        monetization: "7,700 円（税込・小売リスト集計値）",
+        developer: "スクウェア・エニックス",
+        publisher: "スクウェア・エニックス",
+        region: "日本",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "モンスターをスカウト・育成・配合して部隊を作る収集型 RPG。登場モンスターは 500 種以上",
+          "オンライン PvP の実装が予告されている",
+          "TGS2026 では「Fluffy Meet and Greet」と題した記念撮影企画を実施"
+        ],
+        synopsis: "『ドラゴンクエスト V』のヒロイン、ビアンカとフローラが主人公を務める。舞台はウィザウッド王国。同社は State of Play Japan で闘技場バトルと物語の演出を披露した。",
+        ipSource: "『ドラゴンクエスト』シリーズ（スクウェア・エニックス）",
+        series: "『ドラゴンクエストモンスターズ』シリーズ最新作"
+      },
       news: [
         { source: "CQ-Esports（State of Play Japan）", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" },
         { source: "Games Reviews（TGS 展台阵容）", url: "https://gamesreviews.com/news/09/square-enixs-tgs-2026-lineup-playable-ff7-revelation-resonance-demos-kh-collection-ports/" }
@@ -1767,6 +1845,24 @@ window.OBSERVATORY = {
       releasePrecision: "期",
       summary: "系列正统编号新作，延续 Sora 在神秘都市 Quadratum 的旅程，Switch 2 版与其他平台同日推出。TGS2026 Square Enix 展台将以「仅展示、不可试玩」形式出展。系列累计出货量已突破 3900 万套，另有由野村哲也参与的同名动画系列在开发中。",
       highlight: "TGS 采取「看得到摸不到」的展出策略，属刻意维持悬念的宣发手法。",
+      console: {
+        status: "2027年後半発売予定。価格未発表。TGS2026 は「展示のみ」で試遊不可",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
+        monetization: "未発表（小売リストでも TBA）",
+        developer: "スクウェア・エニックス",
+        publisher: "スクウェア・エニックス",
+        region: "日本（EN / FR / IT / DE / ES / PT 対応）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "シリーズ正統ナンバリング最新作。謎の都市クアドラトゥムにいるソラの物語を継続する",
+          "Nintendo Switch 2 版は他機種と同日発売",
+          "TGS2026 のスクウェア・エニックス ブースは「見られるが触れない」展示方針で、試遊枠を設けていない"
+        ],
+        synopsis: "ソラが辿り着いた謎の都市クアドラトゥムでの旅を描くシリーズ正統ナンバリング。Switch 2 版を含む全プラットフォームで展開予定。",
+        ipSource: "『KINGDOM HEARTS』シリーズ（スクウェア・エニックス × ディズニー）",
+        series: "シリーズ累計出荷 3,900 万本超。野村哲也が参加する同名アニメシリーズも開発中"
+      },
       news: [
         { source: "Games Reviews（TGS 展台阵容）", url: "https://gamesreviews.com/news/09/square-enixs-tgs-2026-lineup-playable-ff7-revelation-resonance-demos-kh-collection-ports/" },
         { source: "Eurogamer", url: "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026" }
@@ -1838,6 +1934,25 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "系列首款 HD-2D 作品，将 2015 年手游《FF Brave Exvius》的开篇剧情重编为完整单机游戏，并且不含抽卡。战斗为经典回合制（非 ATB），带可见时间轴、Stagger 窗口、Limit Burst、幻兽与历代英雄「Visions」。第一章 Demo 已配信且存档可继承。",
       highlight: "「让现代 FF 重新像 16-bit 水晶冒险」的定位，在 TGS 与 FF7 Revelation 并列两大试玩。",
+      console: {
+        status: "2026年10月22日発売予定（第一章 Demo 配信中）",
+        os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
+        monetization: "7,678 円（税込・小売リスト集計値／Switch 2 版は Game Key Card 形式）。買い切りでガチャ要素はなし",
+        developer: "スクウェア・エニックス",
+        publisher: "スクウェア・エニックス",
+        region: "日本（EN / FR / DE / ES 対応）",
+        distribution: "パッケージ版（Switch 2 版は Game Key Card）・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "シリーズ初の HD-2D 作品。ドット絵と 3D を組み合わせた表現で「現代の FF を 16-bit の水晶冒険のように」描く",
+          "バトルは ATB ではなくコマンド式のターン制。可視タイムライン、Stagger ウィンドウ、Limit Burst を採用",
+          "幻獣と、歴代 FF の英雄「Visions」を軸にした編成・強化",
+          "第一章 Demo のセーブデータは製品版へ引き継ぎ可能"
+        ],
+        synopsis: "2015 年に配信されたスマートフォン向け『FINAL FANTASY ブレイブエクスヴィアス』の序盤シナリオを、家庭用の単体タイトルとして再構成した作品。TGS2026 では『FFVII REVELATION』と並ぶ 2 大試遊の一角。",
+        ipSource: "『FINAL FANTASY』シリーズ／『FF ブレイブエクスヴィアス』",
+        series: "シリーズ初の HD-2D タイトル"
+      },
       news: [
         { source: "Eurogamer（State of Play 汇总）", url: "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026" },
         { source: "Gurugamer（JRPG 盘点）", url: "https://gurugamer.com/pc-console/top-10-upcoming-jrpgs-to-release-in-2026-and-2027-27290" }
@@ -1908,6 +2023,24 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "2008 年《Persona 4》的完全重制版，保留原作的剧情与角色，对画面与游玩体验全面重建。2027 年 2 月 18 日全球同步发售；Nintendo Switch 2 版确认于同年 5 月 20 日推出。首日加入 Xbox Game Pass Ultimate 与 PC Game Pass。",
       highlight: "PS5 / Xbox / PC 与 Switch 2 之间存在约三个月的发售时间差，是本次少见的平台窗口安排。",
+      console: {
+        status: "Nintendo Switch 2 版 2027年5月20日発売予定／他機種 2027年2月18日。価格はいずれも未発表",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC (Steam / Microsoft Store)"],
+        monetization: "未発表（小売リストでも TBA、価格は未公表）",
+        developer: "アトラス",
+        publisher: "アトラス（セガ）",
+        region: "日本（多言語対応）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "2008 年『ペルソナ 4』の完全リメイク。物語とキャラクターは原作を踏襲し、グラフィックと遊びを全面再構築",
+          "Xbox Game Pass Ultimate / PC Game Pass に初日から対応",
+          "Nintendo Switch 2 版は他機種から約 3 か月遅れの 2027-05-20 発売"
+        ],
+        synopsis: "2008 年に発売された『ペルソナ 4』の完全リメイク。原作の物語・キャラクターを保ちつつ、映像表現とプレイフィールを現行ハード向けに作り直す。",
+        ipSource: "『ペルソナ』シリーズ（アトラス）",
+        series: "『ペルソナ 3 Reload』に続くシリーズのリメイク路線"
+      },
       news: [
         { source: "ATLUS 官方（发售日与版本情报）", url: "http://haveagood-holiday.com/en/articles/persona-4-revival-release-date-persona-6-announced" },
         { source: "IGN Brasil（Nintendo Direct 确认）", url: "https://br.ign.com/metroid-ravenous/155985/metroid-ravenous-kirby-and-the-world-beyond-e-mais-tudo-o-que-foi-anunciado-no-nintendo-direct-de-se" }
@@ -1943,6 +2076,29 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "《Metroid Dread》(2021) 的横版续作，为系列 40 周年作品。萨姆斯被神秘敌人袭击重伤，困于未知星球求生，主题是「吃或被吃」——预告中展示了萨姆斯吞噬敌人的新能力。同步公布 amiibo 阵容与同日发售的 Special Edition。",
       highlight: "回归 2D 硬核生存路线，被媒体解读为对 Dread 口碑的正面延续。",
+      console: {
+        status: "2027年1月28日発売予定（Nintendo eShop / Nintendo Store で予約受付中）",
+        os: ["Nintendo Switch 2"],
+        monetization: "ダウンロード版 7,980 円／パッケージ版 8,980 円／Special Edition 12,980 円（税込）。※小売リストには 8,990 円との記載もあり、パッケージ版は 8,980 円と 8,990 円の二口径が併存（どちらが正式かは未確認のため両記）",
+        developer: "任天堂",
+        publisher: "任天堂",
+        region: "日本（多言語対応）",
+        distribution: "パッケージ版・ダウンロード版。Special Edition は Switch 2 カードケース（SteelBook 仕様）と「サムス（メトロイドスーツ）」amiibo を同梱",
+        stores: ["Nintendo eShop", "Nintendo Store", "全国のゲーム取扱店・オンラインストア"],
+        preOrder: {
+          open: true,
+          since: "",
+          reward: "Special Edition（12,980 円）に SteelBook 仕様カードケースと「サムス（メトロイドスーツ）」amiibo が同梱。「サムス」「鳥人像」の amiibo も発売日同日（2027-01-28）に発売"
+        },
+        features: [
+          "2D 横スクロールのメトロイド完全新作。『メトロイド ドレッド』(2021) 以来 5 年ぶり",
+          "敵の攻撃をジャストパリィすると「捕食」が発動し、生物エネルギーを奪って生存に回す「食うか、食われるか」の戦闘循環",
+          "精鋭暗殺者集団「スペースニンジャ」との戦闘では、カメラが斜め後方の越肩視点へシームレスに切り替わる"
+        ],
+        synopsis: "サムス・アランは墜落した衛星で謎の武装集団に襲撃され、生態系の異変した地下深部に閉じ込められる。新たに覚醒した「エネルギー吸収」能力を使い、地下迷宮を踏破して生還を図る。",
+        ipSource: "『メトロイド』シリーズ（任天堂）",
+        series: "2D メトロイドシリーズの完全新作。シリーズ 40 周年の節目に発表"
+      },
       news: [
         { source: "Mandatory（预告与发售日）", url: "https://www.mandatory.com/culture/1847443-nintendo-metroid-ravenous-kirby-world-beyond-announced" },
         { source: "GameMeca", url: "https://www.gamemeca.com/en/view.php?gid=1780300" }
@@ -2011,6 +2167,24 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "系列最新正统作。故事从四位主角在 Dagdan 帝国「英雄竞技会」角逐开始，五年后魔神 Balor 归来，玩家可借「Fortuna」之力回溯改变主角命运。战斗为网格战棋，间场在首都 Dagsion 探索、育成、招募，并有时间限制的支线地图。",
       highlight: "媒体预览给出「兼具三屋优点、规避旧弊」的评价，发售日与 TGS 开幕同日。",
+      console: {
+        status: "2026年9月17日発売予定（予約受付中）",
+        os: ["Nintendo Switch 2"],
+        monetization: "9,980 円（税込・小売リスト集計値／パッケージ版）。ダウンロード版の単価は未確認",
+        developer: "インテリジェントシステムズ",
+        publisher: "任天堂",
+        region: "日本（多言語対応：EN / FR / IT / DE / ES / KO / ZH）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "Nintendo Store", "全国のゲーム取扱店"],
+        features: [
+          "グリッド制のターン制 SRPG。首都ダグシオンで探索・育成・勧誘を行い、時間制限付きのサイドマップも用意",
+          "「Fortuna」の力で主人公の命運を巻き戻し、選択をやり直せる",
+          "4 人の主人公がダグダン帝国の「英雄競技会」で競うところから物語が始まり、5 年後に魔神バロールが再来する群像劇"
+        ],
+        synopsis: "シリーズ最新の正統ナンバリング。4 人の主人公が帝国の英雄競技会で鎬を削る序盤を経て、5 年後に帰還する魔神バロールとの戦いへ。プレイヤーは「Fortuna」の力で命運を書き換えながら進む。",
+        ipSource: "『ファイアーエムブレム』シリーズ（任天堂）",
+        series: "開発はインテリジェントシステムズ。発売日が TGS2026 開幕と同日で、オンラインとリアル双方で露出が重なる"
+      },
       news: [
         { source: "Polygon（10 小时预览评价）", url: "https://www.polygon.com/new-rpgs-fall-2026" },
         { source: "Gurugamer", url: "https://gurugamer.com/pc-console/top-10-upcoming-jrpgs-to-release-in-2026-and-2027-27290" }
@@ -2041,10 +2215,30 @@ window.OBSERVATORY = {
       title: { jp: "ゼルダの伝説 時のオカリナ（リメイク）", cn: "塞尔达传说 时之笛（重制）", en: "The Legend of Zelda: Ocarina of Time Remake" },
       genre: "3D 动作冒险（重制）",
       platforms: ["Nintendo Switch 2"],
-      release: "已确认（具体日期待官方）",
-      releasePrecision: "年内",
+      release: "2026-11-05",
+      releasePrecision: "日",
       summary: "在 9/8 的塞尔达系列 40 周年专场中公开，为 N64 原作《时之笛》的完全视觉重制版。公布当日即成为 X 等社交平台讨论度最高的环节之一。发售日期与预购详情尚未完全公开。",
       highlight: "40 周年节点上的招牌重制；视觉风格在社媒引发分歧讨论，正反声量均高。",
+      console: {
+        status: "2026年11月5日発売予定（2026-09-08「ゼルダの伝説40周年 Direct」で発売日発表、予約受付中）",
+        os: ["Nintendo Switch 2（Switch 1 版は未発表）"],
+        monetization: "7,980 円（税込・小売リスト集計値）。初回生産分のパッケージ版は特製パッケージ仕様",
+        developer: "任天堂",
+        publisher: "任天堂",
+        region: "日本／北米／欧州 同日発売",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "Nintendo Store", "全国のゲーム取扱店"],
+        preOrder: { open: true, since: "2026-09-08", reward: "" },
+        features: [
+          "1998 年 NINTENDO64 版の完全リメイク。アセット・ライティング・テクスチャを一新し、カットシーンはフルボイス化",
+          "右スティックによるカメラ操作、ボタンジャンプ、ダッシュ（前転回避からの長押し）を追加し、現行作に近い操作感へ",
+          "オカリナは従来のボタン入力に加え、鼻歌・楽器の演奏に反応する音声入力にも対応",
+          "スマホアプリ「ZELDA NOTES」と連携。進行を振り返る「Threads of Time」（時間の軌跡）機能を追加"
+        ],
+        synopsis: "コキリの森に住む少年リンクが、森の守り神デクの樹サマからハイラルを救う運命を告げられ、妖精ナビィとともにガノンドロフへ立ち向かう。原作の物語と構造を保ちつつ、操作と演出を現代仕様に再構築した完全リメイク。",
+        ipSource: "『ゼルダの伝説』シリーズ（任天堂）",
+        series: "シリーズ 40 周年記念作。原作はファミ通史上初の 40 点満点を獲得した作品"
+      },
       news: [
         { source: "检索汇总（Nintendo Direct 2026 报道）", url: "https://nintendoeverything.com/" },
         { source: "Radio Times（Zelda 专场提及）", url: "https://www.radiotimes.com/technology/gaming/kirby-a-world-beyond-revealed-nintendo-3d-platformer-release-window-confirmed-newsupdate" }
@@ -2079,6 +2273,24 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "Nintendo Direct 确认《Monster Hunter Wilds》于 2026 年 12 月 4 日登陆 Switch 2，含既有更新内容，支持本地无线与跨平台联机。大型扩展包「Ascendance」定于 2027 年推出，追加可借翔虫（Seikret）移动的垂直区域，并公布全新古龙「Gundoraga」。",
       highlight: "系列制作人辻本良三亲自出席 State of Play Japan 解说扩展内容，是日方重量级站台。",
+      console: {
+        status: "Switch 2 版 2026年12月4日発売予定／大型拡張「Ascendance」2027年配信予定",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
+        monetization: "Switch 2 版 4,990 円（税込・小売リスト集計値／Game Key Card 形式）",
+        developer: "カプコン",
+        publisher: "カプコン",
+        region: "日本",
+        distribution: "Game Key Card 方式のパッケージ版・ダウンロード版。Switch 2 本体同梱セットも 2026-12-04 に発売",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "Switch 2 版はこれまでのアップデート内容を収録した状態で発売",
+          "ローカル通信プレイとクロスプラットフォーム マルチプレイに対応",
+          "大型拡張「Ascendance」では翔虫（Seikret）を使った垂直移動エリアと、新たな古龍「Gundoraga」を追加"
+        ],
+        synopsis: "『モンスターハンターワイルズ』の Nintendo Switch 2 版。既存アップデートを収録し、携帯機でも本編を遊べる形で投入される。拡張パス「Ascendance」は 2027 年に配信予定。",
+        ipSource: "『モンスターハンター』シリーズ（カプコン）",
+        series: "本編の Switch 2 展開と拡張パスを同時に告知した形"
+      },
       news: [
         { source: "Cleveland Free Times（Direct 汇总）", url: "https://www.freetimes.com/news/2026-09-11-nintendo-direct-9-9-2026-switch-2-line-up-gears-up-with-final-fantasy-monster-hunter-tomb-raider-and-more" },
         { source: "CQ-Esports（State of Play Japan）", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" }
@@ -2113,6 +2325,24 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "系列久违的新作。日本媒体评价其「在保留原作暗黑氛围的同时，实现了深度的战斗系统」。Switch 2 版支持以 Joy-Con 2 体感操作挥剑，与其他平台形成操作差异。",
       highlight: "Famitsu 评分 34/40（9/9/8/8），是本期评分榜并列第二。",
+      console: {
+        status: "2026年9月25日発売（Switch 2 版を含む全プラットフォーム）",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
+        monetization: "8,990 円（税込・小売リスト集計値／Game Key Card 形式）",
+        developer: "カプコン",
+        publisher: "カプコン",
+        region: "日本",
+        distribution: "Game Key Card 方式のパッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "シリーズ久々の完全新作。原作のダークな雰囲気を保ちつつ戦闘システムを深化させたと日本メディアが評価（ファミ通 34 点）",
+          "Switch 2 版は Joy-Con 2 の体感操作で刀を振れる、他機種との操作差を用意",
+          "剣戟アクション。間合いと斬撃の手応えを軸にした対人・対魔物戦闘"
+        ],
+        synopsis: "『鬼武者』シリーズの最新作。和風のダークファンタジー世界で、剣戟を主軸に据えたアクションとして再構築されている。",
+        ipSource: "『鬼武者』シリーズ（カプコン）",
+        series: "シリーズ長期休止を経ての新作"
+      },
       news: [
         { source: "3DMGame（Famitsu 评分汇总）", url: "https://en.3dmgame.com/news/2702" },
         { source: "Legal United States（Direct 汇总）", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" }
@@ -2248,6 +2478,24 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "Marvelous 原「Project Life is RPG」正式定名。制作阵容豪华：导演樋口勝久（FF II–V、Chrono Trigger、Xenogears）、剧本野島一成（FF VII、Kingdom Hearts）、原案牧野圭介（Persona 5、Metaphor）、音乐崎元仁。主角 Wade 可读取物体残留记忆，并以「Future Sight」预判敌人行动。",
       highlight: "日式 RPG 黄金世代创作者的再集合，是 2027 年最被业界看好的新 IP 之一。",
+      console: {
+        status: "2027年3月4日発売予定",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
+        monetization: "7,678 円（税込・小売リスト集計値／Switch 2 版は Game Key Card 形式）",
+        developer: "マーベラス",
+        publisher: "マーベラス",
+        region: "日本（EN / FR / DE / ES / KO / ZH 対応）",
+        distribution: "パッケージ版（Game Key Card）・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "コマンド式ターン制 RPG。主人公ウェイドは物体に残された記憶を読み取る能力を持つ",
+          "「Future Sight」で敵の行動を先読みし、先手を取る戦術が軸",
+          "スタッフ：監督 樋口勝久／脚本 野島一成／原案 牧野圭介／音楽 崎元仁"
+        ],
+        synopsis: "マーベラスが旧称「Project Life is RPG」として進めていた完全新作が正式にタイトルを公開。記憶を読む主人公を中心に据えたターン制 RPG。",
+        ipSource: "新規 IP（マーベラス）",
+        series: "マーベラスの完全新作。旧称「Project Life is RPG」"
+      },
       news: [
         { source: "Gurugamer（JRPG 盘点）", url: "https://gurugamer.com/pc-console/top-10-upcoming-jrpgs-to-release-in-2026-and-2027-27290" },
         { source: "GameMeca", url: "https://www.gamemeca.com/en/view.php?gid=1780300" }
