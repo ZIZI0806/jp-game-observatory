@@ -70,6 +70,14 @@
   const platClass = (p) => /Steam|YouTube/i.test(p) ? "yt"
                         : /^X$/i.test(p) ? "x" : "news";
 
+  /* 日期 → 可比较数值 (YYYYMMDD)。
+     announceDate 存在只到月份的写法（如「2026-09」「2026-09（TGS 展出确认）」），
+     这类一律按「月初」处理，使其排在同年月内具体日期条目之后——即信息更精确的靠前。 */
+  const dateKey = (d) => {
+    const m = String(d == null ? "" : d).match(/(\d{4})-(\d{2})(?:-(\d{2}))?/);
+    return m ? (+m[1]) * 10000 + (+m[2]) * 100 + (+m[3] || 0) : 0;
+  };
+
   /* ---------- 平台类别判定 ---------- */
   function platformClassOf(g) {
     if (g.platformClass) return g.platformClass;
@@ -83,7 +91,7 @@
   }
 
   /* ---------- 状态 ---------- */
-  let state = { tab: "mobile", q: "", platform: "", sort: "hype", view: "grid" };
+  let state = { tab: "mobile", q: "", platform: "", sort: "fresh", view: "grid" };
 
   /* ============================================================
      顶栏 / KPI / 综述
@@ -246,12 +254,20 @@
       list = list.filter(g => normPlatforms(g).includes(state.platform));
     }
 
+    /* 最新抓取 = 先比本条目最后一次被抓取的日期（观测台侧时间），
+       同一次抓取收录的条目之间再比作品情报日（发表 / 更新日，作品侧时间）。
+       两者都取倒序，「最新的排最前」。 */
+    const byFresh = (a, b) =>
+      (dateKey(b.capturedAt) - dateKey(a.capturedAt)) ||
+      (dateKey(b.announceDate) - dateKey(a.announceDate));
+
     const cmp = {
+      fresh:   byFresh,
       hype:    (a, b) => b.hype.score - a.hype.score,
-      date:    (a, b) => String(b.announceDate).localeCompare(String(a.announceDate)),
+      date:    (a, b) => dateKey(b.announceDate) - dateKey(a.announceDate),
       company: (a, b) => a.company.localeCompare(b.company, "ja"),
       status:  (a, b) => statRank(a) - statRank(b)
-    }[state.sort] || ((a, b) => b.hype.score - a.hype.score);
+    }[state.sort] || byFresh;
     return [...list].sort(cmp);
   }
 
@@ -631,6 +647,7 @@
           <div class="d-cell"><div class="k">平台</div><div class="v">${g.platforms.map(esc).join(" / ")}</div></div>
           <div class="d-cell"><div class="k">发售</div><div class="v">${esc(g.release)}</div></div>
           <div class="d-cell"><div class="k">发表 / 更新日</div><div class="v">${esc(g.announceDate)}</div></div>
+          <div class="d-cell"><div class="k">资料抓取日</div><div class="v">${esc(g.capturedAt || "—")}</div></div>
           <div class="d-cell"><div class="k">全球舆论期待度</div><div class="v" style="color:${hypeColor(g.hype.score)};font-family:var(--mono);font-weight:600">${g.hype.score} / 100</div></div>
         </div>
       </div>
@@ -726,7 +743,7 @@
     const sel = document.getElementById("sortSelect");
     const stOpt = [...sel.options].find(o => o.value === "status");
     if (stOpt) stOpt.hidden = !isMob;
-    if (!isMob && state.sort === "status") { state.sort = "hype"; sel.value = "hype"; }
+    if (!isMob && state.sort === "status") { state.sort = "fresh"; sel.value = "fresh"; }
 
     // 平台筛选与视图切换对主机・PC 才有区分度
     document.getElementById("platformFilter").style.display = isConsole ? "" : "none";
