@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本ゲーム観測台 / Japan Game Observatory</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="scanline"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark">観</div>
+      <div class="brand-text">
+        <h1>日本ゲーム観測台</h1>
+        <p>Japan Game Observatory — 日本游戏厂商新作发布监测</p>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item">
+        <span class="meta-label">观测窗口</span>
+        <span class="meta-value" id="metaWindow">—</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">最后更新</span>
+        <span class="meta-value accent" id="metaUpdated">—</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">本期收录</span>
+        <span class="meta-value" id="metaCount">—</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- KPI -->
+  <section class="kpi-row" id="kpiRow"></section>
+
+  <!-- 本期综述 -->
+  <section class="digest-panel" id="digestPanel"></section>
+
+  <!-- Tabs -->
+  <nav class="tabs" id="tabs">
+    <button class="tab is-key active" data-tab="mobile">手游新作<span class="tab-count" id="cntMobile"></span></button>
+    <button class="tab" data-tab="console">主机・PC<span class="tab-count" id="cntConsole"></span></button>
+    <button class="tab" data-tab="companies">厂商覆盖<span class="tab-count" id="cntCompanies"></span></button>
+    <button class="tab" data-tab="wanted">期待榜</button>
+    <button class="tab" data-tab="tgs">TGS2026 前瞻</button>
+  </nav>
+
+  <!-- 工具栏 -->
+  <div class="toolbar" id="toolbar">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input type="text" id="searchInput" placeholder="搜索公司 / 作品名 / 类型…">
+    </div>
+    <div class="filters" id="filters">
+      <select id="platformFilter"><option value="">全部平台</option></select>
+      <select id="sortSelect">
+        <option value="hype">期待度排序</option>
+        <option value="date">发表时间排序</option>
+        <option value="company">公司排序</option>
+        <option value="status">配信状态排序</option>
+      </select>
+    </div>
+    <div class="view-toggle">
+      <button class="vt active" data-view="grid" title="卡片视图">▦</button>
+      <button class="vt" data-view="list" title="紧凑视图">☰</button>
+    </div>
+  </div>
+
+  <!-- 主内容：手游（重点区） -->
+  <div id="panelMobile" hidden>
+    <div class="mobile-kpi" id="mobileKpi"></div>
+    <div class="mob-grid" id="mobGrid"></div>
+    <div class="empty" id="mobEmpty" hidden>没有符合条件的条目</div>
+  </div>
+
+  <!-- 主内容：主机・PC（次要区） -->
+  <div id="panelConsole" hidden>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="emptyState" hidden>没有符合条件的条目</div>
+  </div>
+
+  <div id="panelCompanies" hidden></div>
+  <div id="panelWanted" hidden></div>
+  <div id="panelTgs" hidden></div>
+
+  <!-- 数据源 -->
+  <section class="sources" id="sourcesPanel"></section>
+
+</main>
+
+<footer class="site-footer">
+  <p><strong>数据口径</strong>　期待度为公开信号定性综合评估（日本侧读者期待榜 / 全球媒体覆盖广度 / 社媒与预告片声量），非平台真实流量数据，仅供趋势参考。</p>
+  <p>所有新闻均标注原始出处与链接；未取得官方确认的信息已在条目内标注。本观测台由每日自动巡检任务维护。</p>
+</footer>
+
+<!-- 详情抽屉 -->
+<div class="drawer-mask" id="drawerMask" hidden></div>
+<aside class="drawer" id="drawer" hidden></aside>
+
+<script src="data/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

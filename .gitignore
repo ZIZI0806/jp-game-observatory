@@ -1,0 +1,14 @@
+# 数据文件的本地备份（每次改动前生成，不进仓库）
+data/*.bak-*
+*.bak
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 临时文件
+*.tmp
+*.log
