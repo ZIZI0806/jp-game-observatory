@@ -40,6 +40,219 @@ window.OBSERVATORY = {
    * ------------------------------------------------------- */
   games: [
 
+    /* ---------- 2026-09-15 粒度修正：TGS2026 出展名单拆分 ----------
+     * 起因：NHN PlayArt 的 TGS2026 出展 3 款新作原先被合并写成 1 条条目，
+     *       导致「1 作品 = 1 条目」失守，且 mobile 块内混着两款作品的数据。
+     * 处置：删除合并条目，按作品各建 1 条；展会本身的信息移入 tgs.booths。
+     * 同时补收此前完全漏收的 EXE ARENA（小厂新作、不在厂商册内）。 */
+
+    {
+      id: "touken-ranbu-pazugiri",
+      company: "EXNOA（DMM GAMES）／ NHN PlayArt",
+      companyJp: "合同会社EXNOA（DMM GAMES）／ NHNプレイアート株式会社",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-09（事前登録40万人突破・50万人特典を追加）",
+      capturedAt: "2026-09-15",
+      title: { jp: "刀剣乱舞 ぱずぎり", cn: "刀剑乱舞 ぱずぎり", en: "Touken Ranbu Pazu-giri" },
+      genre: "拼图 RPG（パズル RPG）",
+      platforms: ["iOS", "Android", "PC（DMM GAMES PLAYER）"],
+      release: "2026年内",
+      releasePrecision: "年",
+      summary: "《刀剑乱舞 ONLINE》首款拼图派生作。世界观、剧本与角色设计由 Nitroplus 监修，拼图部分的开发由 NHN PlayArt 负责，合同会社 EXNOA 开发运营。核心玩法是把盘面上同色的「刀垣」连成一线发动连续斩击，刀剑男士以 Q 版形象登场，可编组能力各异的刀剑男士出战；每日游玩会被记录进「活动日志」，保留战斗记录与角色成长轨迹。2026-07-12 开放事前登录，9 月中旬事前登录人数已突破 40 万，官方随即加开 50 万档奖励（含稀有刀剑男士「三日月宗近（战斗服）」）。TGS2026 在 DMM GAMES 出展区域提供试玩，9/20 15:40 于主舞台举办特别舞台活动。",
+      highlight: "《刀剑乱舞》IP 首次进入拼图品类，事前登录一个多月破 40 万，是本期女性向市场最大的单一新品。",
+      mobile: {
+        status: "事前登録受付中（2026年内 配信予定）",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金あり）",
+        preReg: {
+          open: true,
+          since: "2026-07-12",
+          reward: "累計登録者数に応じて段階配布。10万人：事前登録限定召喚券×10／宝玉×100、20万人：同×20／宝玉×200、30万人：同×30／宝玉×300／刀剣男士必中召喚券×1。40万人を突破したことで50万人档を追加し、達成時は事前登録専用召喚券×50／宝玉×500／必中刀剣男士召喚券×1／希少刀剣男士「三日月宗近（戦闘服）」×1を配布"
+        },
+        developer: "NHNプレイアート株式会社（パズル部分の開発）／ 合同会社EXNOA（開発運営）",
+        publisher: "合同会社EXNOA（DMM GAMES）",
+        region: "日本（日本語のみ）",
+        distribution: "App Store / Google Play／PC（DMM GAMES PLAYER 版）",
+        ipSource: "『刀剣乱舞 ONLINE』（2015年1月14日サービス開始。DMM GAMES × Nitroplus 開発、合同会社EXNOA 運営）。本作は同 IP を題材に、パズル部分の開発を NHN PlayArt が担当する",
+        series: "『刀剣乱舞』は刀剣男士を育成するシミュレーションゲームとして2015年に始まり、アニメ・舞台・ミュージカルへ展開する長期 IP。2025年に10周年、2026年1月14日に11周年を迎え、その記念生配信で本作が発表された。シリーズとしてパズルジャンルに進出するのは初",
+        features: [
+          "盤面上の同色の敵「刀垣」をなぞって連続斬撃を発動するパズル RPG",
+          "刀剣男士はミニキャラ（Q 版）で登場し、それぞれ固有の能力と密技・新形態を持つ",
+          "必殺奥義で敵をまとめて一掃でき、軽度プレイヤーでも扱いやすい操作を志向",
+          "刀剣男士を編成して部隊を組み、歴史を改変から守るストーリーを進める",
+          "日々のプレイが「活動日誌」に記録され、戦闘記録・刀剣男士の成長・交流の瞬間が残る",
+          "TGS2026 は DMM GAMES の出展エリアで試遊を用意。9月20日 15:40 から主舞台で特別ステージを開催"
+        ],
+        synopsis: "歴史を書き換えようとする者たちに対し、審神者が刀剣男士を率いて立ち向かう。これまでの育成シミュレーションとは異なり、同色の「刀垣」を連結させて「すぱすぱ」と斬り倒すパズルバトルが中心で、刀剣男士ごとに異なる能力を組み合わせて部隊を編成する。",
+        cast: "三日月宗近 役：鳥海浩輔、陸奥守吉行 役：濱健人、二条貞宗 役：田所陽向（TGS2026 特別ステージ出演者の発表より）"
+      },
+      console: {
+        status: "2026年内 配信予定（PC 版は DMM GAMES PLAYER 版／事前登録受付中）",
+        os: ["PC（DMM GAMES PLAYER 版）"],
+        monetization: "基本無料（アイテム課金あり）。パッケージ販売はなし",
+        developer: "NHNプレイアート株式会社（パズル部分の開発）／ 合同会社EXNOA（開発運営）",
+        publisher: "合同会社EXNOA（DMM GAMES）",
+        region: "日本（日本語のみ）",
+        distribution: "ダウンロード（DMM GAMES PLAYER）",
+        stores: ["DMM GAMES"],
+        features: [
+          "スマホ版と同一内容を PC（DMM GAMES PLAYER 版）で遊べる構成",
+          "盤面上の同色の「刀垣」を連結させて連続斬撃を発動するパズル RPG",
+          "刀剣男士を編成して部隊を組み、歴史を改変から守るストーリーを進める",
+          "毎日のプレイが「活動日誌」に記録される",
+          "9月20日 15:40 から TGS2026 主舞台で特別ステージを開催"
+        ],
+        synopsis: "『刀剣乱舞 ONLINE』の刀剣男士がミニキャラで登場するパズル RPG。同色の「刀垣」をなぞって連続斬撃を放ち、歴史を改変しようとする敵に立ち向かう。PC では DMM GAMES PLAYER 版として配信される予定。",
+        ipSource: "『刀剣乱舞 ONLINE』（合同会社EXNOA／Nitroplus）",
+        series: "シリーズ初のパズルジャンル進出。開発は NHN PlayArt、世界観・脚本・キャラクターデザインは Nitroplus が担当",
+        cast: "三日月宗近 役：鳥海浩輔、陸奥守吉行 役：濱健人、二条貞宗 役：田所陽向"
+      },
+      news: [
+        { source: "QooApp（事前登録開始・システム紹介）", url: "https://news.qoo-app.com/post/440436" },
+        { source: "Holiday Travel（TGS2026 出展・40万人突破と50万人档）", url: "https://www.haveagood-holiday.com/zh-TW/articles/touken-ranbu-pazugiri-tokyo-game-show-2026-booth" },
+        { source: "Ludens Media（事前登録と多平台展開）", url: "https://www.ludens.com.tw/touken-ranbu-pazzugiri-pre-registration" }
+      ],
+      videos: [
+        { label: "官方 PV（Q 版刀剑男士与消除战斗实机）", platform: "官方 YouTube", url: "https://www.youtube.com/@touken_puzzle" },
+        { label: "官方站（刀剣乱舞 ぱずぎり）", platform: "官方站", url: "https://touken-puzzle.com" }
+      ],
+      hype: {
+        score: 64,
+        signals: [
+          "事前登録が一個月余りで40万人を突破、50万人档まで追加",
+          "『刀剣乱舞』は10周年を越えた長期 IP で女性向け市場の基盤が厚い",
+          "TGS2026 の主舞台に特別ステージを用意（出演声優3名＋プロデューサー）",
+          "配信時期は「2026年内」で、日付はまだ未公表"
+        ]
+      },
+      tags: ["新作", "手游", "跨平台", "パズルRPG", "刀剣乱舞", "TGS2026"]
+    },
+
+    {
+      id: "over-rush",
+      company: "NHN PlayArt",
+      companyJp: "NHNプレイアート株式会社",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-09-02（TGS2026 出展発表で初公開）",
+      capturedAt: "2026-09-15",
+      title: { jp: "OVER RUSH", cn: "OVER RUSH", en: "OVER RUSH" },
+      genre: "高速卡牌对战 RPG（カードバトル RPG）",
+      platforms: ["iOS", "Android"],
+      release: "2026年冬（予定）",
+      releasePrecision: "季",
+      summary: "NHN PlayArt 的完全新作卡牌战斗 RPG，在 2026-09-02 的 TGS2026 出展发表中首次公开。官方定位为「高速カードバトル RPG」，玩法特征是玩家与新登场的 AI 机器人协力作战。「高速」指向卡牌效果与发动时机的紧凑对决。本作与《刀剑乱舞 ぱずぎり》《幻想世界的软绵绵波呦》同为该社时隔 8 年重返 TGS 时公开的 3 款新作，TGS2026 在 2 号馆 NHN PlayArt 展台提供试玩。",
+      highlight: "NHN PlayArt 在拼图品类之外开辟的卡牌战线，是 TGS2026 该社三款新作里唯一没有 IP 背书的原创作品。",
+      mobile: {
+        status: "配信予定（2026年冬／TGS2026 で初公開）",
+        os: ["iOS", "Android"],
+        monetization: "未公表（基本無料＋アイテム課金型と見られる）",
+        preReg: {
+          open: false,
+          reward: "2026-09 時点で事前登録の開始は未発表。TGS2026 の NHN PlayArt ブース（第2ホール）で試遊を出展予定"
+        },
+        developer: "NHNプレイアート株式会社",
+        publisher: "NHNプレイアート株式会社",
+        region: "日本",
+        distribution: "App Store / Google Play（予定。詳細は続報待ち）",
+        ipSource: "NHN PlayArt の完全新規オリジナル IP",
+        series: "NHN PlayArt は『#コンパス』（累計2,000万DL）『妖怪ウォッチ ぷにぷに』（国内3,600万DL）『DISSIDIA DUELLUM FINAL FANTASY』を運営。本作は同社が8年ぶりに TGS へ復帰するタイミングで初公開された新作3本のうちの1本",
+        features: [
+          "カードの効果と発動タイミングを読み合う高速なカードバトル RPG",
+          "新たな AI ロボットと協力して戦うことが本作の特徴とされる",
+          "TGS2026 の NHN PlayArt ブース（第2ホール）で試遊を出展",
+          "同社の新作3本（刀剣乱舞 ぱずぎり／幻想世界のぷちぽよん／OVER RUSH）の1本として同時初公開された"
+        ],
+        synopsis: "カードの効果と発動のタイミングを読み合う高速カードバトル RPG。プレイヤーは新たな AI ロボットと協力して戦う。2026-09-02 の TGS2026 出展発表で初公開され、ゲーム内容の詳細は会場と続報で順次公開される見込み。",
+        cast: "未発表"
+      },
+      news: [
+        { source: "Inven Global（TGS2026 出展・三款新作首次公开）", url: "https://www.invenglobal.com/articles/25465/nhn-playart-to-exhibit-at-tgs-for-first-time-in-8-years-unveiling-7-titles" },
+        { source: "Third News（OVER RUSH＝高速卡牌对战 RPG／与新型 AI 机器人协力）", url: "https://third-news.com/article/b628cf02-a5ca-11f1-812f-9ca3ba08e13f" },
+        { source: "Chosun Biz（NHN PlayArt TGS2026 三款新作发表）", url: "https://biz.chosun.com/en/en-it/2026/09/02/P2P5LCCVNRGAZATCJGRTWHKYD4/" }
+      ],
+      videos: [
+        { label: "TGS2026 出展阵容报道（三款新作首次公开）", platform: "媒体", url: "https://en.edaily.co.kr/news/eda202609025197" },
+        { label: "NHN PlayArt 官方站（TGS2026 特设页）", platform: "官方站", url: "https://www.nhn-playart.com/" }
+      ],
+      hype: {
+        score: 50,
+        signals: [
+          "NHN PlayArt 在拼图品类有成熟用户盘，但卡牌对战是该公司的新战线",
+          "TGS2026 三款新作同时首发，展台曝光集中",
+          "公式の配信日・事前登録はいずれも未発表で、情報量はまだ薄い"
+        ]
+      },
+      tags: ["新作", "手游", "カードバトル", "NHN", "TGS2026"],
+      caution: "配信時期「今冬」は外部トラッキング情報。NHN PlayArt の公式発表時点では本作の配信日は未公表で、TGS2026（9/17-21）での続報待ち"
+    },
+
+    {
+      id: "exe-arena",
+      company: "BOUNTYKINDS SOLUTIONS",
+      companyJp: "BOUNTYKINDS SOLUTIONS INC.（日本語表記は未確認）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-09（TGS2026 出展詳細・10月リリース告知）",
+      capturedAt: "2026-09-15",
+      title: { jp: "EXE ARENA", cn: "EXE ARENA", en: "EXE ARENA" },
+      genre: "策略卡牌 × 实时动作（リアルタイムカードアクション）",
+      platforms: ["iOS", "Android"],
+      release: "2026-10",
+      releasePrecision: "月",
+      summary: "BOUNTYKINDS SOLUTIONS 开发发行的实时卡牌动作手游，把卡组构筑的策略性与实时操作融合——卡牌的摆放位置与发动时机直接左右战局。世界观与角色设计由曾参与《FINAL FANTASY VII》《FINAL FANTASY VIII》《クロノ・トリガー》的 Nakatani Yukio 监修，制作人为松林悠太（前 Good 8 Squad 社长，电竞业务出身）。部分卡牌以区块链形式记录、可作为玩家自有的数字资产交易，并计划导入观战投注功能。2026 年 10 月正式上线，事前登录进行中；TGS2025（09-W09）与 TGS2026（11 号馆 11-E08）两届连续出展并提供试玩。",
+      highlight: "Web3 × 卡牌 × 实时动作的混合体；TGS 两届连续出展、10 月即上线，是 TGS2026 手游展区里最贴近上线窗口的新作之一。",
+      mobile: {
+        status: "事前登録受付中（2026年10月 正式リリース予定）",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金あり）",
+        preReg: {
+          open: true,
+          since: "2026年（iOS / Android で事前登録キャンペーン実施中）",
+          reward: "登録者数に応じて段階配布。10,000人：ARK 150（ガチャ1回分）／50,000人：プラチナ以上確定チケット（全員）／100,000人：ARK 1,050（ガチャ7回分）。参加チャネルは X・LINE・メールアドレス・アプリストア予約の4系統で、カウントは全チャネル合算。報酬はサービス開始後に1人1回受け取り"
+        },
+        developer: "BOUNTYKINDS SOLUTIONS INC.",
+        publisher: "BOUNTYKINDS SOLUTIONS INC.",
+        region: "日本（日本語。海外展開は未発表）",
+        distribution: "App Store / Google Play",
+        ipSource: "オリジナル。世界観・キャラクターデザイン監修に『FINAL FANTASY VII』『VIII』『クロノ・トリガー』参加のアーティスト（Nakatani Yukio）を起用",
+        series: "BOUNTYKINDS SOLUTIONS は 2022 年設立。同名のブロックチェーンゲーム『Bountykinds』を運営しており、本作は同社の新規 IP にあたる。TGS は 2025・2026 と2年連続で出展",
+        features: [
+          "カードゲームの戦略性にリアルタイムアクションを融合した「リアルタイムカードアクション」。カードの配置と発動タイミングが勝敗を左右する",
+          "自分でデッキを組んで戦略を立てる構築要素",
+          "毎日プレイしてデッキを強化するサイクル。勝利でガチャチケットを獲得し、新カード入手とデッキ強化を繰り返す成長ループ",
+          "一部のカードはブロックチェーン上に記録され、プレイヤーが所有するデジタル資産になる。マーケットプレイス取引や外部サービス連携を予定",
+          "正式リリース後にトーナメントを開催予定（上位入賞者に限定報酬）",
+          "観戦者が特定プレイヤーにベットできる観戦ベッティング機能を計画",
+          "TGS2026 は 11 号館スマートフォンゲームコーナー 11-E08 に出展し試遊台を設置。来場者にオリジナルスクイーズ、試遊者にメッシュエコバッグと特製ステッカーを配布（数量限定）"
+        ],
+        synopsis: "カードの効果と発動タイミングを読み合うリアルタイムのカードバトル。プレイヤーは自分だけのデッキを組み、相手の出方を伺いながらリアルタイムで操作して戦う。一部のカードはブロックチェーン上に記録され、プレイヤーが保有・取引できる資産として設計されている。",
+        cast: "世界観・キャラクターデザイン監修：Nakatani Yukio（『FINAL FANTASY VII』『FINAL FANTASY VIII』『クロノ・トリガー』に参加）。プロデューサー：松林悠太"
+      },
+      news: [
+        { source: "Yomimono（ASCII.jp ほか6媒体集約：TGS2026 出展・10月リリース）", url: "https://www.yomimono.id/exe-arena-gets-trial-play-booth-at-tokyo-game-show-2026" },
+        { source: "Yomimono（事前登録キャンペーン開始と報酬段階）", url: "http://yomimono.id/exe-arena-pre-registration-campaign-begins-on-ios-and-android" },
+        { source: "GAME NEWS TOKYO（TGS2025 出展・2026年リリース発表と監修者）", url: "https://game-news.asia/article/840886" },
+        { source: "Saiga NAK（TGS2025 ブース発表・5つの次世代ゲーム特徴）", url: "https://saiganak.com/event/tgs2025-exearena-booth-announcement/amp" }
+      ],
+      videos: [
+        { label: "TGS2026 出展・試遊台の告知（配布物含む）", platform: "媒体", url: "https://www.yomimono.id/exe-arena-gets-trial-play-booth-at-tokyo-game-show-2026" },
+        { label: "TGS2025 ブース出展と製品概要", platform: "媒体", url: "https://saiganak.com/event/tgs2025-exearena-booth-announcement/amp" }
+      ],
+      hype: {
+        score: 46,
+        signals: [
+          "TGS2025・TGS2026 と2年連続で出展し、試遊台を常設",
+          "10月の正式リリースが告知済みで、上线窗口が最も近い新作のひとつ",
+          "Web3（カードの資産化）を前面に出した設計で、国内スマホ市場での受け止めは未知数",
+          "開発元は 2022 年設立の小規模スタジオで、既存 IP を持たない"
+        ]
+      },
+      tags: ["新作", "手游", "カードゲーム", "Web3", "TGS2026"],
+      caution: "開発元 BOUNTYKINDS SOLUTIONS INC. の所在地・資本関係は公式ページで確認できず（日本語 PR リリースと TGS スマートフォンゲームコーナー出展から日本法人として扱う）。監修者の日本語表記は未確認のため英語表記のまま記録"
+    },
+
     /* ---------- 观测窗口扩展补收：2026-07-15 ~ 2026-08-31 ----------
      * 注意：本数组的书写顺序仅供人工维护阅读，**不是页面展示顺序**。
      * 页面卡片顺序由前端 assets/app.js 的排序器决定（默认「最新抓取」）。
@@ -1385,55 +1598,6 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["已上线", "手游", "IP改编", "RTS", "全球发行"]
-    },
-
-    {
-      id: "nhn-playart-tgs-2026",
-      company: "NHN PlayArt",
-      companyJp: "NHNプレイアート株式会社",
-      bucket: "new",
-      platformClass: "mobile",
-      announceDate: "2026-08-02（TGS 出展発表）",
-      capturedAt: "2026-09-15",
-      title: { jp: "刀剣乱舞 Puzzigiri / Petit Poyon / OVER RUSH", cn: "刀剑乱舞 Puzzigiri / Petit Poyon / OVER RUSH", en: "Touken Ranbu Puzzigiri / Petit Poyon / OVER RUSH" },
-      genre: "解谜 RPG / 休闲解谜 / 卡牌战斗 RPG",
-      platforms: ["iOS", "Android"],
-      release: "2026年内（刀剣乱舞ぱずぎり）／未定（他2作）",
-      releasePrecision: "年",
-      summary: "NHN PlayArt 时隔 8 年重返东京电玩展，将在 2 号馆展出共 7 款作品，其中 3 款为全新作：解谜 RPG《刀剣乱舞 Puzzigiri》、休闲解谜《Petit Poyon》、卡牌战斗 RPG《OVER RUSH》。其余展出品包括《DISSIDIA DUELLUM FINAL FANTASY》以及累计下载 3600 万的《妖怪手表 噗尼噗尼》、突破 2000 万下载的《#COMPASS》。",
-      highlight: "三款新作均为手机向，是本期日本手游新作密度最高的一家发行商。",
-      mobile: {
-        status: "TGS2026 初公開（配信日未定）",
-        os: ["iOS", "Android"],
-        monetization: "基本無料（アイテム課金あり）",
-        preReg: { open: true, since: "2026-07", reward: "事前登録者数30万人で「事前登録限定召喚券×30／宝玉×300／必中刀剣男士召喚券×1」を配布。公式X ではフォロー＆リポストキャンペーン（〜2026年7月22日）を実施。『刀剣乱舞 ONLINE』側でも7月22日から事前登録記念の連動イベントを開催。" },
-        developer: "NHN PlayArt",
-        publisher: "NHN PlayArt",
-        region: "日本",
-        distribution: "App Store / Google Play（配信日・詳細は続報待ち）",
-        payment: [],
-        ipSource: "『刀剣乱舞 ONLINE』（2015年1月14日サービス開始。DMM GAMES × Nitroplus 開発、合同会社 EXNOA／DMM GAMES 運営）。本作は同 IP を題材に、パズル部分の開発を NHN PlayArt が担当する。",
-        series: "『刀剣乱舞』は刀剣男士を育成するシミュレーションゲームとして2015年に始まり、アニメ・音楽劇・舞台・ミュージカルへ展開する長期 IP。2025年に10周年、2026年1月14日に11周年を迎え、その記念生配信で『刀剣乱舞ぱずぎり』が発表された。配信は iOS／Android に加え PC（DMM GAMES PLAYER 版）も予定されている。",
-        features: ["刀剣乱舞 Puzzigiri：パズルRPG", "Petit Poyon：カジュアルパズル", "OVER RUSH：カードバトルRPG", "TGS2026 2号館に出展、3タイトル同時初公開", "会場で限定グッズ配布・スタンプラリー実施"],
-        synopsis: "8年ぶりのTGS復帰にあたり、韓国・日本のゲーム事業シナジーを注いだ新作3種を含む計7タイトルを出展。",
-        cast: "ゲーム独自のキャスト発表は未確認。",
-      },
-      news: [
-        { source: "GameMeca（TGS 出展阵容）", url: "https://meca-test.gamemeca.com/en/view.php?gid=1779967" }
-      ],
-      videos: [
-        { label: "TGS2026 出展阵容报道（三款新作首次公开）", platform: "媒体", url: "https://meca-test.gamemeca.com/en/view.php?gid=1779967" },
-        { label: "NHN PlayArt 官方站", platform: "官方站", url: "https://www.nhn-playart.com/" }
-      ],
-      hype: {
-        score: 56,
-        signals: [
-          "《刀剣乱舞》IP 在日女性向市场基础稳固",
-          "三款新作同时首发，TGS 现场曝光集中",
-          "均无配信日，信息量待 TGS 期间补足"
-        ]
-      },
-      tags: ["新作", "手游", "TGS2026", "多作品"]
     },
 
     {
@@ -3188,7 +3352,7 @@ window.OBSERVATORY = {
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
         { name: "株式会社KMS（K3 Studio）", short: "KMS", status: "covered", gameIds: ["alchemist-portmasters"] },
         { name: "株式会社Rudel", short: "Rudel", status: "covered", gameIds: ["sakamoto-days-rogue-dawn"] },
-        { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["nhn-playart-tgs-2026", "puchipoyon-fantasy-world"], note: "LEVEL-5 との共同タイトル『幻想世界のぷちぽよん』（今冬配信予定）も担当。TGS2026 は8年ぶり出展" },
+        { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["touken-ranbu-pazugiri", "over-rush", "puchipoyon-fantasy-world"], note: "TGS2026 に8年ぶり出展し新作3本を同時公開。『幻想世界のぷちぽよん』は LEVEL-5 との共同タイトル、『刀剣乱舞 ぱずぎり』はパズル部分の開発を担当" },
         { name: "TOHO Games（東宝株式会社）", short: "TOHO Games", status: "covered", gameIds: ["haikyu-all-challengers"], focus: true, note: "动画『ハイキュー!!』のIP保有元が自らゲーム事業ブランドを運営。IP ホルダー直営のため監修業務と直結" },
         { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
         { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["hololive-dreams"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発" },
@@ -3198,7 +3362,8 @@ window.OBSERVATORY = {
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
         { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
-        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』を発表" }
+        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』を発表" },
+        { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" }
       ]
     }
   },
@@ -3243,7 +3408,9 @@ window.OBSERVATORY = {
       { company: "HYPER REAL", hall: "02-C14", items: "6 款作品试玩，含日本首发《NAME OF THE WILL》《Helcast》" },
       { company: "Game Freak", hall: "—", items: "《雨のちハレ女》重点展示" },
       { company: "Netmarble", hall: "—", items: "Shangri-La Frontier: The Seven Colossi 首次公开试玩、我独自升级 KARMA、Pearl in Blue" },
-      { company: "Famitsu × 電撃ゲームス", hall: "FamitsuTUBE（YouTube）", items: "9/19-20 18:00 起特别直播，Capcom / INTI CREATES / ATLUS / SEGA 等轮番登场" }
+      { company: "Famitsu × 電撃ゲームス", hall: "FamitsuTUBE（YouTube）", items: "9/19-20 18:00 起特别直播，Capcom / INTI CREATES / ATLUS / SEGA 等轮番登场" },
+      { company: "NHN PlayArt", hall: "2 号馆", items: "时隔 8 年重返 TGS，展出 7 款作品，其中 3 款新作首次公开（刀剣乱舞 ぱずぎり / OVER RUSH / 幻想世界のぷちぽよん）。另展出 DISSIDIA DUELLUM FINAL FANTASY、妖怪ウォッチ ぷにぷに、#コンパス、LINE: Disney Tsum Tsum。每日先到先得发放限定肩包，完成各展台任务集章可换限定卡组" },
+      { company: "DMM GAMES", hall: "—", items: "刀剣乱舞 ぱずぎり 提供试玩与赠品活动；9/20 15:40 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），并同步线上直播" }
     ]
   },
 
@@ -3251,7 +3418,7 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "LEVEL-5 发布会一次铺开 10 个标题：新增 8 条条目，手游区增至 18 条",
+    headline: "LEVEL-5 发布会铺开 10 个标题、TGS2026 出展名单完成拆分：条目总数 61，手游区 20 条",
     points: [
       "**LEVEL-5 于 9/10 举办「LEVEL5 VISION 2026 II 夢」线上发布会**，一次公布 10 个标题的最新情报，本台据此新增 8 条条目（主机/PC 6 条＋手游 2 条），是本期单一厂商动作最大的一轮",
       "手游侧补上 LEVEL-5 系两条：**《闪电十一人 交锋》**（LEVEL-5 发行 × Aiming 开发运营，6/9 开服、13 天破 100 万下载）与**《幻想世界的软绵绵波呦》**（LEVEL-5 × NHN PlayArt，继《妖怪手表 噗尼噗尼》后再度合作，今冬上线）。厂商监测名单里 Aiming 由「待观察」转为「已覆盖」",
@@ -3265,7 +3432,9 @@ window.OBSERVATORY = {
       "KONAMI 一次性公布《Rhapsody in Scarlet》《PROJECT ZIRCON》两款完全新作，是本期动作最大的厂商。",
       "任天堂侧通过 9/8 塞尔达专场 + 9/9 Direct 的组合，铺开 Switch 2 的 2026 冬~2027 春档期。",
       "Square Enix 把 FF7 Revelation 定档 2027-04-08 并投入 TGS 双试玩，是本期信息量最重的单条。",
-      "「现实数据联动」成为新作机制的新风向：《雨のちハレ女》接入实时天气，《B.L.U.E. NOVA》把玩家邂逅概率变成火力。"
+      "「现实数据联动」成为新作机制的新风向：《雨のちハレ女》接入实时天气，《B.L.U.E. NOVA》把玩家邂逅概率变成火力。",
+      "**收录粒度修正（9/15）**：此前 NHN PlayArt 的 TGS2026 出展 3 款新作被合并写成 1 条条目，导致「1 作品 = 1 条目」失守、且手游数据块内混着两款作品的情报。本轮删除该合并条目，按作品拆为 **《刀剣乱舞 ぱずぎり》**（EXNOA × NHN PlayArt，事前登录 9 月破 40 万，2026 年内上线、含 PC 版）、**《OVER RUSH》**（NHN PlayArt 自研卡牌对战，今冬预定）两条新条目；同时补收此前完全漏收的 **《EXE ARENA》**（BOUNTYKINDS SOLUTIONS，10 月上线、TGS 两届连续出展）。剔除重复收录的《幻想世界のぷちぽよん》（原合并条目里的 Petit Poyon 即本作，已另有条目）",
+      "本轮同步把「出展名单逐款建卡」写进维护契约：展会/发布会公布的作品清单是漏收与重复收录的主要来源，清单本身不进条目，只进 `tgs` 段落。"
     ]
   }
 };
