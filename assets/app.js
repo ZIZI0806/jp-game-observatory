@@ -197,6 +197,11 @@
     };
   }
 
+  /* 卡片右上角的「存为 JPG」按钮。
+     放在卡片顶部而不是底部——卡片很高，放底部会滚到看不见。 */
+  const jpgBtn = (g) =>
+    `<button class="jpg-btn" data-jpg="${esc(g.id)}" title="把这张卡片另存为 JPG 图片">存为 JPG</button>`;
+
   /* 卡片底部动作条：手游区与主机・PC 区共用同一个函数，
      两个区的卡片才会真正「同款」而不是看起来像。 */
   function cardFootHTML(g) {
@@ -204,7 +209,7 @@
       `<a class="link-btn ${linkClass(v.platform)}" href="${esc(v.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(v.platform)}</a>`).join("");
     const nw = (g.news || [])[0];
     const nws = nw ? `<a class="link-btn news" href="${esc(nw.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">新闻原文</a>` : "";
-    return `${vids}${nws}<span class="foot-spacer"></span><button class="more-btn">详情 +</button><button class="jpg-btn" data-jpg="${esc(g.id)}" title="把这张卡片另存为 JPG 图片">存为 JPG</button>`;
+    return `${vids}${nws}<span class="foot-spacer"></span><button class="more-btn">详情 +</button>`;
   }
 
   function consoleCardHTML(g) {
@@ -261,8 +266,11 @@
       <div class="mob-main">
         <div class="mob-head">
           <div class="company"><span class="company-dot"></span>${esc(g.company)}</div>
-          ${isCross(g) ? `<span class="cross-tag">跨平台</span>` : ""}
-          <span class="bucket-tag ${isNew ? "new" : ""}">${isNew ? "新作发表" : "定档/进展"} · ${esc(fmtDate(g.announceDate))}</span>
+          <div class="mob-head-r">
+            ${isCross(g) ? `<span class="cross-tag">跨平台</span>` : ""}
+            <span class="bucket-tag ${isNew ? "new" : ""}">${isNew ? "新作发表" : "定档/进展"} · ${esc(fmtDate(g.announceDate))}</span>
+            ${jpgBtn(g)}
+          </div>
         </div>
         <h3 class="mob-title">${esc(g.title.cn)}</h3>
         <div class="mob-title-sub">
@@ -423,8 +431,11 @@
       <div class="mob-main">
         <div class="mob-head">
           <div class="company"><span class="company-dot"></span>${esc(g.company)}</div>
-          ${isCross(g) ? `<span class="cross-tag">跨平台</span>` : ""}
-          <span class="mob-date">${esc(fmtDate(g.announceDate))} 发表</span>
+          <div class="mob-head-r">
+            ${isCross(g) ? `<span class="cross-tag">跨平台</span>` : ""}
+            <span class="mob-date">${esc(fmtDate(g.announceDate))} 发表</span>
+            ${jpgBtn(g)}
+          </div>
         </div>
         <h3 class="mob-title">${esc(g.title.cn)}</h3>
         <div class="mob-title-sub">
@@ -815,7 +826,7 @@
       <h2>${esc(g.title.cn)}</h2>
       <div class="d-en">${esc(g.title.jp)}${g.title.en && g.title.en !== g.title.jp ? " ／ " + esc(g.title.en) : ""}</div>
 
-      <div class="d-actions"><button class="jpg-btn" id="drawerJpg" title="把这份详情另存为 JPG 图片">存为 JPG</button></div>
+      <div class="d-actions"><button class="jpg-btn" id="drawerJpg" title="把这份详情另存为 JPG 图片">存为 JPG（整页详情）</button></div>
 
       <div class="d-section">
         <h4>基本信息</h4>

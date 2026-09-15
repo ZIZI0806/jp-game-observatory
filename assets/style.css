@@ -353,7 +353,11 @@ body{
 .mob-rail{width:4px;flex:none;background:linear-gradient(180deg,var(--co,var(--accent-3)),transparent)}
 .mob-main{flex:1;min-width:0;padding:17px 19px 0}
 
-.mob-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.mob-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;row-gap:7px}
+/* 卡片头部右侧的一簇：跨平台徽章 / 日期或定档标记 / 存为 JPG */
+.mob-head-r{display:flex;align-items:center;gap:8px;flex:none;margin-left:auto}
+.mob-head-r .cross-tag{margin:0}
+.mob-head-r .mob-date,.mob-head-r .bucket-tag{white-space:nowrap}
 .mob-date{font-family:var(--mono);font-size:10.5px;color:var(--text-faint);white-space:nowrap}
 
 /* 跨平台徽章（手游区纳入 multi 作品时标注） */
@@ -632,7 +636,8 @@ body{
   padding:5px 10px;border-radius:7px;cursor:pointer;white-space:nowrap;
   transition:.16s;
 }
-.jpg-btn:hover{border-color:rgba(255,171,92,.45);color:var(--warm);background:#1b2431}
+.jpg-btn:hover{border-color:rgba(255,171,92,.5);color:var(--warm);background:#1b2431}
+.mob-head .jpg-btn{font-size:10.5px;padding:3px 9px;border-radius:6px}
 .jpg-btn:disabled{opacity:.55;cursor:default}
 .d-actions{display:flex;justify-content:flex-end;margin-top:13px}
 
