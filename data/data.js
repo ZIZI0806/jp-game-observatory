@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-15T15:20:00+08:00",
+    updatedAt: "2026-09-15T16:20:00+08:00",
     edition: "2026-09-15",
     window: "2026-07-15 ~ 2026-09-15（滚动最近 2 个月）",
     sources: [
@@ -44,6 +44,316 @@ window.OBSERVATORY = {
      * 注意：本数组的书写顺序仅供人工维护阅读，**不是页面展示顺序**。
      * 页面卡片顺序由前端 assets/app.js 的排序器决定（默认「最新抓取」）。
      * 每次巡检把新条目补在本数组头部，便于 diff 与人工核对。 */
+
+    /* ---------- LEVEL-5「LEVEL5 VISION 2026 II 夢」（2026-09-10 发表） ---------- */
+
+    {
+      id: "layton-curious-village-remake",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "レイトン教授と不思議な町 Remake", cn: "雷顿教授与不可思议的小镇 重制版", en: "Professor Layton and the Curious Village Remake" },
+      genre: "解谜冒险（重制）",
+      platforms: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+      release: "2027年",
+      releasePrecision: "年",
+      summary: "「LEVEL5 VISION 2026 II 夢」压轴公开的系列原点重制。2007 年 Nintendo DS 版《雷顿教授与不可思议的小镇》以 3D 角色模型重建，动画过场做高解析度与宽屏化重制，原本依赖双屏与触控笔的解谜流程改为单屏点选操作。故事不变：雷顿教授与助手路克受已故大富翁雷恩霍德男爵的遗产分配之谜所托，前往奇异小镇 St. Mystere 寻找隐藏的家宝「黄金果实」。初代配音阵容原样保留（雷顿：大泉洋／路克：堀北真希）。这是系列主线首次登陆 PlayStation 硬件。",
+      highlight: "系列原点首次离开 DS：2027 年登陆 Switch / Switch 2 / PS5 / Steam，是系列主线第一次上 PlayStation。",
+      news: [
+        { source: "Anime News Network（重制发表与系列沿革）", url: "https://www.animenewsnetwork.com/news/2026-09-10/professor-layton-and-the-curious-village-game-gets-remake/.241627" },
+        { source: "Saiga NAK（发表内容与配音阵容）", url: "https://saiganak.com/zh/news/level5-professor-layton-fushigi-remake-announcement/" }
+      ],
+      videos: [
+        { label: "Vision 2026 II 公开前导 PV 报道", platform: "媒体", url: "https://www.animenewsnetwork.com/news/2026-09-10/professor-layton-and-the-curious-village-game-gets-remake/.241627" },
+        { label: "官方站（レイトン教授と不思議な町 Remake）", platform: "官方站", url: "https://www.layton.jp/fushigi-remake/" },
+        { label: "官方 X @L5_layton", platform: "X", url: "https://x.com/L5_layton" }
+      ],
+      hype: {
+        score: 72,
+        signals: [
+          "系列原点重制，且是系列主线首次登陆 PlayStation，海外多语种媒体覆盖广",
+          "初代声优阵容（大泉洋／堀北真希）原样保留，情怀信号强",
+          "发行窗口仅标注 2027 年、无月份；谜题是否扩充、触控解谜如何改为手柄操作均未公开"
+        ]
+      },
+      tags: ["新作", "重制", "解谜", "IP回归", "多平台"],
+      caution: "中文对应：中文媒体汇总提到本作「将支持中文」，官方日文口径未见明确记载，待后续确认。"
+    },
+
+    {
+      id: "yokai-watch-2-hadou",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "妖怪ウォッチ2 覇道", cn: "妖怪手表2 霸道", en: "YO-KAI WATCH 2: Haunted Domain" },
+      genre: "RPG（クロスメディア企画）",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+      release: "未定（発売時期未発表）",
+      releasePrecision: "未定",
+      summary: "《妖怪手表2》系列首款完全重制。以 2014 年 Nintendo 3DS 版三个版本（元祖／本家／真打）为基础、以内容最完整的《真打》为开发基准，把三版本整合进一部作品——所有妖怪都能在单一游戏内成为伙伴，不再需要版本间交换或重复购买。画面全面翻新，并追加原版没有的新剧情与新妖怪。9/9 Nintendo Direct 首次预告（当时只公布 Switch 2），9/10「LEVEL5 VISION 2026 II 夢」补上 PS5 与 Steam。官方站已开设，后续情报由官方站与系列官方 X 发布。",
+      highlight: "把「元祖／本家／真打」三版本合而为一并追加新剧情与新妖怪，是该系列首款完全重制，也是系列首次登陆 PS5 / Steam。",
+      news: [
+        { source: "Inven Global（Vision 2026 II 重制详情）", url: "https://www.invenglobal.com/articles/25802/professor-layton-and-the-curious-village-remake-revealed-at-level-5-vision-showcase" },
+        { source: "Quest Board.JP（发表内容与官方渠道）", url: "https://quest-board.jp/en/quests/buzz-2-nintendoswitch2-20260910" }
+      ],
+      videos: [
+        { label: "Vision 2026 II 公开预告片报道（含新画面）", platform: "媒体", url: "https://saiganak.com/news/level5-yw2-hadou-announcement/amp" },
+        { label: "官方站（妖怪ウォッチ2 覇道）", platform: "官方站", url: "https://www.youkai-watch.jp/yw2-hadou" },
+        { label: "官方 X @game_yokai", platform: "X", url: "https://x.com/game_yokai" }
+      ],
+      hype: {
+        score: 71,
+        signals: [
+          "《妖怪手表2》是系列销量最高的一作，重制消息在 Nintendo Direct 与 Vision 两场连续曝光",
+          "三版本合一 + 新增妖怪，直接解决老玩家的收集与换版痛点；海外关注点集中在「首次登陆 PS5 / Steam」",
+          "发售时期未定、无实机战斗画面，玩法改动幅度仍是未知数"
+        ]
+      },
+      tags: ["新作", "重制", "RPG", "IP回归", "多平台"]
+    },
+
+    {
+      id: "inazuma-eleven-bold-revolution",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "イナズマイレブン 烈火の革命", cn: "闪电十一人 烈火的革命", en: "Inazuma Eleven: Bold Revolution" },
+      genre: "足球 RPG（正统续作）",
+      platforms: ["未発表"],
+      release: "未定（対応機種・発売時期ともに未発表）",
+      releasePrecision: "未定",
+      summary: "《闪电十一人 英雄们的胜利之路》的正统续作，发表时仅公开标题与 LOGO，并首次亮相新主角「降星凪（ふるほし なぎ）」。日野晃博说明降星凪与笹波云明一样拥有非寻常的身世，两人将在故事中正面交汇；前作主角笹波云明亦确认继续登场，形成双主角结构。对应平台、发售时期与标题含义均保留到下一次「LEVEL5 VISION」公开。",
+      highlight: "前作《胜利之路》年内销量突破 80 万套后立刻公布正统续作，但只给了标题与新主角——情报刻意留白。",
+      news: [
+        { source: "RPG Site（发表内容与主角设定）", url: "https://www.rpgsite.net/news/21344-inazuma-eleven-bold-revolution-revealed-as-sequel-to-victory-road" },
+        { source: "Ludens Media（新角色降星凪报道）", url: "https://www.ludens.com.tw/inazuma-eleven-victory-road-fire-revolution" }
+      ],
+      videos: [
+        { label: "发表影片报道（标题与新主角登场）", platform: "媒体", url: "https://www.rpgsite.net/news/21344-inazuma-eleven-bold-revolution-revealed-as-sequel-to-victory-road" },
+        { label: "官方站（イナズマイレブン 英雄たちのヴィクトリーロード）", platform: "官方站", url: "https://www.inazuma.jp/victory-road/" }
+      ],
+      hype: {
+        score: 66,
+        signals: [
+          "系列最新作的直接续作，官方 X 公布后当日即成为日本社媒话题",
+          "前作《勝利之路》2026 年内销量突破 80 万套，IP 处于回升期",
+          "发表仅标题与主角，无实机画面、无平台、无档期，信息量偏薄"
+        ]
+      },
+      tags: ["新作", "发表", "RPG", "足球", "IP续作"]
+    },
+
+    {
+      id: "holy-horror-mansion",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "ホーリーホラーマンション", cn: "幽幽灵公寓", en: "HOLY HORROR MANSION" },
+      genre: "幽灵创造 RPG（クロスメディア企画）",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+      release: "2027年",
+      releasePrecision: "年",
+      summary: "以「家庭」为主题、继承《妖怪手表》精神内核的幽灵创造 RPG，本次首次公开 2027 年发售窗口与全平台。玩家用幽灵相机「Cameron」拍摄灵魂强烈的物体，把物件变成可成为伙伴的「物怪（Mononoke）」；把遮阳伞、树篱等物件「游乐场化」成蹦床；甚至把拍摄对象整个变成可探索的迷宫（演示中出现了钻进蛋糕内部探索的段落）。入夜后城镇氛围转为诡异并出现 Boss 战，战斗背景音乐为舞曲。剧情围绕主角与伙伴物怪对抗邪恶企业 De Ville Corp。LEVEL-5 称本作是其史上最大规模的跨媒体企划，玩具与周边线将在日后专门的跨媒体发表会上公开。TGS2026 提供试玩。",
+      highlight: "LEVEL-5 自认「史上最大跨媒体企划」，2027 年登陆 Switch 2 / PS5 / Steam，TGS2026 首次提供试玩。",
+      news: [
+        { source: "Gematsu（2027 窗口与玩法说明）", url: "https://www.gematsu.com/2026/09/holy-horror-mansion-launches-in-2027-for-ps5-switch-2-and-pc" },
+        { source: "Anime News Network（幽灵动作取材自真实表演者）", url: "https://www.animenewsnetwork.com/news/2026-09-10/level-5-holy-horror-mansion-game-trailer-reveals-2027-release-for-switch-2-ps5-pc/.241630" }
+      ],
+      videos: [
+        { label: "Vision 2026 II 公开预告与实机演示报道", platform: "媒体", url: "https://finalweapon.net/2026/09/10/holy-horror-mansion-releases-in-2027-for-pc-ps5-and-switch-2/" },
+        { label: "官方站（ホーリーホラーマンション）", platform: "官方站", url: "https://www.holy-horror.jp/" }
+      ],
+      hype: {
+        score: 74,
+        signals: [
+          "「什么东西都能互动」的实机演示在海外多语种媒体获得较高评价",
+          "被定位为 LEVEL-5 史上最大跨媒体企划，玩具・周边线规模尚未公开",
+          "三个幽灵的动作原型分别取自 WARPs UP 的 SANTA、ピコ太郎、avantgardey，话题性强"
+        ]
+      },
+      tags: ["定档", "RPG", "IP新企划", "跨媒体", "TGS2026"]
+    },
+
+    {
+      id: "decapolice",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "デカポリス", cn: "DECAPOLICE", en: "DECAPOLICE" },
+      genre: "犯罪悬疑 RPG",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+      release: "2027年",
+      releasePrecision: "年",
+      summary: "2023 年首次发表、此后长期沉寂的犯罪悬疑 RPG。本次公开新 PV，同时把档期从 2026 年推迟到 2027 年——这是第四次延期。玩法在现实与虚拟空间之间往返：在虚拟空间重现的犯罪现场搜集证据、取得相关人员证言，再把情报连接起来推断犯人。特色是把「搜查 → 推理 → 逮捕 → 战斗」串成一个不中断的流程，而不是查到犯人就结束。主线本身埋有贯穿全作的大谜团，另有独立于主线的案件委托（案件任务的谜题设计由 SCRAP 负责）。TGS2026 提供试玩。",
+      highlight: "第四次延期，正式落入 2027 年；作为补偿，TGS2026 首次提供现场试玩。",
+      news: [
+        { source: "Inven Global（玩法说明与 2027 档期）", url: "https://www.invenglobal.com/articles/25802/professor-layton-and-the-curious-village-remake-revealed-at-level-5-vision-showcase" },
+        { source: "Android Hire（历次延期的沿革）", url: "https://www.androidhire.com/level-5-vision-2026-announcements" }
+      ],
+      videos: [
+        { label: "Vision 2026 II 公开新 PV 报道", platform: "媒体", url: "https://simulationdaily.com/news/professor-layton-curious-village-remake-level-5/" },
+        { label: "官方站（デカポリス）", platform: "官方站", url: "https://www.decapolice.jp/" }
+      ],
+      hype: {
+        score: 68,
+        signals: [
+          "长期延宕反而积累了关注度，海外媒体以「终于有新情报」为报道角度",
+          "SCRAP 参与案件任务设计，推理品类的差异化点清晰",
+          "四次延期削弱信任，且「2027 年」仍无月份"
+        ]
+      },
+      tags: ["定档", "RPG", "悬疑", "延期", "TGS2026"]
+    },
+
+    {
+      id: "snack-world-reloaded",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "スナックワールド RELOADED", cn: "点心大冒险 Reloaded", en: "Snack World: Reloaded" },
+      genre: "动作 RPG（重制）",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+      release: "2027年",
+      releasePrecision: "年",
+      summary: "《点心大冒险》系列重制新作，以 2017 年 Nintendo 3DS《スナックワールド トレジャラーズ》的加强版《トレジャラーズ ゴールド》为基础重新制作。日野晃博强调本作不只是提高画质，而是对游戏性、操作手感与故事内容都做大幅调整，规模「几乎可称为新作」：战斗动作与演出手感重做、打宝循环强化、画面重绘成宛如精致立体模型的质感。并追加原版没有的新模式，可操作动画版主角「恰普（チャップ）」从另一个视角体验故事。TGS2026 提供试玩。",
+      highlight: "官方定位是「几乎可称为新作」的重制，新增可操作动画主角恰普的模式，2027 年登陆 Switch 2 / PS5 / Steam。",
+      news: [
+        { source: "Gematsu（2027 档期与日野晃博发言）", url: "https://www.gematsu.com/2026/09/snack-world-reloaded-launches-in-2027" },
+        { source: "巴哈姆特（重制基础与新模式的说明）", url: "https://m.gamer.com.tw/forum/C.php?bsn=31587&snA=36147" }
+      ],
+      videos: [
+        { label: "Vision 2026 II 公开新预告报道（战斗演出）", platform: "媒体", url: "https://finalweapon.net/2026/09/10/snack-world-reloaded-launches-in-2027-playable-at-tgs-2026" },
+        { label: "官方站（スナックワールド RELOADED）", platform: "官方站", url: "https://www.snack-world.jp/reloaded/" }
+      ],
+      hype: {
+        score: 61,
+        signals: [
+          "原作是 2017 年 3DS 作品并有 50 集电视动画，IP 认知度集中在日本国内",
+          "官方以「几乎可称为新作」定位重制，老玩家期待值被抬升",
+          "海外媒体反应平淡，主要作为 TGS 阵容的一部分被报道"
+        ]
+      },
+      tags: ["定档", "动作RPG", "重制", "TGS2026"]
+    },
+
+    {
+      id: "puchipoyon-fantasy-world",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ（開発・配信：株式会社NHN PlayArt）",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "幻想世界のぷちぽよん", cn: "幻想世界的软绵绵波呦", en: "Pufflings: Journey Through a Fantasy World" },
+      genre: "休闲拼图（スマートフォン）",
+      platforms: ["iOS", "Android"],
+      release: "2026年冬（予定）",
+      releasePrecision: "季",
+      summary: "LEVEL-5 与 NHN PlayArt 共同推出的手游，是继《妖怪手表 噗尼噗尼》（国内累计 3,600 万下载）之后两家再度合作。玩法为合体进化型拼图：把场上相同的「ぷちぽよん」连起来合体，逐步进化并组成连锁拿高分；把「クリスタルルーン」一次性破坏可积攒技能槽，用来冲击更高分数；按得分回收「ぷよオーブ」推进关卡。本次「LEVEL5 VISION 2026 II 夢」首次公开游戏片头动画与新情报，预定今年冬季上线，并计划以短篇动画与周边商品同步扩展 IP。TGS2026 在 NHN PlayArt 展台（第 2 馆）提供试玩。",
+      highlight: "LEVEL-5 × NHN PlayArt 继《妖怪手表 噗尼噗尼》后的第二款合作手游，今冬上线，走「合体进化」拼图路线。",
+      news: [
+        { source: "Inven Global（玩法机制与新情报）", url: "https://www.invenglobal.com/articles/25802/professor-layton-and-the-curious-village-remake-revealed-at-level-5-vision-showcase" },
+        { source: "Chosun Biz（NHN PlayArt TGS2026 三款新作发表）", url: "https://biz.chosun.com/en/en-it/2026/09/02/P2P5LCCVNRGAZATCJGRTWHKYD4/" }
+      ],
+      videos: [
+        { label: "Vision 2026 II 公开片头动画与游玩影像报道", platform: "媒体", url: "https://simulationdaily.com/news/professor-layton-curious-village-remake-level-5/" },
+        { label: "官方站（幻想世界のぷちぽよん）", platform: "官方站", url: "https://puchipoyon.com/" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "NHN PlayArt 的《妖怪手表 噗尼噗尼》国内 3,600 万下载，同门拼图品类有现成用户基础",
+          "LEVEL-5 首个从自家 IP 之外延伸的新拼图品牌，计划动画＋周边同步展开",
+          "TGS2026 提供试玩，但事前登录尚未开始，配信日只到「今冬」"
+        ]
+      },
+      tags: ["手游", "拼图", "新作", "NHN", "TGS2026"],
+      mobile: {
+        status: "配信予定（2026年冬）",
+        os: ["iOS", "Android"],
+        monetization: "未公表（アイテム課金型と見られる）",
+        preReg: { open: false, reward: "2026年9月10日の発表時点で事前登録は未開始。TGS2026 の NHN PlayArt ブース（第2ホール）で試遊を出展予定" },
+        developer: "株式会社NHN PlayArt（企画・制作：株式会社レベルファイブ）",
+        publisher: "株式会社レベルファイブ / 株式会社NHN PlayArt",
+        region: "日本",
+        distribution: "App Store / Google Play（予定）",
+        payment: [],
+        ipSource: "LEVEL-5 の完全新規オリジナル IP。『妖怪ウォッチ ぷにぷに』以来となる LEVEL-5 × NHN PlayArt の共同タイトル",
+        series: "両社は『妖怪ウォッチ ぷにぷに』（国内累計3,600万DL）で共同展開の実績。本作はゲームに加え、短編アニメ・関連グッズでの IP 展開を予定",
+        features: ["同じ「ぷちぽよん」同士を合体させて少しずつ進化させるパズル", "画面上のぷちぽよんを連結して連鎖を組み、高得点を狙う", "「クリスタルルーン」をまとめて破壊するとスキルゲージが上昇", "獲得スコアに応じて「ぷよオーブ」を回収しステージを進める", "TGS2026 の NHN PlayArt ブース（第2ホール）で試遊出展"],
+        synopsis: "同じ姿の「ぷちぽよん」同士を合体させることで一歩ずつ進化させ、画面上で連鎖をつないで高得点を目指すカジュアルパズル。クリスタルルーンを一気に壊してスキルを発動させ、貯めたぷよオーブでステージを進めていく。",
+        cast: "公式にキャストの発表はなし"
+      }
+    },
+
+    {
+      id: "inazuma-eleven-cross",
+      company: "LEVEL-5",
+      companyJp: "株式会社レベルファイブ（開発・運営：株式会社Aiming）",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-09-10",
+      capturedAt: "2026-09-15",
+      title: { jp: "イナズマイレブン クロス", cn: "闪电十一人 交锋", en: "Inazuma Eleven: Cross" },
+      genre: "养成模拟（スマートフォン）",
+      platforms: ["iOS", "Android"],
+      release: "2026-06-09（サービス開始済み）",
+      releasePrecision: "日",
+      summary: "《闪电十一人》系列首款智能手机向养成模拟游戏，由 LEVEL-5 发行、Aiming 开发与运营。玩家以监督身份育成选手、编成专属球队，战术判断直接决定比赛走向；比赛可完全自动进行，不擅长动作操作或只想利用碎片时间的玩家也能推进。2026 年 1 月 13 日公布配信决定，4 月 10 日开放事前登录并突破 20 万人，6 月 9 日正式开服，6 月 22 日突破 100 万下载。系列历代角色（円堂守、豪炎寺修也、松风天马、剑城京介、神童拓人、雾野兰丸、Fey、黄名子等）陆续以转蛋与活动形式登场。本次「LEVEL5 VISION 2026 II 夢」公开新内容宣传片，TGS2026 播放新游玩影像。",
+      highlight: "系列首款手游，开服 13 天即突破 100 万下载；本次发布会公开新内容宣传片。",
+      news: [
+        { source: "Aiming 官方新闻稿一览（开服・100万DL・活动沿革）", url: "https://aiming-inc.com/ja/news/game-news/?tag=inazuma-cross" },
+        { source: "Notebookcheck（TGS2026 阵容含本作新影像）", url: "https://www.notebookcheck.net/Level-5-reveals-nine-title-Tokyo-Game-Show-2026-lineup.1397681.0.html" }
+      ],
+      videos: [
+        { label: "Vision 2026 II 公开新内容宣传片报道", platform: "媒体", url: "https://www.notebookcheck.net/Level-5-reveals-nine-title-Tokyo-Game-Show-2026-lineup.1397681.0.html" },
+        { label: "官方站（イナズマイレブン クロス）", platform: "官方站", url: "https://www.inazuma-cross.jp/" },
+        { label: "官方 X @inazuma_cross", platform: "X", url: "https://x.com/inazuma_cross" }
+      ],
+      hype: {
+        score: 63,
+        signals: [
+          "开服 13 天突破 100 万 DL，第三方应用监测显示其在日本 Google Play 模拟类畅销榜曾进入前 20 位",
+          "系列历代角色持续以转蛋形式回流，靠 IP 粉丝盘驱动",
+          "游戏本体开服已过 3 个月，本次属内容更新而非新作发表"
+        ]
+      },
+      tags: ["手游", "养成模拟", "IP改编", "已上线", "TGS2026"],
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金制）",
+        preReg: { open: false, since: "2026-04-10", reward: "累計事前登録者数 20万人を突破（2026年5月21日時点）。2026年6月9日のサービス開始に伴い受付終了" },
+        developer: "株式会社Aiming",
+        publisher: "株式会社レベルファイブ",
+        region: "日本",
+        distribution: "App Store / Google Play（日本区）",
+        payment: [],
+        ipSource: "LEVEL-5 のオリジナル IP『イナズマイレブン』シリーズ（2008年発のゲーム／アニメ）",
+        series: "シリーズ初のスマートフォン向け育成シミュレーション。2026年1月13日に配信決定を発表、6月9日サービス開始、6月22日に100万DL突破",
+        features: ["選手を育成し、オリジナルチームを編成する育成シミュレーション", "監督として戦術を組み、試合の行方を左右する", "試合は完全自動進行にも対応（操作が苦手な層・すき間時間向け）", "シリーズ歴代キャラクターがガチャ・イベントで順次登場", "シーズン制でメインストーリーとイベントを追加"],
+        synopsis: "プレイヤーは監督となり、選手を育成して自分だけのチームを作り上げる。戦術の組み方で試合結果が変わる戦略性と、完全自動進行による手軽さを両立させた育成シミュレーション。",
+        cast: "シリーズ歴代キャラクターが登場：円堂守／豪炎寺修也（帝国学園）／松風天馬・剣城京介（イナズマイレブンGO）／神童拓人・霧野蘭丸／フェイ・黄名子 ほか。個別のCVは公式リリースに記載なし"
+      }
+    },
 
     {
       id: "digimon-up",
@@ -1799,29 +2109,32 @@ window.OBSERVATORY = {
       companyJp: "株式会社レベルファイブ",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-09",
+      announceDate: "2026-09-10",
       capturedAt: "2026-09-15",
       title: { jp: "レイトン教授と蒸気の新世界", cn: "雷顿教授与蒸汽新世界", en: "Professor Layton and the New World of Steam" },
       genre: "解谜冒险",
-      platforms: ["Nintendo Switch", "Nintendo Switch 2"],
+      platforms: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
       release: "2026-12-10",
       releasePrecision: "日",
-      summary: "LEVEL-5 招牌解谜系列回归作。舞台为靠蒸汽文明急速成长的虚构美国城市 Steam Bison，雷顿教授与助手路克联手破解城中离奇谜团。系列标志性的情感化美术与解谜节奏回归。",
-      highlight: "长期延宕后终于定档，对系列老玩家属「兑现承诺」型发布。",
+      summary: "LEVEL-5 招牌解谜系列回归作。舞台为靠蒸汽文明急速成长的虚构美国城市 Steam Bison，雷顿教授与助手路克联手破解城中离奇谜团。系列标志性的情感化美术与解谜节奏回归。「LEVEL5 VISION 2026 II 夢」补充了新预告与主题曲制作花絮：主题曲《The New World》由久石让作曲、Lilas 演唱，谜题设计交由专营媒体谜题与解谜题的 QuizKnock 负责，除 Switch 外的版本支持鼠标操作。TGS2026 提供可试玩 Demo（支持英文），雷顿与路克分别由大泉洋、今田美桜配音。",
+      highlight: "长期延宕后终于定档 12/10，并确认追加 PS5 与 Steam 版；主题曲由久石让作曲，谜题交由 QuizKnock 负责。",
       news: [
         { source: "GameMeca（Nintendo Direct 汇总）", url: "https://www.gamemeca.com/en/view.php?gid=1780300" },
-        { source: "Legal United States", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" }
+        { source: "Legal United States", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" },
+        { source: "Anime News Network（Vision 2026 II 新预告・主题曲・配音阵容）", url: "https://www.animenewsnetwork.com/news/2026-09-10/professor-layton-and-the-curious-village-game-gets-remake/.241627" }
       ],
       videos: [
         { label: "Nintendo Direct 汇总（含游戏画面）", platform: "媒体", url: "https://www.gamemeca.com/en/view.php?gid=1780300" },
-        { label: "Nintendo Direct 汇总（发售日确认）", platform: "媒体", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" }
+        { label: "Nintendo Direct 汇总（发售日确认）", platform: "媒体", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" },
+        { label: "官方站（レイトン教授と蒸気の新世界）", platform: "官方站", url: "https://www.layton.jp/jouki/" }
       ],
       hype: {
         score: 67,
         signals: [
           "Famitsu 期待榜 NS2 版 133 票 / NSW 版 64 票",
           "12/10 定档，年末商战窗口",
-          "解谜品类受众稳定但增长有限"
+          "解谜品类受众稳定但增长有限",
+          "Vision 2026 II 补上主题曲（久石让）与 TGS 试玩，9/10 追加 PS5 / Steam 版信息"
         ]
       },
       tags: ["定档", "解谜", "IP回归"]
@@ -2115,7 +2428,7 @@ window.OBSERVATORY = {
         items: [
           { name: "株式会社アトラス", short: "ATLUS", status: "covered", gameIds: ["persona-6", "persona-4-revival"] },
           { name: "株式会社フロム・ソフトウェア", short: "FromSoftware", status: "covered", gameIds: ["the-duskbloods"] },
-          { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam"] },
+          { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam", "layton-curious-village-remake", "yokai-watch-2-hadou", "inazuma-eleven-bold-revolution", "holy-horror-mansion", "decapolice", "snack-world-reloaded", "puchipoyon-fantasy-world", "inazuma-eleven-cross"], note: "9/10「LEVEL5 VISION 2026 II 夢」一次公布 10 个标题，本台为其建卡 8 件（主机/PC 6＋手游 2）" },
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "watch" },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）" },
@@ -2151,7 +2464,7 @@ window.OBSERVATORY = {
           { name: "株式会社バンク・オブ・イノベーション", short: "Bank of Innovation", status: "watch" },
           { name: "ワンダープラネット株式会社", short: "WonderPlanet", status: "watch" },
           { name: "株式会社アピリッツ", short: "Appirits", status: "watch" },
-          { name: "株式会社Aiming", short: "Aiming", status: "watch" }
+          { name: "株式会社Aiming", short: "Aiming", status: "covered", gameIds: ["inazuma-eleven-cross"], note: "LEVEL-5 との共同タイトル『イナズマイレブン クロス』を開発・運営（6/9 サービス開始、6/22 に100万DL突破）" }
         ]
       },
       {
@@ -2184,7 +2497,7 @@ window.OBSERVATORY = {
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
         { name: "株式会社KMS（K3 Studio）", short: "KMS", status: "covered", gameIds: ["alchemist-portmasters"] },
         { name: "株式会社Rudel", short: "Rudel", status: "covered", gameIds: ["sakamoto-days-rogue-dawn"] },
-        { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["nhn-playart-tgs-2026"] },
+        { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["nhn-playart-tgs-2026", "puchipoyon-fantasy-world"], note: "LEVEL-5 との共同タイトル『幻想世界のぷちぽよん』（今冬配信予定）も担当。TGS2026 は8年ぶり出展" },
         { name: "TOHO Games（東宝株式会社）", short: "TOHO Games", status: "covered", gameIds: ["haikyu-all-challengers"], focus: true, note: "动画『ハイキュー!!』のIP保有元が自らゲーム事業ブランドを運営。IP ホルダー直営のため監修業務と直結" },
         { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
         { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["hololive-dreams"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発" },
@@ -2247,10 +2560,14 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "观测窗口扩至 2 个月（7/15–9/15）：补收 13 款日厂作品，手游区增至 16 条",
+    headline: "LEVEL-5 发布会一次铺开 10 个标题：新增 8 条条目，手游区增至 18 条",
     points: [
-      "观测窗口由原来的半个月扩至**滚动 2 个月（2026-07-15 ~ 2026-09-15）**，条目总数 37 → 50。本轮补收 13 款 7 月中旬至 8 月底的日厂作品：手游/跨平台 7 款（デジモンUP、弱虫ペダル レゾナンス・ペダイズム、hololive Dreams、無職転生 クロエコ、僕のヒーローアカデミア UNITED SURVIVAL、幻想水滸伝 STAR LEAP、シノビNEXUS –閃乱カグラ–），主机/PC 6 款（Beast of Reincarnation、MARVEL Tōkon: Fighting Souls、UN:Me、亰都ザナドゥ -桜花幻舞-、ほの暮しの庭、スプラトゥーン レイダース）",
-      "手游区现收录 16 条（纯手游 11 条＋跨平台 5 条）。补收部分的看点集中在 IP 授权改编与跨平台发行两条线上：デジモンUP（バンダイナムコ）、幻想水滸伝 STAR LEAP（KONAMI）、僕のヒーローアカデミア UNITED SURVIVAL（KLab × gumi）、弱虫ペダル ペダイズム（enish）、シノビNEXUS（HONEY∞PARADE GAMES）全部来自日本 IP ホルダー或日厂自研；hololive Dreams 与 無職転生 クロエコ 则同时覆盖手机与 PC/Steam，属于典型的跨平台投放",
+      "**LEVEL-5 于 9/10 举办「LEVEL5 VISION 2026 II 夢」线上发布会**，一次公布 10 个标题的最新情报，本台据此新增 8 条条目（主机/PC 6 条＋手游 2 条），是本期单一厂商动作最大的一轮",
+      "手游侧补上 LEVEL-5 系两条：**《闪电十一人 交锋》**（LEVEL-5 发行 × Aiming 开发运营，6/9 开服、13 天破 100 万下载）与**《幻想世界的软绵绵波呦》**（LEVEL-5 × NHN PlayArt，继《妖怪手表 噗尼噗尼》后再度合作，今冬上线）。厂商监测名单里 Aiming 由「待观察」转为「已覆盖」",
+      "主机侧「重制 + 延期」并行：**《雷顿教授与不可思议的小镇 重制版》**压轴公开（系列主线首次登陆 PlayStation）、**《妖怪手表2 霸道》**把 3DS 三个版本整合为一部、**《点心大冒险 Reloaded》**与**《幽幽灵公寓》**均落 2027 年；**《DECAPOLICE》**第四次延期，从 2026 年推到 2027 年",
+      "《雷顿教授与蒸汽新世界》定档 12/10（Switch / Switch 2 / PS5 / Steam），主题曲《The New World》由久石让作曲、Lilas 演唱，谜题交由 QuizKnock 负责；定档信息原出自 9/9 Nintendo Direct，Vision 发布会补上新预告与主题曲制作花絮。另：9/12 社长日野晃博就「发布会影像使用生成式 AI」公开说明并致歉，强调剧本、角色设计与基础世界观仍由人类完成",
+      "观测窗口由原来的半个月扩至**滚动 2 个月（2026-07-15 ~ 2026-09-15）**，条目总数 37 → 58。本轮补收 13 款 7 月中旬至 8 月底的日厂作品：手游/跨平台 7 款（デジモンUP、弱虫ペダル レゾナンス・ペダイズム、hololive Dreams、無職転生 クロエコ、僕のヒーローアカデミア UNITED SURVIVAL、幻想水滸伝 STAR LEAP、シノビNEXUS –閃乱カグラ–），主机/PC 6 款（Beast of Reincarnation、MARVEL Tōkon: Fighting Souls、UN:Me、亰都ザナドゥ -桜花幻舞-、ほの暮しの庭、スプラトゥーン レイダース）",
+      "手游区现收录 18 条（纯手游 13 条＋跨平台 5 条）。补收部分的看点集中在 IP 授权改编与跨平台发行两条线上：デジモンUP（バンダイナムコ）、幻想水滸伝 STAR LEAP（KONAMI）、僕のヒーローアカデミア UNITED SURVIVAL（KLab × gumi）、弱虫ペダル ペダイズム（enish）、シノビNEXUS（HONEY∞PARADE GAMES）全部来自日本 IP ホルダー或日厂自研；hololive Dreams 与 無職転生 クロエコ 则同时覆盖手机与 PC/Steam，属于典型的跨平台投放",
       "7〜8 月手游侧的两款爆点是 hololive Dreams（事前登録150万、配信直後に App Store / Google Play 首位）与 無職転生 クロエコ（事前登録50万、開服即 App Store 無料ランキング1位），两者都靠 IP ファン盤驱动，而非新品类突破",
       "手游侧的看点集中在两处：一是 IP 跨媒介改编（SAKAMOTO DAYS、刀剑乱舞、生化危机），二是品类迁移——Aniplex 把《生化危机》从生存恐怖搬到 RTS，属系列手游罕见转向。",
       "新作发表密度为本季最高。GAME FREAK、GungHo、KONAMI、COLOPL、松竹、Cygames Edge、HYPER REAL 各有新作或新企划落地，且多数直接对接 TGS2026。",

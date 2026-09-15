@@ -20,6 +20,7 @@
 
 > 窗口在 2026-09-15 由原来的「半个月」扩至 2 个月。当次已一次性回溯补齐
 > 2026-07-15 ~ 08-31 的缺口（新增 13 条，条目总数 37 → 50），此后不再重复回溯。
+> 9/15 又因 LEVEL-5「LEVEL5 VISION 2026 II 夢」发布会新增 8 条，条目总数 50 → 58。
 
 ## 卡片排序
 
@@ -129,7 +130,7 @@ jp-game-observatory/
 }
 ```
 
-`platformClass` 现在**全部条目均显式标注**（`mobile` 11 / `multi` 5 / `pc` 3 / `console` 31，合计 50）。
+`platformClass` 现在**全部条目均显式标注**（`mobile` 13 / `multi` 5 / `pc` 3 / `console` 37，合计 58）。
 若某条遗漏，`app.js` 的 `platformClassOf` 会从 `platforms` 兜底推断：
 含 iOS / Android / 浏览器且不含主机平台 → `mobile`；两者都有 → `multi`。
 新增条目请**显式写出**该字段，不要依赖推断。
