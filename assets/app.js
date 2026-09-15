@@ -219,7 +219,7 @@
       ["発売状況", s.status],
       ["対応機種", (s.os || []).join(" ／ ")],
       ["販売形態", s.monetization],
-      ["開発 / 発売", [s.developer, s.publisher].filter(Boolean).join(" ／ ")],
+      ["開発 / 発売", [...new Set([s.developer, s.publisher].filter(Boolean))].join(" ／ ")],
       ["発売区域", s.region],
       ["ジャンル", g.genre]
     ].filter(r => r[1]);

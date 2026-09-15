@@ -62,6 +62,27 @@ window.OBSERVATORY = {
       releasePrecision: "年",
       summary: "「LEVEL5 VISION 2026 II 夢」压轴公开的系列原点重制。2007 年 Nintendo DS 版《雷顿教授与不可思议的小镇》以 3D 角色模型重建，动画过场做高解析度与宽屏化重制，原本依赖双屏与触控笔的解谜流程改为单屏点选操作。故事不变：雷顿教授与助手路克受已故大富翁雷恩霍德男爵的遗产分配之谜所托，前往奇异小镇 St. Mystere 寻找隐藏的家宝「黄金果实」。初代配音阵容原样保留（雷顿：大泉洋／路克：堀北真希）。这是系列主线首次登陆 PlayStation 硬件。",
       highlight: "系列原点首次离开 DS：2027 年登陆 Switch / Switch 2 / PS5 / Steam，是系列主线第一次上 PlayStation。",
+      console: {
+        status: "2027年発売予定",
+        os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+        monetization: "未発表",
+        developer: "レベルファイブ",
+        publisher: "レベルファイブ",
+        region: "未発表（日本での発売は確定）",
+        distribution: "未発表",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "2007 年ニンテンドー DS 版『レイトン教授と不思議な町』を 3D キャラクターモデルで全面的に再構築",
+          "アニメーションカットは HD 化・ワイド画面化。二画面＋タッチペン前提だった謎解きを 1 画面のポイント操作に再設計",
+          "初代の声優陣をそのまま起用（レイトン：大泉洋／ルーク：堀北真希）",
+          "シリーズ本編としては初の PlayStation ハード展開"
+        ],
+        synopsis: "亡くなった大富豪レインホルド男爵の遺産分配の謎を解くため、レイトン教授と助手ルークが不思議な町セント・ミスティを訪れ、隠された家宝「黄金の果実」を探す。物語は初代から変更なし。",
+        cast: "レイトン教授：大泉洋 ／ ルーク：堀北真希",
+        ipSource: "『レイトン教授』シリーズ第 1 作（2007 年／ニンテンドー DS）のリメイク",
+        series: "シリーズ累計は 2,000 万本超。本作はシリーズ本編初の PlayStation 展開"
+      },
+
       news: [
         { source: "Anime News Network（重制发表与系列沿革）", url: "https://www.animenewsnetwork.com/news/2026-09-10/professor-layton-and-the-curious-village-game-gets-remake/.241627" },
         { source: "Saiga NAK（发表内容与配音阵容）", url: "https://saiganak.com/zh/news/level5-professor-layton-fushigi-remake-announcement/" }
@@ -98,6 +119,28 @@ window.OBSERVATORY = {
       releasePrecision: "未定",
       summary: "《妖怪手表2》系列首款完全重制。以 2014 年 Nintendo 3DS 版三个版本（元祖／本家／真打）为基础、以内容最完整的《真打》为开发基准，把三版本整合进一部作品——所有妖怪都能在单一游戏内成为伙伴，不再需要版本间交换或重复购买。画面全面翻新，并追加原版没有的新剧情与新妖怪。9/9 Nintendo Direct 首次预告（当时只公布 Switch 2），9/10「LEVEL5 VISION 2026 II 夢」补上 PS5 与 Steam。官方站已开设，后续情报由官方站与系列官方 X 发布。",
       highlight: "把「元祖／本家／真打」三版本合而为一并追加新剧情与新妖怪，是该系列首款完全重制，也是系列首次登陆 PS5 / Steam。",
+      console: {
+        status: "発売時期未発表（正式な発売時期は公式から告知されていない）",
+        os: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+        monetization: "未発表",
+        developer: "レベルファイブ",
+        publisher: "レベルファイブ",
+        region: "全世界向け発売を予定（初出は Nintendo Direct の Nintendo Switch 2）",
+        distribution: "未発表",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "2014 年ニンテンドー 3DS 版『妖怪ウォッチ2 元祖／本家／真打』の完全リメイク。開発は最も内容の厚い『真打』を基準にする",
+          "3 バージョンを 1 本に統合し、バージョン間の交換や複数購入をせずに全ての妖怪を仲間にできる",
+          "グラフィックを全面的に刷新（3DS のスプライトからフル 3D のキャラクターモデルと環境へ）",
+          "オリジナルにはなかった追加ストーリーと新妖怪を制作中",
+          "戦闘はメダル召喚システムを踏襲しつつ、演出とロード時間を改善"
+        ],
+        synopsis: "主人公ケータがウィスパー、ジバニャンとともに、妖怪が引き起こす怪事件に巻き込まれながら日常を過ごす。拡張版『真打』の物語を軸に、追加エピソードと新妖怪が加わる。",
+        cast: "未発表",
+        ipSource: "『妖怪ウォッチ』シリーズ／『妖怪ウォッチ2』（2014 年／ニンテンドー 3DS）",
+        series: "『妖怪ウォッチ2』はシリーズで最も売れた一作。本作はシリーズ初の PS5／Steam 展開"
+      },
+
       news: [
         { source: "Inven Global（Vision 2026 II 重制详情）", url: "https://www.invenglobal.com/articles/25802/professor-layton-and-the-curious-village-remake-revealed-at-level-5-vision-showcase" },
         { source: "Quest Board.JP（发表内容与官方渠道）", url: "https://quest-board.jp/en/quests/buzz-2-nintendoswitch2-20260910" }
@@ -133,6 +176,26 @@ window.OBSERVATORY = {
       releasePrecision: "未定",
       summary: "《闪电十一人 英雄们的胜利之路》的正统续作，发表时仅公开标题与 LOGO，并首次亮相新主角「降星凪（ふるほし なぎ）」。日野晃博说明降星凪与笹波云明一样拥有非寻常的身世，两人将在故事中正面交汇；前作主角笹波云明亦确认继续登场，形成双主角结构。对应平台、发售时期与标题含义均保留到下一次「LEVEL5 VISION」公开。",
       highlight: "前作《胜利之路》年内销量突破 80 万套后立刻公布正统续作，但只给了标题与新主角——情报刻意留白。",
+      console: {
+        status: "対応機種・発売時期ともに未発表",
+        monetization: "未発表",
+        developer: "レベルファイブ",
+        publisher: "レベルファイブ",
+        region: "未発表",
+        distribution: "未発表",
+        features: [
+          "『イナズマイレブン 英雄たちのヴィクトリーロード』の正統続編",
+          "発表時点で公開されたのはタイトルとロゴのみで、実機映像・対応機種・発売時期は非公開",
+          "新主人公「降星ナギ（ふるほし なぎ）」が初登場",
+          "日野晃博は、降星ナギが笹波雲明と同様に尋常でない出自を持ち、物語で正面から交わると説明",
+          "前作主人公の笹波雲明も引き続き登場し、ダブル主人公構成になる見込み"
+        ],
+        synopsis: "新主人公の降星ナギと前作主人公の笹波雲明の二人を軸に展開するサッカー RPG。タイトルの意味や舞台は次回の『LEVEL5 VISION』まで伏せられている。",
+        cast: "未発表",
+        ipSource: "『イナズマイレブン』シリーズ",
+        series: "前作『英雄たちのヴィクトリーロード』は 2026 年内に累計 80 万本を突破し、IP は回復基調にある"
+      },
+
       news: [
         { source: "RPG Site（发表内容与主角设定）", url: "https://www.rpgsite.net/news/21344-inazuma-eleven-bold-revolution-revealed-as-sequel-to-victory-road" },
         { source: "Ludens Media（新角色降星凪报道）", url: "https://www.ludens.com.tw/inazuma-eleven-victory-road-fire-revolution" }
@@ -167,6 +230,30 @@ window.OBSERVATORY = {
       releasePrecision: "年",
       summary: "以「家庭」为主题、继承《妖怪手表》精神内核的幽灵创造 RPG，本次首次公开 2027 年发售窗口与全平台。玩家用幽灵相机「Cameron」拍摄灵魂强烈的物体，把物件变成可成为伙伴的「物怪（Mononoke）」；把遮阳伞、树篱等物件「游乐场化」成蹦床；甚至把拍摄对象整个变成可探索的迷宫（演示中出现了钻进蛋糕内部探索的段落）。入夜后城镇氛围转为诡异并出现 Boss 战，战斗背景音乐为舞曲。剧情围绕主角与伙伴物怪对抗邪恶企业 De Ville Corp。LEVEL-5 称本作是其史上最大规模的跨媒体企划，玩具与周边线将在日后专门的跨媒体发表会上公开。TGS2026 提供试玩。",
       highlight: "LEVEL-5 自认「史上最大跨媒体企划」，2027 年登陆 Switch 2 / PS5 / Steam，TGS2026 首次提供试玩。",
+      console: {
+        status: "2027年発売予定",
+        os: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+        monetization: "未発表",
+        developer: "レベルファイブ",
+        publisher: "レベルファイブ",
+        region: "未発表（日本での発売は確定）",
+        distribution: "未発表",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "霊を撮影して仲間にする「ゴースト創造 RPG」。撮影用カメラ「Cameron」で強い魂が宿る物体を撮ると「物怪（モノノ怪）」になる",
+          "撮影した物体を遊具に変える（パラソルや生け垣をトランポリンにする等）、撮影対象そのものを探索可能な迷宮に変える",
+          "夜になると町の雰囲気が一変してボス戦が発生、戦闘 BGM はダンスミュージック",
+          "物語は、主人公と仲間の物怪が悪徳企業 De Ville Corp に立ち向かう内容",
+          "3 体のゴーストのモーション原型は WARPs UP の SANTA、ピコ太郎、avantgardey から取材",
+          "レベルファイブ史上最大規模のクロスメディア企画と位置づけられ、玩具・関連グッズは別途の発表会で公開予定",
+          "TGS2026 で試遊出展"
+        ],
+        synopsis: "「家族」をテーマに、『妖怪ウォッチ』の精神的な後継として作られる新規 IP。祖母のアパートの鍵のかかった部屋でカメラを見つけた少年が幽霊と出会い、そこから物語が始まる。",
+        cast: "未発表",
+        ipSource: "レベルファイブの新規オリジナル IP（『妖怪ウォッチ』の精神を継ぐ企画）",
+        series: "新規 IP。LEVEL-5 は本作を「社史上最大規模のクロスメディア企画」と説明している"
+      },
+
       news: [
         { source: "Gematsu（2027 窗口与玩法说明）", url: "https://www.gematsu.com/2026/09/holy-horror-mansion-launches-in-2027-for-ps5-switch-2-and-pc" },
         { source: "Anime News Network（幽灵动作取材自真实表演者）", url: "https://www.animenewsnetwork.com/news/2026-09-10/level-5-holy-horror-mansion-game-trailer-reveals-2027-release-for-switch-2-ps5-pc/.241630" }
@@ -201,6 +288,29 @@ window.OBSERVATORY = {
       releasePrecision: "年",
       summary: "2023 年首次发表、此后长期沉寂的犯罪悬疑 RPG。本次公开新 PV，同时把档期从 2026 年推迟到 2027 年——这是第四次延期。玩法在现实与虚拟空间之间往返：在虚拟空间重现的犯罪现场搜集证据、取得相关人员证言，再把情报连接起来推断犯人。特色是把「搜查 → 推理 → 逮捕 → 战斗」串成一个不中断的流程，而不是查到犯人就结束。主线本身埋有贯穿全作的大谜团，另有独立于主线的案件委托（案件任务的谜题设计由 SCRAP 负责）。TGS2026 提供试玩。",
       highlight: "第四次延期，正式落入 2027 年；作为补偿，TGS2026 首次提供现场试玩。",
+      console: {
+        status: "2027年発売予定（2026 年から延期）",
+        os: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+        monetization: "未発表",
+        developer: "レベルファイブ",
+        publisher: "レベルファイブ",
+        region: "未発表（日本での発売は確定）",
+        distribution: "未発表",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "現実と仮想空間を行き来して事件を解決する犯罪サスペンス RPG",
+          "仮想空間に再現された犯罪現場で証拠を集め、関係者の証言を確保し、情報を繋いで犯人を推理する",
+          "「捜査 → 推理 → 逮捕 → 戦闘」を途切れさせず一連の流れとして繋ぐのが本作の特徴",
+          "本編には全編を貫く大きな謎が埋め込まれ、過去作にはない予想外の展開が用意されている",
+          "本編とは別に、様々な事件を扱うケースクエストを用意（謎解きの設計は SCRAP が担当）",
+          "TGS2026 でシリーズ初の試遊出展"
+        ],
+        synopsis: "近未来の犯罪都市を舞台に、刑事となって仮想空間と現実を往復しながら様々な事件を解決していく。開発には時間を要しているが、従来のゲームとは異なる新しい遊びを目指して作り込んでいるという。",
+        cast: "未発表",
+        ipSource: "レベルファイブの新規オリジナル IP",
+        series: "2023 年に初発表。今回で 4 度目の延期となり、発売時期が 2026 年から 2027 年に変更された"
+      },
+
       news: [
         { source: "Inven Global（玩法说明与 2027 档期）", url: "https://www.invenglobal.com/articles/25802/professor-layton-and-the-curious-village-remake-revealed-at-level-5-vision-showcase" },
         { source: "Android Hire（历次延期的沿革）", url: "https://www.androidhire.com/level-5-vision-2026-announcements" }
@@ -235,6 +345,29 @@ window.OBSERVATORY = {
       releasePrecision: "年",
       summary: "《点心大冒险》系列重制新作，以 2017 年 Nintendo 3DS《スナックワールド トレジャラーズ》的加强版《トレジャラーズ ゴールド》为基础重新制作。日野晃博强调本作不只是提高画质，而是对游戏性、操作手感与故事内容都做大幅调整，规模「几乎可称为新作」：战斗动作与演出手感重做、打宝循环强化、画面重绘成宛如精致立体模型的质感。并追加原版没有的新模式，可操作动画版主角「恰普（チャップ）」从另一个视角体验故事。TGS2026 提供试玩。",
       highlight: "官方定位是「几乎可称为新作」的重制，新增可操作动画主角恰普的模式，2027 年登陆 Switch 2 / PS5 / Steam。",
+      console: {
+        status: "2027年発売予定",
+        os: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+        monetization: "未発表",
+        developer: "レベルファイブ",
+        publisher: "レベルファイブ",
+        region: "未発表（日本での発売は確定）",
+        distribution: "未発表",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "2017 年ニンテンドー 3DS『スナックワールド トレジャラーズ』の強化版『トレジャラーズ ゴールド』をベースに再制作",
+          "日野晃博は「単なる画質向上ではなく、ゲーム性・操作感・物語の内容にも大きく手を入れる」と説明",
+          "公式は「ほぼ新作と言える規模」と位置づけ、戦闘アクションと演出の手触りを作り直し、トレジャーハントのループを強化",
+          "グラフィックは精巧なジオラマの中を冒険しているような質感に描き直し",
+          "オリジナルにはなかった新モードを追加し、アニメ版主人公「チャップ」を操作して別の視点から物語を追える",
+          "TGS2026 で試遊出展"
+        ],
+        synopsis: "お菓子と宝探しをテーマにしたアクション RPG。アニメ版主人公チャップを操作する新モードにより、本編とは異なる視点から物語を体験できる。",
+        cast: "未発表",
+        ipSource: "『スナックワールド』シリーズ（2017 年／ニンテンドー 3DS）",
+        series: "原作はテレビアニメ全 50 話を展開したクロスメディア企画。本作はシリーズ初の PS5／Steam 展開"
+      },
+
       news: [
         { source: "Gematsu（2027 档期与日野晃博发言）", url: "https://www.gematsu.com/2026/09/snack-world-reloaded-launches-in-2027" },
         { source: "巴哈姆特（重制基础与新模式的说明）", url: "https://m.gamer.com.tw/forum/C.php?bsn=31587&snA=36147" }
@@ -1202,6 +1335,27 @@ window.OBSERVATORY = {
       releasePrecision: "年",
       summary: "《智龙迷城》《仙境传说》开发商 GungHo 公布免费游玩共斗 PvE 第三人称射击新作。舞台为殖民星球 DIVAL，人类对抗失控 AI「EVE」及其机械军团。招牌机制「R.I.N.G.」把与陌生玩家的偶遇变成火力——踏入光环并肩即触发「Infinite Barrage」，无限弹药无需装填。主模式 Tower Raid 支持最多 30 人，另有 6 人 Boss Raid。",
       highlight: "把「路上遇到的陌生人」本身设计成核心机制，而非赛前组队的固定小队。",
+      console: {
+        status: "2027年配信予定",
+        os: ["PC (Steam)"],
+        monetization: "基本プレイ無料（F2P）",
+        developer: "ガンホー・オンライン・エンターテイメント（発表は GungHo Online Entertainment America）",
+        publisher: "ガンホー・オンライン・エンターテイメント",
+        region: "グローバル（公式 SNS・Steam ストアページともに世界向け）",
+        distribution: "ダウンロード専売（Steam）",
+        stores: ["Steam"],
+        features: [
+          "リングシステム：戦場で味方とリング内に並ぶと「Infinite Barrage（無限の弾丸）」が発動",
+          "メインモード「Tower Raid」は最大 30 人の協力プレイに対応",
+          "ヒーローを選び、アーマーとスキルツリーでロードアウトをカスタム",
+          "オープンワールドを舞台にした次世代型の協力 PvE シューター"
+        ],
+        synopsis: "西暦 2200 年、地球の終焉を前に人類は地球に酷似した惑星 DIVAL へ移住。しかし開発を統括していた AI「EVE」が暴走し、機械兵器の反乱が勃発。世界は革新と希望を求める傭兵、すなわち「ヒーロー」の到来を待っていた。",
+        cast: "未発表",
+        ipSource: "ガンホー・オンライン・エンターテイメントの新規オリジナル IP",
+        series: "新規 IP（同社は『パズル＆ドラゴンズ』『ニンジャラ』『LET IT DIE』などを手がける）"
+      },
+
       news: [
         { source: "GungHo 官方新闻稿", url: "https://gunghoonline.com/2026/09/14/gungho-online-entertainment-reveals-co-op-pve-shooter-b-l-u-e-nova-supporting-up-to-30-players/" },
         { source: "AppBank（VTuber SNIVPA 联动细节）", url: "https://www.appbank.net/2026/09/15/game/3104757.php" },
@@ -1311,6 +1465,27 @@ window.OBSERVATORY = {
       releasePrecision: "未定",
       summary: "万代南梦宫公布《偶像大师 SideM》系列首款家用主机游戏企划。玩家将从 315 Production 的 49 位偶像、16 个组合中展开制作人工作，故事为完全新作。这是 SideM 自 2014 年手游上线以来首次登陆主机平台。",
       highlight: "IP 十年后首次主机化，对系列老粉属高情绪价值事件。",
+      console: {
+        status: "発売時期未定（正式タイトルも未発表）",
+        os: ["Nintendo Switch", "Nintendo Switch 2"],
+        monetization: "未発表",
+        developer: "バンダイナムコエンターテインメント × D3パブリッシャー",
+        publisher: "バンダイナムコエンターテインメント",
+        region: "日本（海外展開は未発表）",
+        distribution: "未発表",
+        stores: ["Nintendo eShop（予定）"],
+        features: [
+          "315 Production 所属の 49 名のアイドル・16 ユニットを育成する、アイドル育成＋スケジュール管理型アドベンチャー",
+          "ブランドページで展開中の物語世界観を引き継ぎつつ、家庭用版は完全新作ストーリー",
+          "1 年後に開催される大型ライブに向け、各ユニットがそれぞれの目標へ進む群像劇",
+          "Dramatic Stars / Jupiter / F-LAGS / C.First など既存ユニットが揃って登場"
+        ],
+        synopsis: "プレイヤーは 315 Production のプロデューサー。医師など「前職」を持つ 49 名の男性アイドルを支え、1 年後の大型ライブへ向けた各ユニットの歩みを描く完全新作ストーリー。",
+        cast: "未発表",
+        ipSource: "『THE IDOLM@STER』シリーズ（SideM ブランド）",
+        series: "SideM 初の単独家庭用ゲーム。シリーズの家庭用新作は 2021 年『スターリットシーズン』以来"
+      },
+
       news: [
         { source: "Quest Board.JP 日刊（9/14 汇总）", url: "https://quest-board.jp/en/quests/daily-2026-09-14" }
       ],
@@ -1465,6 +1640,29 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "松竹游戏事业室公布 TGS2026 展位信息与 11 款出展作品，为历届最多。带头新作《ムーミン:ムーミン谷の夏まつり》（11/12 发售）之外，还包括与电猫游戯共同推出的 Roguelite 3D 动作《夢幻桜楼閣》（2026 秋）、自研视觉小说《Algorithm Prescription》等。展位位于 4 号馆 04-C02。",
       highlight: "传统影视公司以发行商身份大规模参展，是日本内容产业跨界游戏的一手案例。",
+      console: {
+        status: "出展 11 タイトルのうち『ムーミン:ムーミン谷の夏まつり』のみ発売日確定（2026-11-12）、他は逐作で異なる",
+        os: ["Nintendo Switch", "Nintendo Switch 2", "PC (Steam)", "PS5", "Xbox Series X|S"],
+        monetization: "作品ごとに異なる（『ムーミン』＝Steam 版 2,300 円／Switch・Switch 2 DL 版 2,550 円／通常版 4,480 円／限定版 10,120 円・すべて税込）",
+        developer: "作品ごとに異なる（『ムーミン』＝Crossbridge Game Studios／『夢幻桜楼閣』＝電猫遊戯）",
+        publisher: "松竹ゲームズ（松竹株式会社 ゲーム事業室）",
+        region: "日本（Steam 版は世界向けに配信）",
+        distribution: "パッケージ＋ダウンロード（『ムーミン』Switch・Switch 2 実体版の予約受付中）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam", "Microsoft Store"],
+        preOrder: { open: true, since: "2026-08-21", reward: "『ムーミン』実体版：通常版の初回生産分にオリジナル透明ステッカー、限定版はそれに加えてムーミン谷ポストカードブック／刺繍ハンカチ／メッシュポーチ／すりガラス風キーホルダー。楽天ブックス・Amazon・ジョーシン・アニメイト等の店舗別特典も予定" },
+        features: [
+          "TGS2026 の出展は 11 タイトルで過去最多、ブースは第 4 ホール 04-C02",
+          "『ムーミン:ムーミン谷の夏まつり』＝トーベ・ヤンソン原作小説を基にしたポイント＆クリックアドベンチャー",
+          "『夢幻桜楼閣』＝電猫遊戯との共同による Roguelite 3D アクション（2026 年秋予定）",
+          "『OKU』＝俳句を詠んで進む和風アドベンチャー、Steam フォロワー数 30 万超",
+          "会場では 4 作品の試作版が試遊可能で、来場者特典としてオリジナルグッズを配布"
+        ],
+        synopsis: "『ムーミン:ムーミン谷の夏まつり』では、スナフキンの帰りを待つムーミントロールの日常に大洪水が襲い、ムーミン谷が水没。一家とリトルミイは屋根に避難し、流れてきた謎の劇場に乗り込んでいく。手描きの絵本風アートで原作の名場面と新規エピソードを描く。",
+        cast: "未発表",
+        ipSource: "『ムーミン』＝Tove Jansson 原作（Moomin Characters Oy Ltd が著作権を保有）。その他は各社オリジナル",
+        series: "松竹ゲームズは 2024 年 6 月に松竹社内のゲーム事業室として発足、日本・アジア・海外向けに PC／家庭用タイトルを展開"
+      },
+
       news: [
         { source: "AppBank（出展全清单）", url: "https://www.appbank.net/2026/09/14/game/3103671.php" }
       ],
@@ -2118,6 +2316,29 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "LEVEL-5 招牌解谜系列回归作。舞台为靠蒸汽文明急速成长的虚构美国城市 Steam Bison，雷顿教授与助手路克联手破解城中离奇谜团。系列标志性的情感化美术与解谜节奏回归。「LEVEL5 VISION 2026 II 夢」补充了新预告与主题曲制作花絮：主题曲《The New World》由久石让作曲、Lilas 演唱，谜题设计交由专营媒体谜题与解谜题的 QuizKnock 负责，除 Switch 外的版本支持鼠标操作。TGS2026 提供可试玩 Demo（支持英文），雷顿与路克分别由大泉洋、今田美桜配音。",
       highlight: "长期延宕后终于定档 12/10，并确认追加 PS5 与 Steam 版；主题曲由久石让作曲，谜题交由 QuizKnock 负责。",
+      console: {
+        status: "2026-12-10 発売予定",
+        os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+        monetization: "未発表（公式発表に価格の記載はなし。繁体字メディアが 7,920 円と報道）",
+        developer: "レベルファイブ",
+        publisher: "レベルファイブ",
+        region: "日本（8 言語に対応予定）",
+        distribution: "パッケージ＋ダウンロード（実体版は各販路で予約受付中）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "シリーズ本編としては 13 年ぶりの新作。時系列は『レイトン教授と最後の時間旅行』の 1 年後",
+          "舞台は万能蒸気機関によってロンドンを超える発展を遂げたアメリカの都市「スチームバイソン」",
+          "主題歌『The New WORLD』は久石譲が作曲、幾田りらが作詞と歌唱を担当",
+          "謎解きの設計は QuizKnock が担当し、収録パズル数はシリーズ史上最多になる予定",
+          "Switch 以外のバージョンはマウス操作に対応",
+          "TGS2026 では英語対応の試遊デモを出展、来場者にオリジナルマウスパッドを配布"
+        ],
+        synopsis: "ルークからの手紙を受け取ったレイトン教授が、急速に発展するアメリカの都市スチームバイソンを訪れ、そこで起きる怪事件の謎に挑む。",
+        cast: "レイトン教授：大泉洋 ／ ルーク：今田美桜 ／ エリノラ・アリンストン：吉岡里帆 ／ エッグマフィン・ソンダー：高杉真宙 ／ ボルト・アリンストン：小手伸也 ／ ほか山寺宏一、大塚明夫",
+        ipSource: "『レイトン教授』シリーズ（累計 2,000 万本超）",
+        series: "本編は 2013 年『アズラン遺産』以来 13 年ぶり。シリーズ史上最も広いマルチプラットフォーム展開"
+      },
+
       news: [
         { source: "GameMeca（Nintendo Direct 汇总）", url: "https://www.gamemeca.com/en/view.php?gid=1780300" },
         { source: "Legal United States", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" },
