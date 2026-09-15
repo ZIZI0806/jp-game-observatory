@@ -925,6 +925,27 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "GAME FREAK 完全新作动作 RPG，2026 年 8 月 4 日登陆 PS5 / Xbox Series X|S / PC，日本与亚洲由 Happinet 发行 PS5 实体版，售价 7,980 日元。舞台设定在西历 4026 年、崩坏后的日本：被称作「秽人」而遭疏远的少女艾玛，与腐蚀体「库乌」一同踏上讨伐秽之元凶「轮回之兽」的旅程。战斗采用「一人一兽」的双轨系统——艾玛以实时剑技格斗，库乌则以指令方式释放技能，艾玛成功格挡时累积点数用于发动库乌的能力；该作也是 GAME FREAK 首个非宝可梦体系的 AAA 级完全新作。",
       highlight: "GAME FREAK 三十年来的首个非宝可梦 AAA 新作，「一人一兽」实时＋指令混合战斗。",
+      console: {
+        status: "2026年8月4日発売（発売済み）",
+        os: ["PlayStation 5", "Xbox Series X|S（ダウンロード版のみ）", "PC（Steam・ダウンロード版のみ）"],
+        monetization: "PS5 パッケージ版 8,980 円（税込）／ ダウンロード版 Standard Edition 7,980 円（税込）・デジタルデラックスエディション 8,980 円（税込）（ハピネット発表）",
+        developer: "ゲームフリーク",
+        publisher: "Fictions（日本国内パッケージはハピネット）",
+        region: "日本／海外（字幕：日本語・英語・仏・伊・独・西・伯・韓・繁中・簡中、音声：日本語・英語）",
+        distribution: "パッケージ版（PS5 のみ）・ダウンロード版",
+        stores: ["PlayStation Store", "Microsoft Store", "Steam", "全国のゲーム取扱店"],
+        features: [
+          "エマのリアルタイムアクションと、犬のクゥへのコマンドベースの戦術を融合させた「1 人と 1 匹」の協同戦闘システム",
+          "エマとクゥが共鳴して発動する「開花技」。強敵を討つほど新しい戦闘技術を身につける",
+          "西暦 4026 年、文明が崩壊した日本を舞台にした探索型アクション RPG",
+          "Xbox Series X|S 版は Xbox Game Pass 対応、PS5 版は PS5 Pro 強化に対応",
+          "CERO C（15 歳以上対象）、プレイ人数 1 人（オンラインプレイ非対応）"
+        ],
+        synopsis: "世界を蝕む「穢れ」の元凶「輪廻の獣」を討つため、記憶と感情を失った穢れ人の少女エマと、白毛の腐蝕犬クゥが遥か西の地を目指す。道中で出会う人々はそれぞれ秘密を抱え、選択が物語を多層にしていく。",
+        ipSource: "オリジナル（ゲームフリーク）",
+        series: "『ポケットモンスター』シリーズを生んだゲームフリークの完全新作アクション RPG。2025 年設立の Fictions がパブリッシングを担当",
+        cast: "エマ（CV：石川由依）、ミコト（CV：石田彰）、シドウ（CV：三上哲）、バウエラ（CV：佐藤利奈）、都の王（CV：金尾哲夫）"
+      },
       news: [
         { source: "ハピネット 公式プレスリリース（PS5 パッケージ版 8/4 発売・予約開始）", url: "https://happinet-games.com/release/260420/happinet0420.pdf" },
         { source: "製品情報特設ページ", url: "https://beast-of-reincarnation.happinet-games.com/" },
@@ -961,6 +982,28 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "由《罪恶装备》系列的 Arc System Works 开发、PlayStation Studios 与 Marvel Games 联合推出的 4v4 组队对战格斗游戏，2026 年 8 月 6 日全球同步发售 PS5 与 PC（Steam / Epic）版，日本、韩国、澳大利亚与新西兰因时差在 8 月 7 日解锁，售价 7,980 日元。首发 20 名 Marvel 角色，比赛以 1 名主控加 3 名援护的形式进行，四人共享一条「Vital Gauge」而非各自独立的血条；操作上提供传统输入与简易输入两套方案，并支持 PS5 与 PC 之间的完整跨平台联机。",
       highlight: "Arc System Works 用《罪恶装备》的技术力承接 Marvel 授权，四人共享血条的 4v4 结构。",
+      console: {
+        status: "2026年8月6日 グローバル発売（日本・韓国・豪州・NZ は 8月7日／発売済み）",
+        os: ["PlayStation 5", "PC（Steam / Epic Games Store）"],
+        monetization: "Standard Edition 7,980 円（税込）、デジタルデラックスエディション 10,480 円（税込）、Ultimate Edition 11,980 円（税込）（日本価格）",
+        developer: "アークシステムワークス",
+        publisher: "Sony Interactive Entertainment",
+        region: "日本／北米／欧州（音声 10 言語、画面言語 15 言語以上）",
+        distribution: "ダウンロード版（日本国内のパッケージ版は未確認）",
+        stores: ["PlayStation Store", "Steam", "Epic Games Store"],
+        features: [
+          "4 対 4 のタッグチーム格闘。1 チーム 4 人のうち 1 人を主戦、3 人を援護に配置する",
+          "試合開始時に選べるのは 2 人だけ。場面破壊や相手の吹き飛ばしなどで条件を満たすと残りのメンバーが解禁される",
+          "チーム全体で 1 本の体力ゲージを共有する独自ルール。三本勝負",
+          "従来のコマンド入力に加え、ボタン 1 つで技が出せる「クイック入力」を用意",
+          "モーションコミック形式の Episode Mode を収録（約 10 時間、10 言語のボイス）",
+          "PS5 Pro Enhanced／DualSense のハプティクスと Tempest 3D オーディオに対応"
+        ],
+        synopsis: "宇宙勇者（Champion of the Universe）が次の戦場に地球を選び、開催者（Promoter）が「勇者挑戦賽」を宣告する。5 チームが 4 対 4 で角逐し、宇宙勇者に挑む資格を得る者が決まる。",
+        ipSource: "MARVEL コミック（Marvel Games 協力）",
+        series: "『ギルティギア』『ドラゴンボールファイターズ』を手がけたアークシステムワークスが開発、SIE が発売。ローンチ時のプレイアブルは 20 体／5 チームで、DLC で 4 体以上を追加予定",
+        cast: "未発表"
+      },
       news: [
         { source: "MARVEL 公式作品ページ（発売告知・映像一覧）", url: "https://www.marvel.com/games/marvel-tokon-fighting-souls" },
         { source: "PlayStation 公式 作品ページ（FAQ・発売日と地域差）", url: "https://playstation.com/zh-hans-hk/games/marvel-tokon-fighting-souls" },
@@ -1034,6 +1077,27 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "日本 Falcom 的完全新作动作 RPG，2026 年 7 月 16 日登陆 Switch 2 / Switch / PS5 / Steam，通常版 7,920 日元，同日推出同捆特制艺术盒的 Limited Edition。《东亰幻都》的舞台被整体重置为「亰都」——成为首都的现代日本，故事围绕觉醒为《适格者》的少年少女与异界「XANADU」展开。战斗由两套动作构成：以射击与属性解谜探索迷宫的 2D 动作，以及可用《ソウルアクセル》强化自身、以精准格挡触发一击必杀反击《一閃》的 3D 动作。学园日常部分则通过卡牌牌组上课提升参数、与同学交流、在京都街区探索美食与景点。繁体中文版由云豹娱乐同日同步推出。",
       highlight: "《东亰幻都》十周年，舞台移到「亰都」，2D 探索＋3D 战斗的双维度 ARPG。",
+      console: {
+        status: "2026年7月16日発売（発売済み）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Steam"],
+        monetization: "通常版 7,920 円（税込・小売店の希望小売価格表記／日本ファルコム）。アジア版は一般版 HK$417 / NT$1,690、Nintendo Switch 2 Edition HK$427 / NT$1,721、Switch 2 Edition アップグレードパス HK$10 / NT$31（クラウディッドレパードエンタテインメント）",
+        developer: "日本ファルコム",
+        publisher: "日本ファルコム（日本）／ クラウディッドレパードエンタテインメント（アジア）",
+        region: "日本／アジア（字幕：日本語・簡体中文・繁体中文・韓国語、音声：日本語）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam", "全国のゲーム取扱店"],
+        features: [
+          "2D と 3D を切り替える「双维度（デュアルディメンション）」ARPG。学園地下の巨大迷宮は横スクロールの 2D 戦闘、異界門の先は 3D 戦闘",
+          "「ソウルデバイス」の強化に加え、3D 戦闘で得た「ガーディアン」カードを装備して能力を大幅に引き上げる育成",
+          "授業前に「行動カード」を配置する学園パート。科目の能力値と他キャラとの好感度が変化する",
+          "放課後は京都の街を自由に散策。観光地での情報収集、商店街での買い物、同級生との食事など",
+          "チャット会話やサイドクエストなど、日常パートの要素が豊富"
+        ],
+        synopsis: "2015 年『東亰ザナドゥ』の世界観を土台にした完全新作。首都を京都とする現代日本で、少年少女が「資格者」として次々に覚醒し、異界を巡る冒険が始まる。主人公・神矢伶はある事件を機に異獣と対抗する力を得て比良坂学園へ転入し、異界の完全攻略を目指す。",
+        ipSource: "『東亰ザナドゥ』（日本ファルコム）の世界観を継承した新規タイトル",
+        series: "ファルコムの新規 IP。Famitsu 週榜で Switch 版 15,431 本・PS5 版 13,206 本、実体版首週合計 28,637 本",
+        cast: "未発表"
+      },
       news: [
         { source: "日本ファルコム 公式プレスリリース（7月16日発売決定）", url: "https://www.falcom.co.jp/page/wp-content/uploads/2026/03/260313_KX_ReleaseDate_jp.pdf" },
         { source: "公式サイト 最新情報（ローンチPV 2026-07-16／Ver.1.04 2026-08-13）", url: "https://www.falcom.co.jp/kyoxana/topics/" },
@@ -1071,6 +1135,28 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "日本一软件于 2026 年 7 月 30 日推出的完全新作生活模拟游戏，由《夜回》系列团队打造。玩家在乡村经营农作、畜牧、钓鱼、狩猎，并与村民往来；作品在可理解的生活模拟框架上叠加了「村规」「安心暮し模式」等设定，把「因习村」的悬疑与恐怖要素编进日常循环，形成明显的题材差异化。实体版在发售前受注 6 万本，三平台首周实体合计约 4 万本；2026 年 9 月 2 日公司公告宣布国内累计销量突破 20 万本。",
       highlight: "《夜回》团队的乡村生活模拟，把悬疑恐怖揉进日常劳作，国内销量突破 20 万本。",
+      console: {
+        status: "2026年7月30日発売（発売済み）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Steam", "Windows"],
+        monetization: "9,020 円（税込・小売店の希望小売価格表記）。Nippon1.jp ショップ プレミアム限定版は Switch 2 版 25,850 円（税込）・Switch 版 24,750 円（税込）",
+        developer: "日本一ソフトウェア",
+        publisher: "日本一ソフトウェア",
+        region: "日本（Nintendo Switch 2 版は日本語・国内専用ソフト）",
+        distribution: "パッケージ版（Nintendo Switch 2 版はキーカード仕様）・ダウンロード版",
+        stores: ["Nintendo eShop", "Nintendo Store", "PlayStation Store", "Steam", "Nippon1.jp ショップ", "全国のゲーム取扱店"],
+        features: [
+          "山あいに佇む小さな村「彼ヶ津村」を舞台にした生活シミュレーション。農作・畜産・釣り・狩り・村人との交流を軸にする",
+          "村はずれの古びた小屋と荒れた庭から始まり、素材を集めて道具を手作りすると「できること」が広がっていく",
+          "村の祭事や手伝いを通じて村人との交流を深める進行。老若男女さまざまな住民が暮らす",
+          "『夜廻』シリーズのスタッフが手がけ、郷愁のある田舎暮らしに村の因習とサスペンスの要素を重ねている",
+          "難易度選択に対応（「安心暮しモード」など）。Nintendo Switch 2 版と Switch 版はセーブデータの互換性がない",
+          "追加コンテンツ『デジタルアートブック&サウンドトラック』を発売同日に配信"
+        ],
+        synopsis: "山の中で彷徨っていた幼い主人公が村の人々に保護され、村のために働くことを条件に暮らしを許される。まずは荒れた庭を耕して畑を作るところから始まる、日本の原風景を描いた生活シミュレーション。",
+        ipSource: "オリジナル（日本一ソフトウェア）",
+        series: "『夜廻』シリーズのスタッフによる新規 IP。発売前に実体版の受注が 6 万本に達し、Famitsu 週榜の実体版首週（Switch 2 / Switch / PS5 合計）は約 40,303 本",
+        cast: "未発表"
+      },
       news: [
         { source: "日本一ソフトウェア 公式サイト（製品情報）", url: "https://nippon1.jp/consumer/honogurashi/product.html" },
         { source: "日本一ソフトウェア 公式サイト（発表・予約受付開始）", url: "https://nippon1.jp/consumer/honogurashi/topics/debut" },
@@ -1107,6 +1193,28 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "《斯普拉遁》系列首部外传作品，2026 年 7 月 23 日在 Switch 2 独占发售，售价 6,480 日元。主角「机械师」与「鱼浆帮」迫降在布满漩涡的「涡潮群岛」，一边击退挡路的鲑鱼、一边围绕岛上的宝藏展开冒险。玩家在武器之外还能装备并强化「配件」，用迅捷动作、重击或技术型道具打出不同流派；鱼浆帮可乘上调查机甲支援，使用奥义一举清场。制作人为井上精太，导演伊藤嘉彦，支持 1 人与 2〜4 人游玩。本作把系列惯有的涂地对战重构为带 RPG 数值与装备构筑要素的单人/合作探索。",
       highlight: "系列首个外传，把 PVE 打工手感重构为 RPG 式刷宝与装备构筑，首周实体 47.5 万本。",
+      console: {
+        status: "2026年7月23日発売（発売済み）",
+        os: ["Nintendo Switch 2（専用）"],
+        monetization: "ダウンロード版 6,480 円（税込）／ パッケージ版 7,480 円（税込）（任天堂公式サイト表記）",
+        developer: "任天堂",
+        publisher: "任天堂",
+        region: "日本／北米／欧州（日本語・英語・仏・伊・独・西・蘭・韓・簡体中文・繁体中文）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "Nintendo Store", "全国のゲーム取扱店"],
+        features: [
+          "『スプラトゥーン』シリーズ初のスピンオフ。対人戦ではなく、島の探索とシャケ討伐を軸にした「オタカラ・ハント」",
+          "ブキは 100 種類以上。スピード／パワー／テクニカルの 3 タイプから最大 2 つまで同時装備できる「ガジェット」で自分好みに調整",
+          "拾った「ガジェットパーツ」で性能を強化・変化させ、タンクやブキも素材から開発する成長要素",
+          "ローカル通信・インターネット通信で最大 4 人の協力プレイ。シャケのレベルは自動調整される",
+          "ソロ中でも「ヘルプ」を要請して一時的に最大 3 人と一緒に探索できる",
+          "amiibo 3 種が同時発売"
+        ],
+        synopsis: "「ウズシオ諸島」に不時着した新主人公「メカニック」と「すりみ連合」が、狂暴なシャケを退けて島のオタカラを目指す。本編の PvP 主軸を外し、探索と強化を中心に据えたシリーズ初の派生作。",
+        ipSource: "『スプラトゥーン』シリーズ（任天堂）",
+        series: "本編ではなくソロ／協力向けのスピンオフとして展開。ニンテンドーeショップと Nintendo Store で早期購入キャンペーンを実施。Famitsu 7/20-26 週の実体版首週は約 47.5 万本、8/2 時点の累計は約 54.8 万本",
+        cast: "未発表"
+      },
       news: [
         { source: "任天堂（香港）TOPICS（本日発売・CM・開発者インタビュー）", url: "https://nintendo.com/hk/topics/article/4mwivan6eArpr1VQNuIaGz" },
         { source: "任天堂 公式製品ページ（Switch 2）", url: "https://www.nintendo.com/hk/games/switch2/aadla?modal=multi" },
@@ -2133,6 +2241,25 @@ window.OBSERVATORY = {
       releasePrecision: "季",
       summary: "Nintendo Direct 9/9 压轴公布，为系列 35 周年作品。天空出现裂痕，卡比在帝帝帝大王的帮助下击穿天幕，坠入「World Beyond」。相较《探索发现》(2022) 的关卡制，本作相机可自由旋转、场景互联，呈开放区域结构；追加新伙伴角色，复制能力与 Super Ability 回归，并可与场景互动破坏（预告中出现大师之剑）。",
       highlight: "卡比系列首次真正意义上的开放区域探索，被安排在 Direct 压轴位。",
+      console: {
+        status: "2027年春 発売予定（価格・詳細は未発表／2026-09-09 の発表で告知）",
+        os: ["Nintendo Switch 2"],
+        monetization: "未発表（小売リストでは Price TBA と表記・小売リスト集計値）",
+        developer: "ハル研究所",
+        publisher: "任天堂",
+        region: "日本／北米／欧州",
+        distribution: "未発表",
+        stores: ["Nintendo eShop（予定）"],
+        features: [
+          "2026-09-09 の発表で、2027 年春の発売が告知された『カービィ』シリーズ新作",
+          "多言語対応が予定されている（EN / FR / IT / DE / ES / NL / PT / KO / ZH）",
+          "価格・ダウンロード容量・パッケージ仕様などの詳細は公式に未発表"
+        ],
+        synopsis: "2027 年春に発売予定の『カービィ』シリーズ新作。2026-09-09 の発表ではタイトルと発売時期のみが公開され、ゲーム内容の詳細はまだ明らかにされていない。",
+        ipSource: "『星のカービィ』シリーズ（任天堂／ハル研究所）",
+        series: "開発はハル研究所。2027 年春の Nintendo Switch 2 向けラインナップとして告知された段階で、価格は未公表",
+        cast: "未発表"
+      },
       news: [
         { source: "Radio Times（公布细节）", url: "https://www.radiotimes.com/technology/gaming/kirby-a-world-beyond-revealed-nintendo-3d-platformer-release-window-confirmed-newsupdate" },
         { source: "GameTrader.SG（结构解析）", url: "https://www.gametrader.sg/blog/kirby-and-the-world-beyond-switch-2-spring-2027" }
@@ -2377,6 +2504,27 @@ window.OBSERVATORY = {
       releasePrecision: "已发售",
       summary: "万代南梦宫发行的暗黑奇幻 RPG，已正式发售。日本媒体评价其氛围营造与叙事力度突出，定位为本季值得关注的 RPG 之一。Famitsu 评分 34/40（9/8/8/9），与《鬼武者》并列本期第二。",
       highlight: "作为发行商作品拿下 Famitsu 34 分，显示万代在西方工作室产品线上的选品眼光。",
+      console: {
+        status: "2026年9月3日発売（発売済み／コンシューマは現地 0 時、PC は 9月3日 7:00 JST 解禁）",
+        os: ["PlayStation 5（PS5 Pro 対応）", "Xbox Series X|S", "PC（Steam / GOG / Microsoft Store）"],
+        monetization: "Standard Edition 9,790 円、Eclipse Edition 10,890 円（日本価格）。北米ストア表記は Standard $69.99 / Eclipse $79.99 / Collector's Edition $199.99",
+        developer: "Rebel Wolves",
+        publisher: "バンダイナムコエンターテインメント",
+        region: "日本／北米／欧州（UI・字幕 15 言語、フルボイス 6 言語。日本語は字幕のみ）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["PlayStation Store", "Microsoft Store", "Steam", "GOG", "全国のゲーム取扱店"],
+        features: [
+          "14 世紀ヨーロッパを舞台にしたオープンワールド・ダークファンタジー ARPG。UE5 製",
+          "昼は人間、夜は吸血鬼という「DAWNWALKER」の二面性を軸に、昼夜で異なるアビリティと攻略手段を切り替える",
+          "行動と不作為の双方が世界と物語を変える設計。依頼をこなすたびに時間が進み、家族の余命に近づく",
+          "発売日に 60fps ターゲットの Performance Mode を追加（PS5 / PS5 Pro / Xbox Series X）。Xbox Series S は 30fps のみ",
+          "プレイ人数 1 人（協力・マルチプレイモードは未発表）。CERO Z（18 歳以上対象）"
+        ],
+        synopsis: "14 世紀、疫病と戦乱に疲弊したヨーロッパ。弱った人間を見て吸血鬼が影から出て、何世紀もの間奪われてきた自由と力を手にする。主人公クーンは「DAWNWALKER」となり、人間性を守るか呪われた力を受け入れるかの狭間で家族を救う道を探る。",
+        ipSource: "オリジナル",
+        series: "『ウィッチャー3 ワイルドハント』の元開発者らが興したポーランドのスタジオ Rebel Wolves の処女作。バンダイナムコエンターテインメントが発売",
+        cast: "未発表"
+      },
       news: [
         { source: "3DMGame（Famitsu 评分）", url: "https://en.3dmgame.com/news/2702" },
         { source: "Polygon（发售评价背景）", url: "https://www.polygon.com/new-rpgs-fall-2026" }
@@ -2530,6 +2678,32 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "2006 年《空之轨迹 SC》的现代化重制，接续去年 1st Chapter 的剧情，讲述艾丝蒂尔穿越王国寻找失踪的约修亚。保留厚重叙事与回合制战斗，新增钓鱼、扑克等小游戏作为节奏调剂。",
       highlight: "轨迹系列十五年以上长线叙事的老用户盘极其稳固，属「确定性销量」型作品。",
+      console: {
+        status: "2026年9月17日発売予定（予約受付中／TGS2026 開幕と同日）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Steam"],
+        monetization: "パッケージ版・ダウンロード版 通常版 8,800 円（税込）、Nintendo Switch 2 Edition 8,950 円（税込）、ウロボロスBOX 13,860 円（税込）、デジタルデラックス版 12,650 円（税込）、Nintendo Switch 2 Edition アップグレードパス 150 円（税込）、シーズンパス 4,180 円（税込）（日本ファルコム公式）",
+        developer: "日本ファルコム",
+        publisher: "日本ファルコム（日本）／ クラウディッドレパードエンタテインメント（アジア）",
+        region: "日本／アジア（字幕：日本語・簡体中文・繁体中文・韓国語、音声：日本語）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam", "全国のゲーム取扱店"],
+        preOrder: {
+          open: true,
+          since: "2026-05-06（予約開始）",
+          reward: "『英雄伝説 空の軌跡FC』ダウンロードコード（HD リマスター＋高速モード／ログ機能、Steam 版は対象外）"
+        },
+        features: [
+          "『空の軌跡』完全フルリメイク企画の第 2 弾。全 3D 化したキャラクターと場景、キャラの個性を出す追加アクション",
+          "迅捷戦闘と指令戦闘をシームレスに切り替えるバトルシステム",
+          "前作『空の軌跡 the 1st』のクリアデータ連動で、エステルとヨシュアの衣装を原作『空の軌跡SC』デザインに変更できる",
+          "パッケージ版の Nintendo Switch 2 Edition は Switch 本体でもプレイ可能（その場合は Switch 基準の解像度・フレームレート）",
+          "発売記念抽選会を全国 7 ヶ所の店頭と WEB で開催。出演声優のサイン色紙や非売品アクリルスタンドなど、当選総計 4,000 名超"
+        ],
+        synopsis: "リベール王国の政変の裏で暗躍した結社《身喰らう蛇》。ヨシュアはハーモニカを残してエステルの前から消える。正遊撃士となったエステル・ブライトは、結社の陰謀を止めヨシュアを取り戻すため新たな旅に出る。",
+        ipSource: "『英雄伝説 空の軌跡SC』（日本ファルコム）の完全リメイク",
+        series: "『軌跡』シリーズの起点作品をリメイクする連続企画の第 2 弾。前作『空の軌跡 the 1st』からの続きとして展開",
+        cast: "未発表"
+      },
       news: [
         { source: "Polygon（RPG 盘点）", url: "https://www.polygon.com/new-rpgs-fall-2026" },
         { source: "Gurugamer", url: "https://gurugamer.com/pc-console/top-10-upcoming-jrpgs-to-release-in-2026-and-2027-27290" }
@@ -2658,6 +2832,32 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "系列约 26 年来首款全新独立主机游戏。由 Chime 开发，出渕裕监修机械设计、伊藤和典监修剧本、高田明美监修角色原画。玩家可驾驶 Ingram、Griffon、零式等 20 余台 Labor，并可从特车二课与敌方双方视角体验剧情。含模拟器模式与 Labor 对战。",
       highlight: "实体 PS5 特装版附赠「白 Griffon」塑料模型，周边公司做游戏的资源协同体现明显。",
+      console: {
+        status: "2026年9月17日発売予定（PS5）／ PC は 2026年9月16日 23:00（GMT+8）に先行解禁。予約受付中",
+        os: ["PlayStation 5", "PC（Steam / Epic Games Store）"],
+        monetization: "PS5 ダウンロード版 通常版 4,400 円（税込）／ デジタルデラックスエディション 5,500 円（税込）。国内パッケージ版（PS5 通常版）は 6,380 円（税込）。PS Plus 会員は発売前まで 10% OFF の 3,960 円",
+        developer: "Chime",
+        publisher: "グッドスマイルカンパニー",
+        region: "日本／海外（字幕：日本語・英語・簡体中文・繁体中文・韓国語）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["PlayStation Store", "Steam", "Epic Games Store", "全国のゲーム取扱店"],
+        preOrder: {
+          open: true,
+          since: "2026-08-10（発売日発表・予約開始）",
+          reward: "デジタルデラックスエディションは 72 時間のアーリーアクセス（9月14日から）。限定カラーの「ホワイトグリフォン」を収録"
+        },
+        features: [
+          "特車二課の視点で原作の名場面を追体験する「メインミッション」と、対立側を操作する「アナザーサイドミッション」の二視点構成",
+          "アナザーサイドでは『機動警察パトレイバー the Movie』の零式、『2 the Movie』のヘルハウンドを操作する",
+          "射撃訓練と Labor 対 Labor の 1 対 1 を収録した「シミュレーターモード」",
+          "イングラム AV-98、タイプ J9 グリフォン、AV-X0 零式など 20 台以上の Labor が操作可能。UE5 製",
+          "メインストーリーは全編フルボイス。オンラインマルチプレイは非対応（対戦はすべて CPU 戦）"
+        ],
+        synopsis: "産業用ロボット「レイバー」が建設・土木で広く普及する一方、レイバー絡みの犯罪が急増する。警視庁は特車二課 パトロールレイバー中隊――通称「パトレイバー」を新設し、レイバー犯罪に対処する。",
+        ipSource: "『機動警察パトレイバー』（ヘッドギア／ゆうきまさみ）",
+        series: "出渕裕（メカニック監修）、伊藤和典（脚本監修）、高田明美（キャラクター作画監修）が参加し、主題歌「the Case Files」は川井憲次が書き下ろし。家庭用機では約 20 年ぶりのシリーズ単独ゲーム化。開発は『メイドインアビス 烈日の黄金郷』の Chime",
+        cast: "泉野明（CV：冨永みーな）、篠原遊馬（CV：古川登志夫）ほか（Web CM のナレーションより）"
+      },
       news: [
         { source: "Quest Board.JP（发售详情）", url: "https://quest-board.jp/en/quests/the-case-files" }
       ],
@@ -2690,6 +2890,28 @@ window.OBSERVATORY = {
       releasePrecision: "日",
       summary: "万代南梦宫发行、开罗游戏（カイロソフト）开发的《ONE PIECE》题材像素风经营模拟，于 Nintendo Direct 首发公开。玩家作为海上餐厅「巴拉蒂 2 号店」的新人店员，与草帽一伙共同把餐厅做成「这片海上最美味的地方」。与山治一起用冒险中获得的食材开发菜谱，可把主菜／副菜／甜点／饮料自由组合成套餐并获得额外加成，也会出现运用恶魔果实能力的特殊料理。收录 400 名以上系列角色、200 种以上家具与内饰。主机版 2,700 日元、手机版 2,000 日元，支持含简繁中文在内的 12 种语言。TGS2026 设置餐厅主题展台并提供 20 分钟试玩。",
       highlight: "IP 授权经营模拟：把「吃饭」这条原作主线做成核心玩法，而不是又一款战斗手游。",
+      console: {
+        status: "2026年10月22日発売予定（Switch 2 / Switch）／ Steam は 2026年10月23日。予約受付中",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PC（Steam）"],
+        monetization: "3,960 円（税込・ゲームキーカード／小売リスト集計値）。モバイル版は買い切り 2,000 円で、コンシューマ版とは価格帯が異なる",
+        developer: "カイロソフト",
+        publisher: "バンダイナムコエンターテインメント",
+        region: "日本／アジア（日本語・英語・簡体中文・繁体中文ほか計 12 言語）",
+        distribution: "パッケージ版（ゲームキーカード）・ダウンロード版",
+        stores: ["Nintendo eShop", "Steam", "全国のゲーム取扱店"],
+        features: [
+          "海上レストラン「バラティエ 2 号店」を舞台にした経営シミュレーション。シリーズ初の本格経営シミュレーション",
+          "サンジと一緒に料理を開発し、主菜／副菜／デザート／ドリンクを組み合わせてセットメニューを作る",
+          "悪魔の実の能力を活かした特別料理が登場",
+          "200 種類以上の家具・建築物・インテリアを自由配置。常連客イベントも用意",
+          "総勢 400 以上のキャラクターが来店（四皇・海軍・革命軍なども含む）",
+          "コンシューマ版は 10月22日、Steam・モバイル版は 10月23日と 1 日差で展開"
+        ],
+        synopsis: "『ONE PIECE』の世界で海上レストランを経営するシミュレーション。物語の起点である「バラティエ」の 2 号店を舞台に、麦わらの一味と協力して「この海で一番のレストラン」を目指す。冒険で新素材を入手するとレシピが拡張し、招待したキャラクターが内装を気に入れば常連客になる。",
+        ipSource: "『ONE PIECE』（尾田栄一郎／集英社）",
+        series: "『ONE PIECE』家庭用ゲームシリーズ最新作で、カイロソフトとの初コラボ。コンシューマ版とモバイル版を同時展開する",
+        cast: "未発表（原作アニメに準拠）"
+      },
       news: [
         { source: "ONE PIECE.com 官方（发售日决定・特典・预告公开）", url: "https://one-piece.com/news/80028/index.html" },
         { source: "Third News（TGS2026 试玩与预约活动）", url: "https://third-news.com/article/9089a9b6-90b1-11f1-b03b-9ca3ba08e13f" },
