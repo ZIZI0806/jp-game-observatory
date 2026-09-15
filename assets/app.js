@@ -199,8 +199,8 @@
 
   /* 卡片右上角的「存为 JPG」按钮。
      放在卡片顶部而不是底部——卡片很高，放底部会滚到看不见。 */
-  const jpgBtn = (g) =>
-    `<button class="jpg-btn" data-jpg="${esc(g.id)}" title="把这张卡片另存为 JPG 图片">存为 JPG</button>`;
+  const jpgBtn = (g, kind) =>
+    `<button class="jpg-btn" data-jpg="${esc(g.id)}" data-kind="${esc(kind)}" title="把这张卡片另存为 JPG 图片">存为 JPG</button>`;
 
   /* 卡片底部动作条：手游区与主机・PC 区共用同一个函数，
      两个区的卡片才会真正「同款」而不是看起来像。 */
@@ -269,7 +269,7 @@
           <div class="mob-head-r">
             ${isCross(g) ? `<span class="cross-tag">跨平台</span>` : ""}
             <span class="bucket-tag ${isNew ? "new" : ""}">${isNew ? "新作发表" : "定档/进展"} · ${esc(fmtDate(g.announceDate))}</span>
-            ${jpgBtn(g)}
+            ${jpgBtn(g, "console")}
           </div>
         </div>
         <h3 class="mob-title">${esc(g.title.cn)}</h3>
@@ -434,7 +434,7 @@
           <div class="mob-head-r">
             ${isCross(g) ? `<span class="cross-tag">跨平台</span>` : ""}
             <span class="mob-date">${esc(fmtDate(g.announceDate))} 发表</span>
-            ${jpgBtn(g)}
+            ${jpgBtn(g, "mobile")}
           </div>
         </div>
         <h3 class="mob-title">${esc(g.title.cn)}</h3>
@@ -505,7 +505,7 @@
 
     box.innerHTML = list.map(mobileCardHTML).join("");
     empty.hidden = list.length > 0;
-    bindCards(box, list);
+    bindCards(box, list, "mobile");
   }
 
   /* ============================================================
@@ -557,7 +557,7 @@
     box.className = "mob-grid" + (state.view === "list" ? " compact" : "");
     box.innerHTML = list.map(consoleCardHTML).join("");
     empty.hidden = list.length > 0;
-    bindCards(box, list);
+    bindCards(box, list, "console");
   }
 
   /* ============================================================
@@ -722,7 +722,7 @@
   }
 
   /* 卡片事件：点卡片开抽屉，点「存为 JPG」导出该卡（需阻止冒泡，否则会同时开抽屉） */
-  function bindCards(box, list) {
+  function bindCards(box, list, kind) {
     const byId = {};
     (list || []).forEach(g => { byId[g.id] = g; });
     box.querySelectorAll(".mob-card").forEach(el => {
@@ -732,7 +732,8 @@
       b.addEventListener("click", e => {
         e.stopPropagation();
         const card = b.closest(".mob-card");
-        saveJpg(card, byId[b.dataset.jpg] || (card ? byId[card.dataset.id] : null), b);
+        const g = byId[b.dataset.jpg] || (card ? byId[card.dataset.id] : null);
+        saveJpg(g, b.dataset.kind || kind || "console", b);
       });
     });
   }
@@ -892,7 +893,7 @@
     document.body.style.overflow = "hidden";
     document.getElementById("drawerClose").addEventListener("click", closeDrawer);
     document.getElementById("drawerJpg").addEventListener("click", () =>
-      saveJpg(document.getElementById("drawerBody"), g));
+      saveJpg(g, "drawer", document.getElementById("drawerJpg")));
     document.getElementById("drawer").scrollTop = 0;
   }
 
@@ -903,83 +904,34 @@
   }
 
   /* ============================================================
-     卡片 / 详情 → JPG 导出（纯前端 · 零外部依赖）
-     思路：把节点的 computed style 全量内联进克隆节点 → 塞进
-     <svg><foreignObject> 渲染成图 → canvas 转 JPEG。
-     这样不依赖任何第三方库，外链样式表在 file:// 下读不到也没关系，
-     因为样式已经全部落到元素自己的 style 属性上。
+     卡片 / 详情 → JPG（Canvas 2D 直接绘制 · 零外部依赖）
+
+     ⚠️ 为什么不用「DOM → <svg><foreignObject> → <img> → canvas」：
+        把图片绘进 canvas 之后 Chrome 判定画布被污染，
+        toBlob() 直接抛 "Tainted canvases may not be exported"。
+        换句话说那条路在浏览器里根本走不通，不是配置问题。
+        改成自己用 Canvas 2D 逐笔画：没有图片来源，就不存在污染，
+        file:// 与线上（GitHub Pages）表现一致。
+
+     布局与绘制分离：layoutSheet() 只产出「画什么」的模型（纯函数，
+     可以在没有 canvas 的环境里用假测量函数单测），drawSheet() 才碰真实 canvas。
      ============================================================ */
-  const EXPORT_PROPS = [
-    "display", "position", "top", "right", "bottom", "left", "z-index",
-    "box-sizing", "width", "height", "min-width", "min-height", "max-width", "max-height",
-    "margin-top", "margin-right", "margin-bottom", "margin-left",
-    "padding-top", "padding-right", "padding-bottom", "padding-left",
-    "border-top-width", "border-right-width", "border-bottom-width", "border-left-width",
-    "border-top-style", "border-right-style", "border-bottom-style", "border-left-style",
-    "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
-    "border-top-left-radius", "border-top-right-radius",
-    "border-bottom-right-radius", "border-bottom-left-radius",
-    "background-color", "background-image", "background-size", "background-position", "background-repeat",
-    "color", "font-family", "font-size", "font-weight", "font-style", "line-height",
-    "letter-spacing", "text-align", "text-transform", "text-decoration-line", "text-indent",
-    "white-space", "word-break", "overflow-wrap", "vertical-align",
-    "list-style-type", "list-style-position",
-    "flex", "flex-direction", "flex-wrap", "justify-content", "align-items", "align-self", "align-content",
-    "gap", "row-gap", "column-gap", "order",
-    "grid-template-columns", "grid-template-rows", "grid-auto-flow", "grid-column", "grid-row",
-    "overflow", "overflow-x", "overflow-y", "text-overflow",
-    "box-shadow", "opacity", "transform", "transform-origin",
-    "-webkit-line-clamp", "-webkit-box-orient", "-webkit-box-pack", "-webkit-box-align",
-    "-webkit-text-fill-color"
-  ];
-
-  /* 把 src 的 computed style 逐节点抄到结构完全相同的 dst 上 */
-  function copyComputedStyles(src, dst) {
-    const cs = window.getComputedStyle(src);
-    let decl = "";
-    for (let i = 0; i < EXPORT_PROPS.length; i++) {
-      const v = cs.getPropertyValue(EXPORT_PROPS[i]);
-      if (v) decl += EXPORT_PROPS[i] + ":" + v + ";";
+  const SHEET = {
+    W: 900, PAD: 40, BOT: 30, PANEL_R: 16,
+    FONT: '"Segoe UI","Microsoft YaHei",Meiryo,sans-serif',
+    t: {
+      bg: "#0a0e15", panel: "#111722", soft: "#0d1119", track: "#151c29", line: "#1e2836",
+      text: "#e3ebf5", dim: "#93a2b8", faint: "#5d6c81",
+      teal: "#4dd4c0", hot: "#ff6b9d", warm: "#ffab5c", gold: "#ffd166",
+      blue: "#5b8cff", violet: "#a78bfa"
     }
-    dst.setAttribute("style", decl);
-    const sc = src.children, dc = dst.children;
-    for (let i = 0; i < sc.length && i < dc.length; i++) copyComputedStyles(sc[i], dc[i]);
-  }
-
-  /* 导出前清理：去掉交互控件，展开在页面上被截断的内容 */
-  function cleanForExport(root) {
-    root.querySelectorAll("button, .d-actions").forEach(el => el.remove());
-    root.querySelectorAll("[onclick]").forEach(el => el.removeAttribute("onclick"));
-    root.querySelectorAll(".mob-summary, .card-summary").forEach(el => {
-      el.style.setProperty("display", "block");
-      el.style.setProperty("overflow", "visible");
-      el.style.setProperty("-webkit-line-clamp", "unset");
-      el.style.setProperty("-webkit-box-orient", "initial");
-    });
-    root.querySelectorAll(".mob-blocks").forEach(el => el.style.setProperty("display", "grid"));
-    root.style.setProperty("cursor", "auto");
-    return root;
-  }
-
-  /* 导出图脚注：让图片自己带上出处与抓取日，脱离本站后仍可追溯 */
-  function exportFooter(g) {
-    const el = document.createElement("div");
-    el.setAttribute("style",
-      "margin-top:18px;padding-top:11px;border-top:1px solid #1e2836;"
-      + "font-family:'Segoe UI','Microsoft YaHei',Meiryo,sans-serif;"
-      + "font-size:10.5px;line-height:1.75;color:#5d6c81;");
-    el.textContent = "日本ゲーム観測台（每日自动巡检）　·　资料抓取日 " + (g.capturedAt || "—")
-      + "　·　发表 / 更新日 " + (g.announceDate || "—")
-      + "　·　期待度 " + (g.hype ? g.hype.score : "—") + "/100"
-      + "　·　来源：" + (((g.news || [])[0] || {}).source || "—")
-      + "　·　期待度为公开信号定性评估，非平台真实流量数据";
-    return el;
-  }
+  };
+  const SF = (size, weight) => (weight || 400) + " " + size + "px " + SHEET.FONT;
 
   function jpgFilename(g) {
     const t = (g.title && (g.title.cn || g.title.jp)) || g.id || "card";
-    const base = (g.company || "") + "_" + t;
-    const safe = String(base).replace(/[\\/:*?"<>|]+/g, "_").replace(/\s+/g, " ").trim().slice(0, 78);
+    const safe = String((g.company || "") + "_" + t)
+      .replace(/[\\/:*?"<>|]+/g, "_").replace(/\s+/g, " ").trim().slice(0, 78);
     return "观测台_" + safe + "_" + (g.capturedAt || "") + ".jpg";
   }
 
@@ -987,128 +939,401 @@
     const el = document.createElement("div");
     el.setAttribute("style",
       "position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:200;"
-      + "padding:10px 18px;border-radius:10px;font-size:12.5px;line-height:1.65;max-width:min(600px,88vw);"
+      + "padding:10px 18px;border-radius:10px;font-size:12.5px;line-height:1.65;max-width:min(620px,88vw);"
       + "background:" + (ok ? "rgba(77,212,192,.14)" : "rgba(255,92,122,.16)") + ";"
       + "border:1px solid " + (ok ? "rgba(77,212,192,.45)" : "rgba(255,92,122,.5)") + ";"
       + "color:" + (ok ? "#4dd4c0" : "#ff8fa3") + ";"
-      + "font-family:'Segoe UI','Microsoft YaHei',Meiryo,sans-serif;box-shadow:0 12px 34px rgba(0,0,0,.5);");
+      + "font-family:" + SHEET.FONT + ";box-shadow:0 12px 34px rgba(0,0,0,.5);");
     el.textContent = msg;
     document.body.appendChild(el);
-    setTimeout(() => el.remove(), ok ? 2800 : 9000);
+    setTimeout(() => el.remove(), ok ? 3000 : 9000);
   }
 
-  /* 把节点序列化成一张自包含的 SVG（样式已全部内联），纯函数便于测试 */
-  function buildExportSvg(node, g) {
-    const clone = node.cloneNode(true);
-    copyComputedStyles(node, clone);
-    cleanForExport(clone);
-    clone.appendChild(exportFooter(g));
+  /* ---------- 文本度量与折行 ---------- */
+  /* 没有 canvas 的环境（jsdom 冒烟测试）用的兜底度量：中日文按 1 em，其余 0.55 em */
+  function fallbackMeasure(text, font) {
+    const m = String(font).match(/([\d.]+)px/);
+    const size = m ? parseFloat(m[1]) : 14;
+    let w = 0;
+    for (const ch of String(text)) w += /[\u2E80-\u9FFF\uFF00-\uFFEF]/.test(ch) ? size : size * 0.55;
+    return w;
+  }
 
-    const w = Math.ceil(node.getBoundingClientRect().width) || 620;
-    const wrap = document.createElement("div");
-    wrap.setAttribute("style", "position:fixed;left:-30000px;top:0;z-index:-1;pointer-events:none;");
-    const host = document.createElement("div");
-    host.setAttribute("style",
-      "box-sizing:border-box;width:" + (w + 48) + "px;padding:24px;background:#0a0e15;");
-    host.appendChild(clone);
-    wrap.appendChild(host);
-    document.body.appendChild(wrap);
+  /* 折行：中日文逐字断，行首避头点 */
+  const NO_HEAD = "）』」】》〉”’、。，．：；！？!?,:;%…ー～";
+  function wrapText(s, maxw, font, measure) {
+    const src = String(s == null ? "" : s);
+    const lines = [];
+    let line = "";
+    for (let i = 0; i < src.length; i++) {
+      const ch = src.charAt(i);
+      if (ch === "\n") { lines.push(line); line = ""; continue; }
+      if (line && measure(line + ch, font) > maxw) {
+        if (NO_HEAD.indexOf(ch) >= 0 && line.length > 1) {
+          lines.push(line.slice(0, -1));
+          line = line.slice(-1) + ch;
+        } else { lines.push(line); line = ch; }
+      } else line += ch;
+    }
+    if (line || !lines.length) lines.push(line);
+    return lines;
+  }
 
-    let W, H, xml;
-    try {
-      /* 这里两个 || 只在「没有排版引擎」的环境（如 jsdom 冒烟测试）里兜底；
-         真实浏览器一定拿得到真实尺寸，不会走到兜底分支 */
-      W = Math.ceil(host.getBoundingClientRect().width) || (w + 48);
-      H = Math.ceil(host.getBoundingClientRect().height) || Math.round((w + 48) * 1.6);
-      /* 注意：不要再手动 setAttribute("xmlns", ...)。
-         host 是 HTML 文档里创建的 div，本身就在 XHTML 命名空间内，
-         XMLSerializer 序列化时**已经**会带上 xmlns，
-         手动再加一个会变成重复属性 → SVG 非法 → 浏览器加载失败。 */
-      xml = new XMLSerializer().serializeToString(host);
-    } finally {
-      if (wrap.parentNode) wrap.parentNode.removeChild(wrap);
+  /* 单行放不下：先降字号（30 → 10），仍放不下再截断加省略号 */
+  function fitLine(s, maxw, size, weight, measure) {
+    let text = String(s == null ? "" : s);
+    for (let sz = size; sz >= 10; sz -= 0.5) {
+      const f = SF(sz, weight);
+      if (measure(text, f) <= maxw) return { s: text, font: f };
+    }
+    const f = SF(10, weight);
+    while (text.length > 1 && measure(text + "…", f) > maxw) text = text.slice(0, -1);
+    return { s: text + "…", font: f };
+  }
+
+  /* ---------- 两套规格（与卡片 / 抽屉同标签） ---------- */
+  /* 手游侧兜底链与 mobileCardHTML 一致；字段为空则该行不出现——
+     不写「未発表」占位，避免把「我们还没查到」伪装成「官方尚未发表」。 */
+  function mobileSpecOf(g) {
+    const m = g.mobile || {};
+    return {
+      status: m.status || g.release,
+      os: m.os || g.platforms || [],
+      monetization: m.monetization,
+      developer: m.developer || g.company,
+      publisher: m.publisher,
+      region: m.region,
+      distribution: m.distribution,
+      payment: m.payment || [],
+      ipSource: m.ipSource,
+      series: m.series,
+      features: m.features || [],
+      synopsis: m.synopsis || "",
+      cast: m.cast || g.voice
+    };
+  }
+
+  /* kind 决定出哪一套：
+     mobile  → 只出手游规格（与手游卡恒定出行一致）
+     console → 只出主机规格（与主机卡恒定出行一致）
+     drawer  → 有哪套出哪套（与 openDrawer 的 if (g.mobile) / if (g.console) 一致） */
+  function sheetSpecGroups(g, kind) {
+    const out = [];
+    if (kind === "mobile" || (kind === "drawer" && g.mobile)) {
+      const m = mobileSpecOf(g);
+      const rows = [
+        ["配信状況", m.status],
+        ["対応OS", (m.os || []).join(" ／ ")],
+        ["課金形態", m.monetization],
+        ["開発 / 配信", [...new Set([m.developer, m.publisher].filter(Boolean))].join(" ／ ")],
+        ["配信地域", m.region],
+        ["配信方式", m.distribution],
+        ["決済手段", (m.payment || []).join(" ／ ")],
+        ["IP 出处", m.ipSource],
+        ["系列背景", m.series],
+        ["ジャンル", g.genre]
+      ];
+      if (isCross(g)) rows.splice(1, 0, ["全平台", (g.platforms || []).join(" ／ ")]);
+      out.push({ kind: "mobile", title: "手游情报 · Mobile Spec", rows: rows.filter(r => r[1]) });
+    }
+    if (kind === "console" || (kind === "drawer" && g.console)) {
+      const c = consoleSpecOf(g);
+      out.push({ kind: "console", title: "主机・PC 情报 · Console Spec", rows: [
+        ["発売状況", c.status],
+        ["対応機種", (c.os || []).join(" ／ ")],
+        ["販売形態 / 価格", c.monetization],
+        ["開発 / 発売", [...new Set([c.developer, c.publisher].filter(Boolean))].join(" ／ ")],
+        ["発売区域", c.region],
+        ["流通方式", c.distribution],
+        ["対応ストア", c.stores.join(" ／ ")],
+        ["ジャンル", g.genre],
+        ["IP 出处", c.ipSource],
+        ["系列背景", c.series]
+      ].filter(r => r[1]) });
+    }
+    return out;
+  }
+
+  /* ---------- 布局（纯数据模型，不碰 canvas） ---------- */
+  function layoutSheet(g, kind, measure) {
+    const T = SHEET.t, W = SHEET.W, PAD = SHEET.PAD;
+    const x0 = PAD + 30, iw = W - (PAD + 30) * 2, xr = W - PAD - 30;
+    const co = colorOf(g.company);
+    const hs = hypeColor(g.hype ? g.hype.score : 0);
+    const M = { w: W, h: 0, bg: T.bg, rects: [], texts: [], rules: [], bars: [] };
+    const put = (x, y, s, font, color, align) =>
+      M.texts.push({ x: x, y: y, s: s, font: font, color: color, align: align || "left" });
+    const fit = (x, y, s, size, weight, color, maxw, align) => {
+      const r = fitLine(s, maxw, size, weight, measure);
+      put(x, y, r.s, r.font, color, align);
+    };
+    let y = PAD + 40;
+
+    // ① 顶栏：厂商 + 分区·发表日
+    fit(x0, y, String(g.company || "").toUpperCase(), 13, 700, co, iw * 0.55);
+    fit(xr, y + 1, (g.bucket === "new" ? "新作发表" : "定档/进展") + " · " + (g.announceDate || "—"),
+        12, 600, T.faint, iw * 0.42, "right");
+    y += 34;
+
+    // ② 标题
+    fit(x0, y, g.title.cn || g.title.jp || g.id, 30, 700, T.text, iw);
+    y += 42;
+    const sub = [g.title.jp, (g.title.en && g.title.en !== g.title.jp && g.title.en !== g.title.cn) ? g.title.en : ""]
+      .filter(Boolean).join(" ／ ");
+    if (sub) { fit(x0, y, sub, 15, 400, T.faint, iw); y += 24; }
+
+    // ③ 徽章行：类型 / 平台 / 发售日（自动换行）
+    y += 12;
+    (function chips() {
+      const list = [{ s: g.genre, k: "g" }]
+        .concat(normPlatforms(g).map(p => ({ s: p, k: "plat" })))
+        .concat([{ s: "发售 " + (g.release || "—"), k: "date" }])
+        .filter(c => c.s);
+      let cx = x0, cy = y;
+      list.forEach(c => {
+        const f = SF(12.5, 500);
+        const cw = measure(c.s, f) + 22;
+        if (cx > x0 && cx + cw > x0 + iw) { cx = x0; cy += 34; }
+        M.rects.push({ x: cx, y: cy, w: cw, h: 26, r: 7, fill: T.soft,
+                       stroke: c.k === "plat" ? "rgba(91,140,255,.34)" : c.k === "date" ? "rgba(77,212,192,.34)" : T.line });
+        put(cx + 11, cy + 6.5, c.s, f, c.k === "plat" ? T.blue : c.k === "date" ? T.teal : T.dim);
+        cx += cw + 8;
+      });
+      y = cy + 26;
+    })();
+
+    // ④ 规格网格（3 列 × 若干行）
+    sheetSpecGroups(g, kind).forEach(gr => {
+      y += 22;
+      put(x0, y, gr.title, SF(11.5, 700), gr.kind === "mobile" ? T.hot : T.violet);
+      y += 19;
+      M.rules.push({ x: x0, y: y, w: iw });
+      y += 13;
+      const cols = 3, gap = 12, cw = (iw - gap * (cols - 1)) / cols, chh = 58;
+      gr.rows.forEach((r, i) => {
+        const cx = x0 + (i % cols) * (cw + gap);
+        const cy = y + Math.floor(i / cols) * (chh + gap);
+        M.rects.push({ x: cx, y: cy, w: cw, h: chh, r: 9, fill: T.soft, stroke: T.line });
+        const kf = fitLine(r[0], cw - 26, 10.5, 400, measure);
+        const vf = fitLine(r[1], cw - 26, 13, 500, measure);
+        put(cx + 13, cy + 11, kf.s, kf.font, T.faint);
+        put(cx + 13, cy + 30, vf.s, vf.font, T.text);
+      });
+      y += Math.ceil(gr.rows.length / cols) * (chh + gap) - gap;
+    });
+
+    // ⑤ 事前登录 / 预约特典
+    const pre = (g.mobile && g.mobile.preReg && g.mobile.preReg.open) ? { d: g.mobile.preReg, badge: "事前登録受付中" }
+              : (g.console && g.console.preOrder && g.console.preOrder.open) ? { d: g.console.preOrder, badge: "予約受付中" }
+              : null;
+    if (pre) {
+      const lines = String(pre.d.reward || "").trim() ? wrapText(pre.d.reward, iw - 32, SF(13), measure) : [];
+      const bh = 44 + (lines.length ? lines.length * 22 + 10 : 0);
+      y += 20;
+      M.rects.push({ x: x0, y: y, w: iw, h: bh, r: 10, fill: "rgba(77,212,192,.07)", stroke: "rgba(77,212,192,.34)" });
+      put(x0 + 16, y + 13, pre.badge, SF(13, 700), T.teal);
+      if (pre.d.since) put(xr - 16, y + 14, pre.d.since + " 開始", SF(11), T.faint, "right");
+      lines.forEach((ln, i) => put(x0 + 16, y + 42 + i * 22, ln, SF(13), T.dim));
+      y += bh;
     }
 
-    const svg = '<svg xmlns="http://www.w3.org/2000/svg" width="' + W + '" height="' + H
-      + '" viewBox="0 0 ' + W + ' ' + H + '">'
-      + '<foreignObject x="0" y="0" width="' + W + '" height="' + H + '">'
-      + xml + '</foreignObject></svg>';
-    return { W: W, H: H, xml: xml, svg: svg };
+    // ⑥ 内容摘要（完整，不截断）
+    y += 24;
+    put(x0, y, "内容摘要", SF(11.5, 700), T.faint);
+    y += 22;
+    const sumF = SF(15), sumLines = wrapText(g.summary || "", iw, sumF, measure);
+    sumLines.forEach((ln, i) => put(x0, y + i * 27, ln, sumF, T.dim));
+    y += sumLines.length * 27;
+
+    // ⑦ 要点
+    if (g.highlight) {
+      const hf = SF(13.5), hl = wrapText(g.highlight, iw - 30, hf, measure);
+      const hh = hl.length * 23 + 22;
+      y += 16;
+      M.rects.push({ x: x0, y: y, w: iw, h: hh, r: 0, fill: "rgba(167,139,250,.08)" });
+      M.rects.push({ x: x0, y: y, w: 3, h: hh, r: 0, fill: "rgba(167,139,250,.6)" });
+      hl.forEach((ln, i) => put(x0 + 16, y + 11 + i * 23, ln, hf, T.dim));
+      y += hh;
+    }
+
+    // ⑧ 情报区块。卡片导出只用本区那一套；抽屉两套都看，先有先取。
+    const SRC = kind === "mobile" ? [mobileSpecOf(g)]
+              : kind === "console" ? [consoleSpecOf(g)]
+              : [mobileSpecOf(g), consoleSpecOf(g)];
+    const pick = (k) => {
+      for (const o of SRC) { const v = o[k]; if (Array.isArray(v) ? v.length : v) return v; }
+      return Array.isArray(SRC[0][k]) ? [] : "";
+    };
+    const blocks = [];
+    const feats = pick("features");
+    if (feats.length) blocks.push({ t: "玩法特征", list: feats });
+    if (pick("synopsis")) blocks.push({ t: "世界观 / 故事", text: pick("synopsis") });
+    if (pick("cast")) blocks.push({ t: "CV 阵容 / 角色配音", text: pick("cast") });
+    const ipTxt = [pick("ipSource"), pick("series")].filter(Boolean).join("　·　");
+    if (ipTxt) blocks.push({ t: "IP / 系列背景", text: ipTxt });
+    blocks.forEach(b => {
+      y += 24;
+      put(x0, y, b.t, SF(11.5, 700), T.faint);
+      y += 18;
+      M.rules.push({ x: x0, y: y, w: iw });
+      y += 13;
+      const bf = SF(13.5);
+      if (b.list) {
+        b.list.forEach(it => {
+          const lines = wrapText(it, iw - 18, bf, measure);
+          put(x0, y + 1, "·", SF(13.5, 700), T.teal);
+          lines.forEach((ln, i) => put(x0 + 18, y + i * 23, ln, bf, T.dim));
+          y += lines.length * 23 + 7;
+        });
+      } else {
+        const lines = wrapText(b.text, iw, bf, measure);
+        lines.forEach((ln, i) => put(x0, y + i * 23, ln, bf, T.dim));
+        y += lines.length * 23;
+      }
+    });
+
+    // ⑨ 期待度
+    y += 26;
+    M.rules.push({ x: x0, y: y, w: iw });
+    y += 15;
+    put(x0, y + 3, "全球舆论期待度", SF(11.5, 700), T.faint);
+    put(xr, y, String((g.hype || {}).score) + " / 100", SF(19, 700), hs, "right");
+    y += 32;
+    const score = Math.max(0, Math.min(100, (g.hype || {}).score || 0));
+    M.bars.push({ x: x0, y: y, w: iw, h: 6, r: 3, fill: T.track });
+    M.bars.push({ x: x0, y: y, w: iw * score / 100, h: 6, r: 3, fill: hs });
+
+    // ⑩ 脚注（出处与口径）
+    y += 30;
+    M.rules.push({ x: x0, y: y, w: iw });
+    y += 13;
+    const srcs = (g.news || []).slice(0, 3).map(n => n.source).join("　·　");
+    const vids = (g.videos || []).slice(0, 4).map(v => v.platform).join(" / ");
+    [
+      "日本ゲーム観測台（每日自动巡检）　·　资料抓取日 " + (g.capturedAt || "—") + "　·　发表 / 更新日 " + (g.announceDate || "—"),
+      "来源：" + (srcs || "—") + (vids ? "　·　影像 / 官方渠道：" + vids : ""),
+      "期待度为公开信号定性综合评估（日本侧期待榜 / 全球媒体覆盖 / 社媒与预告片声量），非平台真实流量数据。"
+    ].forEach(line => {
+      const ls = wrapText(line, iw, SF(11.5), measure);
+      ls.forEach((ln, i) => put(x0, y + i * 19, ln, SF(11.5), T.faint));
+      y += ls.length * 19 + 5;
+    });
+
+    // ⑪ 面板与顶部色条：垫在最底层，必须插到内容前面
+    const panelH = y - PAD + 34;
+    M.rects.splice(0, 0, { x: PAD, y: PAD, w: W - PAD * 2, h: panelH, r: SHEET.PANEL_R, fill: T.panel, stroke: T.line });
+    M.rects.splice(1, 0, { x: PAD + 16, y: PAD + 1, w: W - PAD * 2 - 32, h: 6, r: 3, fill: co });
+    M.h = PAD + panelH + SHEET.BOT;
+    return M;
   }
 
-  function saveJpg(node, g, btn) {
-    if (!node || !g) { toast("导出失败：找不到要导出的卡片", false); return; }
+  /* ---------- 绘制 ---------- */
+  function drawSheet(cv, M, scale) {
+    const ctx = cv.getContext("2d");
+    if (!ctx) throw new Error("当前环境不支持 Canvas 2D");
+    if (typeof ctx.setTransform !== "function" || typeof cv.toBlob !== "function") {
+      throw new Error("当前环境不支持 Canvas 导出");
+    }
+    cv.width = Math.round(M.w * scale);
+    cv.height = Math.round(M.h * scale);
+    ctx.setTransform(scale, 0, 0, scale, 0, 0);
+    ctx.fillStyle = M.bg;
+    ctx.fillRect(0, 0, M.w, M.h);
+
+    // 圆角路径：优先用原生 roundRect，老浏览器手搓（四角二次贝塞尔）
+    const path = (o) => {
+      ctx.beginPath();
+      const r = Math.min(o.r || 0, Math.abs(o.w) / 2, Math.abs(o.h) / 2);
+      if (typeof ctx.roundRect === "function") { ctx.roundRect(o.x, o.y, o.w, o.h, r); }
+      else if (r > 0) {
+        ctx.moveTo(o.x + r, o.y);
+        ctx.lineTo(o.x + o.w - r, o.y); ctx.quadraticCurveTo(o.x + o.w, o.y, o.x + o.w, o.y + r);
+        ctx.lineTo(o.x + o.w, o.y + o.h - r); ctx.quadraticCurveTo(o.x + o.w, o.y + o.h, o.x + o.w - r, o.y + o.h);
+        ctx.lineTo(o.x + r, o.y + o.h); ctx.quadraticCurveTo(o.x, o.y + o.h, o.x, o.y + o.h - r);
+        ctx.lineTo(o.x, o.y + r); ctx.quadraticCurveTo(o.x, o.y, o.x + r, o.y);
+      } else { ctx.rect(o.x, o.y, o.w, o.h); }
+      ctx.closePath();
+    };
+    M.rects.forEach(o => {
+      path(o);
+      if (o.fill) { ctx.fillStyle = o.fill; ctx.fill(); }
+      if (o.stroke) { ctx.lineWidth = 1; ctx.strokeStyle = o.stroke; ctx.stroke(); }
+    });
+    M.rules.forEach(o => {
+      ctx.beginPath();
+      ctx.moveTo(o.x, Math.round(o.y) + 0.5);
+      ctx.lineTo(o.x + o.w, Math.round(o.y) + 0.5);
+      ctx.lineWidth = 1;
+      ctx.strokeStyle = SHEET.t.line;
+      ctx.stroke();
+    });
+    M.bars.forEach(o => { path(o); ctx.fillStyle = o.fill; ctx.fill(); });
+
+    ctx.textBaseline = "top";
+    M.texts.forEach(o => {
+      ctx.font = o.font;
+      ctx.fillStyle = o.color;
+      ctx.textAlign = o.align || "left";
+      ctx.fillText(o.s, o.x, o.y);
+    });
+    ctx.textAlign = "left";
+  }
+
+  /* ---------- 主流程 ---------- */
+  function saveJpg(g, kind, btn) {
+    if (!g) { toast("导出失败：找不到要导出的条目", false); return; }
     const label = btn ? btn.textContent : "";
     if (btn) { btn.disabled = true; btn.textContent = "生成中…"; }
     const restore = () => { if (btn) { btn.disabled = false; btn.textContent = label; } };
 
-    let built;
     try {
-      built = buildExportSvg(node, g);
-    } catch (e) {
-      restore();
-      toast("导出失败：" + e.message, false);
-      return;
-    }
-    const W = built.W, H = built.H;
+      // 量文本用一个离屏 2D 上下文；没有 canvas 的环境退回估宽
+      const scratch = document.createElement("canvas").getContext("2d");
+      const measure = scratch
+        ? (t, f) => { scratch.font = f; return scratch.measureText(String(t)).width; }
+        : fallbackMeasure;
 
-    let url;
-    try {
-      url = URL.createObjectURL(new Blob([built.svg], { type: "image/svg+xml;charset=utf-8" }));
-      const img = new Image();
+      const M = layoutSheet(g, kind, measure);
+      // 2 倍高清；万一卡片特别长，降倍率保证不超过浏览器画布上限
+      let scale = 2;
+      while (scale > 1 && M.h * scale > 12000) scale -= 0.25;
 
-      img.onload = () => {
-        try {
-          let scale = 2;
-          while (scale > 1 && H * scale > 12000) scale -= 0.25;
-          const cv = document.createElement("canvas");
-          cv.width = Math.round(W * scale);
-          cv.height = Math.round(H * scale);
-          const ctx = cv.getContext("2d");
-          ctx.fillStyle = "#0a0e15";
-          ctx.fillRect(0, 0, cv.width, cv.height);
-          ctx.setTransform(scale, 0, 0, scale, 0, 0);
-          ctx.drawImage(img, 0, 0, W, H);
-          URL.revokeObjectURL(url);
+      const cv = document.createElement("canvas");
+      drawSheet(cv, M, scale);
 
-          cv.toBlob(blob => {
-            restore();
-            if (!blob) { toast("导出失败：图片编码失败，请换用线上地址重试", false); return; }
-            const dl = URL.createObjectURL(blob);
-            const a = document.createElement("a");
-            a.href = dl;
-            a.download = jpgFilename(g);
-            document.body.appendChild(a);
-            a.click();
-            a.remove();
-            setTimeout(() => URL.revokeObjectURL(dl), 5000);
-            toast("已保存 " + jpgFilename(g) + "（" + cv.width + "×" + cv.height + "）", true);
-          }, "image/jpeg", 0.93);
-        } catch (e) {
-          restore();
-          URL.revokeObjectURL(url);
-          toast("导出失败：" + e.message + "　请用线上地址（GitHub Pages）打开后重试", false);
-        }
-      };
-      img.onerror = () => {
+      cv.toBlob(blob => {
         restore();
-        URL.revokeObjectURL(url);
-        toast("导出失败：浏览器未能渲染该卡片，请换用线上地址重试", false);
-      };
-      img.src = url;
+        if (!blob) { toast("导出失败：图片编码失败", false); return; }
+        const name = jpgFilename(g);
+        const dl = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = dl;
+        a.download = name;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(dl), 5000);
+        toast("已保存 " + name + "（" + cv.width + " × " + cv.height + "）", true);
+      }, "image/jpeg", 0.93);
     } catch (e) {
       restore();
       toast("导出失败：" + e.message, false);
     }
   }
 
-  /* 导出链路的纯函数入口。真实浏览器里走上面的 saveJpg，
-     冒烟测试用这里校验「序列化出来的 SVG 是不是合法 XML」——
-     这一步是整条链路最容易静默失败的地方。 */
+  /* 供冒烟测试调用：布局是纯函数，没有 canvas 也能验；
+     drawSheet 一并暴露，便于用真实 canvas（如 @napi-rs/canvas）跑一遍绘制 */
   window.__observatoryExport = {
-    buildExportSvg: buildExportSvg,
+    layoutSheet: layoutSheet,
+    drawSheet: drawSheet,
+    sheetSpecGroups: sheetSpecGroups,
+    mobileSpecOf: mobileSpecOf,
+    wrapText: wrapText,
+    fitLine: fitLine,
     jpgFilename: jpgFilename,
-    cleanForExport: cleanForExport
+    fallbackMeasure: fallbackMeasure,
+    SHEET: SHEET,
+    SF: SF
   };
 
   /* ============================================================
