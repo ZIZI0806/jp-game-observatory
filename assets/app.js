@@ -204,7 +204,7 @@
       `<a class="link-btn ${linkClass(v.platform)}" href="${esc(v.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(v.platform)}</a>`).join("");
     const nw = (g.news || [])[0];
     const nws = nw ? `<a class="link-btn news" href="${esc(nw.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">新闻原文</a>` : "";
-    return `${vids}${nws}<span class="foot-spacer"></span><button class="more-btn">详情 +</button>`;
+    return `${vids}${nws}<span class="foot-spacer"></span><button class="more-btn">详情 +</button><button class="jpg-btn" data-jpg="${esc(g.id)}" title="把这张卡片另存为 JPG 图片">存为 JPG</button>`;
   }
 
   function consoleCardHTML(g) {
@@ -494,9 +494,7 @@
 
     box.innerHTML = list.map(mobileCardHTML).join("");
     empty.hidden = list.length > 0;
-    box.querySelectorAll(".mob-card").forEach(el => {
-      el.addEventListener("click", () => openDrawer(el.dataset.id));
-    });
+    bindCards(box, list);
   }
 
   /* ============================================================
@@ -548,9 +546,7 @@
     box.className = "mob-grid" + (state.view === "list" ? " compact" : "");
     box.innerHTML = list.map(consoleCardHTML).join("");
     empty.hidden = list.length > 0;
-    box.querySelectorAll(".mob-card").forEach(el => {
-      el.addEventListener("click", () => openDrawer(el.dataset.id));
-    });
+    bindCards(box, list);
   }
 
   /* ============================================================
@@ -714,6 +710,22 @@
       </div>`;
   }
 
+  /* 卡片事件：点卡片开抽屉，点「存为 JPG」导出该卡（需阻止冒泡，否则会同时开抽屉） */
+  function bindCards(box, list) {
+    const byId = {};
+    (list || []).forEach(g => { byId[g.id] = g; });
+    box.querySelectorAll(".mob-card").forEach(el => {
+      el.addEventListener("click", () => openDrawer(el.dataset.id));
+    });
+    box.querySelectorAll(".jpg-btn").forEach(b => {
+      b.addEventListener("click", e => {
+        e.stopPropagation();
+        const card = b.closest(".mob-card");
+        saveJpg(card, byId[b.dataset.jpg] || (card ? byId[card.dataset.id] : null), b);
+      });
+    });
+  }
+
   /* ============================================================
      抽屉详情
      ============================================================ */
@@ -798,9 +810,12 @@
 
     document.getElementById("drawer").innerHTML = `
       <button class="drawer-close" id="drawerClose">✕</button>
+      <div class="d-inner" id="drawerBody">
       <div class="d-company" style="--co:${co};color:${co}">${esc(g.company)}</div>
       <h2>${esc(g.title.cn)}</h2>
       <div class="d-en">${esc(g.title.jp)}${g.title.en && g.title.en !== g.title.jp ? " ／ " + esc(g.title.en) : ""}</div>
+
+      <div class="d-actions"><button class="jpg-btn" id="drawerJpg" title="把这份详情另存为 JPG 图片">存为 JPG</button></div>
 
       <div class="d-section">
         <h4>基本信息</h4>
@@ -858,12 +873,15 @@
       <div class="d-section">
         <h4>标签</h4>
         <div class="card-meta">${(g.tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+      </div>
       </div>`;
 
     document.getElementById("drawer").hidden = false;
     document.getElementById("drawerMask").hidden = false;
     document.body.style.overflow = "hidden";
     document.getElementById("drawerClose").addEventListener("click", closeDrawer);
+    document.getElementById("drawerJpg").addEventListener("click", () =>
+      saveJpg(document.getElementById("drawerBody"), g));
     document.getElementById("drawer").scrollTop = 0;
   }
 
@@ -872,6 +890,215 @@
     document.getElementById("drawerMask").hidden = true;
     document.body.style.overflow = "";
   }
+
+  /* ============================================================
+     卡片 / 详情 → JPG 导出（纯前端 · 零外部依赖）
+     思路：把节点的 computed style 全量内联进克隆节点 → 塞进
+     <svg><foreignObject> 渲染成图 → canvas 转 JPEG。
+     这样不依赖任何第三方库，外链样式表在 file:// 下读不到也没关系，
+     因为样式已经全部落到元素自己的 style 属性上。
+     ============================================================ */
+  const EXPORT_PROPS = [
+    "display", "position", "top", "right", "bottom", "left", "z-index",
+    "box-sizing", "width", "height", "min-width", "min-height", "max-width", "max-height",
+    "margin-top", "margin-right", "margin-bottom", "margin-left",
+    "padding-top", "padding-right", "padding-bottom", "padding-left",
+    "border-top-width", "border-right-width", "border-bottom-width", "border-left-width",
+    "border-top-style", "border-right-style", "border-bottom-style", "border-left-style",
+    "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
+    "border-top-left-radius", "border-top-right-radius",
+    "border-bottom-right-radius", "border-bottom-left-radius",
+    "background-color", "background-image", "background-size", "background-position", "background-repeat",
+    "color", "font-family", "font-size", "font-weight", "font-style", "line-height",
+    "letter-spacing", "text-align", "text-transform", "text-decoration-line", "text-indent",
+    "white-space", "word-break", "overflow-wrap", "vertical-align",
+    "list-style-type", "list-style-position",
+    "flex", "flex-direction", "flex-wrap", "justify-content", "align-items", "align-self", "align-content",
+    "gap", "row-gap", "column-gap", "order",
+    "grid-template-columns", "grid-template-rows", "grid-auto-flow", "grid-column", "grid-row",
+    "overflow", "overflow-x", "overflow-y", "text-overflow",
+    "box-shadow", "opacity", "transform", "transform-origin",
+    "-webkit-line-clamp", "-webkit-box-orient", "-webkit-box-pack", "-webkit-box-align",
+    "-webkit-text-fill-color"
+  ];
+
+  /* 把 src 的 computed style 逐节点抄到结构完全相同的 dst 上 */
+  function copyComputedStyles(src, dst) {
+    const cs = window.getComputedStyle(src);
+    let decl = "";
+    for (let i = 0; i < EXPORT_PROPS.length; i++) {
+      const v = cs.getPropertyValue(EXPORT_PROPS[i]);
+      if (v) decl += EXPORT_PROPS[i] + ":" + v + ";";
+    }
+    dst.setAttribute("style", decl);
+    const sc = src.children, dc = dst.children;
+    for (let i = 0; i < sc.length && i < dc.length; i++) copyComputedStyles(sc[i], dc[i]);
+  }
+
+  /* 导出前清理：去掉交互控件，展开在页面上被截断的内容 */
+  function cleanForExport(root) {
+    root.querySelectorAll("button, .d-actions").forEach(el => el.remove());
+    root.querySelectorAll("[onclick]").forEach(el => el.removeAttribute("onclick"));
+    root.querySelectorAll(".mob-summary, .card-summary").forEach(el => {
+      el.style.setProperty("display", "block");
+      el.style.setProperty("overflow", "visible");
+      el.style.setProperty("-webkit-line-clamp", "unset");
+      el.style.setProperty("-webkit-box-orient", "initial");
+    });
+    root.querySelectorAll(".mob-blocks").forEach(el => el.style.setProperty("display", "grid"));
+    root.style.setProperty("cursor", "auto");
+    return root;
+  }
+
+  /* 导出图脚注：让图片自己带上出处与抓取日，脱离本站后仍可追溯 */
+  function exportFooter(g) {
+    const el = document.createElement("div");
+    el.setAttribute("style",
+      "margin-top:18px;padding-top:11px;border-top:1px solid #1e2836;"
+      + "font-family:'Segoe UI','Microsoft YaHei',Meiryo,sans-serif;"
+      + "font-size:10.5px;line-height:1.75;color:#5d6c81;");
+    el.textContent = "日本ゲーム観測台（每日自动巡检）　·　资料抓取日 " + (g.capturedAt || "—")
+      + "　·　发表 / 更新日 " + (g.announceDate || "—")
+      + "　·　期待度 " + (g.hype ? g.hype.score : "—") + "/100"
+      + "　·　来源：" + (((g.news || [])[0] || {}).source || "—")
+      + "　·　期待度为公开信号定性评估，非平台真实流量数据";
+    return el;
+  }
+
+  function jpgFilename(g) {
+    const t = (g.title && (g.title.cn || g.title.jp)) || g.id || "card";
+    const base = (g.company || "") + "_" + t;
+    const safe = String(base).replace(/[\\/:*?"<>|]+/g, "_").replace(/\s+/g, " ").trim().slice(0, 78);
+    return "观测台_" + safe + "_" + (g.capturedAt || "") + ".jpg";
+  }
+
+  function toast(msg, ok) {
+    const el = document.createElement("div");
+    el.setAttribute("style",
+      "position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:200;"
+      + "padding:10px 18px;border-radius:10px;font-size:12.5px;line-height:1.65;max-width:min(600px,88vw);"
+      + "background:" + (ok ? "rgba(77,212,192,.14)" : "rgba(255,92,122,.16)") + ";"
+      + "border:1px solid " + (ok ? "rgba(77,212,192,.45)" : "rgba(255,92,122,.5)") + ";"
+      + "color:" + (ok ? "#4dd4c0" : "#ff8fa3") + ";"
+      + "font-family:'Segoe UI','Microsoft YaHei',Meiryo,sans-serif;box-shadow:0 12px 34px rgba(0,0,0,.5);");
+    el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), ok ? 2800 : 9000);
+  }
+
+  /* 把节点序列化成一张自包含的 SVG（样式已全部内联），纯函数便于测试 */
+  function buildExportSvg(node, g) {
+    const clone = node.cloneNode(true);
+    copyComputedStyles(node, clone);
+    cleanForExport(clone);
+    clone.appendChild(exportFooter(g));
+
+    const w = Math.ceil(node.getBoundingClientRect().width) || 620;
+    const wrap = document.createElement("div");
+    wrap.setAttribute("style", "position:fixed;left:-30000px;top:0;z-index:-1;pointer-events:none;");
+    const host = document.createElement("div");
+    host.setAttribute("style",
+      "box-sizing:border-box;width:" + (w + 48) + "px;padding:24px;background:#0a0e15;");
+    host.appendChild(clone);
+    wrap.appendChild(host);
+    document.body.appendChild(wrap);
+
+    let W, H, xml;
+    try {
+      /* 这里两个 || 只在「没有排版引擎」的环境（如 jsdom 冒烟测试）里兜底；
+         真实浏览器一定拿得到真实尺寸，不会走到兜底分支 */
+      W = Math.ceil(host.getBoundingClientRect().width) || (w + 48);
+      H = Math.ceil(host.getBoundingClientRect().height) || Math.round((w + 48) * 1.6);
+      /* 注意：不要再手动 setAttribute("xmlns", ...)。
+         host 是 HTML 文档里创建的 div，本身就在 XHTML 命名空间内，
+         XMLSerializer 序列化时**已经**会带上 xmlns，
+         手动再加一个会变成重复属性 → SVG 非法 → 浏览器加载失败。 */
+      xml = new XMLSerializer().serializeToString(host);
+    } finally {
+      if (wrap.parentNode) wrap.parentNode.removeChild(wrap);
+    }
+
+    const svg = '<svg xmlns="http://www.w3.org/2000/svg" width="' + W + '" height="' + H
+      + '" viewBox="0 0 ' + W + ' ' + H + '">'
+      + '<foreignObject x="0" y="0" width="' + W + '" height="' + H + '">'
+      + xml + '</foreignObject></svg>';
+    return { W: W, H: H, xml: xml, svg: svg };
+  }
+
+  function saveJpg(node, g, btn) {
+    if (!node || !g) { toast("导出失败：找不到要导出的卡片", false); return; }
+    const label = btn ? btn.textContent : "";
+    if (btn) { btn.disabled = true; btn.textContent = "生成中…"; }
+    const restore = () => { if (btn) { btn.disabled = false; btn.textContent = label; } };
+
+    let built;
+    try {
+      built = buildExportSvg(node, g);
+    } catch (e) {
+      restore();
+      toast("导出失败：" + e.message, false);
+      return;
+    }
+    const W = built.W, H = built.H;
+
+    let url;
+    try {
+      url = URL.createObjectURL(new Blob([built.svg], { type: "image/svg+xml;charset=utf-8" }));
+      const img = new Image();
+
+      img.onload = () => {
+        try {
+          let scale = 2;
+          while (scale > 1 && H * scale > 12000) scale -= 0.25;
+          const cv = document.createElement("canvas");
+          cv.width = Math.round(W * scale);
+          cv.height = Math.round(H * scale);
+          const ctx = cv.getContext("2d");
+          ctx.fillStyle = "#0a0e15";
+          ctx.fillRect(0, 0, cv.width, cv.height);
+          ctx.setTransform(scale, 0, 0, scale, 0, 0);
+          ctx.drawImage(img, 0, 0, W, H);
+          URL.revokeObjectURL(url);
+
+          cv.toBlob(blob => {
+            restore();
+            if (!blob) { toast("导出失败：图片编码失败，请换用线上地址重试", false); return; }
+            const dl = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = dl;
+            a.download = jpgFilename(g);
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            setTimeout(() => URL.revokeObjectURL(dl), 5000);
+            toast("已保存 " + jpgFilename(g) + "（" + cv.width + "×" + cv.height + "）", true);
+          }, "image/jpeg", 0.93);
+        } catch (e) {
+          restore();
+          URL.revokeObjectURL(url);
+          toast("导出失败：" + e.message + "　请用线上地址（GitHub Pages）打开后重试", false);
+        }
+      };
+      img.onerror = () => {
+        restore();
+        URL.revokeObjectURL(url);
+        toast("导出失败：浏览器未能渲染该卡片，请换用线上地址重试", false);
+      };
+      img.src = url;
+    } catch (e) {
+      restore();
+      toast("导出失败：" + e.message, false);
+    }
+  }
+
+  /* 导出链路的纯函数入口。真实浏览器里走上面的 saveJpg，
+     冒烟测试用这里校验「序列化出来的 SVG 是不是合法 XML」——
+     这一步是整条链路最容易静默失败的地方。 */
+  window.__observatoryExport = {
+    buildExportSvg: buildExportSvg,
+    jpgFilename: jpgFilename,
+    cleanForExport: cleanForExport
+  };
 
   /* ============================================================
      初始化

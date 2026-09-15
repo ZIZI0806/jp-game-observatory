@@ -623,6 +623,19 @@ body{
   border-radius:9px;padding:10px 14px;line-height:1.65;
 }
 
+
+/* ---------------- 另存为 JPG ---------------- */
+.jpg-btn{
+  display:inline-flex;align-items:center;gap:6px;flex:none;
+  font:inherit;font-size:11.5px;color:var(--text-dim);
+  background:var(--panel-2);border:1px solid var(--border);
+  padding:5px 10px;border-radius:7px;cursor:pointer;white-space:nowrap;
+  transition:.16s;
+}
+.jpg-btn:hover{border-color:rgba(255,171,92,.45);color:var(--warm);background:#1b2431}
+.jpg-btn:disabled{opacity:.55;cursor:default}
+.d-actions{display:flex;justify-content:flex-end;margin-top:13px}
+
 /* ---------------- 其它 ---------------- */
 .empty{
   text-align:center;padding:70px 20px;color:var(--text-faint);font-size:13.5px;
