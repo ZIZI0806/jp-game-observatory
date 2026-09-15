@@ -158,53 +158,142 @@
   /* ============================================================
      卡片
      ============================================================ */
-  function cardHTML(g) {
-    const co = colorOf(g.company);
-    const plats = normPlatforms(g);
-    const isNew = g.bucket === "new";
-    const dateChip = /^\d{4}-\d{2}-\d{2}/.test(g.release)
-      ? `<span class="chip date">发售 ${fmtDate(g.release)}</span>`
-      : `<span class="chip">发售 ${esc(g.release)}</span>`;
+  /* ============================================================
+     主机・PC 卡片（与手游区同精度 · 同款大卡）
+     ============================================================ */
 
-    const yt = (g.videos || []).filter(v => v.platform === "YouTube")[0];
-    const xv = (g.videos || []).filter(v => v.platform === "X")[0];
+  /* 主机・PC 侧的情报规格。字段名与手游侧 mobile 一一对位：
+       手 游 侧          主 机 侧
+       ─────────────────────────────────────────────
+       status            发售状况（発売中 / 発売予定 / 未定）
+       os ↔ os           对应机种（= 全平台列表）
+       monetization      版本形态与价格（通常版 / 限定版 / DL 专售）
+       developer         开发          publisher 发行
+       region            发售区域
+       distribution      流通方式（パッケージ / ダウンロード）
+       stores            对应商店（eShop / PS Store / Steam）
+       preReg            preOrder      预约・早期购入特典
+       features / synopsis / cast / ipSource / series 同名同义
+     尚未补齐 console 块的条目，退化为用既有字段推导；推导不出的维度直接不渲染，
+     不写「未発表」占位——避免把「我们还没查到」伪装成「官方尚未发表」。 */
+  function consoleSpecOf(g) {
+    const c = g.console || {};
+    const m = g.mobile || {};
+    return {
+      status:       c.status || g.release,
+      os:           c.os || g.platforms || [],
+      monetization: c.monetization || "",
+      developer:    c.developer || m.developer || g.company,
+      publisher:    c.publisher || m.publisher || "",
+      region:       c.region || m.region || "",
+      distribution: c.distribution || "",
+      stores:       c.stores || [],
+      preOrder:     c.preOrder || null,
+      features:     c.features || [],
+      synopsis:     c.synopsis || "",
+      cast:         c.cast || g.voice || "",
+      ipSource:     c.ipSource || m.ipSource || "",
+      series:       c.series || m.series || ""
+    };
+  }
+
+  /* 卡片底部动作条：手游区与主机・PC 区共用同一个函数，
+     两个区的卡片才会真正「同款」而不是看起来像。 */
+  function cardFootHTML(g) {
+    const vids = (g.videos || []).slice(0, 5).map(v =>
+      `<a class="link-btn ${linkClass(v.platform)}" href="${esc(v.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(v.platform)}</a>`).join("");
     const nw = (g.news || [])[0];
+    const nws = nw ? `<a class="link-btn news" href="${esc(nw.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">新闻原文</a>` : "";
+    return `${vids}${nws}<span class="foot-spacer"></span><button class="more-btn">详情 +</button>`;
+  }
+
+  function consoleCardHTML(g) {
+    const co = colorOf(g.company);
+    const s = consoleSpecOf(g);
+    const isNew = g.bucket === "new";
+
+    /* 与手游卡片的 6 行规格逐位对位：配信状況 / 対応OS / 課金形態 /
+       開発配信 / 配信地域 / ジャンル → 発売状況 / 対応機種 / 販売形態 /
+       開発発売 / 発売区域 / ジャンル */
+    const specs = [
+      ["発売状況", s.status],
+      ["対応機種", (s.os || []).join(" ／ ")],
+      ["販売形態", s.monetization],
+      ["開発 / 発売", [s.developer, s.publisher].filter(Boolean).join(" ／ ")],
+      ["発売区域", s.region],
+      ["ジャンル", g.genre]
+    ].filter(r => r[1]);
+
+    const preOrder = s.preOrder && s.preOrder.open ? `
+      <div class="mob-prereg">
+        <div class="mob-prereg-head">
+          <span class="prereg-badge">予約受付中</span>
+          <span class="prereg-since">${esc(s.preOrder.since || "")} 開始</span>
+        </div>
+        ${s.preOrder.reward ? `<div class="mob-prereg-body">${esc(s.preOrder.reward)}</div>` : ""}
+      </div>` : "";
+
+    const blocks = [];
+    if (s.features && s.features.length) blocks.push(`
+      <div class="mob-block">
+        <div class="mob-block-t">玩法特征</div>
+        <ul class="mob-list">${s.features.map(f => `<li>${esc(f)}</li>`).join("")}</ul>
+      </div>`);
+    if (s.synopsis) blocks.push(`
+      <div class="mob-block">
+        <div class="mob-block-t">世界观 / 故事</div>
+        <p class="mob-text">${esc(s.synopsis)}</p>
+      </div>`);
+    if (s.cast) blocks.push(`
+      <div class="mob-block">
+        <div class="mob-block-t">CV 阵容</div>
+        <p class="mob-text">${esc(s.cast)}</p>
+      </div>`);
+    if (s.ipSource || s.series) blocks.push(`
+      <div class="mob-block">
+        <div class="mob-block-t">IP / 系列背景</div>
+        <p class="mob-text">${esc([s.ipSource, s.series].filter(Boolean).join("　·　"))}</p>
+      </div>`);
 
     return `
-    <article class="card" data-id="${esc(g.id)}" style="--co:${co};--hs:${hypeColor(g.hype.score)}">
-      <div class="card-rail"></div>
-      <div class="card-head">
-        <div class="card-top">
+    <article class="mob-card is-console" data-id="${esc(g.id)}" style="--co:${co};--hs:${hypeColor(g.hype.score)}">
+      <div class="mob-rail"></div>
+      <div class="mob-main">
+        <div class="mob-head">
           <div class="company"><span class="company-dot"></span>${esc(g.company)}</div>
-          ${isCross(g) ? `<span class="cross-tag">跨平台 · 手游区亦有收录</span>` : ""}
+          ${isCross(g) ? `<span class="cross-tag">跨平台</span>` : ""}
           <span class="bucket-tag ${isNew ? "new" : ""}">${isNew ? "新作发表" : "定档/进展"} · ${esc(fmtDate(g.announceDate))}</span>
         </div>
-        <h3 class="card-title">${esc(g.title.cn)}</h3>
-        <div class="card-title-en">${esc(g.title.jp)}${g.title.en && g.title.en !== g.title.jp ? " ／ " + esc(g.title.en) : ""}</div>
-        <div class="card-meta">
-          <span class="chip">${esc(g.genre)}</span>
-          ${plats.map(p => `<span class="chip plat">${esc(p)}</span>`).join("")}
-          ${dateChip}
+        <h3 class="mob-title">${esc(g.title.cn)}</h3>
+        <div class="mob-title-sub">
+          <span class="mob-jp">${esc(g.title.jp)}</span>
+          ${g.title.en && g.title.en !== g.title.jp && g.title.en !== g.title.cn
+            ? `<span class="mob-en">${esc(g.title.en)}</span>` : ""}
         </div>
-      </div>
-      <div class="card-body">
-        <p class="card-summary">${esc(g.summary)}</p>
-        ${g.highlight ? `<div class="card-highlight">${esc(g.highlight)}</div>` : ""}
-      </div>
-      <div class="hype">
-        <div class="hype-head">
-          <span class="hype-label">全球舆论期待度</span>
-          <span class="hype-score">${g.hype.score}<small>/100</small></span>
+
+        <div class="mob-specs">
+          ${specs.map(r => `<div class="mob-spec">
+            <span class="mob-k">${esc(r[0])}</span>
+            <span class="mob-v">${esc(r[1])}</span>
+          </div>`).join("")}
         </div>
-        <div class="hype-bar"><div class="hype-fill" style="width:${g.hype.score}%"></div></div>
-      </div>
-      <div class="card-foot">
-        ${yt ? `<a class="link-btn yt" href="${esc(yt.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>实机/预告</a>` : ""}
-        ${xv ? `<a class="link-btn x" href="${esc(xv.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">𝕏 官方</a>` : ""}
-        ${nw ? `<a class="link-btn news" href="${esc(nw.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">新闻原文</a>` : ""}
-        <span class="foot-spacer"></span>
-        <button class="more-btn">详情 +</button>
+
+        ${preOrder}
+
+        <p class="mob-summary">${esc(g.summary)}</p>
+        ${g.highlight ? `<div class="mob-highlight">${esc(g.highlight)}</div>` : ""}
+
+        <div class="mob-blocks">${blocks.join("")}</div>
+
+        <div class="hype">
+          <div class="hype-head">
+            <span class="hype-label">全球舆论期待度</span>
+            <span class="hype-score">${g.hype.score}<small>/100</small></span>
+          </div>
+          <div class="hype-bar"><div class="hype-fill" style="width:${g.hype.score}%"></div></div>
+        </div>
+
+        <div class="mob-foot">${cardFootHTML(g)}</div>
       </div>
     </article>`;
   }
@@ -230,10 +319,10 @@
   function isCross(g) { return platformClassOf(g) === "multi"; }
 
   function statRank(g) {
-    const s = (g.mobile && g.mobile.status) || g.release || "";
-    if (/事前登録/.test(s)) return 0;
-    if (/配信予定|未定/.test(s)) return 1;
-    if (/サービス中|開服|已开服/.test(s)) return 2;
+    const s = (g.mobile && g.mobile.status) || (g.console && g.console.status) || g.release || "";
+    if (/事前登録|予約受付/.test(s)) return 0;
+    if (/配信予定|発売予定|未定|未発表/.test(s)) return 1;
+    if (/サービス中|開服|已开服|発売中|発売済|已发售/.test(s)) return 2;
     return 3;
   }
 
@@ -247,7 +336,11 @@
         g.title.jp, g.title.cn, g.title.en,
         (g.tags || []).join(" "), g.summary, g.release,
         g.mobile ? [g.mobile.developer, g.mobile.publisher, g.mobile.region,
-                    g.mobile.ipSource, g.mobile.status, (g.mobile.features || []).join(" ")].join(" ") : ""
+                    g.mobile.ipSource, g.mobile.status, (g.mobile.features || []).join(" ")].join(" ") : "",
+        g.console ? [g.console.developer, g.console.publisher, g.console.region, g.console.status,
+                     g.console.monetization, g.console.distribution, (g.console.stores || []).join(" "),
+                     g.console.ipSource, g.console.series, g.console.cast, g.console.synopsis,
+                     (g.console.features || []).join(" ")].join(" ") : ""
       ].join(" ").toLowerCase().includes(q));
     }
     if (state.platform) {
@@ -362,13 +455,7 @@
           <div class="hype-bar"><div class="hype-fill" style="width:${g.hype.score}%"></div></div>
         </div>
 
-        <div class="mob-foot">
-          ${(g.videos || []).slice(0, 5).map(v => `
-            <a class="link-btn ${linkClass(v.platform)}" href="${esc(v.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(v.platform)}</a>
-          `).join("")}
-          <span class="foot-spacer"></span>
-          <button class="more-btn">详情 +</button>
-        </div>
+        <div class="mob-foot">${cardFootHTML(g)}</div>
       </div>
     </article>`;
   }
@@ -417,12 +504,51 @@
      ============================================================ */
   function renderGrid() {
     const list = getFiltered();
-    const grid = document.getElementById("grid");
+    const box = document.getElementById("grid");
     const empty = document.getElementById("emptyState");
-    grid.className = "grid" + (state.view === "list" ? " compact" : "");
-    grid.innerHTML = list.map(cardHTML).join("");
+    const all = baseList();
+
+    /* 主机・PC 区 KPI：与手游区同构，指标换成主机侧语义 */
+    const stOf = (g) => consoleSpecOf(g).status || "";
+    const out   = all.filter(g => /已发售|発売中|発売済/.test(stOf(g))).length;
+    const undec = all.filter(g => /未定|未発表/.test(stOf(g))).length;
+    const fixed = all.length - out - undec;
+    const vendors = new Set(all.map(g => g.company)).size;
+
+    const kpi = document.getElementById("consoleKpi");
+    if (kpi) {
+      kpi.className = "mobile-kpi console-kpi";
+      kpi.innerHTML = `
+      <div class="mkpi">
+        <div class="mkpi-v" style="color:#a78bfa">${all.length}</div>
+        <div class="mkpi-l">主机・PC 条目总数</div>
+      </div>
+      <div class="mkpi">
+        <div class="mkpi-v" style="color:#5b8cff">${fixed}</div>
+        <div class="mkpi-l">已定发售档期</div>
+      </div>
+      <div class="mkpi">
+        <div class="mkpi-v" style="color:#4dd4c0">${out}</div>
+        <div class="mkpi-l">已发售 / 在售</div>
+      </div>
+      <div class="mkpi">
+        <div class="mkpi-v" style="color:#ffab5c">${undec}</div>
+        <div class="mkpi-l">发售日未定</div>
+      </div>
+      <div class="mkpi">
+        <div class="mkpi-v" style="color:#ffd166">${vendors}</div>
+        <div class="mkpi-l">涉及厂商</div>
+      </div>
+      <div class="mkpi-note">
+        <strong>主机・PC 区已与手游区同精度</strong>　以下条目包含发售状况 / 对应机种 / 版本与价格 /
+        开发发行体制 / 发售区域 / 预约特典 / 玩法特征 / 世界观 / CV 阵容 / IP 系谱共 10 类维度。
+      </div>`;
+    }
+
+    box.className = "mob-grid" + (state.view === "list" ? " compact" : "");
+    box.innerHTML = list.map(consoleCardHTML).join("");
     empty.hidden = list.length > 0;
-    grid.querySelectorAll(".card").forEach(el => {
+    box.querySelectorAll(".mob-card").forEach(el => {
       el.addEventListener("click", () => openDrawer(el.dataset.id));
     });
   }
@@ -633,6 +759,43 @@
       </div>`;
     }
 
+    let consoleSection = "";
+    if (g.console) {
+      const s = consoleSpecOf(g);
+      const rows = [
+        ["発売状況", s.status],
+        ["対応機種", (s.os || []).join(" ／ ")],
+        ["販売形態 / 価格", s.monetization],
+        ["開発", s.developer],
+        ["発売", s.publisher],
+        ["発売区域", s.region],
+        ["流通方式", s.distribution],
+        ["対応ストア", s.stores.join(" ／ ")],
+        ["IP 出处", s.ipSource],
+        ["系列背景", s.series]
+      ].filter(r => r[1]);
+
+      consoleSection = `
+      <div class="d-section d-mobile d-console">
+        <h4>主机・PC 情报 · Console Spec</h4>
+        <div class="d-grid">
+          ${rows.map(r => `<div class="d-cell"><div class="k">${esc(r[0])}</div><div class="v">${esc(r[1])}</div></div>`).join("")}
+        </div>
+        ${s.preOrder && s.preOrder.open ? `<div class="d-prereg">
+          <div class="d-prereg-t">预约受理中<span>${esc(s.preOrder.since || "")} 开始</span></div>
+          <div class="d-prereg-b">${esc(s.preOrder.reward || "")}</div>
+        </div>` : ""}
+        ${s.features && s.features.length ? `<div class="d-sub">
+          <div class="d-sub-t">玩法特征</div>
+          <ul class="d-list">${s.features.map(f => `<li>${esc(f)}</li>`).join("")}</ul>
+        </div>` : ""}
+        ${s.synopsis ? `<div class="d-sub"><div class="d-sub-t">世界观 / 故事</div>
+          <p class="d-summary">${esc(s.synopsis)}</p></div>` : ""}
+        ${s.cast ? `<div class="d-sub"><div class="d-sub-t">CV 阵容</div>
+          <p class="d-summary">${esc(s.cast)}</p></div>` : ""}
+      </div>`;
+    }
+
     document.getElementById("drawer").innerHTML = `
       <button class="drawer-close" id="drawerClose">✕</button>
       <div class="d-company" style="--co:${co};color:${co}">${esc(g.company)}</div>
@@ -653,6 +816,7 @@
       </div>
 
       ${mobileSection}
+      ${consoleSection}
 
       <div class="d-section">
         <h4>内容摘要</h4>
@@ -739,11 +903,11 @@
     document.getElementById("panelWanted").hidden = tab !== "wanted";
     document.getElementById("panelTgs").hidden = tab !== "tgs";
 
-    // 状态排序仅在手游区提供
+    // 两个作品区现在都带发售 / 配信状况，状态排序全面开放
     const sel = document.getElementById("sortSelect");
     const stOpt = [...sel.options].find(o => o.value === "status");
-    if (stOpt) stOpt.hidden = !isMob;
-    if (!isMob && state.sort === "status") { state.sort = "fresh"; sel.value = "fresh"; }
+    if (stOpt) stOpt.hidden = !isGames;
+    if (!isGames && state.sort === "status") { state.sort = "fresh"; sel.value = "fresh"; }
 
     // 平台筛选与视图切换对主机・PC 才有区分度
     document.getElementById("platformFilter").style.display = isConsole ? "" : "none";

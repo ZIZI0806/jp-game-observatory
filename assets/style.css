@@ -438,6 +438,23 @@ body{
   text-transform:uppercase;margin-bottom:8px;
 }
 
+
+/* ---------------- 主机・PC 区（与手游区同款大卡） ----------------
+   卡片本体、规格网格、区块、动作条全部复用 .mob-* 系列，
+   这里只做「手游=粉、主机=紫」的配色区分，保证两区版式逐像素一致。 */
+.console-kpi .mkpi{background:linear-gradient(160deg,rgba(167,139,250,.08),rgba(91,140,255,.05))}
+.console-kpi .mkpi-note{background:rgba(167,139,250,.05);border-color:rgba(167,139,250,.20)}
+.console-kpi .mkpi-note strong{color:#a78bfa}
+.mob-card.is-console:hover{border-color:rgba(167,139,250,.40)}
+.mob-card.is-console .mob-list li::before{color:#a78bfa}
+.d-console{border-left-color:#a78bfa}
+.d-console > h4{color:#a78bfa}
+
+/* 紧凑视图（仅主机・PC 区提供）：收起特征区块、摘要收到 2 行 */
+.mob-grid.compact{grid-template-columns:1fr}
+.mob-grid.compact .mob-blocks{display:none}
+.mob-grid.compact .mob-summary{-webkit-line-clamp:2}
+
 /* ---------------- 厂商覆盖名单 ---------------- */
 .co-summary{
   display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;
