@@ -12,9 +12,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-15T13:40:00+08:00",
+    updatedAt: "2026-09-15T15:05:00+08:00",
     edition: "2026-09-15",
-    window: "2026-09-01 ~ 2026-09-15",
+    window: "2026-07-15 ~ 2026-09-15（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -35,6 +35,575 @@ window.OBSERVATORY = {
    * A. 新作发表 — 本期首次公开的作品
    * ------------------------------------------------------- */
   games: [
+
+    /* ---------- 观测窗口扩展补收：2026-07-15 ~ 2026-08-31 ---------- */
+
+    {
+      id: "digimon-up",
+      company: "Bandai Namco Entertainment",
+      companyJp: "株式会社バンダイナムコエンターテインメント",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-07-15",
+      title: { jp: "デジモンUP", cn: "数码宝贝 UP", en: "Digimon UP" },
+      genre: "育成 RPG（スマートフォン）",
+      platforms: ["iOS", "Android"],
+      release: "2026-07-15（已开服）",
+      releasePrecision: "日",
+      summary: "万代南梦宫于 2026 年 7 月 15 日全球上线的《数码宝贝》系列全新手游。作品以「跟着你生活节奏走的数码宝贝之旅」为主题：玩家先选一枚数码蛋，孵化并育成属于自己的拍档数码兽，通过喂食、训练推动它跨越各个成长阶段一路进化到究极体；战斗中由拍档兽搭配援护数码兽组队出战，数码机与数码卡也承担成长线的一部分。全作以像素美术重绘系列角色。2026 年 3 月的 DIGIMON CON 2026 首次公开，事前登录突破 100 万后追加配发八神太一与亚古兽。",
+      highlight: "系列首款以「日常伴走」为概念的手游，全球同步上线，像素美术重绘全部数码兽。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金制）",
+        preReg: { open: false, since: "2026-05-01", reward: "10万人：援護型デジモン「ゲッコモン」／30万人：サポーター召喚チケット150枚／50万人：デジエメラルド1,000／100万人：八神太一＆アグモンを配布（配信開始に伴い受付終了）" },
+        developer: "株式会社バンダイナムコエンターテインメント",
+        publisher: "株式会社バンダイナムコエンターテインメント",
+        region: "グローバル（日本・北米・欧州・アジアほか）",
+        distribution: "App Store / Google Play（日本・北米・欧州ほか）。iOS 15 以上",
+        payment: [],
+        ipSource: "「デジタルモンスター」（1997年発の育成玩具）を起源とする『デジモン』シリーズ。本作は同シリーズのゲーム作品",
+        series: "1999年アニメ『デジモンアドベンチャー』以降、アニメ・ゲーム・玩具で長期展開。2026年3月の「DIGIMON CON 2026」で初公開",
+        features: ["デジタマから孵したパートナーデジモンを育成", "成長期15体（アグモン、ブイモン、ギルモン等）から1体を選択", "授食・訓練で育て、進化段階を経て究極体まで成長", "デジヴァイス／デジカードなどシリーズ由来の育成要素", "援護デジモンを加えたパーティ編成バトル", "ドット絵（ピクセルアート）で描き直したキャラクター表現"],
+        synopsis: "プレイヤーはテイマーとなり、自分のデジタマから孵ったパートナーデジモンと暮らしながら育てていく。卵から孵化、成長期を経て進化を重ね、援護デジモンとチームを組んでバトルに挑む。",
+        cast: "公式に主要キャストの発表はなし（テイマーはプレイヤーによるカスタマイズ形式）"
+      },
+      news: [
+        { source: "公式サイト（バンダイナムコエンターテインメント）", url: "https://dgup.bn-ent.net/news?p=125" },
+        { source: "GameRant（7月15日配信確定の報道）", url: "https://gamerant.com/digimon-up-game-release-date/" },
+        { source: "RPG Site（事前登録開始と報酬段階）", url: "https://www.rpgsite.net/news/20284-digimon-up-pre-registration-ios-" }
+      ],
+      videos: [
+        { label: "事前登録記念ティザー映像（RPG Site 記事内に埋め込み）", platform: "媒体", url: "https://www.rpgsite.net/news/20284-digimon-up-pre-registration-ios-" },
+        { label: "公式サイト（事前登録・最新情報）", platform: "官方站", url: "https://dgup.bn-ent.net/" }
+      ],
+      hype: {
+        score: 76,
+        signals: [
+          "事前登録100万突破、日本国外の比率が高いグローバル配信",
+          "同月に『デジモンストーリー タイムストレンジャー』Switch版が発売され、シリーズの話題が連続",
+          "グローバル同時配信のため、Famitsu 読者期待榜には登場していない"
+        ]
+      },
+      tags: ["新作", "手游", "育成RPG", "バンダイナムコ", "デジモン", "グローバル"]
+    },
+
+    {
+      id: "yowamushi-pedal-resonance-pedaism",
+      company: "enish × G Holdings",
+      companyJp: "株式会社enish／株式会社Gホールディングス（共同）",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-07-23",
+      title: { jp: "弱虫ペダル レゾナンス・ペダイズム", cn: "飙速宅男 Resonance Pedaism", en: "Yowamushi Pedal: Resonance Pedaism" },
+      genre: "育成シミュレーション（ロードレース）",
+      platforms: ["iOS", "Android"],
+      release: "2026-07-23（已开服）",
+      releasePrecision: "日",
+      summary: "enish 与 G Holdings 共同开发的 TV 动画《飙速宅男》改编手游，2026 年 7 月 23 日在日本上线，是系列首款正式的育成式公路竞速游戏。玩家以教练身份，把「推」的选手从基础训练一路培养起来，再编成自己的队伍去赢下公路赛；作品收录了游戏专属原创剧情（以合同集训为舞台）、新录语音与全新绘制插画。事前登录 5 月 27 日开启、7 月 7 日突破 20 万人，上线后拿下 App Store 模拟类排行榜第 1 位。发行渠道除两大应用商店外，还包括 Animate 集团旗下 Moviec 的游戏平台 animate Games Online。",
+      highlight: "系列首款本格育成式公路竞速手游，同时登陆 Animate 集团自营游戏平台 AGO。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料（アイテム課金制）",
+        preReg: { open: false, since: "2026-05-27", reward: "事前登録者数20万人突破（2026-07-07時点）。配信開始に伴い受付終了" },
+        developer: "株式会社enish（株式会社Gホールディングスとの共同開発）",
+        publisher: "株式会社enish",
+        region: "日本",
+        distribution: "App Store / Google Play（日本）＋ animate Games Online（アニメイトグループ・ムービックのゲームプラットフォーム。クラブアニメイト会員登録およびAGOユーザー登録が必要）",
+        payment: [],
+        ipSource: "渡辺航『弱虫ペダル』（秋田書店『週刊少年チャンピオン』連載、累計発行3,200万部超）を原作とするTVアニメ（2013〜2023年、全5期）",
+        series: "原作漫画は2026年5月に100巻へ到達。アプリとしてはシリーズ初の本格育成ロードレースゲーム",
+        features: ["トレーナーとして「推し」の選手を育成", "ゲームオリジナルストーリー「合同合宿」を収録", "新録ボイスと描き下ろしイラスト", "育てた選手でチームを編成しロードレースを勝ち抜く"],
+        synopsis: "プレイヤーはトレーナーとなり、原作・アニメに登場する選手たちを育成する。育てた選手で自分だけのチームを組み、ロードレースの頂点を目指す。ゲームだけのオリジナルストーリーが展開。",
+        cast: "山下大輝（小野田坂道）、代永翼（真波山岳）、遊佐浩二（御堂筋翔）ほか"
+      },
+      news: [
+        { source: "enish 公式プレスリリース（配信開始日の決定・製品概要）", url: "https://www.enish.jp/wp-uploads/2026/05/pressrelease_260527yowapedaism.pdf" },
+        { source: "PR TIMES（App Store シミュレーションカテゴリ1位獲得）", url: "https://prtimes.jp/a/?c=12086&f=d12086-1112-02bfaf61ee5212cc176fe784fabc709d.pdf&r=1112" },
+        { source: "animate Games Online 作品ページ", url: "https://animate-go.com/game/detail/yowapeda-ism" }
+      ],
+      videos: [
+        { label: "App Store 作品ページ（PV・スクリーンショット）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6758927408" },
+        { label: "Google Play 作品ページ", platform: "Google Play", url: "https://play.google.com/store/apps/details?id=jp.enish.yowapedaism" },
+        { label: "公式 X @yowapeda_ism", platform: "X", url: "https://x.com/yowapeda_ism" }
+      ],
+      hype: {
+        score: 68,
+        signals: [
+          "事前登録20万人突破、配信後 App Store シミュレーション部門1位",
+          "原作漫画100巻到達とアニメ全5期の長期ファンベース",
+          "Animate グループのプラットフォームへの同時展開でアニメ層へのリーチを拡大"
+        ]
+      },
+      tags: ["新作", "手游", "育成", "IP改编", "アニメ", "弱虫ペダル"]
+    },
+
+    {
+      id: "hololive-dreams",
+      company: "COVER × QualiArts",
+      companyJp: "カバー株式会社／株式会社QualiArts（サイバーエージェント連結子会社）",
+      bucket: "update",
+      platformClass: "multi",
+      announceDate: "2026-07-23",
+      title: { jp: "hololive Dreams", cn: "hololive Dreams", en: "hololive Dreams" },
+      genre: "リズム & RPG（テーマパーク運営）",
+      platforms: ["iOS", "Android", "Steam"],
+      release: "2026-07-23（已开服・全球同步）",
+      releasePrecision: "日",
+      summary: "COVER 与 CyberAgent 旗下 QualiArts 联合开发的 hololive 首个官方手游，2026 年 7 月 23 日全球同步上线（部分地域除外），并同步推出 Steam 版、与手机版数据互通。核心玩法是六轨下落式音游，使用官方 MV 与演唱会影像，收录曲目 150 首以上并支持玩家自制谱面；音游之外还包含可自由改造的无人岛主题乐园经营、角色剧情解锁，以及最多 5 人的线上街机小游戏。事前登录突破 150 万人，上线后冲上 App Store 与 Google Play 榜首。",
+      highlight: "hololive 官方首款手游，手机＋Steam 双平台全球同步，事前登录 150 万。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アプリ内課金あり）",
+        preReg: { open: false, since: "2026-03", reward: "50万人：ダイヤ2,500個（ガチャ10回分）／80万人：★4以上確定ガチャチケット／90万人：楽曲ディスク×3／100万人：全54名分ピクセルサングラス／150万人：ガチャチケット×5＋全54名分カワイイヘアピン（配信開始に伴い受付終了）" },
+        developer: "株式会社QualiArts（サイバーエージェント連結子会社）／カバー株式会社",
+        publisher: "株式会社QualiArts",
+        region: "グローバル（一部地域を除く）",
+        distribution: "App Store / Google Play（日本・北米・欧州ほか）＋ Steam（PC版、スマホ版とのデータ連携に対応）",
+        payment: [],
+        ipSource: "カバー株式会社が運営する女性VTuberグループ「hololive」の公式ライセンス作品。hololive 初の公式スマートフォンゲーム",
+        series: "hololive は2018年始動、2026年に9周年。登場タレントは50名以上（開始時54名）",
+        features: ["6レーン下落式のリズムゲーム（公式MV・ライブ映像を使用）", "収録150曲以上、ユーザー製カスタムビートマップに対応", "無人島にテーマパーク「Dream Park」を建設する経営要素", "キャラクタークエストでビジュアルノベル形式の物語を解放", "最大5人のフレンドと遊べるアーケード風ミニゲーム", "開始時に推しタレントを最高レアで取得できるリドローガチャ"],
+        synopsis: "世界のどこかにある無人島が舞台。プレイヤーは hololive のタレントたちのために施設を整え、誰もが楽しめる夢のようなテーマパーク「Dream Park」の完成を目指す。",
+        cast: "hololive 所属タレント54名（サービス開始時点）"
+      },
+      news: [
+        { source: "サイバーエージェント 公式ニュースリリース（配信日確定・Steam版発表）", url: "https://www.cyberagent.co.jp/en/news/detail/id=33532" },
+        { source: "PR TIMES（公式サービス開始の発表）", url: "https://prtimes.jp/main/html/rd/p/000001254.000030268.html" },
+        { source: "Mogura VR（正式サービス開始の報道）", url: "https://www.moguravr.com/hololive-dreams-official-service-start-en/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー・ウィッシュリスト登録）", platform: "Steam", url: "https://store.steampowered.com/app/4282500/hololive_Dreams/" },
+        { label: "App Store 作品ページ", platform: "App Store", url: "https://apps.apple.com/jp/app/id6756641135" },
+        { label: "公式サイト", platform: "官方站", url: "https://hololive-dreams.com/" },
+        { label: "公式 X @hololive_dreams", platform: "X", url: "https://x.com/hololive_dreams" }
+      ],
+      hype: {
+        score: 87,
+        signals: [
+          "事前登録150万突破、配信直後に App Store / Google Play で首位を獲得",
+          "hololive 初の公式スマホゲームという位置づけでファン側の期待が突出",
+          "スマホ＋Steam のクロスプラットフォーム配信で PC 層も取り込む",
+          "hololive 9周年（2026年10月頃）との連動イベントが予告されている"
+        ]
+      },
+      tags: ["新作", "手游", "跨平台", "音ゲー", "VTuber", "グローバル"]
+    },
+
+    {
+      id: "mushoku-tensei-chronicle-of-echoes",
+      company: "GREE Entertainment / Asobimo",
+      companyJp: "グリーエンターテインメント株式会社（企画・配信）／株式会社アソビモ（開発・運営）",
+      bucket: "update",
+      platformClass: "multi",
+      announceDate: "2026-07-27",
+      title: { jp: "無職転生 ～異世界行ったら本気だす～ クロニクル・オブ・エコーズ", cn: "无职转生 ～到了异世界就拿出真本事～ Chronicle of Echoes", en: "Mushoku Tensei: Jobless Reincarnation - Chronicle of Echoes" },
+      genre: "異世界×3Dバトル RPG",
+      platforms: ["iOS", "Android", "PC（DMM GAMES）"],
+      release: "2026-07-27（已开服）",
+      releasePrecision: "日",
+      summary: "GREE Entertainment 企划发行、Asobimo 开发运营的《无职转生》新作手游，2026 年 7 月 27 日正式开服，同步提供手机版与 DMM GAMES 的 PC 版。作品定位「本気だす異世界×3D 战斗 RPG」，以 3D 战斗重现原作剧情，并收录由原作者监修的原创故事线；上线前累计事前登录突破 50 万，开服后冲上 App Store 免费游戏榜第 1 位。开服同期推出限定剧情活动与纪念登录奖励。",
+      highlight: "原作声优阵全数回归，手机＋DMM GAMES 双端同日开服，事前登录 50 万。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料（アプリ内課金あり）",
+        preReg: { open: false, since: "2026-06", reward: "事前登録50万突破：魔石7,500個＋選べる★5チケット。配信開始に伴い受付終了" },
+        developer: "株式会社アソビモ",
+        publisher: "グリーエンターテインメント株式会社",
+        region: "日本",
+        distribution: "App Store / Google Play＋DMM GAMES（PC版）",
+        payment: [],
+        ipSource: "理不尽な孫の手『無職転生 ～異世界行ったら本気だす～』（MFブックス／KADOKAWA刊）。アニメ『無職転生III』製作委員会",
+        series: "原作はシリーズ累計発行部数が1000万部を超える人気作。アニメは第3期が進行中",
+        features: ["原作ストーリーを3Dバトルで再現", "原作者監修によるゲームオリジナルシナリオ", "キャラクター収集と編成", "限定シナリオイベントと記念ログインボーナス"],
+        synopsis: "34歳・童貞・無職の男がトラックに轢かれ、剣と魔法の異世界で赤ん坊として転生する。ルーデウスとして生まれ変わった彼は、前世の記憶を抱えながら本気で生き直そうと決意する。",
+        cast: "内山夕実（ルーデウス）、杉田智和（前世の男）、茅野愛衣（シルフィエット）、小原好美（ロキシー）、加隈亜衣（エリス）、森川智之（パウロ）、金元寿子（ゼニス）、Lynn（リーリャ）、浪川大輔（ルイジェルド）、田中理恵（エリナリーゼ）ほか"
+      },
+      news: [
+        { source: "公式サイト（作品情報）", url: "https://mushokutensei-coe.com/" },
+        { source: "公式 X @mushokutensei_C（開服告知・キャンペーン）", url: "https://x.com/mushokutensei_C" }
+      ],
+      videos: [
+        { label: "公式 YouTube（PV）", platform: "YouTube", url: "https://youtu.be/dexyhauux_w" },
+        { label: "公式サイト", platform: "官方站", url: "https://mushokutensei-coe.com/" }
+      ],
+      hype: {
+        score: 74,
+        signals: [
+          "事前登録50万突破、開服直後に App Store 無料ランキング1位",
+          "原作アニメ第3期と連動する IP の話題性",
+          "原作声優陣が多数参加するフルボイス演出"
+        ]
+      },
+      tags: ["新作", "手游", "跨平台", "RPG", "IP改编", "アニメ"]
+    },
+
+    {
+      id: "mha-united-survival",
+      company: "KLab × gumi",
+      companyJp: "KLab株式会社／株式会社gumi（共同開発）",
+      bucket: "update",
+      platformClass: "multi",
+      announceDate: "2026-08-06",
+      title: { jp: "僕のヒーローアカデミア UNITED SURVIVAL", cn: "我的英雄学院 UNITED SURVIVAL", en: "My Hero Academia: UNITED SURVIVAL" },
+      genre: "ローグライト・ヒーローアクション RPG",
+      platforms: ["iOS", "Android", "PC（Windows）"],
+      release: "2026-08-06（已开服・全球同步）",
+      releasePrecision: "日",
+      summary: "KLab 与 gumi 共同开发、经《我的英雄学院》制作委员会授权的手游新作，2026 年 8 月 6 日全球同步开服（中国大陆除外），除 App Store / Google Play 外还提供 PC（Windows）版。玩法是带有 Roguelite 要素的爽快动作游戏：玩家编成 3 人小队，在每一局中强化角色的「个性」横扫敌群，把不同个性组合起来发动合体必杀技；每局成长路线都不同。内容除原作剧情外，还收录游戏原创剧本与专属必杀技。事前登录全球突破 80 万，开服时达成 100 万并追加配发。",
+      highlight: "集英社人气 IP 的 Roguelite 动作化，3 人小队＋合体必杀技，全球（除中国大陆）同步。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金制）",
+        preReg: { open: false, since: "2026-06-25", reward: "50万人：SR緑谷出久・SR爆豪勝己・SR轟焦凍から1名を選べるガチャチケット×1／80万人：LRコレクション「最高のヒーローになるまでの物語」×1／100万人：LRコレクション「勝利!! 立!!」×1。配信開始に伴い受付終了" },
+        developer: "KLab株式会社／株式会社gumi（共同開発）",
+        publisher: "KLab株式会社",
+        region: "グローバル（中国本土を除く）",
+        distribution: "App Store / Google Play＋PC（Windows 11、Steam 版を予定）。iOS 15.0／Android 9.0 以上",
+        payment: [],
+        ipSource: "堀越耕平『僕のヒーローアカデミア』（集英社『週刊少年ジャンプ』に10年連載、コミックス世界累計1億部突破）のアニメシリーズ。僕のヒーローアカデミア製作委員会より許諾",
+        series: "アニメは2016年放送開始、10周年を迎える長期シリーズ。キービジュアルは Bones Film 制作",
+        features: ["簡単操作のローグライト・ヒーローアクション", "3人1組のチームアップで敵の大群に挑む", "「個性」の組み合わせで発動する合体必殺技", "毎回異なる成長ルートを引くローグライト体験", "原作本編に加えゲームオリジナルシナリオと専用必殺技を収録"],
+        synopsis: "総人口の約8割が超常能力「個性」を持つ世界。プレイヤーはヒーローと敵＜ヴィラン＞が入り乱れる戦場で3人編成のチームを組み、個性を強化しながら押し寄せる敵をなぎ倒していく。",
+        cast: "公式に本作独自のキャスト発表はなし（原作アニメのキャラクターが登場）"
+      },
+      news: [
+        { source: "KLab 公式プレスリリース（全世界同時事前登録開始）", url: "https://www.klab.com/jp/press/release/2026/0625/_united_survival.html" },
+        { source: "Games Press（80万突破と8月6日配信の公式発表）", url: "https://www.gamespress.com/New-My-Hero-Academia-Anime-Game-App-My-Hero-Academia-UNITED-SURVIVAL-S" },
+        { source: "巴哈姆特 GNN（8月6日開服の報道）", url: "https://m.gamer.com.tw/gnn/detail.php?sn=309270" }
+      ],
+      videos: [
+        { label: "公式事前登録サイト（PV・最新情報）", platform: "官方站", url: "https://www.heroaca-unitedsurvival.com/en/" },
+        { label: "公式 X @MHA_HS_en", platform: "X", url: "https://x.com/MHA_HS_en" },
+        { label: "巴哈姆特 GNN 报道（内嵌宣传影像）", platform: "媒体", url: "https://m.gamer.com.tw/gnn/detail.php?sn=309270" }
+      ],
+      hype: {
+        score: 79,
+        signals: [
+          "事前登録が世界で80万→100万へ到達、KLab の主力ライセンス作品",
+          "原作コミックス世界累計1億部という IP 規模",
+          "KLab は『BLEACH Brave Souls』『キャプテン翼』で同種のライセンス運営実績を持つ"
+        ]
+      },
+      tags: ["新作", "手游", "跨平台", "ローグライト", "IP改编", "集英社"]
+    },
+
+    {
+      id: "suikoden-star-leap",
+      company: "KONAMI",
+      companyJp: "株式会社コナミデジタルエンタテインメント",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-08-07",
+      title: { jp: "幻想水滸伝 STAR LEAP", cn: "幻想水浒传 STAR LEAP", en: "Suikoden STAR LEAP" },
+      genre: "RPG（スマートフォン）",
+      platforms: ["iOS", "Android"],
+      release: "2026-08-07（日本国内开服）",
+      releasePrecision: "日",
+      summary: "KONAMI 代表作《幻想水浒传》系列的完全新作手游，2026 年 8 月 7 日先行在日本国内上线 iOS / Android 版，全球版与 Steam 版的发行时间另行公布。作品被定位为系列「正史」的新章，讲述新的 108 星故事，画面在系列标志性点阵美术基础上大幅演进，并配以有冲击力的音效。开服前分批公开了新角色 PV 与配音阵容，包括艾维利、贝拉多娜、梦、卢阿尔四名新角色。",
+      highlight: "1995 年起的系列完全新作，以「正史」续写新的 108 星物语，日本先行开服。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金制）",
+        preReg: { open: false, since: "2026-07", reward: "App Store / Google Play での事前登録者向け特典を配布。配信開始に伴い受付終了" },
+        developer: "株式会社コナミデジタルエンタテインメント",
+        publisher: "株式会社コナミデジタルエンタテインメント",
+        region: "日本（グローバル版は配信日未定）",
+        distribution: "App Store / Google Play（日本国内）。Steam 版は配信日を後日告知",
+        payment: [],
+        ipSource: "コナミの『幻想水滸伝』シリーズ（1995年第一作、本編・外伝あわせて全11作）",
+        series: "シリーズ完全新作。正史として紡がれる新たな108星の物語",
+        features: ["シリーズ伝統の108星の仲間集め", "ドット絵を大きく進化させたグラフィック", "1人プレイの RPG", "豪華声優陣によるキャラクターボイス", "開服に合わせた声優サイン色紙キャンペーン（公式X）"],
+        synopsis: "『幻想水滸伝』の正史として描かれる新章。108人の仲間たちとともに、戦乱の時代を生き抜く物語が展開する。",
+        cast: "蒼井翔太（エイヴェリー）、木下紗華（ベラドンナ）、井口裕香（ユメ）、鬼頭明里（ルアール）、中村悠一（フリック）、白石晴香（オデッサ）、小西克幸（ビクトール）ほか"
+      },
+      news: [
+        { source: "Saiga NAK（8月7日上架と声優・繪師陣容的報道）", url: "https://saiganak.com/zh/news/suikoden-star-leap-release-date/amp" },
+        { source: "公式 X @GensoSuikodenSP（配信日・新キャラPV告知）", url: "https://x.com/GensoSuikodenSP" }
+      ],
+      videos: [
+        { label: "新キャラクター4名のPV（Saiga NAK 記事内／公式YouTubeでも公開）", platform: "媒体", url: "https://saiganak.com/zh/news/suikoden-star-leap-release-date/amp" },
+        { label: "公式 X @GensoSuikodenSP（PV更新）", platform: "X", url: "https://x.com/GensoSuikodenSP" }
+      ],
+      hype: {
+        score: 77,
+        signals: [
+          "1995年からの30年級シリーズの完全新作というブランド力",
+          "開服前から新キャラPVと声優陣の発表を段階的に実施",
+          "TGS2026 の KONAMI 公式生放送でも本作が扱われている"
+        ]
+      },
+      tags: ["新作", "手游", "RPG", "コナミ", "幻想水滸伝", "日本先行"]
+    },
+
+    {
+      id: "shinobi-nexus-senran-kagura",
+      company: "HONEY∞PARADE GAMES / Marvelous",
+      companyJp: "株式会社HONEY∞PARADE GAMES（マーベラスグループ）",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-08-14",
+      title: { jp: "シノビNEXUS –閃乱カグラ–", cn: "忍者NEXUS -闪乱神乐-", en: "Shinobi NEXUS -Senran Kagura-" },
+      genre: "コマンド RPG（ハイパーシノビバトル）",
+      platforms: ["iOS", "Android", "Windows 11（DMM GAMES）"],
+      release: "2026年内（配信日未定・事前登录中）",
+      releasePrecision: "年",
+      summary: "HONEY∞PARADE GAMES 的《闪乱神乐》系列新作手游，2026 年 8 月 14 日在 Google Play 开启事前登录，iOS 与 DMM GAMES（Windows 11 64bit）版同步受理，预计 2026 年内开服。故事舞台设定在前作《忍者大师 闪乱神乐 NEW LINK》三年后，描写忍者学生们在善与恶交错之中各自背负信念、直面残酷命运的成长过程。战斗是洗练的指令式 RPG 与忍法结合的「超忍战斗」，角色表现采用卡通渲染 3D，并延续该工作室惯有的「换装、交流、立体场景」功能。角色设计仍由系列元老八重樫南担任。",
+      highlight: "系列新作回归手机端，前作三年后的全新忍者少女阵容，指令制 RPG＋忍法战斗。",
+      mobile: {
+        status: "事前登録受付中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金制）",
+        preReg: { open: true, since: "2026-08-14", reward: "DMM GAMES版では総額30万円分のDMMポイントが当たる抽選キャンペーンを実施中。ミニゲームを遊ぶとご褒美動画を視聴可能。App Store／Google Play／DMM GAMES の3ストアで受付中" },
+        developer: "株式会社HONEY∞PARADE GAMES（マーベラスグループ）",
+        publisher: "株式会社マーベラス",
+        region: "日本",
+        distribution: "App Store / Google Play（日本）＋ DMM GAMES（Windows 11 64bit）",
+        payment: [],
+        ipSource: "マーベラスの『閃乱カグラ』シリーズ。キャラクターデザインはシリーズ当初から担当する八重樫南",
+        series: "前作アプリ『シノビマスター 閃乱カグラ NEW LINK』から3年後が舞台",
+        features: ["洗練されたコマンド RPG と忍法を組み合わせた「ハイパーシノビバトル」", "セルルック3Dによるキャラクター表現", "同スタジオ恒例の「着せ替え・コミュ・ジオラマ」機能", "八重樫南デザインによる新キャラクター陣", "公式サイトで各シノビ少女のプロフィールと秘伝忍法映像を公開"],
+        synopsis: "善と悪とが交錯する世界で、それぞれの信念を胸に過酷な運命へ立ち向かうシノビの少女たち。プレイヤーは彼女たちを導く教師として、その青春を見届ける。",
+        cast: "公式に声優陣の発表はなし（キャラクターデザイン：八重樫南）"
+      },
+      news: [
+        { source: "ゲームハック（マーベラス公式プレスリリース転載・8/14 Google Play 事前登録開始）", url: "https://gamehack.jp/381554" },
+        { source: "QooApp ニュース（Android 事前登録開始と作品概要）", url: "https://news.qoo-app.com/post/442839" },
+        { source: "公式サイト（キャラクター紹介・秘伝忍法映像）", url: "https://hpgames.jp/shinovi-nexus/" }
+      ],
+      videos: [
+        { label: "タイトル発表PV", platform: "YouTube", url: "https://youtu.be/_avt71u1eZc" },
+        { label: "公式 YouTube チャンネル @shinovi_nexus", platform: "YouTube", url: "https://www.youtube.com/@shinovi_nexus" },
+        { label: "DMM GAMES 版 事前登録ページ", platform: "官方站", url: "https://dmg-shinovi-nexus.hpgames.jp/" },
+        { label: "App Store 事前登録ページ", platform: "App Store", url: "https://apps.apple.com/jp/app/id6569243522" }
+      ],
+      hype: {
+        score: 71,
+        signals: [
+          "『閃乱カグラ』シリーズ新作という固定ファンベース",
+          "八重樫南デザインの新キャラクター群とセルルック3D表現",
+          "DMM GAMES 版で総額30万円分のポイントキャンペーンを実施し話題を喚起"
+        ]
+      },
+      tags: ["新作", "手游", "跨平台", "事前登録中", "コマンドRPG", "閃乱カグラ"]
+    },
+
+    {
+      id: "beast-of-reincarnation",
+      company: "GAME FREAK / Fictions",
+      companyJp: "株式会社ゲームフリーク（開発）／Fictions, Inc.（販売）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-08-04",
+      title: { jp: "Beast of Reincarnation", cn: "转生之兽", en: "Beast of Reincarnation" },
+      genre: "アクション RPG",
+      platforms: ["PlayStation 5", "Xbox Series X|S", "PC"],
+      release: "2026-08-04（已发售）",
+      releasePrecision: "日",
+      summary: "GAME FREAK 完全新作动作 RPG，2026 年 8 月 4 日登陆 PS5 / Xbox Series X|S / PC，日本与亚洲由 Happinet 发行 PS5 实体版，售价 7,980 日元。舞台设定在西历 4026 年、崩坏后的日本：被称作「秽人」而遭疏远的少女艾玛，与腐蚀体「库乌」一同踏上讨伐秽之元凶「轮回之兽」的旅程。战斗采用「一人一兽」的双轨系统——艾玛以实时剑技格斗，库乌则以指令方式释放技能，艾玛成功格挡时累积点数用于发动库乌的能力；该作也是 GAME FREAK 首个非宝可梦体系的 AAA 级完全新作。",
+      highlight: "GAME FREAK 三十年来的首个非宝可梦 AAA 新作，「一人一兽」实时＋指令混合战斗。",
+      news: [
+        { source: "ハピネット 公式プレスリリース（PS5 パッケージ版 8/4 発売・予約開始）", url: "https://happinet-games.com/release/260420/happinet0420.pdf" },
+        { source: "製品情報特設ページ", url: "https://beast-of-reincarnation.happinet-games.com/" },
+        { source: "海外公式サイト（Fictions）", url: "https://fictions.com/ja/games/beast-of-reincarnation" },
+        { source: "Shane the Gamer（発売週の報道）", url: "https://www.shanethegamer.com/news/game-freaks-beast-of-reincarnation-marvel-tokon-fighting-souls-launch-this-week/" }
+      ],
+      videos: [
+        { label: "公式トレーラー（ハピネット プレスリリース記載）", platform: "YouTube", url: "https://youtu.be/0Zz-hCsuAQs" },
+        { label: "製品情報特設ページ", platform: "官方站", url: "https://beast-of-reincarnation.happinet-games.com/" }
+      ],
+      hype: {
+        score: 83,
+        signals: [
+          "GAME FREAK 初の非ポケモン AAA 作品として海外メディアの露出が大きい",
+          "ディレクター古島康太のインタビューが DenFamiNicoGamer / GamesRadar+ 等で拡散",
+          "フォトリアルなアートスタイルにより「どこの国のゲームか判別しづらい」と評されるほどの作風刷新"
+        ]
+      },
+      tags: ["新作", "主机", "アクションRPG", "ゲームフリーク", "オリジナルIP"]
+    },
+
+    {
+      id: "marvel-tokon-fighting-souls",
+      company: "Arc System Works",
+      companyJp: "株式会社アークシステムワークス（開発）／PlayStation Publishing（販売）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-08-06",
+      title: { jp: "MARVEL Tōkon: Fighting Souls", cn: "MARVEL Tōkon: Fighting Souls", en: "MARVEL Tōkon: Fighting Souls" },
+      genre: "4v4 タッグチーム対戦格闘",
+      platforms: ["PlayStation 5", "PC（Steam / Epic Games Store）"],
+      release: "2026-08-06（全球）／日本・韓国・豪州・NZ は 08-07",
+      releasePrecision: "日",
+      summary: "由《罪恶装备》系列的 Arc System Works 开发、PlayStation Studios 与 Marvel Games 联合推出的 4v4 组队对战格斗游戏，2026 年 8 月 6 日全球同步发售 PS5 与 PC（Steam / Epic）版，日本、韩国、澳大利亚与新西兰因时差在 8 月 7 日解锁，售价 7,980 日元。首发 20 名 Marvel 角色，比赛以 1 名主控加 3 名援护的形式进行，四人共享一条「Vital Gauge」而非各自独立的血条；操作上提供传统输入与简易输入两套方案，并支持 PS5 与 PC 之间的完整跨平台联机。",
+      highlight: "Arc System Works 用《罪恶装备》的技术力承接 Marvel 授权，四人共享血条的 4v4 结构。",
+      news: [
+        { source: "MARVEL 公式作品ページ（発売告知・映像一覧）", url: "https://www.marvel.com/games/marvel-tokon-fighting-souls" },
+        { source: "PlayStation 公式 作品ページ（FAQ・発売日と地域差）", url: "https://playstation.com/zh-hans-hk/games/marvel-tokon-fighting-souls" },
+        { source: "GameUpNews（ローンチトレーラー公開の報道）", url: "https://gameupnews.com/marvel-tokon-fighting-souls-launch-trailer-released/" },
+        { source: "PCGamingWiki（PC 版の技術情報・発売日）", url: "https://www.pcgamingwiki.com/wiki/Marvel_T%C5%8Dkon%3A_Fighting_Souls" }
+      ],
+      videos: [
+        { label: "ローンチトレーラー（GameUpNews 記事内に埋め込み）", platform: "媒体", url: "https://gameupnews.com/marvel-tokon-fighting-souls-launch-trailer-released/" },
+        { label: "公式 X @MARVELTokon（トレーラー告知）", platform: "X", url: "https://x.com/MARVELTokon" },
+        { label: "PlayStation 公式作品ページ（映像一覧）", platform: "官方站", url: "https://playstation.com/en-sg/games/marvel-tokon-fighting-souls/" }
+      ],
+      hype: {
+        score: 81,
+        signals: [
+          "オープンベータが Steam 同時接続3.3万を記録",
+          "Marvel という世界規模 IP とアークシステムワークスの格闘ゲーム開発力の組み合わせ",
+          "高ランク帯で Blade と Magik が最多使用キャラになるなど対戦コミュニティが活発"
+        ]
+      },
+      tags: ["新作", "主机", "格闘", "アークシステムワークス", "Marvel", "グローバル"]
+    },
+
+    {
+      id: "unme",
+      company: "Shueisha Games / Historia",
+      companyJp: "株式会社集英社ゲームズ（発信元）／株式会社ヒストリア（開発）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-08-26",
+      title: { jp: "UN:Me", cn: "UN:Me", en: "UN:Me" },
+      genre: "ソウル・トリアージ アドベンチャー",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "Steam"],
+      release: "2026年内（发售预定）",
+      releasePrecision: "年",
+      summary: "集英社游戏品牌「集英社ゲームズ」于 2026 年 8 月 26 日公布的全新企划，由以 Unreal Engine 见长、参与过《Faaast Penguin》《Caligula2》开发的日本工作室 Historia（ヒストリア）担纲制作，预定 2026 年内在 Switch 2 / PS5 / Steam 发售。游戏被归类为「灵魂·检伤分类冒险」：围绕寄宿在少女体内的四个灵魂展开，玩家通过与被分割的记忆碎片对话、探索环境变化，最终对「灵魂」作出选择——包括消去。官方网站将集中承载情报，并内置便于玩家分享与讨论的考察功能。",
+      highlight: "集英社游戏品牌新企划，Historia 开发，以「与灵魂对话并作出裁决」为核心的检伤分类式冒险。",
+      news: [
+        { source: "プレスリリース要約（発信元：株式会社集英社ゲームズ／発表日時 2026-08-26 12:00）", url: "https://bestcalendar.jp/press/149029" },
+        { source: "集英社ゲームズ 作品ページ", url: "https://shueisha-games.com/games/unme/" },
+        { source: "PlayStation Store 商品ページ", url: "https://store.playstation.com/ja-jp/concept/10019807" },
+        { source: "ヒストリア 公式サイト（開発実績）", url: "https://historia.co.jp/" }
+      ],
+      videos: [
+        { label: "公式サイト（情報集約・映像）", platform: "官方站", url: "https://unme.shueisha-games.com/" },
+        { label: "ヒストリア 公式 X @historia_Inc", platform: "X", url: "https://x.com/historia_Inc" }
+      ],
+      hype: {
+        score: 63,
+        signals: [
+          "集英社ゲームズの自社パブリッシング企画として発表",
+          "開発は Unreal Engine 専門の国内スタジオ Historia（『Faaast Penguin』『Caligula2』）",
+          "発表直後で映像・試遊情報は限定的、期待度は今後の続報に依存"
+        ]
+      },
+      tags: ["新作", "主机", "アドベンチャー", "集英社ゲームズ", "オリジナルIP"]
+    },
+
+    {
+      id: "kyoto-xanadu",
+      company: "Nihon Falcom",
+      companyJp: "日本ファルコム株式会社",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-07-16",
+      title: { jp: "亰都ザナドゥ -桜花幻舞-", cn: "京都幻都 -樱花幻舞-", en: "Kyoto Xanadu" },
+      genre: "デュアルディメンショナル ARPG（双维度动作 RPG）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Steam"],
+      release: "2026-07-16（已发售）",
+      releasePrecision: "日",
+      summary: "日本 Falcom 的完全新作动作 RPG，2026 年 7 月 16 日登陆 Switch 2 / Switch / PS5 / Steam，通常版 7,920 日元，同日推出同捆特制艺术盒的 Limited Edition。《东亰幻都》的舞台被整体重置为「亰都」——成为首都的现代日本，故事围绕觉醒为《适格者》的少年少女与异界「XANADU」展开。战斗由两套动作构成：以射击与属性解谜探索迷宫的 2D 动作，以及可用《ソウルアクセル》强化自身、以精准格挡触发一击必杀反击《一閃》的 3D 动作。学园日常部分则通过卡牌牌组上课提升参数、与同学交流、在京都街区探索美食与景点。繁体中文版由云豹娱乐同日同步推出。",
+      highlight: "《东亰幻都》十周年，舞台移到「亰都」，2D 探索＋3D 战斗的双维度 ARPG。",
+      news: [
+        { source: "日本ファルコム 公式プレスリリース（7月16日発売決定）", url: "https://www.falcom.co.jp/page/wp-content/uploads/2026/03/260313_KX_ReleaseDate_jp.pdf" },
+        { source: "公式サイト 最新情報（ローンチPV 2026-07-16／Ver.1.04 2026-08-13）", url: "https://www.falcom.co.jp/kyoxana/topics/" },
+        { source: "GameWith ゲームDB（作品概要・価格情報）", url: "https://gamewith.jp/gamedb/10831" },
+        { source: "ファミ通発売週レビュー（9/8/8/9＝34点）", url: "https://www.nintendonewshub.com/news/famitsu-review-scores-july-12-2026-first-scores-for-kyoto-xanadu-culdcept-begins" }
+      ],
+      videos: [
+        { label: "ローンチPV（公式サイト映像ページ・2026-07-16 公開）", platform: "官方站", url: "https://www.falcom.co.jp/kyoxana/topics/" },
+        { label: "繁体中文版 35秒 Web CM（云豹娱乐）", platform: "YouTube", url: "https://youtu.be/ulAvztkCmOs" },
+        { label: "繁体中文版 15秒 Web CM", platform: "YouTube", url: "https://youtu.be/Gt_LqThEA0Y" }
+      ],
+      hype: {
+        score: 69,
+        signals: [
+          "『東亰ザナドゥ』生誕10周年を冠した完全新作",
+          "ファミ通クロスレビュー34点（9/8/8/9）",
+          "Switch版15,431本・PS5版13,206本の初週実売で、既存ファン層の安定需要を確認"
+        ]
+      },
+      tags: ["新作", "主机", "ARPG", "ファルコム", "リメイク/新章"]
+    },
+
+    {
+      id: "honogurashi-no-niwa",
+      company: "Nippon Ichi Software",
+      companyJp: "株式会社日本一ソフトウェア",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-07-30",
+      title: { jp: "ほの暮しの庭", cn: "恬静生活之庭", en: "Honogurashi no Niwa" },
+      genre: "生活シミュレーション",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Steam", "Windows"],
+      release: "2026-07-30（已发售）",
+      releasePrecision: "日",
+      summary: "日本一软件于 2026 年 7 月 30 日推出的完全新作生活模拟游戏，由《夜回》系列团队打造。玩家在乡村经营农作、畜牧、钓鱼、狩猎，并与村民往来；作品在可理解的生活模拟框架上叠加了「村规」「安心暮し模式」等设定，把「因习村」的悬疑与恐怖要素编进日常循环，形成明显的题材差异化。实体版在发售前受注 6 万本，三平台首周实体合计约 4 万本；2026 年 9 月 2 日公司公告宣布国内累计销量突破 20 万本。",
+      highlight: "《夜回》团队的乡村生活模拟，把悬疑恐怖揉进日常劳作，国内销量突破 20 万本。",
+      news: [
+        { source: "日本一ソフトウェア 公式サイト（製品情報）", url: "https://nippon1.jp/consumer/honogurashi/product.html" },
+        { source: "日本一ソフトウェア 公式サイト（発表・予約受付開始）", url: "https://nippon1.jp/consumer/honogurashi/topics/debut" },
+        { source: "国内販売20万本達成のプレスリリース（2026-09-02）", url: "https://www.nippon1.co.jp/news/pdf/2026/20260902_01.pdf" },
+        { source: "Nintendo Store 商品ページ（配信日・対応機種）", url: "https://store-jp.nintendo.com/item/software/D70010000101687" }
+      ],
+      videos: [
+        { label: "公式サイト（PV・製品情報）", platform: "官方站", url: "https://nippon1.jp/consumer/honogurashi/product.html" },
+        { label: "Nintendo Store 商品ページ（紹介映像）", platform: "商店", url: "https://store-jp.nintendo.com/item/software/D70010000101687" }
+      ],
+      hype: {
+        score: 67,
+        signals: [
+          "国内累計20万本突破（2026-09-02 公式発表）",
+          "ファミ通7月28日〜8月2日週で三機種合計約40,303本の初週実売",
+          "『夜廻』スタッフという開発陣の知名度による事前注目"
+        ]
+      },
+      tags: ["新作", "主机", "生活シミュレーション", "日本一ソフトウェア", "オリジナルIP"]
+    },
+
+    {
+      id: "splatoon-raiders",
+      company: "Nintendo",
+      companyJp: "任天堂株式会社",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-07-23",
+      title: { jp: "スプラトゥーン レイダース", cn: "斯普拉遁 涂击队", en: "Splatoon Raiders" },
+      genre: "探索アクション（スプラトゥーンシリーズ初の外伝）",
+      platforms: ["Nintendo Switch 2（独占）"],
+      release: "2026-07-23（已发售）",
+      releasePrecision: "日",
+      summary: "《斯普拉遁》系列首部外传作品，2026 年 7 月 23 日在 Switch 2 独占发售，售价 6,480 日元。主角「机械师」与「鱼浆帮」迫降在布满漩涡的「涡潮群岛」，一边击退挡路的鲑鱼、一边围绕岛上的宝藏展开冒险。玩家在武器之外还能装备并强化「配件」，用迅捷动作、重击或技术型道具打出不同流派；鱼浆帮可乘上调查机甲支援，使用奥义一举清场。制作人为井上精太，导演伊藤嘉彦，支持 1 人与 2〜4 人游玩。本作把系列惯有的涂地对战重构为带 RPG 数值与装备构筑要素的单人/合作探索。",
+      highlight: "系列首个外传，把 PVE 打工手感重构为 RPG 式刷宝与装备构筑，首周实体 47.5 万本。",
+      news: [
+        { source: "任天堂（香港）TOPICS（本日発売・CM・開発者インタビュー）", url: "https://nintendo.com/hk/topics/article/4mwivan6eArpr1VQNuIaGz" },
+        { source: "任天堂 公式製品ページ（Switch 2）", url: "https://www.nintendo.com/hk/games/switch2/aadla?modal=multi" },
+        { source: "Famitsu 国内週販（7/20〜7/26 初週 474,684 本）", url: "https://www.nintendonewshub.com/news/famitsu-software-sales-7-20-26-7-26-26-top-30" }
+      ],
+      videos: [
+        { label: "任天堂 公式製品ページ（紹介映像・CM）", platform: "官方站", url: "https://www.nintendo.com/hk/games/switch2/aadla?modal=multi" },
+        { label: "任天堂（香港）TOPICS（CM・開発者インタビュー映像）", platform: "官方站", url: "https://nintendo.com/hk/topics/article/4mwivan6eArpr1VQNuIaGz" }
+      ],
+      hype: {
+        score: 88,
+        signals: [
+          "Famitsu 初週実売 474,684 本、8月2日時点で累計約548,226本",
+          "Switch 2 独占の第一方ラインアップとして7月のソフト牽引役",
+          "メディアスコア Metacritic 80／OpenCritic 80、IGN 9点"
+        ]
+      },
+      tags: ["新作", "主机", "アクション", "任天堂", "Switch2独占"]
+    },
+
     {
       id: "alchemist-portmasters",
       company: "KMS / K3 Studio",
@@ -1449,13 +2018,13 @@ window.OBSERVATORY = {
         label: "大手パブリッシャー",
         sub: "コンシューマー・アーケード中心",
         items: [
-          { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis"] },
+          { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "partial", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；SEGA 本体作品待补", gameIds: ["persona-6", "persona-4-revival"] },
-          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high"] },
+          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword"] },
-          { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir"] },
+          { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap"] },
           { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "watch" }
         ]
       },
@@ -1467,14 +2036,14 @@ window.OBSERVATORY = {
           { name: "株式会社アトラス", short: "ATLUS", status: "covered", gameIds: ["persona-6", "persona-4-revival"] },
           { name: "株式会社フロム・ソフトウェア", short: "FromSoftware", status: "covered", gameIds: ["the-duskbloods"] },
           { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam"] },
-          { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "watch", note: "《GOBBLE》(9/24) 已出现于发售清单，尚未建卡" },
+          { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "watch" },
-          { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima"] },
+          { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）" },
           { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "watch", note: "《BLACK WOLVES SAGA》(9/10) 已出现于发售清单，尚未建卡" },
-          { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter"] },
+          { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
           { name: "プラチナゲームズ株式会社", short: "PlatinumGames", status: "watch" },
           { name: "株式会社SNK", short: "SNK", status: "watch" },
-          { name: "株式会社ゲームフリーク", short: "GAME FREAK", status: "covered", gameIds: ["ame-nochi-hare-onna", "pokemon-winds-waves"] },
+          { name: "株式会社ゲームフリーク", short: "GAME FREAK", status: "covered", gameIds: ["ame-nochi-hare-onna", "pokemon-winds-waves", "beast-of-reincarnation"], note: "『Beast of Reincarnation』(8/4) は同社初の非ポケモン AAA 作品" },
           { name: "株式会社ハル研究所", short: "HAL Laboratory", status: "covered", gameIds: ["kirby-world-beyond"] },
           { name: "株式会社トーセ", short: "TOSE", status: "watch" },
           { name: "株式会社イルカ", short: "Iruka", status: "watch" },
@@ -1492,13 +2061,13 @@ window.OBSERVATORY = {
           { name: "株式会社WFS", short: "Wright Flyer Studios", status: "watch" },
           { name: "株式会社マイネット", short: "mynet", status: "watch" },
           { name: "株式会社ブシロード", short: "Bushiroad", status: "watch", focus: true },
-          { name: "グリー株式会社", short: "GREE", status: "watch" },
+          { name: "グリー株式会社", short: "GREE", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "子会社グリーエンターテインメントが『無職転生 クロエコ』を企画・配信（7/27 配信開始）" },
           { name: "株式会社アカツキゲームス", short: "Akatsuki Games", status: "watch" },
           { name: "株式会社コロプラ", short: "COLOPL", status: "covered", gameIds: ["active-cinema-rpg-369"] },
           { name: "株式会社MIXI", short: "MIXI", status: "watch" },
           { name: "株式会社ディー・エヌ・エー", short: "DeNA", status: "watch" },
           { name: "ガンホー・オンライン・エンターテイメント株式会社", short: "GungHo", status: "covered", gameIds: ["blue-nova"] },
-          { name: "KLab株式会社", short: "KLab", status: "watch" },
+          { name: "KLab株式会社", short: "KLab", status: "covered", gameIds: ["mha-united-survival"], note: "『僕のヒーローアカデミア UNITED SURVIVAL』を gumi と共同開発（8/6 全世界配信）" },
           { name: "株式会社バンク・オブ・イノベーション", short: "Bank of Innovation", status: "watch" },
           { name: "ワンダープラネット株式会社", short: "WonderPlanet", status: "watch" },
           { name: "株式会社アピリッツ", short: "Appirits", status: "watch" },
@@ -1537,7 +2106,15 @@ window.OBSERVATORY = {
         { name: "株式会社Rudel", short: "Rudel", status: "covered", gameIds: ["sakamoto-days-rogue-dawn"] },
         { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["nhn-playart-tgs-2026"] },
         { name: "TOHO Games（東宝株式会社）", short: "TOHO Games", status: "covered", gameIds: ["haikyu-all-challengers"], focus: true, note: "动画『ハイキュー!!』のIP保有元が自らゲーム事業ブランドを運営。IP ホルダー直営のため監修業務と直結" },
-        { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" }
+        { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
+        { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["hololive-dreams"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発" },
+        { name: "株式会社QualiArts", short: "QualiArts", status: "covered", gameIds: ["hololive-dreams"], note: "サイバーエージェント連結子会社。『hololive Dreams』の開発・配信元" },
+        { name: "株式会社enish", short: "enish", status: "covered", gameIds: ["yowamushi-pedal-resonance-pedaism"], note: "東証グロース上場。Gホールディングスと共同で『弱虫ペダル』新作アプリを運営" },
+        { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
+        { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
+        { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
+        { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
+        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』を発表" }
       ]
     }
   },
@@ -1590,9 +2167,11 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS 30 周年开幕前夜：主机侧集中亮牌，手游侧新作密度同步攀升",
+    headline: "观测窗口扩至 2 个月（7/15–9/15）：补收 13 款日厂作品，手游区增至 16 条",
     points: [
-      "手游为重点监测区，手游区本期收录 9 条（纯手游 8 条＋跨平台 1 条）。除原有 6 条外，本轮补收 3 款 IP 授权改编手游：《ONE PIECE 海のごちそうレストラン》（カイロソフト開発 × バンダイナムコ発行、モバイル版 10-23）、《ハイキュー!! ALL Challengers》（東宝 TOHO Games 自営、事前登録中）、《BLEACH Mirrors High》（バンダイナムコ、2026 年内）。三作とも日本 IP ホルダー主導で、うち ONE PIECE はモバイル＋コンシューマーのクロスプラットフォーム",
+      "观测窗口由原来的半个月扩至**滚动 2 个月（2026-07-15 ~ 2026-09-15）**，条目总数 37 → 50。本轮补收 13 款 7 月中旬至 8 月底的日厂作品：手游/跨平台 7 款（デジモンUP、弱虫ペダル レゾナンス・ペダイズム、hololive Dreams、無職転生 クロエコ、僕のヒーローアカデミア UNITED SURVIVAL、幻想水滸伝 STAR LEAP、シノビNEXUS –閃乱カグラ–），主机/PC 6 款（Beast of Reincarnation、MARVEL Tōkon: Fighting Souls、UN:Me、亰都ザナドゥ -桜花幻舞-、ほの暮しの庭、スプラトゥーン レイダース）",
+      "手游区现收录 16 条（纯手游 11 条＋跨平台 5 条）。补收部分的看点集中在 IP 授权改编与跨平台发行两条线上：デジモンUP（バンダイナムコ）、幻想水滸伝 STAR LEAP（KONAMI）、僕のヒーローアカデミア UNITED SURVIVAL（KLab × gumi）、弱虫ペダル ペダイズム（enish）、シノビNEXUS（HONEY∞PARADE GAMES）全部来自日本 IP ホルダー或日厂自研；hololive Dreams 与 無職転生 クロエコ 则同时覆盖手机与 PC/Steam，属于典型的跨平台投放",
+      "7〜8 月手游侧的两款爆点是 hololive Dreams（事前登録150万、配信直後に App Store / Google Play 首位）与 無職転生 クロエコ（事前登録50万、開服即 App Store 無料ランキング1位），两者都靠 IP ファン盤驱动，而非新品类突破",
       "手游侧的看点集中在两处：一是 IP 跨媒介改编（SAKAMOTO DAYS、刀剑乱舞、生化危机），二是品类迁移——Aniplex 把《生化危机》从生存恐怖搬到 RTS，属系列手游罕见转向。",
       "新作发表密度为本季最高。GAME FREAK、GungHo、KONAMI、COLOPL、松竹、Cygames Edge、HYPER REAL 各有新作或新企划落地，且多数直接对接 TGS2026。",
       "KONAMI 一次性公布《Rhapsody in Scarlet》《PROJECT ZIRCON》两款完全新作，是本期动作最大的厂商。",
