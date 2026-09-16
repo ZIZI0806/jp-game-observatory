@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-15T16:20:00+08:00",
-    edition: "2026-09-15",
-    window: "2026-07-15 ~ 2026-09-15（滚动最近 2 个月）",
+    updatedAt: "2026-09-16T09:20:00+08:00",
+    edition: "2026-09-16",
+    window: "2026-07-16 ~ 2026-09-16（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -2987,8 +2987,8 @@ window.OBSERVATORY = {
       companyJp: "株式会社グッドスマイルカンパニー",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09（发售）",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-09-15（PS5版アーリーアクセス開始／PC版は 09-17 発売）",
+      capturedAt: "2026-09-16",
       title: { jp: "機動警察パトレイバー the Case Files", cn: "机动警察 PATLABOR the Case Files", en: "PATLABOR the Case Files" },
       genre: "3D 动作",
       platforms: ["PS5", "PC (Steam / Epic)"],
@@ -2997,7 +2997,7 @@ window.OBSERVATORY = {
       summary: "系列约 26 年来首款全新独立主机游戏。由 Chime 开发，出渕裕监修机械设计、伊藤和典监修剧本、高田明美监修角色原画。玩家可驾驶 Ingram、Griffon、零式等 20 余台 Labor，并可从特车二课与敌方双方视角体验剧情。含模拟器模式与 Labor 对战。",
       highlight: "实体 PS5 特装版附赠「白 Griffon」塑料模型，周边公司做游戏的资源协同体现明显。",
       console: {
-        status: "2026年9月17日発売予定（PS5）／ PC は 2026年9月16日 23:00（GMT+8）に先行解禁。予約受付中",
+        status: "PS5 版は 2026-09-15 よりアーリーアクセス開始、PC 版は 2026-09-17 発売。店頭予約受付中",
         os: ["PlayStation 5", "PC（Steam / Epic Games Store）"],
         monetization: "PS5 ダウンロード版 通常版 4,400 円（税込）／ デジタルデラックスエディション 5,500 円（税込）。国内パッケージ版（PS5 通常版）は 6,380 円（税込）。PS Plus 会員は発売前まで 10% OFF の 3,960 円",
         developer: "Chime",
@@ -3023,18 +3023,21 @@ window.OBSERVATORY = {
         cast: "泉野明（CV：冨永みーな）、篠原遊馬（CV：古川登志夫）ほか（Web CM のナレーションより）"
       },
       news: [
+        { source: "AppBank（PS5 版アーリーアクセス開始・TGS2026 試遊情報）", url: "https://www.appbank.net/2026/09/15/game/3104513.php" },
         { source: "Quest Board.JP（发售详情）", url: "https://quest-board.jp/en/quests/the-case-files" }
       ],
       videos: [
+        { label: "TGS2026 試遊情報（ハピネットブース・特製ステッカー配布）", platform: "媒体", url: "https://www.appbank.net/2026/09/15/game/3104513.php" },
         { label: "发售详情（含第 2 弹 Web CM 情报）", platform: "媒体", url: "https://quest-board.jp/en/quests/the-case-files" },
         { label: "官方 X @patlabor0810", platform: "X", url: "https://x.com/patlabor0810" }
       ],
       hype: {
-        score: 62,
+        score: 63,
         signals: [
           "26 年空白带来的情怀价值",
           "多语言（含简繁中文）+ 国际发售，覆盖面广",
-          "9/17 发售，与 TGS 开幕同日"
+          "PS5 版 9/15 起先行进入，PC 版 9/17 发售，与 TGS 开幕同日",
+          "TGS2026 ハピネットブースで試遊可能（体験者に特製ステッカー）"
         ]
       },
       tags: ["定档", "动作", "IP改编"]
@@ -3249,6 +3252,300 @@ window.OBSERVATORY = {
         synopsis: "『BLEACH』千年血戦篇の後の物語を描く完全新作ストーリー。プレイヤーは護廷十三隊の一員として、自らが育てる新人死神となり、崩れた世界の秩序の中で新たな敵と向き合う。一護・ルキア・白哉といったおなじみのキャラクターと共闘しつつ、久保帯人がデザインした新たな死神たちと出会い、尸魂界の新たな局面に立ち会う。",
         cast: "オリジナルキャラクター：Shirin Migishima／Shirane Sanari／Naru Jurinna／Giro Hando／Maiko Tokishima（久保帯人デザイン）。原作キャラクターはアニメ本編キャスト"
       }
+    },
+
+    /* ---------- 2026-09-16 09:00 場の増分（09-15 前後の日媒消息） ----------
+     * 新規 5 件：灼眼のシャナ ブレイズエッジ（手游）／朧村正怪奇譚・呪術廻戦 RUMBLE: SURVIVATON・
+     *            Another Eden Begins・ACE COMBAT 8（主机・PC）
+     * 更新 1 件：patlabor-the-case-files（PS5 版アーリーアクセス開始）
+     * スキップ：グローバル配信元が中国資本の音楽リズムゲーム → 中資レッドライン */
+
+    {
+      id: "shakugan-no-shana-blaze-edge",
+      company: "CTW Inc.",
+      companyJp: "CTW株式会社（G123）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-09-14（正式サービス開始）",
+      capturedAt: "2026-09-16",
+      title: { jp: "灼眼のシャナ ブレイズエッジ", cn: "灼眼的夏娜 Blaze Edge", en: "Shakugan no Shana: Blaze Edge" },
+      genre: "放置型 RPG（アイドル RPG）",
+      platforms: ["iOS", "Android", "PC（ブラウザ）"],
+      release: "2026-09-14",
+      releasePrecision: "日",
+      summary: "CTW 在自家免下载游戏平台 G123 上推出的《灼眼のシャナ》IP 授权手游，2026-09-14 正式开服。玩家培养主角夏娜，在动画与小说中未曾出现的原创舞台「影之世界」中探索，靠升级战斗中获得的装备、习得「神器」与「自在法」（技能）、招募伙伴来强化队伍。系列中出现过的强敌在本作里可直接编成己方战力。采用放置型循环，短时间登录也能推进育成，且不需要下载与注册会员，智能手机／平板／PC 浏览器打开即玩。支持日语、英语、繁体中文、韩语四语同步，事前登录奖励为 SSR「平井ゆかり」。",
+      highlight: "以「按自己的方式培养夏娜」为核心的放置型 RPG；动画与原作里的强敌能直接编入己方阵容，是给系列 20 年粉丝的核心卖点。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android", "PC（ブラウザ）"],
+        monetization: "基本無料（ゲーム内アイテム課金あり）",
+        preReg: { open: false, since: "2026-09-11 〜 2026-09-14（サービス開始前まで受付）", reward: "事前登録者全員に SSR「平井ゆかり」をサービス開始時に配布（現在は受付終了）" },
+        developer: "CTW株式会社",
+        publisher: "CTW株式会社（G123）",
+        region: "日本／グローバル（日本語・英語・繁体字中国語・韓国語の 4 言語で同時展開）",
+        distribution: "ブラウザ配信（G123。スマートフォン・タブレット・PC の Web ブラウザから、ダウンロード・会員登録不要）",
+        payment: [],
+        launch: "2026-09-14",
+        ipSource: "『灼眼のシャナ』（著：高橋弥七郎／イラスト：いとうのいぢ／電撃文庫）。テレビアニメ放送 20 周年記念作品",
+        series: "原作は全 22 巻＋短編集、TV アニメは 2005／2007／2011 年の 3 期に加え劇場版・OVA も展開。家庭用・携帯機でも複数ゲーム化されており、本作は G123 のアニメ IP ブラウザゲーム群に連なる 1 作",
+        features: [
+          "放置型システム：ログインしていない間もキャラクターの育成と強化が進む",
+          "アニメ・原作で敵として登場した強敵を、影の世界では仲間として編成できる",
+          "「神器」と「自在法」（スキル）を集めてキャラクターを強化",
+          "アニメ・原作にない新規舞台「影の世界」をめぐるゲームオリジナルストーリー",
+          "スマートフォン・タブレット・PC のブラウザから、インストール不要で即プレイ",
+          "日本語・英語・繁体字中国語・韓国語の 4 言語対応"
+        ],
+        synopsis: "高橋弥七郎のライトノベル『灼眼のシャナ』を題材にした放置型 RPG。プレイヤーは特別な力を持つ主人公シャナを育てながら、アニメや原作には描かれなかった新たな舞台「影の世界」を探索する。紅世の徒とフレイムヘイズの戦いという原作の軸を踏襲しつつ、影の世界に潜む新たな脅威に立ち向かう物語が描かれる。",
+        cast: "シャナ（CV：釘宮理恵／アニメ版より続投）。坂井悠二、ヘカテーほか、原作・アニメに登場したキャラクターが 20 名以上参戦"
+      },
+      news: [
+        { source: "Holiday Travel（正式サービス開始の案内・公式リンク）", url: "https://haveagood-holiday.com/zh-CN/articles/shakugan-no-shana-blaze-edge-official-launch" },
+        { source: "GameHaunt（G123 での正式リリース報道）", url: "https://gamehaunt.com/shakugan-no-shana-blaze-edge-launches-on-g123" },
+        { source: "PerEXP（Anime News Network の配信日報道の整理）", url: "https://perexpteamworks.com/en/shakugan-no-shana-blaze-edge" }
+      ],
+      videos: [
+        { label: "公式ゲームページ（G123・ブラウザで即プレイ）", platform: "官方站", url: "https://s.g123.jp/k5psunah" },
+        { label: "正式リリース報道（ローンチトレーラーを内蔵）", platform: "媒体", url: "https://gamehaunt.com/shakugan-no-shana-blaze-edge-launches-on-g123" }
+      ],
+      hype: {
+        score: 50,
+        signals: [
+          "テレビアニメ放送 20 周年という節目のタイミングでのリリース",
+          "日本語・英語・繁体字中国語・韓国語の 4 言語で同時展開",
+          "G123 の放置型フォーマットはアニメ IP 層に安定した需要があり、ダウンロード不要で入口が広い"
+        ]
+      },
+      tags: ["IP授权", "手游", "放置RPG", "ブラウザ配信", "正式サービス中", "20周年"]
+    },
+    {
+      id: "oboromuramasa-kaikitan",
+      company: "Marvelous",
+      companyJp: "株式会社マーベラス（開発：ヴァニラウェア）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-10（発売日決定・新映像公開）",
+      capturedAt: "2026-09-16",
+      title: { jp: "朧村正怪奇譚", cn: "胧村正怪奇谭", en: "Muramasa: Revenant Blades" },
+      genre: "絢爛絵巻和風アクション RPG",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PC (Steam)"],
+      release: "2027-02-04（Steam 版は 2027-02-05）",
+      releasePrecision: "日",
+      summary: "2009 年 Wii《胧村正》与 2013 年 PS Vita 版 DLC《元禄怪奇谭》合为一部的高画质重制版，2026-09-10 正式定档 2027-02-04。原班人马再集结：原作神谷盛治、导演中西渉、音响制作崎元仁、制作人塩田誠。最核心的改动是把「奥義」从「每把刀固定」改为「修得后可自由换装」——地上与空中各 3 个槽位，配方向键切换，用得多还能提升练度强化性能。另收录保留 PS Vita 版手感只提升画质的「经典模式」，以及画卷、图录、回想等鉴赏要素。本作是 Vanillaware 作品首次登陆 Steam。",
+      highlight: "十七年后的重制，改的不是画面而是「奥義」的自由度；同时是 Vanillaware 首次登上 Steam。",
+      console: {
+        status: "2027年2月4日発売予定（Steam 版は 2月5日配信予定）。予約受付中",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PC（Steam）"],
+        monetization: "通常版（パッケージ／ダウンロード）6,578 円（税込）／限定特装版 8,778 円（税込）／Digital Deluxe Edition 7,678 円（税込）。北米は通常版 49.99 ドル（Switch 2 版 59.99 ドル）、限定版 89.99／99.99 ドル",
+        developer: "ヴァニラウェア",
+        publisher: "マーベラス（Steam 版は Marvelous USA、アジア版は Game Source Entertainment）",
+        region: "日本／北米・欧州・アジア（字幕：日本語・英語・繁体字・簡体字・韓国語・仏・独・西・伊・ポルトガル語・ロシア語、音声：日本語／英語）",
+        distribution: "パッケージ版・ダウンロード版（Switch 2 のパッケージはゲームカード）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam", "全国のゲーム取扱店"],
+        preOrder: { open: true, since: "2026-09-10（発売日発表と同時に順次受付開始）", reward: "アジア版の予約特典は「朧村正怪奇譚 典蔵色紙」1 枚。限定特装版は特製外箱と特製美術集『朧村正怪奇譚 麗画撰集』を同梱。限定特装版の予約締切は 10月29日、アジア版の予約期間は 12月2日まで。公式 X では 9月10日〜9月24日にフォロー＆リポスト企画を実施し、抽選で 6 名に「オリジナル掛け軸」が当たる" },
+        features: [
+          "PS Vita 版『朧村正』と DLC『元禄怪奇譚』を 1 本に統合し、グラフィックを高解像度化",
+          "奥義が「刀ごとの固定」から「修得して自由に差し替え」へ変更。地上 3 スロット／空中 3 スロットに登録し、方向キーで使い分ける",
+          "奥義を使い込むと練度が上がり、性能が強化される",
+          "PS Vita 版のゲームシステムと操作感をそのままに高画質化した「クラシックモード」を収録",
+          "絵巻・図録・回想といった鑑賞要素に加え、温泉・食事処・釣り・駕籠かきなどの寄り道コンテンツを収録",
+          "境遇も目的も異なる 6 人の主人公の物語を、好きな順番で進められる"
+        ],
+        synopsis: "妖怪が跋扈する元禄時代の日本を舞台に、六人の主人公がそれぞれの物語を紡ぐ和風アクション RPG。妖刀村正に魅入られた者、主君の仇を討とうとする者、愛に苦しむ者——六編はそれぞれ独立し、遊ぶ順番はプレイヤーに委ねられている。刀による連撃に「受け流し」「はじき返し」、そして奥義を組み合わせ、魑魅魍魎が横行する世界を戦い抜く。",
+        ipSource: "『朧村正』『元禄怪奇譚』（2009／2013 マーベラス、開発ヴァニラウェア）",
+        series: "オリジナルクリエイターの神谷盛治、ディレクター中西渉、サウンドプロデューサー崎元仁、プロデューサー塩田誠が再集結。ヴァニラウェア作品として初の Steam 展開であり、同スタジオは『十三機兵防衛圏』『ユニコーンオーバーロード』を手がけている"
+      },
+      news: [
+        { source: "AppBank（発売日決定・最新映像公開）", url: "https://www.appbank.net/2026/09/14/game/3102865.php" },
+        { source: "Game Source Entertainment アジア版 公式ニュース（予約特典・限定特装版）", url: "https://asia.gamesource-ent.com/news/detail/1311/" },
+        { source: "Yomimono（4Gamer／Automaton／Game Spark ほか報道の整理）", url: "https://www.yomimono.id/oboromuramasa-kaikitan-sets-february-4-2027-release" }
+      ],
+      videos: [
+        { label: "公式サイト（最新映像『朧村正怪奇譚 朧流秘伝』を掲載）", platform: "官方站", url: "https://oboromuramasakaikitan.marv.jp/" },
+        { label: "発売日決定の報道（新映像の内容を解説）", platform: "媒体", url: "https://www.appbank.net/2026/09/14/game/3102865.php" },
+        { label: "実機映像まとめ報道（約 12 分のゲームプレイ）", platform: "媒体", url: "https://particle.news/story/muramasa-revenant-blades-set-for-feb-4-2027-release" }
+      ],
+      hype: {
+        score: 68,
+        signals: [
+          "2009 年 Wii 版と 2013 年 PS Vita 版を統合した待望のリマスターで、シリーズとして約 14 年ぶりの再展開",
+          "ヴァニラウェア作品として初の Steam 展開により、海外の同スタジオファン層を取り込める",
+          "予約特典・限定特装版・アジア版の物販展開が発売日発表と同時に一斉に公表された"
+        ]
+      },
+      tags: ["新作発表", "リマスター", "和風アクション", "定档", "ヴァニラウェア", "高画質化"]
+    },
+    {
+      id: "jujutsu-kaisen-rumble-survivaton",
+      company: "Shueisha Games",
+      companyJp: "株式会社集英社ゲームズ（開発：poncle）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09（2027年へ発売延期・第2弾トレーラー公開）",
+      capturedAt: "2026-09-16",
+      title: { jp: "呪術廻戦 RUMBLE: SURVIVATON", cn: "咒术回战 RUMBLE: SURVIVATON", en: "Jujutsu Kaisen Rumble: Survivaton" },
+      genre: "サバイバーズロワイヤル（Survivors Royale）",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
+      release: "2027年（具体的な日付は未発表）",
+      releasePrecision: "年",
+      summary: "集英社游戏品牌「SHUEISHA GAMES」自营发行、由《吸血鬼幸存者》开发方 poncle 制作的《咒术回战》衍生「幸存者大逃杀」。玩家操作原作角色扫荡咒灵、在局内升级构筑，再与对手争夺最后席位；每 100 分可发动一次「规则追加」干扰对手，等级提升时还能把其他角色的普通攻击并入自己的构筑，形成所谓「协动构筑」。上线规模为最多 8 人线上对战＋单人模式。2026 年 6 月 9 日 Nintendo Direct 首次公开，原定 2026 年内发售，本轮确认延期至 2027 年，并在 TGS2026（集英社游戏展位 05-C10）进行全球首次公开试玩，8 名 Boss 全部可打。",
+      highlight: "把「吸血鬼幸存者」的局内构筑塞进《咒术回战》，并用「规则追加」把PVP干扰做成每 100 分一次的关键抉择；发售从 2026 年内推迟到 2027 年。",
+      console: {
+        status: "2027年発売予定（具体的な日付は未発表）。2026 年内予定から延期が発表された",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC（Steam）"],
+        monetization: "価格・CERO レーティングはいずれも未定（公式発表なし）",
+        developer: "poncle",
+        publisher: "集英社ゲームズ",
+        region: "日本／世界（字幕：日本語・英語・繁体字・簡体字・韓国語・フランス語・イタリア語・ドイツ語・スペイン語・ポルトガル語（ブラジル））",
+        distribution: "パッケージ版・ダウンロード版（販売形態の詳細は未発表）",
+        stores: ["Steam", "Nintendo eShop", "PlayStation Store", "Microsoft Store"],
+        preOrder: { open: false, since: "未開始（発売日決定後に案内予定）", reward: "未発表（公式発表なし）" },
+        features: [
+          "『Vampire Survivors』のループを『呪術廻戦』の世界に移植したサバイバーズロワイヤル",
+          "最大 8 人のオンライン対戦。ポイント上位 2 名が 1 対 1 の決勝へ進み、勝者がその試合を取る",
+          "100 ポイントごとに発動する「ルール追加」で相手の勢いを削ぐ",
+          "レベルアップ時に他キャラクターの通常攻撃を自分のビルドへ組み込める「協力ビルド」",
+          "ピクセルアートで描かれた 8 体のボス（禅院直哉・羂索・吉野順平・漏瑚・真人・裏梅・エソ・伏黒甚爾）",
+          "ソロプレイモードを収録し、一人で攻略することも可能"
+        ],
+        synopsis: "プレイヤーは『呪術廻戦』のキャラクターとなって呪霊の大群と rival を同時に相手取り、なぎ倒しながら強くなって最後まで生き残ることを目指す。原作の「死滅回游」と呪術高専をモチーフに、Vampire Survivors の手触りをそのまま持ち込んだ設計で、試合中に自分だけの攻撃ビルドを組み上げる点が中心にある。",
+        ipSource: "『呪術廻戦』（芥見下々／集英社）。原作は全世界累計発行部数 1 億 5,000 万部以上",
+        series: "集英社ゲームズが展開するゲームブランドの 1 つ。開発は『Vampire Survivors』の poncle（創業者 Luca Galante）。2026 年 6 月 9 日の Nintendo Direct で初公開され、当初は 2026 年内発売予定だった"
+      },
+      news: [
+        { source: "Holiday Travel（延期発表と TGS2026 試遊の詳細・公式発表ベース）", url: "https://haveagood-holiday.com/en/articles/jujutsu-kaisen-rumble-survivaton-delayed-2027" },
+        { source: "Wasabi POP（延期の経緯と第 2 弾トレーラー解説）", url: "https://wasabipop.com/article/jujutsu-kaisen-rumble-survivaton-delayed-2027-tgs-playtest" },
+        { source: "Shorty News（延期報道・プラットフォーム情報）", url: "https://shorty-news.com/tech/jujutsu-kaisen-rumble-delay" }
+      ],
+      videos: [
+        { label: "公式サイト（第 2 弾トレーラーと TGS2026 試遊情報）", platform: "官方站", url: "https://jjkrsurvivaton.shueisha-games.com/" },
+        { label: "公式 X（@JJKRS_JP・公式発表に明記）", platform: "X", url: "https://x.com/JJKRS_JP" }
+      ],
+      hype: {
+        score: 74,
+        signals: [
+          "原作は全世界累計 1 億 5,000 万部以上、TV アニメ第 3 期「死滅回游」も進行中で IP の勢いが高い",
+          "『Vampire Survivors』の開発元 poncle が手がけることで、ローグライト既存層からの関心が大きい",
+          "TGS2026（9月17〜21日）で世界初の一般試遊を実施し、8 体のボスすべてを体験できる",
+          "ファミ通読者期待榜に名前が出るシリーズだが、今回の延期で 2027 年に持ち越しとなった"
+        ]
+      },
+      tags: ["新作発表", "延期", "IP授权", "ローグライト", "TGS2026", "集英社ゲームズ"]
+    },
+    {
+      id: "another-eden-begins",
+      company: "Wright Flyer Studios",
+      companyJp: "株式会社ライトフライヤースタジオ（開発協力：Studio Prisma）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-14（実機プレイ映像公開・発売直前情報）",
+      capturedAt: "2026-09-16",
+      title: { jp: "Another Eden Begins", cn: "另一个伊甸 起源", en: "Another Eden Begins" },
+      genre: "買い切り JRPG（タイムトラベル RPG）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PC (Steam)"],
+      release: "2026-09-17（パッケージ版は 2027 年予定）",
+      releasePrecision: "日",
+      summary: "把自家手游《另一个伊甸 超越时空的猫》主线第一部彻底重做为买断制 JRPG，2026-09-17 登陆 Switch 2 / Switch / PC（Steam）。最关键的变化是抽卡与内购被完全废除——18 名伙伴改为随剧情推进、完成专属任务、提升亲密度逐步集齐，每人都追加了加入剧情与亲密度任务。战斗保留回合制指令与 Another Force，并新增以技能衔接为核心的连锁系统；场景改为可自由移动的 3D 空间，遇敌从随机遭遇改为地图上的符号遭遇，玩家可自行决定迎战或绕开。为完成这些改动，开发团队放弃原来的 Cocos2d-x，改用 Unity 重写了系统。剧本由曾参与《时空之轮》《异度装甲》的加藤正人领衔。",
+      highlight: "手游改编做出反向选择：不保留抽卡，直接把「抽卡」换成剧情解锁的 18 人固定阵容，并为此换引擎重写。",
+      console: {
+        status: "2026年9月17日デジタル配信予定（パッケージ版は 2027 年予定）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PC（Steam）"],
+        monetization: "買い切り（北米 MSRP 39.99 ドル）。ガチャ・マイクロトランザクションは完全に廃止",
+        developer: "ライトフライヤースタジオ／Studio Prisma",
+        publisher: "ライトフライヤースタジオ（北米パッケージ版は Aksys Games）",
+        region: "日本／世界（Steam 版の体験版は既定で日本語起動、設定から英語に切替可能。主要ストーリーには英語のフルボイスを収録）",
+        distribution: "ダウンロード版（Steam／Nintendo eShop）。パッケージ版は 2027 年に北米で Aksys Games より発売予定",
+        stores: ["Steam", "Nintendo eShop"],
+        preOrder: { open: false, since: "2026-09-03（体験版配信開始。製品版へのセーブ引き継ぎに対応）", reward: "早期購入特典としてデジタル特典（限定コスト）と、スマートフォン版『アナザーエデン 時空を超える猫』のゲーム内報酬を用意（公式発表）" },
+        features: [
+          "スマートフォン版『アナザーエデン 時空を超える猫』第 1 部を、家庭用向けに全面的に作り直した買い切り版",
+          "ガチャとマイクロトランザクションを完全に撤廃し、仲間は物語と親密度で加入する方式に変更",
+          "18 人の仲間それぞれに加入エピソードと親密度クエストを用意",
+          "『クロノ・トリガー』『ゼノギアス』の加藤正人がシナリオを担当",
+          "New Game+ を搭載し、選んだ道によって 10 種類以上のエンディングに分岐",
+          "Cocos2d-x から Unity へエンジンを刷新し、探索を自由移動の 3D 空間に変更",
+          "遇敵をシンボルエンカウント方式に変更し、戦うか避けるかを選べる",
+          "主要ストーリーとキャラクター加入シーンにフルボイスを収録"
+        ],
+        synopsis: "バルオキー村で穏やかに暮らす少年アルドは、妹フィーネを魔獣王に奪われ、時空の裂け目に呑まれて 800 年後の未来へ飛ばされる。AD300 年の現代、AD1100 年の未来、BC20000 年の古代を巡りながら、妹の行方と世界を揺るがす陰謀を追うタイムトラベル RPG。物語は本作で完結し、終わり方を次作に委ねる形にはしないと開発が明言している。",
+        ipSource: "スマートフォン向け RPG『アナザーエデン 時空を超える猫』（ライトフライヤースタジオ）の家庭用リメイク",
+        series: "原作は 2017 年に配信を開始したスマートフォン RPG。本作はその第 1 部を再構築したもので、プロデューサーは平澤信之介氏。開発チームは当初「スマートフォン版をそのまま家庭用機で動かす」案を試したが、描画とコントローラー操作が両立しなかったため方針を変え、Unity で作り直したと説明している"
+      },
+      news: [
+        { source: "Yomimono（4Gamer の実機プレイ映像報道を整理）", url: "http://yomimono.id/wasyagana-tv-walks-through-another-eden-begins-ahead-of-september-17-release" },
+        { source: "CGMagazine（PC 版レビュー／開発体制・価格・発売日）", url: "https://www.cgmagonline.com/review/game/another-eden-begins-pc" },
+        { source: "18183（買い切り化と発売日・特典情報）", url: "https://news.18183.com/yxxw/202609/9032448.html" }
+      ],
+      videos: [
+        { label: "実機プレイ映像（Wasyagana TV の内容を伝える報道）", platform: "媒体", url: "http://yomimono.id/wasyagana-tv-walks-through-another-eden-begins-ahead-of-september-17-release" },
+        { label: "PC 版レビュー（CGMagazine・ゲームプレイ映像付き）", platform: "媒体", url: "https://www.cgmagonline.com/review/game/another-eden-begins-pc" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "スマートフォン版は累計 1,000 万ダウンロード超の長期 IP で、既存ファンからの期待が厚い",
+          "ガチャ撤廃の買い切り JRPG 化という方針転換が海外メディアで広く取り上げられた",
+          "9月17日発売で、TGS2026 の開幕と同日にあたる"
+        ]
+      },
+      tags: ["新作発表", "買い切り", "JRPG", "リメイク", "ガチャ撤廃"]
+    },
+    {
+      id: "ace-combat-8-wings-of-theve",
+      company: "Bandai Namco Entertainment",
+      companyJp: "株式会社バンダイナムコエンターテインメント（開発：バンダイナムコエイセス）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-14（ストーリートレーラー・殲滅戦モード公開）",
+      capturedAt: "2026-09-16",
+      title: { jp: "ACE COMBAT 8: Wings of Theve", cn: "皇牌空战 8 Wings of Theve", en: "Ace Combat 8: Wings of Theve" },
+      genre: "フライトシューティング／空戦アクション",
+      platforms: ["PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
+      release: "2026-10-02（デラックスエディションは 09-29 から先行アクセス）",
+      releasePrecision: "日",
+      summary: "系列最新作，2026-10-02 发售，2026-09-14 通过 PlayStation.Blog 公开故事预告并确认「歼灭战」（Annihilation Battle）在任务 7 回归。歼灭战的核心是自由度：限时内自行决定先打哪个目标、什么时候回补给线装弹，目标清单包括太阳能发电站、储油罐、空军基地与弹药库。连锁破坏进一步加深策略性——击中储油罐引发的爆炸会波及周边建筑，敌机坠落地点附近的设施也会受损。本作同时介绍了两件超大型兵器：周长 6 公里、配备 2,000 米跑道与 CIWS／SAM／电磁炮的海上浮体「Megafloat Fatsia」，以及低轨道 500 公里、以金属棒动能打击的卫星兵器「Tonitrus Spear」。",
+      highlight: "歼灭战回归是核心卖点：破坏顺序与补给线时机交给玩家，连锁破坏让「先打哪一个」直接影响战果。",
+      console: {
+        status: "2026年10月2日発売予定。予約受付中",
+        os: ["PlayStation 5", "Xbox Series X|S", "PC（Steam）"],
+        monetization: "通常版とデラックスエディションの 2 形態。デラックスエディションは 3 日間の先行アクセス（Advanced Access、9月29日開始）、コスメセット、Premium Ace Pass Plus クーポンを同梱。予約特典はプレイアブル機 F-14A Tomcat と Steam 版『ACE COMBAT ZERO THE BELKAN WAR』",
+        developer: "バンダイナムコエイセス",
+        publisher: "バンダイナムコエンターテインメント",
+        region: "日本／世界",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["PlayStation Store", "Microsoft Store", "Steam", "全国のゲーム取扱店"],
+        preOrder: { open: true, since: "2026-09（予約受付中）", reward: "F-14A Tomcat が使用可能になるプレオーダー特典、および Steam 版『ACE COMBAT ZERO THE BELKAN WAR』の無料付属。デラックスエディションは 9月29日からの先行アクセス付き" },
+        features: [
+          "シリーズおなじみの殲滅戦（Annihilation Battle）がミッション 7 で復活",
+          "制限時間内に、どの敵をどの順で潰すか、いつ補給線（リターンライン）へ戻るかを自分で決める自由度",
+          "燃料タンクなどに着弾させると周囲の建造物を巻き込む連鎖破壊が発生",
+          "撃墜された敵機の墜落地点でも周辺構造物が破壊される",
+          "6 キロに及ぶ海上メガフロート「ファッツィア」と、低軌道 500 キロの衛星兵器「トニトルス・スピア」",
+          "マルチプレイコンテンツ「Ace Combat Online」を収録",
+          "プロデューサーは下元学氏。世界観を補完する前日譚シリーズの展開も告知されている"
+        ],
+        synopsis: "共和国ソトアによる中央ユージア連邦への奇襲侵攻から物語が始まる。連邦艦隊は壊滅し、首都テーヴは占領される。海上で漂流していた若いパイロットは老朽空母エンデュランスに救助され、伝説のエースにちなんだコールサイン「ウィングス・オブ・テーヴ」を与えられる——だがその無敵のエースは、士気を上げるために軍上層部がでっち上げた架空の存在だった。",
+        ipSource: "『ACE COMBAT』シリーズ（バンダイナムコエンターテインメント）のナンバリング最新作",
+        series: "ナンバリング第 8 作。2026 年 10 月 2 日の発売に向けて、ストーリートレーラーとミッション詳細が順次公開されている段階"
+      },
+      news: [
+        { source: "PlayStation.Blog（公式発表：殲滅戦モードとストーリートレーラー）", url: "https://blog.playstation.com/2026/09/14/ace-combat-8-wings-of-theve-annihilation-battle-mode-confirmed-story-trailer-revealed/" },
+        { source: "Gamesplanet ニュース（登場人物とエディション解説）", url: "https://uk.gamesplanet.com/community/ace-combat-8-wings-of-theve-steam-key--8105-1/news_updates/430801-ace-combat-8-wings-of-theve-story-trailer-introduces" },
+        { source: "Game News Plus（殲滅戦と大型兵器の詳細）", url: "https://gamenewsplus.net/news/ace-combat-8-story-trailer-confirms-annihilation-battle-mode-38842" }
+      ],
+      videos: [
+        { label: "公式ストーリートレーラー（PlayStation.Blog 内に埋め込み）", platform: "PlayStation.Blog", url: "https://blog.playstation.com/2026/09/14/ace-combat-8-wings-of-theve-annihilation-battle-mode-confirmed-story-trailer-revealed/" },
+        { label: "トレーラーと殲滅戦モードの解説（VG Times）", platform: "媒体", url: "https://vgtimes.com/gaming-news/167574-ace-combat-8-wings-of-theve-gets-a-story-trailer-and-annihilation-battles-return.html" }
+      ],
+      hype: {
+        score: 78,
+        signals: [
+          "ファミ通読者期待榜 9月13日号で 20 位（85 票）に入る常連シリーズ",
+          "PlayStation.Blog での公式発表が海外メディアに広く転載され、トレーラーの露出が大きい",
+          "10月2日発売で TGS2026 の直後、単独インタビュー記事も複数出ている"
+        ]
+      },
+      tags: ["新作発表", "空戦", "トレーラー", "定档"]
     }
   ],
 
@@ -3258,7 +3555,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-15",
+    asOf: "2026-09-16",
     listTotal: 50,
     categories: [
       {
@@ -3269,7 +3566,7 @@ window.OBSERVATORY = {
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "partial", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；SEGA 本体作品待补", gameIds: ["persona-6", "persona-4-revival"] },
-          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up"] },
+          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword"] },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap"] },
@@ -3286,7 +3583,7 @@ window.OBSERVATORY = {
           { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam", "layton-curious-village-remake", "yokai-watch-2-hadou", "inazuma-eleven-bold-revolution", "holy-horror-mansion", "decapolice", "snack-world-reloaded", "puchipoyon-fantasy-world", "inazuma-eleven-cross"], note: "9/10「LEVEL5 VISION 2026 II 夢」一次公布 10 个标题，本台为其建卡 8 件（主机/PC 6＋手游 2）" },
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "watch" },
-          { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）" },
+          { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
           { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "watch", note: "《BLACK WOLVES SAGA》(9/10) 已出现于发售清单，尚未建卡" },
           { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
           { name: "プラチナゲームズ株式会社", short: "PlatinumGames", status: "watch" },
@@ -3304,9 +3601,9 @@ window.OBSERVATORY = {
         label: "スマートフォン・ソーシャルゲーム・オンラインゲーム企業",
         sub: "",
         items: [
-          { name: "株式会社Cygames", short: "Cygames", status: "partial", note: "仅子会社 Cygames Edge 建卡；Cygames 本体待补", gameIds: ["where-the-seeds-fall"] },
+          { name: "株式会社Cygames", short: "Cygames", status: "partial", note: "仅子会社 Cygames Edge 建卡；Cygames 本体待补。9/14〜15 に中小規模タイトル向けの新ブランド構想が報じられた（『8 番出口』型の単規則短編が市場で成立したことへの対応）", gameIds: ["where-the-seeds-fall"] },
           { name: "株式会社ラセングル", short: "Lasengle", status: "watch", focus: true },
-          { name: "株式会社WFS", short: "Wright Flyer Studios", status: "watch" },
+          { name: "株式会社WFS", short: "Wright Flyer Studios", status: "covered", gameIds: ["another-eden-begins"], note: "『アナザーエデン 時空を超える猫』の第 1 部を買い切り JRPG として作り直した『Another Eden Begins』を 9/17 に発売（Switch 2／Switch／Steam）。ガチャを完全撤廃" },
           { name: "株式会社マイネット", short: "mynet", status: "watch" },
           { name: "株式会社ブシロード", short: "Bushiroad", status: "watch", focus: true },
           { name: "グリー株式会社", short: "GREE", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "子会社グリーエンターテインメントが『無職転生 クロエコ』を企画・配信（7/27 配信開始）" },
@@ -3327,7 +3624,7 @@ window.OBSERVATORY = {
         label: "IP管理・エンターテインメント・その他開発スタジオ",
         sub: "",
         items: [
-          { name: "株式会社アニプレックス", short: "Aniplex", status: "covered", focus: true, gameIds: ["re-survival-unit"], note: "《Resident Evil Survival Unit》已建卡（2026-09 新作发表）" },
+          { name: "株式会社アニプレックス", short: "Aniplex", status: "covered", focus: true, gameIds: ["re-survival-unit"], note: "『BIOHAZARD Survival Unit』の配信元（開発は JOYCITY、Capcom は IP 監修）。2025-11-18 に世界 151 の国と地域でサービス開始済み。9/15 時点で本タスク内の新規発表はなし" },
           { name: "有限会社ノーツ", short: "Notes / TYPE-MOON", status: "watch", focus: true },
           { name: "株式会社カヤック", short: "Kayac", status: "watch" },
           { name: "株式会社トイロジック", short: "Toylogic", status: "watch" },
@@ -3362,8 +3659,9 @@ window.OBSERVATORY = {
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
         { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
-        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』を発表" },
-        { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" }
+        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展" },
+        { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
+      { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始" }
       ]
     }
   },
@@ -3410,7 +3708,10 @@ window.OBSERVATORY = {
       { company: "Netmarble", hall: "—", items: "Shangri-La Frontier: The Seven Colossi 首次公开试玩、我独自升级 KARMA、Pearl in Blue" },
       { company: "Famitsu × 電撃ゲームス", hall: "FamitsuTUBE（YouTube）", items: "9/19-20 18:00 起特别直播，Capcom / INTI CREATES / ATLUS / SEGA 等轮番登场" },
       { company: "NHN PlayArt", hall: "2 号馆", items: "时隔 8 年重返 TGS，展出 7 款作品，其中 3 款新作首次公开（刀剣乱舞 ぱずぎり / OVER RUSH / 幻想世界のぷちぽよん）。另展出 DISSIDIA DUELLUM FINAL FANTASY、妖怪ウォッチ ぷにぷに、#コンパス、LINE: Disney Tsum Tsum。每日先到先得发放限定肩包，完成各展台任务集章可换限定卡组" },
-      { company: "DMM GAMES", hall: "—", items: "刀剣乱舞 ぱずぎり 提供试玩与赠品活动；9/20 15:40 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），并同步线上直播" }
+      { company: "DMM GAMES", hall: "—", items: "刀剣乱舞 ぱずぎり 提供试玩与赠品活动；9/20 15:40 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），并同步线上直播" },
+      { company: "集英社ゲームズ", hall: "5 号馆 05-C10", items: "《咒术回战 RUMBLE: SURVIVATON》与《UN:Me》两作首次提供试玩，通关条件可获原创周边；《咒术回战》为全球首次公开试玩，8 名 Boss 全部可打，比赛在展台屏幕直播并配电竞解说，愿望单登记或试玩可获像素贴纸与纸扇套装" },
+      { company: "SEGA / ATLUS（Sega Partners Corner）", hall: "—", items: "《电锯甜心》（Lollipop Chainsaw）系列未定名新作首个可玩 Demo，4 台试玩机；主角 Juliet 换新装，展台设等身大电锯摄影区，官方大使 PeachMilky 到场。9/18 11:40 展台舞台、9/19 9:40 主舞台各有一场节目，主舞台场次预计公布重要企划" },
+      { company: "ハピネット", hall: "—", items: "《機動警察パトレイバー the Case Files》试玩，体验者赠特製ステッカー. PS5 版已于 9/15 进入早期访问，PC 版 9/17 发售" }
     ]
   },
 
@@ -3418,23 +3719,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "LEVEL-5 发布会铺开 10 个标题、TGS2026 出展名单完成拆分：条目总数 61，手游区 20 条",
+    headline: "TGS2026 开幕前夜：新增 5 条（手游 1／主机・PC 4），条目总数 61 → 66，手游区 21 条",
     points: [
-      "**LEVEL-5 于 9/10 举办「LEVEL5 VISION 2026 II 夢」线上发布会**，一次公布 10 个标题的最新情报，本台据此新增 8 条条目（主机/PC 6 条＋手游 2 条），是本期单一厂商动作最大的一轮",
-      "手游侧补上 LEVEL-5 系两条：**《闪电十一人 交锋》**（LEVEL-5 发行 × Aiming 开发运营，6/9 开服、13 天破 100 万下载）与**《幻想世界的软绵绵波呦》**（LEVEL-5 × NHN PlayArt，继《妖怪手表 噗尼噗尼》后再度合作，今冬上线）。厂商监测名单里 Aiming 由「待观察」转为「已覆盖」",
-      "主机侧「重制 + 延期」并行：**《雷顿教授与不可思议的小镇 重制版》**压轴公开（系列主线首次登陆 PlayStation）、**《妖怪手表2 霸道》**把 3DS 三个版本整合为一部、**《点心大冒险 Reloaded》**与**《幽幽灵公寓》**均落 2027 年；**《DECAPOLICE》**第四次延期，从 2026 年推到 2027 年",
-      "《雷顿教授与蒸汽新世界》定档 12/10（Switch / Switch 2 / PS5 / Steam），主题曲《The New World》由久石让作曲、Lilas 演唱，谜题交由 QuizKnock 负责；定档信息原出自 9/9 Nintendo Direct，Vision 发布会补上新预告与主题曲制作花絮。另：9/12 社长日野晃博就「发布会影像使用生成式 AI」公开说明并致歉，强调剧本、角色设计与基础世界观仍由人类完成",
-      "观测窗口由原来的半个月扩至**滚动 2 个月（2026-07-15 ~ 2026-09-15）**，条目总数 37 → 58。本轮补收 13 款 7 月中旬至 8 月底的日厂作品：手游/跨平台 7 款（デジモンUP、弱虫ペダル レゾナンス・ペダイズム、hololive Dreams、無職転生 クロエコ、僕のヒーローアカデミア UNITED SURVIVAL、幻想水滸伝 STAR LEAP、シノビNEXUS –閃乱カグラ–），主机/PC 6 款（Beast of Reincarnation、MARVEL Tōkon: Fighting Souls、UN:Me、亰都ザナドゥ -桜花幻舞-、ほの暮しの庭、スプラトゥーン レイダース）",
-      "手游区现收录 18 条（纯手游 13 条＋跨平台 5 条）。补收部分的看点集中在 IP 授权改编与跨平台发行两条线上：デジモンUP（バンダイナムコ）、幻想水滸伝 STAR LEAP（KONAMI）、僕のヒーローアカデミア UNITED SURVIVAL（KLab × gumi）、弱虫ペダル ペダイズム（enish）、シノビNEXUS（HONEY∞PARADE GAMES）全部来自日本 IP ホルダー或日厂自研；hololive Dreams 与 無職転生 クロエコ 则同时覆盖手机与 PC/Steam，属于典型的跨平台投放",
-      "7〜8 月手游侧的两款爆点是 hololive Dreams（事前登録150万、配信直後に App Store / Google Play 首位）与 無職転生 クロエコ（事前登録50万、開服即 App Store 無料ランキング1位），两者都靠 IP ファン盤驱动，而非新品类突破",
-      "手游侧的看点集中在两处：一是 IP 跨媒介改编（SAKAMOTO DAYS、刀剑乱舞、生化危机），二是品类迁移——Aniplex 把《生化危机》从生存恐怖搬到 RTS，属系列手游罕见转向。",
-      "新作发表密度为本季最高。GAME FREAK、GungHo、KONAMI、COLOPL、松竹、Cygames Edge、HYPER REAL 各有新作或新企划落地，且多数直接对接 TGS2026。",
-      "KONAMI 一次性公布《Rhapsody in Scarlet》《PROJECT ZIRCON》两款完全新作，是本期动作最大的厂商。",
-      "任天堂侧通过 9/8 塞尔达专场 + 9/9 Direct 的组合，铺开 Switch 2 的 2026 冬~2027 春档期。",
-      "Square Enix 把 FF7 Revelation 定档 2027-04-08 并投入 TGS 双试玩，是本期信息量最重的单条。",
-      "「现实数据联动」成为新作机制的新风向：《雨のちハレ女》接入实时天气，《B.L.U.E. NOVA》把玩家邂逅概率变成火力。",
-      "**收录粒度修正（9/15）**：此前 NHN PlayArt 的 TGS2026 出展 3 款新作被合并写成 1 条条目，导致「1 作品 = 1 条目」失守、且手游数据块内混着两款作品的情报。本轮删除该合并条目，按作品拆为 **《刀剣乱舞 ぱずぎり》**（EXNOA × NHN PlayArt，事前登录 9 月破 40 万，2026 年内上线、含 PC 版）、**《OVER RUSH》**（NHN PlayArt 自研卡牌对战，今冬预定）两条新条目；同时补收此前完全漏收的 **《EXE ARENA》**（BOUNTYKINDS SOLUTIONS，10 月上线、TGS 两届连续出展）。剔除重复收录的《幻想世界のぷちぽよん》（原合并条目里的 Petit Poyon 即本作，已另有条目）",
-      "本轮同步把「出展名单逐款建卡」写进维护契约：展会/发布会公布的作品清单是漏收与重复收录的主要来源，清单本身不进条目，只进 `tgs` 段落。"
+      "手游侧本轮唯一新增是 **《灼眼のシャナ ブレイズエッジ》**（CTW／G123，9/14 正式开服）：放置型 RPG，动画与原作里的强敌可直接编入己方阵容，日语・英语・繁中・韩语四语同时上线，事前登录奖励为 SSR「平井ゆかり」。**免下载的浏览器配信**把 IP 授权手游的进入门槛压到最低一档，是本期手游侧唯一的新面孔",
+      "**漏收核查（手游，逐个 IP 搜）**：核查了 ONE PIECE／ハイキュー／BLEACH／呪術廻戦／鬼滅の刃／ブルーロック／チェンソーマン／ホロライブ／東京リベンジャーズ／ドラゴンボール／転スラ／ポケモン 共 12 个系列，**未发现新的日方主导手游漏收**。本期窗口内唯一的头部手游新作（音乐节奏，9/24 全球上线、事前登录 150 万、TGS2026 有正式版先行试玩）其**全球发行方为中国资本企业**，按本台红线不予收录，此处仅登记「已核查、已排除」这一事实",
+      "主机・PC 侧补 4 条新条目：**《朧村正怪奇譚》**（マーベラス × ヴァニラウェア，2027-02-04，把「奥義」从每刀固定改为可修得换装，Vanillaware 首次登上 Steam）、**《Another Eden Begins》**（ライトフライヤースタジオ，9/17，**抽卡与内购完全废除**、18 名伙伴改为剧情解锁，为此外弃 Cocos2d-x 改用 Unity 重写）、**《ACE COMBAT 8: Wings of Theve》**（バンダイナムコ，10/02，9/14 公开故事预告并确认歼灭战在任务 7 回归）、**《呪術廻戦 RUMBLE: SURVIVATON》**（集英社ゲームズ × poncle，由 2026 年内**延期至 2027 年**）",
+      "**TGS2026 明日（9/17）开幕**，本轮把已公布的现场情报补进 `tgs.booths`：集英社ゲームズ（5 号馆 05-C10，《咒术回战 RUMBLE: SURVIVATON》全球首次公开试玩＋《UN:Me》体验版）、SEGA／ATLUS 的《电锯甜心》系列未定名新作首个可玩 Demo、ハピネット 的《機動警察パトレイバー the Case Files》试玩。SEGA／ATLUS 9/19 主舞台场次预告将公布重要企划",
+      "**《機動警察パトレイバー the Case Files》**PS5 版已于 9/15 进入早期访问、PC 版 9/17 发售，本轮更新该条目（bucket 保持 update，`capturedAt` 重置为 09-16）",
+      "观测窗口自动滑动为 **2026-07-16 ~ 2026-09-16（滚动最近 2 个月）**，条目总数 61 → 66（手游区 20 → 21／主机・PC 区 41 → 45）。厂商监测名单：**WFS 由「待观察」转为「已覆盖」**（Another Eden Begins）；`extra` 新增 **CTW**（G123 平台运营方，灼眼のシャナ ブレイズエッジ）；アニプレックス 的 note 按已修正的《BIOHAZARD Survival Unit》口径重写（Aniplex 是配信元、Capcom 仅 IP 监修）",
+      "**本轮明确跳过（登记备查，避免下轮重复检索）**：① 一款由中国资本企业全球发行的头部音乐节奏手游（9/24 上线、事前登录 150 万）；② 一款中国资本背景工作室开发的开放世界捉宠 RPG（9/16 PC・主机／9/23 移动端）；③ 两款非日厂的海外新作（韩系・泰系各一）；④《CR戦国乙女5 10周年記念》的 GreePachi 版（コムシード，本质是パチンコ機シミュレーター専用アプリ而非游戏作品，暂不建卡）"
     ]
   }
 };
