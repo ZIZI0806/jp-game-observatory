@@ -405,6 +405,30 @@ body{
   padding:8px 12px;border-radius:0 7px 7px 0;line-height:1.65;
 }
 
+/* 最新情报条：窗口内新增的现场事实，置于摘要之前、「要点」之前。
+   与 .mob-highlight（长期观察）配色区分：暖橙＝刚发生的，紫＝沉淀下来的。
+   这条**不截断**，是卡片上唯一保证完整显示的动态位。 */
+.mob-latest{
+  margin-top:13px;border-radius:10px;overflow:hidden;
+  border:1px solid rgba(255,171,92,.34);
+  background:linear-gradient(135deg,rgba(255,171,92,.10),rgba(255,107,157,.05));
+}
+.mob-latest-h{
+  display:flex;align-items:center;gap:8px;
+  padding:7px 13px;background:rgba(255,171,92,.13);
+}
+.mob-latest-k{
+  font-size:10.5px;font-weight:700;color:var(--warm);
+  letter-spacing:.8px;flex:0 0 auto;
+}
+.mob-latest-d{
+  font-family:var(--mono);font-size:10.5px;color:var(--text-faint);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.mob-latest-b{
+  padding:10px 13px;font-size:12.6px;color:var(--text);line-height:1.72;
+}
+
 .mob-blocks{margin-top:12px;display:grid;gap:12px}
 .mob-block-t{
   font-size:10.5px;letter-spacing:.7px;color:var(--text-faint);
@@ -599,6 +623,9 @@ body{
   margin-bottom:11px;padding-bottom:7px;border-bottom:1px solid var(--border);
 }
 .d-summary{font-size:13.3px;color:var(--text-dim);line-height:1.82}
+/* 抽屉里的最新情报：与卡片上的暖橙色条同源，颜色与「要点」的紫区分 */
+.d-latest{border-left:3px solid var(--warm);padding-left:14px;margin-left:-17px}
+.d-latest > h4{color:var(--warm)}
 .d-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
 .d-cell{background:var(--panel);border:1px solid var(--border);border-radius:9px;padding:10px 13px}
 .d-cell .k{font-size:10.5px;color:var(--text-faint);letter-spacing:.4px;margin-bottom:3px}

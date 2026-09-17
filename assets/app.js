@@ -197,6 +197,34 @@
     };
   }
 
+  /* ---------- 最新情报（highlight 的前缀标记协议） ----------
+     highlight 以「【标记】现场事实　原有观察」书写时：
+       · 「现场事实」提到摘要上方的「最新情报」条（卡片上不截断，一定看得见）；
+       · 「要点」框只留后半段的观察，两边不重复。
+     没有「【…】」标记的条目按原样整段渲染 —— 旧数据行为完全不变。 */
+  function latestOf(g) {
+    const h = String((g && g.highlight) || "");
+    const m = h.match(/^【([^】]{1,30})】\s*([\s\S]*)$/);
+    if (!m) return { marker: "", latest: "", insight: h };
+    const rest = m[2];
+    const i = rest.indexOf("　");
+    if (i < 0) return { marker: m[1], latest: rest.trim(), insight: "" };
+    return { marker: m[1], latest: rest.slice(0, i).trim(), insight: rest.slice(i + 1).trim() };
+  }
+
+  function latestHTML(g) {
+    const L = latestOf(g);
+    if (!L.marker || !L.latest) return "";
+    return `
+        <div class="mob-latest">
+          <div class="mob-latest-h">
+            <span class="mob-latest-k">最新情报</span>
+            <span class="mob-latest-d">${esc(L.marker)}</span>
+          </div>
+          <p class="mob-latest-b">${esc(L.latest)}</p>
+        </div>`;
+  }
+
   /* 卡片右上角的「存为 JPG」按钮。
      放在卡片顶部而不是底部——卡片很高，放底部会滚到看不见。 */
   const jpgBtn = (g, kind) =>
@@ -208,7 +236,7 @@
     const vids = (g.videos || []).slice(0, 5).map(v =>
       `<a class="link-btn ${linkClass(v.platform)}" href="${esc(v.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(v.platform)}</a>`).join("");
     const nw = (g.news || [])[0];
-    const nws = nw ? `<a class="link-btn news" href="${esc(nw.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">新闻原文</a>` : "";
+    const nws = nw ? `<a class="link-btn news" href="${esc(nw.url)}" target="_blank" rel="noopener" title="${esc(nw.source || "新闻原文")}" onclick="event.stopPropagation()">新闻原文</a>` : "";
     return `${vids}${nws}<span class="foot-spacer"></span><button class="more-btn">详情 +</button>`;
   }
 
@@ -216,6 +244,7 @@
     const co = colorOf(g.company);
     const s = consoleSpecOf(g);
     const isNew = g.bucket === "new";
+    const L = latestOf(g);
 
     /* 与手游卡片的 6 行规格逐位对位：配信状況 / 対応OS / 課金形態 /
        開発配信 / 配信地域 / ジャンル → 発売状況 / 対応機種 / 販売形態 /
@@ -288,8 +317,9 @@
 
         ${preOrder}
 
+        ${latestHTML(g)}
         <p class="mob-summary">${esc(g.summary)}</p>
-        ${g.highlight ? `<div class="mob-highlight">${esc(g.highlight)}</div>` : ""}
+        ${L.insight ? `<div class="mob-highlight">${esc(L.insight)}</div>` : ""}
 
         <div class="mob-blocks">${blocks.join("")}</div>
 
@@ -382,6 +412,7 @@
   function mobileCardHTML(g) {
     const co = colorOf(g.company);
     const m = g.mobile || {};
+    const L = latestOf(g);
 
     const specs = [
       ["配信状況", m.status || g.release],
@@ -453,8 +484,9 @@
 
         ${prereg}
 
+        ${latestHTML(g)}
         <p class="mob-summary">${esc(g.summary)}</p>
-        ${g.highlight ? `<div class="mob-highlight">${esc(g.highlight)}</div>` : ""}
+        ${L.insight ? `<div class="mob-highlight">${esc(L.insight)}</div>` : ""}
 
         <div class="mob-blocks">${blocks.join("")}</div>
 
@@ -745,6 +777,7 @@
     const g = D.games.find(x => x.id === id);
     if (!g) return;
     const co = colorOf(g.company);
+    const L = latestOf(g);
 
     let mobileSection = "";
     if (g.mobile) {
@@ -845,12 +878,14 @@
       ${mobileSection}
       ${consoleSection}
 
+      ${L.marker && L.latest ? `<div class="d-section d-latest"><h4>最新情报 · ${esc(L.marker)}</h4><p class="d-summary">${esc(L.latest)}</p></div>` : ""}
+
       <div class="d-section">
         <h4>内容摘要</h4>
         <p class="d-summary">${esc(g.summary)}</p>
       </div>
 
-      ${g.highlight ? `<div class="d-section"><h4>要点</h4><p class="d-summary">${esc(g.highlight)}</p></div>` : ""}
+      ${L.insight ? `<div class="d-section"><h4>要点</h4><p class="d-summary">${esc(L.insight)}</p></div>` : ""}
       ${g.voice ? `<div class="d-section"><h4>配音</h4><p class="d-summary">${esc(g.voice)}</p></div>` : ""}
 
       <div class="d-section">
@@ -1137,6 +1172,19 @@
       y += bh;
     }
 
+    // ⑤.5 最新情报（窗口内新增的现场事实，与卡片上的「最新情报」条同源）
+    const L = latestOf(g);
+    if (L.marker && L.latest) {
+      const lf = SF(14), ll = wrapText(L.latest, iw - 32, lf, measure);
+      const lh = 40 + ll.length * 24;
+      y += 20;
+      M.rects.push({ x: x0, y: y, w: iw, h: lh, r: 10, fill: "rgba(255,171,92,.08)", stroke: "rgba(255,171,92,.34)" });
+      put(x0 + 16, y + 12, "最新情報", SF(12.5, 700), T.warm);
+      put(xr - 16, y + 13, L.marker, SF(11), T.faint, "right");
+      ll.forEach((ln, i) => put(x0 + 16, y + 38 + i * 24, ln, lf, T.text));
+      y += lh;
+    }
+
     // ⑥ 内容摘要（完整，不截断）
     y += 24;
     put(x0, y, "内容摘要", SF(11.5, 700), T.faint);
@@ -1146,8 +1194,8 @@
     y += sumLines.length * 27;
 
     // ⑦ 要点
-    if (g.highlight) {
-      const hf = SF(13.5), hl = wrapText(g.highlight, iw - 30, hf, measure);
+    if (L.insight) {
+      const hf = SF(13.5), hl = wrapText(L.insight, iw - 30, hf, measure);
       const hh = hl.length * 23 + 22;
       y += 16;
       M.rects.push({ x: x0, y: y, w: iw, h: hh, r: 0, fill: "rgba(167,139,250,.08)" });
