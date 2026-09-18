@@ -5225,19 +5225,7 @@ window.OBSERVATORY = {
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "watch" },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
-          {
-            name: "アイディアファクトリー株式会社",
-            short: "Idea Factory",
-            status: "covered",
-            gameIds: [
-              "hakuoki-ibun-berezinsky-no-majo",
-              "kimi-ni-madoi-kimi-ni-oboreru",
-              "black-wolves-saga-switch",
-              "mix-dunk-king-of-basketball"
-            ],
-            focus: true,
-            note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中"
-          },
+          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中" },
           { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
           { name: "プラチナゲームズ株式会社", short: "PlatinumGames", status: "watch" },
           { name: "株式会社SNK", short: "SNK", status: "watch" },
@@ -5320,14 +5308,7 @@ window.OBSERVATORY = {
         { name: "株式会社アートプレイ", short: "ArtPlay", status: "covered", gameIds: ["bloodstained-scarlet-engagement"], note: "『Bloodstained』シリーズを手がける五十嵐孝司（IGA）の開発スタジオ。発売は 505 Games が担当するが、IP と開発は日本側が主導しており、TGS2026 の Xbox 放送で新作のゲームプレイ映像が公開されたため補充監視に追加" },
         { name: "株式会社サンリオ（Sanrio Games）", short: "Sanrio Games", status: "covered", gameIds: ["hello-kitty-party-land", "sanrio-kawaii-me-live", "fragaria-memories-color-of-wishes"], focus: true, note: "国内最大级キャラクター IP ホルダーが 2026 年に立ち上げた自社ゲームブランド。外部ライセンスではなく自社で企画・開発を主導し、3 年で 10 タイトルを計画。家庭用『Hello Kitty パーティランド』とスマホ『Sanrio Kawaii Me Live!』『FRAGARIAMEMORIES Color of Wishes』の 3 作で TGS2026 に初出展した" },
         { name: "株式会社ドラガミゲームス", short: "Dragami Games", status: "covered", gameIds: ["lollipop-chainsaw-new-project"], note: "角川ゲームスの家庭用ゲーム事業を引き継ぐスタジオ。『ロリポップチェーンソー』新作を TGS2026 の SEGA／ATLUS ブース内で初のプレイアブル出展（正式タイトル・対応機種は未発表）" },
-        {
-          name: "株式会社フロムトーキョー",
-          short: "FROMTOKYO",
-          status: "covered",
-          gameIds: ["bang-dream-our-notes"],
-          focus: true,
-          note: "前 Craft Egg 代表取締役・森川修一が中心となり 2024-02-01 に設立した開発会社。旧 Craft Egg の主要メンバーが在籍し、2024-11-01 にブシロードと資本業務提携を締結。『BanG Dream! ガールズバンドパーティ!』の開発運営を継続しつつ、シリーズ第 2 のリズムゲーム『BanG Dream! Our Notes』を開発。資本は日本側（ブシロードが資本業務提携先）で、大陸資本の関与はない"
-        },
+        { name: "株式会社フロムトーキョー", short: "FROMTOKYO", status: "covered", gameIds: ["bang-dream-our-notes"], focus: true, note: "前 Craft Egg 代表取締役・森川修一が中心となり 2024-02-01 に設立した開発会社。旧 Craft Egg の主要メンバーが在籍し、2024-11-01 にブシロードと資本業務提携を締結。『BanG Dream! ガールズバンドパーティ!』の開発運営を継続しつつ、シリーズ第 2 のリズムゲーム『BanG Dream! Our Notes』を開発。資本は日本側（ブシロードが資本業務提携先）で、大陸資本の関与はない" },
       ]
     }
   },
