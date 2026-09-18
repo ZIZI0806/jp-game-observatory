@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-17T19:06:00+08:00",
-    edition: "2026-09-17",
-    window: "2026-07-17 ~ 2026-09-17（滚动最近 2 个月）",
+    updatedAt: "2026-09-18T13:00:00+08:00",
+    edition: "2026-09-18",
+    window: "2026-07-18 ~ 2026-09-18（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -1614,15 +1614,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社ゲームフリーク",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-09-17（TGS2026 GAME FREAK 展台に重点展示／事前予約は 9/16 より受付中）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-17（TGS2026 展台で「るるぶ特別版」配布／事前予約は 9/16 より受付中）",
+      capturedAt: "2026-09-18",
       title: { jp: "雨のちハレ女", cn: "雨过天晴女", en: "Ame nochi Hare Onna / Rainy Day, Sunny Girl" },
       genre: "天气联动魔法少女（官方自称「洗衣游戏」）",
       platforms: ["iOS", "Android"],
       release: "2026年冬",
       releasePrecision: "季",
-      summary: "《宝可梦》系列开发商 GAME FREAK 公布完全新 IP。舞台为现代日本，主角为能把天气转化为魔力的「晴女（ハレ女）」，与搭档精灵「クモリン」一同活动。核心机制是接入 Weathernews 的实时天气数据——现实中的晴雨会直接改变战斗与可选择行动，并包含换洗、晾晒等生活要素。由宝可梦系列监督大森滋担任总监兼制作人，与 CHRONOGATE 联合开发。",
-      highlight: "【TGS2026 9/17】GAME FREAK 展位以本作作重点展示，事前预约已于 9/16 开放，热度续接至 9/19-21 公众日。　现实天气＝游戏变量：接入 Weathernews 实时数据，现实中的晴雨直接改变战斗与可选择行动，灵感来自大森滋「洗衣服前先查天气预报」的日常习惯。",
+      summary: "《宝可梦》系列开发商 GAME FREAK 公布完全新 IP。舞台为现代日本，主角为能把天气转化为魔力的「晴女（ハレ女）」，与搭档精灵「クモリン」一同活动。核心机制是接入 Weathernews 的实时天气数据——现实中的晴雨会直接改变战斗与可选择行动，并包含换洗、晾晒等生活要素。由宝可梦系列监督大森滋担任总监兼制作人，与 CHRONOGATE 联合开发。TGS2026 的 GAME FREAK 展台除把校舍实景化（晴女社办、福利社、阳台）外，还配布与 JTB Publishing 旅游指南《るるぶ》合作制作的《るるぶ特別版 雨のちハレ女》——以るるぶ的版式介绍五所晴女学园（英国 Weatherdry Academy、京都 黒白映風学園、沖縄 陽春若夏学校、北海道 雲霧ヶ峰学園、東京 あっぱれ女学院）与周边景点，封面印有「今冬配信予定・事前予約受付中」。",
+      highlight: "【TGS2026 9/18】GAME FREAK 展台配布与 JTB《るるぶ》合作的特别版指南书（介绍五所晴女学园与周边景点，封面标注「今冬配信予定・事前予約受付中」），并把あっぱれ女学院的社办、福利社、阳台等场景等身大复原。　现实天气＝游戏变量：接入 Weathernews 实时数据，现实中的晴雨直接改变战斗与可选择行动，灵感来自大森滋「洗衣服前先查天气预报」的日常习惯。",
       mobile: {
         status: "事前登録受付中",
         os: ["iOS", "Android"],
@@ -1645,7 +1645,8 @@ window.OBSERVATORY = {
         { source: "ThisIsGame SEA（開発体制と気象連動の解説）", url: "https://thisisgamesea.com/game/mobile-game/game-freak-ame-no-chi-hare-onna-mobile-laundry-game" },
         { source: "Game8（事前登録状況・配信地域）", url: "https://game8.co/articles/release-dates/ame-nochi-hare-onna-release-date-and-time" },
         { source: "VICE", url: "https://www.vice.com/en/article/game-freak-new-game-rainy-day-sunny-girl/" },
-        { source: "Game8", url: "https://game8.co/articles/latest/pokemon-devs-next-game-is-a-free-to-play-mobile-game-about-magical-girls" }
+        { source: "Game8", url: "https://game8.co/articles/latest/pokemon-devs-next-game-is-a-free-to-play-mobile-game-about-magical-girls" },
+      { source: "Quest Board.JP（るるぶ特別版の配布と展台の等身大復元）", url: "https://quest-board.jp/en/quests/2026-000000649-000024732" }
       ],
       videos: [
         { label: "公式サイト（最新キービジュアル「巡回」「戦闘」・ゲーム画面を公開）", platform: "官方站", url: "https://hare-onna.jp/" },
@@ -3219,20 +3220,21 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-08-27",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-09-17（TGS2026 バンダイナムコ主展台で初の携帯向け試遊を実施）",
+      capturedAt: "2026-09-18",
       title: { jp: "BLEACH Mirrors High", cn: "BLEACH Mirrors High", en: "BLEACH Mirrors High" },
       genre: "カードベース アクション RPG（3v3）",
       platforms: ["iOS", "Android"],
       release: "2026年内（App Store 表記は 2026-11-28）",
       releasePrecision: "年",
-      summary: "万代南梦宫发行的《BLEACH》改编卡片动作 RPG。故事设定在「千年血战篇」之后，玩家以护廷十三队一员、自定义新人死神的身份展开冒险；原作久保带人参与企划概念与角色设计，并设计了 Shirin Migishima、Shirane Sanari（双主角）以及 Naru Jurinna、Giro Hando、Maiko Tokishima 等原创角色。系统上提供「Avatar Customization」自定义外貌与「Customize Zanpakuto」自定义斩魄刀（刀镡・刀身・刀鞘），战斗为 3 人编队、以卡牌输入触发战术交锋，可用 Chain／Link Attack 把队友技能连成连续攻击，另有可扭转战局的「SOUL DRIVE」连携系统。2026-07 完成封闭 β 测试，2026-08-27 官方 X 宣布 2026 年内上线，TGS2026 提供试玩。",
-      highlight: "久保带人直接参与概念与角色设计并推出原创双主角 —— 属于 IP 方深度介入，而非单纯授权挂名。",
+      summary: "万代南梦宫发行的《BLEACH》改编卡片动作 RPG。故事设定在「千年血战篇」之后，玩家以护廷十三队一员、自定义新人死神的身份展开冒险；原作久保带人参与企划概念与角色设计，并设计了 Shirin Migishima、Shirane Sanari（双主角）以及 Naru Jurinna、Giro Hando、Maiko Tokishima 等原创角色。系统上提供「Avatar Customization」自定义外貌与「Customize Zanpakuto」自定义斩魄刀（刀镡・刀身・刀鞘），战斗为 3 人编队、以卡牌输入触发战术交锋，可用 Chain／Link Attack 把队友技能连成连续攻击，另有可扭转战局的「SOUL DRIVE」连携系统。2026-07 完成封闭 β 测试，2026-08-27 官方 X 宣布 2026 年内上线，TGS2026 提供试玩。本届 TGS2026 上，本作是万代南梦宫主展台里少数的手机作品之一，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》等主机大作同区展出，自 9 月 17 日起提供可试玩版本并配合周边发放。官方把手机游戏放进综合大厂主展台、而非另设小型手游展区，显示宣传投入正在加码；事前登录仍在进行，配信日与课金形态未公布。",
+      highlight: "【TGS2026 9/18】バンダイナムコ主展台首次提供手机版试玩（9/17 起），与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》并列展出，是本届少数进入综合大厂主展台的智能手机作品。　久保带人直接参与概念与角色设计并推出原创双主角——属于 IP 方深度介入，而非单纯授权挂名。",
       news: [
         { source: "Enduins（2026 年上线确认与原创角色）", url: "https://www.enduins.com/news/bandai-namco-confirms-2026-mobile-launch-for-bleach-mirrors-high" },
         { source: "Quest Board.JP（官方 X 公告与 TGS2026 试玩）", url: "https://quest-board.jp/en/quests/bleach-mirrors-high/" },
         { source: "iGMBUY（系统机制与自定义要素详解）", url: "https://www.igmbuy.com/en/news/357.html" },
-        { source: "Overcentral（CBT 结束与最新主视觉公开）", url: "https://overcentral.com/en/bleach-mirrors-high-mobile-launch-79157/" }
+        { source: "Overcentral（CBT 结束与最新主视觉公开）", url: "https://overcentral.com/en/bleach-mirrors-high-mobile-launch-79157/" },
+      { source: "GameForce Mobile（TGS2026 試遊と主展台での扱い）", url: "https://www.gameforcemobile.com/news/5035-bleach-mirrors-high-gets-playable-tokyo-game-show-demonstration" }
       ],
       videos: [
         { label: "官方站（英文版・预告影像与最新主视觉）", platform: "官方站", url: "https://bleach-mh.bn-ent.net/en" },
@@ -4561,6 +4563,347 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["新作発表", "小島プロダクション", "Xbox", "俳優起用", "TGS2026"]
+    },
+    {
+      id: "ninjala-2-uncharted-planet",
+      company: "GungHo Online Entertainment（開発・発売）",
+      companyJp: "ガンホー・オンライン・エンターテイメント",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-17（TGS2026 ガンホー展台で日本最大規模の試遊 40 台を公開）",
+      capturedAt: "2026-09-18",
+      title: { jp: "ニンジャラ2 未知なる惑星", cn: "泡泡糖忍战2：未知行星", en: "Ninjala 2: The Uncharted Planet" },
+      genre: "オープンワールド・ニンジャガムアクション",
+      platforms: ["Nintendo Switch 2"],
+      release: "2027年春",
+      releasePrecision: "季",
+      summary: "《泡泡糖忍战》（Ninjala）时隔约 6 年的正统续作，也是系列首次从 PvP 竞技彻底转为开放世界动作。禁忌封印被打破后，WNA 学园整座被传送到未知行星，玩家扮演学园的年轻忍者，与同伴一边求生一边寻找回地球的路。泡糖仍是核心能力：可化身钩索高速移动、拉成滑索穿越地形、吹胀漂浮；战斗可把泡糖变成锤子、溜溜球等武器，还能施展忍术召唤机器人伙伴，对抗异星生物与巨型 Boss。支持单人游玩与最多 4 人线上／邻近主机合作，作品定位为两部曲的第一章。2026 年 6 月 9 日 Nintendo Direct 首次公开，2027 年春季 Switch 2 独占发售；本届 TGS 提供日本最大规模的 40 台试玩机。",
+      highlight: "【TGS2026 9/18】ガンホー展台（6 号馆 06-C06）以 40 台试玩机提供日本最大规模的《ニンジャラ2》试游，行星探索／摄影两条路线任选；试玩可抽含 Switch 2 本体与 HORIPAD TURBO 的「ガムガチャ」，并首次举办系列概念设定画展。　从 PvP 竞技转为开放世界 PvE，是系列最大的一次玩法转向；泡糖的钩索／滑索／漂浮三态移动仍是探索主轴。",
+      console: {
+        status: "2027年春発売予定",
+        os: ["Nintendo Switch 2"],
+        monetization: "未発表",
+        developer: "ガンホー・オンライン・エンターテイメント",
+        publisher: "ガンホー・オンライン・エンターテイメント",
+        region: "日本・北米・欧州ほか（日本語・英語・簡体字・繁体字など多言語対応）",
+        distribution: "未発表（Nintendo Switch 2 専用タイトル）",
+        stores: ["Nintendo eShop"],
+        features: [
+          "ニンジャガムによるオープンワールド探索（フック移動・ジップライン・風船浮遊）",
+          "ガムをハンマーやヨーヨーに変形させた近接戦闘と、忍術によるロボット召喚",
+          "武器属性・アイテムクラフト・料理システムでクエストを任意順に攻略",
+          "ソロ／最大 4 人のローカル・オンライン協力プレイに対応",
+          "二部作構成の第一章（続編となる第二章は後日）"
+        ],
+        synopsis: "舞台は WNA 学園。謎の人物にそそのかされて禁忌の封印が破られ、学園ごと見知らぬ惑星へ飛ばされてしまう。同時にゼノス軍の「プライム・テトラッド」が解き放たれ、生徒たちは地球へ帰る道を探しながら、自分の中に眠る運命と向き合っていく。",
+        cast: "未発表（前作からルーシー、ベレッカ、ヴァンらが再登場）",
+        ipSource: "ガンホーの自社オリジナル IP。TV アニメも放送中の『ニンジャラ』シリーズ",
+        series: "前作『ニンジャラ』は 2020 年配信開始、2024 年時点で累計 1,100 万ダウンロード超。本作は約 6 年ぶりの続編で二部作の第一章"
+      },
+      news: [
+        { source: "GungHo 官方新闻稿（TGS2026 出展与发表）", url: "https://gunghoonline.com/2026/09/17/ninjala-2-the-uncharted-planet-comes-to-tokyo-game-show-2026-as-gungho-shadow-drops-chit-chat-party-and-screens-b-l-u-e-nova/" },
+        { source: "Saiga NAK（TGS2026 ガンホーブース・ガムガチャ賞品一覧）", url: "https://saiganak.com/event/tgs2026-gungho-booth-ninjala2-announcement/" },
+        { source: "Quest Board.JP（3 タイトル出展と配信スケジュール）", url: "https://quest-board.jp/en/quests/2026-000002169-000025063" }
+      ],
+      videos: [
+        { label: "ニンジャラ2 公式サイト（キービジュアル・PV）", platform: "官方站", url: "https://ninjala2thegame.com/" },
+        { label: "Saiga NAK 报道（TGS2026 展台与试玩特典）", platform: "媒体", url: "https://saiganak.com/event/tgs2026-gungho-booth-ninjala2-announcement/" },
+        { label: "GungHo 官方新闻稿（PV 与プレスアセット案内）", platform: "官方", url: "https://gunghoonline.com/2026/09/17/ninjala-2-the-uncharted-planet-comes-to-tokyo-game-show-2026-as-gungho-shadow-drops-chit-chat-party-and-screens-b-l-u-e-nova/" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "2026-06-09 の Nintendo Direct で発表され、Switch 2 独占の主要タイトルとして任天堂系メディアが継続的に追跡している",
+          "TGS2026 で 40 台の試遊台を用意する日本最大規模のプレイアブル出展を実施",
+          "前作は累計 1,100 万 DL、TV アニメも継続中で知名度の土台がある",
+          "価格と配信方法が未発表で、事前登録など数値シグナルは存在しない"
+        ]
+      },
+      tags: ["新作発表", "Switch2独占", "オープンワールド", "ガンホー", "TGS2026"]
+    },
+    {
+      id: "chit-chat-party",
+      company: "GungHo Online Entertainment（発売）／Alim Co., Ltd.（開発）",
+      companyJp: "ガンホー・オンライン・エンターテイメント（発売）／株式会社アリム（開発）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-17（TGS2026 ガンホー展台で電撃発表・同日発売）",
+      capturedAt: "2026-09-18",
+      title: { jp: "Chit Chat Party!", cn: "闲聊派对", en: "Chit Chat Party!" },
+      genre: "協力コミュニケーション・パーティゲーム",
+      platforms: ["Nintendo Switch 2"],
+      release: "2026-09-17（Nintendo Switch 2 ダウンロード専売・9.99 USD／北米表記は 9月16日）",
+      releasePrecision: "日",
+      summary: "GungHo 发行、Alim 开发的 Switch 2 独占合作交流派对游戏，9/17 于 TGS2026 电击发表并同日开卖（数字版 9.99 美元）。最大特点是把 Switch 2 内置语音功能「GameChat」本身变成玩法：三款小游戏都必须靠嘴沟通——「西瓜大乱斗」用声音引导蒙眼队友找到西瓜、「快递冲刺」一人读地图一人送件、「幽灵狩猎」用监控画面定位宅邸里的幽灵再合力驱赶。支持 1-4 人，含单人练习模式与观战位，线上游玩需 Nintendo Switch Online 与 GameChat。官方定位为「沟通顺了很好玩，沟通岔了就是一团乱」的合家欢作品，支持 11 种语言。",
+      highlight: "【TGS2026 9/18】ガンホー展台（06-C06）三款出展作品之一，也是唯一「发表即已发售」的一作；公众日（9/19-21）安排四场主播直播（Fruits Punch／ユラネコ／パンサー／エブリデイ＋MC 坂本麻子）。　把主机内置语音功能直接做成游戏机关注入，是第三方对任天堂新硬件功能的少见用法。",
+      console: {
+        status: "発売中（2026-09-17）",
+        os: ["Nintendo Switch 2"],
+        monetization: "買い切り（9.99 USD）",
+        developer: "Alim Co., Ltd.（株式会社アリム）",
+        publisher: "ガンホー・オンライン・エンターテイメント",
+        region: "グローバル（日本語・英語・簡体字・繁体字・韓国語など 11 言語対応）",
+        distribution: "ダウンロード専売",
+        stores: ["Nintendo eShop"],
+        features: [
+          "GameChat の音声そのものが攻略手段になる 3 つの協力ゲームを収録",
+          "「スイカわり」：目隠しの相棒を声だけでスイカへ誘導する",
+          "「デリバリーダッシュ」：地図を読む役と荷物を運ぶ役に分かれて配達",
+          "「ゴーストハント」：監視カメラ映像から屋敷のゴーストを特定して追い出す",
+          "1〜4 人プレイ、ソロ練習モードと観戦ロールに対応"
+        ],
+        synopsis: "息が合えば最高に楽しいが、少し噛み合わなければ大混乱。GameChat で作戦を相談しながら、声とチームワークだけで課題をクリアしていく協力コミュニケーションゲーム。家族や友人とでも、練習モードでひとりでも遊べる。",
+        cast: "公式発表なし",
+        ipSource: "ガンホーの新規オリジナル IP",
+        series: "開発は『メビウス ファイナルファンタジー』『ブレイブリーデフォルト』シリーズなどを手がけたアリム。同社にとって久々の家庭用新規 IP となる"
+      },
+      news: [
+        { source: "GungHo 官方新闻稿（電撃発表・同日発売）", url: "https://gunghoonline.com/2026/09/17/ninjala-2-the-uncharted-planet-comes-to-tokyo-game-show-2026-as-gungho-shadow-drops-chit-chat-party-and-screens-b-l-u-e-nova/" },
+        { source: "Nintendo 官方商品页（発売日・収録言語・プレイ人数）", url: "https://www.nintendo.com/us/store/products/chit-chat-party-switch-2/" },
+        { source: "Gematsu 作品页（発売日と 3 ゲームの内容）", url: "https://www.gematsu.com/games/chit-chat-party" }
+      ],
+      videos: [
+        { label: "Nintendo 官方商店页（预告影像・游戏详情）", platform: "Nintendo eShop", url: "https://www.nintendo.com/us/store/products/chit-chat-party-switch-2/" },
+        { label: "公式サイト", platform: "官方站", url: "https://chitchatparty.gungho.jp/" },
+        { label: "Gematsu 作品页（概要与平台情報）", platform: "媒体", url: "https://www.gematsu.com/games/chit-chat-party" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "発表と同時に配信開始という「シャドウドロップ」形式で、TGS 初日の話題の一つになった",
+          "任天堂の新ハード機能（GameChat）をそのまま遊びにした点が独自の切り口として報じられた",
+          "価格 9.99 USD の低価格帯で家族・カジュアル層への間口が広い",
+          "事前登録や配信前の数値シグナルが存在せず、期待度の裏付けは限定的"
+        ]
+      },
+      tags: ["新作発表", "Switch2独占", "パーティゲーム", "電撃配信", "TGS2026"]
+    },
+    {
+      id: "hello-kitty-party-land",
+      company: "サンリオ（Sanrio Games）",
+      companyJp: "株式会社サンリオ（Sanrio Games）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-17（サンリオゲームスが TGS2026 に初出展し、発売前の試遊を公開）",
+      capturedAt: "2026-09-18",
+      title: { jp: "Hello Kitty パーティランド", cn: "Hello Kitty 派对乐园", en: "Hello Kitty Party Land" },
+      genre: "協力パーティゲーム（ミニゲーム集）",
+      platforms: ["Nintendo Switch", "Nintendo Switch 2"],
+      release: "2026-10-29",
+      releasePrecision: "日",
+      summary: "三丽鸥首个自营游戏品牌「Sanrio Games」的处女作，Nintendo Switch／Switch 2 派对游戏，2026 年 10 月 29 日发售。收录 145 名以上三丽鸥角色与 45 款以上迷你游戏，设计核心是合作而非竞争——官方称这延续了「みんななかよく（大家好好相处）」的品牌理念，并特意让 1986 年登场、周边化机会极少的「梅婆婆」等角色登场。除迷你游戏外含虚拟形象自定义、镇内互动、棋盘模式与贴纸册，支持 1-4 人与 9 种语言。三丽鸥在过去只把角色授权给外部游戏公司，本作起改为自社主导企划与开发，目标 3 年内推出 10 款游戏；TGS2026 上 Sanrio Games 首次参展，本作同时出展一般展区与家庭游戏区（Family Game Park）并提供发售前试玩。",
+      highlight: "【TGS2026 9/18】サンリオゲームス首次参展 TGS2026，本作在一般展区与家庭游戏区双区提供发售前试玩，试玩者赠 Hello Kitty／シナモロール／ポムポムプリン 的 TGS2026 限定设计遮阳帽；三丽鸥角色同时被 CESA 指定为家庭游戏区官方大使。　把 IP 授权模式改为自社主导企划与开发（「由三丽鸥主导，才能保证我们想要的表达质量」），以 3 年 10 款为目标——本作是这个战略的第一张牌。",
+      console: {
+        status: "2026-10-29 発売予定",
+        os: ["Nintendo Switch", "Nintendo Switch 2"],
+        monetization: "買い切り（価格は公式発表待ち）",
+        developer: "株式会社サンリオ（Sanrio Games）",
+        publisher: "株式会社サンリオ（Sanrio Games）",
+        region: "日本・海外（英語・スペイン語・フランス語・韓国語など 9 言語対応）",
+        distribution: "未発表（パッケージ／ダウンロードの別は公式未公表）",
+        stores: ["Nintendo eShop"],
+        features: [
+          "45 種類以上のミニゲームを 1〜4 人で協力プレイ",
+          "競争ではなく協力を軸にした設計（「みんななかよく」）",
+          "ハローキティ、マイメロディ、シナモロール、ぐでたま、梅おばあちゃんら 145 体以上のキャラクター",
+          "アバターのカスタマイズ、町エリアの探索、ボードゲームモード、シール帳の収集要素",
+          "TGS2026 で一般展区・家庭ゲームパークの両方に試遊出展"
+        ],
+        synopsis: "三丽鸥のキャラクターたちと一緒に遊ぶパーティゲーム。勝ち負けを競うのではなく、声をかけ合って課題をクリアしていくことが主眼に置かれている。ぐでたまのように「やる気のない」キャラクターの振る舞いなど、各キャラの性格がミニゲームの細部に反映されている。",
+        cast: "公式発表なし",
+        ipSource: "サンリオの自社キャラクター IP（ハローキティ、マイメロディ、シナモロール、ポムポムプリン、ぐでたま、HANAMARUOBAKE ほか）",
+        series: "サンリオ初の自社ゲームブランド「Sanrio Games」第 1 弾。第 2 弾はスマートフォン向け『Sanrio Kawaii Me Live!』（2027 年）で、家庭用は「リビングで家族と」、スマホは「ひとりのキャラ世界に浸る」と役割を分けている"
+      },
+      news: [
+        { source: "Sanrio Games 官方新闻（TGS2026 初出展・出展 3 タイトル）", url: "https://www.sanrio-games.jp/zh-tw/news/00009.html" },
+        { source: "Japan Forward（Sanrio Games 責任者インタビュー・開発体制と戦略）", url: "https://japanese-specialist.com/?live-blog-20325871-2026-08-05-with-its-first-in-house-game-brand-and-debut-title-launching-this-fall-sanrio-is/" }
+      ],
+      videos: [
+        { label: "Sanrio Games TGS2026 特设页", platform: "官方站", url: "https://www.sanrio-games.jp/zh-tw/tgs2026/" },
+        { label: "Japan Forward 报道（试玩体验与开发方针）", platform: "媒体", url: "https://japanese-specialist.com/?live-blog-20325871-2026-08-05-with-its-first-in-house-game-brand-and-debut-title-launching-this-fall-sanrio-is/" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "サンリオ初の自社ゲームブランドという話題性があり、TGS2026 の家庭ゲームパーク親善大使にもサンリオキャラクターが起用された",
+          "TGS2026 で発売前の試遊を一般展区と家庭ゲームパークの両方で実施",
+          "145 体以上のキャラクターと 45 本以上のミニゲームという物量が確定情報として公開されている",
+          "同世代のカジュアル市場では同日発売の『Chit Chat Party!』と競合する"
+        ]
+      },
+      tags: ["新作発表", "IP直営", "サンリオ", "パーティゲーム", "TGS2026"]
+    },
+    {
+      id: "sanrio-kawaii-me-live",
+      company: "サンリオ（Sanrio Games）",
+      companyJp: "株式会社サンリオ（Sanrio Games）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-09-17（サンリオゲームスが TGS2026 に初出展し、試遊出展を公開）",
+      capturedAt: "2026-09-18",
+      title: { jp: "Sanrio Kawaii Me Live!", cn: "Sanrio Kawaii Me Live!", en: "Sanrio Kawaii Me Live!" },
+      genre: "ダンスリズムゲーム（着せ替え要素あり）",
+      platforms: ["iOS", "Android"],
+      release: "2027年",
+      releasePrecision: "年",
+      summary: "三丽鸥自营游戏品牌 Sanrio Games 的第二款作品、也是该品牌首款智能手机游戏，预定 2027 年推出。定位「超 KAWAII」舞蹈节奏游戏：随与三丽鸥角色相关的乐曲起舞，并可为三丽鸥角色与游戏内登场的舞台换装。官方在战略访谈中解释分工——主机游戏适合客厅里家人朋友一起玩，手机游戏则让玩家更深入地沉浸进某一个角色的世界，因此把手游侧主轴放在音乐与换装。TGS2026 的 Sanrio Games 一般展区提供试玩，是三丽鸥把「与角色共度时间」从周边、主题公园延伸到自研游戏的一环。配信形态、课金方式与事前登录均尚未公布。",
+      highlight: "【TGS2026 9/18】サンリオゲームス展台（一般展区）首次提供试玩，可体验「超 KAWAII」舞蹈节奏玩法与角色／舞台换装，试玩者赠 TGS2026 限定设计遮阳帽。　三丽鸥把自营游戏分成两条线：家庭用＝客厅合家欢、スマホ＝沉浸单个角色世界；本作是手游线的第一张牌，也是本站首次收录 Sanrio Games 的作品之一。",
+      mobile: {
+        status: "配信予定（2027年）",
+        os: ["iOS", "Android"],
+        monetization: "未発表",
+        preReg: {
+          open: false,
+          since: "",
+          reward: "公式発表なし（TGS2026 で試遊出展が公開された段階で、事前登録の告知はまだない）"
+        },
+        developer: "株式会社サンリオ（Sanrio Games）",
+        publisher: "株式会社サンリオ（Sanrio Games）",
+        region: "未発表",
+        distribution: "未発表（スマートフォン向けタイトル）",
+        payment: [],
+        ipSource: "サンリオの自社キャラクター IP を用いた完全新作。外部ライセンスではなく自社ブランド「Sanrio Games」が企画・開発を主導する",
+        series: "Sanrio Games 第 2 弾／スマートフォン第一弾。第 1 弾は家庭用『Hello Kitty パーティランド』（2026-10-29、Nintendo Switch／Switch 2）。サンリオは 3 年で 10 タイトルの投入を計画している",
+        features: [
+          "三丽鸥キャラクターの楽曲で遊ぶ「超 KAWAII」ダンスリズムゲーム",
+          "三丽鸥キャラクターとゲーム内ステージの着せ替え",
+          "ゲーム内で三丽鸥キャラクターに関連する楽曲をプレイ可能",
+          "TGS2026（9/17-21）のサンリオゲームス展台で試遊出展"
+        ],
+        synopsis: "三丽鸥のキャラクターたちと音楽で遊ぶスマートフォン向けダンスリズムゲーム。楽曲に合わせて踊るだけでなく、キャラクターやステージを自分の好みに着せ替えて、好きなキャラクターの世界に浸ることを狙った構成になっている。",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "Sanrio Games 官方新闻（TGS2026 出展 3 タイトル・発売時期）", url: "https://www.sanrio-games.jp/zh-tw/news/00009.html" },
+        { source: "Japan Forward（Sanrio Games の家庭用／スマホ二本立て戦略インタビュー）", url: "https://japanese-specialist.com/?live-blog-20325871-2026-08-05-with-its-first-in-house-game-brand-and-debut-title-launching-this-fall-sanrio-is/" }
+      ],
+      videos: [
+        { label: "Sanrio Games TGS2026 特设页（出展作品一覧）", platform: "官方站", url: "https://www.sanrio-games.jp/zh-tw/tgs2026/" },
+        { label: "Japan Forward 报道（Sanrio Games 战略与开发体制）", platform: "媒体", url: "https://japanese-specialist.com/?live-blog-20325871-2026-08-05-with-its-first-in-house-game-brand-and-debut-title-launching-this-fall-sanrio-is/" }
+      ],
+      hype: {
+        score: 57,
+        signals: [
+          "サンリオ初の自社ブランドによるスマホゲーム第 1 弾という位置づけで、IP ホルダー直営として注目される",
+          "TGS2026 で試遊を実施し、一般展区の出展作の一つとして扱われた",
+          "サンリオは 3 年 10 タイトル計画を公表しており、継続投資が前提にある",
+          "配信時期が「2027 年」とのみ告知され、事前登録など数値シグナルはまだ存在しない"
+        ]
+      },
+      tags: ["新作発表", "IP直営", "サンリオ", "音ゲー", "TGS2026"]
+    },
+    {
+      id: "fragaria-memories-color-of-wishes",
+      company: "サンリオ（Sanrio Games）／Ateam Entertainment",
+      companyJp: "株式会社サンリオ（Sanrio Games）／株式会社アテーム",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-09-17（公式 X 開設と新規描き下ろしビジュアル公開／TGS2026 に初出展）",
+      capturedAt: "2026-09-18",
+      title: { jp: "FRAGARIAMEMORIES Color of Wishes", cn: "FRAGARIAMEMORIES Color of Wishes", en: "Fragaria Memories Color of Wishes" },
+      genre: "騎士道ファンタジー（スマートフォン向け新作）",
+      platforms: ["iOS", "Android"],
+      release: "未発表（発売時期・配信形態とも公式に未発表）",
+      releasePrecision: "未定",
+      summary: "三丽鸥骑士道奇幻企划「FRAGARIAMEMORIES」的智能手机新作游戏，由三丽鸥与 Ateam Entertainment 共同开发。企划把 Hello Kitty、My Melody 等三丽鸥角色设定为「Lord」，由 18 名「骑士（フラガリアナイツ）」侍奉；本作舞台是遭神秘存在「Seeds」威胁的 Fragaria World，侍奉 Hello Kitty 的骑士 Harlit 挺身而出。2026 年 9 月 17 日官方 X 账号开设并公开全新绘制主视觉（标语「世界开始有了颜色。它的起点，是与你共有的记忆」），TGS2026 的 Sanrio Games 展台以整面墙首次公开骑士与 Lord 的游戏用插画。配信时期与玩法细节均未发表，9 月 19 日的舞台活动将首次公开游戏最新情报。",
+      highlight: "【TGS2026 9/18】サンリオゲームス展台（一般展区）以整面墙展示骑士与 Lord 的游戏用插画（全球首次公开）；9/19 的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，首次公开游戏最新情报。　企划本体 2025 年 11 月才启动、无沿用既有手游，IP 方亲自下场开发（非授权外包），与《Sanrio Kawaii Me Live!》一起构成 Sanrio Games 的手游双线。",
+      mobile: {
+        status: "配信予定（時期未発表）",
+        os: ["iOS", "Android"],
+        monetization: "未発表",
+        preReg: {
+          open: false,
+          since: "",
+          reward: "公式発表なし（公式 X 開設と新ビジュアル公開の段階）"
+        },
+        developer: "株式会社サンリオ × 株式会社アテーム（Ateam Entertainment）",
+        publisher: "株式会社サンリオ（Sanrio Games）",
+        region: "未発表",
+        distribution: "未発表（スマートフォン向けタイトル）",
+        payment: [],
+        ipSource: "サンリオのオリジナル企画『フラガリアメモリーズ』（2025 年 11 月に制作決定を発表）のスマートフォン向け新作。外部 IP のライセンスではなく自社企画",
+        series: "『フラガリアメモリーズ』はハローキティ、マイメロディら三丽鸥キャラクターを「Lord」、彼らに仕える 18 人の「フラガリアナイツ」を軸にした騎士道ファンタジー企画",
+        features: [
+          "サンリオの騎士道ファンタジー企画を題材にした初のスマートフォンゲーム",
+          "ハローキティらを「Lord」、18 人の騎士を「フラガリアナイツ」として描く世界観",
+          "2026-09-17 に公式 X を開設し、描き下ろしビジュアルを公開",
+          "TGS2026 のサンリオゲームス展台でゲーム用描き下ろしイラストを初公開",
+          "9/19 のトークステージで最新ゲーム情報を初公開予定"
+        ],
+        synopsis: "舞台は、謎の存在「シーズ」に脅かされるフラガリアワールド。ハローキティに仕える騎士ハーリットが、世界を救うために立ち上がる。公開された描き下ろしビジュアルには「色づきはじめる世界。そのはじまりは、きみとの記憶」というコピーが添えられている。",
+        cast: "ハーリット：梶原岳人／バドバルマ：武内駿輔（9/19 のトークステージに登壇予定）"
+      },
+      news: [
+        { source: "Sanrio Games 官方新闻（TGS2026 出展作品・企画初のスマホゲーム）", url: "https://www.sanrio-games.jp/zh-tw/news/00009.html" },
+        { source: "電ファミニコゲーマー発の報道（公式 X 開設・新ビジュアル・9/19 ステージ）", url: "https://www.yomimono.id/sanrio-opens-official-x-account-for-fragaria-memories-color-of-wishes" }
+      ],
+      videos: [
+        { label: "Sanrio Games TGS2026 特设页（出展作品一覧）", platform: "官方站", url: "https://www.sanrio-games.jp/zh-tw/tgs2026/" },
+        { label: "报道（公式 X 開設・新ビジュアル・9/19 舞台登坛者）", platform: "媒体", url: "https://www.yomimono.id/sanrio-opens-official-x-account-for-fragaria-memories-color-of-wishes" }
+      ],
+      hype: {
+        score: 60,
+        signals: [
+          "サンリオが自社ブランドで手がける騎士道ファンタジー企画のゲーム化で、IP ホルダー直営として注目度が高い",
+          "2026-09-17 の公式 X 開設と描き下ろしビジュアル公開が日英の媒体で報じられた",
+          "TGS2026 のサンリオゲームス展台でゲーム用イラストを初公開し、9/19 に声優登壇の舞台を予定",
+          "配信時期・課金形態・事前登録がいずれも未発表で、数値シグナルは存在しない"
+        ]
+      },
+      tags: ["新作発表", "IP直営", "サンリオ", "アテーム", "TGS2026"]
+    },
+    {
+      id: "lollipop-chainsaw-new-project",
+      company: "Dragami Games（開発・発売）",
+      companyJp: "株式会社ドラガミゲームス",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-17（TGS2026 の SEGA／ATLUS 展台内で世界初の一般試遊を公開）",
+      capturedAt: "2026-09-18",
+      title: { jp: "ロリポップチェーンソー 新作（仮）", cn: "电锯甜心 新作（暂定）", en: "Lollipop Chainsaw New Project" },
+      genre: "アクション（ハック＆スラッシュ）",
+      platforms: ["未発表"],
+      release: "未発表（タイトル・対応機種とも公式に未発表）",
+      releasePrecision: "未定",
+      caution: "正式タイトルと対応機種は公式未発表。TGS2026 の試遊は SEGA／ATLUS 展台内のコンシューマー向け試遊台で実施されており同系統と推定されるが、公式に確認は取れていない",
+      summary: "《电锯甜心》（Lollipop Chainsaw）系列新作，2025 年 7 月与动画化企划一同预告，由 Dragami Games 开发・发行（与台湾 Nada Holdings 合作），TGS2026 首次公开可试玩版本。主角 Juliet Starling 以重新设计的新服装登场，展台设 4 台试玩机与等身大电锯摄影区，完成试玩赠原创钥匙圈，全部来场者赠 logo 贴纸，官方大使 PeachMilky 以新服装 cosplay 登场。官方尚未公布正式标题与对应机种，原作监督须田刚一与 Grasshopper Manufacture 均未参与本作。9 月 18 日 11:40（SEGA 展台）与 9 月 19 日 9:40（TGS 主舞台，导演那須靖明与 JP UNIVERSE 田畑端登坛）两场舞台将带来后续发表。",
+      highlight: "【TGS2026 9/18】SEGA／ATLUS 展台内设 4 台试玩机与等身大电锯摄影区，完成试玩赠钥匙圈；9/18 11:40 的特别舞台预告「重大发表」，9/19 9:40 移师 TGS 主舞台。　原作监督须田刚一与 Grasshopper Manufacture 均未参与，团队换血后的方向仍不明朗；标题与机种均未公布，信息含量集中在「首次能玩到」这一点上。",
+      console: {
+        status: "開発中（タイトル・対応機種未発表）",
+        os: ["未発表"],
+        monetization: "未発表",
+        developer: "株式会社ドラガミゲームス（開発協力：Nada Holdings）",
+        publisher: "株式会社ドラガミゲームス",
+        region: "未発表",
+        distribution: "未発表",
+        features: [
+          "『ロリポップチェーンソー』シリーズの新作（2025 年 7 月にアニメ化とあわせて予告）",
+          "主人公ジュリエット・スターリングが新デザインのコスチュームで登場",
+          "TGS2026 の SEGA／ATLUS ブース内に試遊台 4 台と等身大チェーンソーのフォトエリア",
+          "試遊体験者にオリジナルキーチェーン、来場者全員にロゴステッカー",
+          "9/18 11:40 のブースステージと 9/19 9:40 のメインステージで続報を予定"
+        ],
+        synopsis: "シリーズの詳細はまだ伏せられている。会場では主人公ジュリエットの新コスチュームと、チェーンソーを使ったアクションの一部が確認できる。オリジナル監督の須田刚一氏とグラスホッパー・マニファクチュアは本作に関与していない。",
+        cast: "公式発表なし",
+        ipSource: "『ロリポップチェーンソー』（2012 年）の系譜にあるシリーズ新作。IP は日本側（ドラガミゲームス）が主導し、開発協力として台湾の Nada Holdings が参画",
+        series: "ドラガミゲームスは角川ゲームスの家庭用ゲーム事業を引き継ぐ形で設立されたスタジオ。前作『ロリポップチェーンソー』は 2012 年に Grasshopper Manufacture 開発で発売された"
+      },
+      news: [
+        { source: "Notebookcheck（TGS2026 世界初試遊・ステージ日程・展台特典）", url: "https://www.notebookcheck.net/Lollipop-Chainsaw-s-new-game-gets-first-playable-demo-at-Tokyo-Game-Show-2026.1398248.0.html" }
+      ],
+      videos: [
+        { label: "Notebookcheck 报道（公式ビジュアルと展台・ステージ情報）", platform: "媒体", url: "https://www.notebookcheck.net/Lollipop-Chainsaw-s-new-game-gets-first-playable-demo-at-Tokyo-Game-Show-2026.1398248.0.html" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "TGS2026 で初のプレイアブル出展（試遊台 4 台）が行われ、シリーズとしては 14 年ぶりの新作になる",
+          "9/18 のブースステージと 9/19 のメインステージで「重大発表」が予告されている",
+          "オリジナル監督の須田刚一氏が関与していないことが明らかになり、ファン側の反応は割れている",
+          "正式タイトルと対応機種が未発表で、発売時期の情報もない"
+        ]
+      },
+      tags: ["新作発表", "シリーズ新作", "ドラガミゲームス", "TGS2026"]
     }
   ],
 
@@ -4570,7 +4913,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-17",
+    asOf: "2026-09-18",
     listTotal: 50,
     categories: [
       {
@@ -4626,7 +4969,7 @@ window.OBSERVATORY = {
           { name: "株式会社コロプラ", short: "COLOPL", status: "covered", gameIds: ["active-cinema-rpg-369"] },
           { name: "株式会社MIXI", short: "MIXI", status: "watch" },
           { name: "株式会社ディー・エヌ・エー", short: "DeNA", status: "watch" },
-          { name: "ガンホー・オンライン・エンターテイメント株式会社", short: "GungHo", status: "covered", gameIds: ["blue-nova"] },
+          { name: "ガンホー・オンライン・エンターテイメント株式会社", short: "GungHo", status: "covered", gameIds: ["blue-nova", "ninjala-2-uncharted-planet", "chit-chat-party"] },
           { name: "KLab株式会社", short: "KLab", status: "covered", gameIds: ["mha-united-survival"], note: "『僕のヒーローアカデミア UNITED SURVIVAL』を gumi と共同開発（8/6 全世界配信）" },
           { name: "株式会社バンク・オブ・イノベーション", short: "Bank of Innovation", status: "watch" },
           { name: "ワンダープラネット株式会社", short: "WonderPlanet", status: "watch" },
@@ -4679,7 +5022,9 @@ window.OBSERVATORY = {
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
       { name: "株式会社Plott", short: "Plott", status: "covered", gameIds: ["blackchannel-blaze-road"], note: "ゲームの企画・開発を手がけてきたスタジオが自社パブリッシングへ広げた事例。YouTube アニメ『ブラックチャンネル』（チャンネル登録者 130 万人超、小学館）の初のスマートフォンゲーム化を 9/14 に配信開始" },
       { name: "株式会社KADOKAWA", short: "KADOKAWA", status: "covered", gameIds: ["konosuba-machisuba"], note: "指定 50 社には含まれないが、IP ホルダー自身が企画・配信を主導するスマホ新作『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～』（まちすば、2026 年内 / iOS・Android・PC、PC 版は DMM GAMES）が窓内で発表されたため補充監視に追加。原作小説はシリーズ累計 1,000 万部超" },
-        { name: "株式会社アートプレイ", short: "ArtPlay", status: "covered", gameIds: ["bloodstained-scarlet-engagement"], note: "『Bloodstained』シリーズを手がける五十嵐孝司（IGA）の開発スタジオ。発売は 505 Games が担当するが、IP と開発は日本側が主導しており、TGS2026 の Xbox 放送で新作のゲームプレイ映像が公開されたため補充監視に追加" }
+        { name: "株式会社アートプレイ", short: "ArtPlay", status: "covered", gameIds: ["bloodstained-scarlet-engagement"], note: "『Bloodstained』シリーズを手がける五十嵐孝司（IGA）の開発スタジオ。発売は 505 Games が担当するが、IP と開発は日本側が主導しており、TGS2026 の Xbox 放送で新作のゲームプレイ映像が公開されたため補充監視に追加" },
+        { name: "株式会社サンリオ（Sanrio Games）", short: "Sanrio Games", status: "covered", gameIds: ["hello-kitty-party-land", "sanrio-kawaii-me-live", "fragaria-memories-color-of-wishes"], focus: true, note: "国内最大级キャラクター IP ホルダーが 2026 年に立ち上げた自社ゲームブランド。外部ライセンスではなく自社で企画・開発を主導し、3 年で 10 タイトルを計画。家庭用『Hello Kitty パーティランド』とスマホ『Sanrio Kawaii Me Live!』『FRAGARIAMEMORIES Color of Wishes』の 3 作で TGS2026 に初出展した" },
+        { name: "株式会社ドラガミゲームス", short: "Dragami Games", status: "covered", gameIds: ["lollipop-chainsaw-new-project"], note: "角川ゲームスの家庭用ゲーム事業を引き継ぐスタジオ。『ロリポップチェーンソー』新作を TGS2026 の SEGA／ATLUS ブース内で初のプレイアブル出展（正式タイトル・対応機種は未発表）" }
       ]
     }
   },
@@ -4715,11 +5060,11 @@ window.OBSERVATORY = {
     dates: "2026-09-17 ~ 2026-09-21",
     venue: "幕張メッセ（千葉）",
     theme: "長い5日間、遊びつくせ。／ Longest Five Days of Nonstop Play",
-    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。",
+    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。",
     booths: [
       { company: "Square Enix", hall: "—", items: "以《FINAL FANTASY VII REVELATION》为绝对核心：三部曲终章的全球首个一般试玩（飞空艇世界地图探索＋Trinity 三人连携战斗），展台设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点。《FINAL FANTASY RESONANCE》同样可试玩，并追加确认《Romancing SaGa 3: Destinies United》提供试玩。预告片轮播含 FFXIV: Evercold／DQ モンスターズ 朽ちた世界／DQ XI S／KH Collection I~III／KH IV／DQ X オンライン／DISSIDIA DUELLUM FF／DQ スマッシュグロウ／DQ ヒーローズ トルネコ Classic HD。Family Game Park 提供《DQ VII Reimagined》试玩；公众日 モーグリ 与チョコボ「アルファ」不定期登场，《モンスターズ 朽ちた世界》举办「フラッフィー」合影会并发放周边　开幕日确认《キングダム ハーツ IV》与《KH Collection I~III》双双推出 Nintendo Switch 2 原生版并公开最新发售窗口；《キングダム ハーツ IV》在展台维持仅展示、不可试玩。" },
       { company: "カプコン", hall: "7 号馆（试玩）／9-11 号馆（周边）", items: "史上最大规模出展。可试玩：《モンスターハンターワイルズ 拡張「Ascendance」》（Switch 2 版同步开放试玩，为全场最长队列之一）、《ドラゴンズドグマ 2 ダークアリズン》（日本首次可试玩，10/09）、《ロックマン デュアルオーバーライド》（日本首次可试玩）、《ストリートファイター6》（新角色「アルジュン」先行试玩）；另有《プラグマタ》《鬼武者 Way of the Sword》。9-11 号馆设「e-Capcom 2026 出张所」与扭蛋区「CAPSULE LAB」　Xbox 的 TGS2026 放送进一步确认《モンスターハンターワイルズ》扩展「Ascendance」的推出窗口为 2027 年，公开新区域「Skybound Eyrie」、炎王龙 Teostra 回归，以及面向全部 14 种武器的「Boost Bracer／Boost Driver」。" },
-      { company: "SEGA / ATLUS（Sega Partners Corner）", hall: "4 号馆 N01（靠站台侧）｜周边店 11 号馆 W03", items: "27 场舞台／16 款作品，全舞台于 SEGA 官方 YouTube 直播，STH 舞台另在 RGG Studio 频道同步。9/17：10:30 开幕舞台（はいはぴ!!）、11:20《Persona 4 Revival》谈话（えなこ・和田和久）、12:40《クレイジータクシー ワールドツアー》任务挑战（SHAKA・菅野顕二）、13:30《STUPID NEVER DIES》First Bite Stage（梶裕貴・小林裕幸）、15:40「龍が如くスタジオ TV」TGS2026 特别节目公开《STRANGER THAN HEAVEN》新情报（横山昌義 等）。9/18：11:40《LOLLIPOP CHAINSAW NEW PROJECT》特别舞台（田畑端／JP UNIVERSE・那須靖明 等，预告重大发表）、13:10 SONIC PICO PARK 官方节目。9/19：11:20《P4 Revival》特别舞台（k4sen・Clutch_Fi）、12:30 STH 实机（Kenny Omega）、14:30 Crazy Taxi 实机。9/20：STH 实机（kson）＋Total War: WARHAMMER 40,000。9/21：SONIC 35 周年音乐 Live＋STH 最终舞台（城田優・藤岡靛）。SEGA Account 登录可领「Sonic & Tails」钥匙圈（每日先到先得、每人 1 个）；STH／P4 Revival 优先试玩抽选 9/19-21 13:00-15:00。Lollipop Chainsaw 新作设 4 台试玩机＋等身大电锯摄影区，完成试玩赠钥匙圈、全部来场者赠 logo 贴纸　开幕日傍晚结果：《STRANGER THAN HEAVEN》15:40「龍が如くスタジオ TV」特别节目已播出并公开约 10 分钟序章影像；Xbox 的 TGS2026 放送另公开《クレイジータクシー ワールドツアー》的日本地图（PC・Xbox 2027）。" },
+      { company: "SEGA / ATLUS（Sega Partners Corner）", hall: "4 号馆 N01（靠站台侧）｜周边店 11 号馆 W03", items: "27 场舞台／16 款作品，全舞台于 SEGA 官方 YouTube 直播，STH 舞台另在 RGG Studio 频道同步。9/17：10:30 开幕舞台（はいはぴ!!）、11:20《Persona 4 Revival》谈话（えなこ・和田和久）、12:40《クレイジータクシー ワールドツアー》任务挑战（SHAKA・菅野顕二）、13:30《STUPID NEVER DIES》First Bite Stage（梶裕貴・小林裕幸）、15:40「龍が如くスタジオ TV」TGS2026 特别节目公开《STRANGER THAN HEAVEN》新情报（横山昌義 等）。9/18：11:40《LOLLIPOP CHAINSAW NEW PROJECT》特别舞台（田畑端／JP UNIVERSE・那須靖明 等，预告重大发表）、13:10 SONIC PICO PARK 官方节目。9/19：11:20《P4 Revival》特别舞台（k4sen・Clutch_Fi）、12:30 STH 实机（Kenny Omega）、14:30 Crazy Taxi 实机。9/20：STH 实机（kson）＋Total War: WARHAMMER 40,000。9/21：SONIC 35 周年音乐 Live＋STH 最终舞台（城田優・藤岡靛）。SEGA Account 登录可领「Sonic & Tails」钥匙圈（每日先到先得、每人 1 个）；STH／P4 Revival 优先试玩抽选 9/19-21 13:00-15:00。Lollipop Chainsaw 新作设 4 台试玩机＋等身大电锯摄影区，完成试玩赠钥匙圈、全部来场者赠 logo 贴纸　开幕日傍晚结果：《STRANGER THAN HEAVEN》15:40「龍が如くスタジオ TV」特别节目已播出并公开约 10 分钟序章影像；Xbox 的 TGS2026 放送另公开《クレイジータクシー ワールドツアー》的日本地图（PC・Xbox 2027）。 9/18 现场确认：《ロリポップチェーンソー》新作在 Sega Partners Corner 内首次开放试玩（4 台试玩机＋等身大チェーンソー摄影区，完成试玩赠钥匙圈、来场者全员赠 logo 贴纸，官方大使 PeachMilky 以 Juliet 新服装登场），9/18 11:40 的特别舞台由开发团队登坛并预告「重大发表」，9/19 9:40 移师 TGS 主舞台（50 分钟，导演那須靖明＋JP UNIVERSE 田畑端）。" },
       { company: "LEVEL-5", hall: "4 号馆 04-S01", items: "自称史上最大规模、主题乐园式布展，9 款作品／6 款可试玩。自家展位可试玩《レイトン教授と蒸気の新世界》（12/10 发售，对应英・中・欧洲语言，完成赠鼠标垫）、《デカポリス》（试玩可二选一：解决事件／市内巡逻，赠徽章套装）、《ホーリーホラーマンション》（赠立体贴纸）、《スナックワールド RELOADED》（赠头巾）；邻接 NHN JAPAN 展位可试玩《幻想世界のぷちぽよん》《妖怪ウォッチ ぷにぷに》。影像展出《レイトン教授と不思議な町 Remake》（2027）、《イナズマイレブン クロス》、《妖怪ウォッチ2 覇道》（除 Switch 2 外追定 PS5／PC）。全来场者赠 8 款明信片套装，并可参与日本ゲーム大賞 2026 未来部门投票" },
       { company: "コナミデジタルエンタテインメント", hall: "11 号馆（KONAMI STYLE TGS STORE）", items: "《SILENT HILL: Townfall》（09/24 发售）设沉浸式影院体验，来场者赠主角 Simon 腕带复制品，现场预约赠限定 T 恤，9/19 14:30 特别舞台（岡本基＋实机解说）；《Castlevania: Belmont's Curse》（10/15 发售）9/20 14:00 舞台（置鮎龍太郎・鶴岡聡・谷口勉）；《幻想水滸伝 STAR LEAP》9/20 12:00 直播（内藤塁・藤松伸也・武山義樹）；《遊☆戯☆王 TAG FORCE GX Returns》9/20 10:00。另时隔 12 年重开官方周边店（11 号馆），售 ↑↑↓↓←→←→BA 40 周年 T 恤（5,500 日元）、Castlevania 海报（3,300 日元）与亚克力立牌（1,760 日元）等，购物满 3,000 日元赠原创贴纸" },
       { company: "コーエーテクモゲームス", hall: "—", items: "三大舞台＋一场 40 周年纪念：《進撃の巨人3》（9/20 15:40，小林ゆう・三上枝織，12/10 发售，PS5／Switch 2／Xbox／Steam）、《Wo Long 2: Wings of Ember》（解说者 Otsuichi 现场解析战斗）、《真・三國無双3 Complete Edition Remastered》；《三國志》系列 40 周年回顾舞台由 渋沢光 登场并预告一款未发表企划。主节目「Koei Tecmo Live! at TGS2026」9/18 20:00（主持 森遥香＋搞笑组合 ナスナカニシ）　展台可试玩 5 款，含《カリアのアトリエ ～夜の王国と追憶の道標～》（A27，2027-02-25，9/8 公开第二支 PV 与发售日，Xbox 的 TGS2026 放送另播出以 ルトガー／レンジャ 为主的新预告）与《進撃の巨人3》《Wo Long 2: Wings of Ember》《真・三國無双3 Complete Edition Remastered》。" },
@@ -4732,7 +5077,7 @@ window.OBSERVATORY = {
       { company: "ブシロード", hall: "6 号馆 C01", items: "《ヴァイスシュヴァルツ オンライン》首次提供试玩。试玩或出示 Steam 愿望单登记画面，可获「票券风卡片」（BanG Dream! MyGO!!!!! 版／Ave Mujica 版，可自选设计），每人最多 2 张" },
       { company: "ハピネット", hall: "6 号馆 N04", items: "《機動警察パトレイバー the Case Files》试玩（体验者赠特製ステッカー；PS5 版 9/15 起早期访问、PC 版 9/17 发售）；另展出《Another Eden Begins》（9/17）、《朧村正怪奇譚》、《ARTIS IMPACT》、《Super Danganronpa 2x2》、《Call of Duty: Modern Warfare 4》等" },
       { company: "IzanagiGames", hall: "—", items: "《AKIBA LOST》（2026-09-17 发售）设 30 台试玩机，为发售当日开始的实拍悬疑 ADV 提供大规模试玩。作品由 IzanagiGames 与日本テレビ／AX-ON 共同製作，剧版全 6 话已于 2026 年 1 月起在日本电视台系播出" },
-      { company: "GungHo Online Entertainment", hall: "06-C06", items: "《B.L.U.E. NOVA》出展，放映完整版预告与 TGS 限定影像，先到先得限定周边" },
+      { company: "GungHo Online Entertainment", hall: "06-C06", items: "《B.L.U.E. NOVA》出展，放映完整版预告与 TGS 限定影像，先到先得限定周边 9/18 公布完整阵容为三作：《ニンジャラ2 未知なる惑星》（40 台试玩机，为日本最大规模的可玩出展）、《B.L.U.E. NOVA》（放映完整版预告与 TGS 限定影像）、《Chit Chat Party!》（发表即发售，公众日四场主播直播：9/19 13:30 Fruits Punch・15:00 ユラネコ、9/20 11:00 パンサー、9/21 12:00 エブリデイ＋MC 坂本麻子）。《ニンジャラ2》試玩可抽「ガムガチャ」，S 赏为 Nintendo Switch 2 本体＋HORIPAD TURBO（每日 1 名），另有 Lucy 遮阳帽免费发放与系列首次概念设定画展。" },
       { company: "Game Freak", hall: "—", items: "《雨のちハレ女》重点展示（事前预约已于 9/16 开放，热度续接至 9/19-21 公众日）" },
       { company: "DMM GAMES（EXNOA）", hall: "—", items: "《刀剣乱舞 ぱずぎり》提供试玩与赠品活动；9/20 15:40 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），并同步线上直播" },
       { company: "松竹ゲームズ", hall: "04-C02", items: "11 款作品试玩，含《ムーミン:ムーミン谷の夏まつり》" },
@@ -4740,7 +5085,8 @@ window.OBSERVATORY = {
       { company: "INTI CREATES", hall: "—", items: "9/19 21:30 于「ファミ通×電撃」特别直播一次性介绍《Grim Guardians: Servants of the Dark》《蒼き雷霆 ガンヴォルト トリロジー エンハンスド》（Switch 2）《白き鋼鉄のX iX 3》；展位发放 TGS 限定周边并举办 TGS 特卖" },
       { company: "4Gamer.net", hall: "5 号馆 05-C04", items: "三场谈话：9/17 13:45 吉田修平×岡田和久（4Gamer 总编）「日本インディはなぜ毎年ヒットを生むのか」；9/17 15:45「最新インディーゲーム動向 2026」（浦部知治／MIXI Global Investments・村上雅彦／Skeleton Crew Studio）；9/18 12:00「日本のエンタメ戦略の裏側」（和田範明／経済産業省・井上清剛／Asobism）。均于 4GamerSP YouTube 配信" },
       { company: "ファミ通 × 電撃ゲームス（KADOKAWA Game Linkage）", hall: "FamitsuTUBE（YouTube）", items: "声优 青木瑠璃子 主持的特别直播。DAY01（9/19 18:00 起）：Capcom（《モンスターハンターワイルズ Ascendance》《ロックマン デュアルオーバーライド》）→ Imagineer → AMD，21:30 INTI CREATES。DAY02（9/20 18:00 起）：ATLUS《Persona 4 Revival》→ ebten → AREA35《TINY METAL 2》→ SEGA《STRANGER THAN HEAVEN》→ AGM，20:30 预告「ファミ通 40 周年祭」" },
-      { company: "Netmarble", hall: "—", items: "《Shangri-La Frontier: The Seven Colossi》首次公开试玩（单手操作＋角色切换连击，9/20 谈活由 内田雄馬・日高里菜・寺崎香 现场试玩）、《Solo Leveling: KARMA》（9/18 起 cosplay show＋主播对战，9/20 计时赛）、《Pearl in Blue》首个试玩 build 与世界观体验展位；展位规模由 56 扩至 63" }
+      { company: "Netmarble", hall: "—", items: "《Shangri-La Frontier: The Seven Colossi》首次公开试玩（单手操作＋角色切换连击，9/20 谈活由 内田雄馬・日高里菜・寺崎香 现场试玩）、《Solo Leveling: KARMA》（9/18 起 cosplay show＋主播对战，9/20 计时赛）、《Pearl in Blue》首个试玩 build 与世界观体验展位；展位规模由 56 扩至 63" },
+      { company: "サンリオゲームス（Sanrio Games）", hall: "一般展区／家庭游戏区（Family Game Park）", items: "自社ゲームブランド「Sanrio Games」として TGS に初出展。一般展区与家庭游戏区（Family Game Park）双区出展，展出《Hello Kitty パーティランド》（2026-10-29 发售，发售前试玩可体验换装与贴纸册等正式版内容）、《Sanrio Kawaii Me Live!》（2027 年スマホ向け舞蹈节奏＋换装游戏，可试玩）、《FRAGARIAMEMORIES Color of Wishes》（骑士道企划的首款手游，展台以整面墙首次公开骑士与 Lord 的游戏用插画，9/19 舞台由梶原岳人・武内駿輔公开最新情报）。试玩者赠 Hello Kitty／シナモロール／ポムポムプリン 的 TGS2026 限定设计遮阳帽。另：Sanrio 角色被 CESA 指定为本届 Family Game Park 官方大使。" }
     ]
   },
 
@@ -4748,15 +5094,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 开幕日夜场定案：Xbox 放送一次带出 6 条日方情报，本站新增 6 条主机・PC 条目（进击的巨人3／卡莉亚的炼金工房／GUNDAM 異軌征途／Bloodstained 新作／holoVillage／PHYSINT），条目总数 81 → 87；手游侧本轮无日方主导新作，明确跳过 11 款非日方资本作品",
+    headline: "TGS2026 第 2 日：手游侧补上长期缺口 —— 三丽鸥自营品牌 Sanrio Games 首次参展，本站新增两条手游条目（FRAGARIAMEMORIES Color of Wishes／Sanrio Kawaii Me Live!）与主机作 Hello Kitty パーティランド；GungHo 一次带出《ニンジャラ2》与发表即发售的《Chit Chat Party!》，主机・PC 侧另收《ロリポップチェーンソー》新作。条目总数 87 → 93，手游区 25 → 27",
     points: [
-      "**手游侧本轮无日方主导新作，属「无新增」的一轮**：TGS2026 开幕日的手游发表全部来自非日方资本——韩国 Netmarble 的《Solo Leveling: KARMA》（9/16 起日韩事前登录，9/17 媒体发表会由日本演员 本郷奏多 实机演示）《シャングリ・ラ フロンティア 七英雄種》与《Pearl in Blue》、Smilegate 的《Miraesi》《Dead Account》、NCSoft 的《Astrae Oratio》、Nexon 的《Pareidolia》；另有 3 款中资相关作品（一款开放世界捉宠 RPG 的移动端、一款乐队题材音游的全球上线、一款「Capcom 授权 × 中国资本工作室开发」的狩猎动作手游在 TGS 公开新预告并开放全球事前登录），全部按资本归属红线跳过。**本站手游区维持 25 条不变。**",
-      "**漏收核查（本轮查出 5 条主机・PC 漏收，手游侧 0 条）**：主机侧按厂商名逐个过 TGS 出展名单后，查出三款长期只在海外清单出现的日厂作品——《進撃の巨人3》（コーエーテクモ／ω-Force，12/10 定档于 8 月公布却未建卡）、《カリアのアトリエ ～夜の王国と追憶の道標～》（ガスト，A27，2027-02-25）、《GUNDAM 異軌征途》（バンダイナムコ 自研自发，2027-03-05，其实早已列在本站展位表却始终没有卡片）；另按 IP 名核查 ホロライブ 时查出《holoVillage: Our Cozy Days》（カバー Holo Indie × Roboqlo，PC 版 4 月已上线、Switch 2 版今秋）。手游侧逐个核查：鬼滅の刃（仅见中国资本发行的卡牌手游，不收）、東京リベンジャーズ（《東京復仇者 UNLIMITED》日服 2026-02-26 上线，**已出滚动窗口**，本轮不建卡）、ブルーロック／チェンソーマン／呪術廻戦／ONE PIECE（均已收录或无非日方主导新作），**无新增漏收**。此外《GACHIAKUTA: BREAKOUT》在 Xbox 放送公开 2027 年推出与对应机种，但**发行方未能确认**，按「不编造」原则本轮不建卡、下轮续查。",
-      "**Xbox 的 TGS2026 放送（9/17 19:00 JST）是本场几乎全部增量的来源**：一次带来 17 段新实机、一项世界首发与一款突袭上线，日方相关 6 条信息——小岛工作室《PHYSINT》公布 Bill Skarsgård 主演（发行权已由 PlayStation 转至 Xbox Game Studios）、Koei Tecmo／Gust《カリアのアトリエ》新预告、ArtPlay《Bloodstained: The Scarlet Engagement》新实机、SEGA《クレイジータクシー ワールドツアー》公开日本地图、Wo Long 2 新实机、Persona 4 Revival 白鐘直斗 角色映像。这是开幕日 15:40「龍が如くスタジオ TV」之后的第二波信息高峰。",
-      "**本轮新增 6 条主机・PC 条目**：《進撃の巨人3》（12/10，原作全篇一次讲完＋「壁外调查」据点经营，MAPPA 片头动画留待发售后的免费更新）、《カリアのアトリエ》（A27，2027-02-25，「吃下东西就换外形与战斗风格」的 8 种以上风格切换）、《GUNDAM 異軌征途》（2027-03-05，与动画共用新宇宙 RG Project，走照片级写实动作路线）、《Bloodstained: The Scarlet Engagement》（2027，ArtPlay 遗作定位）、《holoVillage: Our Cozy Days》（2026 秋，hololive 官方游戏品牌首次「PC 先行→主机跟进」）、《PHYSINT》（小岛工作室新 IP，Xbox Game Studios 发行）。",
-      "**另补写 8 条既有条目**：MH Wilds 扩展「Ascendance」推出窗口锁定 2027＋新区域 Skybound Eyrie＋Boost Driver 覆盖全 14 种武器；Persona 4 Revival 确认 MAPPA 制作过场动画、Game Pass 首日与「剧情段落＋雪子城堡」双 Demo；Persona 6 正式确认为 PS5／Xbox／PC 三平台并定调「独立故事＋全新角色阵容」；Kingdom Hearts IV 与 KH Collection I–III 双双确认 Switch 2 原生版；Wo Long 2 追加新实机；MELTY BLOOD: TWI-LUMINA 公开试玩 7 名可操作角色；Fate/EXTRA Record 公布试玩赠品与 Coser 摄影会；Crazy Taxi 见上条。",
-      "**厂商监测名单变化**：コジマプロダクション 由 watch 升为 covered（PHYSINT）；コーエーテクモ 追加《進撃の巨人3》《カリアのアトリエ》两条 gameIds；バンダイナムコエンターテインメント 追加《GUNDAM 異軌征途》；extra 分组新增 **アートプレイ（ArtPlay）**，并为 カバー 补入 holoVillage（23 → 24 家）。4 个 category 的家数仍为 8／16／16／10＝50。",
-      "**TGS2026 模块补写开幕日夜场情报**：Xbox 放送的日方发表清单、日本ゲーム大賞 2026 フューチャー部門的日程（9/17 10:00 ~ 9/19 16:00 网络投票、9/20 13:00 于 Hall 1 颁奖）、アニプレックス 展位试玩 7 角与赠品、コーエーテクモ 展位 5 款可试玩、カプコン 展台队列与 Ascendance 2027 窗口、バンダイナムコ 展台的《GUNDAM 異軌征途》试玩等。观测窗口维持 **2026-07-17 ~ 2026-09-17（滚动最近 2 个月）**，条目总数 **81 → 87**（手游区 25 条不变：mobile 17＋multi 8；主机・PC 区 64 → 70），本轮 `bucket=new` 6 条・`bucket=update` 8 条，其余 67 条 `capturedAt` 保持不变以维持「最新抓取排序」的区分度。期待榜仍为 Famitsu 2026-09-13 期（投票区间 8/26–9/1），无新一期。**本轮明确跳过（登记备查，避免下轮重复检索）**：韩资 7 款（Netmarble 3／Smilegate 2／NCSoft 1／Nexon 1）、中资相关 3 款、窗口外 1 款（東京復仇者 UNLIMITED）、发行方未确认 1 款（GACHIAKUTA: BREAKOUT）。"
+      "**手游侧本期新增 2 条，全部来自三丽鸥的自营游戏品牌 Sanrio Games**：《FRAGARIAMEMORIES Color of Wishes》（骑士道企划「フラガリアメモリーズ」的首款手游，三丽鸥 × アテーム共同开发，9/17 开设官方 X 并公开全新绘制主视觉，9/19 舞台由梶原岳人・武内駿輔公开最新情报）与《Sanrio Kawaii Me Live!》（2027 年推出的「超 KAWAII」舞蹈节奏＋换装手游）。这是本站首次收录 Sanrio Games —— **日本 IP 持有方直营游戏品牌正是本站第 3 类收录对象，此前一直空缺**。手游区 25 → 27 条。",
+      "**手游侧另有两条既有条目的进展**：《BLEACH Mirrors High》自 9/17 起在万代南梦宫主展台提供手机版试玩，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》同区展出，是本届少数进入综合大厂主展台的智能手机作品；《雨のちハレ女》在 GAME FREAK 展台配布与 JTB《るるぶ》合作的特别版指南书，并把晴女学园的社办、福利社、阳台等身大复原。两条已把 `capturedAt` 更新至 2026-09-18。",
+      "**本轮漏收核查（查 9 个 IP，查出 3 款此前完全未收录的 Sanrio Games 作品）**：逐个核查 呪術廻戦（RUMBLE: SURVIVATON 已收录，并确认延期至 2027）／BLEACH（已收录）／ONE PIECE（已收录）／刀剣乱舞（已收录）／ホロライブ（已收录）／鬼滅の刃（仅见非日方主导作品，不收）／ブルーロック（仅见法国 Sloclap 的联动与国产手游，非日方主导新游）／東京リベンジャーズ（日服 2026-02-26 上线，**已出滚动窗口**）／サンリオ「フラガリアメモリーズ」（**查出漏收**）。此外《GACHIAKUTA: BREAKOUT》已查明开发・发行均为 Com2uS 集团（韩国），**按资本归属不属于本站收录对象**，此项待办就此关闭。",
+      "**主机・PC 侧新增 4 条**：《ニンジャラ2 未知なる惑星》（ガンホー，约 6 年ぶり续作，从 PvP 全面转为开放世界 PvE，2027 年春 Switch 2 独占，TGS 以 40 台试玩机提供日本最大规模试游）、《Chit Chat Party!》（ガンホー×アリム，把 Switch 2 的 GameChat 语音本身做成玩法的合作派对游戏，9/17 发表并同日开卖 9.99 USD）、《Hello Kitty パーティランド》（サンリオゲームス第 1 弹，2026-10-29 发售，145 名以上角色＋45 款以上迷你游戏）、《ロリポップチェーンソー》新作（ドラガミゲームス，TGS 首次公开可试玩版本，正式标题与对应机种仍官方未发表）。",
+      "**GungHo 展台是本场主机侧的主要信息来源**：9/18 公布三作完整阵容与主播直播表（9/19-21 共 6 场），《ニンジャラ2》试玩可抽含 Switch 2 本体与 HORIPAD TURBO 的「ガムガチャ」（每日 1 名），并首次举办系列概念设定画展。同一份新闻稿在 9/17 已带出《B.L.U.E. NOVA》，但《ニンジャラ2》《Chit Chat Party!》当时未被建卡 —— 属本轮补上的漏收。",
+      "**本轮明确跳过（非日方资本，不建卡）**：Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》《Pearl in Blue》、Smilegate《MIRESI: Invisible Future》《Dead Account: Two Blue Flames》、Nexon《Mabinogi Mobile》（日本 10/07 上线）《Pareidolia》《OVERGEARED》、NCSoft《Astrae Oratio》、Com2uS《GACHIAKUTA: BREAKOUT》；另有数款由中国资本企业开发・发行的作品（含一款 9/17 全球上线的捉宠 RPG、一款由日本 IP 授权、中国资本工作室开发的狩猎动作手游），按资本归属红线同样跳过，记录只留在巡检汇报中。",
+      "**TGS 模块与厂商名单更新**：新增 Sanrio Games 展位条目（双区出展＋9/19 舞台），GungHo 与 SEGA／ATLUS 两条展位记录补写第 2 日现场情报；`extra` 分组新增 **サンリオ（Sanrio Games）** 与 **ドラガミゲームス**（24 → 26 家），ガンホー 的 `gameIds` 补入两条新作。4 个 category 家数仍为 8／16／16／10＝50，`mostWanted` 维持 2026-09-13 期（Famitsu 最新一期）。"
     ]
   }
 };
