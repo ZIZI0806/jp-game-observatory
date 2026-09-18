@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-18T21:45:00+08:00",
+    updatedAt: "2026-09-18T22:20:00+08:00",
     edition: "2026-09-18",
     window: "2026-07-18 ~ 2026-09-18（滚动最近 2 个月）",
     sources: [
@@ -39,6 +39,229 @@ window.OBSERVATORY = {
    * A. 新作发表 — 本期首次公开的作品
    * ------------------------------------------------------- */
   games: [
+    {
+      id: "hakuoki-ibun-berezinsky-no-majo",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-08-27（発売当日）",
+      capturedAt: "2026-09-18",
+      title: { jp: "薄桜鬼異聞 ベレジンスキーの魔女", cn: "薄樱鬼异闻 贝雷金斯基的魔女", en: "Hakuoki Ibun: Berezinsky no Majo" },
+      genre: "女性向けドラマティック ADV",
+      platforms: ["Nintendo Switch"],
+      release: "2026-08-27（発売済み。Nintendo Switch / Switch Lite）",
+      releasePrecision: "日",
+      summary: "《薄樱鬼》系列外传，舞台从幕末日本搬到 19 世纪初的东欧边境：拿破仑麾下法军东进的传闻四起，惧怕侵略的人们依古老约定，向统治ベレジンスキー 边境伯领的神秘领主献上「供牺」以求护城，被选中的是无依无靠、住在修道院的少女サラ・デュドネ。抱着赴死之心前往的她，面对的却是与吸血鬼领主始料未及的日子；不久法军逼近，又出现猎杀吸血鬼的神秘部队，主人公被迫在「饮下吸血鬼之血与其并肩作战」与「不断供血、让对方继续背负大罪而战」之间作出选择。由系列综合监督藤澤経清与系列御用插画薄葉カゲロー 组合制作，属女性向戏剧性 ADV、单人游玩，故事时间点约在日本幕末前 50 年，描写「变若水」的起源。2026-08-27 已在 Nintendo Switch / Switch Lite 发售，通常版与下载版 8,580 日元、特装版 10,780 日元（均含税），CERO C。",
+      highlight: "【発売 2026-08-27】已在 Nintendo Switch 发售（通常版与下载版 8,580 日元／特装版 10,780 日元、CERO C），并发售纪念赠品活动进行中。　系列综合监督藤澤経清＋角色插画薄葉カゲロー 的「原味」组合是老粉买单点，但把舞台搬离幕末、换掉新选组，是系列外传里跨度最大的一次尝试。",
+      console: {
+        status: "2026-08-27 発売済み",
+        os: ["Nintendo Switch"],
+        monetization: "パッケージ版・ダウンロード版。通常版／DL 版 8,580 円（税込）、特装版 10,780 円（税込）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（日本語のみ）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "『薄桜鬼』シリーズの外伝。幕末より約 50 年前の東欧を舞台に、根幹設定「変若水」の起源を描く",
+          "シリーズ綜合ディレクター・藤澤経清とキャラクターイラスト・薄葉カゲロー の本線スタッフが担当",
+          "「供犠」として吸血鬼の領主のもとへ送られた少女サラ・デュドネを主人公にした女性向けドラマティック ADV",
+          "吸血鬼と共に戦うか、血を与え続けて大罪を重ねさせるか、という二択が物語の軸",
+          "主題歌「Difinitive Time」（歌：小岩井ことり）／「Velours」（歌：瑞葵／UNIDOTS）",
+          "1 人プレイ専用、CERO「C」（15 才以上対象）"
+        ],
+        synopsis: "19 世紀初頭の旧東欧。ナポレオン率いるフランス軍の進軍の噂が立つ中、侵略を恐れる人々は古の約束に従い、ベレジンスキー辺境伯領を治める謎の領主に「供犠」を差し出して街を守ろうとしていた。選ばれたのは身寄りもなく修道院に住む少女サラ・デュドネ。街と人々のため死を覚悟して向かった彼女を待っていたのは、謎の領主――吸血鬼――との思いもかけない日々だった。やがて迫り来るフランス軍と、吸血鬼を狩る謎の部隊。主人公は選択を迫られる。",
+        ipSource: "『薄桜鬼』シリーズ（アイディアファクトリー／オトメイト）の外伝",
+        series: "『薄桜鬼』シリーズは 2008 年に第 1 作が発売された乙女向けゲーム。本作は幕末より約 50 年前の東欧を舞台にした外伝で、「変若水」の起源を描く位置づけ",
+        cast: "前野智昭／鈴木崚汰／八代拓／岡本信彦／古川慎 ほか"
+      },
+      news: [
+        { source: "PR TIMES（発売記念プレゼントキャンペーン・商品概要）", url: "https://prtimes.jp/main/html/rd/p/000001021.000080401.html" },
+        { source: "Ludens Media（最新 PV 公開と発売日・価格）", url: "https://www.ludens.com.tw/?p=41601/" }
+      ],
+      videos: [
+        { label: "官方站（薄桜鬼異聞 ベレジンスキーの魔女）", platform: "官方站", url: "https://www.otomate.jp/witch_bere/" },
+        { label: "官方 X（最新 PV と特典情報）", platform: "X", url: "https://x.com/WitchB_otomate" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "『薄桜鬼』は 2008 年から続く乙女ゲームの代表 IP で、外伝ながら系列総監督＋御用イラストレーターの本線スタッフが担当",
+          "シリーズの根幹設定「変若水」の起源を描く位置づけで、既存ファンの関心が集中しやすい",
+          "乙女向けは国内市場が限定的で、海外展開や大型メディア露出は見込めない"
+        ]
+      },
+      tags: ["新作", "女性向ADV", "Switch", "IP外传"]
+    },
+    {
+      id: "kimi-ni-madoi-kimi-ni-oboreru",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-07-30（発売当日）",
+      capturedAt: "2026-09-18",
+      title: { jp: "君に惑い、君に溺れる。", cn: "为你迷惑、为你沉溺。", en: "Kimi ni Madoi, Kimi ni Oboreru." },
+      genre: "女性向け恋愛 ADV",
+      platforms: ["Nintendo Switch"],
+      release: "2026-07-30（発売済み。Nintendo Switch / Switch Lite）",
+      releasePrecision: "日",
+      summary: "Otomate 乙女向品牌「オトメイト・バースプロジェクト」的第 1 弹，也是该品牌首款以男女 OmegaVerse（ABO）为题材的乙女游戏。主人公一直以不带「バース性」的状态生活，某天突然被告知自己是 Omega，并被摊上「没有「番」的 Omega 会在 25 岁前死去」这一事实；为了活下去她开始寻找成为自己「番」的对象，回到睽违 5 年的故乡与疏远已久的旧友重逢，在淡薄的恋心与压不住的本能之间摇摆。导演大山小波、原画董火、剧本由合同会社 Re,AER 负责，开场主题歌「青が灯る」由 riya（eufonius）演唱、片尾曲「ここから」由八木ましろ 演唱。女性向恋爱 ADV、单人游玩，CERO D（17 岁以上）。2026-07-30 已在 Nintendo Switch / Switch Lite 发售，通常版与下载版 8,580 日元、特装版 10,780 日元（均含税）。",
+      highlight: "【発売 2026-07-30】已在 Nintendo Switch 发售（通常版与下载版 8,580 日元／特装版 10,780 日元、CERO D），初回封入特典为可在 Switch 上收听的数字语音剧。　「オトメイト・バースプロジェクト」第 1 弹、也是该品牌首款 OmegaVerse 题材 —— 把 CERO 拉到 D 档（17 岁以上）是 Otomate 面向成人向恋爱题材的一次明确转向。",
+      console: {
+        status: "2026-07-30 発売済み",
+        os: ["Nintendo Switch"],
+        monetization: "パッケージ版・ダウンロード版。通常版／DL 版 8,580 円（税込）、特装版 10,780 円（税込）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（日本語のみ）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "オトメイト 初の、男女のオメガバースを題材にした乙女ゲーム（「オトメイト・バースプロジェクト」第 1 弾）",
+          "「番のいないオメガは 25 歳までに死んでしまう」という設定を軸に、番を探す物語を描く",
+          "ディレクター：大山小波、原画：董火、アシスタントディレクター／シナリオ監修：一ジョー、シナリオ：合同会社 Re,AER",
+          "オープニングテーマ「青が灯る」（歌：riya／eufonius）、エンディングテーマ「ここから」（歌：八木ましろ）",
+          "初回封入特典はデジタルボイスドラマ（Nintendo Switch 本体で視聴、ダウンロード期限 2026-10-28）",
+          "1 人プレイ専用、CERO「D」（17 才以上対象）"
+        ],
+        synopsis: "ずっとバース性を持たずに生きてきた主人公は、ある日突然オメガだと告げられた。「番のいないオメガは 25 歳までに死んでしまう」――その事実を突きつけられた彼女は、生きるために番となる相手を探すことに。そして 5 年ぶりに帰省した地元で、疎遠になっていた友人たちと再会する。彼らと接するうちに胸の内に湧いてくる淡い恋心、そして抑えられない本能。その先に求めるのは、ただひとりの番。",
+        ipSource: "オリジナル（アイディアファクトリー／オトメイト）",
+        series: "「オトメイト・バースプロジェクト」第 1 弾。オトメイト が初めてオメガバースを題材にした乙女ゲーム作品",
+        cast: "棗陽凪：千葉翔也／瀬尾叶多：堀江瞬／日下部恭也：熊谷健太郎／露木理都：大塚剛央／山科瑛：小林千晃"
+      },
+      news: [
+        { source: "PR TIMES（発売記念プレゼントキャンペーン・商品概要）", url: "https://prtimes.jp/main/html/rd/p/000001037.000080401.html" },
+        { source: "GameHack（本日発売・キャラクター PV と商品概要）", url: "https://gamehack.jp/380064" },
+        { source: "Ludens Media（発売日決定と予約特典）", url: "https://www.ludens.com.tw?p=35427/" }
+      ],
+      videos: [
+        { label: "官方站（君に惑い、君に溺れる。）", platform: "官方站", url: "https://www.otomate.jp/kiminimadoi/" },
+        { label: "官方 X（キャラクター PV と特典情報）", platform: "X", url: "https://x.com/KK_otomate" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "オトメイト初のオメガバース題材で、乙女ゲーム界では話題性の高い切り口",
+          "千葉翔也・堀江瞬・熊谷健太郎・大塚剛央・小林千晃と現行の人気声優を揃えた",
+          "CERO「D」（17 才以上）と対象年齢を上げた設計で、成人向け恋愛路線への転換を示す",
+          "題材の特殊性からプレイヤー側の好みが分かれ、幅広い層への波及は限定的"
+        ]
+      },
+      tags: ["新作", "女性向ADV", "Switch", "新IP"]
+    },
+    {
+      id: "black-wolves-saga-switch",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-10（発売当日）",
+      capturedAt: "2026-09-18",
+      title: { jp: "BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch", cn: "BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch", en: "Black Wolves Saga: Weiss und Schwarz - for Nintendo Switch" },
+      genre: "乙女向けダークゴシックファンタジー ADV",
+      platforms: ["Nintendo Switch"],
+      release: "2026-09-10（発売済み。Nintendo Switch / Switch Lite）",
+      releasePrecision: "日",
+      summary: "「オトメイト グラフィティ」移植企划的第 12 弹，把 Rejet 的乙女向暗黑哥特幻想 ADV『BLACK WOLVES SAGA』PS Vita 版的两部作品《-Bloody Nightmare-》与《-Last Hope-》合为一张卡带搬上 Nintendo Switch。舞台是「ウェブリン」与狼种共处的世界：刚满 16 岁、首次获准外出的少女被狼种青年掳走，在各方思虑交错的外界逐渐得知ウェブリン 的真相。插画由黒裄 担当，主题歌《Anesthesia》与《OATH》以及插入歌全部由 lasah 演唱。乙女向暗黑哥特幻想 ADV、单人游玩，CERO D（17 岁以上），全语音。2026-09-10 已在 Nintendo Switch / Switch Lite 发售，通常版与下载版 7,700 日元、特装版 9,900 日元（均含税）。",
+      highlight: "【発売 2026-09-10】PS Vita 版两部作的 Switch 移植合集已发售（通常版 7,700 日元／特装版 9,900 日元、CERO D、全语音），为该移植产品线的第 12 弹。　版权表记为「©Rejet / IDEA FACTORY」—— IP 持有方是 Rejet，Otomate 在这条产品线里承担的是移植与发行，登记厂商时不能把 IP 归属算到アイディアファクトリー 头上。",
+      console: {
+        status: "2026-09-10 発売済み",
+        os: ["Nintendo Switch"],
+        monetization: "パッケージ版・ダウンロード版。通常版／DL 版 7,700 円（税込）、特装版 9,900 円（税込）",
+        developer: "Rejet／オトメイト（アイディアファクトリー）",
+        publisher: "アイディアファクトリー",
+        region: "日本（日本語のみ）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "PS Vita 版『BLACK WOLVES SAGA -Bloody Nightmare-』『-Last Hope-』を 1 本にまとめた Nintendo Switch 移植",
+          "「オトメイト グラフィティ」移植企画の第 12 弾",
+          "16 歳の誕生日に狼種の青年に攫われた少女が、ウェブリンの真実を知るダークゴシックファンタジー",
+          "イラストレーター：黒裄",
+          "主題歌・挿入歌をすべて lasah が担当（「Anesthesia」「OATH」「希望」「追憶」など）",
+          "全編フルボイス、1 人プレイ専用、CERO「D」（17 才以上対象）"
+        ],
+        synopsis: "16 歳の誕生日。初めて外に出ることを許された日に、少女は狼種の青年に攫われてしまう。様々な思惑の絡み合う外界にて、彼女はウェブリンの真実を知る。",
+        ipSource: "『BLACK WOLVES SAGA』（Rejet）。権利表記は「©Rejet / IDEA FACTORY」で、IP は Rejet が保有",
+        series: "原作は Rejet の乙女向けダークゴシックファンタジー ADV。PS Vita 版 2 作をまとめた移植として、アイディアファクトリー の移植企画「オトメイト グラフィティ」から発売された",
+        cast: "全編フルボイス（キャストの個別記載は公式商品情報になし）"
+      },
+      news: [
+        { source: "PR TIMES（発売日・特典情報公開と予約開始）", url: "https://prtimes.jp/main/html/rd/p/000001018.000080401.html" },
+        { source: "GameCal（移植元・開発／発売元と CERO 区分）", url: "https://www.gamecal.co.uk/game/black-wolves-saga-weib-und-schwarz-for-nintendo-switch" }
+      ],
+      videos: [
+        { label: "VNDB（特装版・発売日・開発／発売元の登録情報）", platform: "数据库", url: "https://vndb.moe/r155195" },
+        { label: "Questlog（移植元と発売日の登録情報）", platform: "数据库", url: "https://questlog.app/games/black-wolves-saga-weib-und-schwarz-for-nintendo-switch" }
+      ],
+      hype: {
+        score: 48,
+        signals: [
+          "2012 年の PSP 版から続く固定ファンを持つ Rejet 作品の移植で、追加要素は限定的",
+          "主題歌・挿入歌をすべて lasah が担当するなど音源面の作り込みは維持",
+          "移植企画「オトメイト グラフィティ」の第 12 弾にあたり、新規層への波及は小さい"
+        ]
+      },
+      tags: ["移植", "女性向ADV", "Switch"]
+    },
+    {
+      id: "mix-dunk-king-of-basketball",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-07-20（発売日 2026-11-26 を発表）",
+      capturedAt: "2026-09-18",
+      title: { jp: "MIX DUNK -KING OF BASKETBALL-", cn: "MIX DUNK -KING OF BASKETBALL-", en: "MIX DUNK -KING OF BASKETBALL-" },
+      genre: "女性向け恋愛 ADV（スポーツ）",
+      platforms: ["Nintendo Switch"],
+      release: "2026-11-26（発売予定。Nintendo Switch / Switch Lite）",
+      releasePrecision: "日",
+      summary: "Otomate 首款运动题材乙女向恋爱 ADV，以男女混合的职业篮球联赛为舞台：主人公进入公司后，原本所属的球队因退出联赛而解散，她在现实与理想之间被迫抉择，仍继续追逐篮球梦，并与队友们在竞技与情感两条线上交错发展。由职业篮球队川崎ブレイブサンダース 与偶像团体 AKB48 共同监修，是乙女游戏里少见的跨界赞助型企划。角色原画中村龍德，声优为沢城千春、榎木淳弥、寺島拓篤、中島ヨシキ、杉田智和。2026-07-20 公布发售日，定为 2026-11-26 在 Nintendo Switch / Switch Lite 发售，通常版与下载版 8,580 日元、特装版 10,780 日元（均含税），预约受理中。",
+      highlight: "【定档 2026-11-26】7/20 公布发售日，Switch 版定于 11/26 发售，通常版 8,580 日元／特装版 10,780 日元，预约受理中。　与川崎ブレイブサンダース 及 AKB48 的三方监修把真实职业篮球与偶像资源引进乙女向，属该品类少见的跨界赞助型企划，也是 Otomate 首次做运动题材。",
+      console: {
+        status: "2026-11-26 発売予定（予約受付中）",
+        os: ["Nintendo Switch"],
+        monetization: "パッケージ版・ダウンロード版。通常版／DL 版 8,580 円（税込）、特装版 10,780 円（税込）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（日本語のみ）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "オトメイト初のスポーツ（バスケットボール）題材の乙女ゲーム",
+          "川崎ブレイブサンダース と AKB48 が監修するリアル連携企画",
+          "男女混合のプロバスケットボールリーグを舞台に、競技と恋愛を両輪で描く",
+          "キャラクター原画：中村龍德",
+          "パッケージ版の予約特典はデジタルボイスドラマ、特装版はクリアチケットとサウンドトラック配信カード（BGM 50 曲）",
+          "1 人プレイ専用"
+        ],
+        synopsis: "「最強の混合チームで勝利をつかめ!」を掲げ、川崎ブレイブサンダース を舞台にした女性向け恋愛 ADV。主人公は入社後に所属チームがリーグ撤退で解散し、現実と理想の間で選択を迫られながらもバスケットボールを追い続ける。男女混合リーグでチームメイトと共に逆境に立ち向かい、競技と恋愛が交錯する物語が展開する。",
+        ipSource: "オリジナル（アイディアファクトリー／オトメイト）",
+        series: "オトメイト が初めてスポーツを題材にした乙女ゲーム。川崎ブレイブサンダース と AKB48 の監修による外部連携が特徴",
+        cast: "沢城千春／榎木淳弥／寺島拓篤／中島ヨシキ／杉田智和"
+      },
+      news: [
+        { source: "SouNova（11/26 発売決定と作品概要）", url: "https://sounova.com/game/mix-dunk-king-of-basketball-switch-announcement" },
+        { source: "Yomimono（発売日発表と監修・キャスト情報）", url: "http://yomimono.id/otomate-s-basketball-romance-mix-dunk-launches-november-26" },
+        { source: "SouNova（Dessert de Otomate 2026 発表 5 タイトル一覧）", url: "https://sounova.com/game/dessert-de-otomate-2026" }
+      ],
+      videos: [
+        { label: "SouNova 报道（発売日・監修・予約特典）", platform: "媒体", url: "https://sounova.com/game/mix-dunk-king-of-basketball-switch-announcement" },
+        { label: "Yomimono（発売日発表のまとめ）", platform: "媒体", url: "http://yomimono.id/tag/mix-dunk" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "川崎ブレイブサンダース と AKB48 の監修によるリアル連携で、乙女ゲームとしては異例の話題性",
+          "乙女ゲーム初の本格スポーツ題材という切り口で、新規層への訴求を狙う",
+          "発売は 11/26 と先で、現時点で公開されているのは発売日・監修・特典が中心"
+        ]
+      },
+      tags: ["定档", "女性向ADV", "Switch", "新作"]
+    },
     {
       id: "bang-dream-our-notes",
       company: "Bushiroad",
@@ -5002,7 +5225,19 @@ window.OBSERVATORY = {
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "watch" },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
-          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "watch", note: "《BLACK WOLVES SAGA》(9/10) 已出现于发售清单，尚未建卡" },
+          {
+            name: "アイディアファクトリー株式会社",
+            short: "Idea Factory",
+            status: "covered",
+            gameIds: [
+              "hakuoki-ibun-berezinsky-no-majo",
+              "kimi-ni-madoi-kimi-ni-oboreru",
+              "black-wolves-saga-switch",
+              "mix-dunk-king-of-basketball"
+            ],
+            focus: true,
+            note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中"
+          },
           { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
           { name: "プラチナゲームズ株式会社", short: "PlatinumGames", status: "watch" },
           { name: "株式会社SNK", short: "SNK", status: "watch" },
@@ -5162,16 +5397,17 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 第 2 日：手游侧是本期主线 —— 补收《BanG Dream! Our Notes》（9/24 全球同日上线、事前登录 160 万）与三丽鸥自营品牌 Sanrio Games 的两款新作，手游条目 25 → 28；主机・PC 侧另收 GungHo《ニンジャラ2》《Chit Chat Party!》与《Hello Kitty パーティランド》《ロリポップチェーンソー》新作共 4 条。条目总数 87 → 94",
+    headline: "TGS2026 第 2 日：手游侧是本期主线 —— 补收《BanG Dream! Our Notes》（9/24 全球同日上线、事前登录 160 万）与三丽鸥自营品牌 Sanrio Games 的两款新作，手游条目 25 → 28；主机・PC 侧首次补上 Otomate 乙女向 4 款（《薄桜鬼異聞 ベレジンスキーの魔女》《君に惑い、君に溺れる。》《BLACK WOLVES SAGA》《MIX DUNK》），并收 GungHo《ニンジャラ2》《Chit Chat Party!》等。条目总数 87 → 98",
     points: [
       "**手游侧本期新增 3 条，全部落在本站核心重点上**：《BanG Dream! Our Notes》（ブシロード 发行／株式会社フロムトーキョー 开发，2026-09-24 全球同日上线，事前登录 9/4 破 150 万、9/11 破 160 万，9/21 上线前特别生放送、9/22 起预下载，TGS2026 ブシロード 展台自 9/17 起提供正式版抢先试玩；五支乐队 MyGO!!!!!／Ave Mujica／夢限大みゅーたいぷ／millsage／一家Dumb Rock! 共 25 名角色、全语音）、《Sanrio Kawaii Me Live!》（三丽鸥自营品牌 Sanrio Games，2027 年推出的「超 KAWAII」舞蹈节奏＋换装手游）、《FRAGARIAMEMORIES Color of Wishes》（骑士道企划「フラガリアメモリーズ」首款手游，三丽鸥 × アテーム共同开发）。手游区 25 → 28 条。",
       "**《BanG Dream! Our Notes》属补收，其暴露的检索盲区已机制化**：该作 2026-01-12 在「ブシロード 新年大発表会 2026」发表，时点落在滚动窗口之外，只盯「新作发表」事件的检索必然漏掉；本次是靠「配信日决定／事前登录突破／TGS 正式版试玩」这类**进展类**信号才捞出来的。同时澄清收录判定口径：按「开发・发行的资本归属」判定，本作开发方フロムトーキョー 为日资（前 Craft Egg 代表取缔役・森川修一于 2024-02-01 设立，同年 11-01 与ブシロード 缔结资本业务提携）、日版发行方为ブシロード，**判为日厂作品予以收录，海外版本的发行方不参与判定**；反之，由大陆资本全资持有的日本法人所开发的作品，仍按中资排除。",
+      "**主机・PC 侧本轮另有 4 条，首次填补了「女性向／乙女向」这块长期空白**：Idea Factory 旗下乙女向品牌 **Otomate** 的 4 款作品 —— 《薄桜鬼異聞 ベレジンスキーの魔女》（8/27 已发售，系列外传，舞台移到 19 世纪初东欧，描写「变若水」的起源）、《君に惑い、君に溺れる。》（7/30 已发售，**Otomate 首款 OmegaVerse 题材**、「オトメイト・バースプロジェクト」第 1 弹，CERO D）、《BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch》（9/10 已发售，Rejet 原作 PS Vita 两部作的移植合集，「オトメイト グラフィティ」第 12 弹，IP 归 Rejet）、《MIX DUNK -KING OF BASKETBALL-》（7/20 定档 **11/26**，Otomate 首款运动题材，川崎ブレイブサンダース 与 AKB48 共同监修）。4 款均为纯日方开发・发行，`アイディアファクトリー` 已由 `watch` 升为 `covered`。",
       "**本轮漏收核查（查 9 个 IP，查出 3 款此前完全未收录的 Sanrio Games 作品）**：逐个核查 呪術廻戦（RUMBLE: SURVIVATON 已收录，并确认延期至 2027）／BLEACH（已收录）／ONE PIECE（已收录）／刀剣乱舞（已收录）／ホロライブ（已收录）／鬼滅の刃（仅见非日方主导作品，不收）／ブルーロック（仅见法国 Sloclap 的联动与国产手游，非日方主导新游）／東京リベンジャーズ（日服 2026-02-26 上线，**已出滚动窗口**）／サンリオ「フラガリアメモリーズ」（**查出漏收**）。此外《GACHIAKUTA: BREAKOUT》已查明开发・发行均为 Com2uS 集团（韩国），**按资本归属不属于本站收录对象**，此项待办就此关闭。",
       "**手游侧另有两条既有条目的进展**：《BLEACH Mirrors High》自 9/17 起在万代南梦宫主展台提供手机版试玩，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》同区展出，是本届少数进入综合大厂主展台的智能手机作品；《雨のちハレ女》在 GAME FREAK 展台配布与 JTB《るるぶ》合作的特别版指南书，并把晴女学园的社办、福利社、阳台等身大复原。两条已把 `capturedAt` 更新至 2026-09-18。",
-      "**主机・PC 侧新增 4 条**：《ニンジャラ2 未知なる惑星》（ガンホー，约 6 年ぶり续作，从 PvP 全面转为开放世界 PvE，2027 年春 Switch 2 独占，TGS 以 40 台试玩机提供日本最大规模试游）、《Chit Chat Party!》（ガンホー×アリム，把 Switch 2 的 GameChat 语音本身做成玩法的合作派对游戏，9/17 发表并同日开卖 9.99 USD）、《Hello Kitty パーティランド》（サンリオゲームス第 1 弹，2026-10-29 发售，145 名以上角色＋45 款以上迷你游戏）、《ロリポップチェーンソー》新作（ドラガミゲームス，TGS 首次公开可试玩版本，正式标题与对应机种仍官方未发表）。",
+      "**主机・PC 侧新增 4 条 TGS 相关作**：《ニンジャラ2 未知なる惑星》（ガンホー，约 6 年ぶり续作，从 PvP 全面转为开放世界 PvE，2027 年春 Switch 2 独占，TGS 以 40 台试玩机提供日本最大规模试游）、《Chit Chat Party!》（ガンホー×アリム，把 Switch 2 的 GameChat 语音本身做成玩法的合作派对游戏，9/17 发表并同日开卖 9.99 USD）、《Hello Kitty パーティランド》（サンリオゲームス第 1 弹，2026-10-29 发售，145 名以上角色＋45 款以上迷你游戏）、《ロリポップチェーンソー》新作（ドラガミゲームス，TGS 首次公开可试玩版本，正式标题与对应机种仍官方未发表）。",
       "**GungHo 展台是本场主机侧的主要信息来源**：9/18 公布三作完整阵容与主播直播表（9/19-21 共 6 场），《ニンジャラ2》试玩可抽含 Switch 2 本体与 HORIPAD TURBO 的「ガムガチャ」（每日 1 名），并首次举办系列概念设定画展。同一份新闻稿在 9/17 已带出《B.L.U.E. NOVA》，但《ニンジャラ2》《Chit Chat Party!》当时未被建卡 —— 属本轮补上的漏收。",
       "**本轮明确跳过（非日方资本，不建卡）**：Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》《Pearl in Blue》、Smilegate《MIRESI: Invisible Future》《Dead Account: Two Blue Flames》、Nexon《Mabinogi Mobile》（日本 10/07 上线）《Pareidolia》《OVERGEARED》、NCSoft《Astrae Oratio》、Com2uS《GACHIAKUTA: BREAKOUT》；另有数款由中国资本企业开发・发行的作品（含一款 9/17 全球上线的捉宠 RPG、一款由日本 IP 授权、中国资本工作室开发的狩猎动作手游），按资本归属红线同样跳过，记录只留在巡检汇报中。",
-      "**TGS 模块与厂商名单更新**：新增 Sanrio Games 展位条目（双区出展＋9/19 舞台），ブシロード 展位补写《BanG Dream! Our Notes》正式版先行试游，GungHo 与 SEGA／ATLUS 两条展位记录补写第 2 日现场情报；`extra` 分组新增 **サンリオ（Sanrio Games）**、**ドラガミゲームス** 与 **フロムトーキョー（FROMTOKYO）**（24 → 27 家），ブシロード 与 ガンホー 的 `gameIds` 补齐新作。4 个 category 家数仍为 8／16／16／10＝50，`mostWanted` 维持 2026-09-13 期（Famitsu 最新一期）。"
+      "**TGS 模块与厂商名单更新**：新增 Sanrio Games 展位条目（双区出展＋9/19 舞台），ブシロード 展位补写《BanG Dream! Our Notes》正式版先行试游，GungHo 与 SEGA／ATLUS 两条展位记录补写第 2 日现场情报；`extra` 分组新增 **サンリオ（Sanrio Games）**、**ドラガミゲームス** 与 **フロムトーキョー（FROMTOKYO）**（24 → 27 家），`アイディアファクトリー` 由 `watch` 升为 `covered`，ブシロード 与 ガンホー 的 `gameIds` 补齐新作。4 个 category 家数仍为 8／16／16／10＝50，`mostWanted` 维持 2026-09-13 期（Famitsu 最新一期）。"
     ]
   }
 };
