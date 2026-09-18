@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-18T13:00:00+08:00",
+    updatedAt: "2026-09-18T21:45:00+08:00",
     edition: "2026-09-18",
     window: "2026-07-18 ~ 2026-09-18（滚动最近 2 个月）",
     sources: [
@@ -39,6 +39,66 @@ window.OBSERVATORY = {
    * A. 新作发表 — 本期首次公开的作品
    * ------------------------------------------------------- */
   games: [
+    {
+      id: "bang-dream-our-notes",
+      company: "Bushiroad",
+      companyJp: "株式会社ブシロード",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-09-17（TGS2026 ブシロード ブースで正式版の先行試遊を開始）",
+      capturedAt: "2026-09-18",
+      title: { jp: "BanG Dream! Our Notes（バンドリ！アワーノーツ）", cn: "BanG Dream! Our Notes", en: "BanG Dream! Our Notes" },
+      genre: "リズムゲーム＋全編フルボイス・ビジュアルノベル",
+      platforms: ["iOS", "Android"],
+      release: "2026-09-24（日本を含むグローバル同時配信を予定）",
+      releasePrecision: "日",
+      summary: "ブシロード发行的《BanG Dream!》系列全新手游，由前 Craft Egg 主要成员创立的株式会社フロムトーキョー 开发，是《ガールズバンドパーティ!》之后的第二款节奏游戏。登场乐队为 MyGO!!!!!、Ave Mujica、夢限大みゅーたいぷ 与新加入的 millsage、一家Dumb Rock!，共 25 名角色并全部启用原班声优；故事采用多路线乐队章节结构，并用 Live2D 影像以游戏视角重述 MyGO!!!!! 与 Ave Mujica 的动画剧情。玩法以打击、滑动、长按、滑键构成的节奏部分为核心，新增在乐曲中途插入高强度段落的「GEKISO LIVE（激奏 LIVE）」模式与面向新手的 Assist Mode，支持最多 5 人实时协力／对战演奏，卡池获取的卡牌影响演奏数值。事前登录自 6/26 开放，9/4 破 150 万、9/11 破 160 万；9/13 公布全球配信日 9/24，9/21 播出上线前特别生放送、9/22 起开放预下载，对应语言含日文、英文、韩文、繁体中文与简体中文。",
+      highlight: "【TGS2026 9/18】ブシロード 展台（6 号馆 C01）自 9/17 起提供正式版抢先试玩，是配信前最后一场大型线下曝光，试玩或出示 Steam 愿望单登记画面可获 MyGO!!!!! 版／Ave Mujica 版「票券风卡片」。　9/24 全球同日上线、事前登录 9/11 已破 160 万，是 2026 下半年量级最大的日厂原创手游之一；作为系列第二款节奏游戏直接承接 MyGO!!!!! 与 Ave Mujica 的剧情线，采取「新旧乐队同处一个宇宙但不强行交汇」的编成思路。",
+      news: [
+        { source: "官方站新闻（「アワーノーツ リリース日決定特番」発表情報まとめ）", url: "https://bang-dream-on.bushimo.jp/news/post-8" },
+        { source: "官方站新闻（TGS2026 出展の詳細を公開）", url: "https://bang-dream-on.bushimo.jp/news/post-9" },
+        { source: "Game8（配信日・対応機種・発表経緯のまとめ）", url: "https://game8.co/articles/release-dates/bang-dream-our-notes-release-date-and-time" },
+        { source: "Bandori Wiki（開発体制・CBT・事前登録マイルストーン推移）", url: "https://bandori.miraheze.org/wiki/BanG_Dream!_Our_Notes" },
+        { source: "GameTrader.SG（GEKISO LIVE の仕様と事前登録 160 万・9/22 事前ダウンロード）", url: "https://www.gametrader.sg/blog/bang-dream-our-notes-global-launch-september-24-2026/" }
+      ],
+      videos: [
+        { label: "官方站（バンドリ！アワーノーツ 公式サイト・Movie）", platform: "官方站", url: "https://bang-dream-on.bushimo.jp/" },
+        { label: "Final Weapon（9/13 配信日発表と最新トレーラー）", platform: "媒体", url: "https://finalweapon.net/2026/09/13/bang-dream-our-notes-launches-september-24-worldwide" }
+      ],
+      hype: {
+        score: 82,
+        signals: [
+          "事前登録が 2026-09-11 に 160 万件を突破（6/27 の 30 万件から 2 か月半で 5 倍以上）",
+          "2026-09-24 に日本を含むグローバル同時配信、9/21 配信直前特番・9/22 事前ダウンロードと配信前の露出が集中",
+          "TGS2026 ブシロード ブースで正式版の先行試遊を実施、5 バンド 25 キャラというシリーズ最大規模の初期実装",
+          "『BanG Dream!』はアニメ・劇場版・ライブを跨ぐ国内屈指の音楽 IP で、北米・アジアの海外メディア露出も広い"
+        ]
+      },
+      tags: ["手游", "音ゲー", "IP直営", "事前登录中", "TGS2026"],
+      mobile: {
+        status: "2026-09-24 にグローバル同時配信予定（事前登録受付中）",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（ガチャ・アイテム課金あり、シーズン制ミッションパスを導入）",
+        preReg: { open: true, since: "2026-06-26（グローバル事前登録開始。国内向け CBT は 2026-06-25〜29 に実施、募集は 3/1〜5/17）", reward: "50 万：スター 4,000／60 万：ソングチケット 30 枚／70 万：SR 以上確定チケット／80 万：SNAP カード／100 万：シーズン 1 ミッションパス／150 万：SSR 確定ガチャチケット（160 万達成時点までの分を公開済み）" },
+        developer: "株式会社フロムトーキョー（FROMTOKYO。前 Craft Egg 代表取締役・森川修一が中心となり 2024-02-01 に設立、同年 11-01 にブシロードと資本業務提携）",
+        publisher: "株式会社ブシロード（Bushimo／旧ブシロードゲームズ）",
+        region: "日本・北米・アジアなどグローバル同時配信（日本語・英語・韓国語・繁体字・簡体字に対応）",
+        distribution: "App Store / Google Play",
+        ipSource: "『BanG Dream!』（ブシロード）",
+        series: "『BanG Dream! ガールズバンドパーティ!』に続くシリーズ第 2 のリズムゲーム。2026-01-12 の「ブシロード 新年大発表会 2026」で発表",
+        features: [
+          "タップ・フリック・ホールド・スライドで遊ぶリズムゲームとフルボイスのビジュアルノベルを 1 本に統合",
+          "楽曲の途中に高難度パートが挿入される新モード「GEKISO LIVE（激奏ライブ）」",
+          "コンボ数・タイミング精度を競う最大 5 人のリアルタイム協力／対戦演奏",
+          "リズムゲームが初めてでも遊べる Assist Mode",
+          "Live2D で MyGO!!!!!・Ave Mujica のアニメ本編を追体験する Cinematic Story System",
+          "バンドごとの章立てで、millsage・一家Dumb Rock! の完全新規ストーリーを独立展開",
+          "ガチャで獲得したカードが演奏ステータスに影響"
+        ],
+        synopsis: "「5 つのバンドの物語は、MyGO!!!!! と Ave Mujica から始まる」を掲げ、既存 3 バンド（MyGO!!!!!・Ave Mujica・夢限大みゅーたいぷ）と新規 2 バンド（millsage・一家Dumb Rock!）の計 25 人が一堂に会する音楽ストーリー。Cinematic Story System がアニメ本編の物語をゲーム独自の視点で描き直し、新規バンドには完全新規の物語が用意される。章立てはバンド単位で、好きな順に進められる。",
+        cast: "既存 3 バンドはアニメ・既存作からキャスト続投、新規 2 バンドのボーカルは新規キャスト。全 25 キャラクターフルボイス"
+      }
+    },
 
     /* ---------- 2026-09-15 粒度修正：TGS2026 出展名单拆分 ----------
      * 起因：NHN PlayArt 的 TGS2026 出展 3 款新作原先被合并写成 1 条条目，
@@ -4963,7 +5023,7 @@ window.OBSERVATORY = {
           { name: "株式会社ラセングル", short: "Lasengle", status: "watch", focus: true },
           { name: "株式会社WFS", short: "Wright Flyer Studios", status: "covered", gameIds: ["another-eden-begins"], note: "『アナザーエデン 時空を超える猫』の第 1 部を買い切り JRPG として作り直した『Another Eden Begins』を 9/17 に発売（Switch 2／Switch／Steam）。ガチャを完全撤廃" },
           { name: "株式会社マイネット", short: "mynet", status: "watch" },
-          { name: "株式会社ブシロード", short: "Bushiroad", status: "covered", gameIds: ["weiss-schwarz-online"], focus: true, note: "看板 TCG『ヴァイスシュヴァルツ』のデジタル版『ヴァイスシュヴァルツ オンライン』を 2027 年春に Switch／Steam で発売予定。9/15 に Steam ストアページを公開しウィッシュリスト登録を開始、TGS2026 は 6 号館 C01 で初の試遊を実施" },
+          { name: "株式会社ブシロード", short: "Bushiroad", status: "covered", gameIds: ["weiss-schwarz-online", "bang-dream-our-notes"], focus: true, note: "看板 TCG『ヴァイスシュヴァルツ』のデジタル版『ヴァイスシュヴァルツ オンライン』を 2027 年春に Switch／Steam で発売予定。9/15 に Steam ストアページを公開しウィッシュリスト登録を開始、TGS2026 は 6 号館 C01 で初の試遊を実施。配信直前の『BanG Dream! Our Notes』（9/24 グローバル同時配信）の正式版先行試遊も 9/17 から開始し、シリーズ 2 タイトルを同時に擁する形となった" },
           { name: "グリー株式会社", short: "GREE", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "子会社グリーエンターテインメントが『無職転生 クロエコ』を企画・配信（7/27 配信開始）" },
           { name: "株式会社アカツキゲームス", short: "Akatsuki Games", status: "covered", gameIds: ["kaiju-no-8-the-game"], note: "東宝・プロダクション・アイジーと共同企画・制作する『怪獣８号 THE GAME』を開発・運営（2025-08-31 世界同時サービス開始、2026-09-01 に 1 周年とメインストーリー第 2 部）" },
           { name: "株式会社コロプラ", short: "COLOPL", status: "covered", gameIds: ["active-cinema-rpg-369"] },
@@ -5024,7 +5084,15 @@ window.OBSERVATORY = {
       { name: "株式会社KADOKAWA", short: "KADOKAWA", status: "covered", gameIds: ["konosuba-machisuba"], note: "指定 50 社には含まれないが、IP ホルダー自身が企画・配信を主導するスマホ新作『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～』（まちすば、2026 年内 / iOS・Android・PC、PC 版は DMM GAMES）が窓内で発表されたため補充監視に追加。原作小説はシリーズ累計 1,000 万部超" },
         { name: "株式会社アートプレイ", short: "ArtPlay", status: "covered", gameIds: ["bloodstained-scarlet-engagement"], note: "『Bloodstained』シリーズを手がける五十嵐孝司（IGA）の開発スタジオ。発売は 505 Games が担当するが、IP と開発は日本側が主導しており、TGS2026 の Xbox 放送で新作のゲームプレイ映像が公開されたため補充監視に追加" },
         { name: "株式会社サンリオ（Sanrio Games）", short: "Sanrio Games", status: "covered", gameIds: ["hello-kitty-party-land", "sanrio-kawaii-me-live", "fragaria-memories-color-of-wishes"], focus: true, note: "国内最大级キャラクター IP ホルダーが 2026 年に立ち上げた自社ゲームブランド。外部ライセンスではなく自社で企画・開発を主導し、3 年で 10 タイトルを計画。家庭用『Hello Kitty パーティランド』とスマホ『Sanrio Kawaii Me Live!』『FRAGARIAMEMORIES Color of Wishes』の 3 作で TGS2026 に初出展した" },
-        { name: "株式会社ドラガミゲームス", short: "Dragami Games", status: "covered", gameIds: ["lollipop-chainsaw-new-project"], note: "角川ゲームスの家庭用ゲーム事業を引き継ぐスタジオ。『ロリポップチェーンソー』新作を TGS2026 の SEGA／ATLUS ブース内で初のプレイアブル出展（正式タイトル・対応機種は未発表）" }
+        { name: "株式会社ドラガミゲームス", short: "Dragami Games", status: "covered", gameIds: ["lollipop-chainsaw-new-project"], note: "角川ゲームスの家庭用ゲーム事業を引き継ぐスタジオ。『ロリポップチェーンソー』新作を TGS2026 の SEGA／ATLUS ブース内で初のプレイアブル出展（正式タイトル・対応機種は未発表）" },
+        {
+          name: "株式会社フロムトーキョー",
+          short: "FROMTOKYO",
+          status: "covered",
+          gameIds: ["bang-dream-our-notes"],
+          focus: true,
+          note: "前 Craft Egg 代表取締役・森川修一が中心となり 2024-02-01 に設立した開発会社。旧 Craft Egg の主要メンバーが在籍し、2024-11-01 にブシロードと資本業務提携を締結。『BanG Dream! ガールズバンドパーティ!』の開発運営を継続しつつ、シリーズ第 2 のリズムゲーム『BanG Dream! Our Notes』を開発。資本は日本側（ブシロードが資本業務提携先）で、大陸資本の関与はない"
+        },
       ]
     }
   },
@@ -5074,7 +5142,7 @@ window.OBSERVATORY = {
       { company: "NHN PlayArt", hall: "2 号馆", items: "时隔 8 年重返 TGS，7 款作品：《刀剣乱舞 ぱずぎり》《OVER RUSH》《幻想世界のぷちぽよん》（3 款新作首次公开）＋《LINE: Disney Tsum Tsum》《妖怪ウォッチ ぷにぷに》《#コンパス》《DISSIDIA DUELLUM FINAL FANTASY》。设试玩台、限定周边、周边贩售与舞台，完成各展台任务集章可换限定卡组；《ツムツム》试玩赠 5 款随机贴纸，《ぷにぷに》看舞台赠面具与迷你扇、体验「妖怪写真馆」赠妖怪迷你图鉴与暗号卡，《#コンパス》看舞台赠面具与限定贴纸，《DDFF》赠团扇并举办制作人／企划见面会" },
       { company: "集英社ゲームズ", hall: "5 号馆 05-C10", items: "《呪術廻戦 RUMBLE: SURVIVATON》与《UN:Me》首度提供试玩，通关可获原创周边。《呪術廻戦》为全球首次公开试玩，是与《Vampire Survivors》作者 poncle 共同开发的多人乱斗，8 名 Boss 全部可打，比赛在展台屏幕直播并配电竞解说；登记愿望单或试玩可获像素贴纸与纸扇套装" },
       { company: "アニプレックス", hall: "4 号館 04-C04", items: "《Fate/EXTRA Record》（2027-01-28）出展可操作 3 体サーヴァント的试玩版；此前 9/9 セイバー、9/12 アーチャー、9/14 キャスター连续三周公开角色 PV。同社另在 4 号館 C04 与 ハピネット 6 号館 N04 两处出展《MELTY BLOOD: TWI-LUMINA》（2027-04-22，開発 FRENCH-BREAD）的系列首次一般试玩——9/12 公开新 PV 并首次披露武内崇绘制的「白蓮」，战斗系统追加 Act／Duel 双操作模式　开幕日公开的试玩细节：《MELTY BLOOD: TWI-LUMINA》可操作 7 人（遠野志貴／アルクェイド／シエル／ロア／ネコアルク／マシュ／レン），试玩赠 7 种随机贴纸，展位另发两面大购物袋与 ネコアルク 面具；《Fate/EXTRA Record》试玩赠 4 种模切贴纸，并办 Saber（Yamohachiko）与 Caster（伊織もえ／Kichipiyo）的 cosplay 摄影会及迷你隊士・竈門炭治郎 见面会。" },
-      { company: "ブシロード", hall: "6 号馆 C01", items: "《ヴァイスシュヴァルツ オンライン》首次提供试玩。试玩或出示 Steam 愿望单登记画面，可获「票券风卡片」（BanG Dream! MyGO!!!!! 版／Ave Mujica 版，可自选设计），每人最多 2 张" },
+      { company: "ブシロード", hall: "6 号馆 C01", items: "《ヴァイスシュヴァルツ オンライン》首次提供试玩。试玩或出示 Steam 愿望单登记画面，可获「票券风卡片」（BanG Dream! MyGO!!!!! 版／Ave Mujica 版，可自选设计），每人最多 2 张。另，配信直前（9/24 全球同日上线）的《BanG Dream! Our Notes》自 9/17 起提供正式版先行试游，是本届ブシロード 展位的主打" },
       { company: "ハピネット", hall: "6 号馆 N04", items: "《機動警察パトレイバー the Case Files》试玩（体验者赠特製ステッカー；PS5 版 9/15 起早期访问、PC 版 9/17 发售）；另展出《Another Eden Begins》（9/17）、《朧村正怪奇譚》、《ARTIS IMPACT》、《Super Danganronpa 2x2》、《Call of Duty: Modern Warfare 4》等" },
       { company: "IzanagiGames", hall: "—", items: "《AKIBA LOST》（2026-09-17 发售）设 30 台试玩机，为发售当日开始的实拍悬疑 ADV 提供大规模试玩。作品由 IzanagiGames 与日本テレビ／AX-ON 共同製作，剧版全 6 话已于 2026 年 1 月起在日本电视台系播出" },
       { company: "GungHo Online Entertainment", hall: "06-C06", items: "《B.L.U.E. NOVA》出展，放映完整版预告与 TGS 限定影像，先到先得限定周边 9/18 公布完整阵容为三作：《ニンジャラ2 未知なる惑星》（40 台试玩机，为日本最大规模的可玩出展）、《B.L.U.E. NOVA》（放映完整版预告与 TGS 限定影像）、《Chit Chat Party!》（发表即发售，公众日四场主播直播：9/19 13:30 Fruits Punch・15:00 ユラネコ、9/20 11:00 パンサー、9/21 12:00 エブリデイ＋MC 坂本麻子）。《ニンジャラ2》試玩可抽「ガムガチャ」，S 赏为 Nintendo Switch 2 本体＋HORIPAD TURBO（每日 1 名），另有 Lucy 遮阳帽免费发放与系列首次概念设定画展。" },
@@ -5094,15 +5162,16 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 第 2 日：手游侧补上长期缺口 —— 三丽鸥自营品牌 Sanrio Games 首次参展，本站新增两条手游条目（FRAGARIAMEMORIES Color of Wishes／Sanrio Kawaii Me Live!）与主机作 Hello Kitty パーティランド；GungHo 一次带出《ニンジャラ2》与发表即发售的《Chit Chat Party!》，主机・PC 侧另收《ロリポップチェーンソー》新作。条目总数 87 → 93，手游区 25 → 27",
+    headline: "TGS2026 第 2 日：手游侧是本期主线 —— 补收《BanG Dream! Our Notes》（9/24 全球同日上线、事前登录 160 万）与三丽鸥自营品牌 Sanrio Games 的两款新作，手游条目 25 → 28；主机・PC 侧另收 GungHo《ニンジャラ2》《Chit Chat Party!》与《Hello Kitty パーティランド》《ロリポップチェーンソー》新作共 4 条。条目总数 87 → 94",
     points: [
-      "**手游侧本期新增 2 条，全部来自三丽鸥的自营游戏品牌 Sanrio Games**：《FRAGARIAMEMORIES Color of Wishes》（骑士道企划「フラガリアメモリーズ」的首款手游，三丽鸥 × アテーム共同开发，9/17 开设官方 X 并公开全新绘制主视觉，9/19 舞台由梶原岳人・武内駿輔公开最新情报）与《Sanrio Kawaii Me Live!》（2027 年推出的「超 KAWAII」舞蹈节奏＋换装手游）。这是本站首次收录 Sanrio Games —— **日本 IP 持有方直营游戏品牌正是本站第 3 类收录对象，此前一直空缺**。手游区 25 → 27 条。",
-      "**手游侧另有两条既有条目的进展**：《BLEACH Mirrors High》自 9/17 起在万代南梦宫主展台提供手机版试玩，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》同区展出，是本届少数进入综合大厂主展台的智能手机作品；《雨のちハレ女》在 GAME FREAK 展台配布与 JTB《るるぶ》合作的特别版指南书，并把晴女学园的社办、福利社、阳台等身大复原。两条已把 `capturedAt` 更新至 2026-09-18。",
+      "**手游侧本期新增 3 条，全部落在本站核心重点上**：《BanG Dream! Our Notes》（ブシロード 发行／株式会社フロムトーキョー 开发，2026-09-24 全球同日上线，事前登录 9/4 破 150 万、9/11 破 160 万，9/21 上线前特别生放送、9/22 起预下载，TGS2026 ブシロード 展台自 9/17 起提供正式版抢先试玩；五支乐队 MyGO!!!!!／Ave Mujica／夢限大みゅーたいぷ／millsage／一家Dumb Rock! 共 25 名角色、全语音）、《Sanrio Kawaii Me Live!》（三丽鸥自营品牌 Sanrio Games，2027 年推出的「超 KAWAII」舞蹈节奏＋换装手游）、《FRAGARIAMEMORIES Color of Wishes》（骑士道企划「フラガリアメモリーズ」首款手游，三丽鸥 × アテーム共同开发）。手游区 25 → 28 条。",
+      "**《BanG Dream! Our Notes》属补收，其暴露的检索盲区已机制化**：该作 2026-01-12 在「ブシロード 新年大発表会 2026」发表，时点落在滚动窗口之外，只盯「新作发表」事件的检索必然漏掉；本次是靠「配信日决定／事前登录突破／TGS 正式版试玩」这类**进展类**信号才捞出来的。同时澄清收录判定口径：按「开发・发行的资本归属」判定，本作开发方フロムトーキョー 为日资（前 Craft Egg 代表取缔役・森川修一于 2024-02-01 设立，同年 11-01 与ブシロード 缔结资本业务提携）、日版发行方为ブシロード，**判为日厂作品予以收录，海外版本的发行方不参与判定**；反之，由大陆资本全资持有的日本法人所开发的作品，仍按中资排除。",
       "**本轮漏收核查（查 9 个 IP，查出 3 款此前完全未收录的 Sanrio Games 作品）**：逐个核查 呪術廻戦（RUMBLE: SURVIVATON 已收录，并确认延期至 2027）／BLEACH（已收录）／ONE PIECE（已收录）／刀剣乱舞（已收录）／ホロライブ（已收录）／鬼滅の刃（仅见非日方主导作品，不收）／ブルーロック（仅见法国 Sloclap 的联动与国产手游，非日方主导新游）／東京リベンジャーズ（日服 2026-02-26 上线，**已出滚动窗口**）／サンリオ「フラガリアメモリーズ」（**查出漏收**）。此外《GACHIAKUTA: BREAKOUT》已查明开发・发行均为 Com2uS 集团（韩国），**按资本归属不属于本站收录对象**，此项待办就此关闭。",
+      "**手游侧另有两条既有条目的进展**：《BLEACH Mirrors High》自 9/17 起在万代南梦宫主展台提供手机版试玩，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》同区展出，是本届少数进入综合大厂主展台的智能手机作品；《雨のちハレ女》在 GAME FREAK 展台配布与 JTB《るるぶ》合作的特别版指南书，并把晴女学园的社办、福利社、阳台等身大复原。两条已把 `capturedAt` 更新至 2026-09-18。",
       "**主机・PC 侧新增 4 条**：《ニンジャラ2 未知なる惑星》（ガンホー，约 6 年ぶり续作，从 PvP 全面转为开放世界 PvE，2027 年春 Switch 2 独占，TGS 以 40 台试玩机提供日本最大规模试游）、《Chit Chat Party!》（ガンホー×アリム，把 Switch 2 的 GameChat 语音本身做成玩法的合作派对游戏，9/17 发表并同日开卖 9.99 USD）、《Hello Kitty パーティランド》（サンリオゲームス第 1 弹，2026-10-29 发售，145 名以上角色＋45 款以上迷你游戏）、《ロリポップチェーンソー》新作（ドラガミゲームス，TGS 首次公开可试玩版本，正式标题与对应机种仍官方未发表）。",
       "**GungHo 展台是本场主机侧的主要信息来源**：9/18 公布三作完整阵容与主播直播表（9/19-21 共 6 场），《ニンジャラ2》试玩可抽含 Switch 2 本体与 HORIPAD TURBO 的「ガムガチャ」（每日 1 名），并首次举办系列概念设定画展。同一份新闻稿在 9/17 已带出《B.L.U.E. NOVA》，但《ニンジャラ2》《Chit Chat Party!》当时未被建卡 —— 属本轮补上的漏收。",
       "**本轮明确跳过（非日方资本，不建卡）**：Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》《Pearl in Blue》、Smilegate《MIRESI: Invisible Future》《Dead Account: Two Blue Flames》、Nexon《Mabinogi Mobile》（日本 10/07 上线）《Pareidolia》《OVERGEARED》、NCSoft《Astrae Oratio》、Com2uS《GACHIAKUTA: BREAKOUT》；另有数款由中国资本企业开发・发行的作品（含一款 9/17 全球上线的捉宠 RPG、一款由日本 IP 授权、中国资本工作室开发的狩猎动作手游），按资本归属红线同样跳过，记录只留在巡检汇报中。",
-      "**TGS 模块与厂商名单更新**：新增 Sanrio Games 展位条目（双区出展＋9/19 舞台），GungHo 与 SEGA／ATLUS 两条展位记录补写第 2 日现场情报；`extra` 分组新增 **サンリオ（Sanrio Games）** 与 **ドラガミゲームス**（24 → 26 家），ガンホー 的 `gameIds` 补入两条新作。4 个 category 家数仍为 8／16／16／10＝50，`mostWanted` 维持 2026-09-13 期（Famitsu 最新一期）。"
+      "**TGS 模块与厂商名单更新**：新增 Sanrio Games 展位条目（双区出展＋9/19 舞台），ブシロード 展位补写《BanG Dream! Our Notes》正式版先行试游，GungHo 与 SEGA／ATLUS 两条展位记录补写第 2 日现场情报；`extra` 分组新增 **サンリオ（Sanrio Games）**、**ドラガミゲームス** 与 **フロムトーキョー（FROMTOKYO）**（24 → 27 家），ブシロード 与 ガンホー 的 `gameIds` 补齐新作。4 个 category 家数仍为 8／16／16／10＝50，`mostWanted` 维持 2026-09-13 期（Famitsu 最新一期）。"
     ]
   }
 };
