@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-09-17
+ * 最后更新: 2026-09-19
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-19T09:10:00+08:00",
+    updatedAt: "2026-09-19T19:10:00+08:00",
     edition: "2026-09-19",
     window: "2026-07-19 ~ 2026-09-19（滚动最近 2 个月）",
     sources: [
@@ -5143,56 +5143,63 @@ window.OBSERVATORY = {
     },
     {
       id: "lollipop-chainsaw-new-project",
-      company: "Dragami Games（開発・発売）",
-      companyJp: "株式会社ドラガミゲームス",
-      bucket: "new",
+      company: "Dragami Games（IP 保有・企画）／ JP UNIVERSE（開発）",
+      companyJp: "株式会社ドラガミゲームス ／ JP UNIVERSE 株式会社",
+      bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 の SEGA／ATLUS 展台内で世界初の一般試遊を公開）",
-      capturedAt: "2026-09-18",
-      title: { jp: "ロリポップチェーンソー 新作（仮）", cn: "电锯甜心 新作（暂定）", en: "Lollipop Chainsaw New Project" },
+      announceDate: "2026-09-19（TGS2026 主舞台で正式タイトル・2027 年 PS5 発売・実写映画化を発表）",
+      capturedAt: "2026-09-19",
+      title: { jp: "ロリポップチェーンソー2 Back2Back", cn: "电锯甜心2 Back2Back", en: "Lollipop Chainsaw 2 Back2Back" },
       genre: "アクション（ハック＆スラッシュ）",
-      platforms: ["未発表"],
-      release: "未発表（タイトル・対応機種とも公式に未発表）",
-      releasePrecision: "未定",
-      caution: "正式タイトルと対応機種は公式未発表。TGS2026 の試遊は SEGA／ATLUS 展台内のコンシューマー向け試遊台で実施されており同系統と推定されるが、公式に確認は取れていない",
-      summary: "《电锯甜心》（Lollipop Chainsaw）系列新作，2025 年 7 月与动画化企划一同预告，由 Dragami Games 开发・发行（与台湾 Nada Holdings 合作），TGS2026 首次公开可试玩版本。主角 Juliet Starling 以重新设计的新服装登场，展台设 4 台试玩机与等身大电锯摄影区，完成试玩赠原创钥匙圈，全部来场者赠 logo 贴纸，官方大使 PeachMilky 以新服装 cosplay 登场。官方尚未公布正式标题与对应机种，原作监督须田刚一与 Grasshopper Manufacture 均未参与本作。9 月 18 日 11:40（SEGA 展台）与 9 月 19 日 9:40（TGS 主舞台，导演那須靖明与 JP UNIVERSE 田畑端登坛）两场舞台将带来后续发表。",
-      highlight: "【TGS2026 9/18】SEGA／ATLUS 展台内设 4 台试玩机与等身大电锯摄影区，完成试玩赠钥匙圈；9/18 11:40 的特别舞台预告「重大发表」，9/19 9:40 移师 TGS 主舞台。　原作监督须田刚一与 Grasshopper Manufacture 均未参与，团队换血后的方向仍不明朗；标题与机种均未公布，信息含量集中在「首次能玩到」这一点上。",
+      platforms: ["PlayStation 5"],
+      release: "2027 年（予定・詳細な発売日は未発表）",
+      releasePrecision: "年",
+      caution: "対応機種は公式に「PlayStation 5 等（完全なプラットフォーム一覧は後日発表）」とされ、PS5 以外は未確定。課金形態は公式見出しでは確認できず、QooApp 掲載の作品概要に「無料（有料アイテムあり）」との記載があるのみ。開発元について英語圏報導の一部は Dragami Games を開発元としているが、TGS で公開されたスタッフ表では開発は JP UNIVERSE が担当する",
+      summary: "《电锯甜心》（Lollipop Chainsaw）系列正统续作，2012 年初代发售 15 年后的完全新作。2026 年 9 月 19 日 TGS2026 主舞台的「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台正式公布标题为《电锯甜心2 Back2Back》，预定 2027 年发售、对应 PlayStation 5 等平台，并同时宣布同 IP 的实拍电影化企划。制作体制为 Dragami Games（IP 所有者・企划，佐藤昌平）＋ JP UNIVERSE（开发，代表 田畑端；开发总监 那須靖明），制作人 鄧橋（Nada Holdings）。故事舞台从初代的高中所在城市搬到以电影产业为核心重建的大都会 Jaredwood，女主角 Juliet Starling 以新服装与强化后的能力登场，被神秘导演困在一部扭曲的恐怖电影中，需要与伙伴一起对抗新的「Corrupted Realm」僵尸群并揭开背后的阴谋。TGS2026 期间在 SEGA／ATLUS 展台内的 SEGA Partners 专区提供试玩。",
+      highlight: "【TGS2026 9/19】9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，同时公开 Juliet 的新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报。　初代监督须田刚一与 Grasshopper Manufacture 仍未参与，开发由 田畑端 领军的 JP UNIVERSE 承担；对应机种至今只确定「PS5 等」。",
       console: {
-        status: "開発中（タイトル・対応機種未発表）",
-        os: ["未発表"],
-        monetization: "未発表",
-        developer: "株式会社ドラガミゲームス（開発協力：Nada Holdings）",
+        status: "開発中（2027 年発売予定・対応機種は PS5 等、完全な一覧と価格は未発表）",
+        os: ["PlayStation 5"],
+        monetization: "未発表（QooApp 掲載の作品概要には「無料（有料アイテムあり）」と記載）",
+        developer: "JP UNIVERSE 株式会社（開発総監：那須靖明）",
         publisher: "株式会社ドラガミゲームス",
         region: "未発表",
-        distribution: "未発表",
+        distribution: "PlayStation 5 向け。PlayStation Store での配信を予定しており、パッケージ版の有無は未公表",
+        stores: ["PlayStation Store"],
         features: [
-          "『ロリポップチェーンソー』シリーズの新作（2025 年 7 月にアニメ化とあわせて予告）",
-          "主人公ジュリエット・スターリングが新デザインのコスチュームで登場",
-          "TGS2026 の SEGA／ATLUS ブース内に試遊台 4 台と等身大チェーンソーのフォトエリア",
-          "試遊体験者にオリジナルキーチェーン、来場者全員にロゴステッカー",
-          "9/18 11:40 のブースステージと 9/19 9:40 のメインステージで続報を予定"
+          "2012 年の初代から 15 年ぶりとなるシリーズ正統続作。2024 年の『RePOP』を経ての完全新作",
+          "舞台は映画産業を中心に再建された大都市「Jaredwood」。主人公ジュリエットは謎の監督によって歪んだホラー映画の中に閉じ込められる",
+          "ジュリエットは新コスチュームで登場し、移動・表情・戦闘モーションが一新される",
+          "カメラの自由度を高め、戦況に応じてアングルと距離を調整できる。被弾時の表情差分など演出も増強",
+          "アイススケートを活かした移動と新しい攻撃技・ガードが追加される",
+          "TGS2026 の SEGA／ATLUS ブース内 SEGA Partners コーナーに試玩台 4 台と等身大チェーンソーのフォトエリアを設置。体験者にキーチェーン、来場者全員にロゴステッカーを配布",
+          "発表に合わせて前作『LOLLIPOP CHAINSAW RePOP』が Steam／Xbox／PlayStation の各ストアで最大 45% オフの期間限定セールを実施"
         ],
-        synopsis: "シリーズの詳細はまだ伏せられている。会場では主人公ジュリエットの新コスチュームと、チェーンソーを使ったアクションの一部が確認できる。オリジナル監督の須田刚一氏とグラスホッパー・マニファクチュアは本作に関与していない。",
-        cast: "公式発表なし",
-        ipSource: "『ロリポップチェーンソー』（2012 年）の系譜にあるシリーズ新作。IP は日本側（ドラガミゲームス）が主導し、開発協力として台湾の Nada Holdings が参画",
-        series: "ドラガミゲームスは角川ゲームスの家庭用ゲーム事業を引き継ぐ形で設立されたスタジオ。前作『ロリポップチェーンソー』は 2012 年に Grasshopper Manufacture 開発で発売された"
+        synopsis: "16 世紀のイングランドではなく、本作の舞台は映画産業を中心に再建された大都市「Jaredwood」。ゾンビハンターの家系に生まれたチアリーダー、ジュリエット・スターリングは、謎の映画監督によって歪んだホラー映画の世界に閉じ込められてしまう。新たな「Corrupted Realm」のゾンビたちと戦いながら、仲間と共に背後の陰謀を暴いていく。",
+        ipSource: "『ロリポップチェーンソー』（2012 年、Grasshopper Manufacture 開発）のシリーズ。IP は Dragami Games が 2022 年に角川ゲームスから権利を取得して保有し、企画・製作を主導する。実写映画化も同 IP を軸に進められている",
+        series: "Dragami Games は角川ゲームスの家庭用ゲーム事業を引き継ぐ形で設立されたスタジオ。前作は 2012 年発売、2024 年に復刻版『RePOP』（9/12 に 2 周年）を発売した。本作はその正統続編にあたる（著作権表記は ©DRAGAMI GAMES / ©NADA）",
+        cast: "開発総監：那須靖明／共同プロデューサー：田畑端（JP UNIVERSE）／シニアプロデューサー：結城崇史／原作・事業負責人：佐藤昌平（ドラガミゲームス）／原作シナリオ：結城昌弘／原作キャラクターデザイン：貓將軍。出演声優は公式発表なし"
       },
       news: [
-        { source: "Notebookcheck（TGS2026 世界初試遊・ステージ日程・展台特典）", url: "https://www.notebookcheck.net/Lollipop-Chainsaw-s-new-game-gets-first-playable-demo-at-Tokyo-Game-Show-2026.1398248.0.html" }
+        { source: "QooApp（TGS2026：正式タイトル・STAFF 一覧・作品概要・対応機種）", url: "https://news.qoo-app.com/post/445885/lollipop-chainsaw-back2back" },
+        { source: "Enduins（2027 年 PS5 発売・ストーリーと舞台設定・RePOP セール）", url: "https://www.enduins.com/news/lollipop-chainsaw-2-back2back-announced-for-2027" },
+        { source: "游侠网（9/19 主舞台での実写映画化発表）", url: "https://3g.ali213.net/news/html/1041199.html" },
+        { source: "報道（実写映画のプロデューサー陣とアニメ化企画との別立てについて）", url: "https://news.seasonalanime.com/live-action-lollipop-chainsaw-film-announced-737fd3" }
       ],
       videos: [
-        { label: "Notebookcheck 报道（公式ビジュアルと展台・ステージ情報）", platform: "媒体", url: "https://www.notebookcheck.net/Lollipop-Chainsaw-s-new-game-gets-first-playable-demo-at-Tokyo-Game-Show-2026.1398248.0.html" }
+        { label: "QooApp 報道（TGS2026 公開のゲーム情報 4 点・スタッフ表）", platform: "媒体", url: "https://news.qoo-app.com/post/445885/lollipop-chainsaw-back2back" },
+        { label: "報道（2027 年 PS5 発表と舞台設定 Jaredwood）", platform: "媒体", url: "https://www.enduins.com/news/lollipop-chainsaw-2-back2back-announced-for-2027" }
       ],
       hype: {
-        score: 52,
+        score: 66,
         signals: [
-          "TGS2026 で初のプレイアブル出展（試遊台 4 台）が行われ、シリーズとしては 14 年ぶりの新作になる",
-          "9/18 のブースステージと 9/19 のメインステージで「重大発表」が予告されている",
-          "オリジナル監督の須田刚一氏が関与していないことが明らかになり、ファン側の反応は割れている",
-          "正式タイトルと対応機種が未発表で、発売時期の情報もない"
+          "2012 年の初代から 15 年ぶりの正統続編で、2024 年の復刻版を通じて IP が再活性化していたところに正式タイトルと発売年が確定した",
+          "TGS2026 の主舞台（9/19 9:40-10:30）で正式タイトル・実写映画化・ゲーム情報 4 点を一度に発表し、日英中の媒體が同日に一斉報導",
+          "初代監督の須田刚一とグラスホッパー・マニファクチュアが関与していないことが明らかになり、ファン側の評価は割れている",
+          "対応機種が「PS5 等」、課金形態と発売日が未発表のため、プレイヤー側の確定情報は限られる"
         ]
       },
-      tags: ["新作発表", "シリーズ新作", "ドラガミゲームス", "TGS2026"]
+      tags: ["タイトル発表", "シリーズ新作", "ドラガミゲームス", "JP UNIVERSE", "PS5", "TGS2026", "映画化"]
     },
 
     {
@@ -5306,15 +5313,299 @@ window.OBSERVATORY = {
       },
       tags: ["新作発表", "主机", "乙女ゲーム", "Nintendo Switch", "ブロッコリー"]
     },
+    {
+      id: "toei-games-hino",
+      company: "TOEI GAMES（東映）／ UnGloomStudio",
+      companyJp: "東映株式会社 ゲーム事業ブランド「東映ゲームス」／ UnGloomStudio",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-09-17（TGS2026 東映ゲームス展台が初出展／Steam 体験版を公開）",
+      capturedAt: "2026-09-19",
+      title: { jp: "HINO", cn: "HINO", en: "HINO" },
+      genre: "2D ダークファンタジー・ホラーアドベンチャー",
+      platforms: ["PC (Steam)"],
+      release: "2026 年内（予定・発売日は未発表）",
+      releasePrecision: "年",
+      summary: "东映于 2026 年 4 月成立的自营游戏品牌「東映ゲームス」首批三款发行作品之一，改编自插画师 Yatara 以圆珠笔手绘构筑的原创世界，由日本独立工作室 UnGloomStudio 开发。故事发生在被黑暗支配的世界：少女 HINO 在废弃的幼儿园里苏醒，一根「电球杖」给了她生机；她与渴望罐装欧蕾咖啡的奇特伙伴 Moni Moni Skeleton 一起踏入怪物横行的黑暗，寻找可以安息的地方，并在旅途中逐步逼近自己与伙伴的真实身份。作品以原作美术为基础，讲述与原著不同的另一段故事。2026 年 9 月 17 日在 Steam 公开最新体验版，同日東映ゲームス 首次参展 TGS2026 并提供展场特别试玩版；发售日与价格尚未公布。",
+      highlight: "【TGS2026 9/19】東映ゲームス 首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』三作的展会特别试玩版；『HINO』已于 9/17 在 Steam 公开最新体验版。　东映是继東宝、松竹之后第三家自营游戏品牌的日本电影大厂，本作与其另两款同门作品均非既有影视／动画 IP 改编，而是与国内外创作者合作的完全新作。",
+      console: {
+        status: "開発中（2026 年内発売予定・発売日と価格は未発表）",
+        os: ["PC（Steam）"],
+        monetization: "未発表",
+        developer: "UnGloomStudio（日本・インディースタジオ）",
+        publisher: "TOEI GAMES（東映株式会社）",
+        region: "未発表",
+        distribution: "Steam（ダウンロード）",
+        stores: ["Steam"],
+        features: [
+          "絵師 Yatara のボールペン画による原作世界をそのままゲーム化する企画で、原作とは異なる「もうひとつの物語」を描く",
+          "主人公 HINO は「電球杖」の力で動き、缶入りオーレが欲しい奇妙な相棒「Moni Moni Skeleton」と共に暗黒世界を進む",
+          "小柄な少女と骸骨の相棒という組み合わせの 2D 横スクロール系アドベンチャーで、怪物との遭遇と回避が探索の中心になる",
+          "TGS2026 の東映ゲームス展台では展場特別試玩版を提供（各作の世界観を再現した展台、夹娃娃机和 TGS 限定马克杯も用意）",
+          "2026-09-17 に Steam で最新体験版を公開し、会場外のプレイヤーも一部を体験できる"
+        ],
+        synopsis: "暗黒に支配された世界。廃墟となった幼稚園で少女 HINO が目を覚ます。力なく横たわる彼女に、一本の「電球杖」が命を与えた。眼前には正体不明の怪物たち。缶入りオーレを欲しがる奇妙な相棒「Moni Moni Skeleton」。ふたりは安息の地を求めて暗闇へと踏み出す。怪物の跋扈する世界を進むうちに、HINO と相棒は自分たちの正体へと近づいていく。",
+        ipSource: "イラストレーター Yatara のオリジナル作品をゲーム化した企画。東映の既存 IP のライセンスではなく、外部クリエイターのオリジナル IP を東映ゲームスがパブリッシングする形",
+        series: "東映ゲームスは 2026-04-21 に設立された東映のゲーム事業ブランドで、本作はその第 1 弾 3 タイトルのひとつ（著作権表記は ©2026 Yatara / UnGloomStudio / 東映）",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "東映ゲームス公式ニュース（TGS2026 初出展・3 タイトルの試玩版公開）", url: "https://games.toei.co.jp/en/news/209/" },
+        { source: "東映ゲームス公式作品ページ『HINO』（対応機種・開発スタジオ）", url: "https://games.toei.co.jp/en/games/hino/" },
+        { source: "INDIE-GUIDER（東映ゲームス初の TGS 出展・3 作の解説と体験版公開日程）", url: "https://indie-guider.games/post/toei-games-tgs-2026-first-exhibit-three-indie-games" }
+      ],
+      videos: [
+        { label: "東映ゲームス公式『HINO』作品ページ（キービジュアル・スクリーンショット）", platform: "官方站", url: "https://games.toei.co.jp/en/games/hino/" },
+        { label: "報道（展台阵容・9/17 の Steam 体験版公開）", platform: "媒体", url: "https://indie-guider.games/post/toei-games-tgs-2026-first-exhibit-three-indie-games" }
+      ],
+      hype: {
+        score: 46,
+        signals: [
+          "映画・テレビ・特撮で 75 年の実績を持つ東映が自社ゲームブランドを立ち上げ、その第 1 弾として発表されたことで業界内の注目度が高い",
+          "TGS2026 の初出展で展場特別試玩版を提供し、会場外にも 9/17 から Steam 体験版を公開する二段構えの告知",
+          "RPG Site 系・英語圏の展台報導と中国語圏の複数媒体で取り上げられ、地理的なカバレッジは広い",
+          "事前登録・ウィッシュリスト数などの公開数値はまだ存在しない"
+        ]
+      },
+      tags: ["新作発表", "PC", "インディー", "東映ゲームス", "TGS2026"]
+    },
+    {
+      id: "toei-games-killa",
+      company: "TOEI GAMES（東映）／ Black Tangerine",
+      companyJp: "東映株式会社 ゲーム事業ブランド「東映ゲームス」／ Black Tangerine",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-09-17（TGS2026 初出展／体験版は会場限定で提供）",
+      capturedAt: "2026-09-19",
+      title: { jp: "KILLA", cn: "KILLA", en: "KILLA" },
+      genre: "3D ミステリーアドベンチャー（マルチエンディング）",
+      platforms: ["PC (Steam)"],
+      release: "2026 年内（予定・発売日は未発表）",
+      releasePrecision: "年",
+      caution: "開発は韓国の独立スタジオ Black Tangerine、パブリッシングは東映の自社ゲームブランド「東映ゲームス」が担当する。発行の主導は日本側にあるが、開発資本は日本国外である点を明記しておく",
+      summary: "东映自营游戏品牌「東映ゲームス」首批三款发行作品之一，由 Black Tangerine 开发、東映ゲームス 发行的多结局 3D 推理冒险游戏。主角 Valhalla 因战火失去孤儿院而在荒野中漂泊，把她视作家人、给了她「生命」之光的师父惨遭杀害，留下的遗言只有一句「杀死 LA」。她循着线索被引到一座据说会举办「实现愿望的茶会」的神秘岛屿，岛上有九名名字里都带「LA」的嫌疑人。玩家用「共鳴」能力潜入嫌疑人的记忆、拼接梦境碎片逼近真相，过程中建立的信赖与做出的选择会导向不同结局。2026 年 9 月 17 日起随東映ゲームス 首次参展 TGS2026，提供会场限定的体验版；发售日与价格未公布。",
+      highlight: "【TGS2026 9/19】東映ゲームス 展台提供本作的「TOKYO GAME SHOW 特别试玩版」，且该版本只在会场公开（不像同门『HINO』『DEBUG NEPHEMEE』那样同时上 Steam）。　本作 2023 年即已公开并出过体验版、2026-04 确定由東映ゲームス 发行，属窗口外的老企划，本轮按「未发售老企划有窗口内重要进展即可收」的口径收录。",
+      console: {
+        status: "開発中（2026 年内発売予定・発売日と価格は未発表）",
+        os: ["PC（Steam）"],
+        monetization: "買い切り（公式サイトには 1 人用・買い切り型として掲載）",
+        developer: "Black Tangerine（韓国の独立スタジオ）",
+        publisher: "TOEI GAMES（東映株式会社）",
+        region: "未発表",
+        distribution: "Steam（ダウンロード）",
+        stores: ["Steam"],
+        features: [
+          "9 人の「LA」と呼ばれる容疑者から 1 人の殺害者を探し出す、マルチエンディング型の 3D 推理アドベンチャー",
+          "主人公ヴァルハラの特殊能力「共鳴」で容疑者の記憶に入り、夢の断片を組み合わせて真相に迫る",
+          "「誰も信じるな」が公式のキーワードで、証言と行動を突き合わせて矛盾を探す読み合いが中心になる",
+          "人形劇のような可愛さと陰惨さが同居するビジュアルで、童話的な世界観と殺人・復讐の物語を重ねる",
+          "日本語・英語・韓国語・中国語（簡体字／繁体字）に対応。TGS2026 の展場体験版は会場限定"
+        ],
+        synopsis: "戦火で孤児院を失い、荒野をひとりさまよう少女ヴァルハラ。彼女に「生」の光を与えてくれた、家族以上に大切な師匠が惨殺される。師匠が遺した最後の言葉は「LAを殺せ」。その導きでヴァルハラは、願いが叶う「お茶会」が開かれるという謎の島へとたどり着く。島に集まっていたのは、名前に「LA」を持つ 9 人の容疑者たち。容疑者の記憶に潜り、夢の断片を縫い合わせて、真実へと近づいていく。",
+        ipSource: "Black Tangerine のオリジナル企画。東映の既存 IP のライセンスではなく、外部スタジオのオリジナル IP を東映ゲームスがパブリッシングする形",
+        series: "東映ゲームス設立（2026-04-21）後、最初に発売元が公表された 3 タイトルのひとつ。2023-06-15 に初公開され、同年 9 月から体験版を配信。2026-05 の BitSummit PUNCH!! にも出展した（著作権表記は ©2026 Black Tangerine / Toei）",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "東映ゲームス公式作品ページ『KILLA』（対応機種・ジャンル・対応言語・著作権）", url: "https://games.toei.co.jp/en/games/killa/" },
+        { source: "東映ゲームス公式ニュース（TGS2026 初出展・3 タイトルの試玩版公開）", url: "https://games.toei.co.jp/en/news/209/" },
+        { source: "中国語圏報導（開発＝Black Tangerine、TGS 体験版は会場限定・繁体字対応）", url: "https://sounova.com/game/killa-mystery-adventure-game-demo" }
+      ],
+      videos: [
+        { label: "東映ゲームス公式『KILLA』作品ページ（キービジュアル・スクリーンショット）", platform: "官方站", url: "https://games.toei.co.jp/en/games/killa/" },
+        { label: "報導（「共鳴」システムと体験版の内容）", platform: "媒体", url: "https://sounova.com/game/killa-mystery-adventure-game-demo" }
+      ],
+      hype: {
+        score: 48,
+        signals: [
+          "東映ゲームス第 1 弾 3 タイトルのうち、正式な発売元公表が最も早かった作品（2026-04-24）",
+          "2023 年から体験版を継続配信し、TGS2025（インディーコーナー 10-E17）と BitSummit PUNCH!! 2026 に出展してきた積み上げがある",
+          "Steam のウィッシュリストと TGS 展場の列は確認できるが、本作固有の公開数値（DL 数・登録数）は発表されていない",
+          "開発が韓国スタジオであることが中国語圏で報じられ、日本国内のファン側の反応は割れている"
+        ]
+      },
+      tags: ["新作発表", "PC", "インディー", "東映ゲームス", "TGS2026"]
+    },
+    {
+      id: "toei-games-debug-nephemee",
+      company: "TOEI GAMES（東映）／ Nephemee Studio",
+      companyJp: "東映株式会社 ゲーム事業ブランド「東映ゲームス」／ Nephemee Studio",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-09-10（Steam 体験版を公開／TGS2026 初出展へ）",
+      capturedAt: "2026-09-19",
+      title: { jp: "DEBUG NEPHEMEE", cn: "DEBUG 涅菲米", en: "DEBUG NEPHEMEE" },
+      genre: "2D ピクセルアート・アドベンチャー（マルチタスク戦闘）",
+      platforms: ["PC (Steam)"],
+      release: "未発表（発売日・価格とも未公表）",
+      releasePrecision: "未定",
+      summary: "东映自营游戏品牌「東映ゲームス」首批三款发行作品之一，由日本独立团队 Nephemee Studio 开发的像素风 2D 冒险游戏。世界被名为「Bug」的异常现象侵蚀、走向崩坏，居住其中的生物「涅菲米（Nephemee）」因之受困。作品的核心是一套「同时操作四个画面」的多任务型战斗系统：玩家要先理解对手的价值观与想法——它们会直接反映在攻击模式上——再通过躲避、防御乃至反过来「植入 Bug」的小游戏应对，随后进入 debugging 阶段，触碰角色遗失的记忆与珍贵的伙伴关系，故事走向也会随理解加深而改变。2026 年 9 月 10 日在 Steam 等平台公开最新体验版，9 月 17 日起随東映ゲームス 首次参展 TGS2026；发售日与价格均未公布。",
+      highlight: "【TGS2026 9/19】東映ゲームス 展台提供本作的「TOKYO GAME SHOW 特别试玩版」；Steam 等平台的体验版已于 9/10 先行公开，是三款同门作品中最早放出试玩的一作。　三款中唯一把「多任务操作」写进战斗本体的作品，也是 Nephemee Studio（日本独立团队）的首个大型发行企划。",
+      console: {
+        status: "開発中（発売日・価格は未発表）",
+        os: ["PC（Steam）"],
+        monetization: "未発表",
+        developer: "Nephemee Studio（日本のインディースタジオ）",
+        publisher: "TOEI GAMES（東映株式会社）",
+        region: "未発表",
+        distribution: "Steam（ダウンロード）",
+        stores: ["Steam"],
+        features: [
+          "「Bug」に蝕まれて崩壊しつつある世界を舞台に、そこに住む生物ネフェミーと共に「デバッグ」の旅に出る物語",
+          "4 つの画面を同時に操作するマルチタスク型の戦闘システムが最大の特徴",
+          "敵の価値観や考え方がそのまま攻撃パターンに反映され、まず相手を理解することが攻略の前提になる",
+          "回避・防御のほか、相手に逆に「Bug」を仕込む小ゲームが用意されている",
+          "戦闘後はデバッグパートに移り、キャラクターの記憶と大切な仲間との関係に触れていく",
+          "2026-09-10 に Steam 等で最新体験版を公開（対応機種は PC／Steam、日本語以外の対応は未発表）"
+        ],
+        synopsis: "この世界は「バグ」と呼ばれる異常現象によって蝕まれ、壊れかけている。ここに住むのはネフェミーと呼ばれる生き物たち。生まれ持った使命、失われた記憶、大切な友だち——彼らはそのすべてを抱えたまま、自らの存在に苦しんでいる。プレイヤーは 4 つの画面を同時に操る戦闘システムを使い、相手を深く知ることで道を切り開き、世界とネフェミーを「デバッグ」する旅に出る。",
+        ipSource: "Nephemee Studio のオリジナル企画。東映の既存 IP のライセンスではなく、外部スタジオのオリジナル IP を東映ゲームスがパブリッシングする形",
+        series: "東映ゲームス設立（2026-04-21）発表時の 3 タイトルのひとつ（著作権表記は ©2026 Nephemee Studio / 東映）",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "東映ゲームス公式作品ページ『DEBUG NEPHEMEE』（対応機種・ゲーム内容）", url: "https://games.toei.co.jp/en/games/debug_nephemee/" },
+        { source: "東映ゲームス公式ニュース（TGS2026 初出展・3 タイトルの試玩版公開）", url: "https://games.toei.co.jp/en/news/209/" },
+        { source: "Yomimono（發表時の陣容・開発スタジオ・キャスト表記）", url: "https://www.yomimono.id/tag/toei" }
+      ],
+      videos: [
+        { label: "東映ゲームス公式『DEBUG NEPHEMEE』作品ページ（ビジュアル・スクリーンショット）", platform: "官方站", url: "https://games.toei.co.jp/en/games/debug_nephemee/" },
+        { label: "報導（3 タイトルの体験版公開日程：9/10 本作・9/17 HINO・KILLA は会場限定）", platform: "媒体", url: "https://www.gameforceasia.com/news/toei-games-makes-its-first-tokyo-game-show-appearance" }
+      ],
+      hype: {
+        score: 45,
+        signals: [
+          "東映ゲームス第 1 弾 3 タイトルのひとつで、最も早く（9/10）体験版を一般公開した",
+          "「4 画面同時操作」という説明しやすい独自システムを持ち、展台報導で必ず触れられる",
+          "発売日・価格が未発表のため、日英中のいずれでも数値シグナルは存在しない"
+        ]
+      },
+      tags: ["新作発表", "PC", "インディー", "東映ゲームス", "TGS2026"]
+    },
+    {
+      id: "haishin-shoujo-no-uraaka-meikyuu",
+      company: "G-MODE（発売）／ Acacia（原作・制作）",
+      companyJp: "株式会社ジー・モード ／ Acacia",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-03（G-MODE が TGS2026 での初の試遊出展を発表／9-19 より一般試遊）",
+      capturedAt: "2026-09-19",
+      title: { jp: "配信少女ノ裏垢迷宮", cn: "主播少女的秘密账号迷宫", en: "The Streamer's Alt Account Labyrinth" },
+      genre: "裏アカ迷宮ノベルRPG（ダンジョン探索＋アドベンチャー）",
+      platforms: ["PC (Steam)", "Nintendo Switch"],
+      release: "2026 年内（予定・発売日と価格は未発表）",
+      releasePrecision: "年",
+      caution: "中國語のタイトル（主播少女的秘密账号迷宫）は報道による暫譯で、公式の中国語題名ではない。担当声優は日本語媒體と韓國語圈の集約サイトで表記が割れているため、確定分のみ記載していない",
+      summary: "Acacia（『魔法少女的魔女审判』原作团队）与 G-MODE 合作推出的「裏帳号迷宮」小说 RPG，对应 PC（Steam）与 Nintendo Switch，预计 2026 年内发售，预定支持日文、简体中文与英文。故事围绕女子乐队「Rag Drops」展开：主唱灯野霓虹死亡的消息传出后，一个名为「毒苹果」的神秘账号公开指控乐队，少女们随即被拉进由社交网络黑暗与恶意构成的异世界「裏U」。玩法分两部分——在迷宫探索部分对抗盘踞其中的恶意怪物、深入「裏帳号迷宮」寻找迷宫主人；在文字冒险部分则通过对白与事件揭开成员不为人知的一面，并判断这座迷宫究竟属于谁。G-MODE 于 9 月 3 日宣布本作在 TGS2026 首次提供试玩，9 月 19 日公众日首日起在独立游戏区 09-E03 开放约 10 分钟的展会特别版（全语音＋首次公开的特别 MV）。",
+      highlight: "【TGS2026 9/19】G-MODE 展台（インディーゲームコーナー 09-E03）自公众日首日起开放约 10 分钟的展会特别体验版，取自游戏开头、全语音，并首次公开一支特别 MV；体验版为开发版、仅日文，游玩影片预定展后公开。　本作 2025 年 11 月即已公开、属窗口外的老企划，本轮按「未发售老企划有窗口内新情报即可收」的口径收录；G-MODE 同期在展台还出展了另一款尚未公布的作品。",
+      console: {
+        status: "開発中（2026 年内発売予定・発売日と価格は未発表）",
+        os: ["PC（Steam）", "Nintendo Switch"],
+        monetization: "未発表",
+        developer: "Acacia（原作・制作）",
+        publisher: "G-MODE（株式会社ジー・モード）",
+        region: "日本（対応言語は日本語・簡体字中国語・英語を予定）",
+        distribution: "Steam／Nintendo eShop（ダウンロード）",
+        stores: ["Steam", "Nintendo eShop"],
+        features: [
+          "『魔法少女の魔女裁判』を手がけた Acacia の新作で、キャラクターデザインは同作に参加した 梅まろ が担当",
+          "女子バンドと SNS の闇を題材にした、ダンジョン探索＋アドベンチャーの 2 部構成",
+          "迷宮内には現実の SNS で見かけるような辛辣な書き込みが次々と現れ、「ネットの悪意」そのものがゲーム内の敵として描かれる",
+          "「この迷宮は誰のものか」を読み解く推理要素があり、答えにたどり着くと少女の本性が公開処刑される",
+          "音楽も攻略に関わる要素として組み込まれ、劇中バンドの楽曲がゲーム内に収録される",
+          "TGS2026 の体験版は本編冒頭を展会用に再編集した約 10 分のノベルパートで、全音声＋未公開 MV を含む"
+        ],
+        synopsis: "SNS で多くの支持を集めるガールズバンド「Rag Drops」。そのボーカル、灯野ネオンは強気な性格と独特のスタイルで注目されていた。しかし突然ネオンの死が伝わり、ネット上が騒然とするなか、『毒りんご』と名乗る裏アカウントがバンドを公然と告発する。「ネオンが死んだのは、おまえたちのせいだ」と。告発を受けてメンバー同士が疑心暗鬼に陥るなか、少女たちのスマートフォンが異常な光を放ち、SNS の闇と悪意が形になった異世界「裏U」へと引きずり込まれる。生きて戻るには、奥に待つ「裏アカの主」までたどり着かねばならない。",
+        ipSource: "Acacia のオリジナル企画（自社発の新規 IP）。外部 IP のライセンスではなく、G-MODE がパブリッシングを担当する",
+        series: "Acacia は『魔法少女の魔女裁判』で知られる原作・制作チーム。本作はその流れを汲む新作で、2025 年 11 月 9 日に初の PV が公開され、同月 29 日の Indie Live Expo でも新 PV が出た",
+        cast: "公式サイトにキャスト一覧の掲載はなく、報道間でも表記が分かれているため確定情報なし"
+      },
+      news: [
+        { source: "公式サイト『配信少女ノ裏垢迷宮』（発売時期・価格・ジャンル・対応機種）", url: "https://hanoura-maze.com/" },
+        { source: "Yomimono（G-MODE 9/3 発表・TGS 体験版内容・出演者・ブース番号 09-E03）", url: "http://yomimono.id/acacia-s-haishin-shoujo-no-uraaka-meikyuu-gets-first-tgs2026-demo" },
+        { source: "Soplayit（TGS 体験版の仕様と対応言語）", url: "https://soplayit.com/en/news/haisenshoujo-no-uraaka-meikyuu-demo-arrives-at-tgs-2026" }
+      ],
+      videos: [
+        { label: "公式サイト『配信少女ノ裏垢迷宮』（メインビジュアル・システム紹介）", platform: "官方站", url: "https://hanoura-maze.com/" },
+        { label: "報導（体験版の内容と未公開 MV の初公開について）", platform: "媒体", url: "https://soplayit.com/en/news/haisenshoujo-no-uraaka-meikyuu-demo-arrives-at-tgs-2026" }
+      ],
+      hype: {
+        score: 54,
+        signals: [
+          "『魔法少女の魔女裁判』で固定ファンを持つ Acacia の新作で、SNS の闇を題材にした設定が日・中・韓の媒體で同時に報じられた",
+          "TGS2026 のブース体験版に未公開 MV を同梱し、G-MODE が自社の看板出展として扱っている",
+          "2026-05-01 に渋谷 Spotify O-nest で声優 6 名によるリアルライブ『Rag Drops LIVE -PROOF OF LIFE-』を開催し、終了後にボーカル死亡の設定を発表する段階的なプロモーションを実施",
+          "発売日・価格・事前登録はいずれも未発表で、ウィッシュリスト数などの数値も公表されていない"
+        ]
+      },
+      tags: ["新作発表", "主机", "PC", "Nintendo Switch", "アドベンチャー", "G-MODE", "TGS2026"]
+    },
+    {
+      id: "haruka-ryugu-no-miko",
+      company: "コーエーテクモゲームス（Ruby Party）",
+      companyJp: "株式会社コーエーテクモゲームス（ルビーパーティー）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-09（TGS2026 出展／9-20 主舞台ステージを予定）",
+      capturedAt: "2026-09-19",
+      title: { jp: "遙かなる時空の中で 龍宮の神子", cn: "遥远时空 龙宫的神子", en: "Harukanaru Toki no Naka de: Ryugu no Miko" },
+      genre: "女性向け恋愛アドベンチャー（スマホ運営型・基本無料＋召喚課金）",
+      platforms: ["iOS", "Android"],
+      release: "2025-11-28（日本国内でサービス開始済み）",
+      releasePrecision: "已发售",
+      summary: "光荣特库摩旗下女性向品牌 Ruby Party 的「遥远时空（ネオロマンス）」系列完全新作手机游戏，2025 年 11 月 28 日在日本 App Store／Google Play 上线，是系列首款智能手机原生的完全新作，运营形态为基本免费＋召唤（抽卡）。舞台是幻想的水之都「龙宫」：被龙神选为「神子」的玩家与历代英雄「八叶」共同生活于此，并穿越到他们所生活的时代，为拯救濒临崩坏的时空而战，同时体验「水都的平稳日常恋爱」与「由历史界编织的壮阔恋爱」两条线。2026 年 9 月 1 日实装新八叶「武田信玄」（CV：下鶴直幸）。同月出展 TGS2026，展台以闪光灯下「八叶环绕神子」的写真点取代试玩机，9 月 20 日在幕张主舞台举办特别舞台并有线上直播。",
+      highlight: "【TGS2026 9/19】コーエーテクモゲームス 展台本届不设试玩机与机器展示，改为「闪光灯亮起时八叶环绕神子」的写真点；关注官方 Instagram 或带 hashtag 在 X 发帖各可换 1 种贴纸。9/20 14:30-15:15 于主舞台举办「りゅうみこ出張かわらばん TGS2026 特別号」（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外亦同步直播。　本作 2025-11-28 已在日服上线、运营近 10 个月，2026-09-01 实装新八叶「武田信玄」；按「已开服手游在窗口内有重要进展即可收」的口径收入本站，是「女性向」这条长期空白线上少见的在营手游。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アプリ内課金＝召喚・育成アイテム課金あり）",
+        preReg: { open: false, since: "", reward: "事前登録はサービス開始前（2025-11）に終了。登録目標を達成したため、開始時に「縁結び召喚札」や育成素材などの開始記念報酬が配布された" },
+        developer: "株式会社コーエーテクモゲームス（ルビーパーティー）",
+        publisher: "株式会社コーエーテクモゲームス",
+        region: "日本（日本国内のみ。海外版は未配信）",
+        distribution: "App Store / Google Play（日本国内）",
+        payment: [],
+        ipSource: "コーエーテクモが 2000 年から展開する女性向けブランド「ネオロマンス」の『遙かなる時空の中で』シリーズ（自社 IP）。外部 IP のライセンスではなく、IP ホルダー自身が開発・配信する。2025 年にシリーズ 25 周年",
+        series: "家庭用では『遙かなる時空の中で6』（2015）『同7』（2020・Switch）など、モバイルでは『遙かなる時空の中で Ultimate』（2019）に続く。本作は「完全新作」として企画されたシリーズ初のスマホネイティブ作品",
+        features: [
+          "シリーズ初のスマートフォン向け完全新作。幻想の水の都「龍宮」を拠点に歴史上の英雄「八葉」たちと暮らし、「水都での穏やかな日常恋愛」と「歴史界で紡ぐ壮大な恋愛」の 2 軸で物語が進む恋愛アドベンチャー",
+          "時間経過で育成アイテムが貯まる仕組みや、八葉が依頼・装備製作を代行する「離れていても彼を感じられる」設計",
+          "「一緒に寝る」機能があり、寝息や寝言に触れられる演出が用意されている",
+          "2026-09-01 のメンテナンス後より新八葉「武田信玄」を実装（燎炎の世界の「天の白虎」、キャラクターデザインは 岩本ゼロゴ）",
+          "2026 年 9 月に TGS2026 へ出展。展台は試玩台を置かず、フラッシュで八葉が現れる写真スポットとステージで展開"
+        ],
+        synopsis: "プレイヤーは龍神に選ばれた「神子」として、幻想の水の都「龍宮」へ招かれる。そこには各時代の英雄「八葉」が暮らしており、彼らと共に水都での穏やかな日常を過ごしながら、彼らが生きた時代へと渡り、崩壊しかけた時空を救うために戦う。水都での恋と、歴史界で織りなされる壮大な恋という 2 つの関係を同時に描く構成になっている。",
+        cast: "武田信玄：下鶴直幸（2026-09-01 実装）／TGS2026 主舞台ステージ（9/20）登壇：三浦勝之（源頼朝 役）・戸谷菊之介（平清盛 役）・鈴木裕斗（桂小五郎 役）"
+      },
+      news: [
+        { source: "Yomimono（4Gamer 発の報道：TGS2026 展台の写真点・ステッカー配布条件・9/20 ステージ日程）", url: "https://www.yomimono.id/koei-tecmo-brings-ryugu-no-miko-photo-spot-to-tokyo-game-show-2026" },
+        { source: "公式キャラクター紹介ページ（武田信玄／CV 下鶴直幸・キャラクターデザイン 岩本ゼロゴ）", url: "https://www.gamecity.ne.jp/haruka-ryugu/characters/chara08_takedashingen.html" },
+        { source: "Paradaily（TGS2026 舞台日程まとめ：9/20「りゅうみこ出張かわらばん 特別号」登壇声優）", url: "https://news.para-daily.com/?p=196360" }
+      ],
+      videos: [
+        { label: "報道（TGS2026 展台の写真点と 9/20 主舞台ステージの内容）", platform: "媒体", url: "https://www.yomimono.id/koei-tecmo-brings-ryugu-no-miko-photo-spot-to-tokyo-game-show-2026" },
+        { label: "報道（TGS2026 舞台日程・登壇者一覧）", platform: "媒体", url: "https://news.para-daily.com/?p=196360" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "ネオロマンス 25 周年の年に投入された『遙かなる時空の中で』の完全新作で、シリーズ固定ファンの支持が厚い",
+          "App Store の日本国内レビューは 5,526 件・平均 4.3（2026-08-26 時点の掲載情報）",
+          "シリーズの原点である 2000 年の初代から数えて 25 年目にあたり、0.5 周年記念グッズや コーエーテクモ公式ストアでの物販など多面展開を実施",
+          "TGS2026 は試玩台を設けず写真点とステージのみで出展するなど、体験型より感情訴求型のプロモーションに寄せている"
+        ]
+      },
+      tags: ["新作発表", "スマホ", "女性向け", "コーエーテクモ", "サービス中", "TGS2026"]
+    },
   ],
 
   /* ---------------------------------------------------------
-   * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 6 社补充）
+   * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 29 社补充）
    *    status: covered 已建作品卡 / partial 部分覆盖 / watch 待观察
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-18",
+    asOf: "2026-09-19",
     listTotal: 50,
     categories: [
       {
@@ -5329,7 +5620,7 @@ window.OBSERVATORY = {
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct で『ロックマン デュアルオーバーライド』の 2027 年春発売が確定、9/1 には『ドラゴンズドグマ 2 ダークアリズン』の遺物遠征サイクルを公開した" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap"] },
-          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』" }
+          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した" },
         ]
       },
       {
@@ -5427,6 +5718,8 @@ window.OBSERVATORY = {
         { name: "株式会社サンリオ（Sanrio Games）", short: "Sanrio Games", status: "covered", gameIds: ["hello-kitty-party-land", "sanrio-kawaii-me-live", "fragaria-memories-color-of-wishes"], focus: true, note: "国内最大级キャラクター IP ホルダーが 2026 年に立ち上げた自社ゲームブランド。外部ライセンスではなく自社で企画・開発を主導し、3 年で 10 タイトルを計画。家庭用『Hello Kitty パーティランド』とスマホ『Sanrio Kawaii Me Live!』『FRAGARIAMEMORIES Color of Wishes』の 3 作で TGS2026 に初出展した" },
         { name: "株式会社ドラガミゲームス", short: "Dragami Games", status: "covered", gameIds: ["lollipop-chainsaw-new-project"], note: "角川ゲームスの家庭用ゲーム事業を引き継ぐスタジオ。『ロリポップチェーンソー』新作を TGS2026 の SEGA／ATLUS ブース内で初のプレイアブル出展（正式タイトル・対応機種は未発表）" },
         { name: "株式会社フロムトーキョー", short: "FROMTOKYO", status: "covered", gameIds: ["bang-dream-our-notes"], focus: true, note: "前 Craft Egg 代表取締役・森川修一が中心となり 2024-02-01 に設立した開発会社。旧 Craft Egg の主要メンバーが在籍し、2024-11-01 にブシロードと資本業務提携を締結。『BanG Dream! ガールズバンドパーティ!』の開発運営を継続しつつ、シリーズ第 2 のリズムゲーム『BanG Dream! Our Notes』を開発。資本は日本側（ブシロードが資本業務提携先）で、大陸資本の関与はない" },
+        { name: "東映株式会社 ゲーム事業ブランド「東映ゲームス」", short: "TOEI Games", status: "covered", gameIds: ["toei-games-hino", "toei-games-killa", "toei-games-debug-nephemee"], focus: true, note: "映画・テレビ・特撮・アニメを扱ってきた東映が 2026-04-21 に立ち上げた自社ゲームブランド。既存の影视・アニメ IP のゲーム化ではなく、国内外のクリエイター／スタジオと組んだ完全新規オリジナル企画のパブリッシングを柱に据える。TGS2026 に初出展し『HINO』『KILLA』『DEBUG NEPHEMEE』3 作の展場特別試玩版を提供した。これで東宝（TOHO Games）・松竹ゲームズ と合わせ、映画大手 3 社の自営ゲームブランドが揃った" },
+        { name: "株式会社ジー・モード", short: "G-MODE", status: "covered", gameIds: ["haishin-shoujo-no-uraaka-meikyuu"], note: "『クリミナルガールズ』ではなく『ククリよみ』系のノベルや、DATA EAST ライセンス事業・フィーチャーフォン復刻企画『G-MODEアーカイブス』を手がける老舗パブリッシャー。Acacia 原作の『配信少女ノ裏垢迷宮』（PC／Switch、2026 年内）を発売し、TGS2026 のインディーゲームコーナー（09-E03）で初の試遊出展を行った" },
       ]
     }
   },
@@ -5462,7 +5755,7 @@ window.OBSERVATORY = {
     dates: "2026-09-17 ~ 2026-09-21",
     venue: "幕張メッセ（千葉）",
     theme: "長い5日間、遊びつくせ。／ Longest Five Days of Nonstop Play",
-    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）开场：サンリオゲームス 展台的 9/19 舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，首次公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台继续以 7 タイトル 出展（含 OVER RUSH 的オープンβ）。日本ゲーム大賞 2026 フューチャー部門的网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。",
+    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）ーー当日的主要结果：① 东映的自营游戏品牌「東映ゲームス」（2026-04 设立）首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，并设夹娃娃机与 TGS2026 限定马克杯，品牌代表另参与同日 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」；② 9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，并公开 Juliet 新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报；③ サンリオゲームス 展台的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；④ 日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的公众网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。其他已公布日程：Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台以 7 タイトル 出展（含 OVER RUSH 的オープンβ，9/24 截止）；Koei Tecmo 的『遙かなる時空の中で 龍宮の神子』特别舞台定于 9/20 14:30-15:15（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外同步直播。",
     booths: [
       { company: "Square Enix", hall: "—", items: "以《FINAL FANTASY VII REVELATION》为绝对核心：三部曲终章的全球首个一般试玩（飞空艇世界地图探索＋Trinity 三人连携战斗），展台设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点。《FINAL FANTASY RESONANCE》同样可试玩，并追加确认《Romancing SaGa 3: Destinies United》提供试玩。预告片轮播含 FFXIV: Evercold／DQ モンスターズ 朽ちた世界／DQ XI S／KH Collection I~III／KH IV／DQ X オンライン／DISSIDIA DUELLUM FF／DQ スマッシュグロウ／DQ ヒーローズ トルネコ Classic HD。Family Game Park 提供《DQ VII Reimagined》试玩；公众日 モーグリ 与チョコボ「アルファ」不定期登场，《モンスターズ 朽ちた世界》举办「フラッフィー」合影会并发放周边　开幕日确认《キングダム ハーツ IV》与《KH Collection I~III》双双推出 Nintendo Switch 2 原生版并公开最新发售窗口；《キングダム ハーツ IV》在展台维持仅展示、不可试玩。" },
       { company: "カプコン", hall: "7 号馆（试玩）／9-11 号馆（周边）", items: "史上最大规模出展。可试玩：《モンスターハンターワイルズ 拡張「Ascendance」》（Switch 2 版同步开放试玩，为全场最长队列之一）、《ドラゴンズドグマ 2 ダークアリズン》（日本首次可试玩，10/09）、《ロックマン デュアルオーバーライド》（日本首次可试玩）、《ストリートファイター6》（新角色「アルジュン」先行试玩）；另有《プラグマタ》《鬼武者 Way of the Sword》。9-11 号馆设「e-Capcom 2026 出张所」与扭蛋区「CAPSULE LAB」　Xbox 的 TGS2026 放送进一步确认《モンスターハンターワイルズ》扩展「Ascendance」的推出窗口为 2027 年，公开新区域「Skybound Eyrie」、炎王龙 Teostra 回归，以及面向全部 14 种武器的「Boost Bracer／Boost Driver」。" },
@@ -5488,6 +5781,7 @@ window.OBSERVATORY = {
       { company: "4Gamer.net", hall: "5 号馆 05-C04", items: "三场谈话：9/17 13:45 吉田修平×岡田和久（4Gamer 总编）「日本インディはなぜ毎年ヒットを生むのか」；9/17 15:45「最新インディーゲーム動向 2026」（浦部知治／MIXI Global Investments・村上雅彦／Skeleton Crew Studio）；9/18 12:00「日本のエンタメ戦略の裏側」（和田範明／経済産業省・井上清剛／Asobism）。均于 4GamerSP YouTube 配信" },
       { company: "ファミ通 × 電撃ゲームス（KADOKAWA Game Linkage）", hall: "FamitsuTUBE（YouTube）", items: "声优 青木瑠璃子 主持的特别直播。DAY01（9/19 18:00 起）：Capcom（《モンスターハンターワイルズ Ascendance》《ロックマン デュアルオーバーライド》）→ Imagineer → AMD，21:30 INTI CREATES。DAY02（9/20 18:00 起）：ATLUS《Persona 4 Revival》→ ebten → AREA35《TINY METAL 2》→ SEGA《STRANGER THAN HEAVEN》→ AGM，20:30 预告「ファミ通 40 周年祭」" },
       { company: "Netmarble", hall: "—", items: "《Shangri-La Frontier: The Seven Colossi》首次公开试玩（单手操作＋角色切换连击，9/20 谈活由 内田雄馬・日高里菜・寺崎香 现场试玩）、《Solo Leveling: KARMA》（9/18 起 cosplay show＋主播对战，9/20 计时赛）、《Pearl in Blue》首个试玩 build 与世界观体验展位；展位规模由 56 扩至 63" },
+      { company: "東映ゲームス（TOEI GAMES）", hall: "—", items: "東映が 2026-04-21 に設立した自社ゲームブランドとして TGS に初出展。展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』三作的「TOKYO GAME SHOW 特别试玩版」；现场另设東映ゲームス 特制夹娃娃机，中奖者可获 TGS2026 限定原创马克杯（每日数量限定、发完即止）。除现场工作人员外，各作负责人也尽量到场与玩家交流。品牌代表另参与 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」。三作均为 PC（Steam）发行、不改编既有影视／动画 IP，而是与国内外创作者及工作室合作的全新原创企划" },
       { company: "サンリオゲームス（Sanrio Games）", hall: "一般展区／家庭游戏区（Family Game Park）", items: "自社ゲームブランド「Sanrio Games」として TGS に初出展。一般展区与家庭游戏区（Family Game Park）双区出展，展出《Hello Kitty パーティランド》（2026-10-29 发售，发售前试玩可体验换装与贴纸册等正式版内容）、《Sanrio Kawaii Me Live!》（2027 年スマホ向け舞蹈节奏＋换装游戏，可试玩）、《FRAGARIAMEMORIES Color of Wishes》（骑士道企划的首款手游，展台以整面墙首次公开骑士与 Lord 的游戏用插画，9/19 舞台由梶原岳人・武内駿輔公开最新情报）。试玩者赠 Hello Kitty／シナモロール／ポムポムプリン 的 TGS2026 限定设计遮阳帽。另：Sanrio 角色被 CESA 指定为本届 Family Game Park 官方大使。" }
     ]
   },
@@ -5496,15 +5790,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 进入公众日：手游侧本场无新增，主机・PC 侧补收《KEMURI》（UNSEEN／中村育美）与乙女向《Le Mirage Mystique》2 条漏收；《UN:Me》确认延期至 2027 年并公布主演花守ゆみり。条目总数 98 → 100",
+    headline: "TGS2026 公众日首日：补收東映ゲームズ 3 款（東映首次以自营品牌出展）与 G-MODE『配信少女ノ裏垢迷宮』，手游侧补收在营作品《遙かなる時空の中で 龍宮の神子》；《ロリポップチェーンソー2 Back2Back》正式定名（PS5／2027）并宣布实拍电影化。条目总数 100 → 105",
     points: [
-      "**手游侧本场无新增条目，TGS2026 第 2 日（9/18）的移动端情报集中在既有作品**：バンダイナムコ 在综合展台同时提供《BLEACH Mirrors High》与《ONE PIECE 海のごちそうレストラン》的 iOS／Android 版试玩，后者还公开了「バラティエ 2 号店」的玩法影像与架空求人影像；NHN PlayArt 时隔 8 年重返 TGS，展台由 4 款运营中作品＋3 款未上线作品组成，《OVER RUSH》的公开 β 测试已于 9/17 开跑；LEVEL-5 则把《イナズマイレブン クロス》与自社大型主机作并列宣传。手游区维持 28 条。",
-      "**本场未检出新的日方主导手游新作，TGS2026 的移动端新作仍由韩资四社占据**：Netmarble《Solo Leveling: KARMA》（事前登录 9/16 在日韩开放）与《シャングリ・ラ フロンティア 七大最強種》、Nexon《Mabinogi Mobile》（日本 10/07 上线、事前登录 20 万）与《Pareidolia》、Smilegate《MIRESI》《Dead Account》、NC《Astrae Oratio》（2027 年 iOS／Android 首发）等，均按「开发・发行的资本归属」判定跳过，不建条目、不记厂商。",
-      "**主机・PC 侧新增 2 条，均为本场补上的漏收**：《KEMURI》（UNSEEN Inc.／中村育美，2027 年 PS5・Steam，9/18 开放 Steam 商店页与愿望单并公开 TGS2026 新预告片，妖怪「契约－凭依装束」为核心系统）与乙女向《Le Mirage Mystique》（ブロッコリー 旗下 LicoBiTs 第四作，9/17 已发售，实体通常版 8,580 日元）。后者与 9/18 补收的 Otomate 四款同属「女性向」这条长期空白线，说明该品类必须按品牌逐个过筛，按厂商名录检索必然漏。主机・PC 区 78 → 80 条。",
-      "**《UN:Me》确认延期至 2027 年**：集英社ゲームズ 与 Historia 于 9/16 发表延期，理由是追加动作捕捉与表情演出、以强化寄宿在同一具身体内的四个灵魂在对话中的差异；同时公布主人公由 花守ゆみり 配音。TGS2026 集英社ゲームズ 展台（05-C10）的日本首次试玩已收录新的动捕对话场景。该条目已更新（发售窗口、cast、期待度依据）。",
-      "**厂商名单本轮无状态变化**：4 个 category 家数仍为 8／16／16／10＝50，`extra` 维持 27 家。UNSEEN Inc. 与 ブロッコリー（LicoBiTs）虽在清单外且有实际新品，但 `extra` 目前以「日本手游发行方」为收录口径，两者均为主机侧，故本轮只在作品条目中记录、不入 `extra`；若下轮再出现第二款动向再行评估。",
-      "**漏收核查（逐个过 9 个 IP／品牌）**：呪術廻戦（RUMBLE: SURVIVATON 已收录，延期至 2027 已记）／ONE PIECE（已收录，本轮补 TGS 情报）／BLEACH（已收录）／刀剣乱舞（已收录）／ホロライブ（hololive Dreams・holoVillage 已收录，另见 holoVillage 是主机侧）／鬼滅の刃（窗口内无日方主导新游）／ブルーロック（仅见法国 Sloclap『Rematch』9/24 联动，非日方主导新游）／名探偵コナン（仅见 2019 年 Bushiroad 全球版跑酷，窗口外）／サンリオ「フラガリアメモリーズ」（已收录）。**查出漏收 2 条**（KEMURI／Le Mirage Mystique），均已建卡。",
-      "**TGS 模块**：9/19 公众日首日开场，`tgs.note` 追加首日公众日与各社舞台日程；下一场（19:00）的增量区段为 9/19 白天现场情报，重点为サンリオゲームス 9/19 舞台首次公开『FRAGARIAMEMORIES Color of Wishes』游戏情报、以及 Netmarble／Smilegate 的 9/19 舞台内容。"
+      "**手游侧本轮补收 1 条——在营乙女手游《遙かなる時空の中で 龍宮の神子》**：光荣特库摩旗下 Ruby Party 的「遥远时空（ネオロマンス）」系列首款智能手机原生完全新作，2025-11-28 已在日服上线、运营近 10 个月，2026-09-01 实装新八叶「武田信玄」（CV：下鶴直幸）。本轮按「已开服手游在窗口内有重要进展即可收」的口径补卡，依据是 TGS2026 出展与 9/20 14:30 的主舞台「りゅうみこ出張かわらばん TGS2026 特別号」（登坛：三浦勝之・戸谷菊之介・鈴木裕斗）；本届科乐美式的展台不设试玩机，而以闪光灯下「八叶环绕神子」的写真点接受关注与发帖换贴纸。手游区 28 → 29 条。",
+      "**TGS2026 的移动端新作依旧没有日方主导者**：9/19 公众日首日的一手情报里，移动端新作仍集中于韩资四社——Nexon《Mabinogi Mobile》（日本 10/07 上线、事前登录突破 20 万）与《Fareidolia》（《蔚蓝档案》团队 IO Division，首次公开可玩 Demo）、Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》《Pearl in Blue》、Smilegate《MIRESI》《Dead Account》＝《Fate/Sight: The Unseen Future》、NC《Astrae Oratio》（2027 年 iOS／Android 首发）——按「开发・发行的资本归属」判定全部跳过，不建条目、不记厂商。日方的新作信号仍集中在主机・PC 侧。",
+      "**首次收录电影大厂东映的自营游戏品牌「東映ゲームス」，一次补收 3 条**：東映于 2026-04-21 成立该品牌，TGS2026 首次出展（展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，另设夹娃娃机与限定马克杯，并参与 9/19 的 TGS 论坛「異業種からの挑戦」）。三条卡片分别是：『HINO』（企划・制作 UnGloomStudio＝日本独立工作室，2026 年内，9/17 公开 Steam 体验版）、『KILLA』（企划・制作 Black Tangerine＝韩国独立工作室，2026 年内，体验版仅限展场）、『DEBUG NEPHEMEE』（企划・制作 Nephemee Studio＝日本独立团队，发售日未定，9/10 公开 Steam 体验版）。至此本站 extra 同时收录東宝（TOHO Games）、松竹ゲームズ 与東映ゲームス，三大电影公司自营游戏品牌齐全。主机・PC 区 80 → 84 条。",
+      "**《ロリポップチェーンソー2 Back2Back》正式定名并宣布实拍电影化**：9/19 9:40-10:30 的 TGS 主舞台特别舞台公布正式标题、PS5 等平台／2027 年发售，以及同 IP 的实拍电影化（制片 Kirk Shaw・Robert Franke，另有 Nada Holdings 创办人 鄧橋、Throne 的 結城崇史、Non Stop TV 的 Patricio Rabuffetti 参与）。制作体制为 Dragami Games（IP 所有者・企划）＋ JP UNIVERSE（开发，共同制作人 田畑端、开发总监 那須靖明）。该条目已从「标题与机种均未发表」更新为定名状态，bucket 改为 update。",
+      "**G-MODE 补收 1 条：『配信少女ノ裏垢迷宮』**（PC Steam／Nintendo Switch，2026 年内，预定对应日文・简中・英文）。原作・制作 Acacia（『魔法少女的魔女裁判』班底），角色设计 梅まろ。G-MODE 于 9/3 宣布本作在 TGS2026 首次试玩出展，9/19 公众日首日起在独立游戏区 09-E03 提供约 10 分钟的展会特别版（全语音＋首次公开的特别 MV）。本作 2025 年 11 月即已公开、属窗口外的老企划，按「未发售老企划有窗口内新情报即可收」的口径收录。",
+      "**厂商名单：extra 新增 2 家（東映ゲームス／ジー・モード），コーエーテクモ 的 gameIds ＋1**。4 个 category 家数仍为 8／16／16／10＝50，extra 27 → 29 家；companies.asOf 刷新为 2026-09-19。",
+      "**漏收核查**：本轮按「IP 持有方／娱乐公司直营游戏品牌」这条线逐个过筛——東宝（TOHO Games，已收录）／松竹ゲームズ（已收录，聚合条目待拆）／東映ゲームス（**本轮补收 3 条**）；女性向在营手游线查出《遙かなる時空の中で 龍宮の神子》（**本轮补收**）；hololive 线：hololive Dreams／holoVillage 已收录，另见 9/18 由 COVER 的「holo Indie」品牌发行的 PC 小规模作品『Ollie Ninja Slash』（250 円、7 Moon Studio 开发），因规模过小（同人级定价、无发行方主导的推广）未建条目，登记备查；呪術廻戦：RUMBLE: SURVIVATON 已收录（2027 延期已记，TGS 提供 8 人对战试玩）。**本轮共查出漏收 4 条并已建卡。**",
     ]
   },
 };
