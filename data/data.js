@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-18T22:20:00+08:00",
-    edition: "2026-09-18",
-    window: "2026-07-18 ~ 2026-09-18（滚动最近 2 个月）",
+    updatedAt: "2026-09-19T09:10:00+08:00",
+    edition: "2026-09-19",
+    window: "2026-07-19 ~ 2026-09-19（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -418,17 +418,17 @@ window.OBSERVATORY = {
       companyJp: "NHNプレイアート株式会社",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-09-02（TGS2026 出展発表で初公開）",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-09-17（TGS2026 でオープンβテスト開始）",
+      capturedAt: "2026-09-19",
       title: { jp: "OVER RUSH", cn: "OVER RUSH", en: "OVER RUSH" },
       genre: "高速卡牌对战 RPG（カードバトル RPG）",
       platforms: ["iOS", "Android"],
       release: "2026年冬（予定）",
       releasePrecision: "季",
       summary: "NHN PlayArt 的完全新作卡牌战斗 RPG，在 2026-09-02 的 TGS2026 出展发表中首次公开。官方定位为「高速カードバトル RPG」，玩法特征是玩家与新登场的 AI 机器人协力作战。「高速」指向卡牌效果与发动时机的紧凑对决。本作与《刀剑乱舞 ぱずぎり》《幻想世界的软绵绵波呦》同为该社时隔 8 年重返 TGS 时公开的 3 款新作，TGS2026 在 2 号馆 NHN PlayArt 展台提供试玩。",
-      highlight: "NHN PlayArt 在拼图品类之外开辟的卡牌战线，是 TGS2026 该社三款新作里唯一没有 IP 背书的原创作品。",
+      highlight: "【TGS2026 9/18】オープンβテストが 2026-09-17 に開始。NHN PlayArt 展位（2 号馆）将它放在 4 款运营中作品之外的 3 个未上线席位之一提供试玩，是该社时隔 8 年重返 TGS 的展台构成部分。　IP 背书为零的原创卡牌对战，是 NHN PlayArt 在拼图品类之外开辟的新战线。",
       mobile: {
-        status: "配信予定（2026年冬／TGS2026 で初公開）",
+        status: "オープンβテスト実施中（2026-09-17 開始／正式サービスは 2026 年冬予定）",
         os: ["iOS", "Android"],
         monetization: "未公表（基本無料＋アイテム課金型と見られる）",
         preReg: {
@@ -453,7 +453,8 @@ window.OBSERVATORY = {
       news: [
         { source: "Inven Global（TGS2026 出展・三款新作首次公开）", url: "https://www.invenglobal.com/articles/25465/nhn-playart-to-exhibit-at-tgs-for-first-time-in-8-years-unveiling-7-titles" },
         { source: "Third News（OVER RUSH＝高速卡牌对战 RPG／与新型 AI 机器人协力）", url: "https://third-news.com/article/b628cf02-a5ca-11f1-812f-9ca3ba08e13f" },
-        { source: "Chosun Biz（NHN PlayArt TGS2026 三款新作发表）", url: "https://biz.chosun.com/en/en-it/2026/09/02/P2P5LCCVNRGAZATCJGRTWHKYD4/" }
+        { source: "Chosun Biz（NHN PlayArt TGS2026 三款新作发表）", url: "https://biz.chosun.com/en/en-it/2026/09/02/P2P5LCCVNRGAZATCJGRTWHKYD4/" },
+        { source: "Yomimono（NHN PlayArt の TGS2026 出展 7 タイトルと OVER RUSH のオープンβ開始）", url: "https://www.yomimono.id/nhn-playart-returns-to-tokyo-game-show-with-seven-titles" },
       ],
       videos: [
         { label: "TGS2026 出展阵容报道（三款新作首次公开）", platform: "媒体", url: "https://en.edaily.co.kr/news/eda202609025197" },
@@ -468,7 +469,7 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["新作", "手游", "カードバトル", "NHN", "TGS2026"],
-      caution: "配信時期「今冬」は外部トラッキング情報。NHN PlayArt の公式発表時点では本作の配信日は未公表で、TGS2026（9/17-21）での続報待ち"
+      caution: "オープンβテストは 2026-09-17 開始。正式サービスの配信日・事前登録の扱いは NHN PlayArt から公式発表されていない",
     },
 
     {
@@ -955,18 +956,19 @@ window.OBSERVATORY = {
       companyJp: "株式会社レベルファイブ（開発・配信：株式会社NHN PlayArt）",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-09-10",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-09-17（TGS2026 NHN PlayArt 展台の試遊内容を公開）",
+      capturedAt: "2026-09-19",
       title: { jp: "幻想世界のぷちぽよん", cn: "幻想世界的软绵绵波呦", en: "Pufflings: Journey Through a Fantasy World" },
       genre: "休闲拼图（スマートフォン）",
       platforms: ["iOS", "Android"],
       release: "2026年冬（予定）",
       releasePrecision: "季",
       summary: "LEVEL-5 与 NHN PlayArt 共同推出的手游，是继《妖怪手表 噗尼噗尼》（国内累计 3,600 万下载）之后两家再度合作。玩法为合体进化型拼图：把场上相同的「ぷちぽよん」连起来合体，逐步进化并组成连锁拿高分；把「クリスタルルーン」一次性破坏可积攒技能槽，用来冲击更高分数；按得分回收「ぷよオーブ」推进关卡。本次「LEVEL5 VISION 2026 II 夢」首次公开游戏片头动画与新情报，预定今年冬季上线，并计划以短篇动画与周边商品同步扩展 IP。TGS2026 在 NHN PlayArt 展台（第 2 馆）提供试玩。",
-      highlight: "LEVEL-5 × NHN PlayArt 继《妖怪手表 噗尼噗尼》后的第二款合作手游，今冬上线，走「合体进化」拼图路线。",
+      highlight: "【TGS2026 9/17】NHN PlayArt 展位（2 号馆）设大屏幕试玩区与拍照点，与《刀剑乱舞 ぱずぎり》《OVER RUSH》同为该社三款未上线新作的展出内容，展台另设跨作品集章活动。　LEVEL-5 × NHN PlayArt 继《妖怪手表 噗尼噗尼》后的第二款合作手游，今冬上线，走「合体进化」拼图路线。",
       news: [
         { source: "Inven Global（玩法机制与新情报）", url: "https://www.invenglobal.com/articles/25802/professor-layton-and-the-curious-village-remake-revealed-at-level-5-vision-showcase" },
-        { source: "Chosun Biz（NHN PlayArt TGS2026 三款新作发表）", url: "https://biz.chosun.com/en/en-it/2026/09/02/P2P5LCCVNRGAZATCJGRTWHKYD4/" }
+        { source: "Chosun Biz（NHN PlayArt TGS2026 三款新作发表）", url: "https://biz.chosun.com/en/en-it/2026/09/02/P2P5LCCVNRGAZATCJGRTWHKYD4/" },
+        { source: "Yomimono（NHN PlayArt 展台 7 タイトルの出展内容）", url: "https://www.yomimono.id/nhn-playart-returns-to-tokyo-game-show-with-seven-titles" },
       ],
       videos: [
         { label: "Vision 2026 II 公开片头动画与游玩影像报道", platform: "媒体", url: "https://simulationdaily.com/news/professor-layton-curious-village-remake-level-5/" },
@@ -1005,18 +1007,19 @@ window.OBSERVATORY = {
       companyJp: "株式会社レベルファイブ（開発・運営：株式会社Aiming）",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-09-10",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-09-18（TGS2026 でレベルファイブが自社大型作と並べて訴求）",
+      capturedAt: "2026-09-19",
       title: { jp: "イナズマイレブン クロス", cn: "闪电十一人 交锋", en: "Inazuma Eleven: Cross" },
       genre: "养成模拟（スマートフォン）",
       platforms: ["iOS", "Android"],
       release: "2026-06-09（サービス開始済み）",
       releasePrecision: "日",
       summary: "《闪电十一人》系列首款智能手机向养成模拟游戏，由 LEVEL-5 发行、Aiming 开发与运营。玩家以监督身份育成选手、编成专属球队，战术判断直接决定比赛走向；比赛可完全自动进行，不擅长动作操作或只想利用碎片时间的玩家也能推进。2026 年 1 月 13 日公布配信决定，4 月 10 日开放事前登录并突破 20 万人，6 月 9 日正式开服，6 月 22 日突破 100 万下载。系列历代角色（円堂守、豪炎寺修也、松风天马、剑城京介、神童拓人、雾野兰丸、Fey、黄名子等）陆续以转蛋与活动形式登场。本次「LEVEL5 VISION 2026 II 夢」公开新内容宣传片，TGS2026 播放新游玩影像。",
-      highlight: "系列首款手游，开服 13 天即突破 100 万下载；本次发布会公开新内容宣传片。",
+      highlight: "【TGS2026 9/18】LEVEL-5 在 TGS2026 把本作与《レイトン教授》《イナズマイレブン 烈火の革命》等自社大型主机作并列宣传，对一款智能手机作品而言是异常突出的展位定位；配信時期与海外展开仍未发表。　系列首款手游，开服 13 天即突破 100 万下载；本次发布会公开新内容宣传片。",
       news: [
         { source: "Aiming 官方新闻稿一览（开服・100万DL・活动沿革）", url: "https://aiming-inc.com/ja/news/game-news/?tag=inazuma-cross" },
-        { source: "Notebookcheck（TGS2026 阵容含本作新影像）", url: "https://www.notebookcheck.net/Level-5-reveals-nine-title-Tokyo-Game-Show-2026-lineup.1397681.0.html" }
+        { source: "Notebookcheck（TGS2026 阵容含本作新影像）", url: "https://www.notebookcheck.net/Level-5-reveals-nine-title-Tokyo-Game-Show-2026-lineup.1397681.0.html" },
+        { source: "GameForce Mobile（TGS2026 でのレベルファイブ のクロス露出）", url: "https://www.gameforcemobile.com/news/5076-inazuma-eleven-cross-gets-fresh-tokyo-game-show-exposure" },
       ],
       videos: [
         { label: "Vision 2026 II 公开新内容宣传片报道", platform: "媒体", url: "https://www.notebookcheck.net/Level-5-reveals-nine-title-Tokyo-Game-Show-2026-lineup.1397681.0.html" },
@@ -1536,31 +1539,33 @@ window.OBSERVATORY = {
       companyJp: "株式会社集英社ゲームズ（発信元）／株式会社ヒストリア（開発）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 集英社ゲームズ展台 5 号館 05-C10 で初の試遊出展）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-16（発売延期 2027 年・主演キャスト発表／TGS2026 試遊に反映）",
+      capturedAt: "2026-09-19",
       title: { jp: "UN:Me", cn: "UN:Me", en: "UN:Me" },
       genre: "ソウル・トリアージ アドベンチャー",
       platforms: ["Nintendo Switch 2", "PlayStation 5", "Steam"],
-      release: "2026年内（发售预定）",
+      release: "2027年（発売予定／当初 2026 年予定から延期）",
       releasePrecision: "年",
-      summary: "集英社游戏品牌「集英社ゲームズ」于 2026 年 8 月 26 日公布的全新企划，由以 Unreal Engine 见长、参与过《Faaast Penguin》《Caligula2》开发的日本工作室 Historia（ヒストリア）担纲制作，预定 2026 年内在 Switch 2 / PS5 / Steam 发售。游戏被归类为「灵魂·检伤分类冒险」：围绕寄宿在少女体内的四个灵魂展开，玩家通过与被分割的记忆碎片对话、探索环境变化，最终对「灵魂」作出选择——包括消去。官方网站将集中承载情报，并内置便于玩家分享与讨论的考察功能。",
-      highlight: "【TGS2026 9/17】集英社ゲームズ 展位（5 号馆 05-C10）首度提供试玩，通关可获原创周边——与《呪術廻戦 RUMBLE: SURVIVATON》同为该展位的首次可玩内容。　集英社游戏品牌新企划，由 Historia 开发，以「与灵魂对话并作出裁决」为核心的检伤分类式冒险。",
+      summary: "集英社游戏品牌「集英社ゲームズ」于 2026 年 8 月 26 日公布、由日本工作室 Historia（ヒストリア，Unreal Engine 专业团队，代表作《Faaast Penguin》《Caligula2》）开发的心理冒险，原定 2026 年内登陆 Switch 2／PS5／Steam，2026 年 9 月 16 日宣布延期至 2027 年，理由是追加动作捕捉以强化四个灵魂在对话中的动作与表情差异，具体发售日与价格仍未公布。舞台是少女体内寄宿四个灵魂的精神迷宫：玩家通过与灵魂对话、克服各自的创伤向迷宫深处推进，最终必须决定保留哪一个灵魂、抹除哪一个。TGS2026（9/17-21）集英社ゲームズ 展位（5 号馆 05-C10）提供日本首次试玩。",
+      highlight: "【延期 2027】2026-09-16 公开的新预告片确认本作由 2026 年延期至 2027 年，同时公布主人公由 花守ゆみり 配音。TGS2026 集英社ゲームズ 展位（5 号馆 05-C10）的日本首次试玩已收录新的动捕对话场景，可现场体验延期理由所指的那部分改进。　集英社ゲームズ 自社发行业务的全新企划，由 Historia 开发，以「与四个灵魂对话、决定留下谁抹除谁」的检伤分类式结构为核心。",
       news: [
         { source: "プレスリリース要約（発信元：株式会社集英社ゲームズ／発表日時 2026-08-26 12:00）", url: "https://bestcalendar.jp/press/149029" },
         { source: "集英社ゲームズ 作品ページ", url: "https://shueisha-games.com/games/unme/" },
         { source: "PlayStation Store 商品ページ", url: "https://store.playstation.com/ja-jp/concept/10019807" },
-        { source: "ヒストリア 公式サイト（開発実績）", url: "https://historia.co.jp/" }
+        { source: "ヒストリア 公式サイト（開発実績）", url: "https://historia.co.jp/" },
+        { source: "Anime News Network（延期至 2027 与 花守ゆみり 主演发表）", url: "https://www.animenewsnetwork.com/news/2026-09-16/un-me-game-trailer-reveals-2027-delay-yumiri-hanamori-casting/.241882" },
+        { source: "Techtroduce（延期理由＝对话演出的动捕追加，与 TGS 试玩内容对应）", url: "https://www.techtroduce.com/unme-delayed-2027" },
       ],
       videos: [
         { label: "公式サイト（情報集約・映像）", platform: "官方站", url: "https://unme.shueisha-games.com/" },
         { label: "ヒストリア 公式 X @historia_Inc", platform: "X", url: "https://x.com/historia_Inc" }
       ],
       hype: {
-        score: 63,
+        score: 64,
         signals: [
-          "集英社ゲームズの自社パブリッシング企画として発表",
-          "開発は Unreal Engine 専門の国内スタジオ Historia（『Faaast Penguin』『Caligula2』）",
-          "発表直後で映像・試遊情報は限定的、期待度は今後の続報に依存"
+          "集英社ゲームズの自社パブリッシング企画で、ディレクターは『Caligula』シリーズの山中拓也。開発は Unreal Engine 専門の国内スタジオ Historia",
+          "TGS2026 で日本初の試遊を実施し、延期理由に挙げた動画・表情の改善を実際に触れられる状態で出している",
+          "主演に花守ゆみり を起用。発売は 2027 年で具体的な日付・価格は未発表"
         ]
       },
       tags: ["新作", "主机", "アドベンチャー", "集英社ゲームズ", "オリジナルIP"]
@@ -3356,15 +3361,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：カイロソフト）",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-06-09",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-09-18（TGS2026 でスマホ版を含むクロスプラットフォーム体験出展）",
+      capturedAt: "2026-09-19",
       title: { jp: "ONE PIECE 海のごちそうレストラン", cn: "海贼王 海洋盛宴", en: "ONE PIECE: Grand Gourmet" },
       genre: "海上レストラン経営シミュレーション",
       platforms: ["Nintendo Switch 2", "Nintendo Switch", "PC (Steam)", "iOS", "Android"],
       release: "2026-10-22（主机版）／2026-10-23（Steam・手机版）",
       releasePrecision: "日",
       summary: "万代南梦宫发行、开罗游戏（カイロソフト）开发的《ONE PIECE》题材像素风经营模拟，于 Nintendo Direct 首发公开。玩家作为海上餐厅「巴拉蒂 2 号店」的新人店员，与草帽一伙共同把餐厅做成「这片海上最美味的地方」。与山治一起用冒险中获得的食材开发菜谱，可把主菜／副菜／甜点／饮料自由组合成套餐并获得额外加成，也会出现运用恶魔果实能力的特殊料理。收录 400 名以上系列角色、200 种以上家具与内饰。主机版 2,700 日元、手机版 2,000 日元，支持含简繁中文在内的 12 种语言。TGS2026 设置餐厅主题展台并提供 20 分钟试玩。",
-      highlight: "IP 授权经营模拟：把「吃饭」这条原作主线做成核心玩法，而不是又一款战斗手游。",
+      highlight: "【TGS2026 9/18】バンダイナムコ 综合展台提供含 iOS／Android 版在内的跨平台试玩，未单独划入移动端专区，与《BLEACH Mirrors High》同在主力展位露出；展台还公开了「バラティエ 2 号店」的玩法介绍影像与一份以该店为舞台的架空新人招募影像。　IP 授权经营模拟：把「吃饭」这条原作主线做成核心玩法，而不是又一款战斗手游。",
       console: {
         status: "2026年10月22日発売予定（Switch 2 / Switch）／ Steam は 2026年10月23日。予約受付中",
         os: ["Nintendo Switch 2", "Nintendo Switch", "PC（Steam）"],
@@ -3390,7 +3395,8 @@ window.OBSERVATORY = {
       news: [
         { source: "ONE PIECE.com 官方（发售日决定・特典・预告公开）", url: "https://one-piece.com/news/80028/index.html" },
         { source: "Third News（TGS2026 试玩与预约活动）", url: "https://third-news.com/article/9089a9b6-90b1-11f1-b03b-9ca3ba08e13f" },
-        { source: "開羅遊戲 官方作品页", url: "https://kairosoft.net/game/appli/op_restaurant.html" }
+        { source: "開羅遊戲 官方作品页", url: "https://kairosoft.net/game/appli/op_restaurant.html" },
+        { source: "GameForce Mobile（TGS2026 でのモバイル版を含む試遊出展）", url: "https://www.gameforcemobile.com/news/5080-one-piece-grand-gourmet-brings-mobile-build-to-tokyo-game-show" },
       ],
       videos: [
         { label: "官方特设站（アナウンスメントトレーラー・预约入口）", platform: "官方站", url: "https://op-restaurant.bn-ent.net" },
@@ -5187,7 +5193,119 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["新作発表", "シリーズ新作", "ドラガミゲームス", "TGS2026"]
-    }
+    },
+
+    {
+      id: "kemuri",
+      company: "UNSEEN Inc.",
+      companyJp: "株式会社UNSEEN（UNSEEN Inc.／東京都）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-18（Steam ストアページ公開／TGS2026 新トレーラー公開）",
+      capturedAt: "2026-09-19",
+      title: { jp: "KEMURI", cn: "KEMURI", en: "KEMURI" },
+      genre: "妖怪憑依型アクションアドベンチャー（1〜3人オンライン協力）",
+      platforms: ["PlayStation 5", "PC (Steam)"],
+      release: "2027年（予定）",
+      releasePrecision: "年",
+      summary: "由《GhostWire: Tokyo》前创意总监中村育美于 2022 年在东京创立的 UNSEEN Inc. 打造的首款作品。2026 年 9 月 18 日开放 Steam 商店页与愿望单登记，并同步公开面向 TGS2026 的新预告片，预定 2027 年登陆 PS5／PC(Steam)，支持最多 3 人线上合作。舞台是生死交错的虚构都市「ケムリシティ（Kemuri City）」：玩家扮演妖怪猎人，在纵向堆叠的高楼与狭窄巷道间追踪妖怪，既可与之交战，也可与之缔结契约，把妖怪之力当作「凭依装束」穿在身上——换上不同妖怪，整套战斗方式随之改变，这是本作系统的核心。TGS2026 的 PlayStation 展台正面向内容创作者提供实机试玩。",
+      highlight: "【TGS2026 9/18】Steam 商店页与愿望单于 9/18 开放，同日公开 TGS2026 新预告片，该影像也在 PlayStation 展区大屏放映；PlayStation 展台 Premium Lounge 正面向内容创作者提供实机试玩。　中村育美（《GhostWire: Tokyo》前创意总监）率 UNSEEN Inc. 打造的处子作，妖怪与猎人之间「契约－凭依」的双向关系构成玩法骨架。",
+      console: {
+        status: "2027年発売予定（発売日・価格は未発表）",
+        os: ["PlayStation 5", "PC（Steam）"],
+        monetization: "未発表",
+        developer: "UNSEEN Inc.（東京都／代表・中村育美）",
+        publisher: "UNSEEN Inc.",
+        region: "日本（2027年、グローバル同時展開を想定）",
+        distribution: "ダウンロード版（Steam／PlayStation Store）。パッケージ版は未発表",
+        stores: ["Steam", "PlayStation Store"],
+        features: [
+          "妖怪と契約してその力を「憑依装束」として纏う。纏う妖怪ごとに戦い方が丸ごと変わるのが本作の中核システム",
+          "縦に積み重なった高層ビルと路地が主舞台で、屋上から屋上へ跳び移るパルクール的な移動を伴う",
+          "最大 3 人のオンライン協力プレイに対応（ソロプレイも可）",
+          "世界観とビジュアルは中村育美率いるアートチームが担当",
+          "妖怪を倒すか契約するかの二択が探索の基本ループになる"
+        ],
+        synopsis: "舞台は、生と死が交錯する架空の都市「ケムリシティ」。プレイヤーは妖怪ハンターとして街に潜む妖怪を追い、倒すか契約するかを選び、契約した妖怪の力を「憑依装束」として纏って戦う。鎖につないだ妖怪を連れ歩く路地裏や、屋台でラーメンを囲む日常風景、屋上での妖怪との斬り合いなど、日常と怪異が同居する都市の空気が映像で提示されている。",
+        ipSource: "UNSEEN Inc. の完全新規オリジナル IP",
+        series: "2022 年設立の UNSEEN Inc. の処女作。2023 年 12 月の The Game Awards で初公開、2026 年 6 月の State of Play で実機映像を初公開、2026 年 9 月 18 日に Steam ストアページを公開",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "Quest Board.JP（Steam ストアページ公開・TGS2026 新トレーラー・憑依装束システム）", url: "https://quest-board.jp/en/quests/buzz-kemuri-steam-20260919" },
+        { source: "3DM（Steam ストアページ公開と新予告の報道）", url: "https://www.3dmgame.com/news/202609/3953735.html" },
+        { source: "Ludens Media（UNSEEN の沿革と TGS2026 出展／電ファミニコゲーマー発の報道）", url: "https://www.ludens.com.tw/kemuri-ikumi-nakamura-unseen-gameplay" }
+      ],
+      videos: [
+        { label: "報道（TGS2026 新トレーラーと憑依装束システム・PV 掲載）", platform: "媒体", url: "https://quest-board.jp/en/quests/buzz-kemuri-steam-20260919" },
+        { label: "UNSEEN 公式 X（@PlayKemuri・原文で明記）", platform: "X", url: "https://x.com/PlayKemuri" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "中村育美（『GhostWire: Tokyo』『大神』『ベヨネッタ』『サイコブレイク』関与）率いる UNSEEN Inc. の処女作で、2023 年の The Game Awards 初出しから関心が高い",
+          "TGS2026 の PlayStation ブースで大画面上映とクリエイター向けハンズオンプレビューを実施",
+          "発売は 2027 年で、価格・具体的な発売日・パッケージ展開はいずれも未発表"
+        ]
+      },
+      tags: ["新作発表", "主机", "アクション", "オリジナルIP", "TGS2026"]
+    },
+
+    {
+      id: "le-mirage-mystique",
+      company: "Broccoli（LicoBiTs）",
+      companyJp: "株式会社ブロッコリー（女性向けブランド LicoBiTs／企画・制作：ティズクリエイション株式会社）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-17（発売）",
+      capturedAt: "2026-09-19",
+      title: { jp: "Le Mirage Mystique", cn: "Le Mirage Mystique", en: "Le Mirage Mystique" },
+      genre: "女性向け恋愛アドベンチャー（乙女ゲーム）",
+      platforms: ["Nintendo Switch"],
+      release: "2026-09-17（発売済み）",
+      releasePrecision: "日",
+      summary: "日本女性向游戏品牌 LicoBiTs（株式会社ブロッコリー 发行、ティズクリエイション 企划制作）的第四款乙女游戏，2026 年 9 月 17 日登陆 Nintendo Switch，实体通常版 8,580 日元、限定版 12,980 日元，下载版同日配信。舞台是 1917 年初夏的度假岛「ミラージュ（Mirage）」：19 岁的主角 Aria 收到邀请前往这座举世憧憬的度假岛，才发现等待她的是「令人恐惧的奇迹」。攻略对象为 5 名男性角色，分别由 増田俊樹、福山潤、下野紘、鈴木崚汰、岡本信彦 配音。原画 およ、总监 佐東樹、制作人 高村旭；发售前已配信可继承存档的体验版。",
+      highlight: "【発売 2026-09-17】LicoBiTs 第四作乙女游戏于 9/17 登陆 Switch，开场影像与序章影像同日公开，各店铺限定特典的内容也随发售一并确定。　舞台为 1917 年初夏的度假岛「ミラージュ」，受邀登岛的主人公在那里遭遇「令人恐惧的奇迹」，是含恋爱要素的文字冒险；与 9/18 补收的 Otomate 四款同属需要按品牌逐个过筛的「女性向」品类。",
+      console: {
+        status: "2026年9月17日発売（発売済み／ダウンロード版も同日配信）",
+        os: ["Nintendo Switch", "Nintendo Switch Lite"],
+        monetization: "通常版 8,580 円／限定版 12,980 円（税込・パッケージ）。ダウンロード通常版 8,580 円／デジタル特典版 10,780 円（税込）",
+        developer: "ティズクリエイション株式会社（企画・制作）",
+        publisher: "株式会社ブロッコリー（女性向けゲームブランド LicoBiTs）",
+        region: "日本（アジア向け繁体字版は Game Source Entertainment が展開）",
+        distribution: "パッケージ版・ダウンロード版（Nintendo Switch）",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "LicoBiTs の 4 作目。『泡沫のユークロニア』『同 -trail-』『UN:LOGICAL』に続く女性向け恋愛 ADV",
+          "1917 年初夏のリゾートアイランド「ミラージュ」を舞台にした、時代風味のある恋愛ドラマ",
+          "攻略対象は 5 人の男性キャラクター。名前変更ができるのは主人公アリアのみ（主人公に声はない）",
+          "発売前に序章から共通路線 2 章まで遊べる、セーブ引継ぎ可能な体験版を配信",
+          "店舗別オリジナル特典が用意され、内容は発売と同時に確定した"
+        ],
+        synopsis: "共和国の首都に住む 19 歳のアリアは、世界中の誰もが憧れるリゾートアイランド「ミラージュ」への招待状を受け取る。夢の島へと向かった彼女を待っていたのは、恐ろしい「奇跡」だった。島に集まった男性たちはそれぞれ事情を抱えており、物語は彼らとの関係を通じて島の「秘密」に触れていく。",
+        ipSource: "LicoBiTs のオリジナル企画（外部 IP のライセンスではなく自社ブランド作品）",
+        series: "LicoBiTs は 株式会社ブロッコリー と ティズクリエイション株式会社 の提携で立ち上げた女性向けブランド。本作はその 4 作目にあたる",
+        cast: "レオン（CV：増田俊樹）／シャルル（CV：福山潤）／ルディ（CV：下野紘）／ジャック（CV：鈴木崚汰）／エヴァン（CV：岡本信彦）"
+      },
+      news: [
+        { source: "Yomimono（4Gamer／Anime Anime 発の報道：発売日と声優陣）", url: "https://www.yomimono.id/le-mirage-mystique-launches-with-six-voice-cast-led-by-toshiki-masuda" },
+        { source: "QooApp（体験版・STAFF・価格・対応機種）", url: "https://news.qoo-app.com/post/440812" },
+        { source: "Otomices（ブランド経緯・開幕動画・スタッフ）", url: "https://otomices.com/2026/06/03/le-mirage-mystique-confira-a-abertura-do-novo-otome-game-da-licobits/" }
+      ],
+      videos: [
+        { label: "報道（開幕映像・序章映像の公開／体験版情報）", platform: "媒体", url: "https://news.qoo-app.com/post/440812" },
+        { label: "報道（開幕動画を掲載／公式サイト・公式 YouTube 発）", platform: "媒体", url: "https://otomices.com/2026/06/03/le-mirage-mystique-confira-a-abertura-do-novo-otome-game-da-licobits/" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "LicoBiTs は『泡沫のユークロニア』で女性向け市場に定着したブランドで、本作はその 4 作目",
+          "発売前から体験版と開幕映像を配信し、発売日に各店舗特典が確定するなど告知の厚い展開",
+          "DL 数・予約数など本作固有の公開数値は発表されていない"
+        ]
+      },
+      tags: ["新作発表", "主机", "乙女ゲーム", "Nintendo Switch", "ブロッコリー"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -5344,7 +5462,7 @@ window.OBSERVATORY = {
     dates: "2026-09-17 ~ 2026-09-21",
     venue: "幕張メッセ（千葉）",
     theme: "長い5日間、遊びつくせ。／ Longest Five Days of Nonstop Play",
-    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。",
+    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）开场：サンリオゲームス 展台的 9/19 舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，首次公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台继续以 7 タイトル 出展（含 OVER RUSH 的オープンβ）。日本ゲーム大賞 2026 フューチャー部門的网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。",
     booths: [
       { company: "Square Enix", hall: "—", items: "以《FINAL FANTASY VII REVELATION》为绝对核心：三部曲终章的全球首个一般试玩（飞空艇世界地图探索＋Trinity 三人连携战斗），展台设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点。《FINAL FANTASY RESONANCE》同样可试玩，并追加确认《Romancing SaGa 3: Destinies United》提供试玩。预告片轮播含 FFXIV: Evercold／DQ モンスターズ 朽ちた世界／DQ XI S／KH Collection I~III／KH IV／DQ X オンライン／DISSIDIA DUELLUM FF／DQ スマッシュグロウ／DQ ヒーローズ トルネコ Classic HD。Family Game Park 提供《DQ VII Reimagined》试玩；公众日 モーグリ 与チョコボ「アルファ」不定期登场，《モンスターズ 朽ちた世界》举办「フラッフィー」合影会并发放周边　开幕日确认《キングダム ハーツ IV》与《KH Collection I~III》双双推出 Nintendo Switch 2 原生版并公开最新发售窗口；《キングダム ハーツ IV》在展台维持仅展示、不可试玩。" },
       { company: "カプコン", hall: "7 号馆（试玩）／9-11 号馆（周边）", items: "史上最大规模出展。可试玩：《モンスターハンターワイルズ 拡張「Ascendance」》（Switch 2 版同步开放试玩，为全场最长队列之一）、《ドラゴンズドグマ 2 ダークアリズン》（日本首次可试玩，10/09）、《ロックマン デュアルオーバーライド》（日本首次可试玩）、《ストリートファイター6》（新角色「アルジュン」先行试玩）；另有《プラグマタ》《鬼武者 Way of the Sword》。9-11 号馆设「e-Capcom 2026 出张所」与扭蛋区「CAPSULE LAB」　Xbox 的 TGS2026 放送进一步确认《モンスターハンターワイルズ》扩展「Ascendance」的推出窗口为 2027 年，公开新区域「Skybound Eyrie」、炎王龙 Teostra 回归，以及面向全部 14 种武器的「Boost Bracer／Boost Driver」。" },
@@ -5378,17 +5496,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 第 2 日：手游侧是本期主线 —— 补收《BanG Dream! Our Notes》（9/24 全球同日上线、事前登录 160 万）与三丽鸥自营品牌 Sanrio Games 的两款新作，手游条目 25 → 28；主机・PC 侧首次补上 Otomate 乙女向 4 款（《薄桜鬼異聞 ベレジンスキーの魔女》《君に惑い、君に溺れる。》《BLACK WOLVES SAGA》《MIX DUNK》），并收 GungHo《ニンジャラ2》《Chit Chat Party!》等。条目总数 87 → 98",
+    headline: "TGS2026 进入公众日：手游侧本场无新增，主机・PC 侧补收《KEMURI》（UNSEEN／中村育美）与乙女向《Le Mirage Mystique》2 条漏收；《UN:Me》确认延期至 2027 年并公布主演花守ゆみり。条目总数 98 → 100",
     points: [
-      "**手游侧本期新增 3 条，全部落在本站核心重点上**：《BanG Dream! Our Notes》（ブシロード 发行／株式会社フロムトーキョー 开发，2026-09-24 全球同日上线，事前登录 9/4 破 150 万、9/11 破 160 万，9/21 上线前特别生放送、9/22 起预下载，TGS2026 ブシロード 展台自 9/17 起提供正式版抢先试玩；五支乐队 MyGO!!!!!／Ave Mujica／夢限大みゅーたいぷ／millsage／一家Dumb Rock! 共 25 名角色、全语音）、《Sanrio Kawaii Me Live!》（三丽鸥自营品牌 Sanrio Games，2027 年推出的「超 KAWAII」舞蹈节奏＋换装手游）、《FRAGARIAMEMORIES Color of Wishes》（骑士道企划「フラガリアメモリーズ」首款手游，三丽鸥 × アテーム共同开发）。手游区 25 → 28 条。",
-      "**《BanG Dream! Our Notes》属补收，其暴露的检索盲区已机制化**：该作 2026-01-12 在「ブシロード 新年大発表会 2026」发表，时点落在滚动窗口之外，只盯「新作发表」事件的检索必然漏掉；本次是靠「配信日决定／事前登录突破／TGS 正式版试玩」这类**进展类**信号才捞出来的。同时澄清收录判定口径：按「开发・发行的资本归属」判定，本作开发方フロムトーキョー 为日资（前 Craft Egg 代表取缔役・森川修一于 2024-02-01 设立，同年 11-01 与ブシロード 缔结资本业务提携）、日版发行方为ブシロード，**判为日厂作品予以收录，海外版本的发行方不参与判定**；反之，由大陆资本全资持有的日本法人所开发的作品，仍按中资排除。",
-      "**主机・PC 侧本轮另有 4 条，首次填补了「女性向／乙女向」这块长期空白**：Idea Factory 旗下乙女向品牌 **Otomate** 的 4 款作品 —— 《薄桜鬼異聞 ベレジンスキーの魔女》（8/27 已发售，系列外传，舞台移到 19 世纪初东欧，描写「变若水」的起源）、《君に惑い、君に溺れる。》（7/30 已发售，**Otomate 首款 OmegaVerse 题材**、「オトメイト・バースプロジェクト」第 1 弹，CERO D）、《BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch》（9/10 已发售，Rejet 原作 PS Vita 两部作的移植合集，「オトメイト グラフィティ」第 12 弹，IP 归 Rejet）、《MIX DUNK -KING OF BASKETBALL-》（7/20 定档 **11/26**，Otomate 首款运动题材，川崎ブレイブサンダース 与 AKB48 共同监修）。4 款均为纯日方开发・发行，`アイディアファクトリー` 已由 `watch` 升为 `covered`。",
-      "**本轮漏收核查（查 9 个 IP，查出 3 款此前完全未收录的 Sanrio Games 作品）**：逐个核查 呪術廻戦（RUMBLE: SURVIVATON 已收录，并确认延期至 2027）／BLEACH（已收录）／ONE PIECE（已收录）／刀剣乱舞（已收录）／ホロライブ（已收录）／鬼滅の刃（仅见非日方主导作品，不收）／ブルーロック（仅见法国 Sloclap 的联动与国产手游，非日方主导新游）／東京リベンジャーズ（日服 2026-02-26 上线，**已出滚动窗口**）／サンリオ「フラガリアメモリーズ」（**查出漏收**）。此外《GACHIAKUTA: BREAKOUT》已查明开发・发行均为 Com2uS 集团（韩国），**按资本归属不属于本站收录对象**，此项待办就此关闭。",
-      "**手游侧另有两条既有条目的进展**：《BLEACH Mirrors High》自 9/17 起在万代南梦宫主展台提供手机版试玩，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》同区展出，是本届少数进入综合大厂主展台的智能手机作品；《雨のちハレ女》在 GAME FREAK 展台配布与 JTB《るるぶ》合作的特别版指南书，并把晴女学园的社办、福利社、阳台等身大复原。两条已把 `capturedAt` 更新至 2026-09-18。",
-      "**主机・PC 侧新增 4 条 TGS 相关作**：《ニンジャラ2 未知なる惑星》（ガンホー，约 6 年ぶり续作，从 PvP 全面转为开放世界 PvE，2027 年春 Switch 2 独占，TGS 以 40 台试玩机提供日本最大规模试游）、《Chit Chat Party!》（ガンホー×アリム，把 Switch 2 的 GameChat 语音本身做成玩法的合作派对游戏，9/17 发表并同日开卖 9.99 USD）、《Hello Kitty パーティランド》（サンリオゲームス第 1 弹，2026-10-29 发售，145 名以上角色＋45 款以上迷你游戏）、《ロリポップチェーンソー》新作（ドラガミゲームス，TGS 首次公开可试玩版本，正式标题与对应机种仍官方未发表）。",
-      "**GungHo 展台是本场主机侧的主要信息来源**：9/18 公布三作完整阵容与主播直播表（9/19-21 共 6 场），《ニンジャラ2》试玩可抽含 Switch 2 本体与 HORIPAD TURBO 的「ガムガチャ」（每日 1 名），并首次举办系列概念设定画展。同一份新闻稿在 9/17 已带出《B.L.U.E. NOVA》，但《ニンジャラ2》《Chit Chat Party!》当时未被建卡 —— 属本轮补上的漏收。",
-      "**本轮明确跳过（非日方资本，不建卡）**：Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》《Pearl in Blue》、Smilegate《MIRESI: Invisible Future》《Dead Account: Two Blue Flames》、Nexon《Mabinogi Mobile》（日本 10/07 上线）《Pareidolia》《OVERGEARED》、NCSoft《Astrae Oratio》、Com2uS《GACHIAKUTA: BREAKOUT》；另有数款由中国资本企业开发・发行的作品（含一款 9/17 全球上线的捉宠 RPG、一款由日本 IP 授权、中国资本工作室开发的狩猎动作手游），按资本归属红线同样跳过，记录只留在巡检汇报中。",
-      "**TGS 模块与厂商名单更新**：新增 Sanrio Games 展位条目（双区出展＋9/19 舞台），ブシロード 展位补写《BanG Dream! Our Notes》正式版先行试游，GungHo 与 SEGA／ATLUS 两条展位记录补写第 2 日现场情报；`extra` 分组新增 **サンリオ（Sanrio Games）**、**ドラガミゲームス** 与 **フロムトーキョー（FROMTOKYO）**（24 → 27 家），`アイディアファクトリー` 由 `watch` 升为 `covered`，ブシロード 与 ガンホー 的 `gameIds` 补齐新作。4 个 category 家数仍为 8／16／16／10＝50，`mostWanted` 维持 2026-09-13 期（Famitsu 最新一期）。"
+      "**手游侧本场无新增条目，TGS2026 第 2 日（9/18）的移动端情报集中在既有作品**：バンダイナムコ 在综合展台同时提供《BLEACH Mirrors High》与《ONE PIECE 海のごちそうレストラン》的 iOS／Android 版试玩，后者还公开了「バラティエ 2 号店」的玩法影像与架空求人影像；NHN PlayArt 时隔 8 年重返 TGS，展台由 4 款运营中作品＋3 款未上线作品组成，《OVER RUSH》的公开 β 测试已于 9/17 开跑；LEVEL-5 则把《イナズマイレブン クロス》与自社大型主机作并列宣传。手游区维持 28 条。",
+      "**本场未检出新的日方主导手游新作，TGS2026 的移动端新作仍由韩资四社占据**：Netmarble《Solo Leveling: KARMA》（事前登录 9/16 在日韩开放）与《シャングリ・ラ フロンティア 七大最強種》、Nexon《Mabinogi Mobile》（日本 10/07 上线、事前登录 20 万）与《Pareidolia》、Smilegate《MIRESI》《Dead Account》、NC《Astrae Oratio》（2027 年 iOS／Android 首发）等，均按「开发・发行的资本归属」判定跳过，不建条目、不记厂商。",
+      "**主机・PC 侧新增 2 条，均为本场补上的漏收**：《KEMURI》（UNSEEN Inc.／中村育美，2027 年 PS5・Steam，9/18 开放 Steam 商店页与愿望单并公开 TGS2026 新预告片，妖怪「契约－凭依装束」为核心系统）与乙女向《Le Mirage Mystique》（ブロッコリー 旗下 LicoBiTs 第四作，9/17 已发售，实体通常版 8,580 日元）。后者与 9/18 补收的 Otomate 四款同属「女性向」这条长期空白线，说明该品类必须按品牌逐个过筛，按厂商名录检索必然漏。主机・PC 区 78 → 80 条。",
+      "**《UN:Me》确认延期至 2027 年**：集英社ゲームズ 与 Historia 于 9/16 发表延期，理由是追加动作捕捉与表情演出、以强化寄宿在同一具身体内的四个灵魂在对话中的差异；同时公布主人公由 花守ゆみり 配音。TGS2026 集英社ゲームズ 展台（05-C10）的日本首次试玩已收录新的动捕对话场景。该条目已更新（发售窗口、cast、期待度依据）。",
+      "**厂商名单本轮无状态变化**：4 个 category 家数仍为 8／16／16／10＝50，`extra` 维持 27 家。UNSEEN Inc. 与 ブロッコリー（LicoBiTs）虽在清单外且有实际新品，但 `extra` 目前以「日本手游发行方」为收录口径，两者均为主机侧，故本轮只在作品条目中记录、不入 `extra`；若下轮再出现第二款动向再行评估。",
+      "**漏收核查（逐个过 9 个 IP／品牌）**：呪術廻戦（RUMBLE: SURVIVATON 已收录，延期至 2027 已记）／ONE PIECE（已收录，本轮补 TGS 情报）／BLEACH（已收录）／刀剣乱舞（已收录）／ホロライブ（hololive Dreams・holoVillage 已收录，另见 holoVillage 是主机侧）／鬼滅の刃（窗口内无日方主导新游）／ブルーロック（仅见法国 Sloclap『Rematch』9/24 联动，非日方主导新游）／名探偵コナン（仅见 2019 年 Bushiroad 全球版跑酷，窗口外）／サンリオ「フラガリアメモリーズ」（已收录）。**查出漏收 2 条**（KEMURI／Le Mirage Mystique），均已建卡。",
+      "**TGS 模块**：9/19 公众日首日开场，`tgs.note` 追加首日公众日与各社舞台日程；下一场（19:00）的增量区段为 9/19 白天现场情报，重点为サンリオゲームス 9/19 舞台首次公开『FRAGARIAMEMORIES Color of Wishes』游戏情报、以及 Netmarble／Smilegate 的 9/19 舞台内容。"
     ]
-  }
+  },
 };
