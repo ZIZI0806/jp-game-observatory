@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-20T09:30:00+08:00",
+    updatedAt: "2026-09-20T19:10:00+08:00",
     edition: "2026-09-20",
     window: "2026-07-20 ~ 2026-09-20（滚动最近 2 个月）",
     sources: [
@@ -335,17 +335,17 @@ window.OBSERVATORY = {
       companyJp: "合同会社EXNOA（DMM GAMES）／ NHNプレイアート株式会社",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-09-17（TGS2026 NHN PlayArt 展台で試遊・9/20 DMM GAMES 主舞台の特別舞台）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（TGS2026 主舞台で配信日 09-24 を発表・事前登録 50 万突破）",
+      capturedAt: "2026-09-20",
       title: { jp: "刀剣乱舞 ぱずぎり", cn: "刀剑乱舞 ぱずぎり", en: "Touken Ranbu Pazu-giri" },
       genre: "拼图 RPG（パズル RPG）",
       platforms: ["iOS", "Android", "PC（DMM GAMES PLAYER）"],
-      release: "2026年内",
-      releasePrecision: "年",
+      release: "2026-09-24（配信予定）",
+      releasePrecision: "日",
       summary: "《刀剑乱舞 ONLINE》首款拼图派生作。世界观、剧本与角色设计由 Nitroplus 监修，拼图部分的开发由 NHN PlayArt 负责，合同会社 EXNOA 开发运营。核心玩法是把盘面上同色的「刀垣」连成一线发动连续斩击，刀剑男士以 Q 版形象登场，可编组能力各异的刀剑男士出战；每日游玩会被记录进「活动日志」，保留战斗记录与角色成长轨迹。2026-07-12 开放事前登录，9 月中旬事前登录人数已突破 40 万，官方随即加开 50 万档奖励（含稀有刀剑男士「三日月宗近（战斗服）」）。",
-      highlight: "【TGS2026 9/17】NHN PlayArt 展位（2 号馆）提供试玩，9/20 15:40 DMM GAMES 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），展位任务集章可换限定卡组。　《刀剑乱舞》IP 首次进入拼图品类，事前登录一个多月破 40 万，是本期女性向市场最大的单一新品。",
+      highlight: "【TGS2026 9/20】15:40 の「刀剣乱舞ONLINE×ぱずぎり」合同主舞台で配信日が 2026-09-24 に確定、事前登録は 50 万を突破。開始時点でメインストーリー第 3 章まで（桃太郎・一寸法師・浦島太郎）、刀剣男士 42 振が実装される。　【TGS2026 9/17】NHN PlayArt 展位（2 号馆）提供试玩，9/20 15:40 DMM GAMES 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），展位任务集章可换限定卡组。　《刀剑乱舞》IP 首次进入拼图品类，事前登录一个多月破 40 万，是本期女性向市场最大的单一新品。",
       mobile: {
-        status: "事前登録受付中（2026年内 配信予定）",
+        status: "事前登録受付中（2026-09-24 配信予定）",
         os: ["iOS", "Android"],
         monetization: "基本無料（アイテム課金あり）",
         preReg: {
@@ -371,7 +371,7 @@ window.OBSERVATORY = {
         cast: "三日月宗近 役：鳥海浩輔、陸奥守吉行 役：濱健人、二条貞宗 役：田所陽向（TGS2026 特別ステージ出演者の発表より）"
       },
       console: {
-        status: "2026年内 配信予定（PC 版は DMM GAMES PLAYER 版／事前登録受付中）",
+        status: "2026年9月24日 配信予定（PC 版は DMM GAMES PLAYER 版／事前登録受付中）",
         os: ["PC（DMM GAMES PLAYER 版）"],
         monetization: "基本無料（アイテム課金あり）。パッケージ販売はなし",
         developer: "NHNプレイアート株式会社（パズル部分の開発）／ 合同会社EXNOA（開発運営）",
@@ -394,7 +394,8 @@ window.OBSERVATORY = {
       news: [
         { source: "QooApp（事前登録開始・システム紹介）", url: "https://news.qoo-app.com/post/440436" },
         { source: "Holiday Travel（TGS2026 出展・40万人突破と50万人档）", url: "https://www.haveagood-holiday.com/zh-TW/articles/touken-ranbu-pazugiri-tokyo-game-show-2026-booth" },
-        { source: "Ludens Media（事前登録と多平台展開）", url: "https://www.ludens.com.tw/touken-ranbu-pazzugiri-pre-registration" }
+        { source: "Ludens Media（事前登録と多平台展開）", url: "https://www.ludens.com.tw/touken-ranbu-pazzugiri-pre-registration" },
+        { source: "Yomimono（TGS2026 主舞台で配信日 09-24 と実装内容を発表／4Gamer.net 出典）", url: "https://www.yomimono.id/touken-ranbu-pazugiri-sets-september-24-release-with-42-touken-danshi" }
       ],
       videos: [
         { label: "官方 PV（Q 版刀剑男士与消除战斗实机）", platform: "官方 YouTube", url: "https://www.youtube.com/@touken_puzzle" },
@@ -2463,15 +2464,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 で世界初の一般試遊を公開）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
+      capturedAt: "2026-09-20",
       title: { jp: "FINAL FANTASY VII REVELATION", cn: "最终幻想 VII 启示录", en: "FINAL FANTASY VII REVELATION" },
       genre: "RPG（Remake 三部曲终章）",
       platforms: ["PS5", "Nintendo Switch 2", "Xbox Series X|S", "PC (Steam / Epic)"],
       release: "2027-04-08",
       releasePrecision: "日",
       summary: "Nintendo Direct 9/9 确认最终发售日为 2027 年 4 月 8 日，全平台同步。玩家可搭乘飞空艇 Highwind 自由飞行、跳伞任意降落，实现无缝天地切换；新增可操作角色 Vincent Valentine 与 Cid Highwind，并导入可切换职业动作的「FITS」系统。",
-      highlight: "【TGS2026 9/17】Square Enix 展台以本作为绝对核心：三部曲终章全球首个一般试玩（公开飞空艇世界地图与「Trinity」三人连携战斗），另设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点；PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作。　2027-04-08 全平台同步，本世代最大规模 RE 企划在此收束。",
+      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】Square Enix 展台以本作为绝对核心：三部曲终章全球首个一般试玩（公开飞空艇世界地图与「Trinity」三人连携战斗），另设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点；PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作。　2027-04-08 全平台同步，本世代最大规模 RE 企划在此收束。",
       news: [
         { source: "Square Enix 官方新闻稿", url: "https://press.na.square-enix.com/FINAL-FANTASY-VII-REVELATION-ANNOUNCED-EXPERIENCE-THE-JOURNEYS-END-IN-" },
         { source: "Siliconera（gamescom 预告解析）", url: "https://www.siliconera.com/see-the-gamescom-2026-ffvii-revelation-trailer/" },
@@ -2592,15 +2593,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社アトラス",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 開幕日 えなこ登壇のトークショーとプレイアブル出展）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
+      capturedAt: "2026-09-20",
       title: { jp: "Persona 4 Revival", cn: "女神异闻录 4 Revival", en: "Persona 4 Revival" },
       genre: "RPG（完全重制）",
       platforms: ["Xbox Series X|S", "Xbox on PC", "PS5", "Steam", "Nintendo Switch 2（2027-05-20）"],
       release: "2027-02-18（Switch 2 版 2027-05-20）",
       releasePrecision: "日",
       summary: "2008 年《Persona 4》的完全重制版，保留原作的剧情与角色，对画面与游玩体验全面重建。2027 年 2 月 18 日全球同步发售；Nintendo Switch 2 版确认于同年 5 月 20 日推出。首日加入 Xbox Game Pass Ultimate 与 PC Game Pass。官方同期公开以 クマ（Teddie）为主的新预告片，并再次确认重制以 Unreal Engine 5 全面重建、剧本全程配音。TGS2026 开幕日进一步确认：作中动画过场由 MAPPA 制作，首日加入 Xbox Game Pass，展位 Demo 可分别体验剧情段落与雪子城堡的迷宫探索。",
-      highlight: "【TGS2026 9/17】Xbox 放送公开 白鐘直斗 的角色映像，并确认 2027-02-18 发售、首日加入 Game Pass、作中动画过场由 MAPPA 制作（展位 Demo 分剧情段落与雪子城堡迷宫两本）。　三处露出同时开跑：开幕日 11:20 えなこ×制作人 和田和久 谈话舞台、SEGA/ATLUS 展位与 Nextorage 展位可玩 Demo，9/19 11:20 监督 矢島大輔×k4sen×Clutch_Fi 特别舞台。　PS5／Xbox／PC 与 Switch 2 之间存在约三个月的发售时间差（2027-02-18 / 2027-05-20），是本次少见的平台窗口",
+      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】Xbox 放送公开 白鐘直斗 的角色映像，并确认 2027-02-18 发售、首日加入 Game Pass、作中动画过场由 MAPPA 制作（展位 Demo 分剧情段落与雪子城堡迷宫两本）。　三处露出同时开跑：开幕日 11:20 えなこ×制作人 和田和久 谈话舞台、SEGA/ATLUS 展位与 Nextorage 展位可玩 Demo，9/19 11:20 监督 矢島大輔×k4sen×Clutch_Fi 特别舞台。　PS5／Xbox／PC 与 Switch 2 之间存在约三个月的发售时间差（2027-02-18 / 2027-05-20），是本次少见的平台窗口",
       console: {
         status: "Nintendo Switch 2 版 2027年5月20日発売予定／他機種 2027年2月18日。価格はいずれも未発表",
         os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC (Steam / Microsoft Store)"],
@@ -2863,15 +2864,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社カプコン",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 カプコン展台で Switch 2 版の一般試遊／Xbox 放送で拡張の 2027 年ウィンドウを確認）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
+      capturedAt: "2026-09-20",
       title: { jp: "モンスターハンターワイルズ（Switch 2 版）/ 拡張「Ascendance」", cn: "怪物猎人 Wilds（Switch 2 版）/ 扩展包 Ascendance", en: "Monster Hunter Wilds (Switch 2) / Ascendance" },
       genre: "狩猎动作 RPG",
       platforms: ["Nintendo Switch 2", "PS5", "Xbox Series X|S", "PC"],
       release: "Switch 2 版 2026-12-04 / Ascendance 2027",
       releasePrecision: "日",
       summary: "Nintendo Direct 确认《Monster Hunter Wilds》于 2026 年 12 月 4 日登陆 Switch 2，含既有更新内容，支持本地无线与跨平台联机。大型扩展包「Ascendance」定于 2027 年推出，追加可借翔虫（Seikret）移动的垂直区域，并公布全新古龙「Gundoraga」。9/16 的 Capcom Spotlight 进一步公开炎王龙 Teostra 回归、新机制「Boost Bracer」，以及无需翔虫即可换武器、可在地图上的道具箱直接换装等本体同步实装的操作改善。Switch 2 版实体版已开放预约，数字版 10 月 19 日起开放。9/17 的 Xbox TGS2026 放送进一步把「Ascendance」的推出窗口锁定为 2027 年，追加公开新区域「Skybound Eyrie」与「Boost Driver」机制，并明确 Boost 系列系统覆盖全部 14 种武器。",
-      highlight: "【TGS2026 9/17】Capcom 展台（7 号馆）Switch 2 版试玩是开幕日最长队列之一；同日 Xbox 放送把扩展「Ascendance」的推出窗口锁定为 2027 年，公开新区域「Skybound Eyrie」与面向全 14 种武器的新机制 Boost Bracer／Boost Driver。　扩展包在 TGS 开幕前夜公开炎王龙回归，并把这批操作改善同步回本体；Switch 2 版本体 12/04 先行。",
+      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】Capcom 展台（7 号馆）Switch 2 版试玩是开幕日最长队列之一；同日 Xbox 放送把扩展「Ascendance」的推出窗口锁定为 2027 年，公开新区域「Skybound Eyrie」与面向全 14 种武器的新机制 Boost Bracer／Boost Driver。　扩展包在 TGS 开幕前夜公开炎王龙回归，并把这批操作改善同步回本体；Switch 2 版本体 12/04 先行。",
       console: {
         status: "Switch 2 版 2026年12月4日発売予定／大型拡張「Ascendance」2027年配信予定",
         os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
@@ -3812,15 +3813,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：バンダイナムコエイセス）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 でシリーズ初の一般試遊を実施／バンダイナムコ展台の目玉）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
+      capturedAt: "2026-09-20",
       title: { jp: "ACE COMBAT 8: Wings of Theve", cn: "皇牌空战 8 Wings of Theve", en: "Ace Combat 8: Wings of Theve" },
       genre: "フライトシューティング／空戦アクション",
       platforms: ["PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
       release: "2026-10-02（デラックスエディションは 09-29 から先行アクセス）",
       releasePrecision: "日",
       summary: "系列最新作，2026-10-02 发售，2026-09-14 通过 PlayStation.Blog 公开故事预告并确认「歼灭战」（Annihilation Battle）在任务 7 回归。歼灭战的核心是自由度：限时内自行决定先打哪个目标、什么时候回补给线装弹，目标清单包括太阳能发电站、储油罐、空军基地与弹药库。连锁破坏进一步加深策略性——击中储油罐引发的爆炸会波及周边建筑，敌机坠落地点附近的设施也会受损。本作同时介绍了两件超大型兵器：周长 6 公里、配备 2,000 米跑道与 CIWS／SAM／电磁炮的海上浮体「Megafloat Fatsia」，以及低轨道 500 公里、以金属棒动能打击的卫星兵器「Tonitrus Spear」。预约特典为可操作机体 F-14A Tomcat 与《ACE COMBAT ZERO: THE BELKAN WAR》移植版，数字豪华版含自 9/29 起的三日先行体验。",
-      highlight: "【TGS2026 9/17】バンダイナムコ 把整个展台做成以本作为核心（试玩机＋限定周边＋现场预购），PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作——系列首次公开试玩正好卡在 10/02 发售前两周。　歼灭战回归是核心卖点：破坏顺序与补给线时机交给玩家，连锁破坏让「先打哪一个」直接影响战果。",
+      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】バンダイナムコ 把整个展台做成以本作为核心（试玩机＋限定周边＋现场预购），PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作——系列首次公开试玩正好卡在 10/02 发售前两周。　歼灭战回归是核心卖点：破坏顺序与补给线时机交给玩家，连锁破坏让「先打哪一个」直接影响战果。",
       console: {
         status: "2026年10月2日発売予定。予約受付中",
         os: ["PlayStation 5", "Xbox Series X|S", "PC（Steam）"],
@@ -4458,15 +4459,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社KADOKAWA",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-07-26（アニメ10周年イベント「Colorful」で正式発表・事前登録開始）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（TGS2026 DMM GAMES ブースの特別ステージで主題歌を発表）",
+      capturedAt: "2026-09-20",
       title: { jp: "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～", cn: "为美好的世界献上祝福！～为这可爱的城镇献上繁荣！～", en: "KonoSuba: God's Blessing on This Wonderful World! - Prosperity to This Beloved City!" },
       genre: "異世界トラブル生活 RPG（3D バトル＋生活パート、基本無料＋アイテム課金）",
       platforms: ["iOS", "Android", "PC"],
       release: "2026年内（日本先行、海外配信は未発表）",
       releasePrecision: "年",
       summary: "角川（KADOKAWA）以《为美好的世界献上祝福！》为原作推出的官方新作，简称「まちすば」，定位为「异世界麻烦生活 RPG」。舞台设在阿克塞尔，玩法由 3D 演出的战斗与日常／城镇生活两部分组成，战斗中用 3D 动画还原惠惠的爆裂魔法等角色标志性技能；剧情为完全原创，而非复刻动画或小说既有篇章。原作轻小说作者晓夏目亲自担任剧情监修，原作插画师三嶋黑音参与制作协力。手机版由角川自行发行，PC 版另定由 DMM GAMES 配信。",
-      highlight: "IP 持有方角川首次亲自下场做手游：原作作者监修剧情、原班声优回归，接替 2025 年初停服的《このすば Fantastic Days》。",
+      highlight: "【TGS2026 9/20】DMM GAMES ブース 15:00 の特別ステージで、主題歌が Machico の新曲「WOOHOO!」に決定（カズマ役 福島潤＋KADOKAWA プロデューサー 藤井大樹 が登壇、MC は百華繚乱。アーカイブ公開中）。　IP 持有方角川首次亲自下场做手游：原作作者监修剧情、原班声优回归，接替 2025 年初停服的《このすば Fantastic Days》。",
       mobile: {
         status: "事前登録受付中",
         os: ["iOS", "Android"],
@@ -4486,7 +4487,8 @@ window.OBSERVATORY = {
       news: [
         { source: "KADOKAWA 公式作品サイト", url: "https://konosuba-machisuba.com/" },
         { source: "Yomimono（PC 版 DMM GAMES 配信決定・TGS2026 ステージ情報／4Gamer・電ファミ・Game Spark・INSIDE の4社を出典）", url: "http://yomimono.id/konosuba-game-machisuba-pc-version-heads-to-dmm-games" },
-        { source: "Anime United（KADOKAWA 発表・キャスト・世界観の整理）", url: "https://www.animeunited.com.br/noticias/ultimas/konosuba-novo-rpg-machisuba-4a-temporada-anime" }
+        { source: "Anime United（KADOKAWA 発表・キャスト・世界観の整理）", url: "https://www.animeunited.com.br/noticias/ultimas/konosuba-novo-rpg-machisuba-4a-temporada-anime" },
+        { source: "Anime World（TGS2026 ステージで主題歌 Machico「WOOHOO!」発表）", url: "https://animeworld.info/2026/09/20/konosuba-game-machisuba-theme-song-revealed-machico-s-new-track-woohoo" }
       ],
       videos: [
         { label: "公式作品サイト（ティザー PV・キービジュアルを公開）", platform: "官方站", url: "https://konosuba-machisuba.com/" },
@@ -4510,15 +4512,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社セガ（開発：龍が如くスタジオ）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 開幕日 15:40「龍が如くスタジオ TV」TGS2026 特別番組で新情報を公開）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
+      capturedAt: "2026-09-20",
       title: { jp: "STRANGER THAN HEAVEN", cn: "异于天堂", en: "Stranger Than Heaven" },
       genre: "ストリートアクションアドベンチャー（多時代クロニクル）",
       platforms: ["PS5", "Xbox Series X|S", "PC(Steam)"],
       release: "2027-01-15（Game Pass 同時配信）",
       releasePrecision: "日",
       summary: "SEGA 旗下龍が如くスタジオ（曾用代号 Project Century）在 TGS2026 开幕之夜生配信中公开约 10 分钟的序章影像，并首次确定发售日为 2027 年 1 月 15 日，登陆 PS5／Xbox Series X|S／PC(Steam) 并同步加入 Game Pass。作品以日本近代史为舞台，横跨 1915 年福冈小仓、1929 年广岛吴市、1943 年大阪浪速区、1951 年静冈热海，以及 1965 年东京新宿的虚构街区神室町。主角大东诚为日美混血，故事讲述无家可归者在半个世纪里寻找归属的挣扎。",
-      highlight: "【TGS2026 9/17】开幕日 15:40「龍が如くスタジオ TV」TGS2026 特别节目公开约 10 分钟序章影像并确定发售日为 2027-01-15，该舞台在 SEGA 与 RGG Studio 官方频道同步配信；SEGA/ATLUS 展位另排 9/19 实机（Kenny Omega）、9/20 实机（kson）、9/21 最终舞台（城田優・藤岡靛），9/19-21 13:00-15:00 经 SEGA Account 抽选优先试玩。　如龙工作室彻底离开现代日本：五个时代、五个地域，并用已故演员菅原文太的 CG 形象做角色，取得其家族与东映的正式授权。",
+      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】开幕日 15:40「龍が如くスタジオ TV」TGS2026 特别节目公开约 10 分钟序章影像并确定发售日为 2027-01-15，该舞台在 SEGA 与 RGG Studio 官方频道同步配信；SEGA/ATLUS 展位另排 9/19 实机（Kenny Omega）、9/20 实机（kson）、9/21 最终舞台（城田優・藤岡靛），9/19-21 13:00-15:00 经 SEGA Account 抽选优先试玩。　如龙工作室彻底离开现代日本：五个时代、五个地域，并用已故演员菅原文太的 CG 形象做角色，取得其家族与东映的正式授权。",
       news: [
         { source: "Anime News Network（TGS2026 Special Opening Night 直播内容）", url: "https://animenewsnetwork.com/news/2026-09-16/stranger-than-heaven-game-video-previews-opening-showbiz-combat/.241858" },
         { source: "Game8（开场影像与难度模式试玩解析）", url: "https://game8.co/articles/latest/stranger-than-heaven-sees-makoto-daito-eat-garbage-and-fight-police-in-intro-story-reveal" },
@@ -4722,15 +4724,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09（TGS2026 前後に日中メディア合同試遊会と開発陣インタビューが公開）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
+      capturedAt: "2026-09-20",
       title: { jp: "GUNDAM 異軌征途", cn: "高达 异轨征途", en: "GUNDAM ROGUE ORBIT" },
       genre: "高速アクション（新ガンダム宇宙「RG Project」）",
       platforms: ["PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
       release: "2027-03-05",
       releasePrecision: "日",
       summary: "万代南梦宫自研自发的高达新作动作游戏，2027 年 3 月 5 日登陆 PS5／Xbox Series X|S／PC(Steam)，与同属新宇宙「RG Project」的动画《機動戦士ガンダム RG XARX-ZERO》同步展开。作品刻意抛开系列近 50 年的既有世界观，改为人类与外星生命体「啟示（Apocalypse）」的种族存亡之战，采用接近写实而非动画色调的渲染，追求「照片级写实＋动作游戏」的 3A 体验。制作人富山勇也（《噬神者3》制作人）与总监芹泽义行强调高达的三大核心（战争／机动战士／人间戏剧）不变，但把「机动战士」的本质收束为「人乘坐的二足步行战斗兵器」，并加入第一人称驾驶舱演出；敌方巨大且可部位破坏，战斗节奏接近共斗狩猎。开发团队称完整攻略终盘内容约需 10 小时，支援单人挑战与多人协力。",
-      highlight: "【TGS2026 9/17】TGS2026 前后日中各媒体相继公开试玩与开发阵合同采访（上海先行试玩会为 8/19），Bandai Namco 展台亦把本作列为可试玩作品。　万代南梦宫自研自发、与动画共用「RG Project」新宇宙：比起机体情怀，更押注「人与地球外生命体对垒」的写实动作路线，目标是把不熟悉高达的动作游戏玩家拉进来。",
+      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】TGS2026 前后日中各媒体相继公开试玩与开发阵合同采访（上海先行试玩会为 8/19），Bandai Namco 展台亦把本作列为可试玩作品。　万代南梦宫自研自发、与动画共用「RG Project」新宇宙：比起机体情怀，更押注「人与地球外生命体对垒」的写实动作路线，目标是把不熟悉高达的动作游戏玩家拉进来。",
       news: [
         { source: "Automaton Media（開発陣インタビュー：新規世界観と写真級写実の狙い）", url: "https://automaton-media.com/en/news/gundam-rogue-orbit-is-designed-for-action-gamers-aiming-to-lower-the-barrier-to-entry-created-by-gundams-decades-of-past-shows-devs-say" },
         { source: "CBR（プロデューサー追加インタビュー：終盤コンテンツと協力プレイ）", url: "https://www.cbr.com/gundam-rogue-orbit-developer-endgame-clear-6-hours" },
@@ -5968,7 +5970,294 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["新作発表", "恋愛AVG", "PC", "Switch", "工画堂スタジオ"]
-    }
+    },
+    {
+      id: "colopl-wiz-generation",
+      company: "COLOPL（制作：STAR STUDIOS）",
+      companyJp: "株式会社コロプラ（プロデュース：STAR STUDIOS）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-08-26（今冬配信決定・事前登録受付開始）",
+      capturedAt: "2026-09-20",
+      title: { jp: "クイズアクションRPG ウィズジェネレーション", cn: "问答动作 RPG ウィズジェネレーション（WizGeneration）", en: "Quiz Action RPG WizGeneration" },
+      genre: "クイズアクション RPG（基本無料＋アイテム課金）",
+      platforms: ["iOS", "Android"],
+      release: "2026年冬（予定）",
+      releasePrecision: "季",
+      summary: "COLOPL 于 2026-08-26 公布、由 STAR STUDIOS 制作的全新问答动作 RPG，预计 2026 年冬季在 iOS／Android 上线，基本免费＋道具收费。核心设计是把玩家的「知识（问答力）」直接换算成动作：点击攻击填充技能槽，槽满即触发问答，答对就能打出华丽的必杀动作，官方称这套「实时问答动作战斗」让不擅长动作游戏但擅长答题的玩家也能爽快游玩。舞台是「只要攻略就能实现任何愿望」的《魔塔》。剧情描写魔导学园学生魔导士 Willow 为把被谜之魔女变成猫的姐姐 Wiz 变回原样，代替姐姐与伙伴一同挑战魔塔。2026-09-12「问答日」起另举办事前登录纪念活动并公开募集玩家原创题目；9/20 的 TGS2026 舞台首次公开角色预告与 14 名声优阵容。",
+      highlight: "【TGS2026 9/20】舞台上首次公开角色预告（已在官方 YouTube 上线）并一次解禁 14 名声优阵容——ウィロウ：加隈亜衣／ウィズ：黒沢ともよ／ガラハド：榎木淳弥 等，主题曲由 KOHTA YAMAMOTO 作曲编曲。事前登录自 2026-08-26 起在 App Store／Google Play／官方 X／官方 LINE／予約トップ10 受理中。　COLOPL 把『クイズRPG 魔法使いと黒猫のウィズ』13 年积累的问答设计直接移植进动作品类，是该公司 2026 年继『Active Cinema RPG 369』之后的第二款原创新规手游。",
+      mobile: {
+        status: "事前登録受付中（2026年冬 配信予定）",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金制）。一部キャラクターは有料のランダム型アイテム提供方式で提供",
+        preReg: { open: true, since: "2026-08-26", reward: "App Store／Google Play／公式 X／公式 LINE／予約トップ10 の 5 経路で受付中。9/12 の「クイズの日」記念キャンペーンでは、プレイヤーが考えたクイズがゲーム内に登場する問題募集企画も同時開催。人数マイルストーン型の特典内容は公式発表待ち。" },
+        developer: "株式会社コロプラ（プロデュース：STAR STUDIOS）",
+        publisher: "株式会社コロプラ",
+        region: "日本",
+        distribution: "App Store / Google Play（日本）",
+        payment: [],
+        ipSource: "オリジナル IP（オリジナル作）。既存のアニメ・漫画等のライセンス原作はなく、クイズ RPG で 13 年の実績を持つ COLOPL 自身の企画。企画プロデュースは STAR STUDIOS",
+        series: "『クイズRPG 魔法使いと黒猫のウィズ』（2013 年配信開始、2026 年 3 月に 13 周年）でクイズ RPG の定番を作った COLOPL の系譜にある完全新作。同社は 2026-09-01 に『Active Cinema RPG 369』を配信しており、本作はそれに続く新規タイトルとなる",
+        features: [
+          "タップ攻撃でスキルゲージを充填し、満タンで発動するクイズに正解すると必殺アクションが出る「リアルタイム・クイズアクションバトル」",
+          "「アクションゲームは苦手だがクイズは得意」という層でも爽快に遊べるよう調整されたバランス設計",
+          "舞台は制覇すればどんな願いも叶うという《魔塔》。挑戦者となった姉に代わり、妹のウィロウが仲間と塔を登る",
+          "全国のプレイヤーと競う「魔塔カップ」と、多人数で同時参加する生配信クイズの 2 つの競技要素",
+          "メインテーマの作曲・編曲は KOHTA YAMAMOTO 氏が担当",
+          "事前登録は App Store／Google Play に加え、公式 X・公式 LINE・予約トップ10 でも受付"
+        ],
+        synopsis: "魔導学園で学ぶ学生魔導士・ウィロウの憧れは、学園教師にして大陸屈指の天才魔導士である姉・ウィズ。やがてウィズは《魔塔》の挑戦者に選ばれるが、その旅立ちを阻むように謎の魔女が襲来し、妹を守った代償にウィズは猫の姿に変えられてしまう。姉を人間に戻すため、ウィロウは姉の代わりとなり仲間とともに魔塔へ挑む。",
+        cast: "ウィロウ：加隈亜衣／クルミ：宮本侑芽／アルバ：田邊幸輔／イデア：田中沙耶／ガラハド：榎木淳弥／モイミール：山口愛／イーライ：一宮麗／ヴェルヘルミナ：須藤叶希／モルガナ：諏訪彩花／ウィズ：黒沢ともよ／ネロ：松田利冴／メロ：生田輝／シロエ：木村良平／ダルゼア：花守ゆみり"
+      },
+      news: [
+        { source: "株式会社コロプラ 公式プレスリリース（キャラクタートレーラー＆キャスト陣を公開）", url: "https://colopl.co.jp/news/pressrelease/2026092001.php" },
+        { source: "株式会社コロプラ 公式プレスリリース（今冬配信決定・事前登録受付開始）", url: "https://colopl.co.jp/news/pressrelease/2026082601.php" },
+        { source: "AppMedia（事前登録開始・あらすじとバトルシステム）", url: "https://appmedia.jp/news/80348821" }
+      ],
+      videos: [
+        { label: "公式キャラクタートレーラー（2026-09-20 公開・キャストボイス入り）", platform: "YouTube", url: "https://youtu.be/9plGNQ_Q7xg" },
+        { label: "公式サイト（ウィズジェネレーション）", platform: "官方站", url: "https://wiz-generation.com/" }
+      ],
+      hype: {
+        score: 63,
+        signals: [
+          "COLOPL は『クイズRPG 魔法使いと黒猫のウィズ』を 13 年運営しており、クイズジャンルでの国内知名度とユーザー基盤がある",
+          "事前登録を App Store／Google Play／公式 X／公式 LINE／予約トップ10 の 5 経路で展開し、9/12 からはユーザー参加型の問題募集企画も実施",
+          "TGS2026 のステージでキャラクタートレーラーと 14 名の声優陣を解禁し、当日中に複数の日英メディアが報じている",
+          "配信時期は「今冬」で日付は未公表、事前登録者数も未発表"
+        ]
+      },
+      tags: ["新作", "手游", "クイズRPG", "COLOPL", "オリジナルIP", "TGS2026"]
+    },
+    {
+      id: "castlevania-belmonts-curse",
+      company: "Konami Digital Entertainment（開発：Evil Empire）",
+      companyJp: "コナミデジタルエンタテインメント（開発：Evil Empire）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-20（TGS2026 コナミ展台ステージで体験版 10/01 配信を発表／日本ゲーム大賞 2026 フューチャー部門 受賞）",
+      capturedAt: "2026-09-20",
+      title: { jp: "Castlevania: Belmont's Curse（悪魔城ドラキュラ ベルモンドの呪い）", cn: "恶魔城：贝尔蒙特的诅咒", en: "Castlevania: Belmont's Curse" },
+      genre: "横スクロール探索型アクション（メトロイドヴァニア）",
+      platforms: ["PlayStation 5", "Xbox Series X|S", "Nintendo Switch", "PC (Steam)"],
+      release: "2026-10-15（世界同時）",
+      releasePrecision: "日",
+      summary: "KONAMI 的《恶魔城》系列新作，2026-10-15 在 PS5／Xbox Series X|S／Nintendo Switch／Steam 全球同日发售，标准版 3,850 日元、午夜版 4,950 日元（含税）。舞台是 1499 年被魔物侵袭的中世纪巴黎，主角为曾讨伐德古拉的吸血鬼猎人特雷弗·贝尔蒙特之女「罗斯·贝尔蒙特」——她兼有父亲的战斗本领与母亲赛法·贝尔南德传授的秘法，后者以塔罗牌形式呈现。开发交由《死亡细胞》的 Evil Empire：鞭子「Vampire Killer」既能攻击，也能勾住场景物件把自己拉上平台或钟摆式荡过缺口，配合蹬墙跳、滑铲与鞭索拉近敌人形成高速战斗；打到的 Boss（死神、美杜莎、卡蜜拉，以及新诠释的圣女贞德等）会被封进罗斯的塔罗牌转为「阿尔卡纳」，解锁法术与特殊动作。2026-09-20 的 TGS2026 舞台宣布 10/01 起配信可继承存档的体验版，该作同日获日本游戏大奖 2026「未来部门」奖。",
+      highlight: "【TGS2026 9/20】コナミ展台 14:00 のステージに制作人 谷口勲 と監督 外尾有樹子 が登壇し、体験版を 10/01 から配信すると発表——体験版で育てたレベル等のセーブデータは製品版へ引き継げる。同日の日本ゲーム大賞 2026 フューチャー部門でも受賞。　シリーズ十数年来の全新作で、開発は『Dead Cells』の Evil Empire。鞭による移動と、倒したボスをタロットに封じてアルカナ化する仕組みが軸。",
+      console: {
+        status: "2026年10月15日発売予定。予約受付中。体験版は 10月1日 配信予定（セーブデータ引き継ぎ対応）",
+        os: ["PlayStation 5", "Xbox Series X|S", "Nintendo Switch", "PC（Steam）"],
+        monetization: "通常版 3,850 円（税込）／ミッドナイト版 4,950 円（税込）。追加課金の有無は未発表",
+        developer: "Evil Empire",
+        publisher: "コナミデジタルエンタテインメント",
+        region: "日本／世界同時",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["PlayStation Store", "Microsoft Store", "Nintendo eShop", "Steam"],
+        preOrder: { open: true, since: "2026-09（予約受付中）", reward: "通常版とミッドナイト版の 2 形態。予約特典の内容は公式サイトを参照" },
+        features: [
+          "鞭「ヴァンパイアキラー」を環境の特定オブジェクトに引っかけて、足場への移動や振り子移動ができる",
+          "壁蹴り・スライディング・鞭で敵を引き寄せての斬撃など、テンポの速いアクション",
+          "倒したボスはローズのタロットカードに封じられ「アルカナ」となり、魔法や特殊アクションとして使える",
+          "武器は 7 系統。探索で見つけた武器と「レリック」を組み合わせて戦い方を組み立てる",
+          "デス、メデューサ、カーミラに加え、ジャンヌ・ダルクをモチーフにした新ボスなどが登場",
+          "体験版（10/01 配信）のレベル等のセーブデータは製品版へ引き継ぎ可能"
+        ],
+        synopsis: "1499 年、魔物が突如現れて炎上するパリ。ドラキュラを討った英雄トレバー・ベルモントは、娘のローズ・ベルモントとともに呪われた街へ踏み込む。燃える街から溢れ出す魔物を狩るうち、ローズは城の下に潜む暗い陰謀に巻き込まれていく。",
+        ipSource: "『悪魔城ドラキュラ（Castlevania）』シリーズ（コナミデジタルエンタテインメント）。1986 年の初代から同社が保有する自社 IP",
+        series: "シリーズ十数年来の新作。開発は『Dead Cells』を手がけた Evil Empire が担当し、鞭アクションと探索型ステージ構成を現行水準で再構築する",
+        cast: "トレバー・ベルモント：置鮎龍太郎／死神：鶴岡聡（TGS2026 ステージ登壇・出演者より）"
+      },
+      news: [
+        { source: "Nintendo Everything（TGS2026 ステージで体験版 10/01 配信と作品概要を発表）", url: "https://nintendoeverything.com/castlevania-belmonts-curse-demo-coming-to-switch-next-month/" },
+        { source: "Nintendo Life（コナミ公式発表の整理）", url: "https://www.nintendolife.com/news/2026/09/konami-releasing-castlevania-belmonts-curse-demo-next-month" },
+        { source: "Inven Global（日本ゲーム大賞 2026 フューチャー部門 受賞作品の紹介）", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" }
+      ],
+      videos: [
+        { label: "Nintendo Everything 報道（作品概要と体験版情報／公式映像の解説を含む）", platform: "媒体", url: "https://nintendoeverything.com/castlevania-belmonts-curse-demo-coming-to-switch-next-month/" },
+        { label: "Nintendo Life 報道（コナミ公式発表の整理）", platform: "媒体", url: "https://www.nintendolife.com/news/2026/09/konami-releasing-castlevania-belmonts-curse-demo-next-month" }
+      ],
+      hype: {
+        score: 78,
+        signals: [
+          "日本ゲーム大賞 2026 フューチャー部門（537 作品から一般投票で 10 本）に選出",
+          "1986 年からの長期 IP で、シリーズ十数年来の新作という希少性が高い",
+          "開発が『Dead Cells』の Evil Empire であることが発表時から話題になっている",
+          "TGS2026 のコナミ展台でステージと試遊が組まれ、10/15 発売前の露出が集中している"
+        ]
+      },
+      tags: ["定档", "横スクロールACT", "KONAMI", "TGS2026", "体験版"]
+    },
+    {
+      id: "danganronpa-2x2",
+      company: "Spike Chunsoft",
+      companyJp: "株式会社スパイク・チュンソフト",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞／TGS2026 ハピネット展台に出展）",
+      capturedAt: "2026-09-20",
+      title: { jp: "スーパーダンガンロンパ2×2", cn: "超级弹丸论破 2×2", en: "Super Danganronpa 2x2" },
+      genre: "ハイスピード推理アクション（リメイク）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Xbox Series X|S", "PC (Steam / Epic Games Store)"],
+      release: "2027-01-14（世界同時）",
+      releasePrecision: "日",
+      summary: "2012 年《超级弹丸论破 2 再见绝望学园》的重制版。2025-09 的 Nintendo Direct 首次公布，原定 2026 年内、2026-07-03 宣布延至 2027 年初，最终于 2026-09-09 的 Nintendo Direct 确定为 2027-01-14 全球同日发售，对应 Switch 2／Switch／PS5／Xbox Series X|S／PC（Steam／Epic Games Store）。画面与动画全面翻新，并收录与原版不同的全新剧情模式「Slayhem」，地图也从横向卷轴改为可自由探索的 3D 世界地图。2026-08-26 官方宣布北美与欧洲的 Switch 2 实体版由真卡带改为 Game-Key Card 形式。2026-09-20 在日本游戏大奖 2026「未来部门」（未发售参展作品、由玩家投票选出）获奖。",
+      highlight: "【TGS2026 9/20】日本ゲーム大賞 2026 フューチャー部門を受賞（537 作品中 10 本）。同日ハピネット 展台（6 号馆 N04）に出展。　2027-01-14 の発売に向けて 9/09 の Nintendo Direct で日付が確定し、8/26 には北米・欧州の Switch 2 パッケージ版が Game-Key Card 形式へ変更されることが告知された。",
+      console: {
+        status: "2027年1月14日発売予定（世界同時）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Xbox Series X|S", "PC（Steam / Epic Games Store）"],
+        monetization: "買い切り。価格は地域ストア表記",
+        developer: "スパイク・チュンソフト",
+        publisher: "スパイク・チュンソフト",
+        region: "日本／北米／欧州ほか（世界同時）",
+        distribution: "パッケージ版・ダウンロード版（北米・欧州の Switch 2 版は Game-Key Card 形式）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam", "Epic Games Store"],
+        preOrder: { open: true, since: "2026-09（予約受付中）", reward: "予約特典の詳細は公式サイト参照。北米・欧州の Switch 2 パッケージ版は Game-Key Card 形式へ変更され、既存の実カートリッジ予約分は返金対応" },
+        features: [
+          "2012 年『スーパーダンガンロンパ2 さよなら絶望学園』のリメイク。グラフィックとアニメーションを一新",
+          "オリジナル版とは異なるシナリオを収録する「Slayhem」モードを追加",
+          "横スクロールだったマップを、自由に探索できる 3D ワールドマップに変更",
+          "学級裁判などの推理アクションは原作の骨格を踏襲",
+          "2027-01-14 に Switch 2／Switch／PS5／Xbox Series X|S／PC で世界同時発売"
+        ],
+        synopsis: "絶望学園を舞台にしたハイスピード推理アクションのリメイク。ジャバウォック島に集められた生徒たちが、学級裁判で殺人事件の犯人を追い詰めていく原作の骨格を保ちつつ、新規シナリオと 3D マップで再構成する。",
+        ipSource: "『ダンガンロンパ』シリーズ（スパイク・チュンソフト）。同社の自社 IP",
+        series: "『スーパーダンガンロンパ2 さよなら絶望学園』（2012 年）のリメイク。2025-09 の Nintendo Direct で制作が発表され、2026-07 に 2027 年初頭へ発売延期、9/09 の Nintendo Direct で日付が確定した",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "スパイク・チュンソフト 公式サイト（Danganronpa 2×2 リリース情報・お知らせ）", url: "https://www.spike-chunsoft.com/" },
+        { source: "Yomimono（日本ゲーム大賞 2026 フューチャー部門 受賞 10 タイトル／GAME Watch 出典）", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" },
+        { source: "Inven Global（フューチャー部門 授賞式の模様）", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" }
+      ],
+      videos: [
+        { label: "スパイク・チュンソフト 公式サイト（最新映像・お知らせ）", platform: "官方站", url: "https://www.spike-chunsoft.com/" },
+        { label: "Yomimono 報道（フューチャー部門 受賞 10 作品）", platform: "媒体", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" }
+      ],
+      hype: {
+        score: 74,
+        signals: [
+          "日本ゲーム大賞 2026 フューチャー部門（537 作品から一般投票で 10 本）に選出",
+          "国内外でカルト的人気を持つ推理 ADV シリーズの看板タイトルのリメイク",
+          "発売延期（2026 年内 → 2027 年初頭）と、Switch 2 パッケージ版の Game-Key Card 形式変更が継続的に話題になっている",
+          "TGS2026 のハピネット 展台、およびファミ通×電撃の DAY02 番組にも単独枠が用意されている"
+        ]
+      },
+      tags: ["定档", "推理ADV", "リメイク", "Spike Chunsoft", "TGS2026"]
+    },
+    {
+      id: "magical-girl-incustom-village",
+      company: "GOOD SMILE COMPANY（開発：Acacia／Re,AER）",
+      companyJp: "株式会社グッドスマイルカンパニー（発売）／ Acacia・Re,AER（開発）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞／TGS2026 ハピネット ブースに出展）",
+      capturedAt: "2026-09-20",
+      title: { jp: "魔法少女ノ因習村", cn: "魔法少女的因習村", en: "Magical Girl Taboo Village" },
+      genre: "サイコホラー・ミステリーADV（ビジュアルノベル）",
+      platforms: ["Nintendo Switch", "PC (Steam)"],
+      release: "2026年内（予定）",
+      releasePrecision: "年",
+      summary: "由《魔法少女的魔女审判》团队 Acacia 与 Re,AER 联手开发、GOOD SMILE COMPANY 发行的心理恐怖悬疑视觉小说，预定 2026 年内登陆 Nintendo Switch 与 PC（Steam）。主角绵贯咲夜为「某个目的」与挚友造访一座被奇异习俗与诅咒封闭的村庄，却在古旧神社中醒来，面前吊着一具全身绽放花朵的少女尸体；同样幸存下来的少女都有一只眼睛开出花，成为被「神孕花」选中的魔法少女——每晚 8 点的「花送之仪」必须吊死其中一人献给神孕花。玩家要随视角切换逐步逼近仪式背后的真相。剧本由《尸体派对》系列的祁答院慎执笔。2026-09-16 公布上田丽奈为芝千羽配音，2026-09-20 在日本游戏大奖 2026「未来部门」获奖。",
+      highlight: "【TGS2026 9/20】日本ゲーム大賞 2026 フューチャー部門を受賞（537 作品中 10 本。会場の試遊では「濃密なテキストと映像」が評価された）。　Acacia×Re,AER のサイコホラー第 2 弾で、発売はグッドスマイルカンパニー。脚本は『コープスパーティー』の祁答院慎氏が担当し、9/16 には芝千羽 役に上田麗奈氏が決定している。",
+      console: {
+        status: "2026年内 発売予定（Nintendo Switch／PC Steam）",
+        os: ["Nintendo Switch", "PC（Steam）"],
+        monetization: "買い切り。価格は未発表",
+        developer: "Acacia／Re,AER",
+        publisher: "グッドスマイルカンパニー",
+        region: "日本",
+        distribution: "ダウンロード版（Steam）・Nintendo Switch 版",
+        stores: ["Steam", "Nintendo eShop"],
+        features: [
+          "閉ざされた村で繰り返される「花送りの儀」をめぐるサイコホラー・ミステリー ADV",
+          "視点が切り替わることで物語の形が変わる構成",
+          "脚本は『コープスパーティー』シリーズの祁答院慎氏",
+          "『魔法少女の魔女裁判』を手がけた Acacia と Re,AER のタッグによる第 2 弾",
+          "主人公・綿貫咲夜のほか、儀式に巻き込まれた少女たちが登場する"
+        ],
+        synopsis: "主人公・綿貫咲夜は「ある目的」のために親友とともに、奇妙な風習と呪いに閉ざされた村を訪れる。だが咲夜が目を覚ましたのは古びた神社の中だった。目の前には全身に花を咲かせた少女の死体が吊るされている。生き残った少女たちは皆、片目から花を咲かせ、神孕花に選ばれた魔法少女となっていた。",
+        ipSource: "オリジナル IP。Acacia／Re,AER による完全新作（既存アニメ・漫画等のライセンス原作なし）。発売はグッドスマイルカンパニー",
+        series: "『魔法少女の魔女裁判』に続く Acacia×Re,AER のサイコホラー第 2 弾。同タッグの『配信少女ノ裏垢迷宮』（G-MODE 発売）と同時期に Steam ページが公開された姉妹企画",
+        cast: "芝千羽：上田麗奈（2026-09-16 発表。他のキャストは公式サイト参照）"
+      },
+      news: [
+        { source: "Yomimono（日本ゲーム大賞 2026 フューチャー部門 受賞／GAME Watch 出典）", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" },
+        { source: "Yomimono（上田麗奈の起用発表／電ファミニコゲーマー 出典）", url: "https://www.yomimono.id/acacia-casts-reina-ueda-in-magical-girl-occult-village" },
+        { source: "Inven Global（授賞式の模様・作品紹介）", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" }
+      ],
+      videos: [
+        { label: "Yomimono 報道（フューチャー部門 受賞 10 作品の紹介）", platform: "媒体", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" },
+        { label: "Yomimono 報道（キャスト発表・世界観の説明）", platform: "媒体", url: "https://www.yomimono.id/acacia-casts-reina-ueda-in-magical-girl-occult-village" }
+      ],
+      hype: {
+        score: 66,
+        signals: [
+          "日本ゲーム大賞 2026 フューチャー部門（537 作品から一般投票で 10 本）に選出",
+          "前作『魔法少女の魔女裁判』が高評価で、制作チームを追う固定ファンがいる",
+          "脚本に『コープスパーティー』の祁答院慎氏、キャストに上田麗奈氏と、発表のたびに話題が出る",
+          "発売は 2026 年内で日付は未公表、価格も未発表"
+        ]
+      },
+      tags: ["新作発表", "サイコホラー", "ADV", "グッドスマイル", "TGS2026"]
+    },
+    {
+      id: "romancing-saga-3-destinies-united",
+      company: "Square Enix",
+      companyJp: "株式会社スクウェア・エニックス",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞／TGS2026 スクウェア・エニックス展台で初の一般試遊）",
+      capturedAt: "2026-09-20",
+      title: { jp: "Romancing SaGa 3: Destinies United", cn: "浪漫沙加 3 命运联结", en: "Romancing SaGa 3: Destinies United" },
+      genre: "RPG（完全リメイク）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Xbox Series X|S", "Xbox on PC", "PC (Steam)"],
+      release: "2027-02-16（Steam 版は 2027-02-17）",
+      releasePrecision: "日",
+      summary: "Square Enix 对 1995 年 SFC 名作《浪漫沙加 3》的完全重制版，在 TGS2026 首次正式公开并提供一般试游，发售日定在 2027-02-16（Steam 版 02-17），对应 Switch 2／Switch／PS5／Xbox Series X|S／Xbox on PC／Steam。可从 8 名主角中任选其一，从各自视角体验围绕「宿命之子」展开的群像剧；画面全面 3D 化并重构战斗与游戏系统，过场事件支持全语音，另设可选择难度以便新玩家上手。TGS2026 展台提供「魔王殿：救出迷路的冈」与「恶龙古艾因」两种试玩内容。2026-09-13 曾因巴西年龄分级泄露作品名与对应平台，随后在 TGS2026 正式发表，并在 2026-09-20 的日本游戏大奖 2026「未来部门」获奖。",
+      highlight: "【TGS2026 9/20】日本ゲーム大賞 2026 フューチャー部門を受賞（537 作品中 10 本）。TGS2026 のスクウェア・エニックス展台では「魔王殿：迷子の岡を救出」と「悪龍グウェイン」の 2 種類の試遊を用意。　1995 年 SFC 版の完全リメイクで、8 人の主人公から 1 人を選ぶ群像劇、3D 化された戦闘、全音声のイベントシーンが特徴。発売は 2027-02-16（Steam 版は 02-17）。",
+      console: {
+        status: "2027年2月16日発売予定（Steam 版は 2027年2月17日）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Xbox Series X|S", "PC（Steam / Xbox on PC）"],
+        monetization: "買い切り。価格は地域ストア表記",
+        developer: "スクウェア・エニックス",
+        publisher: "スクウェア・エニックス",
+        region: "日本／世界",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
+        preOrder: { open: false, since: "未発表", reward: "予約受付・特典の詳細は未発表" },
+        features: [
+          "1995 年に SFC で発売された『ロマンシング サ・ガ3』の完全リメイク",
+          "8 人の主人公から 1 人を選び、それぞれの視点で「宿命の子」をめぐる群像劇を体験する",
+          "グラフィックを 3D 化し、戦闘とゲームシステムを再構築",
+          "イベントシーンは全音声対応",
+          "難易度を選択でき、初めて触れるプレイヤーでも遊びやすく調整",
+          "TGS2026 のスクウェア・エニックス展台で 2 種類の試遊を実施"
+        ],
+        synopsis: "大国に挟まれた小国を舞台に、8 人の主人公それぞれの旅が交錯する群像劇。死滅したはずの「四魔貴族」が復活し、世界の存亡を賭けた戦いが始まる。プレイヤーは選んだ主人公の視点から、宿命の子をめぐる物語を追う。",
+        ipSource: "『ロマンシング サ・ガ』シリーズ（スクウェア・エニックス）。1995 年にスクウェアから発売された SFC 版『ロマンシング サ・ガ3』の完全リメイク",
+        series: "『ロマンシング サガ2 リベンジオブザセブン』に続くシリーズ本編のリメイク。1995 年発売の SFC 版は国内でミリオンセラーを記録し、2019 年にリマスター版が現行機へ展開された",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "スクウェア・エニックス 公式サイト（Romancing SaGa 3: Destinies United 特設）", url: "https://www.jp.square-enix.com/rs3r/" },
+        { source: "Inven Global（日本ゲーム大賞 2026 フューチャー部門 授賞式・作品紹介）", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" },
+        { source: "Yomimono（フューチャー部門 受賞 10 タイトル／GAME Watch 出典）", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" }
+      ],
+      videos: [
+        { label: "公式サイト（Romancing SaGa 3: Destinies United／映像・試遊情報）", platform: "官方站", url: "https://www.jp.square-enix.com/rs3r/" },
+        { label: "Inven Global 報道（フューチャー部門 授賞式の模様）", platform: "媒体", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" }
+      ],
+      hype: {
+        score: 76,
+        signals: [
+          "日本ゲーム大賞 2026 フューチャー部門（537 作品から一般投票で 10 本）に選出",
+          "1995 年 SFC 版が国内ミリオンセラーの人気作で、完全リメイクへの期待が高い",
+          "ブラジルの年齢審査で情報が先行流出し、発表前から海外メディアで話題になっていた",
+          "TGS2026 のスクウェア・エニックス展台で 2 種類の試遊を用意し、試遊レポートが複数出ている"
+        ]
+      },
+      tags: ["新作発表", "RPG", "リメイク", "Square Enix", "TGS2026"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -5989,9 +6278,9 @@ window.OBSERVATORY = {
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定し、本体側も covered へ", gameIds: ["persona-6", "persona-4-revival", "stranger-than-heaven", "crazy-taxi-world-tour"] },
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit"] },
-          { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world"] },
+          { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct で『ロックマン デュアルオーバーライド』の 2027 年春発売が確定、9/1 には『ドラゴンズドグマ 2 ダークアリズン』の遺物遠征サイクルを公開した" },
-          { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap"] },
+          { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse"] },
           { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表）" },
         ]
       },
@@ -6004,7 +6293,7 @@ window.OBSERVATORY = {
           { name: "株式会社フロム・ソフトウェア", short: "FromSoftware", status: "covered", gameIds: ["the-duskbloods"] },
           { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam", "layton-curious-village-remake", "yokai-watch-2-hadou", "inazuma-eleven-bold-revolution", "holy-horror-mansion", "decapolice", "snack-world-reloaded", "puchipoyon-fantasy-world", "inazuma-eleven-cross"], note: "9/10「LEVEL5 VISION 2026 II 夢」一次公布 10 个标题，本台为其建卡 8 件（主机/PC 6＋手游 2）" },
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
-          { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "watch" },
+          { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "covered", gameIds: ["danganronpa-2x2"] },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
           { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball","hakuoki-shinkai-kiwame","kimi-wa-yukima-koimusubi","shinso-no-doppelt","velvet-candy-tint-kiss","genroh-switch"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中（9/13 の Otomate Party 2026 で『薄桜鬼 真改 極』『深窓のドッペルト』『VELVET CANDY TINT KISS』『君は雪間に希う -恋結び-』『源狼 GENROH』の 5 作を追加発表し、本台も同日付で 5 件を建卡）" },
           { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
@@ -6030,7 +6319,7 @@ window.OBSERVATORY = {
           { name: "株式会社ブシロード", short: "Bushiroad", status: "covered", gameIds: ["weiss-schwarz-online", "bang-dream-our-notes"], focus: true, note: "看板 TCG『ヴァイスシュヴァルツ』のデジタル版『ヴァイスシュヴァルツ オンライン』を 2027 年春に Switch／Steam で発売予定。9/15 に Steam ストアページを公開しウィッシュリスト登録を開始、TGS2026 は 6 号館 C01 で初の試遊を実施。配信直前の『BanG Dream! Our Notes』（9/24 グローバル同時配信）の正式版先行試遊も 9/17 から開始し、シリーズ 2 タイトルを同時に擁する形となった" },
           { name: "グリー株式会社", short: "GREE", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "子会社グリーエンターテインメントが『無職転生 クロエコ』を企画・配信（7/27 配信開始）" },
           { name: "株式会社アカツキゲームス", short: "Akatsuki Games", status: "covered", gameIds: ["kaiju-no-8-the-game"], note: "東宝・プロダクション・アイジーと共同企画・制作する『怪獣８号 THE GAME』を開発・運営（2025-08-31 世界同時サービス開始、2026-09-01 に 1 周年とメインストーリー第 2 部）" },
-          { name: "株式会社コロプラ", short: "COLOPL", status: "covered", gameIds: ["active-cinema-rpg-369"] },
+          { name: "株式会社コロプラ", short: "COLOPL", status: "covered", gameIds: ["active-cinema-rpg-369", "colopl-wiz-generation"] },
           { name: "株式会社MIXI", short: "MIXI", status: "watch" },
           { name: "株式会社ディー・エヌ・エー", short: "DeNA", status: "watch" },
           { name: "ガンホー・オンライン・エンターテイメント株式会社", short: "GungHo", status: "covered", gameIds: ["blue-nova", "ninjala-2-uncharted-planet", "chit-chat-party"] },
@@ -6065,7 +6354,7 @@ window.OBSERVATORY = {
       items: [
         { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
-        { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["patlabor-the-case-files"] },
+          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["patlabor-the-case-files", "magical-girl-incustom-village"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
         { name: "株式会社モノリスソフト", short: "Monolith Soft", status: "covered", gameIds: ["xenoblade-genesis"] },
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
@@ -6101,7 +6390,7 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-09-19",
+    asOf: "2026-09-20",
     source: "Famitsu 週刊ファミ通 读者期待榜",
     url: "https://gonintendo.com/contents/65225-famitsu-most-wanted-games-for-sept-19th-2026",
     list: [
@@ -6125,7 +6414,7 @@ window.OBSERVATORY = {
     dates: "2026-09-17 ~ 2026-09-21（9-21 は台風接近により全日中止）",
     venue: "幕張メッセ（千葉）",
     theme: "長い5日間、遊びつくせ。／ Longest Five Days of Nonstop Play",
-    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）ーー当日的主要结果：① 东映的自营游戏品牌「東映ゲームス」（2026-04 设立）首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，并设夹娃娃机与 TGS2026 限定马克杯，品牌代表另参与同日 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」；② 9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，并公开 Juliet 新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报；③ サンリオゲームス 展台的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；④ 日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的公众网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。其他已公布日程：Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台以 7 タイトル 出展（含 OVER RUSH 的オープンβ，9/24 截止）；Koei Tecmo 的『遙かなる時空の中で 龍宮の神子』特别舞台定于 9/20 14:30-15:15（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外同步直播。2026-09-19 夕方、主催の CESA は第 25 号台風（Dujuan）の接近により 9 月 21 日（月・祝）の全日中止を発表した。同日午後から風雨が強まり、公共交通の乱れで来場者・出展者・関係者の帰宅が困難になる恐れがあるためとしている。9 月 20 日（日）は予定どおり 9:30-17:00 で実施されるが、会場周辺の状況により一部の設備・内容が変更または中止される場合があり、20 日のチケットは払い戻しの対象外。21 日のチケットは購入先の手続きに従って払い戻される。21 日に予定されていた一部のステージは、会場の安全確認後に公式番組としてオンライン配信される調整が進められている。バンダイナムコエンターテインメント、DMM GAMES、GRAPHT などは 21 日のブース展示・試遊・ステージ・サイン会・ノベルティ配布の中止を相次いで発表した。TGS が 1996 年に始まって以来、全日中止は史上初で、30 周年記念として予定された初の 5 日間開催は実質 4 日間となった。来場者数は 9 月 17 日が 53,630 人、9 月 18 日が 52,545 人だった。 9 月 20 日（第 4 日・一般公開日）の主な予定：13:00-14:45 に日本ゲーム大賞 2026 フューチャー部門の授賞式（幕張メッセ Hall 1 イベントステージ）。KONAMI は『遊☆戯☆王 TAG FORCE GX Returns』発売決定特別番組（10:00）・『幻想水滸伝 STAR LEAP』Live（12:00）・『Castlevania: Belmont's Curse』初の実機配信（14:00）。コーエーテクモは『薬屋のひとりごと』特別ステージ（13:30）と『遙かなる時空の中で 龍宮の神子』TGS 特別ステージ（14:30）。SEGA／ATLUS は『STRANGER THAN HEAVEN』の実機ショーケース（13:10・15:40）と『Persona 4 Revival』特別トークステージ（14:50）、『Metaphor: ReFantazio』特別トークステージ（14:50）。PC Gaming Show Tokyo Direct 2026 は 9 月 20 日 9:00（PT）＝日本時間 9 月 21 日 1:00 から約 90 分、35 本以上・10 のワールドプレミアを予定している（配信番組のため会場中止の影響は受けない）。",
+    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）ーー当日的主要结果：① 东映的自营游戏品牌「東映ゲームス」（2026-04 设立）首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，并设夹娃娃机与 TGS2026 限定马克杯，品牌代表另参与同日 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」；② 9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，并公开 Juliet 新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报；③ サンリオゲームス 展台的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；④ 日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的公众网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。其他已公布日程：Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台以 7 タイトル 出展（含 OVER RUSH 的オープンβ，9/24 截止）；Koei Tecmo 的『遙かなる時空の中で 龍宮の神子』特别舞台定于 9/20 14:30-15:15（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外同步直播。2026-09-19 夕方、主催の CESA は第 25 号台風（Dujuan）の接近により 9 月 21 日（月・祝）の全日中止を発表した。同日午後から風雨が強まり、公共交通の乱れで来場者・出展者・関係者の帰宅が困難になる恐れがあるためとしている。9 月 20 日（日）は予定どおり 9:30-17:00 で実施されるが、会場周辺の状況により一部の設備・内容が変更または中止される場合があり、20 日のチケットは払い戻しの対象外。21 日のチケットは購入先の手続きに従って払い戻される。21 日に予定されていた一部のステージは、会場の安全確認後に公式番組としてオンライン配信される調整が進められている。バンダイナムコエンターテインメント、DMM GAMES、GRAPHT などは 21 日のブース展示・試遊・ステージ・サイン会・ノベルティ配布の中止を相次いで発表した。TGS が 1996 年に始まって以来、全日中止は史上初で、30 周年記念として予定された初の 5 日間開催は実質 4 日間となった。来場者数は 9 月 17 日が 53,630 人、9 月 18 日が 52,545 人だった。 9 月 20 日（第 4 日・一般公開日）の主な予定：13:00-14:45 に日本ゲーム大賞 2026 フューチャー部門の授賞式（幕張メッセ Hall 1 イベントステージ）。KONAMI は『遊☆戯☆王 TAG FORCE GX Returns』発売決定特別番組（10:00）・『幻想水滸伝 STAR LEAP』Live（12:00）・『Castlevania: Belmont's Curse』初の実機配信（14:00）。コーエーテクモは『薬屋のひとりごと』特別ステージ（13:30）と『遙かなる時空の中で 龍宮の神子』TGS 特別ステージ（14:30）。SEGA／ATLUS は『STRANGER THAN HEAVEN』の実機ショーケース（13:10・15:40）と『Persona 4 Revival』特別トークステージ（14:50）、『Metaphor: ReFantazio』特別トークステージ（14:50）。PC Gaming Show Tokyo Direct 2026 は 9 月 20 日 9:00（PT）＝日本時間 9 月 21 日 1:00 から約 90 分、35 本以上・10 のワールドプレミアを予定している（配信番組のため会場中止の影響は受けない）。 9/20（第 4 日・公众日第 2 日，9:30-17:00）的主要结果：① 13:00 于幕张展览馆 Hall 1 活动舞台举行「日本ゲーム大賞 2026 フューチャー部門」颁奖，537 部参展未发售作品中由到场者与线上玩家投票选出 10 款——《FINAL FANTASY VII REVELATION》《Persona 4 Revival》《Monster Hunter Wilds: Ascendance》《GUNDAM ROGUE ORBIT》《ACE COMBAT 8: Wings of Theve》《STRANGER THAN HEAVEN》《スーパーダンガンロンパ2×2》《Castlevania: Belmont's Curse》《Romancing SaGa 3: Destinies United》《魔法少女ノ因習村》；② KONAMI 展台 14:00 的《Castlevania: Belmont's Curse》特别舞台由制作人 谷口勲 与监督 外尾有樹子 登台，宣布体验版 10/01 配信且存档可继承；③ DMM GAMES 展位 15:00 的 KADOKAWA 特别舞台（カズマ役 福島潤＋制作人 藤井大樹）宣布《まちすば》主题曲为 Machico「WOOHOO!」；④ 15:40 主舞台「刀剣乱舞ONLINE×ぱずぎり」合同舞台公布『刀剣乱舞 ぱずぎり』配信日为 2026-09-24、事前登录突破 50 万；⑤ COLOPL 在自家 TGS 舞台首次公开『クイズアクションRPG ウィズジェネレーション』的角色预告与 14 名声优阵容。原定 9/21 的舞台（含 SEGA／ATLUS 的 SONIC 35 周年与 STH 最终舞台）随 9/21 全日中止一并取消，部分改以线上官方节目播出。",
     booths: [
       { company: "Square Enix", hall: "—", items: "以《FINAL FANTASY VII REVELATION》为绝对核心：三部曲终章的全球首个一般试玩（飞空艇世界地图探索＋Trinity 三人连携战斗），展台设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点。《FINAL FANTASY RESONANCE》同样可试玩，并追加确认《Romancing SaGa 3: Destinies United》提供试玩。预告片轮播含 FFXIV: Evercold／DQ モンスターズ 朽ちた世界／DQ XI S／KH Collection I~III／KH IV／DQ X オンライン／DISSIDIA DUELLUM FF／DQ スマッシュグロウ／DQ ヒーローズ トルネコ Classic HD。Family Game Park 提供《DQ VII Reimagined》试玩；公众日 モーグリ 与チョコボ「アルファ」不定期登场，《モンスターズ 朽ちた世界》举办「フラッフィー」合影会并发放周边　开幕日确认《キングダム ハーツ IV》与《KH Collection I~III》双双推出 Nintendo Switch 2 原生版并公开最新发售窗口；《キングダム ハーツ IV》在展台维持仅展示、不可试玩。" },
       { company: "カプコン", hall: "7 号馆（试玩）／9-11 号馆（周边）", items: "史上最大规模出展。可试玩：《モンスターハンターワイルズ 拡張「Ascendance」》（Switch 2 版同步开放试玩，为全场最长队列之一）、《ドラゴンズドグマ 2 ダークアリズン》（日本首次可试玩，10/09）、《ロックマン デュアルオーバーライド》（日本首次可试玩）、《ストリートファイター6》（新角色「アルジュン」先行试玩）；另有《プラグマタ》《鬼武者 Way of the Sword》。9-11 号馆设「e-Capcom 2026 出张所」与扭蛋区「CAPSULE LAB」　Xbox 的 TGS2026 放送进一步确认《モンスターハンターワイルズ》扩展「Ascendance」的推出窗口为 2027 年，公开新区域「Skybound Eyrie」、炎王龙 Teostra 回归，以及面向全部 14 种武器的「Boost Bracer／Boost Driver」。" },
@@ -6160,15 +6449,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 因第 25 号台风宣布 9/21 全日中止（30 年来首次），首个 5 日展期被压缩为 4 日；手游侧本轮无新增，主机・PC 侧查出并补收漏掉的 Otomate Party 2026 五款乙女新作，另新增《信長の野望・飛翔》与工画堂《Sugar Lies》。条目总数 105 → 112（手游区 29 不变／主机・PC 区 84 → 91）",
+    headline: "TGS2026 公众日第 2 日（9/20）手游侧出现日方新作——COLOPL『クイズアクションRPG ウィズジェネレーション』首次公开角色预告与 14 名声优阵容；同日日本游戏大奖 2026「未来部门」颁出 10 款，其中 4 款为本台补收。条目总数 112 → 117（手游区 29 → 30／主机・PC 区 91 → 95）",
     points: [
-      "**手游侧本轮无新增**：9/19 傍晚至 9/20 早晨的日媒消息里，移动端新作仍然全部来自韩资四社——Nexon《Fareidolia》（前 Project RX，UE5，本届 TGS 首次开放可玩 Demo）、Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》、NC《Astrae Oratio》（2027 年 iOS／Android 首发，全球 CBT 申请 9/20 截止）、Smilegate《Dead Account》——按「开发・发行的资本归属」判定全部跳过，不建条目、不记厂商。日方的新作信号本场仍全部落在主机・PC 侧，因此手游区维持 29 条不变。",
-      "**TGS2026 第 5 日（9/21）全日中止**：主办方 CESA 于 9/19 傍晚宣布，因第 25 号台风（Dujuan）逼近、9/21 午后风雨增强且公共交通可能受阻，为优先保障到场者、出展方与工作人员的安全与返程，决定取消 9/21 全天活动；9/21 门票退款，部分原定舞台将在确认会场安全后改以官方节目线上直播。9/20 照常举行（9:30-17:00），但部分设备与活动可能视天气变更，9/20 门票不退款。这是 TGS 自 1996 年开办 30 年来**首次整日中止**，原定的史上首个 5 日展期实际缩短为 4 日。到场人数：9/17 为 53,630 人、9/18 为 52,545 人。万代南梦宫、DMM GAMES、GRAPHT 等已陆续宣布取消 9/21 的展台、试玩与舞台。",
-      "**漏收核查（女性向品牌线）查出漏收 5 条并全部补卡**：按「主机侧女性向／乙女向只有 Otomate（アイディアファクトリー）等少数品牌在动，必须按品牌逐个过」的口径复核，发现 2026-09-12／13 的「Otomate Party 2026」公布的 5 款作品此前完全未收录——『薄桜鬼 真改 極』（Nintendo Switch 2，系列 6 作打包的 20 周年集大成版）、『深窓のドッペルト』（1947 年战后世相的原创新作）、『VELVET CANDY TINT KISS』（现代日本「危险的吻」题材新作）、『君は雪間に希う -恋結び-』（2021 年前作的 Fan Disc）、『源狼 GENROH』（2012 年 PSP 作移植，オトメイト Graffiti 第 14 弹，2027 年）。Otomate 是本台 focus 厂商且已为 covered，本轮把 5 条全部补入并把新 id 追加到其 gameIds。",
-      "**新增《信長の野望・飛翔》**（コーエーテクモゲームス／シブサワ・コウ 45 周年，2026 年冬，PS5／Switch 2／Switch／Steam）：9/19 14:30-15:20 的 TGS2026 特别舞台由制作人 劉迪 与职业麻将选手 内川幸太郎・中林恵 登坛，公布「城下町内政」时隔约 20 年复活、主题曲由 Porno Graffitti 演唱，以及与 Q&P KOWA／関谷醸造（蓬莱泉）／阪急阪神 的企业联动，并以 TGS 体验版首次实机演示。本作在 2026-06-09 的 Nintendo Direct 首次公开，属窗口外的老企划，本轮按「未发售老企划有窗口内新情报即可收」的口径收录。",
-      "**新增工画堂スタジオ《Sugar Lies》**（恋爱视觉小说；PC／Steam 2026 年末 2,860 日元、Nintendo Switch 2027 年春、日版实体版 4,000 日元，支持英／日／繁中／简中）：2026-09-18 的 KONAMI「TGS2026 LIVE」直播环节公布定档、开场主题曲与全新预告。发行 Kogado Studio、开发 Team S:OWLS，主角配音为 长谷川育美／飯田光。",
-      "**期待榜换期**：Famitsu 读者期待榜更新至 2026-09-19 期——《宝可梦 风/波》以 569 票继续居首，《Persona 6》477 票、《塞尔达传说 时之笛》445 票分列二三位；9/17 已发售的《火焰之纹章 万缕千丝》本期已从榜上退出。",
-      "**厂商名单：4 个 category 家数仍为 8／16／16／10＝50，extra 29 → 30 家**（新增 工画堂スタジオ）；アイディアファクトリー 的 gameIds ＋5、コーエーテクモゲームス 的 gameIds ＋1；companies.asOf 刷新为 2026-09-20。中资厂商作品本轮同样全部跳过（不点名、不入库）。"
+      "**手游侧本轮新增 1 条，且是久违的日方主导新规**：COLOPL 于 9/20 的 TGS2026 舞台首次公开『クイズアクションRPG ウィズジェネレーション』（iOS／Android／今冬配信／基本無料＋アイテム課金）的角色预告与 14 名声优阵容，主题曲由 KOHTA YAMAMOTO 作曲编曲；事前登录自 2026-08-26 起在 App Store／Google Play／官方 X／官方 LINE／予約トップ10 五条路径受理。本作由 STAR STUDIOS 制作、COLOPL 发行，是该社把『クイズRPG 魔法使いと黒猫のウィズ』13 年的问答设计搬进动作品类的尝试，与 9/01 上线的『Active Cinema RPG 369』并列为 2026 年的两款新规手游。手游区 29 → 30 条。",
+      "**同一时段的移动端消息仍以韩资为主，按资本归属全部跳过**：Netmarble 的《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》《Pearl in Blue》三作在展台开放试玩并放出预告，NC（NCSOFT）《Astrae Oratio》公布 2027 年 iOS／Android 首发，Smilegate《Dead Account》——均不建条目、不记厂商。另有沿用《二之国》世界观、由 Netmarble 日本发行的『Bloomwalker』，因开发方为 Netmarble Neo 同样跳过。",
+      "**日本游戏大奖 2026「未来部门」10 款获奖（9/20 13:00、幕张展览馆 Hall 1）**：537 部参展未发售作品中由到场者与线上玩家投票选出——『FINAL FANTASY VII REVELATION』『Persona 4 Revival』『Monster Hunter Wilds: Ascendance』『GUNDAM ROGUE ORBIT』『ACE COMBAT 8: Wings of Theve』『STRANGER THAN HEAVEN』『スーパーダンガンロンパ2×2』『Castlevania: Belmont's Curse』『Romancing SaGa 3: Destinies United』『魔法少女ノ因習村』。已在库的 6 条本轮补记获奖并刷新抓取日。",
+      "**补收主机・PC 4 条**：①『Castlevania: Belmont's Curse』（KONAMI／开发 Evil Empire／2026-10-15 全球同日，9/20 舞台宣布 10/01 体验版且存档可继承）②『スーパーダンガンロンパ2×2』（Spike Chunsoft／2027-01-14／追加与原版不同的「Slayhem」剧本与 3D 世界地图，Switch 2 北美・欧洲实体版改为 Game-Key Card）③『魔法少女ノ因習村』（Acacia×Re,AER 开发／GOOD SMILE COMPANY 发行／Switch・Steam／2026 年内）④『Romancing SaGa 3: Destinies United』（Square Enix／1995 年 SFC 名作的完全重制／2027-02-16，Steam 版 02-17）。",
+      "**TGS2026 现场（9/20 公众日第 2 日）**：KONAMI 展台宣布《Castlevania: Belmont's Curse》体验版 10/01 配信；KADOKAWA 特别舞台公布《まちすば》主题曲为 Machico「WOOHOO!」；EXNOA 在 15:40 主舞台公布『刀剣乱舞 ぱずぎり』配信日 2026-09-24、事前登录突破 50 万（开始即实装 42 振刀剑男士与前 3 章剧情）。原定 9/21 的舞台随全日中止一并取消，部分改以线上节目播出。",
+      "**漏收核查**：按热门动漫 IP 逐个复核——『呪術廻戦 RUMBLE: SURVIVATON』（集英社ゲームズ）、『東京リベンジャーズ UNLIMITED』（GOOD SMILE／日服 2026-02-26 上线，已出滚动窗口）、『hololive Dreams』（COVER×QualiArts）、『刀剣乱舞 ぱずぎり』均已在库，未发现新的漏收。另查得《链锯人》手游新作（官方已开专属账号，标题 Chainsaw Man Devil Crush）——首次公开在 2026-06-19（窗口外），且开发・发行方未确认，本轮不建卡，登记为待查线索。",
+      "**厂商名单**：4 个 category 家数仍为 8／16／16／10＝50，extra 30 家不变；COLOPL 的 gameIds ＋1（ウィズジェネレーション）、コナミデジタルエンタテインメント ＋1（Belmont's Curse）、スクウェア・エニックス ＋1（Romancing SaGa 3）、グッドスマイルカンパニー ＋1（因習村）、スパイク・チュンソフト watch → covered（ダンガンロンパ2×2）；companies.asOf 刷新为 2026-09-20。中资厂商作品本轮同样全部跳过（不点名、不入库）。"
     ]
   },
 };
