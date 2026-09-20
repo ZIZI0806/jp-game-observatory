@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-09-19
+ * 最后更新: 2026-09-20
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-19T19:10:00+08:00",
-    edition: "2026-09-19",
-    window: "2026-07-19 ~ 2026-09-19（滚动最近 2 个月）",
+    updatedAt: "2026-09-20T09:30:00+08:00",
+    edition: "2026-09-20",
+    window: "2026-07-20 ~ 2026-09-20（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -5597,6 +5597,378 @@ window.OBSERVATORY = {
       },
       tags: ["新作発表", "スマホ", "女性向け", "コーエーテクモ", "サービス中", "TGS2026"]
     },
+    {
+      id: "hakuoki-shinkai-kiwame",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-13（Otomate Party 2026 で発表）",
+      capturedAt: "2026-09-20",
+      title: { jp: "薄桜鬼 真改 極", cn: "薄樱鬼 真改 极", en: "Hakuoki Shinkai Kiwame" },
+      genre: "女性向けドラマティック ADV（シリーズ集大成）",
+      platforms: ["Nintendo Switch 2"],
+      release: "未定（2027 年のオトメイト 20 周年記念タイトルとして展開）",
+      releasePrecision: "未定",
+      summary: "Otomate 在 2026-09-13 的「Otomate Party 2026」公布的《薄樱鬼》系列集大成作品，同时被列为 2027 年 Otomate 品牌 20 周年纪念企划之一。本作把此前在 Nintendo Switch 发售的《薄桜鬼 真改》系列 6 部作品打包收进一套，系列综合制作人藤澤経清与角色原画「四季咲組」继续担任，是 2008 年起步、已衍生出动画／舞台／真人版的长寿乙女 IP 首次登上 Nintendo Switch 2。官方把「集大成」定位在打包既有 6 部真改系列，而非追加新剧情，因此更接近面向新一代硬件的收藏向再版。发售时期、价格与特典均未公布。",
+      highlight: "【発表 2026-09-13】Otomate Party 2026 公布把《薄桜鬼 真改》系列 6 作打包的 Nintendo Switch 2 集大成版，并列入 2027 年品牌 20 周年纪念企划，发售时期与价格未公布。　《薄樱鬼》自 2008 年首作以来反复移植、复刻仍持续有玩家买单，这次是系列首度进入 Switch 2；但「集大成＝打包既有作品」意味着新内容有限，热度主要来自既有粉丝的买回需求。",
+      console: {
+        status: "発売時期未発表（2027 年のオトメイト 20 周年記念タイトル）",
+        os: ["Nintendo Switch 2"],
+        monetization: "パッケージ版・ダウンロード版を予定（価格未発表）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（対応言語・配信地域の詳細は未発表）",
+        distribution: "パッケージ版・ダウンロード版を予定（詳細未発表）",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "『薄桜鬼 真改』シリーズの既発売 6 作を 1 本にまとめて収録する集大成版",
+          "シリーズ綜合ディレクター・藤澤経清と、キャラクター原画の四季咲組が引き続き担当",
+          "2008 年の第 1 作から続く乙女ゲームの代表 IP にとって、シリーズ初の Nintendo Switch 2 向けタイトル",
+          "オトメイトブランド 20 周年（2027 年）の記念ラインナップの一つとして発表された",
+          "発売時期・価格・店舗別特典などの詳細は未発表"
+        ],
+        synopsis: "幕末の京都を舞台に、新選組の隊士たちと主人公・雪村千鶴との関わりを描く『薄桜鬼』シリーズ。本作は『薄桜鬼 真改』として展開してきた既発売 6 作を Nintendo Switch 2 向けにまとめて収録する集大成版で、シリーズの物語を一つのパッケージで通して追える位置づけとなる。",
+        ipSource: "『薄桜鬼』シリーズ（アイディアファクトリー／オトメイト）。ゲーム発のオリジナル企画で、原作は同シリーズ第 1 作",
+        series: "『薄桜鬼』は 2008 年発売の第 1 作から始まった乙女向けゲーム。本作は『薄桜鬼 真改』シリーズ 6 作の集大成版で、2027 年のオトメイト 20 周年記念タイトルに位置づけられている"
+      },
+      news: [
+        { source: "Yomimono（Otomate Party 2026 で発表されたタイトル一覧）", url: "https://www.yomimono.id/otomate-reveals-hakuoki-shinkai-kiwame-and-four-other-titles" },
+        { source: "Anime News 要約（Otomate 20 周年ラインナップの整理）", url: "https://news.seasonalanime.com/otomate-brand-unveils-hakuki-shinkai-kiwame-other-new-game-r-ffa93a" }
+      ],
+      videos: [
+        { label: "発表内容のまとめ報道（発表映像・キービジュアルを掲載）", platform: "媒体", url: "https://cpstesters.com/otomate-brand-unveils-hakuoki-shinkai-kiwame-other-new-game-releases-news/" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "『薄桜鬼』は 2008 年から続く乙女ゲームの代表 IP で、20 周年記念として Switch 2 に集大成版が投入される",
+          "既発売 6 作の収録という再版構成のため、新規性よりも既存ファンの買い直し需要が中心になる",
+          "乙女向けは国内市場が限定的で、海外展開や大型メディア露出は見込みにくい"
+        ]
+      },
+      tags: ["新作発表", "女性向ADV", "Switch2", "集大成", "オトメイト"]
+    },
+    {
+      id: "kimi-wa-yukima-koimusubi",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-13（Otomate Party 2026 で発表）",
+      capturedAt: "2026-09-20",
+      title: { jp: "君は雪間に希う -恋結び-", cn: "君于雪中希冀 -恋结-", en: "Kimi wa Yukima ni Koinegau: Koi Musubi" },
+      genre: "女性向け和風ファンタジー ADV（ファンディスク）",
+      platforms: ["Nintendo Switch", "Nintendo Switch Lite"],
+      release: "未定（発売日・価格未発表）",
+      releasePrecision: "未定",
+      summary: "Otomate 在 2026-09-13「Otomate Party 2026」公布的女性向新作，是 2021 年发售的和风幻想恋爱 ADV《君は雪間に希う》的正式续篇（Fan Disc），描写本篇各角色结局之后的恋人日常。制作班底沿用前作——原作与制作人由搞笑组合ハライチ 的岩井勇気担任，浪川大輔 负责监修协力，角色设计与原画由 Team.ナガオカ 担任，主要配音阵容也延续前作的小林裕介／前野智昭／山下誠一郎／佐藤拓也／浪川大輔／斉藤壮馬。平台为 Nintendo Switch／Switch Lite，发售日与价格均未公布；前作的繁体中文版曾于 2022-10-20 由亚洲代理发行，因而本次续篇也具备中文化预期。",
+      highlight: "【発表 2026-09-13】Otomate Party 2026 公布《君は雪間に希う》的 Fan Disc《-恋結び-》，制作班底与声优阵容整体延续前作，平台为 Switch／Switch Lite，发售日与价格未公布。　前作是 2021 年由ハライチ 岩井勇気 担任原作与制作人、浪川大輔 监修协力的和风幻想作品，属于 Otomate 里「艺人主创」色彩较浓的一条线，Fan Disc 对既有玩家的确定性较高但话题外延有限。",
+      console: {
+        status: "発売日未発表（開発中）",
+        os: ["Nintendo Switch", "Nintendo Switch Lite"],
+        monetization: "パッケージ版・ダウンロード版を予定（価格未発表）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（対応言語・配信地域の詳細は未発表）",
+        distribution: "パッケージ版・ダウンロード版を予定（詳細未発表）",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "2021 年発売の『君は雪間に希う』のファンディスクで、各攻略対象の恋愛エンディング後を描く",
+          "原作・プロデューサーは 岩井勇気（ハライチ）、監修協力は 浪川大輔 が前作から続投",
+          "キャラクターデザイン・原画は前作同様 Team.ナガオカ が担当",
+          "主要キャストも前作から続投し、江戸・御庭番・奇虚を軸にした和風幻想世界をそのまま引き継ぐ",
+          "発売日・価格・初回特典などの詳細は未発表"
+        ],
+        synopsis: "江戸の町を舞台に、御庭番と「奇虚」と呼ばれる存在をめぐる物語を描いた『君は雪間に希う』。本作はそのファンディスクで、前作で描かれた各ルートの結末のあと、恋人同士となった主人公と攻略対象たちの日常と関係の続きを描く位置づけとなる。",
+        ipSource: "『君は雪間に希う』（アイディアファクトリー／オトメイト）のファンディスク。原作は同シリーズ第 1 作",
+        series: "前作『君は雪間に希う』は 2021 年に発売された和風ファンタジーの女性向け恋愛 ADV。繁体字中国語版は 2022-10-20 にアジア向けにリリースされている",
+        cast: "小林裕介／前野智昭／山下誠一郎／佐藤拓也／浪川大輔／斉藤壮馬（前作からの続投）"
+      },
+      news: [
+        { source: "SouNova 少女星（Fan Disc の制作体制・声優・前作の展開）", url: "https://sounova.com/game/kimi-yukima-negau-koimusubi" },
+        { source: "Yomimono（Otomate Party 2026 で発表されたタイトル一覧）", url: "https://www.yomimono.id/otomate-reveals-hakuoki-shinkai-kiwame-and-four-other-titles" }
+      ],
+      videos: [
+        { label: "発表内容の報道（公式ティザー映像・キービジュアルを掲載）", platform: "媒体", url: "https://sounova.com/game/kimi-yukima-negau-koimusubi" }
+      ],
+      hype: {
+        score: 48,
+        signals: [
+          "2021 年発売の前作に対して、制作体制とキャストをほぼ完全に引き継いだファンディスク",
+          "ファンディスクのため新規プレイヤーの流入は限定的で、既存ファンの支持が中心",
+          "発売日・価格・DL 数などの公開数値はまだ発表されていない"
+        ]
+      },
+      tags: ["新作発表", "女性向ADV", "Switch", "ファンディスク", "オトメイト"]
+    },
+    {
+      id: "shinso-no-doppelt",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-13（Otomate Party 2026 で発表）",
+      capturedAt: "2026-09-20",
+      title: { jp: "深窓のドッペルト ～輝血香ル黒佐切ノ誣イ言～", cn: "深窗的双生子 ～辉血香的黑佐切谎言～", en: "Shinso no Doppelt: Kagachi Kaoru Kuro Sagiri no Shiigoto" },
+      genre: "女性向け恋愛 ADV（昭和レトロ・サスペンス）",
+      platforms: ["Nintendo Switch", "Nintendo Switch Lite"],
+      release: "未定（発売日・価格未発表）",
+      releasePrecision: "未定",
+      summary: "Otomate 于 2026-09-13「Otomate Party 2026」公布的全新女性向恋爱 ADV，舞台设在昭和 22 年（1947 年）战败后不久的日本：一座远离外界的西式宅邸里住着一位千金小姐与数名未婚夫候补，众人各自怀有不愿示人的秘密，故事围绕「谎言与真实」之间的摇摆展开，官方用「骗シ愛」概括这种彼此试探的关系。角色设计由先崎真琴担任，监督为青木ひろえ，助监督为ジョー，两人此前都有 LoverPretend／SympathyKiss 等作品经验，因而本作被定位为「不靠甜、而靠战后世相里人人藏私的窒息感」。平台为 Nintendo Switch／Switch Lite，发售日与价格未公布。",
+      highlight: "【発表 2026-09-13】Otomate Party 2026 公布 1947 年战后世相为舞台的原创新作《深窓のドッペルト》，角色设计 先崎真琴、监督 青木ひろえ、助监督 ジョー，平台 Switch／Switch Lite，发售日与价格未公布。　Otomate 在本届 Party 的 5 款发表里唯一「非续作、非移植、非 20 周年打包」的正统新作之一，把「骗爱」做成关系结构而非单纯的甜向恋爱，是这条产品线里较有野心的一作。",
+      console: {
+        status: "発売日未発表（開発中）",
+        os: ["Nintendo Switch", "Nintendo Switch Lite"],
+        monetization: "パッケージ版・ダウンロード版を予定（価格未発表）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（対応言語・配信地域の詳細は未発表）",
+        distribution: "パッケージ版・ダウンロード版を予定（詳細未発表）",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "昭和 22 年（1947 年）の戦後日本を舞台にした、オトメイトの完全新作恋愛 ADV",
+          "孤立した洋館に集まった身分も性格も異なる婚約者候補たちが、それぞれ秘密を抱えている",
+          "キーワードは「昭和レトロ」「嘘と真実」「お嬢様と婚約者候補」。公式は関係性を「騙シ愛」と表現している",
+          "キャラクターデザインは 先崎真琴、監督は 青木ひろえ、助監督は ジョー が担当",
+          "発売日・価格・対応機種の詳細（Switch 2 版の有無など）は未発表"
+        ],
+        synopsis: "1947 年、戦後の日本。社会が少しずつ建て直され、暮らしと価値観が急速に変わっていくなか、外界から離れた洋館に一人のお嬢様と数名の婚約者候補が暮らしている。鯉野波嗣緒、六栄京士郎、行仙治影臣、砌正護はそれぞれ立場も性格も異なり、同時に人に知られたくない秘密を抱えている。やがて関係が深まるにつれ、単純な縁組の話は言葉にできない思惑へと変わっていく。",
+        ipSource: "オトメイトの完全新作（オリジナル IP）。外部 IP のライセンスではなく自社ブランド作品",
+        series: "オトメイト 20 周年（2027 年）に合わせた発表ラインナップの一つ。監督の 青木ひろえ は『SympathyKiss』『LoverPretend』、助監督の ジョー は『LoverPretend』のスタッフ",
+        caution: "タイトルの表記・読みは報道により揺れがあり（『深窓のドッペルト』）、公式サイト上の確定表記は未確認"
+      },
+      news: [
+        { source: "SouNova 少女星（世界観・スタッフ・公式コメントの報道）", url: "https://sounova.com/game/shinso-no-doppel-otomate" },
+        { source: "Yomimono（Otomate Party 2026 で発表されたタイトル一覧）", url: "https://www.yomimono.id/otomate-reveals-hakuoki-shinkai-kiwame-and-four-other-titles" }
+      ],
+      videos: [
+        { label: "発表内容の報道（公式 PV の映像とキービジュアルを掲載）", platform: "媒体", url: "https://sounova.com/game/shinso-no-doppel-otomate" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "オトメイト Party 2026 で発表された 5 作のうち、完全新作は『VELVET CANDY TINT KISS』と本作の 2 作のみ",
+          "戦後昭和を舞台にした設定と「騙シ愛」という関係性の切り口が、日台中の乙女ゲーム媒體で同時に報じられた",
+          "スタッフは『LoverPretend』系の布陣で、ブランド内では中規模の企画と見られる"
+        ]
+      },
+      tags: ["新作発表", "女性向ADV", "Switch", "オリジナルIP", "オトメイト"]
+    },
+    {
+      id: "velvet-candy-tint-kiss",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-12（Otomate Party 2026 初日夜公演で発表）",
+      capturedAt: "2026-09-20",
+      title: { jp: "VELVET CANDY TINT KISS", cn: "VELVET CANDY TINT KISS", en: "Velvet Candy Tint Kiss" },
+      genre: "女性向け現代ファンタジー恋愛 ADV",
+      platforms: ["Nintendo Switch", "Nintendo Switch Lite"],
+      release: "未定（発売日・価格未発表）",
+      releasePrecision: "未定",
+      summary: "Otomate 于 2026-09-12 的「Otomate Party 2026」初日夜公演公布的全新女性向恋爱 ADV，舞台在现代日本，主打「危险的吻」：主人公是身份被隐去的神秘女主角，仅凭一个吻就可能把人类男性彻底俘获，把「接吻」从剧情高潮的奖励直接变成核心机制。攻略对象包括危险气质的「学生男公关」与理应是纯洁「新任圣职者」的双胞胎、专门对抗黑暗势力的「驱魔师」搭档，以及自称打工领班的谜之男子。原画由御堂マヰカ担任、监督为廣のり子、脚本由トライファクション 负责。平台为 Nintendo Switch／Switch Lite，发售日与价格未公布。",
+      highlight: "【発表 2026-09-12】Otomate Party 2026 初日夜公演公布现代日本为舞台的新作《VELVET CANDY TINT KISS》，原画 御堂マヰカ、监督 廣のり子、脚本 トライファクション，平台 Switch／Switch Lite，发售日与价格未公布。　把「吻」从剧情高潮的奖励直接做成核心机制，在乙女游戏里属于少见的方向；成或败高度依赖剧本能否撑住概念，中间态的可能性不大。",
+      console: {
+        status: "発売日未発表（開発中）",
+        os: ["Nintendo Switch", "Nintendo Switch Lite"],
+        monetization: "パッケージ版・ダウンロード版を予定（価格未発表）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（対応言語・配信地域の詳細は未発表）",
+        distribution: "パッケージ版・ダウンロード版を予定（詳細未発表）",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "現代日本を舞台にしたオトメイトの完全新作で、主軸は「危険なキス」による攻略",
+          "主人公は正体が伏せられた存在で、キス一つで人間の男性を虜にできる設定",
+          "攻略対象は「学生ホスト」と「新米聖職者」の双子、対悪魔の「祓魔師」コンビ、自称バイトリーダーの謎の男",
+          "原画は 御堂マヰカ、監督は 廣のり子、脚本は トライファクション が担当",
+          "発売日・価格など詳細は未発表"
+        ],
+        synopsis: "現代日本の街を舞台に、正体を伏せた主人公が「キス」を切り札として人間の男性たちを虜にしていく物語。危険な魅力を纏う学生ホストと、その双子で聖職者を名乗る男、闇と戦う祓魔師のコンビ、そして自称バイトリーダーの謎の男。彼らとの関係をどう深め、どこまで踏み込むかをプレイヤーが選ぶ構成になっている。",
+        ipSource: "オトメイトの完全新作（オリジナル IP）。外部 IP のライセンスではなく自社ブランド作品",
+        series: "オトメイト 20 周年（2027 年）に合わせた発表ラインナップの一つ。同ブランドは『薄桜鬼』『君は雪間に希う』などの恋愛 ADV を継続的に展開している",
+        caution: "主人公の正体を示す設定語は公式でも伏字（■■）で伏せられており、確定情報は未公開"
+      },
+      news: [
+        { source: "SouNova 少女星（世界観・攻略対象・スタッフの報道）", url: "https://sounova.com/game/velvet-candy-tint-kiss-otomate" },
+        { source: "Yomimono（Otomate Party 2026 で発表されたタイトル一覧）", url: "https://www.yomimono.id/otomate-reveals-hakuoki-shinkai-kiwame-and-four-other-titles" }
+      ],
+      videos: [
+        { label: "発表内容の報道（公式 PV とキービジュアルを掲載）", platform: "媒体", url: "https://sounova.com/game/velvet-candy-tint-kiss-otomate" }
+      ],
+      hype: {
+        score: 50,
+        signals: [
+          "「キスで男性を虜にする」という設定を玩法の核に据えた、乙女ゲームでは珍しい切り口",
+          "オトメイト Party 2026 で発表された完全新作 2 作の一つで、現代ファンタジー路線を担う",
+          "発売日・価格・DL 数などの公開数値はまだ発表されていない"
+        ]
+      },
+      tags: ["新作発表", "女性向ADV", "Switch", "オリジナルIP", "オトメイト"]
+    },
+    {
+      id: "genroh-switch",
+      company: "Idea Factory (Otomate)",
+      companyJp: "アイディアファクトリー株式会社（オトメイト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-13（Otomate Party 2026 で発表）",
+      capturedAt: "2026-09-20",
+      title: { jp: "源狼 GENROH", cn: "源狼 GENROH", en: "GENROH" },
+      genre: "女性向け歴史ロマン ADV（移植）",
+      platforms: ["Nintendo Switch", "Nintendo Switch Lite"],
+      release: "2027年（時期未定）",
+      releasePrecision: "年",
+      summary: "Otomate 于 2026-09-13「Otomate Party 2026」公布的移植作品：2012 年在 PSP 发售的女性向历史浪漫 ADV《源狼 GENROH》将登陆 Nintendo Switch／Switch Lite，预定 2027 年推出，并纳入 Otomate 的移植系列「オトメイト Graffiti」第 14 弹。作品以源平合战为舞台，企划原案与角色设计中村龍徳、主线剧本高瀬美恵、主题歌東儀秀樹 均沿用原版班底，配音阵容包括立花慎之介／津田健次郎／松岡禎丞 等。官方把这次移植定位为「以全新诠释的源平合战为舞台」的再版，原作当年评价两极——人设、世界观、声优与音乐获得好评，剧本则被认为可惜。发售日与价格未公布。",
+      highlight: "【発表 2026-09-13】Otomate Party 2026 公布 2012 年 PSP 作品《源狼 GENROH》移植 Switch／Switch Lite，预定 2027 年推出，列入「オトメイト Graffiti」第 14 弹。　原版企划原案 中村龍徳、剧本 高瀬美恵、主题歌 東儀秀樹 的班底完整保留，属于把旧作重新打包给现存粉丝的稳定操作；相隔 14 年的再版能否吸引新玩家，取决于移植是否追加内容。",
+      console: {
+        status: "2027 年発売予定（時期未定）",
+        os: ["Nintendo Switch", "Nintendo Switch Lite"],
+        monetization: "パッケージ版・ダウンロード版を予定（価格未発表）",
+        developer: "アイディアファクトリー（オトメイト）",
+        publisher: "アイディアファクトリー",
+        region: "日本（対応言語・配信地域の詳細は未発表）",
+        distribution: "パッケージ版・ダウンロード版を予定（詳細未発表）",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "2012 年に PSP で発売された『源狼 GENROH』の Nintendo Switch 向け移植",
+          "オトメイトの移植レーベル「オトメイト Graffiti」の第 14 弾として位置づけられている",
+          "源平合戦を「新たな解釈」で描く歴史ロマンで、企画原案・キャラクターデザインは 中村龍徳 が担当",
+          "メインシナリオは 高瀬美恵、主題歌は 東儀秀樹 が手がけた原版スタッフを踏襲",
+          "発売日・価格・移植に伴う追加要素の有無は未発表"
+        ],
+        synopsis: "源平の争乱を舞台に、歴史の表舞台と裏側の双方を描く女性向けの歴史ロマン ADV。プレイヤーは物語のなかで武将たちと関わりながら、合戦の趨勢と登場人物たちの思惑が交差する筋道を追っていく。原版は 2012 年に PSP 向けに発売され、今回の Nintendo Switch 版はその再構成となる。",
+        ipSource: "2012 年発売の『源狼 GENROH』（アイディアファクトリー／オトメイト）の移植。原作はゲームオリジナル企画",
+        series: "オトメイトの移植レーベル「オトメイト Graffiti」の第 14 弾。同レーベルは旧作を現行ハードで遊べる形に整えて再リリースする位置づけ",
+        cast: "立花慎之介／津田健次郎／松岡禎丞"
+      },
+      news: [
+        { source: "Yomimono（Otomate Party 2026 で発表されたタイトル一覧と移植レーベル情報）", url: "https://www.yomimono.id/otomate-reveals-hakuoki-shinkai-kiwame-and-four-other-titles" },
+        { source: "Anime News 要約（GENROH の Otomate Graffiti 第 14 弾としての位置づけ）", url: "https://news.seasonalanime.com/otomate-brand-unveils-hakuki-shinkai-kiwame-other-new-game-r-ffa93a" }
+      ],
+      videos: [
+        { label: "発表内容のまとめ報道（発表映像・キービジュアルを掲載）", platform: "媒体", url: "https://cpstesters.com/otomate-brand-unveils-hakuoki-shinkai-kiwame-other-new-game-releases-news/" }
+      ],
+      hype: {
+        score: 46,
+        signals: [
+          "2012 年の PSP 作品の移植で、新規制作ではなく再リリースに近い位置づけ",
+          "企画原案・キャラクターデザインの中村龍徳、主題歌の東儀秀樹など原版スタッフの名前が当時から評価されてきた",
+          "移植に伴う追加要素や発売日・価格は未発表で、公開数値もない"
+        ]
+      },
+      tags: ["新作発表", "女性向ADV", "Switch", "移植", "オトメイト"]
+    },
+    {
+      id: "nobunaga-hishou",
+      company: "Koei Tecmo Games",
+      companyJp: "株式会社コーエーテクモゲームス",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-19（TGS2026 スペシャルステージで都市築内政の復活などを発表）",
+      capturedAt: "2026-09-20",
+      title: { jp: "信長の野望・飛翔", cn: "信长之野望·飞翔", en: "NOBUNAGA'S AMBITION: Hishou" },
+      genre: "歴史シミュレーション",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "Nintendo Switch", "PC (Steam)"],
+      release: "2026年冬（予定）",
+      releasePrecision: "季",
+      summary: "光荣特库摩为「シブサワ・コウ（涩泽光）」品牌 45 周年推出的《信长之野望》系列完全新作，是继《信長の野望・新生》之后约 4 年的正统续作。2026-09-19 的 TGS2026 特别舞台由制作人 劉迪（Di Liu）与职业麻将选手 内川幸太郎・中林恵 登坛，公布「城下町内政」时隔约 20 年复活、主题曲由 Porno Graffitti 演唱，以及与 Q&P KOWA／関谷醸造（蓬莱泉）／阪急阪神 的企业联动，并首次以 TGS 体验版进行实机演示。核心新系统是系列首次导入的「大義名分」：武将带有「革新／保守／忠義／実利」四种气质，成为大名后气质会成为家风，与举兵名分相合则效果提升；内政方面可在城下町自由配置设施，同类设施成组会形成「特区」提高效果，土地适应性还会随周边建筑改变。发售窗口为 2026 年冬，平台为 PS5／Switch 2／Switch／Steam。",
+      highlight: "【TGS2026 9/19】特别舞台公布「城下町内政」时隔约 20 年复活、主题曲由 Porno Graffitti 演唱，并以 TGS 体验版首次实机演示；官方站确认 2026 年冬在 PS5／Switch 2／Switch／Steam 发售，Steam 页面已上线。　把「大義名分」做成核心系统（武将四种气质、与举兵名分相合则效果提升）是本作与系列前作最大的结构差异，但 TGS 舞台却选择以回归的都市筑内政为主角，卖点重心明显偏向老玩家。",
+      console: {
+        status: "2026 年冬発売予定",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Nintendo Switch", "PC (Steam)"],
+        monetization: "パッケージ版・ダウンロード版（価格未発表）",
+        developer: "コーエーテクモゲームス（シブサワ・コウ ブランド）",
+        publisher: "コーエーテクモゲームス",
+        region: "日本（繁体字中国語のインターフェース・字幕対応を発表）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam", "全国のゲーム取扱店"],
+        features: [
+          "シブサワ・コウ 45 周年記念となる『信長の野望』シリーズの完全新作で、前作『新生』から約 4 年ぶり",
+          "シリーズ初の「ストーリーモード」を搭載し、織田信長の生涯を軸に戦国の流れを追う",
+          "シリーズ初の「大義名分」システム。武将は革新・保守・忠義・実利の四気質を持ち、大名になると気質が家風となる",
+          "城下町の内政が約 20 年ぶりに復活。施設を自由に配置し、同種の施設をまとめると「特区」として効果が上がる",
+          "土地の適性が周辺の建物で変化し、米問屋を商業特区の隣に置くと周囲が農業寄りになるなど、配置が収入・人口・兵力に連鎖する",
+          "TGS2026 の会場で体験版を試遊可能で、ステージでは体験版を使った実機プレイが初公開された"
+        ],
+        synopsis: "戦国時代、武将たちは何のために戦うのか。本作は「大義名分」を軸に、天下統一までの道筋を描く歴史シミュレーション。プレイヤーは戦国大名の一人となり、内政・外交・合戦を通じて勢力を広げる。戦には名分が必要で、理由なき挙兵には家臣が従わない。合戦の地図は平地の自由移動と、道幅の限られた細い道が混在し、平地の要所を取ると士気が上がる。",
+        ipSource: "『信長の野望』シリーズ（コーエーテクモゲームス／シブサワ・コウ）。歴史シミュレーションのオリジナル企画",
+        series: "シブサワ・コウ 45 周年記念作。前作は『信長の野望・新生』で、本作はその約 4 年後の完全新作にあたる。2026-06-09 の Nintendo Direct で初公開された"
+      },
+      news: [
+        { source: "Quest Board.JP（TGS2026 特別ステージの発表内容：都市築内政・主題歌・企業コラボ・発売時期）", url: "https://quest-board.jp/en/quests/buzz-a95d8647a0a5f81b7cf7e3e6-20260919" },
+        { source: "Yomimono（4Gamer 発の報道：大義名分システムと都市築内政の詳細）", url: "https://www.yomimono.id/nobunaga-s-ambition-flight-brings-back-town-building-internal-affairs-at-tgs-2026" }
+      ],
+      videos: [
+        { label: "TGS2026 特別ステージの内容報道（実機プレイの内容と映像を掲載）", platform: "媒体", url: "https://www.yomimono.id/nobunaga-s-ambition-flight-details-just-cause-system-and-town-building" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "シブサワ・コウ 45 周年記念作で、シリーズ通算 40 年近い歴史を持つ国内向け看板タイトル",
+          "「城下町内政が約 20 年ぶりに復活」「シリーズ初のストーリーモード」など、シリーズファンに直接効く変更点が並ぶ",
+          "TGS2026 の会場試遊とステージ実機披露を行い、Steam ストアページも公開済み",
+          "国内向け歴史シミュレーションは海外露出が限定的で、期待度は国内中心となる"
+        ]
+      },
+      tags: ["新作", "歴史SLG", "Switch2", "PS5", "コーエーテクモ", "TGS2026"]
+    },
+    {
+      id: "sugar-lies",
+      company: "Kogado Studio",
+      companyJp: "株式会社工画堂スタジオ",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-18（KONAMI の TGS2026 生放送内で発表）",
+      capturedAt: "2026-09-20",
+      title: { jp: "Sugar Lies", cn: "Sugar Lies", en: "Sugar Lies" },
+      genre: "恋愛ビジュアルノベル（短編）",
+      platforms: ["PC (Steam)", "Nintendo Switch"],
+      release: "2026年末（PC／Steam、2,860 円）／2027年春（Nintendo Switch、パッケージ版 4,000 円）",
+      releasePrecision: "期",
+      summary: "工画堂スタジオ 于 2026-09-18 的 KONAMI「TGS2026 LIVE」直播环节公布的新作恋爱视觉小说，描写「讨厌谎言的青年 × 说谎如呼吸的少女」的夏日短篇故事：主人公长月秋人只要看到别人说谎或演戏就会产生生理性的排斥与恶心，却在此时遇上了比谁都擅长扮演「理想自我」的樱宫结衣，并在童年玩伴雪平灯里之间摇摆。发行 Kogado Studio、开发 Team S:OWLS，企划 Kawasyonin49，角色设计 Ringopann・Omoti，音乐 Ryusei，开场主题曲《Truth or Lies》由 Raito 作曲、两位女主角声优演唱。2026 年末先登陆 PC（Steam，2,860 日元），2027 年春发售 Switch 版（日版实体版 4,000 日元），支持英／日／繁中／简中。",
+      highlight: "【発表 2026-09-18】KONAMI 的 TGS2026 直播公布工画堂スタジオ 的新作恋爱视觉小说《Sugar Lies》并定档：PC／Steam 2026 年末 2,860 日元、Nintendo Switch 2027 年春（日版实体版 4,000 日元），支持英日繁中简中。　这是工画堂继长年短篇视觉小说路线后的又一自社企划，发布场合却选在 KONAMI 的 TGS 直播环节而非自家渠道，PC 先行、Switch 后发的安排也反映出该品类在家用机上的发行节奏更依赖实体渠道。",
+      console: {
+        status: "2026 年末 PC 版発売予定／2027 年春 Nintendo Switch 版発売予定",
+        os: ["PC (Windows / Steam)", "Nintendo Switch"],
+        monetization: "PC（Steam）版 2,860 円（税込）。Nintendo Switch 版は 2027 年春に発売予定で、国内パッケージ版は 4,000 円（税込）",
+        developer: "Team S:OWLS",
+        publisher: "Kogado Studio（工画堂スタジオ）",
+        region: "日本／海外（英語・日本語・繁体字中国語・簡体字中国語に対応）",
+        distribution: "Steam（ダウンロード）／Nintendo Switch パッケージ版・ダウンロード版",
+        stores: ["Steam", "Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "嘘や演技を見ると生理的に拒絶反応が出る青年・長月秋人を主人公にした短編恋愛ビジュアルノベル",
+          "ヒロインは「理想の自分」を演じることに長けた桜宮結衣 と、幼なじみの舞台女優 雪平灯里 の二人",
+          "企画は Kawasyonin49、キャラクターデザインは Ringopann と Omoti、音楽は Ryusei が担当",
+          "オープニング主題歌「Truth or Lies」は Raito 作曲、長谷川育美 と 飯田光 が歌唱",
+          "PC（Steam）版が 2026 年末に先行、Nintendo Switch 版は 2027 年春と発表されている",
+          "ASMR ボイスドラマの制作も告知されており、本編発売後に展開予定"
+        ],
+        synopsis: "「吐き気がする。この世界は嘘だらけだ」。長月秋人は嘘を嫌う青年で、誰かが嘘をついたり演技をしたりするのを見ると、体が拒絶反応を起こしてしまう。そんな彼の前に現れたのは、誰よりも上手に「理想の自分」を演じる少女・桜宮結衣だった。目が合った瞬間、秋人は悟る――これ以上ない最悪の出会いだと。そこに、幼なじみで舞台女優の雪平灯里も加わり、夏の物語が動き出す。",
+        ipSource: "工画堂スタジオのオリジナル企画（外部 IP のライセンスではなく自社ブランド作品）",
+        series: "工画堂スタジオは短編ビジュアルノベルを継続的に手がけてきたパブリッシャーで、本作はその系譜に連なる新作。発売後の ASMR 音声ドラマ展開も告知されている",
+        cast: "長谷川育美（桜宮結衣 役）／飯田光（雪平灯里 役）"
+      },
+      news: [
+        { source: "Gematsu（発売時期・価格・対応言語・スタッフとキャスト一覧）", url: "https://www.gematsu.com/2026/09/sugar-lies-launches-in-late-2026-for-pc-in-spring-2027-for-switch" },
+        { source: "Game8（KONAMI TGS2026 生放送での発表内容と音声ドラマ展開）", url: "https://game8.co/articles/latest/sugar-lies-a-new-romantic-visual-novel-has-a-protagonist-who-barfs-at-liars-and-actors" }
+      ],
+      videos: [
+        { label: "発表トレーラー（オープニング主題歌「Truth or Lies」を収録／記事内に埋め込み）", platform: "媒体", url: "https://play.asia/blog/2026/09/18/tgs-2026-sugar-lies-announced-for-pc-switch-for-spring-2027-release/" }
+      ],
+      hype: {
+        score: 47,
+        signals: [
+          "工画堂スタジオは短編ビジュアルノベルを継続的に手がけてきた国内パブリッシャーで、固定ファンを持つ",
+          "声優に 長谷川育美・飯田光 を起用し、主題歌も本人たちが歌唱するなど音声面の訴求が中心",
+          "PC 先行・Switch 後発で、予約数や DL 数などの公開数値はまだ発表されていない"
+        ]
+      },
+      tags: ["新作発表", "恋愛AVG", "PC", "Switch", "工画堂スタジオ"]
+    }
   ],
 
   /* ---------------------------------------------------------
@@ -5605,7 +5977,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-19",
+    asOf: "2026-09-20",
     listTotal: 50,
     categories: [
       {
@@ -5620,7 +5992,7 @@ window.OBSERVATORY = {
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct で『ロックマン デュアルオーバーライド』の 2027 年春発売が確定、9/1 には『ドラゴンズドグマ 2 ダークアリズン』の遺物遠征サイクルを公開した" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap"] },
-          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した" },
+          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表）" },
         ]
       },
       {
@@ -5634,7 +6006,7 @@ window.OBSERVATORY = {
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "watch" },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
-          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中" },
+          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball","hakuoki-shinkai-kiwame","kimi-wa-yukima-koimusubi","shinso-no-doppelt","velvet-candy-tint-kiss","genroh-switch"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中（9/13 の Otomate Party 2026 で『薄桜鬼 真改 極』『深窓のドッペルト』『VELVET CANDY TINT KISS』『君は雪間に希う -恋結び-』『源狼 GENROH』の 5 作を追加発表し、本台も同日付で 5 件を建卡）" },
           { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
           { name: "プラチナゲームズ株式会社", short: "PlatinumGames", status: "watch" },
           { name: "株式会社SNK", short: "SNK", status: "watch" },
@@ -5720,6 +6092,7 @@ window.OBSERVATORY = {
         { name: "株式会社フロムトーキョー", short: "FROMTOKYO", status: "covered", gameIds: ["bang-dream-our-notes"], focus: true, note: "前 Craft Egg 代表取締役・森川修一が中心となり 2024-02-01 に設立した開発会社。旧 Craft Egg の主要メンバーが在籍し、2024-11-01 にブシロードと資本業務提携を締結。『BanG Dream! ガールズバンドパーティ!』の開発運営を継続しつつ、シリーズ第 2 のリズムゲーム『BanG Dream! Our Notes』を開発。資本は日本側（ブシロードが資本業務提携先）で、大陸資本の関与はない" },
         { name: "東映株式会社 ゲーム事業ブランド「東映ゲームス」", short: "TOEI Games", status: "covered", gameIds: ["toei-games-hino", "toei-games-killa", "toei-games-debug-nephemee"], focus: true, note: "映画・テレビ・特撮・アニメを扱ってきた東映が 2026-04-21 に立ち上げた自社ゲームブランド。既存の影视・アニメ IP のゲーム化ではなく、国内外のクリエイター／スタジオと組んだ完全新規オリジナル企画のパブリッシングを柱に据える。TGS2026 に初出展し『HINO』『KILLA』『DEBUG NEPHEMEE』3 作の展場特別試玩版を提供した。これで東宝（TOHO Games）・松竹ゲームズ と合わせ、映画大手 3 社の自営ゲームブランドが揃った" },
         { name: "株式会社ジー・モード", short: "G-MODE", status: "covered", gameIds: ["haishin-shoujo-no-uraaka-meikyuu"], note: "『クリミナルガールズ』ではなく『ククリよみ』系のノベルや、DATA EAST ライセンス事業・フィーチャーフォン復刻企画『G-MODEアーカイブス』を手がける老舗パブリッシャー。Acacia 原作の『配信少女ノ裏垢迷宮』（PC／Switch、2026 年内）を発売し、TGS2026 のインディーゲームコーナー（09-E03）で初の試遊出展を行った" },
+        { name: "株式会社工画堂スタジオ", short: "Kogado Studio", status: "covered", gameIds: ["sugar-lies"], note: "東京都立川市の老舗パブリッシャーで、短編ビジュアルノベルや音楽・教育関連ソフトを手がけてきた。2026-09-18 の KONAMI TGS2026 生放送で新作『Sugar Lies』（PC／Steam 2026 年末、Nintendo Switch 2027 年春）を発表したため補充監視に追加" },
       ]
     }
   },
@@ -5728,23 +6101,20 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-09-13（投票区间 2026-08-26 ~ 2026-09-01）",
+    asOf: "2026-09-19",
     source: "Famitsu 週刊ファミ通 读者期待榜",
-    url: "https://nintendoeverything.com/famitsus-most-wanted-games-september-13-2026",
+    url: "https://gonintendo.com/contents/65225-famitsu-most-wanted-games-for-sept-19th-2026",
     list: [
-      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 657 },
-      { rank: 2, title: "Fire Emblem: Fortune's Weave", platform: "NS2", votes: 504 },
-      { rank: 3, title: "Persona 6", platform: "PS5", votes: 466 },
-      { rank: 4, title: "Persona 4 Revival", platform: "PS5", votes: 440 },
-      { rank: 5, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 424 },
-      { rank: 6, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 257 },
-      { rank: 7, title: "Xenoblade Genesis", platform: "NS2", votes: 235 },
-      { rank: 8, title: "Grand Theft Auto 6", platform: "PS5", votes: 233 },
-      { rank: 9, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 228 },
-      { rank: 10, title: "Final Fantasy Resonance", platform: "NS2", votes: 186 },
-      { rank: 11, title: "Trails in the Sky 2nd Chapter", platform: "PS5", votes: 180 },
-      { rank: 17, title: "The Duskbloods", platform: "NS2", votes: 92 },
-      { rank: 22, title: "Kingdom Hearts 4", platform: "PS5", votes: 76 }
+      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 569 },
+      { rank: 2, title: "Persona 6", platform: "PS5", votes: 477 },
+      { rank: 3, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 445 },
+      { rank: 4, title: "Persona 4 Revival", platform: "PS5", votes: 416 },
+      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 323 },
+      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 244 },
+      { rank: 7, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 212 },
+      { rank: 8, title: "Final Fantasy Resonance", platform: "NS2", votes: 170 },
+      { rank: 9, title: "Xenoblade Genesis", platform: "NS2", votes: 159 },
+      { rank: 10, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 154 }
     ]
   },
 
@@ -5752,10 +6122,10 @@ window.OBSERVATORY = {
    * D. TGS2026 前瞻 — 2026-09-17 ~ 09-21 幕張メッセ
    * ------------------------------------------------------- */
   tgs: {
-    dates: "2026-09-17 ~ 2026-09-21",
+    dates: "2026-09-17 ~ 2026-09-21（9-21 は台風接近により全日中止）",
     venue: "幕張メッセ（千葉）",
     theme: "長い5日間、遊びつくせ。／ Longest Five Days of Nonstop Play",
-    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）ーー当日的主要结果：① 东映的自营游戏品牌「東映ゲームス」（2026-04 设立）首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，并设夹娃娃机与 TGS2026 限定马克杯，品牌代表另参与同日 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」；② 9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，并公开 Juliet 新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报；③ サンリオゲームス 展台的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；④ 日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的公众网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。其他已公布日程：Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台以 7 タイトル 出展（含 OVER RUSH 的オープンβ，9/24 截止）；Koei Tecmo 的『遙かなる時空の中で 龍宮の神子』特别舞台定于 9/20 14:30-15:15（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外同步直播。",
+    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）ーー当日的主要结果：① 东映的自营游戏品牌「東映ゲームス」（2026-04 设立）首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，并设夹娃娃机与 TGS2026 限定马克杯，品牌代表另参与同日 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」；② 9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，并公开 Juliet 新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报；③ サンリオゲームス 展台的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；④ 日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的公众网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。其他已公布日程：Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台以 7 タイトル 出展（含 OVER RUSH 的オープンβ，9/24 截止）；Koei Tecmo 的『遙かなる時空の中で 龍宮の神子』特别舞台定于 9/20 14:30-15:15（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外同步直播。2026-09-19 夕方、主催の CESA は第 25 号台風（Dujuan）の接近により 9 月 21 日（月・祝）の全日中止を発表した。同日午後から風雨が強まり、公共交通の乱れで来場者・出展者・関係者の帰宅が困難になる恐れがあるためとしている。9 月 20 日（日）は予定どおり 9:30-17:00 で実施されるが、会場周辺の状況により一部の設備・内容が変更または中止される場合があり、20 日のチケットは払い戻しの対象外。21 日のチケットは購入先の手続きに従って払い戻される。21 日に予定されていた一部のステージは、会場の安全確認後に公式番組としてオンライン配信される調整が進められている。バンダイナムコエンターテインメント、DMM GAMES、GRAPHT などは 21 日のブース展示・試遊・ステージ・サイン会・ノベルティ配布の中止を相次いで発表した。TGS が 1996 年に始まって以来、全日中止は史上初で、30 周年記念として予定された初の 5 日間開催は実質 4 日間となった。来場者数は 9 月 17 日が 53,630 人、9 月 18 日が 52,545 人だった。 9 月 20 日（第 4 日・一般公開日）の主な予定：13:00-14:45 に日本ゲーム大賞 2026 フューチャー部門の授賞式（幕張メッセ Hall 1 イベントステージ）。KONAMI は『遊☆戯☆王 TAG FORCE GX Returns』発売決定特別番組（10:00）・『幻想水滸伝 STAR LEAP』Live（12:00）・『Castlevania: Belmont's Curse』初の実機配信（14:00）。コーエーテクモは『薬屋のひとりごと』特別ステージ（13:30）と『遙かなる時空の中で 龍宮の神子』TGS 特別ステージ（14:30）。SEGA／ATLUS は『STRANGER THAN HEAVEN』の実機ショーケース（13:10・15:40）と『Persona 4 Revival』特別トークステージ（14:50）、『Metaphor: ReFantazio』特別トークステージ（14:50）。PC Gaming Show Tokyo Direct 2026 は 9 月 20 日 9:00（PT）＝日本時間 9 月 21 日 1:00 から約 90 分、35 本以上・10 のワールドプレミアを予定している（配信番組のため会場中止の影響は受けない）。",
     booths: [
       { company: "Square Enix", hall: "—", items: "以《FINAL FANTASY VII REVELATION》为绝对核心：三部曲终章的全球首个一般试玩（飞空艇世界地图探索＋Trinity 三人连携战斗），展台设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点。《FINAL FANTASY RESONANCE》同样可试玩，并追加确认《Romancing SaGa 3: Destinies United》提供试玩。预告片轮播含 FFXIV: Evercold／DQ モンスターズ 朽ちた世界／DQ XI S／KH Collection I~III／KH IV／DQ X オンライン／DISSIDIA DUELLUM FF／DQ スマッシュグロウ／DQ ヒーローズ トルネコ Classic HD。Family Game Park 提供《DQ VII Reimagined》试玩；公众日 モーグリ 与チョコボ「アルファ」不定期登场，《モンスターズ 朽ちた世界》举办「フラッフィー」合影会并发放周边　开幕日确认《キングダム ハーツ IV》与《KH Collection I~III》双双推出 Nintendo Switch 2 原生版并公开最新发售窗口；《キングダム ハーツ IV》在展台维持仅展示、不可试玩。" },
       { company: "カプコン", hall: "7 号馆（试玩）／9-11 号馆（周边）", items: "史上最大规模出展。可试玩：《モンスターハンターワイルズ 拡張「Ascendance」》（Switch 2 版同步开放试玩，为全场最长队列之一）、《ドラゴンズドグマ 2 ダークアリズン》（日本首次可试玩，10/09）、《ロックマン デュアルオーバーライド》（日本首次可试玩）、《ストリートファイター6》（新角色「アルジュン」先行试玩）；另有《プラグマタ》《鬼武者 Way of the Sword》。9-11 号馆设「e-Capcom 2026 出张所」与扭蛋区「CAPSULE LAB」　Xbox 的 TGS2026 放送进一步确认《モンスターハンターワイルズ》扩展「Ascendance」的推出窗口为 2027 年，公开新区域「Skybound Eyrie」、炎王龙 Teostra 回归，以及面向全部 14 种武器的「Boost Bracer／Boost Driver」。" },
@@ -5790,15 +6160,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 公众日首日：补收東映ゲームズ 3 款（東映首次以自营品牌出展）与 G-MODE『配信少女ノ裏垢迷宮』，手游侧补收在营作品《遙かなる時空の中で 龍宮の神子》；《ロリポップチェーンソー2 Back2Back》正式定名（PS5／2027）并宣布实拍电影化。条目总数 100 → 105",
+    headline: "TGS2026 因第 25 号台风宣布 9/21 全日中止（30 年来首次），首个 5 日展期被压缩为 4 日；手游侧本轮无新增，主机・PC 侧查出并补收漏掉的 Otomate Party 2026 五款乙女新作，另新增《信長の野望・飛翔》与工画堂《Sugar Lies》。条目总数 105 → 112（手游区 29 不变／主机・PC 区 84 → 91）",
     points: [
-      "**手游侧本轮补收 1 条——在营乙女手游《遙かなる時空の中で 龍宮の神子》**：光荣特库摩旗下 Ruby Party 的「遥远时空（ネオロマンス）」系列首款智能手机原生完全新作，2025-11-28 已在日服上线、运营近 10 个月，2026-09-01 实装新八叶「武田信玄」（CV：下鶴直幸）。本轮按「已开服手游在窗口内有重要进展即可收」的口径补卡，依据是 TGS2026 出展与 9/20 14:30 的主舞台「りゅうみこ出張かわらばん TGS2026 特別号」（登坛：三浦勝之・戸谷菊之介・鈴木裕斗）；本届科乐美式的展台不设试玩机，而以闪光灯下「八叶环绕神子」的写真点接受关注与发帖换贴纸。手游区 28 → 29 条。",
-      "**TGS2026 的移动端新作依旧没有日方主导者**：9/19 公众日首日的一手情报里，移动端新作仍集中于韩资四社——Nexon《Mabinogi Mobile》（日本 10/07 上线、事前登录突破 20 万）与《Fareidolia》（《蔚蓝档案》团队 IO Division，首次公开可玩 Demo）、Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》《Pearl in Blue》、Smilegate《MIRESI》《Dead Account》＝《Fate/Sight: The Unseen Future》、NC《Astrae Oratio》（2027 年 iOS／Android 首发）——按「开发・发行的资本归属」判定全部跳过，不建条目、不记厂商。日方的新作信号仍集中在主机・PC 侧。",
-      "**首次收录电影大厂东映的自营游戏品牌「東映ゲームス」，一次补收 3 条**：東映于 2026-04-21 成立该品牌，TGS2026 首次出展（展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，另设夹娃娃机与限定马克杯，并参与 9/19 的 TGS 论坛「異業種からの挑戦」）。三条卡片分别是：『HINO』（企划・制作 UnGloomStudio＝日本独立工作室，2026 年内，9/17 公开 Steam 体验版）、『KILLA』（企划・制作 Black Tangerine＝韩国独立工作室，2026 年内，体验版仅限展场）、『DEBUG NEPHEMEE』（企划・制作 Nephemee Studio＝日本独立团队，发售日未定，9/10 公开 Steam 体验版）。至此本站 extra 同时收录東宝（TOHO Games）、松竹ゲームズ 与東映ゲームス，三大电影公司自营游戏品牌齐全。主机・PC 区 80 → 84 条。",
-      "**《ロリポップチェーンソー2 Back2Back》正式定名并宣布实拍电影化**：9/19 9:40-10:30 的 TGS 主舞台特别舞台公布正式标题、PS5 等平台／2027 年发售，以及同 IP 的实拍电影化（制片 Kirk Shaw・Robert Franke，另有 Nada Holdings 创办人 鄧橋、Throne 的 結城崇史、Non Stop TV 的 Patricio Rabuffetti 参与）。制作体制为 Dragami Games（IP 所有者・企划）＋ JP UNIVERSE（开发，共同制作人 田畑端、开发总监 那須靖明）。该条目已从「标题与机种均未发表」更新为定名状态，bucket 改为 update。",
-      "**G-MODE 补收 1 条：『配信少女ノ裏垢迷宮』**（PC Steam／Nintendo Switch，2026 年内，预定对应日文・简中・英文）。原作・制作 Acacia（『魔法少女的魔女裁判』班底），角色设计 梅まろ。G-MODE 于 9/3 宣布本作在 TGS2026 首次试玩出展，9/19 公众日首日起在独立游戏区 09-E03 提供约 10 分钟的展会特别版（全语音＋首次公开的特别 MV）。本作 2025 年 11 月即已公开、属窗口外的老企划，按「未发售老企划有窗口内新情报即可收」的口径收录。",
-      "**厂商名单：extra 新增 2 家（東映ゲームス／ジー・モード），コーエーテクモ 的 gameIds ＋1**。4 个 category 家数仍为 8／16／16／10＝50，extra 27 → 29 家；companies.asOf 刷新为 2026-09-19。",
-      "**漏收核查**：本轮按「IP 持有方／娱乐公司直营游戏品牌」这条线逐个过筛——東宝（TOHO Games，已收录）／松竹ゲームズ（已收录，聚合条目待拆）／東映ゲームス（**本轮补收 3 条**）；女性向在营手游线查出《遙かなる時空の中で 龍宮の神子》（**本轮补收**）；hololive 线：hololive Dreams／holoVillage 已收录，另见 9/18 由 COVER 的「holo Indie」品牌发行的 PC 小规模作品『Ollie Ninja Slash』（250 円、7 Moon Studio 开发），因规模过小（同人级定价、无发行方主导的推广）未建条目，登记备查；呪術廻戦：RUMBLE: SURVIVATON 已收录（2027 延期已记，TGS 提供 8 人对战试玩）。**本轮共查出漏收 4 条并已建卡。**",
+      "**手游侧本轮无新增**：9/19 傍晚至 9/20 早晨的日媒消息里，移动端新作仍然全部来自韩资四社——Nexon《Fareidolia》（前 Project RX，UE5，本届 TGS 首次开放可玩 Demo）、Netmarble《Solo Leveling: KARMA》《Shangri-La Frontier: The Seven Colossi》、NC《Astrae Oratio》（2027 年 iOS／Android 首发，全球 CBT 申请 9/20 截止）、Smilegate《Dead Account》——按「开发・发行的资本归属」判定全部跳过，不建条目、不记厂商。日方的新作信号本场仍全部落在主机・PC 侧，因此手游区维持 29 条不变。",
+      "**TGS2026 第 5 日（9/21）全日中止**：主办方 CESA 于 9/19 傍晚宣布，因第 25 号台风（Dujuan）逼近、9/21 午后风雨增强且公共交通可能受阻，为优先保障到场者、出展方与工作人员的安全与返程，决定取消 9/21 全天活动；9/21 门票退款，部分原定舞台将在确认会场安全后改以官方节目线上直播。9/20 照常举行（9:30-17:00），但部分设备与活动可能视天气变更，9/20 门票不退款。这是 TGS 自 1996 年开办 30 年来**首次整日中止**，原定的史上首个 5 日展期实际缩短为 4 日。到场人数：9/17 为 53,630 人、9/18 为 52,545 人。万代南梦宫、DMM GAMES、GRAPHT 等已陆续宣布取消 9/21 的展台、试玩与舞台。",
+      "**漏收核查（女性向品牌线）查出漏收 5 条并全部补卡**：按「主机侧女性向／乙女向只有 Otomate（アイディアファクトリー）等少数品牌在动，必须按品牌逐个过」的口径复核，发现 2026-09-12／13 的「Otomate Party 2026」公布的 5 款作品此前完全未收录——『薄桜鬼 真改 極』（Nintendo Switch 2，系列 6 作打包的 20 周年集大成版）、『深窓のドッペルト』（1947 年战后世相的原创新作）、『VELVET CANDY TINT KISS』（现代日本「危险的吻」题材新作）、『君は雪間に希う -恋結び-』（2021 年前作的 Fan Disc）、『源狼 GENROH』（2012 年 PSP 作移植，オトメイト Graffiti 第 14 弹，2027 年）。Otomate 是本台 focus 厂商且已为 covered，本轮把 5 条全部补入并把新 id 追加到其 gameIds。",
+      "**新增《信長の野望・飛翔》**（コーエーテクモゲームス／シブサワ・コウ 45 周年，2026 年冬，PS5／Switch 2／Switch／Steam）：9/19 14:30-15:20 的 TGS2026 特别舞台由制作人 劉迪 与职业麻将选手 内川幸太郎・中林恵 登坛，公布「城下町内政」时隔约 20 年复活、主题曲由 Porno Graffitti 演唱，以及与 Q&P KOWA／関谷醸造（蓬莱泉）／阪急阪神 的企业联动，并以 TGS 体验版首次实机演示。本作在 2026-06-09 的 Nintendo Direct 首次公开，属窗口外的老企划，本轮按「未发售老企划有窗口内新情报即可收」的口径收录。",
+      "**新增工画堂スタジオ《Sugar Lies》**（恋爱视觉小说；PC／Steam 2026 年末 2,860 日元、Nintendo Switch 2027 年春、日版实体版 4,000 日元，支持英／日／繁中／简中）：2026-09-18 的 KONAMI「TGS2026 LIVE」直播环节公布定档、开场主题曲与全新预告。发行 Kogado Studio、开发 Team S:OWLS，主角配音为 长谷川育美／飯田光。",
+      "**期待榜换期**：Famitsu 读者期待榜更新至 2026-09-19 期——《宝可梦 风/波》以 569 票继续居首，《Persona 6》477 票、《塞尔达传说 时之笛》445 票分列二三位；9/17 已发售的《火焰之纹章 万缕千丝》本期已从榜上退出。",
+      "**厂商名单：4 个 category 家数仍为 8／16／16／10＝50，extra 29 → 30 家**（新增 工画堂スタジオ）；アイディアファクトリー 的 gameIds ＋5、コーエーテクモゲームス 的 gameIds ＋1；companies.asOf 刷新为 2026-09-20。中资厂商作品本轮同样全部跳过（不点名、不入库）。"
     ]
   },
 };
