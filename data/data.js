@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-21T09:35:00+08:00",
+    updatedAt: "2026-09-21T18:45:00+08:00",
     edition: "2026-09-21",
     window: "2026-07-21 ~ 2026-09-21（滚动最近 2 个月）",
     sources: [
@@ -4584,15 +4584,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社アニプレックス（開発：FRENCH-BREAD）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 アニプレックス 04-C04・ハピネット 6 号館 N04 の二展台でシリーズ初の一般試遊）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-09-20（TGS2026 期間の合同インタビューで Grand Scenario の内容量と戦闘調整方針を公開）",
+      capturedAt: "2026-09-21",
       title: { jp: "MELTY BLOOD: TWI-LUMINA", cn: "月姬格斗 TWI-LUMINA", en: "MELTY BLOOD: TWI-LUMINA" },
       genre: "2D 対戦格闘",
       platforms: ["PS5", "PS4", "Nintendo Switch 2", "Nintendo Switch", "Xbox One", "PC(Steam)"],
       release: "2027-04-22",
       releasePrecision: "日",
       summary: "TYPE-MOON《月姬》世界观下的 2D 对战格斗系列新作，由 Aniplex 发行、FRENCH-BREAD 开发，9 月 12 日公开新 PV 并确定 2027 年 4 月 22 日发售，登陆 PS5／PS4／Switch 2／Switch／Xbox One／Steam 六个平台。本作是对 2021 年《MELTY BLOOD: TYPE LUMINA》的全面翻新版：奈须蘑菇新写剧本，武内崇负责角色设计，新角色「莲」参战，并首次公开武内崇绘制的「白莲」。战斗系统追加 Act／Duel 两种操作模式与强化的 Rapid Beat，让不擅长指令输入的玩家也能上手。TGS2026 首日公布的试玩阵容为 7 名可操作角色（遠野志貴／アルクェイド／シエル／ロア／ネコアルク／マシュ／レン）。",
-      highlight: "【TGS2026 9/17】アニプレックス 展位（4 号馆 04-C04）与 ハピネット 展位（6 号馆 N04）两处提供系列首次一般试玩，试玩可操作 7 人（遠野志貴／アルクェイド／シエル／ロア／ネコアルク／マシュ／レン），赠品为 7 种随机贴纸，展位另发两面大购物袋与 ネコアルク 面具。　对 2021 年版的「翻新而非续作」：奈须蘑菇新写剧本、武内崇负责角色设计并首次披露其绘制的「白蓮」，用 Act／Duel 双操作模式把格斗门槛降给新玩家。",
+      highlight: "【TGS2026 9/20】合同インタビューでディレクター 芹澤鴨音 氏が Grand Scenario の内容量（約 20 時間・奈須きのこ執筆）と、Shield／Shield Counter の整理方針、LastArc の発動条件緩和を明かした。　アニプレックス 展位（4 号馆 04-C04）与 ハピネット 展位（6 号馆 N04）两处提供系列首次一般试玩，试玩可操作 7 人（遠野志貴／アルクェイド／シエル／ロア／ネコアルク／マシュ／レン）。对 2021 年版的「翻新而非续作」：奈须蘑菇新写剧本、武内崇负责角色设计并首次披露其绘制的「白蓮」，用 Act／Duel 双操作模式把格斗门槛降给新玩家。",
       news: [
         { source: "Games Press（Aniplex 官方新闻稿全文，含发售日・平台・官方站・预告片地址）", url: "https://www.gamespress.com/ru/New-Entry-in-MELTY-BLOOD-Series-2D-Fighter-MELTY-BLOOD-TWI-LUMINA-To-B" },
         { source: "Yomimono（発売日PV・操作モード・TGS2026 試遊／ANN・4Gamer・GAME Watch・Automaton を出典）", url: "https://www.yomimono.id/melty-blood-twi-lumina-sets-april-22-2027-release-and-white-len" }
@@ -5028,60 +5028,62 @@ window.OBSERVATORY = {
       id: "sanrio-kawaii-me-live",
       company: "サンリオ（Sanrio Games）",
       companyJp: "株式会社サンリオ（Sanrio Games）",
-      bucket: "new",
+      bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-09-17（サンリオゲームスが TGS2026 に初出展し、試遊出展を公開）",
-      capturedAt: "2026-09-18",
+      announceDate: "2026-09-21（2027年1月の世界同時配信と事前登録受付開始を公式発表）",
+      capturedAt: "2026-09-21",
       title: { jp: "Sanrio Kawaii Me Live!", cn: "Sanrio Kawaii Me Live!", en: "Sanrio Kawaii Me Live!" },
       genre: "ダンスリズムゲーム（着せ替え要素あり）",
       platforms: ["iOS", "Android"],
-      release: "2027年",
-      releasePrecision: "年",
-      summary: "三丽鸥自营游戏品牌 Sanrio Games 的第二款作品、也是该品牌首款智能手机游戏，预定 2027 年推出。定位「超 KAWAII」舞蹈节奏游戏：随与三丽鸥角色相关的乐曲起舞，并可为三丽鸥角色与游戏内登场的舞台换装。官方在战略访谈中解释分工——主机游戏适合客厅里家人朋友一起玩，手机游戏则让玩家更深入地沉浸进某一个角色的世界，因此把手游侧主轴放在音乐与换装。TGS2026 的 Sanrio Games 一般展区提供试玩，是三丽鸥把「与角色共度时间」从周边、主题公园延伸到自研游戏的一环。配信形态、课金方式与事前登录均尚未公布。",
-      highlight: "【TGS2026 9/18】サンリオゲームス展台（一般展区）首次提供试玩，可体验「超 KAWAII」舞蹈节奏玩法与角色／舞台换装，试玩者赠 TGS2026 限定设计遮阳帽。　三丽鸥把自营游戏分成两条线：家庭用＝客厅合家欢、スマホ＝沉浸单个角色世界；本作是手游线的第一张牌，也是本站首次收录 Sanrio Games 的作品之一。",
+      release: "2027年1月（世界同時配信）",
+      releasePrecision: "月",
+      summary: "三丽鸥自营游戏品牌 Sanrio Games 的首款智能手机游戏。2026 年 6 月 28 日在「Sanrio Fes 2026」角色大赏结果发表舞台上首次公开，TGS2026 一般展区提供试玩；2026 年 9 月 21 日官方正式公告：2027 年 1 月全球同步上线、同日启动事前登录。玩法为「超 KAWAII」舞蹈节奏游戏，按与角色相关的乐曲起舞，可自由搭配角色服装与舞台设计；提供面向休闲玩家的 Performance Mode 与面向硬核玩家的 Technical Mode 两种谱面难度。收录曲目由 Universal Music 旗下 Soala、SHE'S、Lienel、Polkadot Stingray、ヤバイTシャツ屋さん、Mi'Line Hearts 提供原创曲，另确认与 ずっと真夜中でいいのに。 的乐曲合作。事前登录与官方 SNS 关注数合计达 100 万时可获 Sanrio Games 主题 Hello Kitty 服装。配信形态为基本免费＋内购，2027 年 1 月 14 日另在横滨关内 Hall 举办发售纪念 Live。",
+      highlight: "【2026-09-21 公式発表】Sanrio Games 初のスマートフォンタイトルを 2027 年 1 月に世界同時配信すると発表、同時に事前登録の受付を開始した（App Store／Google Play）。　事前登録数と公式 SNS フォロワーの合算で段階的にゲーム内特典を解放する形式で、100 万件達成時には Sanrio Games ミラウェア（ハローキティ）が配られる。楽曲は Universal Music 所属の Soala／SHE'S／Lienel／Polkadot Stingray／ヤバイTシャツ屋さん／Mi'Line Hearts が書き下ろし、ずっと真夜中でいいのに。 とのタイアップも決定。コンセプト PV は 09-21 12:00 に公式 YouTube でプレミア公開され、2027-01-14 には横浜関内ホールで発売記念ライブが予定されている。",
       mobile: {
-        status: "配信予定（2027年）",
+        status: "配信予定（2027年1月・世界同時配信）",
         os: ["iOS", "Android"],
-        monetization: "未発表",
+        monetization: "基本無料（一部アプリ内課金）。公式表記は Free-to-play（includes optional in-app purchases）",
         preReg: {
-          open: false,
-          since: "",
-          reward: "公式発表なし（TGS2026 で試遊出展が公開された段階で、事前登録の告知はまだない）"
+          open: true,
+          since: "2026-09-21（App Store／Google Play で世界向けに受付開始。事前登録数と公式 SNS フォロワー数の合算で段階特典を解放）",
+          reward: "5万件: Cosmo Soda(L)×10／10万件: Kawamilite×3,000＋タイムトラベルチケット×10／20万件: ★1 アクセサリーセット（15 キャラ分）／30万件: ガチャチケット×10／50万件: キャラクターステッカーセット／80万件: ★3 確定ガチャチケット×1／100万件: Sanrio Games ミラウェア（ハローキティ）"
         },
         developer: "株式会社サンリオ（Sanrio Games）",
         publisher: "株式会社サンリオ（Sanrio Games）",
-        region: "未発表",
-        distribution: "未発表（スマートフォン向けタイトル）",
+        region: "日本／世界同時（公式発表は global release。日本語・英語の両サイトで告知し、事前登録ページは en-us も用意されている）",
+        distribution: "App Store / Google Play",
         payment: [],
         ipSource: "サンリオの自社キャラクター IP を用いた完全新作。外部ライセンスではなく自社ブランド「Sanrio Games」が企画・開発を主導する",
         series: "Sanrio Games 第 2 弾／スマートフォン第一弾。第 1 弾は家庭用『Hello Kitty パーティランド』（2026-10-29、Nintendo Switch／Switch 2）。サンリオは 3 年で 10 タイトルの投入を計画している",
         features: [
-          "三丽鸥キャラクターの楽曲で遊ぶ「超 KAWAII」ダンスリズムゲーム",
-          "三丽鸥キャラクターとゲーム内ステージの着せ替え",
-          "ゲーム内で三丽鸥キャラクターに関連する楽曲をプレイ可能",
-          "TGS2026（9/17-21）のサンリオゲームス展台で試遊出展"
+          "サンリオキャラクターの楽曲で遊ぶダンスリズムゲーム。簡単操作の「パフォーマンスモード」と高難度譜面の「テクニカルモード」を用途別に選べる",
+          "キャラクターの衣装とステージデザインを自由にカスタマイズし、自分だけの「超 KAWAII」ステージを作れる",
+          "ユニバーサルミュージック所属アーティスト（Soala／SHE'S／Lienel／Polkadot Stingray／ヤバイTシャツ屋さん／Mi'Line Hearts）による書き下ろし楽曲を収録",
+          "ずっと真夜中でいいのに。 との楽曲タイアップが決定",
+          "事前登録数と公式 SNS フォロワー数の合算で段階的にゲーム内特典を解放（最大 100 万件）",
+          "2027-01-14 に横浜関内ホールで発売記念ライブ「Sanrio Kawaii Me Live! Launch Live」を開催予定。3D ルックの KUROMI とサンリオキャラクターが出演"
         ],
-        synopsis: "三丽鸥のキャラクターたちと音楽で遊ぶスマートフォン向けダンスリズムゲーム。楽曲に合わせて踊るだけでなく、キャラクターやステージを自分の好みに着せ替えて、好きなキャラクターの世界に浸ることを狙った構成になっている。",
-        cast: "公式発表なし"
+        synopsis: "サンリオのキャラクターたちと音楽で遊ぶスマートフォン向けダンスリズムゲーム。キャラクターにまつわる楽曲に合わせて踊るだけでなく、衣装とステージを自分の好みに組み替えて、好きなキャラクターの世界に浸ることを狙った構成になっている。TGS2026 の自社ブースでは一般展区と家庭游戏区の両方に出展された。",
+        cast: "公式発表なし（登場キャラクターは ハローキティ／シナモロール／ポムポムプリン／マイメロディ ほか。楽曲提供は Universal Music 所属アーティストと ずっと真夜中でいいのに。）"
       },
       news: [
-        { source: "Sanrio Games 官方新闻（TGS2026 出展 3 タイトル・発売時期）", url: "https://www.sanrio-games.jp/zh-tw/news/00009.html" },
-        { source: "Japan Forward（Sanrio Games の家庭用／スマホ二本立て戦略インタビュー）", url: "https://japanese-specialist.com/?live-blog-20325871-2026-08-05-with-its-first-in-house-game-brand-and-debut-title-launching-this-fall-sanrio-is/" }
+        { source: "サンリオ公式ニュースリリース（2027 年 1 月世界同時配信・事前登録開始・段階特典・発売記念ライブ）", url: "https://corporate.sanrio.co.jp/en/news/20260921.html" },
+        { source: "Yomimono（4Gamer 報道を統合：楽曲提供アーティスト・発売記念ライブ・事前登録開始）", url: "https://www.yomimono.id/sanrio-games-sets-january-2027-launch-for-sanrio-kawaii-me-live" }
       ],
       videos: [
-        { label: "Sanrio Games TGS2026 特设页（出展作品一覧）", platform: "官方站", url: "https://www.sanrio-games.jp/zh-tw/tgs2026/" },
-        { label: "Japan Forward 报道（Sanrio Games 战略与开发体制）", platform: "媒体", url: "https://japanese-specialist.com/?live-blog-20325871-2026-08-05-with-its-first-in-house-game-brand-and-debut-title-launching-this-fall-sanrio-is/" }
+        { label: "コンセプトプロモーションビデオ（Sanrio Games 公式 YouTube・2026-09-21 12:00 プレミア公開）", platform: "YouTube", url: "https://youtu.be/4x1UhaqvskM" },
+        { label: "事前登録キャンペーン特設ページ（App Store／Google Play への導線と特典一覧）", platform: "官方站", url: "https://www.sanrio-games.jp/en-us/games/sanrio-kawaii-me-live/pre-registration/" }
       ],
       hype: {
-        score: 57,
+        score: 63,
         signals: [
-          "サンリオ初の自社ブランドによるスマホゲーム第 1 弾という位置づけで、IP ホルダー直営として注目される",
-          "TGS2026 で試遊を実施し、一般展区の出展作の一つとして扱われた",
-          "サンリオは 3 年 10 タイトル計画を公表しており、継続投資が前提にある",
-          "配信時期が「2027 年」とのみ告知され、事前登録など数値シグナルはまだ存在しない"
+          "サンリオ初の自社ブランドによるスマホゲーム第 1 弾で、IP ホルダー直営として同社のデジタル戦略の試金石になる",
+          "2026-09-21 の公式発表で配信時期が「2027 年 1 月・世界同時」に確定し、同日に事前登録が始まった",
+          "ユニバーサルミュージック所属アーティスト 6 組の書き下ろしと ずっと真夜中でいいのに。 のタイアップで、音ゲーとしての楽曲側の厚みを確保している",
+          "事前登録特典が SNS フォロワー数との合算・最大 100 万件という設計で、公開初日から数値目標が明示されている"
         ]
       },
-      tags: ["新作発表", "IP直営", "サンリオ", "音ゲー", "TGS2026"]
+      tags: ["手游", "IP直営", "サンリオ", "音ゲー", "事前登録", "TGS2026"]
     },
     {
       id: "fragaria-memories-color-of-wishes",
@@ -6481,6 +6483,121 @@ window.OBSERVATORY = {
       },
       tags: ["新作発表", "主机", "RPG", "リメイク", "KONAMI", "TGS2026"]
     },
+    {
+      id: "dynasty-warriors-3-complete-edition-remastered",
+      company: "Koei Tecmo",
+      companyJp: "株式会社コーエーテクモゲームス（開発：ω-Force）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-20（TGS2026 特設ステージ「Ask Sho-P」で体験版 09-24 配信とオンライン2人協力の無料アップデートを発表）",
+      capturedAt: "2026-09-21",
+      title: { jp: "真・三國無双3 Complete Edition Remastered", cn: "真·三国无双3 Complete Edition Remastered", en: "DYNASTY WARRIORS 3: Complete Edition Remastered" },
+      genre: "タクティカルアクション（無双アクション／リマスター）",
+      platforms: ["PlayStation 5", "Nintendo Switch 2", "Xbox Series X|S", "PC(Steam)"],
+      release: "2026-10-01（体験版は 2026-09-24 配信）",
+      releasePrecision: "日",
+      summary: "KOEI TECMO GAMES 与 ω-Force 把 2001 年的《真·三国无双3》与其资料片《Xtreme Legends》合并成一部，用虚幻引擎 5 全面重建，2026 年 10 月 1 日登陆 PS5／Switch 2／Xbox Series X|S／Steam（标准版 39.99 美元）。9 月 20 日 TGS2026 特别舞台「Ask Sho-P」宣布两件事：体验版 9 月 24 日配信（Steam／PS5／Switch 2／Xbox），以及发售后以免费更新形式在 2027 年 1 月追加线上双人协力——发售时双人只支持本地分屏。重制保留原作的 1 vs 1,000 手感，追加回避动作、《Perfect Power Guard》与武器融合等新机制，可操作武将逾 40 名，并让最新作《无双 ORIGINS》的主角紫鸞（Ziluan）以客串武将身份参战。制作人庄知彦在同一舞台上回应系列未来：其他作品是否重制「取决于本作销量」，ω-Force 将于 2027 年迎来 30 周年，正在考虑纪念活动及《战国无双》《无双 OROCHI》的重启。",
+      highlight: "【TGS2026 9/20】「Ask Sho-P」特設ステージで体験版 09-24 配信（Steam／PS5／Switch 2／Xbox Series X|S）と、2027 年 1 月の無料アップデートによるオンライン2人協力の追加を発表。発売は 2026-10-01。　原作『真・三國無双3』は 2001 年発売で、シリーズ初の無双乱舞系アクション・2人同時プレイ・武将育成を導入し、初のミリオンセラーになった作品。本作は 2001 年版と『Xtreme Legends』を 1 本に統合し、Unreal Engine 5 で再構築した。発売時にオンライン対戦が無い点は TGS 期間中に明らかになり、2027 年 1 月の無料アップデートで補われる。",
+      console: {
+        status: "2026-10-01 発売予定（体験版は 2026-09-24 配信）",
+        os: ["PlayStation 5", "Nintendo Switch 2", "Xbox Series X|S", "Windows (Steam)"],
+        monetization: "買い切り。標準版 39.99 ドル、デジタルデラックス版あり。オンライン2人協力は 2027 年 1 月の無料アップデートで追加",
+        developer: "コーエーテクモゲームス（ω-Force）",
+        publisher: "コーエーテクモゲームス",
+        region: "日本／北米・欧州（世界同時展開）",
+        distribution: "各機種のダウンロードストア。Steam 版は地域により 09-30 表記の揺れがあるが、公式告知は 10-01",
+        stores: ["PlayStation Store", "Nintendo eShop", "Microsoft Store", "Steam"],
+        preOrder: "予約受付中。『真・三國無双 ORIGINS』の主人公 紫鸞（Ziluan）が特典武将として付属。デジタルデラックス版は武器 42 種・六韜・風神の巻物・虎の印・武将設定画集・レトロ衣装 42 種を同梱",
+        features: [
+          "2001 年の『真・三國無双3』と拡張ディスク『Xtreme Legends』を 1 本に統合したリマスター",
+          "Unreal Engine 5 で戦場と地形を全面的に再構築（虎牢関など序盤戦場が例に挙げられている）",
+          "回避アクション、《パーフェクトパワーガード》、武器融合といった新要素を追加",
+          "プレイアブル武将は 40 名以上。『ORIGINS』主人公 紫鸞 が客演武将として参戦",
+          "発売時はローカル分屏の 2 人プレイのみ。オンライン2人協力は 2027 年 1 月の無料アップデートで追加",
+          "ムソウモード／フリーモード／チャレンジモード／VS モード／キャンプ画面という原作の構成を維持"
+        ],
+        synopsis: "三国志の世界を 40 名以上の武将で戦うタクティカルアクション。原作『真・三國無双3』はシリーズの定番要素を初めて導入した第 3 作で、広大な戦場での 1 vs 1,000 のアクションと、武将の育成や武器収集を軸にしている。リマスターではこの骨格を保ったまま、戦場の解像度・光量・モデルが現行機水準に作り直された。",
+        ipSource: "『真・三國無双』シリーズ（コーエーテクモゲームス）。2001 年に PlayStation 2 で発売された第 3 作と、その拡張ディスク『真・三國無双3 猛将伝（Xtreme Legends）』を収録する",
+        series: "『真・三國無双』シリーズ。第 3 作はシリーズ初のミリオンセラーで、無双乱舞・2人同時プレイ・武将育成など以後の定番要素を初めて導入した。開発ブランド ω-Force は 2027 年に 30 周年を迎え、生産者 庄知彦 は記念イベント・コンサート・新作の検討と、『戦国無双』『無双 OROCHI』のリブート検討に言及している",
+        cast: "公式発表なし（プレイアブル武将 40 名以上。最新作『真・三國無双 ORIGINS』の主人公 紫鸞 の客演参戦が発表された）"
+      },
+      news: [
+        { source: "Nintendo Life（コーエーテクモ発表：体験版 09-24・発売 10-01・オンライン2人の無料アップデート）", url: "https://www.nintendolife.com/news/2026/09/dynasty-warriors-3-complete-edition-remastered-demo-and-online-two-player-post-launch-update-announced" },
+        { source: "Quest Board.JP（TGS2026 ステージ「Ask Sho-P」の内容とシリーズの今後）", url: "https://quest-board.jp/en/quests/2-with-remastered" }
+      ],
+      videos: [
+        { label: "発表内容の報道（体験版と無料アップデートの告知映像を掲載）", platform: "媒体", url: "https://www.nintendolife.com/news/2026/09/dynasty-warriors-3-complete-edition-remastered-demo-and-online-two-player-post-launch-update-announced" },
+        { label: "TGS2026 ステージ内容の整理（ステージ配信アーカイブとプレイアブル出展の記録）", platform: "媒体", url: "https://quest-board.jp/en/quests/2-with-remastered" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "原作『真・三國無双3』はシリーズ初のミリオンセラーで、無双乱舞・2人同時プレイ・武将育成など以後の定番要素を初めて導入した第 3 作にあたる",
+          "TGS2026 の会場でプレイアブル出展され、公式 X で試遊者向けの記念配布が告知されるなど、展示側の扱いが大きい",
+          "発売 1 週間前に体験版を配信する構成で、通常は体験版を出さない近年の無双リマスター群とは異なる運びになっている",
+          "オンライン2人協力が発売時に無く 2027 年 1 月の無料更新待ちになる点が、発売直後の評価に影響する可能性がある"
+        ]
+      },
+      tags: ["主机", "リメイク", "コーエーテクモ", "無双", "TGS2026", "定档"]
+    },
+    {
+      id: "qliphah-in-providences-shadow",
+      company: "Arc System Works",
+      companyJp: "株式会社アークシステムワークス（共同開発：UnitePlus）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-20（公式ゲームプレイトレーラーが公開され、戦闘システムの詳細が明らかになった）",
+      capturedAt: "2026-09-21",
+      title: { jp: "神貌之樹逆カバラ（Qliphah in Providence's Shadow）", cn: "神貌之树逆卡巴拉", en: "Qliphah in Providence's Shadow" },
+      genre: "タクティカルカウンター・タイムライン RPG",
+      platforms: ["PlayStation 5", "Nintendo Switch", "PC(Steam)", "Epic Games Store"],
+      release: "2026-09-24",
+      releasePrecision: "日",
+      summary: "Arc System Works 与 UnitePlus 共同开发的原创新作，自称「战术反击时间线 RPG」，2026 年 9 月 24 日登陆 PS5／Nintendo Switch／PC（Steam・Epic Games Store）。舞台是遭「世界崩落」侵蚀的东京——现实被名为「怪异」的异形啃食，送货打工的青年星啮苍真在途中遭袭，变成人与怪异融合的「半成体」，被警视厅公安部外事第五课（通称公安变异对应课）调查官绯月零那当作「拾得物」收容，两人自此共同追查街头蔓延的魔药「Tiny True」、侵蚀身体的纹样「圣痕」与暗中活动的神秘教团。战斗并非动作玩法而是指令制：画面中央左右对称延伸的时间线会预告敌我技能的发动时机与类型，把同色技能叠在敌方技能上即触发反击；难度升高后敌方会使用单次反击无法化解的多层攻击，必须切换双主角并动用支援技能。反击成功可击飞杂兵、削减敌人的 Down 量表，在其倒地窗口内堆暴击并以「秘奥义」收尾。曾执导《CRYMACHINA》的平尾泰博担任游戏设计与导演，角色插画由 Rorua 负责，全语音。",
+      highlight: "【2026-09-20 新情報】公式のゲームプレイトレーラーが公開され、戦闘システムの詳細が明らかになった。画面中央の左右対称なタイムラインが敵味方の技の発動タイミングと種類を示し、同色のカウンター技を重ねることで反撃が成立する。ダウンゲージを持つ敵を転倒させ、クリティカルを積んで「秘奥義」で締める流れが基本。　発売は 2026-09-24（PS5／Nintendo Switch／PC）。",
+      console: {
+        status: "2026-09-24 発売予定",
+        os: ["PlayStation 5", "Nintendo Switch", "Windows (Steam / Epic Games Store)"],
+        monetization: "買い切り。Steam 中国地域の予約価格は 125 元、PS5 繁体字版は 198 香港ドル。早期購入特典として主人公 2 名の追加スキンと「Extra Battle: Voidfall」が付属（Voidfall は後日別売予定）",
+        developer: "アークシステムワークス × UnitePlus（UNIT+PLUS）",
+        publisher: "アークシステムワークス",
+        region: "日本／アジア／北米・欧州",
+        distribution: "各機種のダウンロードストア",
+        stores: ["PlayStation Store", "Nintendo eShop", "Steam", "Epic Games Store"],
+        preOrder: "PS5 繁体字版は予約受付中（198 香港ドル）。その他のプラットフォームの予約状況は未確認",
+        features: [
+          "敵の攻撃予測を時間線（タイムライン）で可視化する「タクティカルカウンター・タイムライン」戦闘",
+          "赤・青・黄に分類されたカウンター技を敵技に重ねて反撃する。同色の重ね合わせが成立条件",
+          "時間を減速・停止させ、敵の攻撃予測・自分のクールダウン・戦況を確認してから技を登録できる",
+          "回避アクションではなくコマンドベースの戦闘だが、習熟するとアクションゲームに近い速度感になる設計",
+          "ダウンゲージを持つ敵を転倒させ、クリティカルを積んで「秘奥義」でとどめを刺す成長構造",
+          "二人の主人公 レナ（日束レナ）と ソウマ（星神ソウマ）を切り替えて戦う。両者同時でなければ通せない「バディカウンター」が存在する",
+          "全編フルボイス。セルシェーディングと専用シェーダーで怪異の表現を行う"
+        ],
+        synopsis: "2030 年代の東京。突如として起きた「世界崩落」により現実そのものが侵食され、怪異（アノマリー）と呼ばれる異形が跋扈する街になっている。配達のアルバイト中に怪異へ襲われ、人と怪異が混ざり合う「半成体」となった青年 星神ソウマ は、警視庁公安部外事第五課（公安変異対応課）の調査官 日束レナ に「拾得物」として引き取られる。二重の視点から街を蝕む魔薬・聖痕・教団を追い、世界の変容の真相に迫る。",
+        ipSource: "完全新作（オリジナル IP）。既存のアニメ・漫画・小説のゲーム化ではなく、アークシステムワークスが新規に立ち上げた企画",
+        series: "『CRYMACHINA』のディレクター 平尾泰博 がゲームデザインとディレクションを担当。キャラクターイラストは Rorua。アークシステムワークスが格闘ゲーム以外のオリジナル RPG に本格的に取り組む一作にあたる",
+        cast: "公式発表なし（全編フルボイスで展開されることが告知されている）"
+      },
+      news: [
+        { source: "GoNintendo（アークシステムワークスが公開した新ゲームプレイトレーラーと戦闘システムの詳細）", url: "https://gonintendo.com/contents/65186-qliphah-in-providences-shadow-gameplay-trailer-shared-new-details-revealed" },
+        { source: "RPGFan（09-20〜09-26 発売 RPG 一覧・対応機種と発売日）", url: "https://www.rpgfan.com/2026/09/20/rpgs-coming-this-week-september-20-26-2026/" }
+      ],
+      videos: [
+        { label: "新ゲームプレイトレーラー（GoNintendo 報道に掲載）", platform: "媒体", url: "https://gonintendo.com/contents/65186-qliphah-in-providences-shadow-gameplay-trailer-shared-new-details-revealed" },
+        { label: "発売前の情報整理（対応機種・価格・特典とスクリーンショット）", platform: "媒体", url: "https://gamersbase.pro/game/qliphah-in-providences-shadow" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "アークシステムワークスがオリジナル IP で打ち出す新規 RPG で、同社の格闘ゲーム偏重からの領域拡大として注目されている",
+          "『CRYMACHINA』の 平尾泰博 がディレクションを担当する点が、同社ファンの関心を集めている",
+          "TGS2026 の会場に直接出展する形ではなく、発売直前の 09-20 にゲームプレイトレーラーと戦闘システム詳細を公開する運びだった",
+          "発売は 2026-09-24 で、事前登録などの数値シグナルは存在しない"
+        ]
+      },
+      tags: ["主机", "RPG", "アークシステムワークス", "新作発表", "オリジナルIP"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -6504,7 +6621,7 @@ window.OBSERVATORY = {
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct で『ロックマン デュアルオーバーライド』の 2027 年春発売が確定、9/1 には『ドラゴンズドグマ 2 ダークアリズン』の遺物遠征サイクルを公開した" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
-          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou", "sophiechat-ai"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表）" },
+          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou", "sophiechat-ai", "dynasty-warriors-3-complete-edition-remastered"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表）" },
         ]
       },
       {
@@ -6592,7 +6709,7 @@ window.OBSERVATORY = {
         { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
-        { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
+        { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
         { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展" },
         { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
@@ -6672,15 +6789,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 于 9/20 以 4 天 257,642 人闭幕（9/21 因台风 25 号全日中止，史上首次五日举办未竟）。本期补收 4 条——手游侧『SophieChat:AI』（コーエーテクモゲームス ガスト × SpiralAI，iOS／Android）与主机・PC 侧 3 条（SILENT HILL: Townfall／Lufia I & II The Sinistrals Saga／遊戯王 TAG FORCE GX）。条目总数 117 → 121（手游区 30 → 31／主机・PC 区 95 → 98）",
+    headline: "台风 25 号让 TGS2026 的最后一天未能举行——9/20 四天实体展期以 257,642 人收官，9/21 线上节目接棒。本期补收主机・PC 2 条（真・三國無双3 Complete Edition Remastered／神貌之樹逆カバラ），并把三丽鸥自营手游『Sanrio Kawaii Me Live!』的 2027 年 1 月全球上线与事前登录开始记为手游侧唯一的实质进展。条目总数 121 → 123（手游区 31 不变／主机・PC 区 98 → 100）",
     points: [
-      "**手游侧本轮新增 1 条（日方 IP 持有方直营的新轴）**：コーエーテクモゲームス（ガスト）与 SpiralAI 于 9/18 在 TGS2026 展台发表『SophieChat:AI』（iOS／Android，开发中）——以《苏菲的炼金工房 ～不可思议书的炼金术士～》世界为舞台的 AI 聊天 RPG，与苏菲对话即可推进旅行、调合与战斗。事前登录自 2026-09-18 起以邮件形式仅面向日本国内开放，海外时间未定。插画由 NOCO 监修、全部手绘（明确不使用图像／视频生成 AI），苏菲的语音为声优相坂優歌新录素材＋自研语音合成，文本由自研 SpiralLLM 生成，收益按素材使用情况向绘师、声优与 IP 持有方分配。承接先行作『RyzaChat:AI』（累计 1,500 万次发言）的同一许可模式。手游区 30 → 31 条。",
-      "**在营／已定档手游的窗口内进展 2 条**：①『BanG Dream! Our Notes』9/20 世界累计事前登录突破 200 万（9/11 的 160 万起 9 天增 40 万），达成特典为 SSR 确定扭蛋券，9/21 播出配信前特别生放送、9/22 起开放预下载、9/24 全球同日上线。②『FRAGARIAMEMORIES Color of Wishes』（サンリオ × アテーム）9/19 在 TGS2026 Sanrio Games 展台舞台公开最新 PV 与全 18 名骑士的游戏用立绘，并宣布 **2027 年秋季全球同步配信**——自上轮为止「配信时期未发表」的最大空白由此填上。两条均为窗口内进展，bucket 记 update。",
-      "**主机・PC 侧补收 3 条，全部为日方主导**：①『SILENT HILL: Townfall』（KONAMI／开发 Screen Burn Interactive／2026-09-24 PS5・PC，KONAMI 与 Annapurna Interactive 共同发行）——9/19 展台特别舞台由恐怖主播 Gatchman 实机约 50 分钟，首次公开日语配音（安元洋貴・甲斐田裕子・大塚明夫，于发售日首日更新实装）。②『Lufia I & II The Sinistrals Saga』（TAITO 与瑞典 Clear River Games 于 9/20「PC Gaming Show Tokyo Direct」共同发表／2027 PS5・Switch 2・Switch・Steam）——1993 年与 1995 年 SFC《四狂神战记》两作的首次现代平台合集。③『遊戯王 TAG FORCE GX』（KONAMI／开发 Matrix Corporation／2027-02-16 Switch 2・Switch・Steam）——2008 年 PSP『タッグフォース3』完全重制，收录逾 3,800 张卡牌与线上对战，9/20 展台公开卡店与用科乐美秘技解锁的隐藏卡包。",
-      "**TGS2026 闭幕与数据**：9/17-9/20 四天现场来场者 257,642 人，比 2025 年的 263,101 人少 5,459 人。单日：9/17 商务日 53,630（同比 +1,278）／9/18 52,545（−2,234）／9/19 公众日首日 78,678（+1,263）／9/20 72,789（−5,766）。原定 9/21 的第五天因台风 25 号接近关东，为安全计全日中止，史上首次五日举办未竟；主办方 CESA 将退还当日票款并把部分原定舞台改为线上播出。出展 53 个国家和地区、1,138 家，线上节目 25 档。**TGS2027 已定 2027-09-16 至 09-20 于幕张メッセ，同样计划五日**。",
-      "**移动端连续两轮日方新作稀少，原因在供给侧而非检索**：本期（9/20 傍晚至 9/21 早晨）移动端情报绝大多数仍由韩资四社（Netmarble／Nexon／NC／Smilegate）占据——Netmarble 三作展台试玩、Nexon『マビノギモバイル』10/07 日本配信与事前登录 20 万、NC『Astrae Oratio』2027 年 iOS／Android 首发、Smilegate『Dead Account』，均按资本归属跳过。同期另有多款中国资本企业的新作（含一款开放世界生活模拟与一款捉宠 RPG），同样全部跳过、不点名、不入库。日方主导的增量因此集中在 IP 持有方直营（コーエーテクモ）与既有企划的定档进展。",
-      "**漏收核查（按 IP／品牌逐个过）**：チェンソーマン／呪術廻戦／ONE PIECE／BLEACH／刀剣乱舞／ホロライブ／鬼滅の刃／ブルーロック／サンリオ（フラガリアメモリーズ）／Otomate・LicoBiTs／遊戯王。**查出漏收 3 条并已补卡**（SILENT HILL: Townfall、Lufia I & II、遊戯王 TAG FORCE GX），3 条全部为日方主导。《链锯人》手游（Chainsaw Man Devil Crush）首次公开在 2026-06-19（窗口外）且开发・发行方仍未确认，本轮继续保留为待查线索，不建卡。",
-      "**厂商名单**：4 个 category 家数仍为 8／16／16／10＝50，extra 30 家不变。コナミデジタルエンタテインメント 的 gameIds ＋2（SILENT HILL: Townfall／遊戯王 TAG FORCE GX）、コーエーテクモゲームス ＋1（SophieChat:AI）。TAITO 虽为日本 IP 持有方（スクウェア・エニックス 全资子公司）且主导本合集，但发行主体为瑞典 Clear River Games、且仅 PC／主机，不符合 extra 的「国内手游发行方」口径，故不入 extra；SpiralAI 为本次共同开发方，同样按此口径处理。companies.asOf 刷新为 2026-09-21。"
+      "**手游侧本轮以「三丽鸥自营品牌的定档」为主**：『Sanrio Kawaii Me Live!』（Sanrio Games 首款智能手机游戏）于 9/21 官方公告**2027 年 1 月全球同步上线**并同日启动事前登录——自上轮为止「2027 年」的模糊表述由此精确到月份。事前登录与官方 SNS 关注数合计达 100 万可获 Sanrio Games 主题 Hello Kitty 服装，里程碑从 5 万到 100 万分 7 档。乐曲由 Universal Music 旗下 Soala／SHE'S／Lienel／Polkadot Stingray／ヤバイTシャツ屋さん／Mi'Line Hearts 提供原创曲，另与 ずっと真夜中でいいのに。 达成合作；概念 PV 于 9/21 12:00 在官方 YouTube 首播，2027-01-14 在横滨关内 Hall 举办发售纪念 Live。该作本体首次公开为 2026-06-28（Sanrio Fes 2026），早于本窗口左端，故本轮把 bucket 由 new 修正为 update，记作「已公开企划的窗口内定档进展」。",
+      "**手游侧本轮无新增条目，日方供给端依旧稀薄**：9/21 白天（TGS 已闭幕、当日因台风中止）的日本手游通稿仍以既有作品为主——EXNOA『刀剣乱舞 ぱずぎり』9/24 配信、NHN PlayArt『OVER RUSH』公开测试、KADOKAWA『まちすば』主题曲等均在库内已收。同期出现的移动端新作分别属韩资（Netmarble／Nexon／NC／Smilegate／Lightcon）与中国资本企业，按资本归属全部跳过、不点名、不入库。本站「手游为重点」的定位下，本轮以维护既有条目为主，不凑条目。",
+      "**主机・PC 侧补收 2 条，均为日方主导**：①『真・三國無双3 Complete Edition Remastered』（コーエーテクモゲームス／ω-Force，开发）——9/20 TGS2026 特设舞台「Ask Sho-P」宣布**体验版 9/24 配信、2027 年 1 月免费更新追加线上双人**，本体 10/01 发售（PS5／Switch 2／Xbox Series X|S／Steam）。②『神貌之樹逆カバラ（Qliphah in Providence's Shadow）』（アークシステムワークス × UnitePlus）——9/20 公开游戏玩法预告并详解「战术反击时间线 RPG」的战斗系统，9/24 发售（PS5／Switch／PC）。两条本体首次公开均早于窗口左端，按口径记 update（在库前已公开、本轮补录窗口内进展）。",
+      "**日本ゲーム大賞 2026 年度作品部门（9/15 颁奖，本期补记）**：大奖与优秀奖双料为『Pokémon Pokopia』（Switch 2，2026-03-05 发售，全球累计 500 万本），优秀奖另 11 款——『Death Stranding 2: On the Beach』『ドンキーコング バナンザ』『魔法少女の魔女裁判』『SILENT HILL f』『ゴースト・オブ・ヨウテイ』『デジモンストーリー タイムストレンジャー』『イナズマイレブン 英雄たちのヴィクトリーロード』『カービィのエアライダー』『霊視異聞 FILE38 伊勢人魚物語』『バイオハザード レクイエム』『プラグマタ』。経済産業大臣賞为『ポケットモンスター』系列，ゲームデザイナーズ大賞（最终回）为『文字遊戯（Moji Yugi）』，ムーブメント賞为『スーパーカメレオン』。奖项对象为已发售作品，故不建卡，仅作行业记录。",
+      "**TGS2026 闭幕后的收尾**：9/21（周一・祝日）因台风 25 号全日中止，主办方 CESA 把原定当日的部分舞台改为线上节目播出，SONIC 35 周年音乐 Live 与『STRANGER THAN HEAVEN』最终舞台等安排在线上完成。实体展期为 9/17-20 共四天、来场者 257,642 人；TGS2027 定于 2027-09-16〜20 于幕张メッセ，同样计划五日。",
+      "**漏收核查（按 IP／品牌逐个过）**：チェンソーマン／呪術廻戦／ONE PIECE／BLEACH／刀剣乱舞／ホロライブ／鬼滅の刃／ブルーロック／東京リベンジャーズ／サンリオ（カワイイミーライブ・フラガリアメモリーズ）／Otomate・LicoBiTs／遊戯王。**查出漏收 2 条并已补卡**（真・三國無双3 Complete Edition Remastered、神貌之樹逆カバラ），两条均来自 TGS2026 展位表与前几轮登记的「未建卡候选线索」。本轮另清理了长期挂账线索『神貌之樹逆カバラ』（此前因报道间发售日不一致而未建卡，本轮确认为 2026-09-24）。",
+      "**厂商名单**：4 个 category 家数仍为 8／16／16／10＝50，extra 30 家不变。コーエーテクモゲームス 的 gameIds ＋1（真・三國無双3 Complete Edition Remastered）、アークシステムワークス ＋1（神貌之樹逆カバラ）。companies.asOf 维持 2026-09-21。另：クリアリバーゲームズ（スウェーデン）主导的『Terranigma』復刻（2027-01-14）因日方仅为 IP 権利元、未参与发表，不符合「日方主导」口径，本轮跳过；『Lufia I & II』因 TAITO 共同发表而收录，两者处理不同。"
     ]
   },
 };
