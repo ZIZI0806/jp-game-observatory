@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-21T18:45:00+08:00",
-    edition: "2026-09-21",
-    window: "2026-07-21 ~ 2026-09-21（滚动最近 2 个月）",
+    updatedAt: "2026-09-22T09:10:00+08:00",
+    edition: "2026-09-22",
+    window: "2026-07-22 ~ 2026-09-22（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -6267,16 +6267,16 @@ window.OBSERVATORY = {
       bucket: "update",
       platformClass: "console",
       announceDate: "2026-09-19（TGS2026 コナミ展台ステージで約 50 分の日本語音声先行プレイを披露）",
-      capturedAt: "2026-09-21",
+      capturedAt: "2026-09-22",
       title: { jp: "SILENT HILL: Townfall", cn: "寂静岭 Townfall", en: "Silent Hill: Townfall" },
       genre: "一人称サイコロジカルホラー／サバイバルホラー",
       platforms: ["PlayStation 5", "PC"],
       release: "2026-09-24（PlayStation 5 / PC（Steam・Epic Games Store））",
       releasePrecision: "日",
       summary: "《寂静岭》系列全新作，也是系列首部全篇第一人称视角的作品。舞台是 1996 年浓雾笼罩的苏格兰孤岛圣阿梅莉亚（St. Amelia），主角赛门·奥戴尔被海浪冲上岛，追查与自己过去有关的谜团。系列标志性的收音机被便携式模拟电视装置「CRTV」取代——调整频率可发现潜藏的威胁、解读谜题线索、辨认环境中看不见的要素。战斗可在近战与射击间切换，但正面交战风险很高；另有储物间、衣柜等藏身处可用，也能用声响把怪物引开。赤色管道交织的异世界（Otherworld）延续系列的空间压迫感。开发由 Screen Burn Interactive 负责，KONAMI 与 Annapurna Interactive 共同发行，2026-09-24 发售，标准版 7,480 日元／豪华版 8,580 日元（豪华版可提前 48 小时解锁），日语配音于发售日首日更新实装。",
-      highlight: "【TGS2026 9/19】コナミ展台 14:30 の特別ステージにシリーズプロデューサー 岡本基 が登壇し、ホラー配信者 Gatchman が約 50 分の日本語音声先行プレイを披露。CRTV によるパズルと信号調整、近接／射撃の切り替え、物置やクローゼットに隠れるステルス、赤い配管の異世界が確認された。日本語吹き替えは サイモン：安元洋貴／ゾーイ：甲斐田裕子／リチャード：大塚明夫 の 3 名で、発売日の初日アップデートで適用される。　シリーズ初の全編一人称視点で、ラジオに代わる携帯型ブラウン管テレビ CRTV が探索と謎解きの中核。舞台の聖アメリアは実在のスコットランドの町をモデルにしており、1990 年代の実機材が仕掛けに使われている。",
+      highlight: "【2026-09-22 デラックス先行アクセス開始】デラックスエディション購入者向けの 48 時間先行アクセスが 9/22 に始まった（PS5 は各地域の 0:00、PC は ET 0:00）。海外レビューも同時に解禁され、Metacritic の PS5 版は 81 点（レビュー 47 本）、PC Gamer は 89 点、Famitsu は 8/8/9/8 の 33 点。　【TGS2026 9/19】コナミ展台 14:30 の特別ステージにシリーズプロデューサー 岡本基 が登壇し、ホラー配信者 Gatchman が約 50 分の日本語音声先行プレイを披露。CRTV によるパズルと信号調整、近接／射撃の切り替え、物置やクローゼットに隠れるステルス、赤い配管の異世界が確認された。日本語吹き替えは サイモン：安元洋貴／ゾーイ：甲斐田裕子／リチャード：大塚明夫 の 3 名で、発売日の初日アップデートで適用される。　シリーズ初の全編一人称視点で、ラジオに代わる携帯型ブラウン管テレビ CRTV が探索と謎解きの中核。舞台の聖アメリアは実在のスコットランドの町をモデルにしており、1990 年代の実機材が仕掛けに使われている。",
       console: {
-        status: "2026年9月24日発売（PlayStation 5 / PC）",
+        status: "2026年9月24日発売（PlayStation 5 / PC）。デラックスエディションは 2026-09-22 から 48 時間の先行アクセス中",
         os: ["PlayStation 5", "Windows (Steam / Epic Games Store)"],
         monetization: "買い切り。通常版 7,480 円／デラックスエディション 8,580 円（税込）。デラックスは 48 時間の先行アクセス付き",
         developer: "Screen Burn Interactive",
@@ -6598,6 +6598,263 @@ window.OBSERVATORY = {
       },
       tags: ["主机", "RPG", "アークシステムワークス", "新作発表", "オリジナルIP"]
     },
+    {
+      id: "hoshin-engi-re-surrection",
+      company: "Shueisha Games",
+      companyJp: "株式会社集英社ゲームズ（開発：LASTWONDER）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-09（Nintendo Direct 内で発表。集英社ゲームズと LASTWONDER の共同プロジェクト）",
+      capturedAt: "2026-09-22",
+      title: {
+        jp: "HOSHiN ENGi Re:surrection（封神演義 Re:surrection）",
+        cn: "封神演义 Re:surrection",
+        en: "HOSHiN ENGi Re:surrection"
+      },
+      genre: "ローグライト・ハックアンドスラッシュアクション",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "PC（Steam）"],
+      release: "2027年",
+      releasePrecision: "年",
+      summary: "集英社のゲームパブリッシングブランド「集英社ゲームズ」と、コンシューマー向けを中心に企画・開発を行う LASTWONDER が組んだ『封神演義』の新作ゲーム。藤崎竜の原作漫画（集英社『週刊少年ジャンプ』1996〜2000 年連載、全 23 巻、累計 2,200 万部）の完結後を舞台に、原作者が自らデザインした新主人公トウシン（Toshin）を操るローグライト・アクション。戦闘は原作の宝貝（パオペ）を主軸に据え、メイン枠が攻撃性能を、サブ枠が戦況の流れを変える二枠カスタマイズで、強化を進めると組み合わせから進化攻撃が解放される。霊獣チュエチュエ童子は地上で自動的にトウシンを援護し、騎乗すると空中機動と敵の死角への奇襲が可能になる。ダンジョンは挑戦ごとに構造が変わる分岐型で、経路と報酬が事前に提示され、道中で集めた素材は拠点へ持ち帰って恒久強化に充てられる。太公望・四不象・楊戩・哪吒・黄天化 ら原作キャラクターも登場し、交流と手合わせを通じて戦闘支援が解放される。対応機種は Nintendo Switch 2／PlayStation 5／PC（Steam）、2027 年発売予定。",
+      highlight: "【2026-09-09 Nintendo Direct】番組内で電撃発表。原作漫画の完結後を描くローグライトアクションとして、Nintendo Switch 2／PlayStation 5／Steam 向けに 2027 年発売と告知された。新主人公トウシンと霊獣チュエチュエ童子は原作者 藤崎竜 がデザインし、本人が監修も担当する。太公望・四不象・楊戩・哪吒・黄天化 の登場も発表され、英語・日本語・簡体字・繁体字に対応する。　集英社ゲームズにとっては『UN:Me』に続く 2 本目の大型 IP タイトルで、同社は TGS2026（5 号館 05-C10）でも両作を出展していた。過去 20 年で家庭用ゲーム化がなかった IP の復活となる。",
+      console: {
+        status: "2027年発売予定（Nintendo Switch 2／PlayStation 5／PC）",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Windows（Steam）"],
+        monetization: "買い切り（価格・エディション構成は未発表）",
+        developer: "LASTWONDER（企画・開発）",
+        publisher: "株式会社集英社ゲームズ",
+        region: "日本／北米・欧州・アジア（英語・日本語・簡体字・繁体字に対応）",
+        distribution: "Nintendo eShop／PlayStation Store／Steam でのダウンロード販売を予定。パッケージ版の有無は未発表",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "原作漫画の完結後を描く新規ストーリー。原作の焼き直しではない",
+          "原作者 藤崎竜 が新主人公トウシンと霊獣チュエチュエ童子をデザインし、作品を監修",
+          "宝貝（パオペ）の二枠カスタマイズ：メイン枠が攻撃性能を、サブ枠が戦術の流れを変える",
+          "強化を重ねると宝貝の組み合わせから進化攻撃が解放される",
+          "霊獣は地上で自動的に防御・妨害を行い、騎乗すると空中移動と敵の死角への奇襲が可能",
+          "潜るたびに構造が変わる分岐型ダンジョン。経路と報酬は事前に提示される",
+          "ランの途中で「秘奥義」をランダムに習得し、持ち帰った素材を恒久強化に回す進行ループ",
+          "太公望・四不象・楊戩・哪吒・黄天化 ら原作キャラクターが登場し、交流で戦闘支援と手合わせが解放される"
+        ],
+        synopsis: "原作漫画の最終話より後の世界。一度は平和を取り戻したはずの地に新たな脅威が牙を剥く。師父 太公望 の命を受け、弟子のトウシンと相棒の霊獣チュエチュエ童子が、数多の宝貝を手に再び旅立つ。神仙・妖魔・人間が入り乱れる古代中国を思わせる世界で、仙人や妖怪が支配するダンジョンを踏破していく。",
+        ipSource: "藤崎竜『封神演義』（集英社『週刊少年ジャンプ』1996〜2000 年連載、全 23 巻、累計 2,200 万部）。原作は中国明代の神怪小説『封神演義（封神榜）』を下敷きにした作品で、アニメ化 2 作・舞台化 2 作が制作されている",
+        series: "『封神演義』のゲーム化は、2018 年版アニメを原作としたスマートフォン向け『覇穹 封神演義 〜仙界クロニクル〜』（2019-01 配信、サービス終了）以来。家庭用ゲーム機向けの新作はこれが初となる。集英社ゲームズは『UN:Me』『呪術廻戦 RUMBLE: SURVIVATON』に続く出展作として本作を擁し、TGS2026 に 2 作を体験出展した",
+        cast: "未発表（原作キャラクターの 太公望・四不象・楊戩・哪吒・黄天化 が登場することのみ告知されている）"
+      },
+      news: [
+        { source: "Anime News Network（Nintendo Direct での発表・原作の来歴と過去のメディア展開）", url: "https://www.animenewsnetwork.com/news/2026-09-09/shueisha-games-reveals-hoshin-engi-roguelite-game/.241588" },
+        { source: "集英社ゲームズ公式プレスリリース（ゲームプレイ詳細・対応機種・言語対応）", url: "https://animenewsnetwork.com/press-release/2026-09-09/hoshin-engi-re-surrection-turns-shonen-jump-epic-into-hand-drawn-roguelite-coming-in-2027/.241585" },
+        { source: "FinalBoss.io（ループ構造・宝貝の二枠システム・未発表項目の整理）", url: "https://finalboss.io/hoshin-engi-re-surrection-turns-its-manga-afterstory-into-roguelite-runs" },
+        { source: "Thisisgame SEA（Steam ストア情報・対応機種・発売時期）", url: "https://thisisgamesea.com/game/hoshin-engi-resurrection-action-roguelite-pc-2027" },
+        { source: "Seasonal Anime News（シリーズのメディア展開史とスマホ版からの復帰）", url: "https://news.seasonalanime.com/shueisha-games-reveals-hoshin-engi-roguelite-game-55827b" }
+      ],
+      videos: [
+        { label: "Nintendo Direct 初公開映像（Anime News Network の発表記事に掲載）", platform: "媒体", url: "https://www.animenewsnetwork.com/news/2026-09-09/shueisha-games-reveals-hoshin-engi-roguelite-game/.241588" },
+        { label: "公式プレスリリース（スクリーンショット・対応機種・言語対応の一覧）", platform: "官方", url: "https://animenewsnetwork.com/press-release/2026-09-09/hoshin-engi-re-surrection-turns-shonen-jump-epic-into-hand-drawn-roguelite-coming-in-2027/.241585" },
+        { label: "FinalBoss.io の発表整理（ビルド構成の考え方と未公表項目）", platform: "媒体", url: "https://finalboss.io/hoshin-engi-re-surrection-turns-its-manga-afterstory-into-roguelite-runs" }
+      ],
+      hype: {
+        score: 63,
+        signals: [
+          "原作は週刊少年ジャンプで 1996〜2000 年に連載され累計 2,200 万部。アニメ 2 作・舞台 2 作を経た知名度の高い IP",
+          "Nintendo Direct 枠内での発表で、北米・欧州の主要ゲームメディアが同日に一斉報導した",
+          "原作者 藤崎竜 が新主人公と霊獣をデザインし監修する体制が明示され、原作ファンの関心を集めている",
+          "家庭用ゲーム化は 20 年以上なく、2019 年のスマホ版以来の新作という希少性がある一方、発売は 2027 年で時期・価格は未発表"
+        ]
+      },
+      tags: ["主机", "ローグライト", "IP授权", "集英社ゲームズ", "Nintendo Direct", "新作発表"]
+    },
+    {
+      id: "devil-connection",
+      company: "PLAYISM",
+      companyJp: "株式会社アクティブゲーミングメディア（PLAYISM ブランド）",
+      bucket: "update",
+      platformClass: "multi",
+      announceDate: "2026-09-10（PLAYISM GAME SHOW: TGS 2026 Preview で Nintendo Switch／iOS／Android 版と 2027-01-21 の発売日を発表）",
+      capturedAt: "2026-09-22",
+      title: {
+        jp: "DevilConnection",
+        cn: "恶魔连结（DevilConnection）",
+        en: "DevilConnection"
+      },
+      genre: "ダークファンタジー・アドベンチャー（二択分岐／多数のエンディング）",
+      platforms: ["Nintendo Switch", "iOS", "Android"],
+      release: "2027-01-21（Nintendo Switch／iOS／Android。PC 版は 2025-10-30 に Steam で配信済み）",
+      releasePrecision: "日",
+      summary: "日本のインディー開発チーム ChaoGames が手がけ、PLAYISM が発行する悪魔調教アドベンチャー。魔法世界マギリシアで召喚士となった主人公が、名前を明かさない悪魔に「デビルン」と名付けて契約し、彼の本来の姿を取り戻させるために各地の住人を召喚して恐怖を煽り、感情のオーラを魔力として吸い上げていく。二択の選択肢で相手の情緒を刺激するのが基本だが、当てずっぽうでは進まず、デビルンの特殊能力「邪眼洞察」で内心を覗いて正解を導く。選択を誤ると即座にエンディングへ至るほど分岐が多く、セーブとロードを活かして全エンディングを回収する遊びが前提になっている。召喚できるキャラクターは 30 体以上で表情はすべてフルアニメーション、体をタップすると反応が返る。撮影機能と、進行で解放されるスタンプによる写真装飾も備える。本体は 2025-10-30 に PC（Steam）で配信され 1,600 件超のレビューで「圧倒的に好評」を獲得しており、今回 Nintendo Switch／iOS／Android 版が 2027-01-21 に発売される。日本国内では Nintendo Switch のパッケージ版も用意される。",
+      highlight: "【2026-09-10 PLAYISM GAME SHOW: TGS 2026 Preview】配信内で Nintendo Switch／iOS／Android 版を 2027-01-21 に発売すると発表。日本国内では Switch のパッケージ版予約が同時に開始され、初回特典に作中にも登場する「キャラクター図鑑」、限定版に「デビルン」のぬいぐるみ付き豪華 BOX が用意される。対応言語は英語・日本語・繁体字・簡体字。　本体は 2025-10-30 に Steam で配信済みの作品で、今回は家庭用／モバイルへの移植にあたる。PLAYISM は TGS2026 の会場でもプレイアブル出展を行った。",
+      mobile: {
+        status: "2027-01-21 配信予定（Nintendo Switch／iOS／Android。PC 版は 2025-10-30 に Steam で配信済み）",
+        os: ["iOS", "Android"],
+        monetization: "買い切り。価格は日本国内で未発表（PC 版は Steam で販売中）",
+        preReg: {
+          open: false,
+          since: "事前登録型の受付は未実施。2026-09-10 の発表と同時に Nintendo Switch パッケージ版の予約受付が日本国内で開始された",
+          reward: "事前登録のマイルストーン特典は設定されていない。Nintendo Switch パッケージ版には初回特典として作中にも登場する「キャラクター図鑑」が付属し、ぬいぐるみ「デビルン」付きの豪華 BOX 限定版も数量限定で用意される"
+        },
+        developer: "ChaoGames（日本のインディー開発チーム）",
+        publisher: "PLAYISM（株式会社アクティブゲーミングメディア）",
+        region: "日本／北米・欧州・アジア（英語・日本語・繁体字・簡体字に対応）",
+        distribution: "App Store／Google Play（モバイル）、Nintendo eShop（Nintendo Switch）。パッケージ版は日本国内のみ",
+        features: [
+          "デビルンと共に個性豊かなキャラクターを召喚し、「感情のオーラ」を魔力として吸い上げるアドベンチャー",
+          "二択の選択肢で相手の感情を刺激するが、当てずっぽうでは正解に辿り着けない設計",
+          "デビルンの特殊能力「邪眼洞察」で相手の心を覗き、正解へ導く",
+          "選択を誤るとその場でエンディングに至るほど多数の分岐が用意される",
+          "セーブとロードを活用して全エンディングを回収する遊びが前提",
+          "召喚可能なキャラクターは 30 体以上。表情はすべてフルアニメーション",
+          "キャラクターの体をタップして反応を楽しむインタラクション",
+          "写真撮影機能と、進行に応じて解放されるスタンプによるデコレーション"
+        ],
+        synopsis: "魔法世界「マギリシア」。召喚士である主人公が呼び出した悪魔は、契約のために主人公の名を受け取ったが、自分の名は明かさない。やむなく「デビルン」と呼ぶことになった悪魔の野心——本来の姿を取り戻すこと——を叶えるため、マギリシア各地の住人を召喚し、恐怖の渦に巻き込んで魔力を集めていく。彼らの感情を高ぶらせ、その「感情のオーラ」を魔力に変えて吸い上げるのが目的だが、同行するデビルン自身も扱いを誤れば物語は即座に終わりへ向かう。",
+        ipSource: "完全新作（オリジナル IP）。企画・開発は ChaoGames",
+        series: "本作は 2025-10-30 に PC（Steam）で配信された同名タイトルの Nintendo Switch／iOS／Android 移植。Steam 版は 1,600 件超のレビューで「圧倒的に好評」を獲得しており、移植版では英語と繁体字・簡体字を追加し、コントローラー操作に最適化した調整が入る",
+        payment: [],
+        cast: "未発表（主要キャラクターの声は本編でフルアニメーション付きの演技として実装される）"
+      },
+      news: [
+        { source: "GoNintendo（PLAYISM の発表・2027-01-21 への延期と国内パッケージ展開）", url: "https://gonintendo.com/contents/64845-devilconnection-bumped-from-2026-now-launching-jan-21st-2027" },
+        { source: "巴哈姆特 GNN（TGS26：確定 Switch／iOS／Android 版與實體版資訊）", url: "https://gnn.gamer.com.tw/detail.php?sn=311444" },
+        { source: "Nintendo Everything（発売日決定トレーラーと作品概要）", url: "https://nintendoeverything.com/devil-connection-earns-nintendo-switch-release-date-new-trailer" },
+        { source: "Slanted Game（対応プラットフォーム・言語対応・Steam 版の実績）", url: "https://slantedgame.com/devilconnection-slated-for-switch-ios-and-android-launch-on-jan-21-2027" },
+        { source: "The Daily Game（PLAYISM 公式リリースの転載・収録言語）", url: "https://thedailygame.news/story/2026-09-10-devilconnection-coming-to-switch-ios-and-android-on-january-21-2027--a7659533" }
+      ],
+      videos: [
+        { label: "発売日決定トレーラー（Nintendo Everything の記事に掲載）", platform: "媒体", url: "https://nintendoeverything.com/devil-connection-earns-nintendo-switch-release-date-new-trailer" },
+        { label: "PLAYISM 公式作品ページ（対応機種・言語・パッケージ情報）", platform: "官方站", url: "https://playism.com/game/devil-connection/" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "Steam 版が 1,600 件超のレビューで「圧倒的に好評」を獲得しており、移植前から評価が固まっている",
+          "PLAYISM GAME SHOW: TGS 2026 Preview での発表と、TGS2026 会場でのプレイアブル出展が同日に重なった",
+          "ChaoGames は日本のインディー開発チームで、PLAYISM が家庭用・モバイル向けの発行を担う体制が明示されている",
+          "発売は 2027-01-21 で、価格（モバイル版）と事前登録施策は未発表のため数値シグナルは存在しない"
+        ]
+      },
+      tags: ["跨平台", "アドベンチャー", "インディー", "PLAYISM", "移植", "TGS2026"]
+    },
+    {
+      id: "koyorenium",
+      company: "ENTERGRAM",
+      companyJp: "株式会社エンターグラム（企画・製作：株式会社カバー）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-17（ティザーサイト開設。TGS2026 の ENTERGRAM ブースで初公開）",
+      capturedAt: "2026-09-22",
+      title: {
+        jp: "コヨリニウム",
+        cn: "Koyorenium（コヨリニウム）",
+        en: "Koyorenium"
+      },
+      genre: "ビジュアルノベル",
+      platforms: ["未発表"],
+      release: "未発表（正式サイトは 2026-10-22 公開予定）",
+      releasePrecision: "未定",
+      summary: "ホロライブ 6 期生「秘密結社 holoX」の博衣こより（Hakui Koyori）を主演に据えたビジュアルノベル新作。企画・製作を所属事務所のカバー（COVER）が担い、配信をエンターグラムが担当する。2026-09-17 にティザーサイトが開設され、キービジュアルが公開された。正式サイトは 2026-10-22 に開設予定。博衣こより本人は主演に加えて監修にも関与しており、自身の X アカウントで発表を行い、パッケージ用にオリジナルの衣装が用意されることにも言及している。対応機種・発売時期・価格・ストーリーは 2026-09-22 時点でいずれも未発表。TGS2026 ではエンターグラム ブース（3 号館 03-N05）にキービジュアルの大型展示と直筆サイン入りパネル、本人からの特別メッセージ映像が出展された。",
+      highlight: "【2026-09-17 ティザーサイト開設】エンターグラムがホロライブ・博衣こより 主演／監修のビジュアルノベル『コヨリニウム』のティザーサイトを公開し、キービジュアルを初披露した。企画・製作は COVER、配信は ENTERGRAM。正式サイトは 2026-10-22 にオープン予定。　TGS2026 のエンターグラム ブース（3 号館 03-N05）ではキービジュアルの大型展示・直筆サイン入りパネル・本人の特別メッセージ映像が出展され、会場で最初に情報が露出した形。対応機種や発売時期は未発表で、続報は 10-22 の正式サイト公開に集約される見込み。",
+      console: {
+        status: "開発中（対応機種・発売時期・価格はいずれも未発表）",
+        monetization: "未発表（同社の既存ビジュアルノベルは買い切り）",
+        developer: "未発表（企画・製作は株式会社カバー）",
+        publisher: "株式会社エンターグラム",
+        region: "未発表（同社の既存タイトルは日本国内向けが中心）",
+        distribution: "未発表（エンターグラムはこれまでパッケージ版とダウンロード版を併売する形態を取っている）",
+        features: [
+          "ホロライブ・博衣こより が主演と監修の双方を担当するビジュアルノベル",
+          "企画・製作を所属事務所のカバー（COVER）が担い、配信をエンターグラムが担当する分業体制",
+          "パッケージ用に博衣こより のオリジナル衣装が用意される",
+          "TGS2026 のエンターグラム ブースにキービジュアルの大型展示と直筆サイン入りパネル、特別メッセージ映像を出展",
+          "ティザーサイトのみを先行公開し、詳細は 2026-10-22 の正式サイト開設に集約する段階的な情報公開"
+        ],
+        synopsis: "ストーリーは未公表。博衣こより は holoX の研究者という設定を持ち、自身の配信タグや用語（「コヨリニウム」は配信を観ることで摂取できる栄養素という設定）に科学者モチーフを持つ。本作のタイトルはその設定語から取られている。",
+        ipSource: "ホロライブプロダクション（カバー株式会社）所属タレント 博衣こより の公式タイアップ企画。既存のアニメ・漫画のゲーム化ではなく、タレントを主演に据えた新規企画",
+        series: "エンターグラムはホロライブ関連のビジュアルノベルとして『おかゆにゅ～～む！』（2025-02-27）とその続編『おかゆにゅ～～む！R』（2026-02-26）を展開しており、本作はそれらに続く第 3 弾の位置づけ。主演タレントが監修にも関与する体制は本作が初",
+        cast: "博衣こより（ホロライブ 6 期生・秘密結社 holoX）。他の出演者は未発表",
+        caution: "対応機種は 2026-09-22 時点で未発表。エンターグラムは過去のホロライブ関連ビジュアルノベルを Nintendo Switch／PlayStation 4／PC（DMM GAMES）で展開してきたが、本作について公式の機種発表はまだない"
+      },
+      news: [
+        { source: "Quest Board.JP（ティザーサイト開設・企画製作と配信の分業体制・TGS2026 ブース内容）", url: "https://quest-board.jp/en/quests/buzz-leak-2026-09-17-leak-2-20260917" },
+        { source: "巴哈姆特 GNN（TGS26：由 VTuber 博衣小夜璃主演的視覺小說新作確認開發中）", url: "https://gnn.gamer.com.tw/detail.php?sn=311863" },
+        { source: "ホロライブ公式タレントページ（博衣こより のプロフィールと設定語「コヨリニウム」）", url: "https://hololive.hololivepro.com/talents/hakui-koyori/" }
+      ],
+      videos: [
+        { label: "Quest Board.JP の発表整理（ティザーサイトと TGS2026 ブースの内容）", platform: "媒体", url: "https://quest-board.jp/en/quests/buzz-leak-2026-09-17-leak-2-20260917" },
+        { label: "巴哈姆特 GNN 報導（主演與監修體制・預告官網）", platform: "媒体", url: "https://gnn.gamer.com.tw/detail.php?sn=311863" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "ホロライブは国内最大級の VTuber グループで、博衣こより は holoX 所属。タレント主演のビジュアルノベルは同社の定番企画として一定の需要がある",
+          "主演タレントが監修にも関与する初の事例として、ファンコミュニティ内での話題性がある",
+          "TGS2026 のエンターグラム ブースで会場露出を行い、告知は 10-22 の正式サイト公開まで段階的に続く設計",
+          "対応機種・発売時期・価格・ストーリーがすべて未発表で、現時点では数値シグナルが存在しない"
+        ]
+      },
+      tags: ["主机", "ビジュアルノベル", "IP協業", "ホロライブ", "COVER", "ENTERGRAM", "TGS2026"]
+    },
+    {
+      id: "legacy-code",
+      company: "講談社（講談社ゲームラボ）",
+      companyJp: "株式会社講談社（講談社ゲームラボ）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-09-16（講談社ゲームラボが Steam ストアページを公開し、ウィッシュリスト登録を開始）",
+      capturedAt: "2026-09-22",
+      title: {
+        jp: "Legacy Code（レガシーコード）",
+        cn: "Legacy Code",
+        en: "Legacy Code"
+      },
+      genre: "物理シミュレーション／クリーチャービルドアクション",
+      platforms: ["PC（Steam）"],
+      release: "2026年（Steam。詳細な発売日は未発表）",
+      releasePrecision: "年",
+      summary: "大手出版社の講談社が擁するゲーム事業レーベル「講談社ゲームラボ」の新作。生物素材から無機物まで多種多様なパーツを自由に組み合わせ、謎の生き物「メカニマル（Mechanimal）」を組み上げて動かす物理シミュレーションゲーム。独自開発の「マリオネットエンジン」により、どんな奇天烈な組み合わせでもメカニマルが破綻せずに動く点が最大の特徴で、制作者自身にもどう動くか読めない予測不能性が遊びの核になっている。基本サイクルは「つくる（組み立てる）」「たたかう（メカニマルを操作して砂漠・雪山・廃墟などを冒険する）」「あつめる（戦いの中で倒した相手のパーツを入手する）」の 3 段階で、パーツを足し替えるほど身体は大きく力強くなり、歩ける世界も広がっていく。パーツになるのは人形の頭やキャラクター雑貨、扇風機、テレビ、立体パズル、義歯、鎖、サボテンなど日常のあらゆる物。2026-09-16 に Steam ストアページが公開され、ウィッシュリスト登録の受付が始まった。",
+      highlight: "【2026-09-16 Steam ストアページ公開】講談社ゲームラボが Steam ストアページを公開し、ウィッシュリスト登録の受付を開始。第 1 弾トレーラーも公開された。　同時に、TGS2026 内のインディーゲームコンテスト「センス・オブ・ワンダー ナイト 2026」（9/17 幕張メッセ国際会議場）のファイナリスト 8 作品に選出されたことも発表されている。世界 1,500 を超える応募からの選出で、「ガラクタから生まれる予測不能な生き物」という発想が評価された。発売時期は 2026 年とされ、具体的な日付と価格は未発表。",
+      console: {
+        status: "2026年発売予定（Steam。詳細な発売日と価格は未発表）",
+        os: ["Windows（Steam）"],
+        monetization: "買い切り（価格未発表）",
+        developer: "127号室（いちにいななごうしつ）",
+        publisher: "株式会社講談社（講談社ゲームラボ）",
+        region: "日本／世界（Steam での配信予定。公式中国語対応が告知されている）",
+        distribution: "Steam でのダウンロード販売",
+        stores: ["Steam"],
+        features: [
+          "生物素材から無機物まで、あらゆるパーツを組み合わせて「メカニマル」を作る物理シミュレーション",
+          "独自開発の「マリオネットエンジン」により、どんな組み合わせでもキャラクターが破綻せずに動く",
+          "組み上げるまで動きが読めない予測不能性が設計の中心に据えられている",
+          "「つくる／たたかう／あつめる」の 3 段階ループで世界の探索範囲そのものが広がっていく",
+          "パーツは人形の頭・雑貨・扇風機・テレビ・立体パズル・義歯・鎖・サボテンなど日常のあらゆる物",
+          "パーツごとに見た目と動きの癖が異なり、組み合わせ次第で姿もふるまいも大きく変わる"
+        ],
+        synopsis: "プレイヤーはパーツを組み上げて生まれた神秘の生命体「メカニマル」を操作し、砂漠・雪山・廃墟といった世界を歩いていく。行く先々で新たな敵が立ちはだかり、戦いに勝てば倒した相手のパーツが手に入る。得たパーツで身体を組み替えるほどに、これまで歯が立たなかった強敵に挑めるようになり、歩ける世界も拡がっていく。",
+        ipSource: "完全新作（オリジナル IP）。講談社ゲームラボが、外部のインディー開発者と組んで立ち上げた企画",
+        series: "講談社ゲームラボは大手出版社の講談社が擁するゲーム事業レーベルで、既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。本作はその方針の下で発表された作品にあたる",
+        cast: "該当なし（声優・登場人物を備えない作品）"
+      },
+      news: [
+        { source: "AppBank（講談社が 9/16 に Steam ストアページを公開・ウィッシュリスト受付開始と発表）", url: "https://www.appbank.net/2026/09/17/game/3106835.php" },
+        { source: "Holiday Travel（講談社ゲームラボの発表整理・センス・オブ・ワンダー ナイト 2026 ファイナリスト選出）", url: "https://haveagood-holiday.com/zh-CN/articles/legacy-code-kodansha-steam-page-2026" },
+        { source: "Steam ストアページ（ウィッシュリスト登録受付中）", url: "https://store.steampowered.com/app/3354380" }
+      ],
+      videos: [
+        { label: "第 1 弾トレーラー（AppBank の記事に掲載）", platform: "媒体", url: "https://www.appbank.net/2026/09/17/game/3106835.php" },
+        { label: "第 1 弾トレーラー（公式 YouTube）", platform: "官方", url: "https://www.youtube.com/watch?v=g1RuLLMhmx4" },
+        { label: "Steam ストアページ（ウィッシュリスト登録受付中）", platform: "Steam", url: "https://store.steampowered.com/app/3354380" }
+      ],
+      hype: {
+        score: 45,
+        signals: [
+          "大手出版社の講談社が自らゲーム事業レーベルとして発信する企画で、パブリッシャー側の看板がある",
+          "TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に、世界 1,500 超の応募から選出された",
+          "独自の物理演算「マリオネットエンジン」という技術的な切り口が独自性として報じられている",
+          "発売は 2026 年内の予定で日付・価格が未発表、ウィッシュリスト登録開始段階のため数値シグナルは存在しない"
+        ]
+      },
+      tags: ["PC", "物理演算", "インディー", "講談社ゲームラボ", "SOWN2026", "新作発表"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -6606,7 +6863,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-21",
+    asOf: "2026-09-22",
     listTotal: 50,
     categories: [
       {
@@ -6710,7 +6967,7 @@ window.OBSERVATORY = {
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
         { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
-        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展" },
+        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton", "hoshin-engi-re-surrection"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展" },
         { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
       { name: "株式会社Plott", short: "Plott", status: "covered", gameIds: ["blackchannel-blaze-road"], note: "ゲームの企画・開発を手がけてきたスタジオが自社パブリッシングへ広げた事例。YouTube アニメ『ブラックチャンネル』（チャンネル登録者 130 万人超、小学館）の初のスマートフォンゲーム化を 9/14 に配信開始" },
@@ -6722,6 +6979,9 @@ window.OBSERVATORY = {
         { name: "東映株式会社 ゲーム事業ブランド「東映ゲームス」", short: "TOEI Games", status: "covered", gameIds: ["toei-games-hino", "toei-games-killa", "toei-games-debug-nephemee"], focus: true, note: "映画・テレビ・特撮・アニメを扱ってきた東映が 2026-04-21 に立ち上げた自社ゲームブランド。既存の影视・アニメ IP のゲーム化ではなく、国内外のクリエイター／スタジオと組んだ完全新規オリジナル企画のパブリッシングを柱に据える。TGS2026 に初出展し『HINO』『KILLA』『DEBUG NEPHEMEE』3 作の展場特別試玩版を提供した。これで東宝（TOHO Games）・松竹ゲームズ と合わせ、映画大手 3 社の自営ゲームブランドが揃った" },
         { name: "株式会社ジー・モード", short: "G-MODE", status: "covered", gameIds: ["haishin-shoujo-no-uraaka-meikyuu"], note: "『クリミナルガールズ』ではなく『ククリよみ』系のノベルや、DATA EAST ライセンス事業・フィーチャーフォン復刻企画『G-MODEアーカイブス』を手がける老舗パブリッシャー。Acacia 原作の『配信少女ノ裏垢迷宮』（PC／Switch、2026 年内）を発売し、TGS2026 のインディーゲームコーナー（09-E03）で初の試遊出展を行った" },
         { name: "株式会社工画堂スタジオ", short: "Kogado Studio", status: "covered", gameIds: ["sugar-lies"], note: "東京都立川市の老舗パブリッシャーで、短編ビジュアルノベルや音楽・教育関連ソフトを手がけてきた。2026-09-18 の KONAMI TGS2026 生放送で新作『Sugar Lies』（PC／Steam 2026 年末、Nintendo Switch 2027 年春）を発表したため補充監視に追加" },
+        { name: "株式会社アクティブゲーミングメディア（PLAYISM）", short: "PLAYISM", status: "covered", gameIds: ["devil-connection"], note: "インディーゲームのローカライズとパブリッシングを手がける日本企業。PLAYISM ブランドで家庭用・モバイル向けの発行を行い、『DevilConnection』（開発：ChaoGames）の Switch／iOS／Android 版を 2027-01-21 に発売する。PLAYISM GAME SHOW: TGS 2026 Preview で本作の発売日を発表し、TGS2026 会場ではプレイアブル出展も行った" },
+        { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
+        { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された" },
       ]
     }
   },
@@ -6748,13 +7008,13 @@ window.OBSERVATORY = {
   },
 
   /* ---------------------------------------------------------
-   * D. TGS2026 前瞻 — 2026-09-17 ~ 09-21 幕張メッセ
+   * D. TGS2026 記録（会期終了）— 2026-09-17 ~ 09-21 幕張メッセ
    * ------------------------------------------------------- */
   tgs: {
-    dates: "2026-09-17 ~ 2026-09-21（9-21 は台風 25 号接近により全日中止／実質 4 日間の開催）",
+    dates: "2026-09-17 ~ 2026-09-21（9-21 は台風 25 号接近により全日中止。実体会期は 9/17〜20 の 4 日間、来場者 257,642 人。会期終了済み・記録として保存）",
     venue: "幕張メッセ（千葉）",
     theme: "長い5日間、遊びつくせ。／ Longest Five Days of Nonstop Play",
-    note: "TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）ーー当日的主要结果：① 东映的自营游戏品牌「東映ゲームス」（2026-04 设立）首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，并设夹娃娃机与 TGS2026 限定马克杯，品牌代表另参与同日 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」；② 9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，并公开 Juliet 新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报；③ サンリオゲームス 展台的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；④ 日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的公众网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。其他已公布日程：Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台以 7 タイトル 出展（含 OVER RUSH 的オープンβ，9/24 截止）；Koei Tecmo 的『遙かなる時空の中で 龍宮の神子』特别舞台定于 9/20 14:30-15:15（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外同步直播。2026-09-19 夕方、主催の CESA は第 25 号台風（Dujuan）の接近により 9 月 21 日（月・祝）の全日中止を発表した。同日午後から風雨が強まり、公共交通の乱れで来場者・出展者・関係者の帰宅が困難になる恐れがあるためとしている。9 月 20 日（日）は予定どおり 9:30-17:00 で実施されるが、会場周辺の状況により一部の設備・内容が変更または中止される場合があり、20 日のチケットは払い戻しの対象外。21 日のチケットは購入先の手続きに従って払い戻される。21 日に予定されていた一部のステージは、会場の安全確認後に公式番組としてオンライン配信される調整が進められている。バンダイナムコエンターテインメント、DMM GAMES、GRAPHT などは 21 日のブース展示・試遊・ステージ・サイン会・ノベルティ配布の中止を相次いで発表した。TGS が 1996 年に始まって以来、全日中止は史上初で、30 周年記念として予定された初の 5 日間開催は実質 4 日間となった。来場者数は 9 月 17 日が 53,630 人、9 月 18 日が 52,545 人だった。 9 月 20 日（第 4 日・一般公開日）の主な予定：13:00-14:45 に日本ゲーム大賞 2026 フューチャー部門の授賞式（幕張メッセ Hall 1 イベントステージ）。KONAMI は『遊☆戯☆王 TAG FORCE GX Returns』発売決定特別番組（10:00）・『幻想水滸伝 STAR LEAP』Live（12:00）・『Castlevania: Belmont's Curse』初の実機配信（14:00）。コーエーテクモは『薬屋のひとりごと』特別ステージ（13:30）と『遙かなる時空の中で 龍宮の神子』TGS 特別ステージ（14:30）。SEGA／ATLUS は『STRANGER THAN HEAVEN』の実機ショーケース（13:10・15:40）と『Persona 4 Revival』特別トークステージ（14:50）、『Metaphor: ReFantazio』特別トークステージ（14:50）。PC Gaming Show Tokyo Direct 2026 は 9 月 20 日 9:00（PT）＝日本時間 9 月 21 日 1:00 から約 90 分、35 本以上・10 のワールドプレミアを予定している（配信番組のため会場中止の影響は受けない）。 9/20（第 4 日・公众日第 2 日，9:30-17:00）的主要结果：① 13:00 于幕张展览馆 Hall 1 活动舞台举行「日本ゲーム大賞 2026 フューチャー部門」颁奖，537 部参展未发售作品中由到场者与线上玩家投票选出 10 款——《FINAL FANTASY VII REVELATION》《Persona 4 Revival》《Monster Hunter Wilds: Ascendance》《GUNDAM ROGUE ORBIT》《ACE COMBAT 8: Wings of Theve》《STRANGER THAN HEAVEN》《スーパーダンガンロンパ2×2》《Castlevania: Belmont's Curse》《Romancing SaGa 3: Destinies United》《魔法少女ノ因習村》；② KONAMI 展台 14:00 的《Castlevania: Belmont's Curse》特别舞台由制作人 谷口勲 与监督 外尾有樹子 登台，宣布体验版 10/01 配信且存档可继承；③ DMM GAMES 展位 15:00 的 KADOKAWA 特别舞台（カズマ役 福島潤＋制作人 藤井大樹）宣布《まちすば》主题曲为 Machico「WOOHOO!」；④ 15:40 主舞台「刀剣乱舞ONLINE×ぱずぎり」合同舞台公布『刀剣乱舞 ぱずぎり』配信日为 2026-09-24、事前登录突破 50 万；⑤ COLOPL 在自家 TGS 舞台首次公开『クイズアクションRPG ウィズジェネレーション』的角色预告与 14 名声优阵容。原定 9/21 的舞台（含 SEGA／ATLUS 的 SONIC 35 周年与 STH 最终舞台）随 9/21 全日中止一并取消，部分改以线上官方节目播出。【閉幕】9/17-20 の 4 日間で来場者 257,642 人（前年 263,101 人から 5,459 人減）。内訳は 9/17 53,630／9/18 52,545／9/19 78,678／9/20 72,789。9/21 は台風 25 号接近のため全日中止となり、史上初の 5 日間開催は幻に終わった（CESA は当日券の払い戻しと、9/21 分の一部ステージのオンライン配信を実施）。出展は 53 の国と地域・1,138 社、オンライン番組は 25 本。次回 TGS2027 は 2027-09-16〜09-20 に幕張メッセで 5 日間開催予定。",
+    note: "【会期終了】TGS2026 は 9/21（月・祝）の全日中止をもって終了した。以下は会期中（9/17〜9/21）に記録した内容の保存であり、以後は追記しない。実体会期 9/17〜20 の来場者は 257,642 人、TGS2027 は 2027-09-16〜20 に幕張メッセで開催予定。 TGS 30 周年，史上首次 5 日举办。9/17-18 商务日，9/19-21 公众日（9/21 为日本节假日，至 16:00）。已于 2026-09-17 开幕；主办方 CESA 公布本届为史上最大规模（759 家出展社・51 个国家・3,946 个展位，另有统计口径为 1,138 家・53 个国家），预计到场约 30 万人。会场结构：1-8 号馆为主展区（Square Enix／Capcom／SEGA／PlayStation 等大型展位），9-11 号馆为独立游戏区・VR/AR 区・周边区・cosplay 区；Family Game Park 设于邻接的 TKP 东京湾幕张大厅（9/19-21，免费・中学生以下需监护人陪同）。 9/17 19:00（JST）的 Xbox TGS2026 放送成为开幕日第二波信息高峰（17 段实机＋一项世界首发＋一款突袭上线）。日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的网络投票 9/17 10:00 ~ 9/19 16:00，颁奖典礼定于 9/20 13:00 在幕张展览馆 Hall 1 活动舞台举行。 9/18（第 2 日・商务日）白天的主要动态：GungHo 公布本届展台的完整阵容——『ニンジャラ2 未知なる惑星』『B.L.U.E. NOVA』『Chit Chat Party!』三作（其中『Chit Chat Party!』为发表即发售），并以 40 台试玩机提供『ニンジャラ2』的日本最大规模试游；Sanrio Games 以自社品牌首次参展，一般展区与家庭游戏区双区提供『Hello Kitty パーティランド』（10/29 发售）等的发售前试玩；『ロリポップチェーンソー』新作在 SEGA／ATLUS 展台内首次开放试玩，9/18 11:40 与 9/19 9:40 两场舞台预告重大发表。日本ゲーム大賞 2026 フューチャー部門的公众网络投票 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。 9/19（第 3 日・公众日首日，9:30-17:00）ーー当日的主要结果：① 东映的自营游戏品牌「東映ゲームス」（2026-04 设立）首次出展 TGS，展台以各作世界观为主题，提供『HINO』『KILLA』『DEBUG NEPHEMEE』的展场特别试玩版，并设夹娃娃机与 TGS2026 限定马克杯，品牌代表另参与同日 TGS 论坛「異業種からの挑戦～サンリオ・PARCO・東映が語るゲーム発行事業の狙い」；② 9:40-10:30 的 TGS 主舞台「LOLLIPOP CHAINSAW NEW PROJECT」特别舞台公布正式标题『ロリポップチェーンソー2 Back2Back』（PS5 等／2027 年）与同 IP 的实拍电影化，并公开 Juliet 新服装、自由视角、表情演出、滑冰技巧与新招式等四项游戏情报；③ サンリオゲームス 展台的舞台由ハーリット役 梶原岳人 与 バドバルマ役 武内駿輔 登坛，公开『FRAGARIAMEMORIES Color of Wishes』的游戏情报；④ 日本ゲーム大賞 2026 フューチャー部門（面向未发售参展作品）的公众网络投票于 9/19 16:00 截止，颁奖典礼 9/20 13:00 于幕张展览馆 Hall 1 活动舞台举行。其他已公布日程：Netmarble 展台 9/19 有 Soraru・Vodka（11:15）与 SHAKA・Obo（14:15）两场主播舞台；Smilegate 展台 9/19 为 MIRESI 的 Moe Iori 与 Dead Account 的 東雲うみ 两场 cosplay 舞台；NHN PlayArt 展台以 7 タイトル 出展（含 OVER RUSH 的オープンβ，9/24 截止）；Koei Tecmo 的『遙かなる時空の中で 龍宮の神子』特别舞台定于 9/20 14:30-15:15（登坛：三浦勝之・戸谷菊之介・鈴木裕斗），会场外同步直播。2026-09-19 夕方、主催の CESA は第 25 号台風（Dujuan）の接近により 9 月 21 日（月・祝）の全日中止を発表した。同日午後から風雨が強まり、公共交通の乱れで来場者・出展者・関係者の帰宅が困難になる恐れがあるためとしている。9 月 20 日（日）は予定どおり 9:30-17:00 で実施されるが、会場周辺の状況により一部の設備・内容が変更または中止される場合があり、20 日のチケットは払い戻しの対象外。21 日のチケットは購入先の手続きに従って払い戻される。21 日に予定されていた一部のステージは、会場の安全確認後に公式番組としてオンライン配信される調整が進められている。バンダイナムコエンターテインメント、DMM GAMES、GRAPHT などは 21 日のブース展示・試遊・ステージ・サイン会・ノベルティ配布の中止を相次いで発表した。TGS が 1996 年に始まって以来、全日中止は史上初で、30 周年記念として予定された初の 5 日間開催は実質 4 日間となった。来場者数は 9 月 17 日が 53,630 人、9 月 18 日が 52,545 人だった。 9 月 20 日（第 4 日・一般公開日）の主な予定：13:00-14:45 に日本ゲーム大賞 2026 フューチャー部門の授賞式（幕張メッセ Hall 1 イベントステージ）。KONAMI は『遊☆戯☆王 TAG FORCE GX Returns』発売決定特別番組（10:00）・『幻想水滸伝 STAR LEAP』Live（12:00）・『Castlevania: Belmont's Curse』初の実機配信（14:00）。コーエーテクモは『薬屋のひとりごと』特別ステージ（13:30）と『遙かなる時空の中で 龍宮の神子』TGS 特別ステージ（14:30）。SEGA／ATLUS は『STRANGER THAN HEAVEN』の実機ショーケース（13:10・15:40）と『Persona 4 Revival』特別トークステージ（14:50）、『Metaphor: ReFantazio』特別トークステージ（14:50）。PC Gaming Show Tokyo Direct 2026 は 9 月 20 日 9:00（PT）＝日本時間 9 月 21 日 1:00 から約 90 分、35 本以上・10 のワールドプレミアを予定している（配信番組のため会場中止の影響は受けない）。 9/20（第 4 日・公众日第 2 日，9:30-17:00）的主要结果：① 13:00 于幕张展览馆 Hall 1 活动舞台举行「日本ゲーム大賞 2026 フューチャー部門」颁奖，537 部参展未发售作品中由到场者与线上玩家投票选出 10 款——《FINAL FANTASY VII REVELATION》《Persona 4 Revival》《Monster Hunter Wilds: Ascendance》《GUNDAM ROGUE ORBIT》《ACE COMBAT 8: Wings of Theve》《STRANGER THAN HEAVEN》《スーパーダンガンロンパ2×2》《Castlevania: Belmont's Curse》《Romancing SaGa 3: Destinies United》《魔法少女ノ因習村》；② KONAMI 展台 14:00 的《Castlevania: Belmont's Curse》特别舞台由制作人 谷口勲 与监督 外尾有樹子 登台，宣布体验版 10/01 配信且存档可继承；③ DMM GAMES 展位 15:00 的 KADOKAWA 特别舞台（カズマ役 福島潤＋制作人 藤井大樹）宣布《まちすば》主题曲为 Machico「WOOHOO!」；④ 15:40 主舞台「刀剣乱舞ONLINE×ぱずぎり」合同舞台公布『刀剣乱舞 ぱずぎり』配信日为 2026-09-24、事前登录突破 50 万；⑤ COLOPL 在自家 TGS 舞台首次公开『クイズアクションRPG ウィズジェネレーション』的角色预告与 14 名声优阵容。原定 9/21 的舞台（含 SEGA／ATLUS 的 SONIC 35 周年与 STH 最终舞台）随 9/21 全日中止一并取消，部分改以线上官方节目播出。【閉幕】9/17-20 の 4 日間で来場者 257,642 人（前年 263,101 人から 5,459 人減）。内訳は 9/17 53,630／9/18 52,545／9/19 78,678／9/20 72,789。9/21 は台風 25 号接近のため全日中止となり、史上初の 5 日間開催は幻に終わった（CESA は当日券の払い戻しと、9/21 分の一部ステージのオンライン配信を実施）。出展は 53 の国と地域・1,138 社、オンライン番組は 25 本。次回 TGS2027 は 2027-09-16〜09-20 に幕張メッセで 5 日間開催予定。",
     booths: [
       { company: "Square Enix", hall: "—", items: "以《FINAL FANTASY VII REVELATION》为绝对核心：三部曲终章的全球首个一般试玩（飞空艇世界地图探索＋Trinity 三人连携战斗），展台设巨型「陨石」装置与贯穿 Remake／Rebirth／Revelation 的专属拍照点。《FINAL FANTASY RESONANCE》同样可试玩，并追加确认《Romancing SaGa 3: Destinies United》提供试玩。预告片轮播含 FFXIV: Evercold／DQ モンスターズ 朽ちた世界／DQ XI S／KH Collection I~III／KH IV／DQ X オンライン／DISSIDIA DUELLUM FF／DQ スマッシュグロウ／DQ ヒーローズ トルネコ Classic HD。Family Game Park 提供《DQ VII Reimagined》试玩；公众日 モーグリ 与チョコボ「アルファ」不定期登场，《モンスターズ 朽ちた世界》举办「フラッフィー」合影会并发放周边　开幕日确认《キングダム ハーツ IV》与《KH Collection I~III》双双推出 Nintendo Switch 2 原生版并公开最新发售窗口；《キングダム ハーツ IV》在展台维持仅展示、不可试玩。" },
       { company: "カプコン", hall: "7 号馆（试玩）／9-11 号馆（周边）", items: "史上最大规模出展。可试玩：《モンスターハンターワイルズ 拡張「Ascendance」》（Switch 2 版同步开放试玩，为全场最长队列之一）、《ドラゴンズドグマ 2 ダークアリズン》（日本首次可试玩，10/09）、《ロックマン デュアルオーバーライド》（日本首次可试玩）、《ストリートファイター6》（新角色「アルジュン」先行试玩）；另有《プラグマタ》《鬼武者 Way of the Sword》。9-11 号馆设「e-Capcom 2026 出张所」与扭蛋区「CAPSULE LAB」　Xbox 的 TGS2026 放送进一步确认《モンスターハンターワイルズ》扩展「Ascendance」的推出窗口为 2027 年，公开新区域「Skybound Eyrie」、炎王龙 Teostra 回归，以及面向全部 14 种武器的「Boost Bracer／Boost Driver」。" },
@@ -6789,15 +7049,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "台风 25 号让 TGS2026 的最后一天未能举行——9/20 四天实体展期以 257,642 人收官，9/21 线上节目接棒。本期补收主机・PC 2 条（真・三國無双3 Complete Edition Remastered／神貌之樹逆カバラ），并把三丽鸥自营手游『Sanrio Kawaii Me Live!』的 2027 年 1 月全球上线与事前登录开始记为手游侧唯一的实质进展。条目总数 121 → 123（手游区 31 不变／主机・PC 区 98 → 100）",
+    headline: "TGS2026 閉幕後最初の巡検。主机・PC 側で窗口内に漏れていた日方主導の企画を 3 条補収（『HOSHiN ENGi Re:surrection』『コヨリニウム』『Legacy Code』）し、既存 PC タイトルのモバイル／家庭用展開『DevilConnection』を 1 条追加、『SILENT HILL: Townfall』を先行アクセス開始で更新。条目总数 123 → 127（手游区 31 → 32／主机・PC 区 100 → 104）",
     points: [
-      "**手游侧本轮以「三丽鸥自营品牌的定档」为主**：『Sanrio Kawaii Me Live!』（Sanrio Games 首款智能手机游戏）于 9/21 官方公告**2027 年 1 月全球同步上线**并同日启动事前登录——自上轮为止「2027 年」的模糊表述由此精确到月份。事前登录与官方 SNS 关注数合计达 100 万可获 Sanrio Games 主题 Hello Kitty 服装，里程碑从 5 万到 100 万分 7 档。乐曲由 Universal Music 旗下 Soala／SHE'S／Lienel／Polkadot Stingray／ヤバイTシャツ屋さん／Mi'Line Hearts 提供原创曲，另与 ずっと真夜中でいいのに。 达成合作；概念 PV 于 9/21 12:00 在官方 YouTube 首播，2027-01-14 在横滨关内 Hall 举办发售纪念 Live。该作本体首次公开为 2026-06-28（Sanrio Fes 2026），早于本窗口左端，故本轮把 bucket 由 new 修正为 update，记作「已公开企划的窗口内定档进展」。",
-      "**手游侧本轮无新增条目，日方供给端依旧稀薄**：9/21 白天（TGS 已闭幕、当日因台风中止）的日本手游通稿仍以既有作品为主——EXNOA『刀剣乱舞 ぱずぎり』9/24 配信、NHN PlayArt『OVER RUSH』公开测试、KADOKAWA『まちすば』主题曲等均在库内已收。同期出现的移动端新作分别属韩资（Netmarble／Nexon／NC／Smilegate／Lightcon）与中国资本企业，按资本归属全部跳过、不点名、不入库。本站「手游为重点」的定位下，本轮以维护既有条目为主，不凑条目。",
-      "**主机・PC 侧补收 2 条，均为日方主导**：①『真・三國無双3 Complete Edition Remastered』（コーエーテクモゲームス／ω-Force，开发）——9/20 TGS2026 特设舞台「Ask Sho-P」宣布**体验版 9/24 配信、2027 年 1 月免费更新追加线上双人**，本体 10/01 发售（PS5／Switch 2／Xbox Series X|S／Steam）。②『神貌之樹逆カバラ（Qliphah in Providence's Shadow）』（アークシステムワークス × UnitePlus）——9/20 公开游戏玩法预告并详解「战术反击时间线 RPG」的战斗系统，9/24 发售（PS5／Switch／PC）。两条本体首次公开均早于窗口左端，按口径记 update（在库前已公开、本轮补录窗口内进展）。",
-      "**日本ゲーム大賞 2026 年度作品部门（9/15 颁奖，本期补记）**：大奖与优秀奖双料为『Pokémon Pokopia』（Switch 2，2026-03-05 发售，全球累计 500 万本），优秀奖另 11 款——『Death Stranding 2: On the Beach』『ドンキーコング バナンザ』『魔法少女の魔女裁判』『SILENT HILL f』『ゴースト・オブ・ヨウテイ』『デジモンストーリー タイムストレンジャー』『イナズマイレブン 英雄たちのヴィクトリーロード』『カービィのエアライダー』『霊視異聞 FILE38 伊勢人魚物語』『バイオハザード レクイエム』『プラグマタ』。経済産業大臣賞为『ポケットモンスター』系列，ゲームデザイナーズ大賞（最终回）为『文字遊戯（Moji Yugi）』，ムーブメント賞为『スーパーカメレオン』。奖项对象为已发售作品，故不建卡，仅作行业记录。",
-      "**TGS2026 闭幕后的收尾**：9/21（周一・祝日）因台风 25 号全日中止，主办方 CESA 把原定当日的部分舞台改为线上节目播出，SONIC 35 周年音乐 Live 与『STRANGER THAN HEAVEN』最终舞台等安排在线上完成。实体展期为 9/17-20 共四天、来场者 257,642 人；TGS2027 定于 2027-09-16〜20 于幕张メッセ，同样计划五日。",
-      "**漏收核查（按 IP／品牌逐个过）**：チェンソーマン／呪術廻戦／ONE PIECE／BLEACH／刀剣乱舞／ホロライブ／鬼滅の刃／ブルーロック／東京リベンジャーズ／サンリオ（カワイイミーライブ・フラガリアメモリーズ）／Otomate・LicoBiTs／遊戯王。**查出漏收 2 条并已补卡**（真・三國無双3 Complete Edition Remastered、神貌之樹逆カバラ），两条均来自 TGS2026 展位表与前几轮登记的「未建卡候选线索」。本轮另清理了长期挂账线索『神貌之樹逆カバラ』（此前因报道间发售日不一致而未建卡，本轮确认为 2026-09-24）。",
-      "**厂商名单**：4 个 category 家数仍为 8／16／16／10＝50，extra 30 家不变。コーエーテクモゲームス 的 gameIds ＋1（真・三國無双3 Complete Edition Remastered）、アークシステムワークス ＋1（神貌之樹逆カバラ）。companies.asOf 维持 2026-09-21。另：クリアリバーゲームズ（スウェーデン）主导的『Terranigma』復刻（2027-01-14）因日方仅为 IP 権利元、未参与发表，不符合「日方主导」口径，本轮跳过；『Lufia I & II』因 TAITO 共同发表而收录，两者处理不同。"
+      "**手游侧本轮日方无新增**：9/21 夜〜9/22 朝にモバイル向けの動きがあった新作は、韓国資本（Netmarble／Nexon／NCSoft 系／Kakao 等）と中国資本の企業によるもののみで、開発・発行の資本帰属によりすべて跳过し、社名・作品名とも本站には記載しない。本站が周内に確認した日方側の動きは、既存条目『BanG Dream! Our Notes』（9/24 グローバル同時配信）の事前ダウンロードが 9/22 23:00（JST）、開服が 9/24 11:00（UTC+9）に確定したことで、条目側の更新を要する新事実には至らなかった。",
+      "**手游区の计数は 31 → 32 になるが、中身は新規 IP ではない**：『DevilConnection』（開発：ChaoGames／発行：PLAYISM）を追加した。本体は 2025-10-30 に PC（Steam）で配信済みの作品で、今回は Nintendo Switch／iOS／Android への移植にあたるため bucket は update、platformClass は multi（家庭用＋モバイル）。窗口内の発表（2026-09-10、PLAYISM GAME SHOW: TGS 2026 Preview）として収録したもので、日方（日本のインディー開発チームと国内発行元）が主体の案件。",
+      "**主机・PC 侧は窗口内の漏収 3 条を補収**：①『HOSHiN ENGi Re:surrection』（集英社ゲームズ × LASTWONDER）——2026-09-09 の Nintendo Direct で発表された、藤崎竜『封神演義』の完結後を描くローグライトアクション（Nintendo Switch 2／PS5／Steam、2027 年、原作者が新主人公をデザイン・監修）。②『コヨリニウム』——COVER が企画・製作しホロライブ 博衣こより が主演と監修を務めるビジュアルノベル（2026-09-17 ティザーサイト開設、配信は ENTERGRAM、正式サイトは 10-22）。③『Legacy Code』——講談社ゲームラボの物理シミュレーション作品（2026-09-16 Steam ストアページ公開、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」ファイナリスト 8 作入り）。3 条とも発表日は窗口（2026-07-22〜）内で、過去の巡検で取り逃していたもの。",
+      "**既存条目の更新 1 条**：『SILENT HILL: Townfall』（KONAMI／Annapurna Interactive、9/24 発売）——デラックスエディション購入者向けの 48 時間先行アクセスが 9/22 に開始（PS5 は各地域 0:00、PC は ET 0:00）。海外レビューも解禁され、Metacritic の PS5 版は 81 点（レビュー 47 本）、PC Gamer 89 点、Famitsu 8/8/9/8 の 33 点。発売週に入り露出がピークに達した。",
+      "**漏収核查（IP・ブランド別に総当たり）**：チェンソーマン／呪術廻戦／ONE PIECE／BLEACH／刀剣乱舞／ホロライブ／鬼滅の刃／ブルーロック／東京リベンジャーズ／サンリオ／Otomate・LicoBiTs／遊戯王。新規の漏収は上記の補収分 4 条。『チェンソーマン』のモバイル新作は 9 月中にタイトル（チェンソーマン デビルクラッシュ）とティザーサイトが公開されたが、開発元・発行元がいずれも未公表で資本帰属を判定できないため、本站は从严のまま未収録を維持し次回以降に持ち越す。Idea Factory（オトメイト）の『Sullyland Nursery Rhyme』（10-01 発売）も、発売日決定と予約開始がいずれも窗口左端より前で、周内には発売前レビュー以外の実質的な新報がなく、未収録を維持する。",
+      "**TGS2026 の記録を凍結**：実体会期 9/17〜20 の 4 日間で来場者 257,642 人、9/21（月・祝）は台風 25 号接近により全日中止となり、予定されていた一部のステージのみオンライン配信で実施された。TGS2027 は 2027-09-16〜20 に幕張メッセで開催予定。本站の tgs モジュールは会期終了に伴い「展後記録」として扱い、以後は追記しない。ホロライブ・サンリオ・東映ゲームス・集英社ゲームズなど自社ブランド系の動きは、作品条目側で追跡する。",
+      "**厂商名单与期待榜**：4 个 category の家数は 8／16／16／10＝50 で変わらず。extra は 30 → 33 家（PLAYISM／ENTERGRAM／講談社ゲームラボ を、いずれも本期に作品条目が成立したことを理由に追加）。集英社ゲームズ の gameIds は ＋1。Famitsu 期待榜は次号（9/24 発売号）まで新一期がなく、mostWanted は 9/17 号（投票期間 9/2〜9/8）の内容を据え置いた。Nintendo Direct（9/9）以降に発表された作品は次回以降の榜に初登場する見込み。"
     ]
   },
 };
