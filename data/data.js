@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-23T19:10:00+08:00",
-    edition: "2026-09-23",
-    window: "2026-07-23 ~ 2026-09-23（滚动最近 2 个月）",
+    updatedAt: "2026-09-24T12:02:00+08:00",
+    edition: "2026-09-24",
+    window: "2026-07-24 ~ 2026-09-24（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -268,15 +268,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社ブシロード",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-09-22（グローバルサーバー正式サービス開始を記念した「Abracadabra – Cover by Ave Mujica」ティザー MV の公開）",
-      capturedAt: "2026-09-23",
+      announceDate: "2026-09-24（日本を含むグローバル同時配信を開始。11:00（UTC+9））",
+      capturedAt: "2026-09-24",
       title: { jp: "BanG Dream! Our Notes（バンドリ！アワーノーツ）", cn: "BanG Dream! Our Notes", en: "BanG Dream! Our Notes" },
       genre: "リズムゲーム＋全編フルボイス・ビジュアルノベル",
       platforms: ["iOS", "Android"],
-      release: "2026-09-24（日本を含むグローバル同時配信を予定）",
+      release: "2026-09-24（日本を含むグローバル同時配信。11:00（UTC+9）に配信開始済み）",
       releasePrecision: "日",
       summary: "ブシロード发行的《BanG Dream!》系列全新手游，由前 Craft Egg 主要成员创立的株式会社フロムトーキョー 开发，是《ガールズバンドパーティ!》之后的第二款节奏游戏。登场乐队为 MyGO!!!!!、Ave Mujica、夢限大みゅーたいぷ 与新加入的 millsage、一家Dumb Rock!，共 25 名角色并全部启用原班声优；故事采用多路线乐队章节结构，并用 Live2D 影像以游戏视角重述 MyGO!!!!! 与 Ave Mujica 的动画剧情。玩法以打击、滑动、长按、滑键构成的节奏部分为核心，新增在乐曲中途插入高强度段落的「GEKISO LIVE（激奏 LIVE）」模式与面向新手的 Assist Mode，支持最多 5 人实时协力／对战演奏，卡池获取的卡牌影响演奏数值。事前登录自 6/26 开放，9/4 破 150 万、9/11 破 160 万；9/13 公布全球配信日 9/24，9/21 播出上线前特别生放送、9/22 起开放预下载，对应语言含日文、英文、韩文、繁体中文与简体中文。",
-      highlight: "【2026-09-22 Abracadabra カバー】グローバルサーバー正式サービス開始（9/24）を記念して、Ave Mujica がレディー・ガガ「Abracadabra」をカバーするティザー MV が公開された。楽曲と本編 MV はグローバル版のゲーム内で先行解禁される。　【2026-09-22 事前ダウンロード開始】9 月 22 日 23:00（JST）より事前ダウンロードが順次開始され、9 月 24 日 11:00（UTC+9）の世界同時配信に向けた導線が整った。　【2026-09-20 事前登録 200 万突破】世界累計の事前登録が 200 万に到達（9/11 の 160 万から 9 日で 40 万増）。達成特典として SSR 確定チケットの配布が告知された。9/21 に配信前特別生放送を予定し、9/22 から事前ダウンロード開始、9/24 に世界同時配信。　【TGS2026 9/18】ブシロード 展台（6 号馆 C01）自 9/17 起提供正式版抢先试玩，是配信前最后一场大型线下曝光，试玩或出示 Steam 愿望单登记画面可获 MyGO!!!!! 版／Ave Mujica 版「票券风卡片」。　9/24 全球同日上线，是 2026 下半年量级最大的日厂原创手游之一；作为系列第二款节奏游戏直接承接 MyGO!!!!! 与 Ave Mujica 的剧情线，采取「新旧乐队同处一个宇宙但不强行交汇」的编成思路。",
+      highlight: "【2026-09-24 世界同時配信開始】9 月 24 日 11:00（UTC+9）より、日本を含むグローバルで正式サービスが開始された。事前登録は世界累計 200 万件を突破し、開始時点で 5 バンド 25 キャラと MyGO!!!!!・Ave Mujica のアニメ劇情を再構成したフルボイスシナリオが実装されている。　【2026-09-22 Abracadabra カバー】グローバルサーバー正式サービス開始（9/24）を記念して、Ave Mujica がレディー・ガガ「Abracadabra」をカバーするティザー MV が公開された。楽曲と本編 MV はグローバル版のゲーム内で先行解禁される。　【2026-09-22 事前ダウンロード開始】9 月 22 日 23:00（JST）より事前ダウンロードが順次開始され、9 月 24 日 11:00（UTC+9）の世界同時配信に向けた導線が整った。　【2026-09-20 事前登録 200 万突破】世界累計の事前登録が 200 万に到達（9/11 の 160 万から 9 日で 40 万増）。達成特典として SSR 確定チケットの配布が告知された。9/21 に配信前特別生放送を予定し、9/22 から事前ダウンロード開始、9/24 に世界同時配信。　【TGS2026 9/18】ブシロード 展台（6 号馆 C01）自 9/17 起提供正式版抢先试玩，是配信前最后一场大型线下曝光，试玩或出示 Steam 愿望单登记画面可获 MyGO!!!!! 版／Ave Mujica 版「票券风卡片」。　9/24 全球同日上线，是 2026 下半年量级最大的日厂原创手游之一；作为系列第二款节奏游戏直接承接 MyGO!!!!! 与 Ave Mujica 的剧情线，采取「新旧乐队同处一个宇宙但不强行交汇」的编成思路。",
       news: [
         { source: "官方站新闻（「アワーノーツ リリース日決定特番」発表情報まとめ）", url: "https://bang-dream-on.bushimo.jp/news/post-8" },
         { source: "官方站新闻（TGS2026 出展の詳細を公開）", url: "https://bang-dream-on.bushimo.jp/news/post-9" },
@@ -300,10 +300,10 @@ window.OBSERVATORY = {
       },
       tags: ["手游", "音ゲー", "IP直営", "事前登录中", "TGS2026"],
       mobile: {
-        status: "2026-09-24 にグローバル同時配信予定（事前登録受付中）",
+        status: "正式サービス中（2026-09-24 11:00（UTC+9）に世界同時配信を開始）",
         os: ["iOS", "Android"],
         monetization: "基本無料（ガチャ・アイテム課金あり、シーズン制ミッションパスを導入）",
-        preReg: { open: true, since: "2026-06-26（グローバル事前登録開始。国内向け CBT は 2026-06-25〜29 に実施、募集は 3/1〜5/17）", reward: "50 万：スター 4,000／60 万：ソングチケット 30 枚／70 万：SR 以上確定チケット／80 万：SNAP カード／100 万：シーズン 1 ミッションパス／150 万：SSR 確定ガチャチケット／200 万：SSR 確定チケット配布（世界累計 200 万突破は 2026-09-20）" },
+        preReg: { open: false, since: "2026-06-26（グローバル事前登録開始。国内向け CBT は 2026-06-25〜29 に実施、募集は 3/1〜5/17）", reward: "50 万：スター 4,000／60 万：ソングチケット 30 枚／70 万：SR 以上確定チケット／80 万：SNAP カード／100 万：シーズン 1 ミッションパス／150 万：SSR 確定ガチャチケット／200 万：SSR 確定チケット配布（世界累計 200 万突破は 2026-09-20。2026-09-24 の配信開始をもって受付を終了）" },
         developer: "株式会社フロムトーキョー（FROMTOKYO。前 Craft Egg 代表取締役・森川修一が中心となり 2024-02-01 に設立、同年 11-01 にブシロードと資本業務提携）",
         publisher: "株式会社ブシロード（Bushimo／旧ブシロードゲームズ）",
         region: "日本・北米・アジアなどグローバル同時配信（日本語・英語・韓国語・繁体字・簡体字に対応）",
@@ -336,23 +336,23 @@ window.OBSERVATORY = {
       companyJp: "合同会社EXNOA（DMM GAMES）／ NHNプレイアート株式会社",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-09-20（TGS2026 主舞台で配信日 09-24 を発表・事前登録 50 万突破）",
-      capturedAt: "2026-09-23",
+      announceDate: "2026-09-24（iOS／Android／PC（DMM GAMES PLAYER）版の配信を開始）",
+      capturedAt: "2026-09-24",
       title: { jp: "刀剣乱舞 ぱずぎり", cn: "刀剑乱舞 ぱずぎり", en: "Touken Ranbu Pazu-giri" },
       genre: "拼图 RPG（パズル RPG）",
       platforms: ["iOS", "Android", "PC（DMM GAMES PLAYER）"],
-      release: "2026-09-24（配信予定）",
+      release: "2026-09-24（配信開始済み）",
       releasePrecision: "日",
       summary: "《刀剑乱舞 ONLINE》首款拼图派生作。世界观、剧本与角色设计由 Nitroplus 监修，拼图部分的开发由 NHN PlayArt 负责，合同会社 EXNOA 开发运营。核心玩法是把盘面上同色的「刀垣」连成一线发动连续斩击，刀剑男士以 Q 版形象登场，可编组能力各异的刀剑男士出战；每日游玩会被记录进「活动日志」，保留战斗记录与角色成长轨迹。2026-07-12 开放事前登录，9 月中旬事前登录人数已突破 40 万，官方随即加开 50 万档奖励（含稀有刀剑男士「三日月宗近（战斗服）」）。",
-      highlight: "【TGS2026 9/20】15:40 の「刀剣乱舞ONLINE×ぱずぎり」合同主舞台で配信日が 2026-09-24 に確定、事前登録は 50 万を突破。開始時点でメインストーリー第 3 章まで（桃太郎・一寸法師・浦島太郎）、刀剣男士 42 振が実装され、うち希少枠が 5 振（三日月宗近・歌仙兼定・一期一振・乱藤四郎・太郎太刀）。10-14 には第 2 章「一寸法師」着想の絵巻装束の追加実装が告知され、『刀剣乱舞ONLINE』連動キャンペーンでは新刀剣男士の引換券が 10-06 まで配布される。　【TGS2026 9/17】NHN PlayArt 展位（2 号馆）提供试玩，9/20 15:40 DMM GAMES 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），展位任务集章可换限定卡组。　《刀剑乱舞》IP 首次进入拼图品类，事前登录一个多月破 40 万，是本期女性向市场最大的单一新品。",
+      highlight: "【2026-09-24 配信開始】9 月 24 日、iOS／Android／PC（DMM GAMES PLAYER）版の配信が開始された。開始時点でメインストーリー第 3 章までと刀剣男士 42 振（うち希少枠 5 振）が実装され、10-14 には絵巻装束の追加実装が予定されている。　【TGS2026 9/20】15:40 の「刀剣乱舞ONLINE×ぱずぎり」合同主舞台で配信日が 2026-09-24 に確定、事前登録は 50 万を突破。開始時点でメインストーリー第 3 章まで（桃太郎・一寸法師・浦島太郎）、刀剣男士 42 振が実装され、うち希少枠が 5 振（三日月宗近・歌仙兼定・一期一振・乱藤四郎・太郎太刀）。10-14 には第 2 章「一寸法師」着想の絵巻装束の追加実装が告知され、『刀剣乱舞ONLINE』連動キャンペーンでは新刀剣男士の引換券が 10-06 まで配布される。　【TGS2026 9/17】NHN PlayArt 展位（2 号馆）提供试玩，9/20 15:40 DMM GAMES 主舞台举办特别舞台（鳥海浩輔・濱健人・田所陽向＋小坂崇氣／伊藤真和），展位任务集章可换限定卡组。　《刀剑乱舞》IP 首次进入拼图品类，事前登录一个多月破 40 万，是本期女性向市场最大的单一新品。",
       mobile: {
-        status: "事前登録受付中（2026-09-24 配信予定）",
+        status: "正式サービス中（2026-09-24 に iOS／Android／PC 版の配信を開始）",
         os: ["iOS", "Android"],
         monetization: "基本無料（アイテム課金あり）",
         preReg: {
-          open: true,
+          open: false,
           since: "2026-07-12",
-          reward: "累計登録者数に応じて段階配布。10万人：事前登録限定召喚券×10／宝玉×100、20万人：同×20／宝玉×200、30万人：同×30／宝玉×300／刀剣男士必中召喚券×1。40万人を突破したことで50万人档を追加し、達成時は事前登録専用召喚券×50／宝玉×500／必中刀剣男士召喚券×1／希少刀剣男士「三日月宗近（戦闘服）」×1を配布"
+          reward: "累計登録者数に応じて段階配布。10万人：事前登録限定召喚券×10／宝玉×100、20万人：同×20／宝玉×200、30万人：同×30／宝玉×300／刀剣男士必中召喚券×1。40万人を突破したことで50万人档を追加し、達成時は事前登録専用召喚券×50／宝玉×500／必中刀剣男士召喚券×1／希少刀剣男士「三日月宗近（戦闘服）」×1を配布。2026-09-24 の配信開始をもって受付を終了した"
         },
         developer: "NHNプレイアート株式会社（パズル部分の開発）／ 合同会社EXNOA（開発運営）",
         publisher: "合同会社EXNOA（DMM GAMES）",
@@ -372,7 +372,7 @@ window.OBSERVATORY = {
         cast: "三日月宗近 役：鳥海浩輔、陸奥守吉行 役：濱健人、二条貞宗 役：田所陽向（TGS2026 特別ステージ出演者の発表より）"
       },
       console: {
-        status: "2026年9月24日 配信予定（PC 版は DMM GAMES PLAYER 版／事前登録受付中）",
+        status: "2026-09-24 配信開始（配信中。PC 版は DMM GAMES PLAYER 版）",
         os: ["PC（DMM GAMES PLAYER 版）"],
         monetization: "基本無料（アイテム課金あり）。パッケージ販売はなし",
         developer: "NHNプレイアート株式会社（パズル部分の開発）／ 合同会社EXNOA（開発運営）",
@@ -6267,17 +6267,17 @@ window.OBSERVATORY = {
       companyJp: "コナミデジタルエンタテインメント",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-19（TGS2026 コナミ展台ステージで約 50 分の日本語音声先行プレイを披露）",
-      capturedAt: "2026-09-22",
+      announceDate: "2026-09-24（PlayStation 5／PC（Steam・Epic Games Store）版を発売）",
+      capturedAt: "2026-09-24",
       title: { jp: "SILENT HILL: Townfall", cn: "寂静岭 Townfall", en: "Silent Hill: Townfall" },
       genre: "一人称サイコロジカルホラー／サバイバルホラー",
       platforms: ["PlayStation 5", "PC"],
       release: "2026-09-24（PlayStation 5 / PC（Steam・Epic Games Store））",
-      releasePrecision: "日",
+      releasePrecision: "已发售",
       summary: "《寂静岭》系列全新作，也是系列首部全篇第一人称视角的作品。舞台是 1996 年浓雾笼罩的苏格兰孤岛圣阿梅莉亚（St. Amelia），主角赛门·奥戴尔被海浪冲上岛，追查与自己过去有关的谜团。系列标志性的收音机被便携式模拟电视装置「CRTV」取代——调整频率可发现潜藏的威胁、解读谜题线索、辨认环境中看不见的要素。战斗可在近战与射击间切换，但正面交战风险很高；另有储物间、衣柜等藏身处可用，也能用声响把怪物引开。赤色管道交织的异世界（Otherworld）延续系列的空间压迫感。开发由 Screen Burn Interactive 负责，KONAMI 与 Annapurna Interactive 共同发行，2026-09-24 发售，标准版 7,480 日元／豪华版 8,580 日元（豪华版可提前 48 小时解锁），日语配音于发售日首日更新实装。",
-      highlight: "【2026-09-22 デラックス先行アクセス開始】デラックスエディション購入者向けの 48 時間先行アクセスが 9/22 に始まった（PS5 は各地域の 0:00、PC は ET 0:00）。海外レビューも同時に解禁され、Metacritic の PS5 版は 81 点（レビュー 47 本）、PC Gamer は 89 点、Famitsu は 8/8/9/8 の 33 点。　【TGS2026 9/19】コナミ展台 14:30 の特別ステージにシリーズプロデューサー 岡本基 が登壇し、ホラー配信者 Gatchman が約 50 分の日本語音声先行プレイを披露。CRTV によるパズルと信号調整、近接／射撃の切り替え、物置やクローゼットに隠れるステルス、赤い配管の異世界が確認された。日本語吹き替えは サイモン：安元洋貴／ゾーイ：甲斐田裕子／リチャード：大塚明夫 の 3 名で、発売日の初日アップデートで適用される。　シリーズ初の全編一人称視点で、ラジオに代わる携帯型ブラウン管テレビ CRTV が探索と謎解きの中核。舞台の聖アメリアは実在のスコットランドの町をモデルにしており、1990 年代の実機材が仕掛けに使われている。",
+      highlight: "【2026-09-24 正式発売】9 月 24 日、PlayStation 5／PC（Steam・Epic Games Store）版が正式発売された。通常版 7,480 円／デラックスエディション 8,580 円で、デラックス購入者は 9/22 から 48 時間の先行アクセスを経ての一般発売となる。日本語吹き替えは発売日の初日アップデートで実装された。　【2026-09-22 デラックス先行アクセス開始】デラックスエディション購入者向けの 48 時間先行アクセスが 9/22 に始まった（PS5 は各地域の 0:00、PC は ET 0:00）。海外レビューも同時に解禁され、Metacritic の PS5 版は 81 点（レビュー 47 本）、PC Gamer は 89 点、Famitsu は 8/8/9/8 の 33 点。　【TGS2026 9/19】コナミ展台 14:30 の特別ステージにシリーズプロデューサー 岡本基 が登壇し、ホラー配信者 Gatchman が約 50 分の日本語音声先行プレイを披露。CRTV によるパズルと信号調整、近接／射撃の切り替え、物置やクローゼットに隠れるステルス、赤い配管の異世界が確認された。日本語吹き替えは サイモン：安元洋貴／ゾーイ：甲斐田裕子／リチャード：大塚明夫 の 3 名で、発売日の初日アップデートで適用される。　シリーズ初の全編一人称視点で、ラジオに代わる携帯型ブラウン管テレビ CRTV が探索と謎解きの中核。舞台の聖アメリアは実在のスコットランドの町をモデルにしており、1990 年代の実機材が仕掛けに使われている。",
       console: {
-        status: "2026年9月24日発売（PlayStation 5 / PC）。デラックスエディションは 2026-09-22 から 48 時間の先行アクセス中",
+        status: "2026-09-24 発売（発売中）。通常版 7,480 円／デラックスエディション 8,580 円",
         os: ["PlayStation 5", "Windows (Steam / Epic Games Store)"],
         monetization: "買い切り。通常版 7,480 円／デラックスエディション 8,580 円（税込）。デラックスは 48 時間の先行アクセス付き",
         developer: "Screen Burn Interactive",
@@ -6490,17 +6490,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社コーエーテクモゲームス（開発：ω-Force）",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-20（TGS2026 特設ステージ「Ask Sho-P」で体験版 09-24 配信とオンライン2人協力の無料アップデートを発表）",
-      capturedAt: "2026-09-21",
+      announceDate: "2026-09-24（TGS2026 で予告された体験版を Steam／PS5／Nintendo Switch 2／Xbox Series X|S 向けに配信開始）",
+      capturedAt: "2026-09-24",
       title: { jp: "真・三國無双3 Complete Edition Remastered", cn: "真·三国无双3 Complete Edition Remastered", en: "DYNASTY WARRIORS 3: Complete Edition Remastered" },
       genre: "タクティカルアクション（無双アクション／リマスター）",
       platforms: ["PlayStation 5", "Nintendo Switch 2", "Xbox Series X|S", "PC(Steam)"],
       release: "2026-10-01（体験版は 2026-09-24 配信）",
       releasePrecision: "日",
       summary: "KOEI TECMO GAMES 与 ω-Force 把 2001 年的《真·三国无双3》与其资料片《Xtreme Legends》合并成一部，用虚幻引擎 5 全面重建，2026 年 10 月 1 日登陆 PS5／Switch 2／Xbox Series X|S／Steam（标准版 39.99 美元）。9 月 20 日 TGS2026 特别舞台「Ask Sho-P」宣布两件事：体验版 9 月 24 日配信（Steam／PS5／Switch 2／Xbox），以及发售后以免费更新形式在 2027 年 1 月追加线上双人协力——发售时双人只支持本地分屏。重制保留原作的 1 vs 1,000 手感，追加回避动作、《Perfect Power Guard》与武器融合等新机制，可操作武将逾 40 名，并让最新作《无双 ORIGINS》的主角紫鸞（Ziluan）以客串武将身份参战。制作人庄知彦在同一舞台上回应系列未来：其他作品是否重制「取决于本作销量」，ω-Force 将于 2027 年迎来 30 周年，正在考虑纪念活动及《战国无双》《无双 OROCHI》的重启。",
-      highlight: "【TGS2026 9/20】「Ask Sho-P」特設ステージで体験版 09-24 配信（Steam／PS5／Switch 2／Xbox Series X|S）と、2027 年 1 月の無料アップデートによるオンライン2人協力の追加を発表。発売は 2026-10-01。　原作『真・三國無双3』は 2001 年発売で、シリーズ初の無双乱舞系アクション・2人同時プレイ・武将育成を導入し、初のミリオンセラーになった作品。本作は 2001 年版と『Xtreme Legends』を 1 本に統合し、Unreal Engine 5 で再構築した。発売時にオンライン対戦が無い点は TGS 期間中に明らかになり、2027 年 1 月の無料アップデートで補われる。",
+      highlight: "【2026-09-24 体験版配信開始】TGS2026 特設ステージ「Ask Sho-P」で予告された体験版が、Steam／PS5／Nintendo Switch 2／Xbox Series X|S 向けに配信開始された。発売は 2026-10-01、オンライン2人協力は 2027 年 1 月の無料アップデートで追加される。　【TGS2026 9/20】「Ask Sho-P」特設ステージで体験版 09-24 配信（Steam／PS5／Switch 2／Xbox Series X|S）と、2027 年 1 月の無料アップデートによるオンライン2人協力の追加を発表。発売は 2026-10-01。　原作『真・三國無双3』は 2001 年発売で、シリーズ初の無双乱舞系アクション・2人同時プレイ・武将育成を導入し、初のミリオンセラーになった作品。本作は 2001 年版と『Xtreme Legends』を 1 本に統合し、Unreal Engine 5 で再構築した。発売時にオンライン対戦が無い点は TGS 期間中に明らかになり、2027 年 1 月の無料アップデートで補われる。",
       console: {
-        status: "2026-10-01 発売予定（体験版は 2026-09-24 配信）",
+        status: "2026-10-01 発売予定（体験版は 2026-09-24 配信開始・配信中）",
         os: ["PlayStation 5", "Nintendo Switch 2", "Xbox Series X|S", "Windows (Steam)"],
         monetization: "買い切り。標準版 39.99 ドル、デジタルデラックス版あり。オンライン2人協力は 2027 年 1 月の無料アップデートで追加",
         developer: "コーエーテクモゲームス（ω-Force）",
@@ -6547,17 +6547,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社アークシステムワークス（共同開発：UnitePlus）",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-20（公式ゲームプレイトレーラーが公開され、戦闘システムの詳細が明らかになった）",
-      capturedAt: "2026-09-21",
+      announceDate: "2026-09-24（PlayStation 5／Nintendo Switch／PC（Steam・Epic Games Store）版を発売）",
+      capturedAt: "2026-09-24",
       title: { jp: "神貌之樹逆カバラ（Qliphah in Providence's Shadow）", cn: "神貌之树逆卡巴拉", en: "Qliphah in Providence's Shadow" },
       genre: "タクティカルカウンター・タイムライン RPG",
       platforms: ["PlayStation 5", "Nintendo Switch", "PC(Steam)", "Epic Games Store"],
       release: "2026-09-24",
-      releasePrecision: "日",
+      releasePrecision: "已发售",
       summary: "Arc System Works 与 UnitePlus 共同开发的原创新作，自称「战术反击时间线 RPG」，2026 年 9 月 24 日登陆 PS5／Nintendo Switch／PC（Steam・Epic Games Store）。舞台是遭「世界崩落」侵蚀的东京——现实被名为「怪异」的异形啃食，送货打工的青年星啮苍真在途中遭袭，变成人与怪异融合的「半成体」，被警视厅公安部外事第五课（通称公安变异对应课）调查官绯月零那当作「拾得物」收容，两人自此共同追查街头蔓延的魔药「Tiny True」、侵蚀身体的纹样「圣痕」与暗中活动的神秘教团。战斗并非动作玩法而是指令制：画面中央左右对称延伸的时间线会预告敌我技能的发动时机与类型，把同色技能叠在敌方技能上即触发反击；难度升高后敌方会使用单次反击无法化解的多层攻击，必须切换双主角并动用支援技能。反击成功可击飞杂兵、削减敌人的 Down 量表，在其倒地窗口内堆暴击并以「秘奥义」收尾。曾执导《CRYMACHINA》的平尾泰博担任游戏设计与导演，角色插画由 Rorua 负责，全语音。",
-      highlight: "【2026-09-20 新情報】公式のゲームプレイトレーラーが公開され、戦闘システムの詳細が明らかになった。画面中央の左右対称なタイムラインが敵味方の技の発動タイミングと種類を示し、同色のカウンター技を重ねることで反撃が成立する。ダウンゲージを持つ敵を転倒させ、クリティカルを積んで「秘奥義」で締める流れが基本。　発売は 2026-09-24（PS5／Nintendo Switch／PC）。",
+      highlight: "【2026-09-24 発売】PlayStation 5／Nintendo Switch／PC（Steam・Epic Games Store）版が発売された。時間線（タイムライン）上で同色のカウンター技を重ねて反撃する「タクティカルカウンター・タイムライン」戦闘が中核で、ダウンゲージを持つ敵を転倒させて「秘奥義」で締める流れ。　【2026-09-20 新情報】公式のゲームプレイトレーラーが公開され、戦闘システムの詳細が明らかになった。画面中央の左右対称なタイムラインが敵味方の技の発動タイミングと種類を示し、同色のカウンター技を重ねることで反撃が成立する。ダウンゲージを持つ敵を転倒させ、クリティカルを積んで「秘奥義」で締める流れが基本。　発売は 2026-09-24（PS5／Nintendo Switch／PC）。",
       console: {
-        status: "2026-09-24 発売予定",
+        status: "2026-09-24 発売（発売中）",
         os: ["PlayStation 5", "Nintendo Switch", "Windows (Steam / Epic Games Store)"],
         monetization: "買い切り。Steam 中国地域の予約価格は 125 元、PS5 繁体字版は 198 香港ドル。早期購入特典として主人公 2 名の追加スキンと「Extra Battle: Voidfall」が付属（Voidfall は後日別売予定）",
         developer: "アークシステムワークス × UnitePlus（UNIT+PLUS）",
@@ -7304,7 +7304,185 @@ window.OBSERVATORY = {
         synopsis: "TV アニメ『東京リベンジャーズ』を原作に、主人公・花垣武道のタイムリープを軸として不良たちの勢力争いを描く。原作の「8・3抗争編」「血のハロウィン編」「聖夜決戦編」「天竺編」を章立てで収録しつつ、キャラクターの日常を描くオリジナルエピソードも用意される。プレイヤーは武道の視点で各勢力の物語をたどり、チームを組み替えながら抗争の行方を追う。",
         cast: "花垣武道：新祐樹／橘日向：和氣あず未／橘直人：逢坂良太／佐野万次郎：林勇／龍宮寺堅：福西勝也／場地圭介：水中雅章／松野千冬：狩野翔／三ツ谷隆：松岡禎丞／柴八戒：畠中祐／稀咲鉄太：森久保祥太郎／半間修二：江口拓也／黒川イザナ：島﨑信長／柴大寿：杉田智和／灰谷蘭：浪川大輔 ほか（アニメ版キャストが続投）"
       }
-    }
+    },
+    {
+      id: "apothecary-diaries-false-imperial-brother",
+      company: "TOHO Games ／ Koei Tecmo Games",
+      companyJp: "東宝株式会社（TOHO Games）／ 株式会社コーエーテクモゲームス（ブランド：ガスト）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-10（東宝 TOHO Games とコーエーテクモゲームスが共同で公式発表。Nintendo Direct でも映像が公開され、PV 第 1 弾も同日公開）",
+      capturedAt: "2026-09-24",
+      title: { jp: "薬屋のひとりごと ～偽りの皇弟～", cn: "药屋少女的呢喃 ～真假皇弟～", en: "The Apothecary Diaries: The False Imperial Brother" },
+      genre: "宮廷ミステリーアドベンチャー（探索・調合・推理）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PC(Steam)"],
+      release: "2027 年初頭（Nintendo Switch 2／Nintendo Switch／PlayStation 5／Steam）",
+      releasePrecision: "季",
+      summary: "东宝 TOHO Games 与 KOEI TECMO GAMES 旗下 GUST 品牌共同推出的电视动画《药屋少女的呢喃》首款家用主机游戏，2027 年初登陆 Switch 2／Switch／PS5／Steam，单机游玩。本作由原作者日向夏亲自担任原案，写完全原创的新故事：后宫接连发生「五大谜团」、都中又流传「五重诅咒」，花街出身的药师猫猫在调查途中目击到「蒙面的皇弟」，事件最后牵出被埋葬的禁断历史。玩法由「探索、取证、调合、梳理案情、推理」五个环节组成——在山野采集药材、向证人打听换取情报、按素材种类与品质调合出不同药效的药品，再在推理环节出示并组合证据推进案情；答错会拉低「信赖度」，降到谷底案件可能变成悬案。企划由东宝方面提出，制作人为东宝的大西孝幸与 GUST 品牌长细井顺三，总监为滝波朱理。",
+      highlight: "【2026-09-10 正式発表】東宝のゲームブランド TOHO Games とコーエーテクモゲームス（ガスト）が共同で、テレビアニメ『薬屋のひとりごと』初のコンシューマーゲーム化を発表した。2027 年初頭に Nintendo Switch 2／Nintendo Switch／PlayStation 5／Steam で発売予定で、ジャンルは宮廷推理アドベンチャー。原作者 日向夏 が原案を手掛ける完全新作ストーリー。　TOHO Games にとっては『ハイキュー!!』に続く自社ブランド作品で、同社が初めてコンシューマーゲーム事業に本格参入する一作にあたる。開発は『アトリエ』シリーズを手掛けるガストが担当し、当初は東宝側から「猫猫のアトリエ」として持ち込まれた企画だったことが TGS2026 のインタビューで明かされている。",
+      console: {
+        status: "2027 年初頭発売予定（Nintendo Switch 2／Nintendo Switch／PlayStation 5／Steam）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Windows (Steam)"],
+        monetization: "買い切り（価格・エディションは未発表）",
+        developer: "コーエーテクモゲームス（ガストブランド）",
+        publisher: "コーエーテクモゲームス ／ 東宝株式会社（TOHO Games・企画製作）",
+        region: "日本／世界同時（Nintendo eShop での世界展開が告知されている）",
+        distribution: "パッケージ版およびダウンロード版（Nintendo eShop／PlayStation Store／Steam）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        preOrder: "未開始（発売時期のみ告知。CERO 審査中）",
+        features: [
+          "原作者 日向夏 原案の完全新作オリジナルストーリー。テレビアニメ『薬屋のひとりごと』初のコンシューマーゲーム化",
+          "「探索・証拠集め・調合・推理・事件解決」の 5 要素で構成される宮廷ミステリーアドベンチャー",
+          "後宮と花街、都を歩いて聞き込みと証拠集めを行い、得た情報が猫猫の手記に蓄積されて関係図になっていく",
+          "採取した素材の種類と品質が調合ミニゲームの難易度と薬の効果に影響し、薬は道具・証拠・交渉材料として使える",
+          "推理パートでは証拠の提示と組み合わせが求められ、誤答を重ねると「信頼度」が下がって事件が未解決に終わる可能性がある",
+          "1 人プレイ専用。CERO 審査中"
+        ],
+        synopsis: "花街の薬師 猫猫（マオマオ）が後宮の侍女として働き始めた頃、後宮では「五つの謎」と呼ばれる怪異が相次ぎ、都では子の一族の反乱が収束した直後に「五つの呪」の噂が広がる。里帰りの途中で旅役者 冠宇（ガンユウ）と出会った猫猫は、やがて事件現場で「覆面姿の皇弟」を目撃する。壬氏（ジンシ）は関与を否定するが、覆面の皇弟を支持する謎の集団が現れ、都は混迷を極めていく。",
+        ipSource: "日向夏『薬屋のひとりごと』（ヒーロー文庫／イマジカインフォス。小学館「月刊ビッグガンガン」でコミカライズ、テレビアニメは TOHO animation 製作）。本作は原作者 日向夏 が原案を担当する完全新作ストーリー",
+        series: "テレビアニメは第 1 期（2023 年）／第 2 期（2025 年）が放送され、第 3 期が 2026-10-02 に放送開始、劇場版が 2026-12-11 に公開予定。家庭用ゲーム化は本作が初で、TOHO Games のコンシューマーゲーム事業参入作でもある",
+        cast: "公式発表なし（猫猫・壬氏・冠宇 の 3 名のキャラクターページが公開されているが、ゲーム版の声優は未公表）"
+      },
+      news: [
+        { source: "公式サイト（コーエーテクモゲームス『薬屋のひとりごと ～偽りの皇弟～』）", url: "https://www.gamecity.ne.jp/kusuriyanohitorigoto/jp/" },
+        { source: "東宝 公式プレスリリース（TOHO Games のコンシューマーゲーム事業参入と発売時期・対応機種）", url: "https://www.toho.co.jp/en/company/2026/0910en-pr-1.pdf" },
+        { source: "Nintendo News Hub（発表内容・世界同時展開・探索と推理のゲーム内容）", url: "https://www.nintendonewshub.com/news/the-apothecary-diaries-the-false-imperial-brother-announced-nintendo-insider" },
+        { source: "Quest Board.JP（発表の経緯と実機映像の内容・探索と調合のシステム）", url: "https://quest-board.jp/en/quests/buzz-34657ba34bf7f9ef6eea29b0-20260918" },
+        { source: "GoNintendo（開発経緯：東宝側が「猫猫のアトリエ」としてガストに持ち込んだ企画）", url: "https://gonintendo.com/contents/65295-the-apothecary-diaries-the-false-imperial-brother-was-pitched-as-atelier-maomao-to" }
+      ],
+      videos: [
+        { label: "公式 PV 第 1 弾（コーエーテクモゲームス 公式サイトの映像ページ）", platform: "官方站", url: "https://www.gamecity.ne.jp/kusuriyanohitorigoto/jp/videos/" },
+        { label: "発表内容と実機映像の特集（花摘みの探索・薬草の見分け・証拠集め）", platform: "媒体", url: "https://quest-board.jp/en/quests/buzz-34657ba34bf7f9ef6eea29b0-20260918" }
+      ],
+      hype: {
+        score: 66,
+        signals: [
+          "原作はテレビアニメ第 3 期が 2026-10-02 放送開始、劇場版が 2026-12-11 公開予定と、ゲーム発売前から IP の露出が続く",
+          "IP ホルダー直営ブランド TOHO Games と『アトリエ』シリーズのガストの組み合わせで、発表直後から日英中の媒体が一斉に報じた",
+          "Nintendo Direct 枠で発表され、国内の女性向け・ライト層まで届く露出枠が確保されている",
+          "発売は 2027 年初頭で、価格・予約・声優などの具体情報は未発表のため、事前登録などの数値シグナルは存在しない"
+        ]
+      },
+      tags: ["主机", "推理ADV", "IP改编", "コーエーテクモ", "东宝", "TOHO Games", "新作発表"]
+    },
+    {
+      id: "gobble",
+      company: "Nippon Ichi Software",
+      companyJp: "株式会社日本一ソフトウェア",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-24（日本国内で発売。Nintendo Switch 2／Nintendo Switch／PlayStation 5／Steam）",
+      capturedAt: "2026-09-24",
+      title: { jp: "GOBBLE（ガブル）", cn: "GOBBLE", en: "GOBBLE" },
+      genre: "横スクロールアクション",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PC(Steam)"],
+      release: "2026-09-24（日本。Nintendo Switch 2／Nintendo Switch／PlayStation 5／Steam）",
+      releasePrecision: "已发售",
+      summary: "日本一ソフトウェア自社企划的横版动作新作，2026 年 9 月 24 日在日本发售（Switch 2／Switch／PS5／Steam）。企划出自该公司内部的提案制度「Project Pitch Fest」——曾孕育《夜廻》《说谎公主与盲眼王子》的同一机制。世界观设定在传说中勇者曾消灭魔王与全部怪物的世界，农家少年 Rute 长大后又遇上怪物重现，走投无路时被一只自称最强的鸟形怪物卡麦尔（Kamael）盯上：「用我吧」。玩法核心是「捕食（Predation）」：击倒怪物后由其吞食，取得火焰、冰霜、喷射、植物等「特性」，随时切换用于战斗与解谜；捕食量会累积成生命值，另有钩爪跳跃可借藤蔓弹跳到常规跳跃到不了的位置。开发负责人与角色设计为铃木萌，音乐由高须和也与 a_hisa 负责。数字版 3,980 日元（含税）。",
+      highlight: "【2026-09-24 日本国内で発売】日本一ソフトウェアの横スクロールアクション『GOBBLE（ガブル）』が、Nintendo Switch 2／Nintendo Switch／PlayStation 5／Steam 向けに本日発売された。ダウンロード版は 3,980 円（税込）。社内提案制度「Project Pitch Fest」（『夜廻』『嘘つき姫と盲目王子』を生んだ企画枠）から立ち上がった完全新作で、開発責任者・キャラクターデザインは 鈴木萌、音楽は 高須和也 と a_hisa が担当する。　倒した怪物を捕食して能力を得る「プレデーション」を軸に、カートゥーン調の作画とオノマトペ・コミック表現を組み合わせた横スクロールアクション。体験版は 2026-07-02 から Switch 2／PS5／Switch 向けに配信されていた。",
+      console: {
+        status: "2026-09-24 発売（発売中）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Windows (Steam)"],
+        monetization: "買い切り。ダウンロード版 3,618 円（税込 3,980 円）／パッケージ通常版 7,200 円（税込 7,920 円）。日本一ソフトウェア公式ショップ限定版（特製 BOX・サウンドトラック CD・アートブック・ラバーキーホルダー・トラベルステッカー 3 種・ゆれるアクリルスタンド・缶バッジ 2 種）は 9,000 円（税込 9,900 円）",
+        developer: "日本一ソフトウェア（開発責任者・キャラクターデザイン：鈴木萌）",
+        publisher: "日本一ソフトウェア",
+        region: "日本（発売当初の対応言語は日本語・韓国語・中国語。北米・欧州版は 2027 年予定）",
+        distribution: "パッケージ版およびダウンロード版（Nintendo eShop／PlayStation Store／Steam）。日本一ソフトウェア公式通販でも取り扱い",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        preOrder: "発売済み。店舗ごとに異なる予約特典が用意された",
+        features: [
+          "倒した怪物を捕食して「特性」を獲得するプレデーションが戦闘と探索の中心。フレイム／フロスト／ジェット／プラントなどを場面に応じて切り替える",
+          "捕食で得た能力を使い分けて先へ進む構成に加え、蔓状のポイントに噛みついて跳ね返る「フックジャンプ」で通常のジャンプでは届かない場所へ移動できる",
+          "カートゥーン調の誇張された作画と豊かな表情で、暗い世界観を軽やかに見せる演出",
+          "走る・跳ぶなどの動作や環境音にオノマトペが重なるコミック風の画面演出と、要所に挿入されるコミックパネル",
+          "捕食した数が「プレデーションハート」としてライフに直結し、どの怪物を捕食するかが攻略の判断になる",
+          "1 人プレイ専用。対応 4 機種すべてで同時発売"
+        ],
+        synopsis: "昔々、悪しき魔王に率いられた怪物たちが世界を脅かしたが、ひとりの勇者が魔王を倒すと怪物はすべて消え去った――。その伝説を聞いて育った少年 ルゥト は、絶滅したはずの怪物が再び現れた世界で窮地に陥る。そこに現れた鳥のような怪物 カマエル は「俺を使え」と持ちかける。怪物を捕食してその能力を得るカマエルに振り回されながら、ルゥトは行方不明の家族を探す旅に出る。",
+        ipSource: "完全新作（オリジナル IP）。既存のアニメ・漫画・小説のゲーム化ではなく、日本一ソフトウェアが新規に立ち上げた企画",
+        series: "日本一ソフトウェアの社内提案制度「Project Pitch Fest」から生まれた企画で、同制度からは『夜廻』『嘘つき姫と盲目王子』などが生まれている。同社は『魔界戦記ディスガイア』『ほの暮しの庭』など RPG 中心のラインナップから、横スクロールアクションへ領域を広げる一作にあたる",
+        cast: "公式発表なし（主要人物は主人公 ルゥト と怪物 カマエル の 2 名）"
+      },
+      news: [
+        { source: "公式サイト（日本一ソフトウェア『GOBBLE』）", url: "https://nippon1.jp/consumer/gobble/" },
+        { source: "公式 購入ガイド（対応機種・価格・発売日・開発責任者）", url: "https://nippon1.jp/consumer/gobble/product.html" },
+        { source: "Anime News Network（2026-03-11 の「日本一ソフトウェア UNTITLED//」生放送での発表と発売日）", url: "https://moeka.animenewsnetwork.com/news/2026-03-11/nippon-ichi-software-to-debut-gobble-side-scrolling-game-on-september-24/.235178" },
+        { source: "Overcentral（Project Pitch Fest からの成り立ちとプレデーションの仕組み）", url: "https://overcentral.com/en/nippon-ichi-announces-gobble-2d-action-game-with-monster-devouring-mechanics" },
+        { source: "Slanted Game（仕様・価格・キャラクター・捕食システムの詳細）", url: "https://slantedgame.com/nippon-ichi-software-announces-gobble-on-ps5-switch-switch-2-pc" }
+      ],
+      videos: [
+        { label: "公式サイト（デビュートレーラー・メイン PV を掲載）", platform: "官方站", url: "https://nippon1.jp/consumer/gobble/" },
+        { label: "発表内容と実機映像の報道（捕食・フックジャンプ・オノマトペ演出）", platform: "媒体", url: "https://slantedgame.com/nippon-ichi-software-announces-gobble-on-ps5-switch-switch-2-pc" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "体験版が 2026-07-02 から Switch 2／PS5／Switch 向けに配信され、発売前に遊べる状態が約 2 か月半続いた",
+          "『魔界戦記ディスガイア』で知られる日本一ソフトウェアの完全新作で、社内提案制度から生まれた企画として国内メディアに取り上げられた",
+          "発売当日の時点で日英の媒体露出は限定的で、事前登録などの数値シグナルは存在しない",
+          "対応機種が Switch 2／Switch／PS5／Steam と広く、北米・欧州版は 2027 年に展開予定"
+        ]
+      },
+      tags: ["主机", "横スクロールACT", "日本一ソフトウェア", "新作発表", "オリジナルIP", "アクション"]
+    },
+    {
+      id: "dragon-quest-xi-s-switch-2",
+      company: "Square Enix",
+      companyJp: "株式会社スクウェア・エニックス",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-24（Nintendo Switch 2 版を発売）",
+      capturedAt: "2026-09-24",
+      title: { jp: "ドラゴンクエストXI 過ぎ去りし時を求めて S", cn: "勇者斗恶龙XI S 寻觅逝去的时光", en: "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition" },
+      genre: "RPG（コマンド選択式のターン制バトル）",
+      platforms: ["Nintendo Switch 2"],
+      release: "2026-09-24（Nintendo Switch 2 版）",
+      releasePrecision: "已发售",
+      summary: "SQUARE ENIX 把 2019 年的《勇者斗恶龙XI S 寻觅逝去的时光》移植到 Nintendo Switch 2，2026 年 9 月 24 日发售，实体版与下载版同为 5,478 日元（含税），实体版附特制外封套。Switch 2 版完整保留 S 版内容——可为各角色单独推进的追加故事、日英双语语音切换、3D／2D 模式切换、管弦乐音源——并新增「画质优先模式」与「帧数优先模式」两种显示选项，让玩家自行取舍分辨率与帧率。需注意存档不互通：Switch 版与 Switch 2 版的存档无法互相继承（官方已就更正前的错误说明致歉）。本作是系列第 11 作正统续作的加强版移植——原作 2017 年在家用主机推出，S 版为 2019 年的 Switch 加强版，这次是该加强版首次登上 Switch 2。",
+      highlight: "【2026-09-24 発売】『ドラゴンクエストXI 過ぎ去りし時を求めて S』の Nintendo Switch 2 版が本日発売された。パッケージ版・ダウンロード版とも 5,478 円（税込）で、パッケージ版には特製スリーブが付属する。　収録内容は 2019 年の Nintendo Switch 版『XI S』と同一で、各キャラクターを主人公にした追加シナリオ、日英音声の切り替え、3D／2D モードの切り替え、オーケストラ音源を含む。Switch 2 版では新たに「解像度優先モード」と「パフォーマンス優先モード」が選べるようになった。なお Switch 版と Switch 2 版のセーブデータには互換性がなく、公式が訂正のうえ注意を呼びかけている。",
+      console: {
+        status: "2026-09-24 発売（発売中）",
+        os: ["Nintendo Switch 2"],
+        monetization: "買い切り。パッケージ版・ダウンロード版とも 5,478 円（税込）。パッケージ版は特製スリーブ付き",
+        developer: "スクウェア・エニックス",
+        publisher: "スクウェア・エニックス",
+        region: "日本／北米・欧州・アジア（Nintendo Switch 2 専用ソフト。Nintendo Switch 版とは別商品）",
+        distribution: "パッケージ版およびダウンロード版（Nintendo eShop）。北米・欧州・アジア版も同時展開（アジア版はゲームキーカード）",
+        stores: ["Nintendo eShop"],
+        preOrder: "発売済み",
+        features: [
+          "2019 年の Nintendo Switch 版『ドラゴンクエストXI S』の収録内容をそのまま Nintendo Switch 2 向けに移植した「Nintendo Switch 2 Edition」",
+          "各キャラクターを主人公にした追加シナリオ、日英音声の切り替え、3D／2D モードの切り替え、オーケストラ音源を収録",
+          "Switch 2 版では「解像度優先モード」と「パフォーマンス優先モード」の 2 種類の描画設定を新たに追加",
+          "Nintendo Switch 2 専用ソフトで Nintendo Switch では動作せず、セーブデータの互換性もない",
+          "初回特典としてトロダン王国セット・野ブタセット・ハッピーアドベンチャーセット（きせきのしずく 5 個・スキルのたね 5 個）を同梱"
+        ],
+        synopsis: "田舎町で育った青年が主人公。自分自身の出生にまつわる大きな秘密と、世界を覆う災厄の真相に迫る王道の RPG。パーティメンバーそれぞれを主人公に据えた追加シナリオや、過去作の世界をめぐる 2D モードも収録されている。",
+        ipSource: "『ドラゴンクエスト』シリーズ（©ARMOR PROJECT/BIRD STUDIO/SQUARE ENIX）。本作はシリーズ第 11 作『ドラゴンクエストXI 過ぎ去りし時を求めて』の追加要素版『XI S』の移植",
+        series: "『ドラゴンクエスト』シリーズ第 11 作の正統続編（2017 年発売）。2019 年に追加要素を収録した Nintendo Switch 版『XI S』が発売され、本作はその Nintendo Switch 2 版にあたる",
+        cast: "公式発表なし（Nintendo Switch 版からのキャスト続投。日本語音声と英語音声を切り替え可能）"
+      },
+      news: [
+        { source: "Nintendo eShop（Nintendo Switch 2 版 商品ページ・発売日・容量・対応言語）", url: "https://ec.nintendo.com/US/en/titles/70010000097770" },
+        { source: "SQUARE ENIX ストア（商品情報・発売日・同梱内容）", url: "https://na.store.square-enix-games.com/dragon-quest_-xi_-s_-echoes-of-an-elusive-age---definitive-edition---switch-2" },
+        { source: "SQUARE ENIX アジア ニュースポータル（収録内容と Switch 2 版の新モード）", url: "https://www.square-enix.com/asia/newsportal/zh-CHT/hk/dqxis" },
+        { source: "媒体まとめ（今週の日本発の新作発売一覧に Switch 2 版が掲載）", url: "https://theboldnews.com/this-weeks-japanese-game-releases-silent-hill-townfall-gobble-more/" }
+      ],
+      videos: [
+        { label: "Nintendo eShop 商品ページ（紹介映像とスクリーンショット）", platform: "商店页", url: "https://ec.nintendo.com/US/en/titles/70010000097770" },
+        { label: "収録内容の報道（3D／2D 切り替え・2 つの描画モード）", platform: "媒体", url: "https://www.square-enix.com/asia/newsportal/zh-CHT/hk/dqxis" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "『ドラゴンクエストXI』は国内でシリーズ屈指の販売規模を記録した第 11 作の正統続編で、S 版はその完全版にあたる",
+          "Nintendo Switch 2 の普及初期に投入される移植作で、新規要素は描画モードの追加にとどまる",
+          "発売週には『SILENT HILL: Townfall』『GOBBLE』『神貌之樹逆カバラ』など日方主導作が集中し、露出は分散している",
+          "日本の新作発売一覧でも今週の主要タイトルの 1 本として扱われ、日英の媒体が発売日を報じている"
+        ]
+      },
+      tags: ["主机", "RPG", "Square Enix", "移植", "已发售"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -7313,7 +7491,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-22",
+    asOf: "2026-09-24",
     listTotal: 50,
     categories: [
       {
@@ -7325,10 +7503,10 @@ window.OBSERVATORY = {
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定し、本体側も covered へ", gameIds: ["persona-6", "persona-4-revival", "stranger-than-heaven", "crazy-taxi-world-tour"] },
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit"] },
-          { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united"] },
+          { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct で『ロックマン デュアルオーバーライド』の 2027 年春発売が確定、9/1 には『ドラゴンズドグマ 2 ダークアリズン』の遺物遠征サイクルを公開した" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
-          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou", "sophiechat-ai", "dynasty-warriors-3-complete-edition-remastered"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表）" },
+          { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou", "sophiechat-ai", "dynasty-warriors-3-complete-edition-remastered", "apothecary-diaries-false-imperial-brother"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表。9/10 には東宝 TOHO Games と共同で『薬屋のひとりごと ～偽りの皇弟～』（開発：ガスト／2027 年初頭、Switch 2・Switch・PS5・Steam）を発表した）" },
         ]
       },
       {
@@ -7339,7 +7517,7 @@ window.OBSERVATORY = {
           { name: "株式会社アトラス", short: "ATLUS", status: "covered", gameIds: ["persona-6", "persona-4-revival"] },
           { name: "株式会社フロム・ソフトウェア", short: "FromSoftware", status: "covered", gameIds: ["the-duskbloods"] },
           { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam", "layton-curious-village-remake", "yokai-watch-2-hadou", "inazuma-eleven-bold-revolution", "holy-horror-mansion", "decapolice", "snack-world-reloaded", "puchipoyon-fantasy-world", "inazuma-eleven-cross"], note: "9/10「LEVEL5 VISION 2026 II 夢」一次公布 10 个标题，本台为其建卡 8 件（主机/PC 6＋手游 2）" },
-          { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。《GOBBLE》(9/24) 尚未建卡" },
+          { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa", "gobble"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。社内提案制度「Project Pitch Fest」から生まれた横スクロールアクション『GOBBLE（ガブル）』を 2026-09-24 に発売した" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "covered", gameIds: ["danganronpa-2x2"] },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
           { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball","hakuoki-shinkai-kiwame","kimi-wa-yukima-koimusubi","shinso-no-doppelt","velvet-candy-tint-kiss","genroh-switch"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中（9/13 の Otomate Party 2026 で『薄桜鬼 真改 極』『深窓のドッペルト』『VELVET CANDY TINT KISS』『君は雪間に希う -恋結び-』『源狼 GENROH』の 5 作を追加発表し、本台も同日付で 5 件を建卡）" },
@@ -7408,7 +7586,7 @@ window.OBSERVATORY = {
         { name: "株式会社KMS（K3 Studio）", short: "KMS", status: "covered", gameIds: ["alchemist-portmasters"] },
         { name: "株式会社Rudel", short: "Rudel", status: "covered", gameIds: ["sakamoto-days-rogue-dawn"] },
         { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["touken-ranbu-pazugiri", "over-rush", "puchipoyon-fantasy-world"], note: "TGS2026 に8年ぶり出展し新作3本を同時公開。『幻想世界のぷちぽよん』は LEVEL-5 との共同タイトル、『刀剣乱舞 ぱずぎり』はパズル部分の開発を担当" },
-        { name: "TOHO Games（東宝株式会社）", short: "TOHO Games", status: "covered", gameIds: ["haikyu-all-challengers"], focus: true, note: "动画『ハイキュー!!』のIP保有元が自らゲーム事業ブランドを運営。IP ホルダー直営のため監修業務と直結" },
+        { name: "TOHO Games（東宝株式会社）", short: "TOHO Games", status: "covered", gameIds: ["haikyu-all-challengers", "apothecary-diaries-false-imperial-brother"], focus: true, note: "动画『ハイキュー!!』のIP保有元が自らゲーム事業ブランドを運営。IP ホルダー直営のため監修業務と直結。9/10 にはコーエーテクモゲームス（ガスト）と共同でテレビアニメ『薬屋のひとりごと』初の家庭用ゲーム『薬屋のひとりごと ～偽りの皇弟～』（2027 年初頭、Switch 2・Switch・PS5・Steam）を発表し、自社ブランド初のコンシューマーゲーム事業参入となる" },
         { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
         { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["hololive-dreams", "holovillage-our-cozy-days"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発" },
         { name: "株式会社QualiArts", short: "QualiArts", status: "covered", gameIds: ["hololive-dreams"], note: "サイバーエージェント連結子会社。『hololive Dreams』の開発・配信元" },
@@ -7500,15 +7678,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 展後 4 場目（09-23 19:00 場）。9 月 23 日、日本国内で新規発表されたスマートフォンゲームは確認されなかったが、漏収核查で日方主導の在営スマホ作 1 件（『東京リベンジャーズ UNLIMITED』）を見つけて補収した。条目総数 134 → 135（手游区 33 → 34／主机・PC 区 110 で不変）",
+    headline: "TGS2026 展後 5 場目（09-24 09:00 場）。9 月 24 日、日方主導の新作が一斉に発売・配信開始された日で、主机・PC 側の漏収補収 1 件を含む新規 3 件を収録し、配信・発売を迎えた既存 5 件を更新した。条目総数 135 → 138（手游区 34 で不変／主机・PC 区 110 → 113）",
     points: [
-      "**手游侧（本場の主な増分）**：新規発表はゼロだったが、漏収核查で日方主導の在営スマホ作を 1 件補収した。『東京リベンジャーズ UNLIMITED』（企画・配信 株式会社グッドスマイルカンパニー／開発・運営 株式会社f4samurai、iOS・Android）。2026-02-26 のサービス開始で作品本体は窗口左端より前のため bucket は update（在営作品の進展）とし、9/17 のメインシナリオ「聖夜決戦編」第 3 章追加と Dragon Ash タイアップ楽曲のゲーム内実装を窗口内の重要進展として収録した。",
-      "**手游侧（既存作の更新）**：『BanG Dream! Our Notes』が 9/22、グローバルサーバー正式サービス開始（9/24）を記念して Ave Mujica によるレディー・ガガ「Abracadabra」カバーのティザー MV を公開。楽曲と本編 MV はグローバル版のゲーム内で先行解禁される。同作は 9/22 から事前ダウンロードが進行中で、9/24 11:00（UTC+9）の世界同時配信を待つ段階にある。『Sanrio Kawaii Me Live!』は 9/21 の事前登録開始と 2027 年 1 月の世界配信が公式発表済みで、本場での追加情報はなかった。",
-      "**主机・PC 侧は本場も增量なし**：9/23 に日方主導の新作発売は確認されず、同日の発売組は海外スタジオの作品が中心だった。翌 9/24 には『SILENT HILL: Townfall』（コナミデジタルエンタテインメント、PS5／PC）、『刀剣乱舞 ぱずぎり』（合同会社EXNOA、iOS／Android／PC、事前登録 50 万突破）、『神貌之樹逆カバラ』（アークシステムワークス、PS5／Switch／PC）、Nintendo Switch 2 向け『ドラゴンクエストXI S』が並ぶ。",
-      "**漏収核查（IP・ブランド別に総当たり）**：チェンソーマン／呪術廻戦／東京リベンジャーズ／ブルーロック／BLEACH／ONE PIECE／ホロライブ／サンリオ／東宝 TOHO Games／集英社ゲームズを順に確認し、日方主導の漏収は上記 1 件（スマホ側）だった。『ブルーロック』は海外スタジオ側のゲームとのコラボ案件のみで日方主導の新作はなく、『ホロライブ』『サンリオ』はいずれも既収録作の運用情報にとどまった。『チェンソーマン』のスマホ新作は依然として開発元・発行元が未公表で資本帰属を判定できないため、从严のまま未収録を維持し次回以降に持ち越す。",
-      "**中资の新作は引き続き全面的に跳过**：本場で確認された中国資本の開発・発行による新作（スマホ向けの大型タイトルを含む）は、開発・発行の資本帰属の判定によりすべて不収録とした。作品名・社名とも本站のデータには一切記載していない。",
-      "**追加検証済みだが未収録としたもの**：9/23 に日本向け発売が確認された海外スタジオの新作、および日本企業が発行する小規模タイトル（家庭用向け・低露出）は、本場の增量区間と発売日の関係から見送り、次場以降に持ち越した。",
-      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50 で不変。extra は 34 家のまま、グッドスマイルカンパニー の gameIds に 1 件追加した。Famitsu 期待榜は次号（9/24 発売号）まで新一期がなく、mostWanted は 9/17 号（投票期間 9/2〜9/8）の内容を据え置いた。"
+      "**手游侧（本場の主な出来事）**：新規発表はゼロ。本日 9/24 11:00（UTC+9）に『BanG Dream! Our Notes』が予定どおり世界同時配信を開始し、合同会社EXNOA の『刀剣乱舞 ぱずぎり』も iOS／Android／PC（DMM GAMES PLAYER）で配信開始した。両作はいずれも作品本体が窗口内で開服したため、bucket は new を維持している。",
+      "**主机・PC 側（新規 2 件）**：①『薬屋のひとりごと ～偽りの皇弟～』（企画製作 東宝 TOHO Games／開発 コーエーテクモゲームス＝ガスト、2027 年初頭、Switch 2／Switch／PS5／PC）——漏収補収。テレビアニメ『薬屋のひとりごと』初の家庭用ゲーム化で、原作者 日向夏 が原案を担当する完全新作。TOHO Games にとって初のコンシューマーゲーム事業参入作にあたる。②『GOBBLE（ガブル）』（日本一ソフトウェア、2026-09-24 発売、Switch 2／Switch／PS5／PC）——社内提案制度「Project Pitch Fest」から生まれた横スクロールアクション。",
+      "**主机・PC 側（発売・配信を迎えた既存作）**：本日 9/24、『SILENT HILL: Townfall』（コナミデジタルエンタテインメント／Annapurna Interactive、PS5・PC）と『神貌之樹逆カバラ』（アークシステムワークス、PS5／Switch／PC）が正式発売された。『ドラゴンクエストXI S』の Nintendo Switch 2 版（スクウェア・エニックス、5,478 円）は本体が窗口外のため bucket update で新規収録し、『真・三國無双3 Complete Edition Remastered』は 9/24 に体験版の配信を開始して 10-01 の発売を待つ。",
+      "**漏収核查（IP 総当たり）**：直近の主力アニメ IP（薬屋のひとりごと／ハイキュー!!／呪術廻戦／刀剣乱舞／チェンソーマン／ONE PIECE）と IP ホルダー直営ブランド（TOHO Games・東映ゲームス・Sanrio Games・集英社ゲームズ）を順に確認し、主机・PC 側で 1 件（薬屋のひとりごと）、スマホ側で 0 件の漏収を検出した。『チェンソーマン』のスマホ新作は依然として開発・発行元が未公表で資本帰属を判定できないため、从严のまま未収録を維持し次回以降に持ち越す。",
+      "**中资の新作は引き続き全面的に跳过**：本場で確認された中国資本の開発・発行による新作（スマホ向け大型タイトルを含む）はすべて不収録とした。作品名・社名とも本站のデータには一切記載していない。",
+      "**検証のうえ未収録としたもの**：日方の参加・発行が確認できない海外スタジオ発行作、国内企業が発行するファミコン復刻系、同人・インディーの小規模作は、日方主導性の判定により見送り、次場以降に持ち越した。",
+      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50、extra 34 家でいずれも不変。gameIds はコーエーテクモゲームス（薬屋のひとりごと）／スクウェア・エニックス（DQ XI S Switch 2 版）／日本一ソフトウェア（GOBBLE）／TOHO Games（薬屋のひとりごと）を更新し、companies.asOf を 2026-09-24 に進めた。Famitsu 期待榜は新一期を確認できなかったため mostWanted は据え置き（asOf 2026-09-21 の 9/17 号）。"
     ]
   },
 };
