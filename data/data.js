@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-25T18:45:00+08:00",
+    updatedAt: "2026-09-25T19:30:00+08:00",
     edition: "2026-09-25",
     window: "2026-07-25 ~ 2026-09-25（滚动最近 2 个月）",
     sources: [
@@ -2364,47 +2364,52 @@ window.OBSERVATORY = {
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-16（DQ 系列全世界累計 1 億本突破を発表）",
-      capturedAt: "2026-09-17",
-      title: { jp: "ドラゴンクエストモンスターズ 朽ちた世界", cn: "勇者斗恶龙 怪物篇 The Withered World", en: "Dragon Quest Monsters: The Withered World" },
+      announceDate: "2026-09-25（クイックスカウト／共闘バトルなど新情報とスクリーンショットを公開）",
+      capturedAt: "2026-09-25",
+      title: { jp: "ドラゴンクエストモンスターズ 朽ちた世界", cn: "勇者斗恶龙 怪物篇 朽ちた世界", en: "Dragon Quest Monsters: The Withered World" },
       genre: "怪物收集 RPG",
       platforms: ["Nintendo Switch", "Nintendo Switch 2", "PS5", "Xbox Series X|S", "PC"],
       release: "2026-12-03",
       releasePrecision: "日",
-      summary: "《勇者斗恶龙 V》女主角 Bianca 与 Nera 担任主角的怪物收集作品，舞台为 Witherwood 王国。玩家可侦查、培育并合成怪物，Square Enix 称登场怪物超过 500 种，并计划加入线上 PvP。Demo 已配信且存档可继承至正式版。9/16 Square Enix 宣布 DQ 系列全球累计出货＋数字销量突破 1 亿套，本作是该里程碑后的首个系列新作，TGS2026 展台可与之相关的怪物合影。",
-      highlight: "DQ 系列全球累计突破 1 亿套的官宣与本作 12/03 发售形成接力；TGS2026 展台设可合影的怪物特设区。",
+      summary: "《勇者斗恶龙 V》女主角 Bianca 与 Nera 担任主角的怪物收集作品，舞台为 Witherwood 王国。玩家可侦查、培育并合成怪物，Square Enix 称登场怪物超过 500 种，并计划加入线上 PvP。Demo 已配信且存档可继承至正式版。9/16 Square Enix 宣布 DQ 系列全球累计出货＋数字销量突破 1 亿套，本作是该里程碑后的首个系列新作，TGS2026 展台设有可与之合影的怪物特设区。9/25 又公开了「快速侦查（クイックスカウト）」「侦查奔跑（スカウトラン）」「共斗战斗（共闘バトル）」、NPC「アルミラ」以及新怪物等情报与截图。",
+      highlight: "【2026-09-25 新情報公開】スクウェア・エニックスが「クイックスカウト」「スカウトラン」「共闘バトル」、NPC アルミラ、新モンスターなどの新情報とスクリーンショットを公開した。　DQ 系列全球累计突破 1 亿套的官宣与本作 12/03 发售形成接力；TGS2026 展台设可合影的怪物特设区。",
       console: {
         status: "2026年12月3日発売予定（Demo 配信中・セーブ引き継ぎ可）",
         os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
         monetization: "7,700 円（税込・小売リスト集計値）",
-        developer: "スクウェア・エニックス",
+        developer: "スクウェア・エニックス（開発協力：トーセ）",
         publisher: "スクウェア・エニックス",
         region: "日本",
         distribution: "パッケージ版・ダウンロード版",
         stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
         features: [
           "モンスターをスカウト・育成・配合して部隊を作る収集型 RPG。登場モンスターは 500 種以上",
+          "「クイックスカウト」「スカウトラン」など、効率よく仲間を集めるための新システムが公開された",
+          "「共闘バトル」と呼ばれる、育成したモンスターを活かす新たな戦闘方式が用意される",
           "オンライン PvP の実装が予告されている",
           "TGS2026 では「Fluffy Meet and Greet」と題した記念撮影企画を実施"
         ],
-        synopsis: "『ドラゴンクエスト V』のヒロイン、ビアンカとフローラが主人公を務める。舞台はウィザウッド王国。同社は State of Play Japan で闘技場バトルと物語の演出を披露した。",
+        synopsis: "『ドラゴンクエスト V』のヒロイン、ビアンカとフローラが主人公を務める。舞台はウィザウッド王国。病気の父親を治すため「命の葉」を求め、二人の見習いモンスター使いが旅立つ。",
         ipSource: "『ドラゴンクエスト』シリーズ（スクウェア・エニックス）",
         series: "『ドラゴンクエストモンスターズ』シリーズ最新作"
       },
       news: [
+        { source: "GameBastion / Gematsu（クイックスカウト・スカウトラン・共闘バトル・アルミラ・新モンスターの新情報とスクリーンショット）", url: "https://gamebastion.com/n/dragon-quest-monsters-the-withered-world-10/522151" },
+        { source: "18183（TGS2026 の実機トレーラーと共闘バトル）", url: "https://news.18183.com/yxxw/202609/9036299.html" },
         { source: "CQ-Esports（State of Play Japan）", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" },
         { source: "Games Reviews（TGS 展台阵容）", url: "https://gamesreviews.com/news/09/square-enixs-tgs-2026-lineup-playable-ff7-revelation-resonance-demos-kh-collection-ports/" }
       ],
       videos: [
-        { label: "State of Play Japan 汇总（斗技场战斗展示）", platform: "媒体", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" },
-        { label: "TGS2026 展台阵容（Square Enix 官方名单解读）", platform: "媒体", url: "https://gamesreviews.com/news/09/square-enixs-tgs-2026-lineup-playable-ff7-revelation-resonance-demos-kh-collection-ports/" }
+        { label: "TGS2026 実機トレーラーの掲載元（18183）", platform: "媒体", url: "https://news.18183.com/yxxw/202609/9036299.html" },
+        { label: "新情報とスクリーンショットの掲載元（GameBastion / Gematsu）", platform: "媒体", url: "https://gamebastion.com/n/dragon-quest-monsters-the-withered-world-10/522151" },
+        { label: "State of Play Japan 汇总（斗技场战斗展示）", platform: "媒体", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" }
       ],
       hype: {
         score: 80,
         signals: [
-          "Famitsu 期待榜 NS2 版 228 票（第 9 位），另有 NSW/PS5 版分列",
+          "Famitsu 期待榜で NS2 版 212 票（第 7 位）、NSW 版 154 票（第 10 位）、PS5 版 74 票と 3 機種が圏内",
           "DQ 品牌在日本本土的号召力稳定",
-          "12/3 发售 + Demo 已配信，转化路径短"
+          "12/3 发售 + Demo 已配信＋9/25 の新システム公開で情報量が増加"
         ]
       },
       tags: ["定档", "RPG", "怪物收集", "Demo已配信"]
@@ -2923,16 +2928,16 @@ window.OBSERVATORY = {
       bucket: "update",
       platformClass: "console",
       announceDate: "2026-09-17（TGS2026 カプコン展台 7 号館に出品）",
-      capturedAt: "2026-09-17",
+      capturedAt: "2026-09-25",
       title: { jp: "鬼武者 Way of the Sword", cn: "鬼武者 Way of the Sword", en: "Onimusha: Way of the Sword" },
       genre: "剑戟动作",
       platforms: ["PS5", "Xbox Series X|S", "Nintendo Switch 2", "PC"],
-      release: "2026-09-25（Switch 2 版）",
-      releasePrecision: "日",
-      summary: "系列久违的新作。日本媒体评价其「在保留原作暗黑氛围的同时，实现了深度的战斗系统」。Switch 2 版支持以 Joy-Con 2 体感操作挥剑，与其他平台形成操作差异。",
-      highlight: "【TGS2026 9/17】カプコン 展台（7 号馆）出展，与《プラグマタ》同列该展台的展出阵容（非试玩）。　Famitsu 评分 34/40（9/9/8/8），是本期评分榜并列第二；Switch 2 版支持 Joy-Con 2 体感挥剑，与其他平台形成操作差异。",
+      release: "2026-09-04（発売済み。PS5／Xbox Series X|S／Nintendo Switch 2／PC 同時発売）",
+      releasePrecision: "已发售",
+      summary: "系列久违的全新作，最初公布的发售日为 2026-09-25，Capcom 于 7 月 2 日宣布前倒三周、改为 2026-09-04 全平台同时发售，PS5／Xbox Series X|S／Nintendo Switch 2／PC（Steam・Epic・Microsoft Store）均已上市。以宫本武藏为主角的剑戟动作，战斗围绕格挡、弹反与「魂」吸收展开，节奏比过去几作更接近魂系的攻防转换。Switch 2 版支持以 Joy-Con 2 体感挥剑，也可解锁帧率获得更平滑的表现，与其他平台形成操作差异。日本媒体评价其「在保留原作暗黑氛围的同时，实现了深度的战斗系统」。",
+      highlight: "【2026-09-04 発売済み】当初告知していた 9月25日から 9月4日へ前倒しされ、PS5／Xbox Series X|S／Nintendo Switch 2／PC で同時発売された（日付変更に伴い Switch 2 のダウンロード予約は一度自動キャンセルとなり、再予約が必要だった）。　【TGS2026 9/17】カプコン 展台（7 号馆）出展，与《プラグマタ》同列该展台的展出阵容（非试玩）。　Famitsu 评分 34/40（9/9/8/8），是本期评分榜并列第二；Switch 2 版支持 Joy-Con 2 体感挥剑，与其他平台形成操作差异。",
       console: {
-        status: "2026年9月25日発売（Switch 2 版を含む全プラットフォーム）",
+        status: "2026年9月4日発売済み（当初予定の 9月25日から前倒し）",
         os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
         monetization: "8,990 円（税込・小売リスト集計値／Game Key Card 形式）",
         developer: "カプコン",
@@ -2941,19 +2946,22 @@ window.OBSERVATORY = {
         distribution: "Game Key Card 方式のパッケージ版・ダウンロード版",
         stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam"],
         features: [
-          "シリーズ久々の完全新作。原作のダークな雰囲気を保ちつつ戦闘システムを深化させたと日本メディアが評価（ファミ通 34 点）",
+          "シリーズ 20 年ぶりの完全新作。原作のダークな雰囲気を保ちつつ戦闘システムを深化させたと日本メディアが評価（ファミ通 34 点）",
           "Switch 2 版は Joy-Con 2 の体感操作で刀を振れる、他機種との操作差を用意",
-          "剣戟アクション。間合いと斬撃の手応えを軸にした対人・対魔物戦闘"
+          "剣戟アクション。パリィ／弾き／魂吸収を軸にした読み合いの強い対人・対魔物戦闘",
+          "体験版のセーブデータ特典（首飾り）を本編へ引き継げる"
         ],
-        synopsis: "『鬼武者』シリーズの最新作。和風のダークファンタジー世界で、剣戟を主軸に据えたアクションとして再構築されている。",
+        synopsis: "『鬼武者』シリーズの最新作。宮本武蔵を主人公に、鬼の籠手で魔物「幻魔」の魂を吸って戦う和風ダークファンタジーとして再構築されている。",
         ipSource: "『鬼武者』シリーズ（カプコン）",
-        series: "シリーズ長期休止を経ての新作"
+        series: "シリーズ長期休止を経ての新作（前作は 2006 年の『新 鬼武者 DAWN OF DREAMS』）"
       },
       news: [
+        { source: "公式サイト（CAPCOM ASIA／発売日変更通知：2026年9月25日→9月4日）", url: "https://www.capcom-games.com/onimusha/ws/zh-hant" },
         { source: "3DMGame（Famitsu 评分汇总）", url: "https://en.3dmgame.com/news/2702" },
         { source: "Legal United States（Direct 汇总）", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" }
       ],
       videos: [
+        { label: "公式サイト（製品情報と Joy-Con 2 体感操作の紹介）", platform: "官方站", url: "https://www.capcom-games.com/onimusha/ws/zh-hant" },
         { label: "Famitsu 评分汇总（34/40）", platform: "媒体", url: "https://en.3dmgame.com/news/2702" },
         { label: "Nintendo Direct 汇总（Switch 2 体感操作）", platform: "媒体", url: "https://legalunitedstates.com/nintendo-direct-september-2026/" }
       ],
@@ -2961,11 +2969,11 @@ window.OBSERVATORY = {
         score: 74,
         signals: [
           "Famitsu 34/40，媒体口碑已落地",
-          "9/25 发售，处年末前的密集档期",
-          "体感操作提供差异化卖点"
+          "9月4日へ前倒しして発売済み。体験版は 100 万ダウンロードを突破",
+          "Switch 2 版の体感操作が差別化点"
         ]
       },
-      tags: ["定档", "动作", "Famitsu34"]
+      tags: ["已发售", "动作", "Famitsu34"]
     },
 
     {
@@ -3816,15 +3824,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：バンダイナムコエイセス）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
-      capturedAt: "2026-09-20",
+      announceDate: "2026-09-24（本編オープニングシネマティックをシリーズ公式チャンネルで公開）",
+      capturedAt: "2026-09-25",
       title: { jp: "ACE COMBAT 8: Wings of Theve", cn: "皇牌空战 8 Wings of Theve", en: "Ace Combat 8: Wings of Theve" },
       genre: "フライトシューティング／空戦アクション",
       platforms: ["PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
       release: "2026-10-02（デラックスエディションは 09-29 から先行アクセス）",
       releasePrecision: "日",
-      summary: "系列最新作，2026-10-02 发售，2026-09-14 通过 PlayStation.Blog 公开故事预告并确认「歼灭战」（Annihilation Battle）在任务 7 回归。歼灭战的核心是自由度：限时内自行决定先打哪个目标、什么时候回补给线装弹，目标清单包括太阳能发电站、储油罐、空军基地与弹药库。连锁破坏进一步加深策略性——击中储油罐引发的爆炸会波及周边建筑，敌机坠落地点附近的设施也会受损。本作同时介绍了两件超大型兵器：周长 6 公里、配备 2,000 米跑道与 CIWS／SAM／电磁炮的海上浮体「Megafloat Fatsia」，以及低轨道 500 公里、以金属棒动能打击的卫星兵器「Tonitrus Spear」。预约特典为可操作机体 F-14A Tomcat 与《ACE COMBAT ZERO: THE BELKAN WAR》移植版，数字豪华版含自 9/29 起的三日先行体验。",
-      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】バンダイナムコ 把整个展台做成以本作为核心（试玩机＋限定周边＋现场预购），PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作——系列首次公开试玩正好卡在 10/02 发售前两周。　歼灭战回归是核心卖点：破坏顺序与补给线时机交给玩家，连锁破坏让「先打哪一个」直接影响战果。",
+      summary: "系列最新作，2026-10-02 发售，数字豪华版自 09-29 起先行体验。2026-09-22 预告、09-24 晚在系列官方 YouTube 频道首映了本编序章过场动画——本作过场采用第一人称视角，并加入移动镜头与按键互动等参与机制；同期真人前传短篇《ACE COMBAT HOUR ZERO》第 3 集于 09-23 公开，以被国家封口的新闻主播为主角，由 Tamlyn Tomita 主演。09-14 通过 PlayStation.Blog 公开故事预告并确认「歼灭战」（Annihilation Battle）在任务 7 回归：限时内自行决定先打哪个目标、什么时候回补给线装弹，连锁破坏进一步加深策略性。本作同时介绍了两件超大型兵器——周长 6 公里、配备 2,000 米跑道的海上浮体「Megafloat Fatsia」，以及低轨道 500 公里、以金属棒动能打击的卫星兵器「Tonitrus Spear」。预约特典为可操作机体 F-14A Tomcat 与《ACE COMBAT ZERO: THE BELKAN WAR》移植版。",
+      highlight: "【2026-09-24 オープニングシネマティック公開】シリーズ公式チャンネルで本編序章のシネマティックがプレミア公開された（9/22 に予告、英語字幕版も同時公開）。あわせて実写前日譚『ACE COMBAT HOUR ZERO』Episode 3 が 9/23 に公開され、国家に口封じされたニュースキャスター役をタムリン・トミタが演じた。　【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】バンダイナムコ 展台以本作为核心（试玩机＋限定周边＋现场预购），PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作——系列首次公开试玩正好卡在 10/02 发售前两周。　歼灭战回归是核心卖点：破坏顺序与补给线时机交给玩家，连锁破坏让「先打哪一个」直接影响战果。",
       console: {
         status: "2026年10月2日発売予定。予約受付中",
         os: ["PlayStation 5", "Xbox Series X|S", "PC（Steam）"],
@@ -3839,22 +3847,23 @@ window.OBSERVATORY = {
           "シリーズおなじみの殲滅戦（Annihilation Battle）がミッション 7 で復活",
           "制限時間内に、どの敵をどの順で潰すか、いつ補給線（リターンライン）へ戻るかを自分で決める自由度",
           "燃料タンクなどに着弾させると周囲の建造物を巻き込む連鎖破壊が発生",
-          "撃墜された敵機の墜落地点でも周辺構造物が破壊される",
           "6 キロに及ぶ海上メガフロート「ファッツィア」と、低軌道 500 キロの衛星兵器「トニトルス・スピア」",
           "マルチプレイコンテンツ「Ace Combat Online」を収録",
           "プロデューサーは下元学氏。世界観を補完する前日譚シリーズの展開も告知されている"
         ],
         synopsis: "共和国ソトアによる中央ユージア連邦への奇襲侵攻から物語が始まる。連邦艦隊は壊滅し、首都テーヴは占領される。海上で漂流していた若いパイロットは老朽空母エンデュランスに救助され、伝説のエースにちなんだコールサイン「ウィングス・オブ・テーヴ」を与えられる——だがその無敵のエースは、士気を上げるために軍上層部がでっち上げた架空の存在だった。",
         ipSource: "『ACE COMBAT』シリーズ（バンダイナムコエンターテインメント）のナンバリング最新作",
-        series: "ナンバリング第 8 作。2026 年 10 月 2 日の発売に向けて、ストーリートレーラーとミッション詳細が順次公開されている段階"
+        series: "ナンバリング第 8 作。発売に先立ち、ストーリートレーラー・本編序章シネマティック・前日譚実写短編が順次公開されている段階"
       },
       news: [
         { source: "PlayStation.Blog（公式発表：殲滅戦モードとストーリートレーラー）", url: "https://blog.playstation.com/2026/09/14/ace-combat-8-wings-of-theve-annihilation-battle-mode-confirmed-story-trailer-revealed/" },
-        { source: "Gamesplanet ニュース（登場人物とエディション解説）", url: "https://uk.gamesplanet.com/community/ace-combat-8-wings-of-theve-steam-key--8105-1/news_updates/430801-ace-combat-8-wings-of-theve-story-trailer-introduces" },
+        { source: "游侠网（本編序章アニメを 9月24日に首映、前日譚 Episode 3 は 9月23日）", url: "https://3g.ali213.net/news/html/1042841.html" },
+        { source: "Slanted Game（オープニングシネマティック公開と製品情報）", url: "https://slantedgame.com/ace-combat-8-wings-of-theve-opening-cinematic-released" },
         { source: "Game News Plus（殲滅戦と大型兵器の詳細）", url: "https://gamenewsplus.net/news/ace-combat-8-story-trailer-confirms-annihilation-battle-mode-38842" },
         { source: "GameTrader.SG（TGS2026 首次公开试玩与版本特典）", url: "https://www.gametrader.sg/blog/tag/ace-combat" }
       ],
       videos: [
+        { label: "本編オープニングシネマティック公開の報道ページ（DayOne）", platform: "媒体", url: "https://playday.one/2026/09/24/ace-combat-8-wings-of-theve-opening-cinematic-trailer-released/" },
         { label: "公式ストーリートレーラー（PlayStation.Blog 内に埋め込み）", platform: "PlayStation.Blog", url: "https://blog.playstation.com/2026/09/14/ace-combat-8-wings-of-theve-annihilation-battle-mode-confirmed-story-trailer-revealed/" },
         { label: "トレーラーと殲滅戦モードの解説（VG Times）", platform: "媒体", url: "https://vgtimes.com/gaming-news/167574-ace-combat-8-wings-of-theve-gets-a-story-trailer-and-annihilation-battles-return.html" }
       ],
@@ -3862,8 +3871,8 @@ window.OBSERVATORY = {
         score: 82,
         signals: [
           "ファミ通読者期待榜 9月13日号で 20 位（85 票）に入る常連シリーズ",
-          "PlayStation.Blog での公式発表が海外メディアに広く転載され、トレーラーの露出が大きい",
-          "10月2日発売で TGS2026 の直後、単独インタビュー記事も複数出ている",
+          "公式トレーラー・序章シネマティックの露出が大きく、海外メディアの転載も広い",
+          "10月2日発売で TGS2026 の直後。デラックス版は 9月29日から先行アクセス",
           "TGS2026 のバンダイナムコ展台は本作を軸に構成され、PlayStation 展台の PS Plus 先行試遊 4 本にも選ばれている"
         ]
       },
@@ -7768,6 +7777,60 @@ window.OBSERVATORY = {
         cast: "該当なし（プレイアブルキャラクターはアサヒ／レイ／テッペイ／ユズキの 4 名で、ボイスキャストは公表されていない）"
       }
     },
+    {
+      id: "resident-evil-switch-2-trilogy",
+      company: "Capcom",
+      companyJp: "株式会社カプコン",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-09（Nintendo Direct で Switch 2 版を発表）",
+      capturedAt: "2026-09-25",
+      title: { jp: "バイオハザード RE:2 デラックスエディション／RE:3／RE:4 ゴールドエディション（Nintendo Switch 2 版）", cn: "生化危机 RE:2 豪华版／RE:3／RE:4 黄金版（Nintendo Switch 2 版）", en: "Resident Evil 2 Deluxe Edition / Resident Evil 3 / Resident Evil 4 Gold Edition (Nintendo Switch 2)" },
+      genre: "サバイバルホラー（RE エンジン版リメイクの移植）",
+      platforms: ["Nintendo Switch 2"],
+      release: "2026-10-16（デジタル版。パッケージ版は 2027-01-29）",
+      releasePrecision: "日",
+      summary: "Capcom 在 2026-09-09 的 Nintendo Direct 上宣布，把 RE 引擎重制的三款系列作品一次移植到 Nintendo Switch 2：《生化危机 RE:2 豪华版》《RE:3》《RE:4 黄金版》。数字版 2026-10-16 上线，实体版 2027-01-29。三款均为 2019／2020／2023 年重制版的移植，而非云版本——Switch 上此前的 RE2／RE3 只能通过云游戏游玩，本次是原生移植；RE4 也是首次以 2023 年重制版的形态登陆任天堂平台。RE2 豪华版与 RE4 黄金版附带追加内容（黄金版含 Separate Ways）。同一场 Direct 上 Capcom 还宣布《Monster Hunter Wilds》Switch 2 版于 12-04 发售。因原作重制版发售日均在滚动窗口之外，本条按在营作品的平台拓展记为 update。",
+      highlight: "【2026-09-09 Nintendo Direct】Capcom が『バイオハザード RE:2 デラックスエディション』『RE:3』『RE:4 ゴールドエディション』の Nintendo Switch 2 版を発表した。デジタル版は 2026-10-16、パッケージ版は 2027-01-29。　Switch 版の RE2／RE3 はこれまでクラウド版のみだったため、今回が初のネイティブ移植。RE4 も 2023 年のリメイク版としては任天堂機初登場となる。RE2 デラックスエディションと RE4 ゴールドエディションには追加コンテンツが同梱される。",
+      console: {
+        status: "2026年10月16日発売予定（デジタル版）。予約受付中",
+        os: ["Nintendo Switch 2"],
+        monetization: "買い切り。RE:2 デラックスエディションと RE:4 ゴールドエディションには追加コンテンツを同梱",
+        developer: "カプコン",
+        publisher: "カプコン",
+        region: "日本／世界",
+        distribution: "パッケージ版・ダウンロード版（Nintendo Switch 2 専用）",
+        stores: ["Nintendo eShop", "全国のゲーム取扱店"],
+        features: [
+          "RE エンジンでリメイクされた 3 作（RE:2 デラックスエディション／RE:3／RE:4 ゴールドエディション）を Nintendo Switch 2 へ移植",
+          "Switch 版の RE2／RE3 はクラウド版のみだったため、今回がシリーズ初のネイティブ移植",
+          "RE4 は 2023 年のリメイク版として初めて任天堂機に登場する",
+          "デジタル版 2026-10-16、パッケージ版 2027-01-29",
+          "同じ Nintendo Direct で『モンスターハンターワイルズ』Switch 2 版（2026-12-04）も発表された"
+        ],
+        synopsis: "ラクーンシティの崩壊を描く RE2、同じ街で脱出を図る RE3、そして農村を訪れたレオンとアシュリーの救出劇を描く RE4。いずれも現代的な RE エンジンで再構築されたリメイク版で、Nintendo Switch 2 では携帯モードでもプレイできる。",
+        ipSource: "『バイオハザード』シリーズ（カプコン）。原作は 1998 年／1999 年／2005 年発売、リメイク版は 2019 年／2020 年／2023 年発売",
+        series: "『バイオハザード』シリーズの累計販売は 1 億 7,400 万本超（2025 年時点・カプコン発表）"
+      },
+      news: [
+        { source: "Capcom 公式プレスリリース（Monster Hunter Wilds の Switch 2 版とあわせて RE リメイク 3 作を発表）", url: "https://www.capcom.co.jp/ir/english/news/pdf/e260910.pdf" },
+        { source: "Insider Saga（Nintendo Direct 2026.9.9 での RE 3 作発表のまとめ）", url: "https://insidersaga.com/nintendo-just-answered-playstation-state-of-play-with-an-even-bigger-lineup" },
+        { source: "God is a Geek（Nintendo Direct の発売日まとめ。RE 3 作 Switch 2 は 10/16）", url: "https://godisageek.com/2026/09/nintendo-direct-september-2026-release-dates" }
+      ],
+      videos: [
+        { label: "Nintendo Direct まとめ記事（Nintendo of America 公式告知の RE 3 作 Switch 2 版と 10/16 発売）", platform: "媒体", url: "https://insidersaga.com/nintendo-just-answered-playstation-state-of-play-with-an-even-bigger-lineup" },
+        { label: "Capcom 公式プレスリリース（製品情報・機種・発売日）", platform: "官方新闻稿", url: "https://www.capcom.co.jp/ir/english/news/pdf/e260910.pdf" }
+      ],
+      hype: {
+        score: 76,
+        signals: [
+          "Nintendo Direct での発表として海外メディアの転載が広い（Nintendo Wire／WorthPlaying など）",
+          "Switch 版はクラウド版のみだったため、ネイティブ移植への待望論が長くあった",
+          "RE シリーズは日本国内の知名度が高く、リメイク 3 作はいずれも高評価"
+        ]
+      },
+      tags: ["移植", "サバイバルホラー", "Switch2", "定档"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -7789,7 +7852,7 @@ window.OBSERVATORY = {
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定し、本体側も covered へ", gameIds: ["persona-6", "persona-4-revival", "stranger-than-heaven", "crazy-taxi-world-tour"] },
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
-          { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct で『ロックマン デュアルオーバーライド』の 2027 年春発売が確定、9/1 には『ドラゴンズドグマ 2 ダークアリズン』の遺物遠征サイクルを公開した" },
+          { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
           { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou", "sophiechat-ai", "dynasty-warriors-3-complete-edition-remastered", "apothecary-diaries-false-imperial-brother"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表。9/10 には東宝 TOHO Games と共同で『薬屋のひとりごと ～偽りの皇弟～』（開発：ガスト／2027 年初頭、Switch 2・Switch・PS5・Steam）を発表した）" },
         ]
@@ -7963,15 +8026,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 展後 7 場目（09-25 場）。9/25 は日方主導の新規発表が集中した日で、Monochrome Corp. × グッドスマイルカンパニー の新規 IP『IGNISPHERE』と初弾『DAWNGAZER』（監督：野間崇史／2028 年）が最大の話題となった。手游侧では KONAMI が『悪魔城ドラキュラ』40 周年企画として初代のモバイル版を 9/25〜10/24 の期間限定で無料配信し、『BanG Dream! Our Notes』は国際服が正式サービスを開始した。条目総数は 138 → 143（手游区 34 → 35 ／ 主机・PC 区 113 → 117）",
+    headline: "TGS2026 展後（2026-09-25 19:00 場）。日方主導の新規発表は日中で出切っており、本場の増分は更新 2 件（『ACE COMBAT 8』本編序章シネマティックの公開＝9/24、『ドラゴンクエストモンスターズ 朽ちた世界』の新システム公開＝9/25）と、Nintendo Direct 2026.9.9 で発表済みだった Capcom『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）の漏収補収 1 件、および『鬼武者 Way of the Sword』の発売日記載の訂正。条目総数は 143 → 144（手游区 35／主机・PC 区 118）",
     points: [
-      "**手游侧（本場の最大の出来事）**：KONAMI が『悪魔城ドラキュラ』シリーズ 40 周年（2026-09-26）企画を 9/25 に発表し、1986 年の初代を iOS／Android 向けに移植して 2026-09-25〜10-24 の期間限定で無料配布すると告知した。期間内に取得すれば配信終了後もプレイでき、終了後はストアから取り下げられて新規取得はできなくなる。あわせて PlayStation 9/23〜10/7・Steam 9/24〜10/8 の最大 80% OFF セール、原声の 9/26 ストリーミング配信、レコード盤、2027 年春の東京・ロンドン・ロサンゼルス公演『Castlevania 40th Anniversary An Orchestral Concert』、10-15 発売の新作『Castlevania: Belmont's Curse』が公表された。本体は 1986 年発売のため bucket は update としている。",
-      "**手游侧（在営タイトルの窓口内進展）**：『BanG Dream! Our Notes』（ブシロード／開発 フロムトーキョー）の国際服が正式サービスを開始した。開服記念 MV『Abracadabra – Ave Mujica』（youtu.be/_5YJLP7OQ9k）が公開され、9/25 から 5 日連続で 1 曲ずつ追加されるキャンペーンや事前登録 200 万件突破の特典配布が告知されている。日本版は 9/24 の Google Play 審査未完による延期が続いており、日版の配信開始時期は 2026-09-25 時点で未公表。なお発行の主体は日本版がブシロードであり、資本帰属の判定順（①開発 → ②日本版発行 → ③海外版発行は判定に含めない）に沿って収録対象のまま据え置いている。",
-      "**主机・PC 側（本場の目玉）**：Monochrome Corp. とグッドスマイルカンパニーが新規 IP「IGNISPHERE」を発表し、第 1 弾のアクション RPG『DAWNGAZER』（監督：『ユニコーンオーバーロード』の野間崇史／音楽：工藤吉三／主題歌：KOCHO、2028 年、Nintendo Switch 2・PS5・PC）の開発を開始した。グッドスマイルカンパニー（フィギュア等の商品化）と KADOKAWA 富士見ファンタジア文庫（ライトノベル）が同時に参画する多メディア企画で、公式 X（@IgnisphereX）とティザー映像（youtu.be/McpAJLJ-D6E）が同日公開され、電撃オンラインとファミ通.com に単独インタビューが掲載された。",
-      "**主机・PC 側（その他の新規収録 3 件）**：『KOWLOON'S GATE Suzaku』（開発 JETMAN／Nintendo Switch／2026-10-29。1997 年の『九龍風水傳』の前日譚で「究極の散歩ゲーム」）、『SENTO SURVIVOR（銭湯サバイバー）』（ZOO Corporation／Switch 版 2026-09-24 配信開始、Steam 版は 2026-08-05。ローカル 4 人対戦と Boss Rush 大型更新）、『ReGLOSS:CROSS』（holo Indie／開発 yado／PC(Steam)／2026-10-15。全 8 ステージ 70 問の 2D パズル）を新規収録した。",
-      "**漏収核查**：本場は「前日入ってきた候補」を中心に、① 周年・記念企画系（『悪魔城ドラキュラ』40 周年）、② 国内アニメ・VTuber IP 系スマホ作（BanG Dream!／刀剣乱舞／ONE PIECE／ホロライブ／東京リベンジャーズ）、③ Steam の新規ストアページ・新規発表系（『ReGLOSS:CROSS』『SENTO SURVIVOR』『KOWLOON'S GATE Suzaku』『DAWNGAZER』）の 3 系統で検索した。『チェンソーマン』のスマホ新作は引き続き開発・発行元が未公表で資本帰属を判定できず、厳格運用のまま未収録を維持（持ち越し）。",
-      "**中资の新作は引き続き全面的に跳过**：本場で確認された中国資本の開発・発行による新作はすべて不収録とした。作品名・社名は本站のデータには一切記載していない。",
-      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50、extra 34 家でいずれも不変。gameIds はグッドスマイルカンパニー（＋DAWNGAZER）、カバー株式会社（＋ReGLOSS:CROSS）、コナミデジタルエンタテインメント（＋悪魔城ドラキュラ 初代モバイル版）の 3 件を追加した。ZOO Corporation／JETMAN／Monochrome Corp. はいずれもコンシューマー側が主体で、「国内のスマホ向け発行方」という extra の口径に合わないため加えていない。Famitsu 期待榜は新一期を確認できず mostWanted は据え置き（asOf 2026-09-21 の 9/17 号）。"
+      "**手游侧**：本場の増分区間（9/25 日中〜夜）に日方主導の新規スマホ作は確認できなかった。事前登録開始・配信開始・国内アニメ／VTuber IP 系の 3 系統で計 15 組以上を検索したが、日方主導の新作はゼロで、確認できたのは中国資本の開発・発行による作品のみだったため、すべて不収録とした。",
+      "**手游侧（在営タイトルの窓口内進展）**：『BanG Dream! Our Notes』（ブシロード／開発 フロムトーキョー）の国際服が 9/25 に正式サービスを開始。事前登録 200 万件突破の特典配布、9/25 から 5 日連続の楽曲追加、台北 WirForce 2026・ソウル弘大・ロサンゼルス Little Tokyo のオフライン企画が告知された。日本版は 9/24 の Google Play 審査未完による延期が続いており、9/25 19:00 時点で配信時期は未公表。",
+      "**主机・PC 側（更新 2 件）**：『ACE COMBAT 8: Wings of Theve』が 9/24 に本編序章のシネマティックをシリーズ公式チャンネルで公開（実写前日譚『ACE COMBAT HOUR ZERO』Episode 3 は 9/23）。『ドラゴンクエストモンスターズ 朽ちた世界』は 9/25 に「クイックスカウト」「スカウトラン」「共闘バトル」、NPC アルミラ、新モンスターの情報とスクリーンショットを公開した。",
+      "**主机・PC 側（漏収補収 1 件）**：Capcom が Nintendo Direct 2026.9.9 で発表していた『バイオハザード RE:2 デラックスエディション』『RE:3』『RE:4 ゴールドエディション』の Nintendo Switch 2 版（デジタル 2026-10-16／パッケージ 2027-01-29）を補収。Switch 版の RE2／RE3 はクラウド版のみだったため今回が初のネイティブ移植で、RE4 も 2023 年リメイク版として任天堂機初となる。原作リメイクの発売日は窗口外のため bucket は update。",
+      "**本場で訂正した既存データ**：『鬼武者 Way of the Sword』の release を「2026-09-25（Switch 2 版）」から「2026-09-04（発売済み）」へ修正した。Capcom は 7 月 2 日に発売日を 9/25 から 9/4 へ前倒ししており、9/25 発売という記載は更新前の情報だった（公式サイトの「発売日変更通知」で確認）。releasePrecision も「已发售」に変更。",
+      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃）、② 周年・記念企画系（悪魔城ドラキュラ 40 周年）、③ 9/9 Nintendo Direct の発表リスト（日方パブリッシャー分を逐条照合）を確認した。Direct 分では RE 3 作の移植が未収録だったため補収し、『ピクミン4』NS2 版／『ゼノブレイド3』NS2 版／Nintendo Switch Sports Resort／『ゼルダ無双 厄災黙示録』DE は既存作の移植・増強版として次要口径のため未収録のまま据え置いた。『チェンソーマン』のスマホ新作は引き続き開発・発行元が未公表で、厳格運用のまま未収録を維持（持ち越し）。",
+      "**中资は全面的に跳过／厂商名单と期待榜**：中国資本の開発・発行による新作はすべて不収録とした（作品名・社名は本站のデータには一切記載していない）。4 个 category の家数は 8／16／16／10＝50、extra 34 家でいずれも不変。gameIds は Capcom に『バイオハザード RE 3 作 Switch 2 版』を追加した。Famitsu 期待榜は新期を確認できず mostWanted は据え置き（asOf 2026-09-21、9/17 号）。tgs は展後記録として凍結のまま。"
     ]
   },
 };
