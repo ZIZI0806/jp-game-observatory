@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-09-24
+ * 最后更新: 2026-09-25
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-24T19:10:00+08:00",
-    edition: "2026-09-24",
-    window: "2026-07-24 ~ 2026-09-24（滚动最近 2 个月）",
+    updatedAt: "2026-09-25T18:45:00+08:00",
+    edition: "2026-09-25",
+    window: "2026-07-25 ~ 2026-09-25（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -268,15 +268,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社ブシロード",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-09-24（世界同時配信を予定も、日本版の Google Play 審査未完により当日延期）",
-      capturedAt: "2026-09-24",
+      announceDate: "2026-09-25（国際服が正式サービスを開始。日本版は Google Play 審査未完のため配信時期未定）",
+      capturedAt: "2026-09-25",
       title: { jp: "BanG Dream! Our Notes（バンドリ！アワーノーツ）", cn: "BanG Dream! Our Notes", en: "BanG Dream! Our Notes" },
       genre: "リズムゲーム＋全編フルボイス・ビジュアルノベル",
       platforms: ["iOS", "Android"],
-      release: "2026-09-24（日本を含むグローバル同時配信。11:00（UTC+9）に配信開始済み）",
+      release: "2026-09-24（世界同時配信を予定も日本版は審査未完で当日延期。国際服は 2026-09-25 に正式サービスを開始）",
       releasePrecision: "日",
       summary: "ブシロード发行的《BanG Dream!》系列全新手游，由前 Craft Egg 主要成员创立的株式会社フロムトーキョー 开发，是《ガールズバンドパーティ!》之后的第二款节奏游戏。登场乐队为 MyGO!!!!!、Ave Mujica、夢限大みゅーたいぷ 与新加入的 millsage、一家Dumb Rock!，共 25 名角色并全部启用原班声优；故事采用多路线乐队章节结构，并用 Live2D 影像以游戏视角重述 MyGO!!!!! 与 Ave Mujica 的动画剧情。玩法以打击、滑动、长按、滑键构成的节奏部分为核心，新增在乐曲中途插入高强度段落的「GEKISO LIVE（激奏 LIVE）」模式与面向新手的 Assist Mode，支持最多 5 人实时协力／对战演奏，卡池获取的卡牌影响演奏数值。事前登录自 6/26 开放，9/4 破 150 万、9/11 破 160 万；9/13 公布全球配信日 9/24，9/21 播出上线前特别生放送、9/22 起开放预下载，对应语言含日文、英文、韩文、繁体中文与简体中文。",
-      highlight: "【2026-09-24 世界同時配信は当日延期】9 月 24 日 12:00（UTC+9）に日本を含むグローバル同時配信を予定していたが、日本版の Google Play 審査が完了していないことを理由に当日の配信は延期となった。公式 EN アカウントが延期を告知し、ゲーム内のメンテナンス終了予定時刻は 20:00（UTC+9）に設定されている。審査が下り次第、残りの準備を終えて可及的速やかに配信を開始するとしている。事前登録は世界累計 200 万件を突破し、5 バンド 25 キャラと MyGO!!!!!・Ave Mujica のアニメ劇情を再構成したフルボイスシナリオは実装済み。　【2026-09-22 Abracadabra カバー】世界同時配信（9/24）を記念して、Ave Mujica がレディー・ガガ「Abracadabra」をカバーするティザー MV が公開された。楽曲と本編 MV はグローバル版のゲーム内で先行解禁される。　【2026-09-22 事前ダウンロード開始】9 月 22 日 23:00（JST）より事前ダウンロードが順次開始された。　【2026-09-20 事前登録 200 万突破】世界累計の事前登録が 200 万に到達（9/11 の 160 万から 9 日で 40 万増）。達成特典として SSR 確定チケットの配布が告知された。　【TGS2026 9/18】ブシロード 展位（6 号館 C01）で 9/17 から正式版の先行試遊を実施し、配信前最後の大型オフライン露出となった。　シリーズ第 2 のリズムゲームとして MyGO!!!!!・Ave Mujica のアニメ劇情を直接引き継ぐ、2026 年下期の日系オリジナルスマホゲームでは最大級の規模。",
+      highlight: "【2026-09-25 国際服が正式サービス開始】9 月 25 日、グローバル版（国際服）の正式サービスが開始された。開服記念として Ave Mujica によるレディー・ガガ「Abracadabra」のカバー MV（youtu.be/_5YJLP7OQ9k）が公開され、9/25 から 5 日連続で 1 曲ずつプレイ楽曲を追加するキャンペーン、事前登録 200 万件突破の特典配布、台北 WirForce 2026・ソウル弘大・ロサンゼルス Little Tokyo でのオフライン記念イベントが告知された。　【2026-09-24 日本版は配信当日に延期】9 月 24 日 12:00（UTC+9）に予定していた日本を含む世界同時配信は、日本版の Google Play 審査が完了していないことを理由に当日延期となった。ゲーム内のメンテナンス終了予定時刻は 20:00（UTC+9）に設定され、審査が下り次第、可及的速やかに配信を開始するとしている。　【2026-09-22 事前ダウンロード開始】9 月 22 日 23:00（JST）より事前ダウンロードが順次開始された。　【2026-09-20 事前登録 200 万突破】世界累計の事前登録が 200 万に到達（9/11 の 160 万から 9 日で 40 万増）。達成特典として SSR 確定チケットの配布が告知された。　【TGS2026 9/18】ブシロード 展位（6 号館 C01）で 9/17 から正式版の先行試遊を実施し、配信前最後の大型オフライン露出となった。　シリーズ第 2 のリズムゲームとして MyGO!!!!!・Ave Mujica のアニメ劇情を直接引き継ぐ、2026 年下期の日系オリジナルスマホゲームでは最大級の規模。",
       news: [
         { source: "官方站新闻（「アワーノーツ リリース日決定特番」発表情報まとめ）", url: "https://bang-dream-on.bushimo.jp/news/post-8" },
         { source: "官方站新闻（TGS2026 出展の詳細を公開）", url: "https://bang-dream-on.bushimo.jp/news/post-9" },
@@ -284,7 +284,8 @@ window.OBSERVATORY = {
         { source: "Bandori Wiki（開発体制・CBT・事前登録マイルストーン推移）", url: "https://bandori.miraheze.org/wiki/BanG_Dream!_Our_Notes" },
         { source: "GameTrader.SG（GEKISO LIVE の仕様と事前登録 160 万・9/22 事前ダウンロード）", url: "https://www.gametrader.sg/blog/bang-dream-our-notes-global-launch-september-24-2026/" },
         { source: "Anime News Network（グローバル版の配信開始記念「Abracadabra – Cover by Ave Mujica」ティザー MV 公開）", url: "https://www.animenewsnetwork.com/interest/2026-09-22/bang-dream-our-notes-game-teases-lady-gaga-cover/.242080" },
-        { source: "Game8（配信当日に発生した延期と Google Play 審査待ちの告知）", url: "https://game8.co/articles/latest/bang-dream-our-notes-global-launch-delayed-on-release-day-thanks-to-google-play" }
+        { source: "Game8（配信当日に発生した延期と Google Play 審査待ちの告知）", url: "https://game8.co/articles/latest/bang-dream-our-notes-global-launch-delayed-on-release-day-thanks-to-google-play" },
+        { source: "Enduins（国際服の正式サービス開始告知。開服記念 MV・記念イベント・ログイン特典）", url: "https://www.enduins.com/news/bang-dream-our-notes-global-server-officially-launches-today" },
       ],
       videos: [
         { label: "官方站（バンドリ！アワーノーツ 公式サイト・Movie）", platform: "官方站", url: "https://bang-dream-on.bushimo.jp/" },
@@ -301,7 +302,7 @@ window.OBSERVATORY = {
       },
       tags: ["手游", "音ゲー", "IP直営", "配信延期", "TGS2026"],
       mobile: {
-        status: "配信予定（2026-09-24 12:00（UTC+9）の世界同時配信を予定していたが、日本版の Google Play 審査未完により当日延期。ゲーム内のメンテナンス終了予定時刻は 20:00（UTC+9））",
+        status: "国際服は正式サービス中（2026-09-25 開始）。日本版は 2026-09-24 12:00（UTC+9）の世界同時配信が日本版 Google Play の審査未完により延期され、2026-09-25 時点で配信開始日は未公表",
         os: ["iOS", "Android"],
         monetization: "基本無料（ガチャ・アイテム課金あり、シーズン制ミッションパスを導入）",
         payment: [],
@@ -7484,6 +7485,289 @@ window.OBSERVATORY = {
       },
       tags: ["主机", "RPG", "Square Enix", "移植", "已发售"]
     },
+    {
+      id: "castlevania-classic-mobile",
+      company: "Konami Digital Entertainment",
+      companyJp: "株式会社コナミデジタルエンタテインメント",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-09-25（シリーズ 40 周年企画を発表し、初代のモバイル版を期間限定で無料配信開始）",
+      capturedAt: "2026-09-25",
+      title: { jp: "悪魔城ドラキュラ（初代／モバイル版）", cn: "恶魔城（初代 手机版）", en: "Castlevania" },
+      genre: "ゴシックホラー・アクション",
+      platforms: ["iOS", "Android"],
+      release: "2026-09-25（無料配信開始。取得期間は 2026-10-24 まで）",
+      releasePrecision: "日",
+      summary: "KONAMI 为纪念《恶魔城（悪魔城ドラキュラ）》系列 2026-09-26 迎来 40 周年，把 1986 年 FC 磁碟机版初代《Castlevania》移植到 iOS／Android，自 2026-09-25 起限时免费发放至 10-24。期间下载即可永久保留，配信期结束后将从 App Store 与 Google Play 下架，仅已获取者可继续下载游玩。该版本为直接移植，保留当年电视比例的横版画面，加入触屏虚拟控制器、离线游玩与快速存档（实机确认暂不支持外接手柄）。同日公布的一揽子周年企划还包括：PS 与 Steam 系列合集最高 80% 折扣（PS 9/23〜10/7、Steam 9/24〜10/8）、原声 9/26 起上线流媒体、初代与《月下夜想曲》两张黑胶、2027 年春在东京・伦敦・洛杉矶举办的《Castlevania 40th Anniversary An Orchestral Concert》，以及 10-15 发售的新作《Castlevania: Belmont's Curse》。",
+      highlight: "【2026-09-25 初代モバイル版を無料配信開始】コナミが『悪魔城ドラキュラ』シリーズ 40 周年（2026-09-26）企画を発表し、1986 年の初代を iOS／Android 向けに移植して 9 月 25 日から 10 月 24 日まで期間限定で無料配布すると告知した。期間内に取得すれば配信終了後もプレイでき、終了後はストアから取り下げられ、取得済みのユーザーのみ再ダウンロードできる。　同時に、PlayStation は 9/23〜10/7、Steam は 9/24〜10/8 に各コレクションが最大 80% OFF、『Castlevania Black and Red』の原声が 9/26 からストリーミング配信、初代と『月下の夜想曲』のレコード盤、2027 年春の東京・ロンドン・ロサンゼルス公演『Castlevania 40th Anniversary An Orchestral Concert』、ポップアップストアなどが公表された。",
+      news: [
+        { source: "Shacknews（コナミ公式告知の引用つき。無料配布の期間と取得後の扱い）", url: "https://www.shacknews.com/article/150820/konami-castlevania-free-ios-android-40th-anniversary" },
+        { source: "The Famicast（配信初日の実機確認。タッチ操作・セーブ仕様・外付けコントローラ非対応）", url: "https://www.thefamicast.com/2026/09/original-castlevania-free-on-mobile.html" },
+        { source: "GameHaunt（40 周年企画の全体像。セール期間・コンサート・新作 Belmont's Curse）", url: "https://gamehaunt.com/castlevania-40th-anniversary-free-game-sale-and-concert" },
+        { source: "LowYat.NET（モバイル版の仕様と配信終了後の扱い）", url: "https://www.lowyat.net/2026/405488/konami-castlevania-free-android-ios" },
+        { source: "游民星空（中文报道：企划全貌と初代 1986-09-26 発売の整理）", url: "https://www.gamersky.com/news/202609/2217155.shtml" }
+      ],
+      videos: [
+        { label: "40 周年記念トレーラーの掲載元（報道記事ページ）", platform: "媒体", url: "https://www.gamersky.com/news/202609/2217155.shtml" }
+      ],
+      hype: {
+        score: 71,
+        signals: [
+          "シリーズ 40 周年（2026-09-26）という節目に、初代そのものをモバイルで無償配布する施策が日英中のゲーム媒体で一斉に報じられた",
+          "無料配布以外にも 最大 80% OFF セール、原声の配信、レコード盤、3 都市ツアーのコンサートまで含む複合企画として告知された",
+          "初代『悪魔城ドラキュラ』は 1986 年発売のシリーズ原点で、30 本以上の続編を生んだ知名度がある",
+          "期間限定配布という希少性が取得を促す設計になっており、配信終了後は新規取得ができなくなる"
+        ]
+      },
+      tags: ["手游", "IP直営", "周年企画", "クラシック", "期間限定"],
+      mobile: {
+        status: "サービス中（2026-09-25 より iOS／Android 向けに期間限定で無料配信。取得期間は 2026-10-24 まで）",
+        os: ["iOS", "Android"],
+        monetization: "無料（期間限定の無償配布。アプリ内課金・追加コンテンツはなし）",
+        preReg: { open: false, since: "事前登録制度はなし（2026-09-25 からストアで直接無料配布）", reward: "該当なし（事前登録ではなく期間限定の無償配布）" },
+        developer: "コナミデジタルエンタテインメント",
+        publisher: "コナミデジタルエンタテインメント",
+        region: "日本／世界（App Store・Google Play）",
+        distribution: "App Store / Google Play",
+        payment: [],
+        ipSource: "『悪魔城ドラキュラ』（1986 年 9 月 26 日、ファミコンディスクシステムで発売）",
+        series: "シリーズ 40 周年（2026-09-26）記念企画の 1 つとして、初代の移植版を期間限定で無償配布するもの",
+        features: [
+          "1986 年にファミコンディスクシステムで発売された初代『悪魔城ドラキュラ』の直系移植",
+          "当時のテレビ比率のままの横スクロール画面と、画面外に置かれたバーチャルコントローラでの操作",
+          "オフラインでのプレイに対応し、クイックセーブ（セーブステート）を 1 枠搭載",
+          "配信期間内に取得すれば、期間終了後も再ダウンロードしてプレイできる",
+          "外部コントローラには 2026-09-25 時点で対応していない（配信初日の実機確認による）",
+          "40 周年企画として、同時に PlayStation／Steam でのシリーズセールや原声配信が告知されている"
+        ],
+        synopsis: "吸血鬼ドラキュラ伯爵の城に単身乗り込み、聖鞭ヴァンパイアキラーを武器に怪物たちを倒しながら奥へ進むゴシックホラーアクション。1986 年の初代はシリーズの原型を作った作品で、シモン・ベルモンドが主人公を務める。本モバイル版はその完全な移植で、当時の難易度と音楽をそのままに遊べる。",
+        cast: "該当なし（1986 年当時のオリジナル版のためボイスは収録されていない）",
+        caution: "本条目は作品本体が窗口内に初公開・発売されたものではなく、1986 年発売の既存作を 40 周年記念でモバイル向けに再配信したもの。このため bucket は new ではなく update としている"
+      }
+    },
+    {
+      id: "dawngazer-ignisphere",
+      company: "Monochrome Corp. / Good Smile Company",
+      companyJp: "Monochrome Corp.（兵庫県西宮市）／ 株式会社グッドスマイルカンパニー（東京都千代田区）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-25（新規 IP「IGNISPHERE」とその第 1 弾『DAWNGAZER』を正式発表）",
+      capturedAt: "2026-09-25",
+      title: { jp: "DAWNGAZER", cn: "DAWNGAZER", en: "DAWNGAZER" },
+      genre: "アクション RPG（新規 IP「IGNISPHERE」の第 1 弾）",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "PC (Steam)"],
+      release: "2028年（予定）",
+      releasePrecision: "年",
+      summary: "Monochrome Corp. 与 Good Smile Company 于 2026-09-25 共同发表全新 IP「IGNISPHERE」，首款作品为动作 RPG《DAWNGAZER》。总监是《圣兽之王（Unicorn Overlord）》的野间崇史，他以 Monochrome 15 周年为契机主导搭建这一由众多国家与种族交织的原创世界观，世界观本身也成为他领衔的工作室「IGNISPHERE Studio」之名。音乐由参与过《圣兽之王》《艾尔登法环》的工藤吉三作曲，主题歌演唱由曾演唱日剧《非自然死亡》主题曲的 KOCHO 担当。Good Smile Company 负责发行与周边商品化，并已宣布与 KADOKAWA 富士见奇幻文库合作推出多部轻小说。预定 2028 年登陆 Switch 2、PS5 与 PC（Steam），支持日文、英文、繁体中文与简体中文。",
+      highlight: "【2026-09-25 新規 IP「IGNISPHERE」発表】Monochrome Corp. とグッドスマイルカンパニーが新規 IP「IGNISPHERE」を発表し、その第 1 弾としてアクション RPG『DAWNGAZER』の開発を開始した。監督は『ユニコーンオーバーロード』の野間崇史、音楽は同作と『ELDEN RING』に参加した工藤吉三、主題歌のボーカルは KOCHO。公式 X（@IgnisphereX）とティザー映像が同日公開され、電撃オンラインとファミ通.com に野間の単独インタビューが掲載された。　発売は 2028 年、Nintendo Switch 2・PlayStation 5・PC（Steam）で、日本語・英語・繁体字・簡体字に対応予定。ゲームに留まらず、グッドスマイルカンパニーがフィギュア等の商品化を、KADOKAWA 富士見ファンタジア文庫が複数のライトノベル企画を担当することが同時に告知されている。",
+      news: [
+        { source: "Enduins（両社の公式プレスリリースをベースにした発表全文。開発体制・クレジット・対応言語・商品展開）", url: "https://www.enduins.com/news/takafumi-noma-and-good-smile-company-launch-new-ip-ignisphere-exclusive-development-interview-for-new-game-dawngazer-also-published" },
+        { source: "電撃オンライン（野間崇史 単独インタビュー。IGNISPHERE の成り立ちと DAWNGAZER の開発）", url: "https://dengekionline.com/article/202609/84356" },
+        { source: "ファミ通.com（野間崇史 単独インタビュー）", url: "https://www.famitsu.com/article/202609/88960" },
+        { source: "The Daily Game（発売年・機種・対応言語の整理）", url: "https://thedailygame.news/story/2026-09-25-unicorn-overlord-director-announces-dawngazer-action-rpg-for-ps5-switch--ab5262ee" }
+      ],
+      videos: [
+        { label: "ティザー映像（IGNISPHERE の世界観を初公開）", platform: "公式 YouTube", url: "https://youtu.be/McpAJLJ-D6E" },
+        { label: "公式 X（IGNISPHERE／@IgnisphereX。ティザー映像の公開元）", platform: "公式 X", url: "https://x.com/IgnisphereX" }
+      ],
+      hype: {
+        score: 63,
+        signals: [
+          "『ユニコーンオーバーロード』監督の野間崇史が手がける完全新規 IP として、発表当日に日英中の主要ゲーム媒体が一斉に報じた",
+          "音楽に工藤吉三（『ユニコーンオーバーロード』『ELDEN RING』）、主題歌ボーカルに KOCHO を起用し、ティザー映像の作りが話題の中心になった",
+          "グッドスマイルカンパニー（フィギュア）と KADOKAWA 富士見ファンタジア文庫（ライトノベル）が同時に参画する、多メディア展開前提の設計",
+          "発売は 2028 年で価格・ゲームプレイの詳細は未発表のため、現時点の数値シグナルは存在しない"
+        ]
+      },
+      tags: ["新作発表", "主机", "アクションRPG", "新規IP", "Nintendo Switch 2"],
+      console: {
+        status: "開発中（2028 年発売予定。機種は Nintendo Switch 2／PlayStation 5／PC（Steam））",
+        os: ["Nintendo Switch 2", "PlayStation 5", "PC（Steam）"],
+        monetization: "未発表（買い切り想定。価格・追加課金の有無は未公表）",
+        developer: "Monochrome Corp.（野間崇史が率いる IGNISPHERE Studio。兵庫県西宮市）／ 株式会社グッドスマイルカンパニー（共同開発・発行）",
+        publisher: "株式会社グッドスマイルカンパニー",
+        region: "日本／世界（日本語・英語・繁体字・簡体字に対応予定）",
+        distribution: "パッケージ版・ダウンロード版（予定。販売店は未発表）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        features: [
+          "Monochrome Corp. とグッドスマイルカンパニーが共同で立ち上げた完全新規 IP「IGNISPHERE」の第 1 弾",
+          "多数の国家と種族が織りなす独自の世界観を、クリエイター主導でゼロから構築する",
+          "『ユニコーンオーバーロード』で物語・キャラクター・デザインまで関わった野間崇史が監督を担当",
+          "音楽は工藤吉三（『ユニコーンオーバーロード』『ELDEN RING』）、主題歌ボーカルは KOCHO",
+          "ゲームを起点に、グッドスマイルカンパニーによるフィギュア等の商品化と、KADOKAWA 富士見ファンタジア文庫でのライトノベル企画が進行中",
+          "2026-09-25 に公式 X アカウントとティザー映像が同時公開され、電撃オンラインとファミ通.com に単独インタビューが掲載された"
+        ],
+        synopsis: "「IGNISPHERE」は、多数の国家と種族が織りなすオリジナルの広大な世界を舞台にした新規 IP。その第 1 弾となる『DAWNGAZER』はアクション RPG として開発されており、世界観の全容と物語の起点はティザー映像と単独インタビューで順次明かされていく段階にある。",
+        ipSource: "完全新規 IP「IGNISPHERE」（Monochrome Corp. × グッドスマイルカンパニー）",
+        series: "IGNISPHERE の第 1 弾。ゲームを起点にフィギュア・ライトノベルへ展開する多メディア企画として設計されている",
+        cast: "未発表（開発中。主題歌ボーカルは KOCHO）"
+      }
+    },
+    {
+      id: "kowloons-gate-suzaku",
+      company: "JETMAN",
+      companyJp: "JETMAN（開発）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-25（Nintendo Switch 版を 2026-10-29 に発売すると発表）",
+      capturedAt: "2026-09-25",
+      title: { jp: "KOWLOON'S GATE Suzaku", cn: "九龙风水传 朱雀", en: "KOWLOON'S GATE Suzaku" },
+      genre: "ウォーキングゲーム（探索／念写）",
+      platforms: ["Nintendo Switch"],
+      release: "2026-10-29",
+      releasePrecision: "日",
+      summary: "1997 年 PlayStation 名作《九龍風水傳（KOWLOON'S GATE）》的前传，由 JETMAN 开发，预定 2026-10-29 登陆 Nintendo Switch。作品被官方定位为「究极漫步游戏」：玩家在九龙城寨迷宫般的巷弄中游荡，以从拾得的相册里找到的照片为线索，前往照片中的确切地点，通过「念写」唤回沉睡在场所中的记忆。相比原作，本作能从未出现过的视角与地点重新审视这座沉没于记忆中的城市，熟悉的面孔也会以更高清晰度现身。2026-09-25 公布最新预告片与发售日。发售元、价格与对应语言官方尚未公开。",
+      highlight: "【2026-09-25 Switch 版の発売日を発表】JETMAN が『KOWLOON'S GATE Suzaku』の Nintendo Switch 版を 2026-10-29 に発売すると発表し、最新トレーラーを公開した。　1997 年の PlayStation 用『九龍風水傳（KOWLOON'S GATE）』の世界観を再構築した前日譚で、「究極の散歩ゲーム」と位置づけられる。九龍城砦の迷路のような路地を歩き、拾ったアルバムの写真を手がかりに写っている場所を探し出し、「念写」で記憶を呼び覚ますのが目的。原作では見られなかった角度や場所から街を眺められる点が謳われている。",
+      news: [
+        { source: "GoNintendo（Switch 版 2026-10-29 発売の発表と作品概要・トレーラー）", url: "https://gonintendo.com/contents/65404-kowloon-s-gate-suzaku-comes-to-switch-oct-29th-2026" },
+        { source: "18183 游戏新闻（中文报道：前传定位・念写・发售日）", url: "https://news.18183.com/yxxw/202609/9045241.html" }
+      ],
+      videos: [
+        { label: "最新トレーラー（GoNintendo 記事内に掲載）", platform: "媒体", url: "https://gonintendo.com/contents/65404-kowloon-s-gate-suzaku-comes-to-switch-oct-29th-2026" }
+      ],
+      hype: {
+        score: 44,
+        signals: [
+          "1997 年の PlayStation 作品『九龍風水傳』の前日譚として、発売日（2026-10-29）とトレーラーが同時に公開された",
+          "九龍城砦の街並みを歩く「散歩ゲーム」という独自の切り口で、海外メディアが発売日を一斉に報じた",
+          "開発は JETMAN。発売元・価格・対応言語は 2026-09-25 時点で公表されていない"
+        ]
+      },
+      tags: ["主机", "Switch", "アドベンチャー", "探索型", "定档"],
+      console: {
+        status: "2026-10-29 発売予定（Nintendo Switch）",
+        os: ["Nintendo Switch"],
+        monetization: "未発表（価格・課金形態は未公表）",
+        developer: "JETMAN",
+        publisher: "未発表",
+        region: "日本（対応言語・海外展開は未発表）",
+        distribution: "パッケージ版・ダウンロード版（販売形態は未発表）",
+        stores: ["Nintendo eShop"],
+        features: [
+          "1997 年の PlayStation 用『九龍風水傳』の世界観を再構築した前日譚",
+          "九龍城砦の迷路のような路地を自由に歩く「究極の散歩ゲーム」",
+          "拾ったアルバムの写真を手がかりに、写っている場所を探し出す探索",
+          "「念写」によって、その場所に眠る記憶を呼び覚ますシステム",
+          "原作では見られなかった角度・場所から街を眺められる、再構成された景観",
+          "原作に登場した人物たちが、より高精細な姿で再登場する"
+        ],
+        synopsis: "九龍城砦の路地を歩き、拾ったアルバムの写真と同じ構図の場所を探し出して「念写」を行い、そこに残る記憶を呼び覚ましていく探索型の作品。戦闘や謎解きではなく、街そのものを眺めて歩くことが遊びの中心に置かれている。",
+        ipSource: "『九龍風水傳（KOWLOON'S GATE）』（1997 年、PlayStation）",
+        series: "1997 年の原作の前日譚。原作の世界観を再構築した新作として位置づけられている",
+        cast: "未発表",
+        caution: "開発元を「JETMAN」とする海外メディアの報道があるが、発売元・価格・対応言語・パッケージ形態はいずれも 2026-09-25 時点で公表されていない"
+      }
+    },
+    {
+      id: "regloss-cross",
+      company: "COVER（holo Indie）",
+      companyJp: "カバー株式会社（holo Indie ブランド／運営 CCMC）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-09-25（holo Indie が Steam ストアページとプロモーション映像を公開）",
+      capturedAt: "2026-09-25",
+      title: { jp: "ReGLOSS:CROSS", cn: "ReGLOSS:CROSS", en: "ReGLOSS:CROSS" },
+      genre: "2D パズル",
+      platforms: ["PC (Steam)"],
+      release: "2026-10-15",
+      releasePrecision: "日",
+      summary: "由 hololive 官方创作游戏品牌「holo Indie」（运营 CCMC，隶属 COVER）发行、独立开发者 yado 制作的 2D 益智游戏。玩家通过指定只能沿直线前进的「ReGLOSS」成员们的移动方向，引导分成两组搭档的成员在迷宫中会合。游戏以二头身 Q 版形象描绘 ReGLOSS 成员，并配有改编 BGM。收录 5 个普通关卡与 3 个额外关卡，合计 8 关、70 道谜题；随关卡推进会出现「传送门」「路标」等机关，开发方称后半段难度即便对益智老手也不轻松。2026-09-25 正式公开 Steam 商店页并同步放出宣传影片，预定 2026-10-15 在 Steam 推出。",
+      highlight: "【2026-09-25 Steam ストアページ公開】holo Indie が独立開発者 yado の 2D パズル『ReGLOSS:CROSS』の Steam ストアページを公開し、プロモーション映像を同時に公開した。hololive のユニット「ReGLOSS」のメンバーを二頭身の Q 版キャラクターで描き、直進しかしないメンバーの進路を指示して 2 組のペアを合流させるのが目的。　全 8 ステージ・70 問（通常 5＋追加 3）で、進行に伴い「ワープ」「道標」などのギミックが加わる。前半は易しいが、後半はパズル慣れしたプレイヤーでも苦戦する難度になると開発者が説明している。発売は 2026-10-15 予定。",
+      news: [
+        { source: "巴哈姆特 GNN（Steam ストアページ公開とプロモーション映像、収録ステージ数とギミック）", url: "https://gnn.gamer.com.tw/detail.php?sn=312360" }
+      ],
+      videos: [
+        { label: "プロモーション映像（GNN 記事内に掲載）", platform: "媒体", url: "https://gnn.gamer.com.tw/detail.php?sn=312360" }
+      ],
+      hype: {
+        score: 41,
+        signals: [
+          "hololive の公式創作ゲームブランド「holo Indie」からの新作で、ユニット「ReGLOSS」を直接題材にした公式側の企画",
+          "Steam ストアページとプロモーション映像が 2026-09-25 に同時公開され、発売日が 2026-10-15 に確定した",
+          "個人開発者 yado の制作で、この時点ではウィッシュリスト数などの数値シグナルは公開されていない"
+        ]
+      },
+      tags: ["PC", "Steam", "パズル", "hololive", "holo Indie", "新作発表"],
+      console: {
+        status: "2026-10-15 配信予定（Steam ストアページ公開済み、ウィッシュリスト登録受付中）",
+        os: ["Windows（Steam）"],
+        monetization: "買い切り（価格は未発表）",
+        developer: "yado（個人開発者）",
+        publisher: "カバー株式会社（ブランド：holo Indie／運営：CCMC）",
+        region: "日本／世界（Steam での配信予定）",
+        distribution: "Steam でのダウンロード販売",
+        stores: ["Steam"],
+        features: [
+          "直進しかできない「ReGLOSS」のメンバーに進路を指示し、2 組のペアを合流させる 2D パズル",
+          "hololive のユニット「ReGLOSS」を二頭身の Q 版キャラクターで描く",
+          "パズル画面を彩る、楽曲のアレンジ BGM を収録",
+          "全 8 ステージ・70 問（通常 5＋追加 3）。進行に伴い「ワープ」「道標」などのギミックが加わる",
+          "後半はパズル慣れしたプレイヤーでも苦戦する難度だと開発者が説明している",
+          "カバー株式会社が運営する創作ゲームブランド「holo Indie」から、外部クリエイターの作品として商品化される枠組みに沿う"
+        ],
+        synopsis: "「今日の実体イベントは楽しいはずだったのに全員が遅刻してしまった」という設定のもと、ホロライブのユニット「ReGLOSS」のメンバーを目的地へ導き、分かれてしまった相棒同士を無事に合流させるのが目的。操作はメンバーの進行方向を指し示すだけで、ルールは単純だが、後半はワープや道標を組み合わせた高難度のパズルが待つ。",
+        ipSource: "『hololive』のユニット「ReGLOSS」（カバー株式会社）",
+        series: "カバー株式会社が運営する創作ゲームブランド「holo Indie」のタイトル。外部クリエイターによる hololive の創作ゲームを公式に商品化する枠組み",
+        cast: "未発表（「ReGLOSS」のメンバーが二頭身キャラクターとして登場する。音声はアレンジ BGM が中心）"
+      }
+    },
+    {
+      id: "sento-survivor",
+      company: "ZOO Corporation",
+      companyJp: "ZOO Corporation（開発・発行）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-24（Nintendo Switch 版を配信開始し、Boss Rush モードの大型アップデートを実装）",
+      capturedAt: "2026-09-25",
+      title: { jp: "SENTO SURVIVOR : Slip, Grab, and Bathe in Glory!（銭湯サバイバー）", cn: "SENTO SURVIVOR（澡堂求生者）", en: "SENTO SURVIVOR: Slip, Grab, and Bathe in Glory!" },
+      genre: "アクションシューティング（パーティ／ローカル対戦）",
+      platforms: ["Nintendo Switch"],
+      release: "2026-09-24（Nintendo Switch 版。Steam 版は 2026-08-05）",
+      releasePrecision: "日",
+      summary: "由 ZOO Corporation 自主开发并发行的水枪对战动作游戏。玩家扮演见习澡堂师「Asahi」，在被热水泡得极滑的瓷砖地面上滑行、跌倒，用水枪把对手打飞，争夺四年一度的「荣耀的第一泡汤」。单人战役横跨以日本各地为原型的 6 大区域、共 36 个关卡，每关另有 3 项挑战，区域尽头由「汤守」头目把守；武器有水枪型 Aqua Shot、霰弹型 Aqua Burst、步枪型 Aqua Lancer 与冲锋枪型 Aqua Storm 四种，可自定义外观。支持最多 4 人本地对战。Steam 版 2026-08-05 上线，Nintendo Switch 版 2026-09-24 上线（原价 1,200 日元，发售纪念 20% 折扣），同日实装了结合 Roguelike 要素、连续挑战 6 名头目的「Boss Rush」模式，Steam 版同步更新。",
+      highlight: "【2026-09-24 Switch 版を配信開始】ZOO Corporation が『SENTO SURVIVOR : Slip, Grab, and Bathe in Glory!（銭湯サバイバー）』の Nintendo Switch 版を配信開始した。通常 1,200 円のところ、発売記念で 20% OFF のローンチセールを実施している。　同日、連続して 6 人のボスと戦い、戦いの合間に 3 枚のランダムカードから成長方向を選ぶローグライク要素を組み込んだ「Boss Rush」モードの大型アップデートが実装され、Steam 版にも同時に配信された。日本語・簡体字・繁体字・英語・スペイン語に対応し、ローカルで最大 4 人の対戦が可能（Nintendo Switch 2 でも互換動作）。",
+      news: [
+        { source: "任天堂 公式ストアページ（Nintendo Switch 版。発売日・対応言語・セール期間・ファイルサイズ）", url: "https://www.nintendo.com/store/products/sento-survivor-slip-grab-and-bathe-in-glory-switch" },
+        { source: "Ludens Media（中文报道：Switch 版上市、8 折早鸟优惠与 Boss Rush 大型更新）", url: "https://www.ludens.com.tw/sento-survivor-nintendo-switch-launch" },
+        { source: "Steam ストアページ（Steam 版は 2026-08-05 配信開始）", url: "https://store.steampowered.com/app/4214810" },
+        { source: "GameFAQs（Steam 版 08/05 と Switch 版 09/24 の発売日データ）", url: "https://gamefaqs.gamespot.com/pc/615902-sento-survivor-slip-grab-and-bathe-in-glory/data" }
+      ],
+      videos: [
+        { label: "トレーラー（任天堂 公式ストアページ内に掲載）", platform: "官方站", url: "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/SENTO-SURVIVOR-Slip-Grab-and-Bathe-in-Glory--3188313.html" }
+      ],
+      hype: {
+        score: 38,
+        signals: [
+          "開発・発行ともに自社で手がける国内パブリッシャーの作品で、Switch 版の配信に合わせて Boss Rush モードの大型アップデートが同時実装された",
+          "「滑る銭湯の床」という独自の舞台設定と最大 4 人のローカル対戦で、パーティゲームとして報じられている",
+          "Nintendo Switch 版は発売記念で 20% OFF のセールを実施中（任天堂公式ストアに記載）",
+          "個人規模のタイトルで、レビュー数・販売本数などの数値シグナルはまだ存在しない"
+        ]
+      },
+      tags: ["主机", "Switch", "アクション", "パーティ", "新作発表"],
+      console: {
+        status: "発売中（Nintendo Switch 版は 2026-09-24 配信開始。Steam 版は 2026-08-05 配信開始済み）",
+        os: ["Nintendo Switch", "PC（Steam）"],
+        monetization: "買い切り。通常 1,200 円で、発売記念の 20% OFF セールを実施中（任天堂公式ストアの記載による）",
+        developer: "ZOO Corporation",
+        publisher: "ZOO Corporation",
+        region: "日本／世界（日本語・英語・簡体字・繁体字・スペイン語に対応）",
+        distribution: "ダウンロード販売",
+        stores: ["Nintendo eShop", "Steam"],
+        features: [
+          "滑りやすい銭湯の床で水鉄砲を撃ち合うアクションシューティング",
+          "日本各地をモチーフにした 6 エリア・全 36 ステージのシングルキャンペーン",
+          "各ステージに 3 つのチャレンジ、エリアの最後には「湯守」のボスが待つ",
+          "アクアショット／アクアバースト／アクアランサー／アクアストームの 4 種の水鉄砲を使い分け、外見もカスタマイズ可能",
+          "床のジェットや巨大なラバーダックなど、ステージギミックが試合を混沌に落とし込む",
+          "ローカルで最大 4 人の対戦に対応。Switch 版の配信と同時に、ローグライク要素を取り入れた「Boss Rush」モードが実装された"
+        ],
+        synopsis: "4 年に一度開かれる「大銭湯一番風呂祭」を舞台に、日本各地の銭湯師たちが「一番風呂」という聖なる栄誉を懸けてぶつかり合う。プレイヤーは見習い銭湯師のアサヒとなり、摩擦の極めて低いタイルの上を滑りながら水鉄砲で強敵を打ち倒し、日本各地を巡る 6 エリア・36 ステージを勝ち抜いていく。",
+        ipSource: "完全新作（オリジナル IP）",
+        series: "シリーズ化されていない単独作品。ZOO Corporation が開発・発行を自社で手がける",
+        cast: "該当なし（プレイアブルキャラクターはアサヒ／レイ／テッペイ／ユズキの 4 名で、ボイスキャストは公表されていない）"
+      }
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -7492,7 +7776,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-24",
+    asOf: "2026-09-25",
     listTotal: 50,
     categories: [
       {
@@ -7506,7 +7790,7 @@ window.OBSERVATORY = {
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct で『ロックマン デュアルオーバーライド』の 2027 年春発売が確定、9/1 には『ドラゴンズドグマ 2 ダークアリズン』の遺物遠征サイクルを公開した" },
-          { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
+          { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
           { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou", "sophiechat-ai", "dynasty-warriors-3-complete-edition-remastered", "apothecary-diaries-false-imperial-brother"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表。9/10 には東宝 TOHO Games と共同で『薬屋のひとりごと ～偽りの皇弟～』（開発：ガスト／2027 年初頭、Switch 2・Switch・PS5・Steam）を発表した）" },
         ]
       },
@@ -7580,7 +7864,7 @@ window.OBSERVATORY = {
       items: [
         { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
-          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["patlabor-the-case-files", "magical-girl-incustom-village", "tokyo-revengers-unlimited"] },
+          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "tokyo-revengers-unlimited"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
         { name: "株式会社モノリスソフト", short: "Monolith Soft", status: "covered", gameIds: ["xenoblade-genesis"] },
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
@@ -7589,7 +7873,7 @@ window.OBSERVATORY = {
         { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["touken-ranbu-pazugiri", "over-rush", "puchipoyon-fantasy-world"], note: "TGS2026 に8年ぶり出展し新作3本を同時公開。『幻想世界のぷちぽよん』は LEVEL-5 との共同タイトル、『刀剣乱舞 ぱずぎり』はパズル部分の開発を担当" },
         { name: "TOHO Games（東宝株式会社）", short: "TOHO Games", status: "covered", gameIds: ["haikyu-all-challengers", "apothecary-diaries-false-imperial-brother"], focus: true, note: "动画『ハイキュー!!』のIP保有元が自らゲーム事業ブランドを運営。IP ホルダー直営のため監修業務と直結。9/10 にはコーエーテクモゲームス（ガスト）と共同でテレビアニメ『薬屋のひとりごと』初の家庭用ゲーム『薬屋のひとりごと ～偽りの皇弟～』（2027 年初頭、Switch 2・Switch・PS5・Steam）を発表し、自社ブランド初のコンシューマーゲーム事業参入となる" },
         { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
-        { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["hololive-dreams", "holovillage-our-cozy-days"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発" },
+        { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["regloss-cross", "hololive-dreams", "holovillage-our-cozy-days"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発" },
         { name: "株式会社QualiArts", short: "QualiArts", status: "covered", gameIds: ["hololive-dreams"], note: "サイバーエージェント連結子会社。『hololive Dreams』の開発・配信元" },
         { name: "株式会社enish", short: "enish", status: "covered", gameIds: ["yowamushi-pedal-resonance-pedaism"], note: "東証グロース上場。Gホールディングスと共同で『弱虫ペダル』新作アプリを運営" },
         { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
@@ -7679,15 +7963,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 展後 6 場目（09-24 19:00 場）。9 月 24 日の日中〜夜間の区間は、日方主導のスマホ新作の発表がゼロだった一方、当日最大の話題は『BanG Dream! Our Notes』の世界同時配信が日本版 Google Play の審査未完により配信当日に延期となったこと。『ONE PIECE 海のごちそうレストラン』はモバイル版の予約受付が開始され、既存 2 件を更新した。条目総数は 138 のまま（手游区 34 ／ 主机・PC 区 113）",
+    headline: "TGS2026 展後 7 場目（09-25 場）。9/25 は日方主導の新規発表が集中した日で、Monochrome Corp. × グッドスマイルカンパニー の新規 IP『IGNISPHERE』と初弾『DAWNGAZER』（監督：野間崇史／2028 年）が最大の話題となった。手游侧では KONAMI が『悪魔城ドラキュラ』40 周年企画として初代のモバイル版を 9/25〜10/24 の期間限定で無料配信し、『BanG Dream! Our Notes』は国際服が正式サービスを開始した。条目総数は 138 → 143（手游区 34 → 35 ／ 主机・PC 区 113 → 117）",
     points: [
-      "**手游侧（本場の最大の出来事）**：日方主導のスマホ新作の発表はゼロ。9/24 12:00（UTC+9）に日本を含む世界同時配信を予定していた『BanG Dream! Our Notes』（ブシロード／開発 フロムトーキョー）は、日本版の Google Play 審査が完了していないことを理由に配信当日に延期となった。公式 EN アカウントが延期を告知し、ゲーム内のメンテナンス終了予定時刻は 20:00（UTC+9）に設定。審査通過後に可及的速やかに配信を開始するとしている。事前登録は世界累計 200 万件を突破済み。",
-      "**手游侧（在営タイトルの窓口内進展）**：『ONE PIECE 海のごちそうレストラン』（バンダイナムコエンターテインメント／開発 カイロソフト）のモバイル版（iOS／Android）予約受付が 2026-09-24 に開始された。コンシューマ版は 10-22、Steam・モバイル版は 10-23 発売の予定で、買い切りのため追加課金はない。本体の初公開は 2026-09-18 の Nintendo Direct（窗口内）だが、今回の進展は既存タイトルの追加情報のため bucket を update に変更した。",
-      "**主机・PC 側**：本日 9/24 の発売・配信（『SILENT HILL: Townfall』『神貌之樹逆カバラ』『ドラゴンクエストXI S』Switch 2 版、『刀剣乱舞 ぱずぎり』配信開始 等）と主机側の漏収補収分は 09:00 場で記録済みのため、当場での追加収録はない。小規模作として 09-23 場から持ち越していた『SENTO SURVIVOR』（ZOO Corporation、Switch、日本 9/24 発売）は、日本語側の報道を確認できず露出が小さいため引き続き見送りとした。",
-      "**VR／MR の波は口径外**：9/24 に Meta VR 関連の新作発表が相次ぎ、Marvelous × Grounding『Story of Seasons: Your Wonderful Life』（Quest 3／Meta VR Glasses、2027 年春）、Enhance『Tetris Effect: Mixed Realities』、Capcom ライセンスによる『逆転裁判5』の VR 化などが公表された。日系 IP／日系パブリッシャーが関与するものも含まれるが、本站の platformClass は mobile／console／pc／multi の 4 区分で VR 専用機を扱わないため、口径を変えずに不収録とした（次場以降の口径見直し候補として記録）。",
-      "**漏収核查**：『チェンソーマン』のスマホ新作は引き続き開発・発行元が未公表で資本帰属を判定できず、厳格運用のまま未収録を維持（次場以降に持ち越し）。サンリオ関連では『Hello Kitty and Friends: Freeze Tag Party』の Switch 2 版が日本 2026-11-26 発売と発表されたが、本体（Switch 版）が 2025 年発売で滚动窗口外、かつ国内発行の主体が海外パブリッシャー（Nighthawk Interactive）であるため、今場は見送りとした。『ONE PIECE』は上記のとおり予約受付で更新済み。",
-      "**中资の新作は引き続き全面的に跳过**：本場で確認された中国資本の開発・発行による新作はすべて不収録とした。作品名・社名とも本站のデータには一切記載していない。",
-      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50、extra 34 家でいずれも不変。gameIds の増減なし（『BanG Dream! Our Notes』は既にブシロード、『ONE PIECE 海のごちそうレストラン』は既にバンダイナムコエンターテインメント／カイロソフトに登録済み）。Famitsu 期待榜は新一期を確認できなかったため mostWanted は据え置き（asOf 2026-09-21 の 9/17 号）。",
+      "**手游侧（本場の最大の出来事）**：KONAMI が『悪魔城ドラキュラ』シリーズ 40 周年（2026-09-26）企画を 9/25 に発表し、1986 年の初代を iOS／Android 向けに移植して 2026-09-25〜10-24 の期間限定で無料配布すると告知した。期間内に取得すれば配信終了後もプレイでき、終了後はストアから取り下げられて新規取得はできなくなる。あわせて PlayStation 9/23〜10/7・Steam 9/24〜10/8 の最大 80% OFF セール、原声の 9/26 ストリーミング配信、レコード盤、2027 年春の東京・ロンドン・ロサンゼルス公演『Castlevania 40th Anniversary An Orchestral Concert』、10-15 発売の新作『Castlevania: Belmont's Curse』が公表された。本体は 1986 年発売のため bucket は update としている。",
+      "**手游侧（在営タイトルの窓口内進展）**：『BanG Dream! Our Notes』（ブシロード／開発 フロムトーキョー）の国際服が正式サービスを開始した。開服記念 MV『Abracadabra – Ave Mujica』（youtu.be/_5YJLP7OQ9k）が公開され、9/25 から 5 日連続で 1 曲ずつ追加されるキャンペーンや事前登録 200 万件突破の特典配布が告知されている。日本版は 9/24 の Google Play 審査未完による延期が続いており、日版の配信開始時期は 2026-09-25 時点で未公表。なお発行の主体は日本版がブシロードであり、資本帰属の判定順（①開発 → ②日本版発行 → ③海外版発行は判定に含めない）に沿って収録対象のまま据え置いている。",
+      "**主机・PC 側（本場の目玉）**：Monochrome Corp. とグッドスマイルカンパニーが新規 IP「IGNISPHERE」を発表し、第 1 弾のアクション RPG『DAWNGAZER』（監督：『ユニコーンオーバーロード』の野間崇史／音楽：工藤吉三／主題歌：KOCHO、2028 年、Nintendo Switch 2・PS5・PC）の開発を開始した。グッドスマイルカンパニー（フィギュア等の商品化）と KADOKAWA 富士見ファンタジア文庫（ライトノベル）が同時に参画する多メディア企画で、公式 X（@IgnisphereX）とティザー映像（youtu.be/McpAJLJ-D6E）が同日公開され、電撃オンラインとファミ通.com に単独インタビューが掲載された。",
+      "**主机・PC 側（その他の新規収録 3 件）**：『KOWLOON'S GATE Suzaku』（開発 JETMAN／Nintendo Switch／2026-10-29。1997 年の『九龍風水傳』の前日譚で「究極の散歩ゲーム」）、『SENTO SURVIVOR（銭湯サバイバー）』（ZOO Corporation／Switch 版 2026-09-24 配信開始、Steam 版は 2026-08-05。ローカル 4 人対戦と Boss Rush 大型更新）、『ReGLOSS:CROSS』（holo Indie／開発 yado／PC(Steam)／2026-10-15。全 8 ステージ 70 問の 2D パズル）を新規収録した。",
+      "**漏収核查**：本場は「前日入ってきた候補」を中心に、① 周年・記念企画系（『悪魔城ドラキュラ』40 周年）、② 国内アニメ・VTuber IP 系スマホ作（BanG Dream!／刀剣乱舞／ONE PIECE／ホロライブ／東京リベンジャーズ）、③ Steam の新規ストアページ・新規発表系（『ReGLOSS:CROSS』『SENTO SURVIVOR』『KOWLOON'S GATE Suzaku』『DAWNGAZER』）の 3 系統で検索した。『チェンソーマン』のスマホ新作は引き続き開発・発行元が未公表で資本帰属を判定できず、厳格運用のまま未収録を維持（持ち越し）。",
+      "**中资の新作は引き続き全面的に跳过**：本場で確認された中国資本の開発・発行による新作はすべて不収録とした。作品名・社名は本站のデータには一切記載していない。",
+      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50、extra 34 家でいずれも不変。gameIds はグッドスマイルカンパニー（＋DAWNGAZER）、カバー株式会社（＋ReGLOSS:CROSS）、コナミデジタルエンタテインメント（＋悪魔城ドラキュラ 初代モバイル版）の 3 件を追加した。ZOO Corporation／JETMAN／Monochrome Corp. はいずれもコンシューマー側が主体で、「国内のスマホ向け発行方」という extra の口径に合わないため加えていない。Famitsu 期待榜は新一期を確認できず mostWanted は据え置き（asOf 2026-09-21 の 9/17 号）。"
     ]
   },
 };
