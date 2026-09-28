@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-28T22:05:00+08:00",
+    updatedAt: "2026-09-28T22:20:00+08:00",
     edition: "2026-09-28",
     window: "2026-07-28 ~ 2026-09-28（滚动最近 2 个月）",
     sources: [
@@ -943,58 +943,6 @@ window.OBSERVATORY = {
     },
 
     {
-      id: "inazuma-eleven-cross",
-      company: "LEVEL-5",
-      companyJp: "株式会社レベルファイブ（開発・運営：株式会社Aiming）",
-      bucket: "update",
-      platformClass: "mobile",
-      announceDate: "2026-09-18（TGS2026 でレベルファイブが自社大型作と並べて訴求）",
-      capturedAt: "2026-09-19",
-      title: { jp: "イナズマイレブン クロス", cn: "闪电十一人 交锋", en: "Inazuma Eleven: Cross" },
-      genre: "养成模拟（スマートフォン）",
-      platforms: ["iOS", "Android"],
-      release: "2026-06-09（サービス開始済み）",
-      releasePrecision: "日",
-      summary: "《闪电十一人》系列首款智能手机向养成模拟游戏，由 LEVEL-5 发行、Aiming 开发与运营。玩家以监督身份育成选手、编成专属球队，战术判断直接决定比赛走向；比赛可完全自动进行，不擅长动作操作或只想利用碎片时间的玩家也能推进。2026 年 1 月 13 日公布配信决定，4 月 10 日开放事前登录并突破 20 万人，6 月 9 日正式开服，6 月 22 日突破 100 万下载。系列历代角色（円堂守、豪炎寺修也、松风天马、剑城京介、神童拓人、雾野兰丸、Fey、黄名子等）陆续以转蛋与活动形式登场。本次「LEVEL5 VISION 2026 II 夢」公开新内容宣传片，TGS2026 播放新游玩影像。",
-      highlight: "【TGS2026 9/18】LEVEL-5 在 TGS2026 把本作与《レイトン教授》《イナズマイレブン 烈火の革命》等自社大型主机作并列宣传，对一款智能手机作品而言是异常突出的展位定位；配信時期与海外展开仍未发表。　系列首款手游，开服 13 天即突破 100 万下载；本次发布会公开新内容宣传片。",
-      news: [
-        { source: "Aiming 官方新闻稿一览（开服・100万DL・活动沿革）", url: "https://aiming-inc.com/ja/news/game-news/?tag=inazuma-cross" },
-        { source: "Notebookcheck（TGS2026 阵容含本作新影像）", url: "https://www.notebookcheck.net/Level-5-reveals-nine-title-Tokyo-Game-Show-2026-lineup.1397681.0.html" },
-        { source: "GameForce Mobile（TGS2026 でのレベルファイブ のクロス露出）", url: "https://www.gameforcemobile.com/news/5076-inazuma-eleven-cross-gets-fresh-tokyo-game-show-exposure" },
-      ],
-      videos: [
-        { label: "Vision 2026 II 公开新内容宣传片报道", platform: "媒体", url: "https://www.notebookcheck.net/Level-5-reveals-nine-title-Tokyo-Game-Show-2026-lineup.1397681.0.html" },
-        { label: "官方站（イナズマイレブン クロス）", platform: "官方站", url: "https://www.inazuma-cross.jp/" },
-        { label: "官方 X @inazuma_cross", platform: "X", url: "https://x.com/inazuma_cross" }
-      ],
-      hype: {
-        score: 63,
-        signals: [
-          "开服 13 天突破 100 万 DL，第三方应用监测显示其在日本 Google Play 模拟类畅销榜曾进入前 20 位",
-          "系列历代角色持续以转蛋形式回流，靠 IP 粉丝盘驱动",
-          "游戏本体开服已过 3 个月，本次属内容更新而非新作发表"
-        ]
-      },
-      tags: ["手游", "养成模拟", "IP改编", "已上线", "TGS2026"],
-      mobile: {
-        status: "正式サービス中",
-        os: ["iOS", "Android"],
-        monetization: "基本無料（アイテム課金制）",
-        preReg: { open: false, since: "2026-04-10", reward: "累計事前登録者数 20万人を突破（2026年5月21日時点）。2026年6月9日のサービス開始に伴い受付終了" },
-        developer: "株式会社Aiming",
-        publisher: "株式会社レベルファイブ",
-        region: "日本",
-        distribution: "App Store / Google Play（日本区）",
-        payment: [],
-        ipSource: "LEVEL-5 のオリジナル IP『イナズマイレブン』シリーズ（2008年発のゲーム／アニメ）",
-        series: "シリーズ初のスマートフォン向け育成シミュレーション。2026年1月13日に配信決定を発表、6月9日サービス開始、6月22日に100万DL突破",
-        features: ["選手を育成し、オリジナルチームを編成する育成シミュレーション", "監督として戦術を組み、試合の行方を左右する", "試合は完全自動進行にも対応（操作が苦手な層・すき間時間向け）", "シリーズ歴代キャラクターがガチャ・イベントで順次登場", "シーズン制でメインストーリーとイベントを追加"],
-        synopsis: "プレイヤーは監督となり、選手を育成して自分だけのチームを作り上げる。戦術の組み方で試合結果が変わる戦略性と、完全自動進行による手軽さを両立させた育成シミュレーション。",
-        cast: "シリーズ歴代キャラクターが登場：円堂守／豪炎寺修也（帝国学園）／松風天馬・剣城京介（イナズマイレブンGO）／神童拓人・霧野蘭丸／フェイ・黄名子 ほか。個別のCVは公式リリースに記載なし"
-      }
-    },
-
-    {
       id: "digimon-up",
       company: "Bandai Namco Entertainment",
       companyJp: "株式会社バンダイナムコエンターテインメント",
@@ -1783,58 +1731,6 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["已上线", "手游", "IP改编", "Roguelite"]
-    },
-
-    {
-      id: "re-survival-unit",
-      company: "Aniplex（アニプレックス）",
-      companyJp: "株式会社アニプレックス",
-      bucket: "update",
-      platformClass: "mobile",
-      announceDate: "2026-07-02（〜07-29 モンスターハンターコラボ開催）",
-      capturedAt: "2026-09-15",
-      title: { jp: "Resident Evil Survival Unit", cn: "生化危机 Survival Unit", en: "Resident Evil Survival Unit" },
-      genre: "实时战略（RTS）",
-      platforms: ["iOS", "Android"],
-      release: "2025-11-18（世界151の国と地域でサービス開始）",
-      releasePrecision: "日",
-      summary: "Aniplex 与韩国 JOYCITY 共同开发的《生化危机》系列首款正统 RTS 手游，Capcom 提供 IP 监修。玩家指挥单位、经营作为据点的洋馆，把系列标志性的生存恐怖重构为实时战略体验；本编的里昂、克里斯、瑞贝卡、比利、艾丽莎等角色在「平行世界」设定下首次同队。2025 年 11 月 18 日在全球 151 个国家和地区上线，首日下载即突破 100 万；2026 年 1 月追加新地图与三名角色，7 月与《怪物猎人》实施联动。",
-      highlight: "系列首次转向实时战略品类，且由音乐系发行商 Aniplex 主导发行、韩国 JOYCITY 开发——Capcom 仅提供 IP 监修，是少见的组合。",
-      mobile: {
-        status: "正式サービス中",
-        os: ["iOS", "Android"],
-        monetization: "基本無料（アプリ内課金あり）",
-        preReg: { open: false, since: "2025-08", reward: "予約注文・事前登録者に、序盤攻略と育成を支援するアイテムセットを配布（サービス開始後、ゲーム内メールボックスで受け取り）。事前登録者数は2025年10月23日時点で200万人を突破。" },
-        developer: "JOYCITY Corporation",
-        publisher: "Aniplex（一部地域は JOYCITY Corporation が配信）",
-        region: "世界151の国と地域（日本・韓国・北米・欧州・アジアほか）",
-        distribution: "App Store / Google Play（世界151の国と地域）",
-        payment: [],
-        ipSource: "『バイオハザード（Resident Evil）』シリーズ（株式会社カプコン）。本作はカプコンの IP 提供・監修のもと、Aniplex と JOYCITY が開発・配信する。",
-        series: "『バイオハザード』シリーズ（1996年の第1作に始まるカプコンの看板サバイバルホラー）を題材にした、シリーズ初の本格リアルタイムストラテジー。本編のレオン、クリス、レベッカ、ビリー、アリッサらが並行世界設定で共演し、プレイヤーは洋館を拠点に運営する。クリーチャー原案は天野喜孝。2026年7月には『モンスターハンター』とのコラボを実施。",
-        features: ["リアルタイムストラテジーへのジャンル転換", "ユニット指揮による戦術設計", "拠点となる洋館の運営・拡張", "シリーズ初の本格RTS展開", "本編キャラが並行世界設定で共演", "クリーチャー原案：天野喜孝"],
-        synopsis: "『バイオハザード』の世界観を、ゾンビシューターでも屋敷探索でもなく、ユニットを指揮する戦略体験として再構築。",
-        cast: "レオン・S・ケネディ、クリス・レッドフィールド、レベッカ・チェンバース、ビリー・コーエン、アリッサ・アシュクロフトら本編キャラクターが並行世界設定で共演。ボイスクレジットは公式未発表。",
-      },
-      news: [
-        { source: "Games Press（全球上线公告・151 国地域）", url: "https://www.gamespress.com/zh-CN/Resident-Evil-Survival-Unit-Launches-Worldwide-on-November-18-th" },
-        { source: "AppBank（日本国内上线报道）", url: "https://www.appbank.net/2025/11/10/game/2862182.php" },
-        { source: "GameMeca（《怪物猎人》联动上线）", url: "https://www.gamemeca.com/en/view.php?gid=1777313" }
-      ],
-      videos: [
-        { label: "全球上线公告（151 国・地域，官方新闻稿）", platform: "媒体", url: "https://www.gamespress.com/zh-CN/Resident-Evil-Survival-Unit-Launches-Worldwide-on-November-18-th" },
-        { label: "《怪物猎人》联动更新（Rathalos・限定英雄）", platform: "媒体", url: "https://www.gamemeca.com/en/view.php?gid=1777313" },
-        { label: "官方网站", platform: "官方站", url: "https://www.residentevil-survivalunit.com/" }
-      ],
-      hype: {
-        score: 72,
-        signals: [
-          "《生化危机》IP 全球认知度，上线首日下载突破 100 万",
-          "系列首次 RTS 转向，品类讨论度高",
-          "上线后以新地图、新角色与《怪物猎人》联动持续供给内容"
-        ]
-      },
-      tags: ["已上线", "手游", "IP改编", "RTS", "全球发行"]
     },
 
     {
@@ -3813,65 +3709,6 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["新作発表", "空戦", "トレーラー", "定档"]
-    },
-    {
-      id: "kaiju-no-8-the-game",
-      company: "Akatsuki Games",
-      companyJp: "株式会社アカツキゲームス（企画・制作：東宝株式会社／株式会社プロダクション・アイジー）",
-      bucket: "update",
-      platformClass: "multi",
-      announceDate: "2026-09-01（1 周年・メインストーリー第 2 部開幕）",
-      capturedAt: "2026-09-16",
-      title: { jp: "怪獣８号 THE GAME", cn: "怪兽8号 THE GAME", en: "Kaiju No. 8 THE GAME" },
-      genre: "ジャイアントキリング RPG（ターン制コマンドバトル）",
-      platforms: ["iOS", "Android", "PC (Steam)"],
-      release: "2025-08-31（世界同時サービス開始。PC 版は 2025-09-30）",
-      releasePrecision: "日",
-      summary: "由 Akatsuki Games 企划・开发，与东宝、Production I.G 三方共同制作的《怪兽8号》改编手游，2025-08-31 全球同步开服，PC（Steam）版同年 9 月 30 日上线。玩法是 4 人小队对抗巨型怪兽的回合制指令战斗，怪兽弱点「核」露出时可发动必杀技收尾，队伍中存在搭档关系时讨伐中会触发追击。除重现漫画・动画名场面的「追忆故事」外，还收录以原创部队 CLOZER 为主轴的「主线故事」与聚焦单名队员的「角色故事」。2026-09-01 迎来一周年，主线第 2 部第 1 章「全新的威胁」上线，同时实装 ★5［瞬烈之才］古桥伊春与游戏首个霰弹枪武器种。支持日・英・繁中・简中・韩・法六种语言。",
-      highlight: "东宝亲自下场站台的 IP 原方直营型手游；一周年把主线推进到跨平行世界的多元宇宙篇，并首次公开原创部队 CLOZER 的完整设定。",
-      mobile: {
-        status: "正式サービス中",
-        os: ["iOS", "Android", "PC (Steam)"],
-        monetization: "基本無料（アイテム課金制）",
-        preReg: { open: false, since: "2025-04-25 〜 2025-08-31（サービス開始前まで受付を終了）", reward: "事前登録者数に応じた段階特典を達成（10 万人でクレジット、20 万人で次元晶 1,000、30 万人でガチャチケット 10 枚、50 万人で ★4［はるか高みへ］亜白ミナ、85 万人で ★4［刀のスペシャリスト］保科宗四郎＋チケット 10 枚）。さらに希望する ★5 キャラクター 1 体を配布" },
-        developer: "株式会社アカツキゲームス",
-        publisher: "株式会社アカツキゲームス（企画・制作はアカツキゲームス／東宝／プロダクション・アイジーの 3 社、宣伝協力は東宝とプロダクション・アイジー）",
-        region: "日本／世界（日本語・英語・繁体字中国語・簡体字中国語・韓国語・フランス語の 6 言語）",
-        distribution: "App Store / Google Play（日本および世界各地域）／Steam（PC）",
-        payment: [],
-        launch: "2025-08-31",
-        ipSource: "『怪獣８号』（松本直也／集英社「少年ジャンプ+」）。テレビアニメの制作は株式会社プロダクション・アイジー。IP 保有元の東宝が企画・制作と宣伝に直接関与する",
-        series: "アニメは 2024 年に第 1 期、2025 年 7〜9 月に第 2 期を放送し、2026-09-05 からスピンオフ『鳴海の平日』全 4 話を配信。原作は 2026 年時点で国内累計発行部数 1,900 万部超。本作は同 IP 初のゲーム化で、2024-06-15 のアニメ生配信内で発表された",
-        features: [
-          "怪獣の弱点「核」が露出した瞬間に必殺技を叩き込む、ターン制コマンドバトル",
-          "隊員 4 人で小隊を編成。隊員同士にバディ関係があると討伐中に追撃が発生する",
-          "「追憶ストーリー」で原作・アニメの名場面を追体験、「メインストーリー」と「キャラストーリー」はゲームオリジナル",
-          "オリジナル部隊 CLOZER（次元閉門専用特殊部隊）と怪獣次元門というゲーム独自の設定を軸にした物語",
-          "レベルアップ・上限解放・覚醒・スキル強化・武器強化の多重育成",
-          "スマートフォンと PC（Steam）でアカウント連携可能、日本語・英語ほか計 6 言語対応"
-        ],
-        synopsis: "怪獣が日常的に平穏を脅かす日本を舞台に、プレイヤーは日本防衛隊の隊員として巨大怪獣に立ち向かう。ゲームオリジナルの主軸は、かつて討伐したはずの怪獣が「怪獣次元門」から襲来するという新たな災害で、これに対抗するため構築された CLOZER の面々が物語を牽引する。2026-09-01 に開幕した第 2 部では、怪獣 8 号の力が 4 つに砕けて平行世界へ散り、それを巡る多元宇宙の戦いが描かれる。",
-        cast: "日比野カフカ／怪獣８号：福西勝也、亜白ミナ：瀬戸麻沙美、市川レノ：加藤渉、四ノ宮キコル：ファイルーズあい、保科宗四郎：河西健吾、鳴海弦：内山昂輝、古橋伊春：新祐樹、四ノ宮功：玄田哲章、四ノ宮サガン：鬼頭明里、スーテッド：Machico ほか（公式サイトに記載のキャスト）"
-      },
-      news: [
-        { source: "Anime News Network（1 周年・メインストーリー第 2 部開幕の公式プレスリリース）", url: "https://www.animenewsnetwork.com/press-release/2026-09-01/kaiju-no-8-the-game-1st-anniversary-in-full-swing/.241200" },
-        { source: "PR Newswire（1 周年キャンペーンの公式リリース）", url: "https://www.prnewswire.com/news-releases/kaiju-no-8-the-game-1st-anniversary-in-full-swing-302865575.html" },
-        { source: "GameMarket.gg（1 周年アップデートの全内容ロードマップ）", url: "https://gamemarket.gg/news/kaiju-no-8-the-game/kaiju-no-8-the-game-1st-anniversary-full-september-roadmap" }
-      ],
-      videos: [
-        { label: "Pick Up キャラクター予告編［瞬烈之才］古橋伊春（公式リリースに記載の URL）", platform: "YouTube", url: "https://youtu.be/MJaxMEwoIqc" },
-        { label: "公式サイト（リリース直前トレーラー・キャラクター一覧・システム解説）", platform: "官方站", url: "https://kj8-thegame.com/" }
-      ],
-      hype: {
-        score: 74,
-        signals: [
-          "IP 保有元の東宝が企画・制作に直接入り、Production I.G も宣伝協力として名を連ねる異例の 3 社体制",
-          "原作は国内累計発行部数 1,900 万部超、アニメ第 2 期とスピンオフも進行中で IP の勢いが続いている",
-          "2026-09-01 の 1 周年でメインストーリー第 2 部・新 ★5 キャラクター・新武器種を同時投入し、9/5 以降も継続的にアップデートを予定",
-          "日本語・英語・繁体字・簡体字・韓国語・フランス語の 6 言語でモバイルと Steam の両方に展開しており、海外比率の高い IP 特性を活かしている"
-        ]
-      },
-      tags: ["IP授权", "手游", "跨平台", "全世界配信", "正式サービス中", "1周年"]
     },
     {
       id: "blackchannel-blaze-road",
@@ -7197,63 +7034,6 @@ window.OBSERVATORY = {
       tags: ["主机", "アドベンチャー", "インディー", "和風", "TGS2026"]
     },
     {
-      id: "tokyo-revengers-unlimited",
-      company: "Good Smile Company",
-      companyJp: "株式会社グッドスマイルカンパニー",
-      bucket: "update",
-      platformClass: "mobile",
-      announceDate: "2026-09-17（メインシナリオ「聖夜決戦編」3 章の追加と Dragon Ash タイアップ楽曲のゲーム内実装）",
-      capturedAt: "2026-09-23",
-      title: { jp: "東京リベンジャーズ UNLIMITED（アンリベ）", cn: "东京复仇者 UNLIMITED", en: "Tokyo Revengers UNLIMITED" },
-      genre: "東リベRPG（原作ストーリー追体験＋リアルタイムバトル）",
-      platforms: ["iOS", "Android"],
-      release: "2026-02-26（日本国内でサービス開始）",
-      releasePrecision: "日",
-      summary: "グッドスマイルカンパニー 企划发行、株式会社f4samurai 开发运营的 TV 动画《東京リベンジャーズ》官方授权手机游戏，2026-02-26 在日本国内上线，为原作首次游戏化。以主角花垣武道的时空跳跃为主线，按章收录「8・3抗争編」「血のハロウィン編」「聖夜決戦編」「天竺編」等原作剧情，并加入原作者和久井健监修的长篇内容与 100 话以上全篇配音的原创剧情；TV 动画制作班底（动画制作 ライデンフィルム、配乐 堤博明）与动画原班声优全部参与。战斗为实时进行，把東京卍會、芭流覇羅、黒龍、天竺 四势力的角色编入队伍，靠编成与必杀技发动时机决出胜负，角色间亲密度提升后战斗更有利。2026-09-17 维护后追加主线「聖夜決戦編」第 3 章，并把 Dragon Ash 联名曲的游戏版实装进游戏内。",
-      highlight: "【2026-09-17 聖夜決戦編 3 章追加】9 月 17 日のメンテナンス終了後よりメインシナリオ「聖夜決戦編」第 3 章が追加され、Dragon Ash とのタイアップ楽曲「夕凪UNION – 東京リベンジャーズ Reboot remix by DJ BAKU -」のゲームサイズ版がゲーム内に実装された。AP 消費量が 50% 減少するキャンペーンが 9/17〜9/30 14:59 まで同時開催される。　アニメ制作陣とキャストがそのまま参加する公式ライセンス作で、4 勢力（東京卍會／芭流覇羅／黒龍／天竺）ごとに Eve／CVLTE／Dragon Ash／れん のタイアップ楽曲を起用する大掛かりな音楽施策を展開しており、タイアップ楽曲の MV も 9/17 に先行公開された。2026-02-26 のサービス開始から半年が経過し、2026-08-26 にはハーフアニバーサリー施策が実施されている。",
-      news: [
-        { source: "AppBank（09-17 メンテナンス後の「聖夜決戦編」3 章追加と Dragon Ash タイアップ MV のゲーム内実装を告知）", url: "https://www.appbank.net/2026/09/21/game/3108251.php" },
-        { source: "公式サイト（東京リベンジャーズ UNLIMITED・作品概要とキャスト／スタッフ）", url: "https://tokyo-revengers-unlimited.com" },
-        { source: "App Store（東京リベンジャーズ UNLIMITED／jp.goodsmile.revenge）", url: "https://apps.apple.com/jp/app/id6698853161" },
-        { source: "Google Play（東京リベンジャーズ UNLIMITED／jp.goodsmile.revenge）", url: "https://play.google.com/store/apps/details?id=jp.goodsmile.revenge" },
-        { source: "朝日新聞デジタル「and」（ハーフアニバーサリー施策と 8 月の更新予定を伝える公式リリース配信記事）", url: "https://www.asahi.com/and/pressrelease/16786832" }
-      ],
-      videos: [
-        { label: "公式サイト（東京リベンジャーズ UNLIMITED・MOVIE と作品映像）", platform: "官方站", url: "https://tokyo-revengers-unlimited.com" },
-        { label: "AppBank（Dragon Ash タイアップ楽曲「夕凪UNION」MV 公開を伝える記事）", platform: "媒体", url: "https://www.appbank.net/2026/09/21/game/3108251.php" }
-      ],
-      hype: {
-        score: 62,
-        signals: [
-          "アニメの制作スタッフ（ライデンフィルム・音楽 堤博明）とアニメ版キャストがそのまま参加する公式ライセンス作で、原作の名場面を章立てで追体験できる構成",
-          "4 勢力ごとに Eve／CVLTE／Dragon Ash／れん のタイアップ楽曲を書き下ろし・リミックスで起用する大型の音楽施策を実施",
-          "2026-02-26 のサービス開始から半年でハーフアニバーサリー施策に到達し、その後もアップデートが継続している"
-        ]
-      },
-      tags: ["手游", "アニメ原作", "IPタイアップ", "RPG", "正式サービス中"],
-      mobile: {
-        status: "正式サービス中（2026-02-26 に日本国内でサービス開始）",
-        os: ["iOS", "Android"],
-        monetization: "基本無料（アプリ内課金あり）",
-        preReg: { open: false, since: "事前登録は 2026-02-26 のサービス開始をもって終了（開始時は登録者数に応じた特典を配布）", reward: "現在は実施していない" },
-        developer: "株式会社f4samurai（開発・運営）",
-        publisher: "株式会社グッドスマイルカンパニー（企画・配信）",
-        region: "日本（対応言語は日本語・英語のみで、他言語は選択不可）",
-        distribution: "App Store / Google Play（日本）",
-        payment: [],
-        ipSource: "和久井健『東京卍リベンジャーズ』（講談社『週刊少年マガジン』連載）を原作とする TV アニメ『東京リベンジャーズ』の公式ライセンス作品。アニメーション・イラスト・脚本制作協力はライデンフィルム",
-        series: "原作は講談社『週刊少年マガジン』の漫画で、TV アニメは第 1 期（2021 年）／第 2 期「聖夜決戦編」（2023 年）／第 3 期「天竺編」（2023 年）と展開。本作は原作初のスマートフォンゲームで、2026-02-26 のサービス開始から 2026-08-26 にハーフアニバーサリーを迎えた",
-        features: [
-          "原作の名場面を追体験するシナリオパートと、勢力同士の抗争を描くリアルタイムバトルをひとつにした RPG",
-          "東京卍會／芭流覇羅／黒龍／天竺 の 4 勢力からキャラクターをチームに編成し、編成内容と必殺技の発動タイミングで勝敗が決まる",
-          "キャラクター同士の親密度を上げると合体技が解放されるなど、育成が戦闘の有利不利に直結する",
-          "原作ストーリー全編に加え、原作者・和久井健 監修の長編シナリオを含む 100 話以上のオリジナルストーリーを全編フルボイスで収録"
-        ],
-        synopsis: "TV アニメ『東京リベンジャーズ』を原作に、主人公・花垣武道のタイムリープを軸として不良たちの勢力争いを描く。原作の「8・3抗争編」「血のハロウィン編」「聖夜決戦編」「天竺編」を章立てで収録しつつ、キャラクターの日常を描くオリジナルエピソードも用意される。プレイヤーは武道の視点で各勢力の物語をたどり、チームを組み替えながら抗争の行方を追う。",
-        cast: "花垣武道：新祐樹／橘日向：和氣あず未／橘直人：逢坂良太／佐野万次郎：林勇／龍宮寺堅：福西勝也／場地圭介：水中雅章／松野千冬：狩野翔／三ツ谷隆：松岡禎丞／柴八戒：畠中祐／稀咲鉄太：森久保祥太郎／半間修二：江口拓也／黒川イザナ：島﨑信長／柴大寿：杉田智和／灰谷蘭：浪川大輔 ほか（アニメ版キャストが続投）"
-      }
-    },
-    {
       id: "apothecary-diaries-false-imperial-brother",
       company: "TOHO Games ／ Koei Tecmo Games",
       companyJp: "東宝株式会社（TOHO Games）／ 株式会社コーエーテクモゲームス（ブランド：ガスト）",
@@ -7769,66 +7549,6 @@ window.OBSERVATORY = {
       tags: ["移植", "サバイバルホラー", "Switch2", "定档"]
     },
     {
-      id: "chiikawa-pocket",
-      company: "アプリボット（Applibot）",
-      companyJp: "株式会社アプリボット",
-      bucket: "update",
-      platformClass: "mobile",
-      announceDate: "2026-09-27（1.5 周年。『ふれあい』正式版と記念イベント「ピーターパン」が同日スタート）",
-      capturedAt: "2026-09-28",
-      title: { jp: "ちいかわぽけっと", cn: "吉伊卡哇袋着走", en: "Chiikawa Pocket" },
-      genre: "暮らし・ミニゲーム集（カジュアル）",
-      platforms: ["iOS", "Android"],
-      release: "2025-03-27（配信開始済み。世界 43 の国と地域）",
-      releasePrecision: "已开服",
-      summary: "《ちいかわぽけっと》是插画家长野（ナガノ）在 X 连载的人气漫画《ちいかわ》的首款手机应用，由日本アプリボット（Applibot，总部东京涩谷）负责企划、开发与运营，2025 年 3 月 27 日起在全球 43 个国家和地区上线，事前登录突破 150 万件。玩家可以随时与ちいかわ们一起生活，玩法由讨伐、料理、栽培等小游戏以及与角色互动的「ふれあい」构成。2026 年 9 月 27 日迎来上线 1.5 周年：同日 0 时（JST）「ふれあい」正式版上线，加入角色语音与按照顾程度递增的阶段报酬；纪念活动「ピーターパン」同步开始（至 11 月 2 日），纪念登录赠送活动服装与最多相当于 10,000 宝石的奖励。本条为在营作品的漏收补收，本体上线时间在观测窗口之外。",
-      highlight: "【2026-09-27 1.5 周年】配信から 1.5 年を迎え、同日 0 時（JST）から『ふれあい』正式版と 1.5 周年記念イベント「ピーターパン」がスタート。2026-07-24 におためし版として先行実装されていた『ふれあい』が正式版になり、一部のふれあいにキャラクターボイスが加わり、お世話の積み重ねに応じて段階的に報酬が増える仕組みが入った。おふろの演出も強化され、汚れたちいかわをいつでも洗える。記念ログインでは 2 日目にイベント衣装のラッコ、期間中の累計ログインで最大宝石 10,000 個相当を配布する。　本体は 2025-03-27 配信開始で窗口外のため、本条目は在営タイトルの節目イベントとしての漏収補収になる。",
-      mobile: {
-        status: "配信中（2025-03-27 サービス開始、世界 43 の国と地域）",
-        os: ["iOS", "Android"],
-        monetization: "基本プレイ無料（アプリ内課金あり）",
-        preReg: { open: false, since: "受付終了（2025-03-27 配信開始。事前登録は 150 万件を突破）", reward: "事前登録 150 万件突破で宝石×5,000 を配信開始時に全員配布" },
-        developer: "株式会社アプリボット",
-        publisher: "株式会社アプリボット",
-        region: "日本／韓国・台湾・香港・マカオ・タイ・米国など世界 43 の国と地域",
-        distribution: "App Store／Google Play でのダウンロード配信（基本プレイ無料）",
-        payment: [],
-        ipSource: "ナガノ『ちいかわ』（イラストレーター・ナガノが 2020 年より X に投稿している漫画。権利表記 ©nagano / chiikawa committee Developed by Applibot, Inc.）。『日本キャラクター大賞』で 2022・2024・2025・2026 の 4 回グランプリ、X のフォロワーは 479 万人超",
-        series: "『ちいかわ』初のスマートフォンアプリ。企画・制作・開発・運営はいずれもアプリボット（本社：東京都渋谷区）。アニメはフジテレビ系『めざましテレビ』内で放送中で、2026-07-24 には『映画ちいかわ 人魚の島のひみつ』が公開された",
-        features: [
-          "『ちいかわたちといつでもどこでも一緒』をコンセプトに、討伐・料理・栽培などの遊びを詰め合わせた構成",
-          "新機能『ふれあい』は 2026-07-24 におためし版を先行的に実装し、2026-09-27 の 1.5 周年で正式版へ",
-          "『ふれあい』は「おせわ」（ごはん・お風呂）と「コーディネート」（着せかえ・家具のレイアウト）、なでる／くすぐるの 3 系統",
-          "正式版では一部のふれあいにキャラクターボイスが加わり、お世話の積み重ねに応じて段階的に報酬が増える仕組みが入った",
-          "「おふろ」の演出を強化。汚れたちいかわをいつでも洗え、操作に応じて反応が変化する",
-          "1.5 周年記念イベント「ピーターパン」を 2026-09-27 00:00 〜 2026-11-02 14:59 に開催し、進行で家具アイテムが手に入る",
-          "記念ログインでは 2 日目にイベント衣装のラッコ、期間中の累計ログインで最大宝石 10,000 個相当を配布",
-          "新機能の先行体験として「大きなスマホ」（最大高さ約 1.9m の巨大サイネージ）を 2026-07-10 〜 09-06 に全国 28 箇所で展示した",
-        ],
-        synopsis: "原作漫画『ちいかわ』の世界観を、いつでもどこでも一緒に過ごせる形にしたスマートフォンアプリ。プレイヤーはちいかわたちの暮らしを眺めながらミニゲームで報酬を集め、家具や衣装で自分の部屋を作っていく。2026-09-27 の 1.5 周年で『ふれあい』が正式版となり、撫でる・食事・入浴といった行為への反応が増え、お世話の積み重ねが段階的な報酬として還元される設計になった。期間限定イベントは数か月単位で更新され、アニメ・映画・グッズと連動したテーマが組まれる。",
-        cast: "キャスト一覧は公式には公表されていない（1.5 周年の『ふれあい』正式版で一部のふれあいにキャラクターボイスが追加された）"
-      },
-      news: [
-        { source: "PR TIMES（アプリボット公式リリース：新機能『ふれあい』の追加・おためし版・全国 28 箇所の「大きなスマホ」展示）", url: "https://prtimes.jp/main/html/rd/p/000000039.000156996.html" },
-        { source: "巴哈姆特 GNN（1.5 週年「彼得潘」活動・「互動」正式版・親密等級系統）", url: "https://gnn.gamer.com.tw/detail.php?sn=312383" },
-        { source: "4Gamers 台灣（1.5 週年紀念活動與「互動」正式版細節）", url: "https://www.4gamers.com.tw/news/detail/82300/chiikawa-pocket-1-5-anniversary-peter-pan-theme-event" }
-      ],
-      videos: [
-        { label: "新機能『ふれあい』PV 第 1 弾（アプリボット公式リリースに掲載）", platform: "YouTube", url: "https://youtu.be/L7gpAgpOBns" },
-        { label: "1.5 周年特設サイト（公式）", platform: "官方站", url: "https://jp.chiikawa-pocket.com/ja/1.5year/" }
-      ],
-      hype: {
-        score: 74,
-        signals: [
-          "『日本キャラクター大賞』で 2022・2024・2025・2026 と 4 回グランプリ。X のフォロワーは 479 万人超（公式リリース）",
-          "配信は世界 43 の国と地域、事前登録 150 万件突破でスタートした国内最大級のキャラクター IP アプリ",
-          "1.5 周年では『ふれあい』正式版・記念イベント「ピーターパン」・特設サイト・記念映像・全国 28 箇所の展示など複数企画を同時展開",
-          "本体の配信開始は 2025-03-27 で窗口外のため、本条目は在営タイトルの節目イベントとしての漏収補収になる"
-        ]
-      },
-      tags: ["手游", "IP授权", "ちいかわ", "カジュアル", "周年", "在営タイトル"]
-    },
-    {
       id: "nekopara-sekai-connect",
       company: "グッドスマイルカンパニー × NEKO WORKs",
       companyJp: "株式会社グッドスマイルカンパニー（制作・配信）／NEKO WORKs（制作・原作監修）",
@@ -8085,7 +7805,7 @@ window.OBSERVATORY = {
         items: [
           { name: "株式会社アトラス", short: "ATLUS", status: "covered", gameIds: ["persona-6", "persona-4-revival"] },
           { name: "株式会社フロム・ソフトウェア", short: "FromSoftware", status: "covered", gameIds: ["the-duskbloods"] },
-          { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam", "layton-curious-village-remake", "yokai-watch-2-hadou", "inazuma-eleven-bold-revolution", "holy-horror-mansion", "decapolice", "snack-world-reloaded", "puchipoyon-fantasy-world", "inazuma-eleven-cross"], note: "9/10「LEVEL5 VISION 2026 II 夢」一次公布 10 个标题，本台为其建卡 8 件（主机/PC 6＋手游 2）" },
+          { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam", "layton-curious-village-remake", "yokai-watch-2-hadou", "inazuma-eleven-bold-revolution", "holy-horror-mansion", "decapolice", "snack-world-reloaded", "puchipoyon-fantasy-world"], note: "9/10「LEVEL5 VISION 2026 II 夢」一次公布 10 个标题，本台为其建卡 7 件（主机/PC 6＋手游 1）" },
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa", "gobble"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。社内提案制度「Project Pitch Fest」から生まれた横スクロールアクション『GOBBLE（ガブル）』を 2026-09-24 に発売した" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "covered", gameIds: ["danganronpa-2x2"] },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
@@ -8112,7 +7832,7 @@ window.OBSERVATORY = {
           { name: "株式会社マイネット", short: "mynet", status: "watch" },
           { name: "株式会社ブシロード", short: "Bushiroad", status: "covered", gameIds: ["weiss-schwarz-online"], focus: true, note: "看板 TCG『ヴァイスシュヴァルツ』のデジタル版『ヴァイスシュヴァルツ オンライン』を 2027 年春に Switch／Steam で発売予定。9/15 に Steam ストアページを公開しウィッシュリスト登録を開始、TGS2026 は 6 号館 C01 で初の試遊を実施した" },
           { name: "グリー株式会社", short: "GREE", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "子会社グリーエンターテインメントが『無職転生 クロエコ』を企画・配信（7/27 配信開始）" },
-          { name: "株式会社アカツキゲームス", short: "Akatsuki Games", status: "covered", gameIds: ["kaiju-no-8-the-game"], note: "東宝・プロダクション・アイジーと共同企画・制作する『怪獣８号 THE GAME』を開発・運営（2025-08-31 世界同時サービス開始、2026-09-01 に 1 周年とメインストーリー第 2 部）" },
+          { name: "株式会社アカツキゲームス", short: "Akatsuki Games", status: "watch", gameIds: [], note: "東宝・プロダクション・アイジーと共同企画・制作する IP 直営型タイトルを開発・運営する国内スタジオ。当該タイトルは 2025-08-31 に世界同時サービス開始済みの在営作品のため、本台は内容更新を収録対象外としている" },
           { name: "株式会社コロプラ", short: "COLOPL", status: "covered", gameIds: ["active-cinema-rpg-369", "colopl-wiz-generation"] },
           { name: "株式会社MIXI", short: "MIXI", status: "watch" },
           { name: "株式会社ディー・エヌ・エー", short: "DeNA", status: "watch" },
@@ -8121,7 +7841,7 @@ window.OBSERVATORY = {
           { name: "株式会社バンク・オブ・イノベーション", short: "Bank of Innovation", status: "watch" },
           { name: "ワンダープラネット株式会社", short: "WonderPlanet", status: "watch" },
           { name: "株式会社アピリッツ", short: "Appirits", status: "watch" },
-          { name: "株式会社Aiming", short: "Aiming", status: "covered", gameIds: ["inazuma-eleven-cross", "eminence-in-shadow-phantom-echoes"], note: "LEVEL-5 との共同タイトル『イナズマイレブン クロス』を開発・運営（6/9 サービス開始、6/22 に100万DL突破）。自社スタジオ Team CARAVAN が『陰の実力者になりたくて！ ファントムエコーズ』を開発し、スマホ中心の事業からコンシューマ 3D アクションへ領域を広げる（2027 年発売予定、KADOKAWA が原作監修）" }
+          { name: "株式会社Aiming", short: "Aiming", status: "covered", gameIds: ["eminence-in-shadow-phantom-echoes"], note: "自社スタジオ Team CARAVAN が『陰の実力者になりたくて！ ファントムエコーズ』を開発し、スマホ中心の事業からコンシューマ 3D アクションへ領域を広げる（2027 年発売予定、KADOKAWA が原作監修）" },
         ]
       },
       {
@@ -8129,7 +7849,7 @@ window.OBSERVATORY = {
         label: "IP管理・エンターテインメント・その他開発スタジオ",
         sub: "",
         items: [
-          { name: "株式会社アニプレックス", short: "Aniplex", status: "covered", focus: true, gameIds: ["re-survival-unit", "fate-extra-record", "melty-blood-twi-lumina"], note: "『BIOHAZARD Survival Unit』の配信元（開発は JOYCITY、Capcom は IP 監修）。2025-11-18 に世界 151 の国と地域でサービス開始済み。『Fate/EXTRA Record』（2027-01-28）と『MELTY BLOOD: TWI-LUMINA』（2027-04-22、開発 FRENCH-BREAD）も当社発売。TGS2026 は 4 号館 04-C04 に出展し、両作を試遊出展した" },
+          { name: "株式会社アニプレックス", short: "Aniplex", status: "covered", focus: true, gameIds: ["fate-extra-record", "melty-blood-twi-lumina"], note: "『Fate/EXTRA Record』（2027-01-28）と『MELTY BLOOD: TWI-LUMINA』（2027-04-22、開発 FRENCH-BREAD）の発売元。TGS2026 は 4 号館 04-C04 に出展し、両作を試遊出展した" },
           { name: "有限会社ノーツ", short: "Notes / TYPE-MOON", status: "watch", focus: true },
           { name: "株式会社カヤック", short: "Kayac", status: "watch" },
           { name: "株式会社トイロジック", short: "Toylogic", status: "watch" },
@@ -8148,7 +7868,7 @@ window.OBSERVATORY = {
       items: [
         { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
-          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "tokyo-revengers-unlimited", "nekopara-sekai-connect"] },
+          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
         { name: "株式会社モノリスソフト", short: "Monolith Soft", status: "covered", gameIds: ["xenoblade-genesis"] },
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
@@ -8179,7 +7899,7 @@ window.OBSERVATORY = {
         { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium", "sentimental-graffiti-remake", "azure-memoria"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
         { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された" },
         { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した" },
-        { name: "株式会社アプリボット", short: "Applibot", status: "covered", gameIds: ["chiikawa-pocket"], focus: true, note: "『ちいかわ』初のスマホアプリ『ちいかわぽけっと』を企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。2025-03-27 の配信開始から世界 43 の国と地域で展開し、2026-09-27 に 1.5 周年を迎えて『ふれあい』正式版と記念イベントを実施した" },
+        { name: "株式会社アプリボット", short: "Applibot", status: "watch", gameIds: [], focus: true, note: "『ちいかわ』初のスマホアプリを企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。同作は 2025-03-27 配信開始済みの在営タイトルのため、本台は内容更新を収録対象外としている" },
         { name: "株式会社ライドオンジャパン", short: "Rideon Japan", status: "covered", gameIds: ["mercenaries-grace"], note: "タクティカル RPG『Mercenaries Saga』シリーズを自社で企画・開発・配信する日本のスタジオ。2026-09-25 にシリーズ第 8 作『Mercenaries Grace: Black Feather and the Golden Right Arm』（PlayStation 5／Nintendo Switch／PC（Steam）、日本では 2026 年 11 月にデジタル配信予定）を発表したため補充監視に追加" },
         { name: "株式会社ビサイド", short: "BeXide", status: "covered", gameIds: ["namco-legendary-mountains"], note: "日本のゲーム開発・パブリッシャー。バンダイナムコエンターテインメントからナムコ アーケード作品の IP ライセンスを受け、3D パズル『NAMCO LEGENDARY Mountains』を自社で開発・販売。2026-06-25 に Nintendo Switch／Nintendo Switch 2／Steam 版、2026-09-24 に iOS／Android 版を買い切りで配信した" }
       ]
@@ -8249,15 +7969,14 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 展後（2026-09-28 場）。09-28 日中の増分区間で日方主導の新規スマホ作の発表はゼロだった。本場は前場（09-25 夜〜09-28）で拾いきれていなかった 2 件を補収し——跨平台の買い切りパズル『NAMCO LEGENDARY Mountains』のスマホ版配信開始（9/24）と、ライドオンジャパンのタクティカル RPG『Mercenaries Grace: Black Feather and the Golden Right Arm』の新作発表（9/25、主机・PC）——あわせて、**在営作品の内容更新を不収録とする収録口径の変更**を適用し 2 件の条目を削除した。条目総数は 150 → 148（手游区 37／主机・PC 区 122）",
+    headline: "展後整理（2026-09-28 19:00 場）。**作品本体が 3 か月以上前に日本国内で配信・発売済みの「在営作品の内容更新」は不収録**とする口径に沿って既存 5 件を削除し、条目総数は 148 → 143 となった。本場の増分区間（09-28 夜）に日方主導の新規スマホ作の発表はなく、新規登録はゼロ。",
     points: [
-      "**手游侧**：本場の増分区間（09-28 の日中、日本時間で 15 時以降）に、日方主導の新規スマホタイトルの発表は確認できなかった。検索は 手游通稿向け・IP 授权向け・主机PC 向け・厂商名单・期待榜の 5 系統を 16 組以上実行し、ヒットしたのは既収録作・海外資本の作品・既存作の他機種展開のいずれかだった。手游侧は「新作を作らない」方針を維持し、新規発表なしをそのまま記録している。",
-      "**跨平台の補収 1 件（手游区・主机・PC 区の両方に表示）**：『NAMCO LEGENDARY Mountains』（開発・販売 ビサイド）——バンダイナムコエンターテインメントが権利を持つナムコ 80 年代アーケード作品のキャラクターをボクセル化した 3D 物理演算パズル。Nintendo Switch／Nintendo Switch 2／Steam 版が 2026-06-25 に先行発売され、その iOS／Android 版が 2026-09-24 に配信を開始した。買い切り 980 円（10/07 まで 880 円）、日本語を含む 11 言語に対応し、『パックマン』『ディグダグ』『ゼビウス』『マッピー』『ドルアーガの塔』の 5 作品をテーマにした専用ステージを収録する。本体は窗口左端より前のため bucket は update とし、**他機種版の配信＝本体レベルの展開**として収録した。",
-      "**主机・PC の補収 1 件**：『Mercenaries Grace: Black Feather and the Golden Right Arm』（ライドオンジャパン）——2026-09-25 に発表された『Mercenaries Saga』シリーズ第 8 作。日本では 2026 年 11 月に PlayStation 5／Nintendo Switch／PC（Steam）向けのデジタル配信を予定し、英語版も準備中とされている。シリーズ従来の完全ターン制を廃し、将棋・チェスのように自軍と敵軍が 1 体ずつ交互に行動する方式へ刷新した点が最大の変更で、キャラクターデザインは mitsu_plus が担当する。発表時点では価格・ストアページ・予告映像が未公表で、発売時期についても一部メディアが 2027 年と報じており、カード内の caution にその相違を明記した。",
-      "**収録口径の変更（本場より適用）**：**在営作品（作品本体が窗口左端 2026-07-28 より前に配信・発売された作品）の「内容更新」——新章・新シリーズ・周年企画・新イベント・新カード・新機能・コラボ等——は不収録**とした。本場では、**本体が 2025 年に配信開始済みのアニメ IP 系 RPG** について 1.5 周年生放送で発表された完全新作オリジナルシリーズ（10/04 開幕）がこれに該当し、当該条目を削除した。一方、**他機種版の配信・発売日変更・運営終了など「本体レベルの構造的展開」は引き続き update として扱う**（運営終了は新作ではないため記録のみとし卡片化しない）。あわせて、日本側と中国資本の共同開発による案件 1 件も紅線の対象として削除し、社名・作品名とも本站のデータには一切記載していない。",
-      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃／BLEACH／チェンソーマン）、② 周年・記念企画系（悪魔城ドラキュラ 40 周年＝9/25 発表分、モンスターストライク 13 周年）、③ 9/28 の国内新作・週次リリース一覧（Metacritic／RPGFan／Vandal／AS の 9/28〜10/04 発売リスト）、④ Quest Board.JP の日次まとめ、⑤ カプコン・コナミ・スクウェア・エニックス・コーエーテクモ・集英社ゲームズ・講談社ゲームラボの新作動向を確認した。本場の実入りは ② の周辺ではなく、9/24〜9/25 に出ていた 2 件（スマホ版配信と SRPG 新作発表）の補収だった。",
-      "**継続ウォッチ（本場も動きなし）**：①『チェンソーマン』のスマホ新作は開発元・発行元が未公表のため厳格運用を維持 ②『モンスターストライク』13 周年（9/26〜27）と『サクラ大戦』30 周年は本体が新作ではないため不収録、MIXI は watch のまま ③ バンダイナムコが 9/26 に発表した『SYNDUALITY Echo of Ada』のオンラインサービス終了（2027 年 5 月以降）は、2025-01-23 発売済みの既存作の運営終了告知であり新作・新規発表ではないため卡片化せず、記録のみとした。",
-      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50 で不変。extra は 35 → 36 家（ライドオンジャパン、ビサイドを追加し、指定リスト外の見直しで 1 家を削除）。Famitsu 期待榜は 9/26 に『Persona 6』が『ゼルダの伝説 時のオカリナ』を抜いて 2 位に入ったとする報道が出たが、票数（Persona 6 477／Ocarina 445）は既収録の asOf 2026-09-21 の内容と一致しており、同一号に対する後追い報道と判断して mostWanted は据え置いた。tgs は展後記録として凍結を継続。"
+      "**手游侧**：本場（19:00 場）の増分区間である 09-28 夜に、日方主導の新規スマホタイトルの発表は確認できなかった。検索は 手游通稿向け・IP 授权向け・主机PC 向け・厂商名单・期待榜の 5 系統を実行し、ヒットしたのはいずれも既収録作・海外資本の作品・既存作の他機種展開だった。新規登録ゼロをそのまま記録している。",
+      "**収録口径の整理（条目削除 5 件）**：**作品本体が 3 か月以上前（2026-06-28 以前）に日本国内で配信・発売済みの作品は、窓口内の「内容更新」——周年企画・新章追加・他 IP コラボ・ゲームショウ露出・新イベント等——を収録対象外**とすることを明確化した。これに該当する 5 件（周年記念 2 件・メインシナリオ新章 1 件・他社 IP コラボ 1 件・ゲームショウ露出 1 件）を削除。条目総数は 148 → 143。",
+      "**存続する類型（本体レベルの構造的展開）**：作品本体が窓口左端より前でも、「他機種版の配信・発売」「発売日の決定・変更」「運営終了」は本体側の構造的展開として引き続き update で記録する。削除後、本体が窓口左端より前に配信・発売済みの update 条目は 7 件で、いずれも他機種版展開または本体リリース情報であり内容更新ではないことを逐条確認した。",
+      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50 で不変。extra は 36 家で不変（うち 1 家は対象作品がなくなり covered → watch へ変更）。Famitsu 期待榜は前回計測分から変動なく据え置き。tgs は展後記録として凍結を継続。",
+      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃／BLEACH／チェンソーマン）、② 周年・記念企画系、③ 国内週次新作・発売リスト、④ Quest Board.JP 日次を確認したが、本場で新規収録に値する案件はなかった。",
+      "**継続ウォッチ（動きなし）**：①『チェンソーマン』のスマホ新作は開発元・発行元が未公表のため厳格運用を維持 ②『モンスターストライク』13 周年と『サクラ大戦』30 周年は作品本体が新作ではないため不収録、MIXI は watch のまま ③ 既存作のオンラインサービス終了告知（2027 年 5 月以降）は運営終了であり卡片化せず記録のみとした。",
     ]
   },
 };
