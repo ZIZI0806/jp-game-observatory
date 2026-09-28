@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-28T14:03:00+08:00",
+    updatedAt: "2026-09-28T14:10:00+08:00",
     edition: "2026-09-28",
     window: "2026-07-28 ~ 2026-09-28（滚动最近 2 个月）",
     sources: [
