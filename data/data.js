@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-09-25
+ * 最后更新: 2026-09-28
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-28T14:10:00+08:00",
+    updatedAt: "2026-09-28T19:10:00+08:00",
     edition: "2026-09-28",
     window: "2026-07-28 ~ 2026-09-28（滚动最近 2 个月）",
     sources: [
@@ -8063,10 +8063,120 @@ window.OBSERVATORY = {
       },
       tags: ["PC", "新作発表", "ビジュアルノベル", "Key", "ビジュアルアーツ"]
     },
+    {
+      id: "mercenaries-grace",
+      company: "Rideon Japan",
+      companyJp: "株式会社ライドオンジャパン",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-25（新作発表）",
+      capturedAt: "2026-09-28",
+      title: { jp: "Mercenaries Grace: Black Feather and the Golden Right Arm", cn: "佣兵传说 黑羽与黄金右臂", en: "Mercenaries Grace: Black Feather and the Golden Right Arm" },
+      genre: "タクティカルシミュレーション RPG（ストラテジー RPG）",
+      platforms: ["PlayStation 5", "Nintendo Switch", "PC（Steam）"],
+      release: "2026-11（日本でのデジタル配信。英語版は時期未発表）",
+      releasePrecision: "月",
+      summary: "Rideon Japan（株式会社ライドオンジャパン）于 2026 年 9 月 25 日发表的战术 RPG 新作，属其长销系列 Mercenaries Saga 的最新一作（系列第 8 作）。预定 2026 年 11 月在日本以数字版形式登陆 PlayStation 5／Nintendo Switch／PC（Steam），英文版亦在准备中。玩家自行组建佣兵部队，在四分之一视角的网格地图上推进战斗，角色可通过升级或装备专属技能与装备来强化。本作最大的变化是废弃了系列一贯的「我方全员行动完毕再交由敌方行动」的完整回合制，改为类似将棋与象棋的交替行动——我方 1 个单位行动后立刻由敌方 1 个单位行动，因此每一步都必须预判即时的反击风险。官方表示详情将后续公布。",
+      highlight: "【2026-09-25 新作発表】Rideon Japan が『Mercenaries Saga』シリーズ第 8 作を発表した。日本では 2026 年 11 月に PlayStation 5／Nintendo Switch／PC（Steam）向けのデジタル配信を予定し、英語版も準備中とされている。　戦闘システムをシリーズ従来の完全ターン制から、将棋・チェスのように自軍と敵軍が 1 体ずつ交互に行動する方式へ刷新したのが最大の変更点で、1 手ごとに反撃のリスクを読む必要がある。キャラクターデザインはイラストレーターの mitsu_plus が担当し、グラウセス王国の王位継承を巡る独立した物語が描かれる。",
+      console: {
+        status: "2026年11月 発売予定（日本でのデジタル配信。英語版はリリース時期未発表）",
+        os: ["PlayStation 5", "Nintendo Switch", "PC（Steam）"],
+        monetization: "デジタル配信のみ（価格は未発表）",
+        developer: "Rideon Japan（株式会社ライドオンジャパン）",
+        publisher: "Rideon Japan（株式会社ライドオンジャパン）",
+        region: "日本（日本語。英語版の制作も公式が認めている）",
+        distribution: "PlayStation Store／Nintendo eShop／Steam でのダウンロード配信",
+        stores: ["PlayStation Store", "Nintendo eShop", "Steam"],
+        features: [
+          "シリーズ第 8 作にあたるタクティカルシミュレーション RPG。プレイヤーは自分専用の傭兵団を編成し、四半期視点のグリッドマップでステージを攻略する",
+          "自軍と敵軍が 1 体ずつ交互に行動する将棋・チェス型のターン制を採用。従来のシリーズのように自軍全員が先に動く戦術は使えず、1 手ごとに反撃のリスクを読む必要がある",
+          "高低差と向きが戦果に影響し、正面・背面・側面からの攻撃で結果が変わる。味方の立ち位置による支援効果も存在する",
+          "戦闘で得たスキルポイントを使い、スキル取得・強化・クラスチェンジでキャラクターを自由に育成できる",
+          "8 段階の「ラダークラス」制を新たに導入し、隣接するクラスへも転職できる。画面右上のゲージを消費して放つクラス固有の必殺技「ソウルエクシード」を収録する"
+        ],
+        synopsis: "グラウセス王国では、摂政王オニールの長年の圧政と重税に民が苦しめられていた。その突然の死により、待望の王の遺児への戴冠が期待されるが、折しも王国北部の「禁断の塔」が小部隊の襲撃を受ける。鉄の義手を持つ傭兵ゲルシュのもとで働く若き傭兵スワンは、塔から救出された女性将軍ベルタ——亡王オニールの実の妹——を守ることになり、王位継承を巡る領主たちの思惑と、自らの利権を守ろうとする者たちの渦に巻き込まれていく。",
+        ipSource: "ライドオンジャパンの自社シリーズ『Mercenaries Saga』（旧作に『Mercenaries Wings』『Mercenaries Lament』など）の完全新作。外部 IP のライセンスではなく、同社オリジナルの企画",
+        series: "『Mercenaries Saga』はファイアーエムブレムやファイナルファンタジータクティクスに影響を受けたとされる日本のタクティカル RPG シリーズ。直近では 2025 年に『Mercenaries Lament: Requiem of the Silver Wolf』が PC（Steam）で配信され、Nintendo Switch・PlayStation 4・PlayStation 5 でも展開されている",
+        cast: "未発表（キャラクターデザインはイラストレーターの mitsu_plus が担当）",
+        caution: "公式に公表されているタイトルは英語表記のみで、日本語版の正式タイトルは発表されていない。発売時期についても、Nintendo Everything は 2027 年と報じる一方、Gematsu 系の複数メディアは日本での 2026 年 11 月配信と報じており、報道間で相違がある（日本版は 2026 年 11 月とする報道が多数）"
+      },
+      news: [
+        { source: "Final Weapon（発表内容：対応機種・発売時期・シリーズ第 8 作・英語版準備中）", url: "https://finalweapon.net/2026/09/25/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-ps5-switch-and-pc" },
+        { source: "Nintendo Everything（Nintendo Switch 向け発表・戦闘システムとあらすじの概要）", url: "https://nintendoeverything.com/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-nintendo-switch/" }
+      ],
+      videos: [
+        { label: "Nintendo Everything 発表記事（初公開スクリーンショットと作品概要を掲載）", platform: "海外メディア", url: "https://nintendoeverything.com/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-nintendo-switch/" },
+        { label: "GameLoop 解説記事（発売時期の報道差と交互ターン制の解説）", platform: "海外メディア", url: "https://gameloop.gg/articles/mercenaries-grace-switch-announcement-leaves-release-timing-unclear-black-feather-golden-right" }
+      ],
+      hype: {
+        score: 42,
+        signals: [
+          "『Mercenaries Saga』は日本と北米で複数作が Steam・Nintendo Switch・PlayStation 4／5 に展開されてきた息の長いシリーズで、第 8 作の発表として既存ファンに届いている",
+          "Gematsu の報道を起点に RPGamer・Noisy Pixel・Nintendo Everything・Console Creatures など複数の海外メディアが一斉に取り上げ、英語圏のタクティカル RPG ファン層での露出を確保した",
+          "発表から 2 か月後の 2026 年 11 月配信という短期サイクルで、価格・ストアページ・予告映像はまだ公表されていない"
+        ]
+      },
+      tags: ["主机", "新作発表", "SRPG", "Rideon Japan", "シリーズ作"]
+    },
+    {
+      id: "namco-legendary-mountains",
+      company: "ビサイド（BeXide）",
+      companyJp: "株式会社ビサイド",
+      bucket: "update",
+      platformClass: "multi",
+      announceDate: "2026-09-24（スマートフォン版の配信開始を発表）",
+      capturedAt: "2026-09-28",
+      title: { jp: "NAMCO LEGENDARY Mountains", cn: "南梦宫传奇山脉", en: "NAMCO LEGENDARY Mountains" },
+      genre: "3D パズルゲーム（物理演算系の落ちもの）",
+      platforms: ["iOS", "Android", "Nintendo Switch", "Nintendo Switch 2", "PC（Steam）"],
+      release: "2026-06-25（Nintendo Switch／Nintendo Switch 2／Steam 版）／2026-09-24（iOS／Android 版）",
+      releasePrecision: "已发售",
+      summary: "由ビサイド（BeXide）开发与发行的 3D 物理演算拼图游戏。把 NAMCO（現バンダイナムコエンターテインメント）80 年代街机名作中的角色做成「立体像素（ボクセル）」，玩家将装有ボクセル 的胶囊投入浅盘，让同类碰撞并合体成更大的个体，在不掉出盘外的前提下挑战高分。收录 PAC-MAN／DIG DUG／XEVIOUS／MAPPY／ドルアーガの塔 五个主题关卡与混合主关卡，另有 100 种以上可解锁的ボクセル 与在线排行榜。家用与 PC 版于 2026 年 6 月 25 日先行发售，iOS／Android 版于 2026 年 9 月 24 日上线，含税 980 日元（至 10 月 7 日优惠价 880 日元），为买断制。本条为在营作品的手机版配信补收。",
+      highlight: "【2026-09-24 スマホ版配信開始】ビサイドが『NAMCO LEGENDARY Mountains』の iOS／Android 版を配信開始した（税込 980 円、10/07 まで 880 円の配信開始記念セール）。　ナムコ 80 年代のアーケードキャラクターをボクセル化した 3D パズルで、Nintendo Switch／Nintendo Switch 2／Steam 版は 2026-06-25 に先行発売済み。『パックマン』『ディグダグ』『ゼビウス』『マッピー』『ドルアーガの塔』の 5 作品をテーマにした専用ステージと 100 種類以上のボクセル、当時のアーケード楽曲、オンラインランキングを収録する買い切りタイトル。",
+      mobile: {
+        status: "正式サービス中（2026-09-24 に iOS／Android 版の配信を開始。Nintendo Switch／Nintendo Switch 2／Steam 版は 2026-06-25 発売済み）",
+        os: ["iOS", "Android"],
+        monetization: "買い切り（税込 980 円。2026-09-24〜10-07 は 10%OFF の 880 円）。アプリ内課金・追加課金なし",
+        preReg: { open: false, since: "事前登録の仕組みなし（買い切りタイトルのため配信開始と同時に購入可能）", reward: "事前登録特典はなし。代わりに配信開始記念の期間限定セール（10%OFF）を実施" },
+        developer: "株式会社ビサイド",
+        publisher: "株式会社ビサイド",
+        region: "日本を含む世界配信（対応言語は日本語・英語・簡体字・繁体字・韓国語・ポルトガル語・ロシア語・ドイツ語・フランス語・スペイン語・イタリア語の 11 言語）",
+        distribution: "App Store（iOS 16 以上）／Google Play（Android 10 以上）での買い切り配信。家庭用・PC 版は Nintendo Switch／Nintendo Switch 2／Steam",
+        payment: [],
+        ipSource: "バンダイナムコエンターテインメントが権利を持つナムコ アーケード作品（『パックマン』『ディグダグ』『ゼビウス』『マッピー』『ドルアーガの塔』）のキャラクターを、ビサイドがライセンスを受けて 3D パズルとして再構成したもの。表記は ©Bandai Namco Entertainment Inc.／©BeXide",
+        series: "『スイカゲーム』系の合体パズルの仕組みを、ナムコ アーケードのキャラクターに置き換えた単独作。シリーズ続編ではなく、ビサイドが展開するプレミアム買い切りパズルの一つにあたる",
+        features: [
+          "カプセルに入った「ボクセル」をフィールドに投げ入れ、同じ種類同士をぶつけてより大きなボクセルに合体させる物理演算系の落ちものパズル。器から落とさないようバランスを取る操作が要になる",
+          "『パックマン』『ディグダグ』『ゼビウス』『マッピー』『ドルアーガの塔』の 5 作品それぞれをテーマにした専用ステージと、複数タイトルが混ざったメインステージを収録する",
+          "各ステージには当時のアーケード楽曲も収録され、BGM として楽しめる",
+          "条件をクリアすると解放される 100 種類以上のボクセルを集め、「コレクションルーム」に自由に配置して自分だけのジオラマを作れる",
+          "世界中のプレイヤーと順位を競うオンラインランキング機能を搭載し、スコアアタックに挑戦できる"
+        ],
+        synopsis: "ナムコ（現バンダイナムコエンターテインメント）の 80 年代アーケードゲームに登場したキャラクターたちを、3D の「ボクセル」として蘇らせた物理演算パズル。プレイヤーはカプセルに入ったボクセルを浅い器の中へ投げ入れ、同じ種類同士を衝突させてより大きなボクセルへと合体させていく。器の外にボクセルを落とさないよう調整しながら、どこまで高得点を伸ばせるかを競う構成になっている。",
+        cast: "公式発表なし（登場するのはナムコ アーケード作品のキャラクターで、音声キャストの公表はない）"
+      },
+      news: [
+        { source: "AppBank（ビサイド公式発表：スマホ版配信開始・価格とセール・対応機種・収録内容・ストア URL）", url: "https://www.appbank.net/2026/09/25/game/3114023.php" },
+        { source: "Time Extension（スマホ版リリース当日の報道・Nintendo Switch／PC 版との関係）", url: "https://www.timeextension.com/news/2026/09/voxel-themed-puzzler-namco-legendary-mountains-arrives-on-ios-and-android-today" }
+      ],
+      videos: [
+        { label: "App Store 作品ページ（プレイ映像・スクリーンショット）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6789032656" },
+        { label: "Google Play 作品ページ（jp.co.bexide.namcoClassicMountains）", platform: "Google Play", url: "https://play.google.com/store/apps/details?id=jp.co.bexide.namcoClassicMountains" }
+      ],
+      hype: {
+        score: 45,
+        signals: [
+          "ナムコ 80 年代アーケードの IP を横断して使える権利元の協力を得ており、日本語を含む 11 言語で配信される買い切り型タイトル",
+          "国内では AppBank が配信開始と価格・セールを報じ、海外では Time Extension や Nintendo News Hub などが取り上げた。露出の中心は英語圏のレトロゲーム系メディア",
+          "Nintendo Switch／Nintendo Switch 2／Steam 版が 2026-06-25 に先行発売済みの他機種展開であり、新規タイトルとしての話題性は限定的"
+        ]
+      },
+      tags: ["手游", "跨平台", "主机", "パズル", "買い切り", "バンダイナムコIP"]
+    },
   ],
 
   /* ---------------------------------------------------------
-   * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 29 社补充）
+   * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 37 社补充）
    *    status: covered 已建作品卡 / partial 部分覆盖 / watch 待观察
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
@@ -8191,7 +8301,9 @@ window.OBSERVATORY = {
         { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium", "sentimental-graffiti-remake", "azure-memoria"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
         { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された" },
         { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した" },
-        { name: "株式会社アプリボット", short: "Applibot", status: "covered", gameIds: ["chiikawa-pocket"], focus: true, note: "『ちいかわ』初のスマホアプリ『ちいかわぽけっと』を企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。2025-03-27 の配信開始から世界 43 の国と地域で展開し、2026-09-27 に 1.5 周年を迎えて『ふれあい』正式版と記念イベントを実施した" }
+        { name: "株式会社アプリボット", short: "Applibot", status: "covered", gameIds: ["chiikawa-pocket"], focus: true, note: "『ちいかわ』初のスマホアプリ『ちいかわぽけっと』を企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。2025-03-27 の配信開始から世界 43 の国と地域で展開し、2026-09-27 に 1.5 周年を迎えて『ふれあい』正式版と記念イベントを実施した" },
+        { name: "株式会社ライドオンジャパン", short: "Rideon Japan", status: "covered", gameIds: ["mercenaries-grace"], note: "タクティカル RPG『Mercenaries Saga』シリーズを自社で企画・開発・配信する日本のスタジオ。2026-09-25 にシリーズ第 8 作『Mercenaries Grace: Black Feather and the Golden Right Arm』（PlayStation 5／Nintendo Switch／PC（Steam）、日本では 2026 年 11 月にデジタル配信予定）を発表したため補充監視に追加" },
+        { name: "株式会社ビサイド", short: "BeXide", status: "covered", gameIds: ["namco-legendary-mountains"], note: "日本のゲーム開発・パブリッシャー。バンダイナムコエンターテインメントからナムコ アーケード作品の IP ライセンスを受け、3D パズル『NAMCO LEGENDARY Mountains』を自社で開発・販売。2026-06-25 に Nintendo Switch／Nintendo Switch 2／Steam 版、2026-09-24 に iOS／Android 版を買い切りで配信した" }
       ]
     }
   },
@@ -8259,15 +8371,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 展後（2026-09-28 場）。本場は 09-26〜09-28 の 3 日分をまとめて処理した。日方主導の新規スマホ作の発表はゼロだったが、在営タイトルの漏収補収 2 件（『ちいかわぽけっと』の 1.5 周年、『魔法少女まどか☆マギカ Magia Exedra』1.5 周年生放送での完全新作オリジナルシリーズ発表）と、跨平台 1 件（『ネコぱら セカイコネクト』Steam 版の配信開始＝9/28）、主机・PC 1 件（Key『Summer Pockets Sunnyside Stories』の発表＝9/26）を追加し、既存 1 件（『封神演義 Re:surrection』）を更新した。条目総数は 144 → 148（手游区 38／主机・PC 区 120）",
+    headline: "TGS2026 展後（2026-09-28 19:00 場・本日 2 回目の実行）。09-28 日中の増分区間で日方主導の新規スマホ作の発表はゼロだった。本場は前場（09-25 夜〜09-28）で拾いきれていなかった 2 件を補収した——跨平台の買い切りパズル『NAMCO LEGENDARY Mountains』のスマホ版配信開始（9/24）と、ライドオンジャパンのタクティカル RPG『Mercenaries Grace: Black Feather and the Golden Right Arm』の新作発表（9/25、主机・PC）。条目総数は 148 → 150（手游区 39／主机・PC 区 122）",
     points: [
-      "**手游侧（漏収補収 2 件）**：本場の増分区間（9/25 夜〜9/28）に日方主導の新規スマホ作の発表は確認できなかったが、在営タイトルの重大な漏収を 2 件補収した。①『ちいかわぽけっと』（企画・制作・開発・運営 アプリボット、2025-03-27 配信開始、世界 43 の国と地域、事前登録 150 万件突破）——2026-09-27 に 1.5 周年を迎え、『ふれあい』正式版と記念イベント「ピーターパン」（〜11/02）がスタート。記念ログインで最大宝石 10,000 個相当を配布。②『魔法少女まどか☆マギカ Magia Exedra』（企画・配信 アニプレックス／開発 ポケラボ・f4samurai）——9/27 の 1.5 周年生放送「Magia Day 2026」で初の完全新作オリジナルシリーズ『魔法少女そらな☆マギカ ～Our Fates, Our Futures～』の 10/04 開幕を発表。舞台は「宇宙（そら）」、シナリオ 草野原々／キャラクター原案 こかむも、フルボイス。",
-      "**手游侧（跨平台 1 件・Steam 版配信開始）**：『ネコぱら セカイコネクト』（制作・配信 グッドスマイルカンパニー／制作・原作監修 NEKO WORKs）の PC（Steam）版が 9/28 に配信を開始した。iOS／Android 版は 2026-04-14 から配信中で、Steam 版はアカウント連携によるデータ引き継ぎと簡体字に対応する。8/24 のメンテナンスでは ★5［制服］まゆみ（CV：瀬戸麻沙美）とメインストーリー第 6 章「桜ヶ丘ネコ学園編」を実装して同章が完結し、エンドコンテンツ「VR キャットタワー」が 201F から 300F に拡張された。",
-      "**主机・PC 侧（新作発表 1 件）**：Key が 9/26 に『Summer Pockets Sunnyside Stories』を 2026-12-18（金）に Windows 11 向け日本語版で発売すると発表した。公式サイトで 2018 年から公開されてきた『Summer Pockets』のショートストーリー集を、フルボイスの恋愛アドベンチャー（選択肢なし）として作り直すもので、新規 CG と完全新規エピソードを収録する。原画は Na-Ga・ふむゆん・和泉つばす・永山ゆうのん、新 OP「Luster piece」は鈴木このみが歌唱。DL 版 2,970 円／通常版 3,960 円／豪華特典版 10,780 円の 3 形態。",
-      "**既存条目の更新 1 件**：『封神演義 Re:surrection』（集英社ゲームズ／開発 LASTWONDER）——9/26 より原作漫画 30 周年企画として藤崎竜『封神演義』全 23 巻・全 204 話が 2026-09-26 から 2027-04-23 まで無料公開された（少年ジャンプ＋・ゼブラック・ヤングジャンプ＋）。ゲーム本編は Nintendo Switch 2／PS5／Steam 向けに 2027 年発売予定のまま。",
-      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃／まどか☆マギカ）、② 周年・記念企画系（モンスターストライク 13 周年＝9/26-27、サクラ大戦 30 周年、悪魔城ドラキュラ 40 周年、日本ゲーム大賞 2026）、③ 9/26〜9/28 の日次まとめ（Quest Board.JP 9/26・9/27）と国内 PC／コンシューマ新作リストを確認した。『モンスターストライク』（MIXI）は 13 周年と Re:ZERO コラボ第 2 弾（9/27 0:00〜）があったが本体は新作ではなく、MIXI は watch のまま据え置いた（不凑数）。『チェンソーマン』のスマホ新作は引き続き開発・発行元が未公表で、厳格運用のまま未収録（持ち越し）。『BanG Dream! Our Notes』の日本版は 9/28 時点で公式サイトにサービス開始の告知がなく、配信時期未公表のまま継続ウォッチとする。",
-      "**中资作品の扱い（不収録）**：本場の増分区間でも、中国資本の企業が開発または発行する作品が複数確認されたが、指定の紅線に従いすべて不収録とした。社名・作品名とも本站のデータには一切記載していない。資本の判定は「開発方の資本帰属」→「本体（日本版）の発行方」の順で行い、海外版の発行方は判定に含めない。",
-      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50 で不変、extra は 34 → 35 家（アプリボットを追加）。gameIds は Aniplex に『Magia Exedra』、グッドスマイルカンパニー に『ネコぱら セカイコネクト』、ビジュアルアーツ（Key）に『Summer Pockets Sunnyside Stories』を追加し、VisualArts は watch から covered へ変更した。Famitsu 期待榜は 9/27 号の新期を確認できず mostWanted は据え置き（asOf 2026-09-21）。tgs は展後記録として凍結のまま。"
+      "**手游侧**：本場の増分区間（09-28 の日中、日本時間で 15 時以降）に、日方主導の新規スマホタイトルの発表は確認できなかった。検索は 手游通稿向け・IP 授权向け・主机PC 向け・厂商名单・期待榜の 5 系統を 16 組以上実行し、ヒットしたのは既収録作・海外資本の作品・既存作の他機種展開のいずれかだった。手游侧は「新作を作らない」方針を維持し、新規発表なしをそのまま記録している。",
+      "**跨平台の補収 1 件（手游区・主机・PC 区の両方に表示）**：『NAMCO LEGENDARY Mountains』（開発・販売 ビサイド）——バンダイナムコエンターテインメントが権利を持つナムコ 80 年代アーケード作品のキャラクターをボクセル化した 3D 物理演算パズルのスマホ（iOS／Android）版が 2026-09-24 に配信を開始した。買い切り 980 円（10/07 まで 880 円）、日本語を含む 11 言語に対応し、『パックマン』『ディグダグ』『ゼビウス』『マッピー』『ドルアーガの塔』の 5 作品をテーマにした専用ステージを収録する。Nintendo Switch／Nintendo Switch 2／Steam 版は 2026-06-25 に先行発売済みのため bucket は update とし、作品本体が窗口左端（2026-07-28）より前の在営扱いにしている。",
+      "**主机・PC の補収 1 件**：『Mercenaries Grace: Black Feather and the Golden Right Arm』（ライドオンジャパン）——2026-09-25 に発表された『Mercenaries Saga』シリーズ第 8 作。日本では 2026 年 11 月に PlayStation 5／Nintendo Switch／PC（Steam）向けのデジタル配信を予定し、英語版も準備中とされている。シリーズ従来の完全ターン制を廃し、将棋・チェスのように自軍と敵軍が 1 体ずつ交互に行動する方式へ刷新した点が最大の変更で、キャラクターデザインは mitsu_plus が担当する。発表時点では価格・ストアページ・予告映像が未公表で、発売時期についても一部メディアが 2027 年と報じており、カード内の caution にその相違を明記した。",
+      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃／BLEACH／チェンソーマン）、② 周年・記念企画系（悪魔城ドラキュラ 40 周年＝9/25 発表分、モンスターストライク 13 周年）、③ 9/28 の国内新作・週次リリース一覧（Metacritic／RPGFan／Vandal／AS の 9/28〜10/04 発売リスト）、④ Quest Board.JP の日次まとめ、⑤ カプコン・コナミ・スクウェア・エニックス・コーエーテクモ・集英社ゲームズ・講談社ゲームラボの新作動向を確認した。本場の実入りは ② の周辺ではなく、9/24〜9/25 に出ていた 2 件（スマホ版配信と SRPG 新作発表）の補収だった。",
+      "**継続ウォッチ（本場も動きなし）**：①『BanG Dream! Our Notes』の日本版は 9/28 時点でも公式サイトにサービス開始の告知がなく、配信時期未公表のまま（国際服は 9/24 に正式サービス中）②『チェンソーマン』のスマホ新作は開発元・発行元が未公表のため厳格運用を維持 ③『モンスターストライク』13 周年（9/26〜27）と『サクラ大戦』30 周年は本体が新作ではないため不収録、MIXI は watch のまま ④ Bandai Namco が 9/26 に発表した『SYNDUALITY Echo of Ada』のオンラインサービス終了（2027 年 5 月以降）は、2025-01-23 発売済みの既存作の運営終了告知であり新作・新規発表ではないため卡片化せず、記録のみとした。",
+      "**中资作品の扱い（不収録）**：本場の増分区間でも、中国資本の企業が開発または発行する作品が複数確認されたが、指定の紅線に従いすべて不収録とした。社名・作品名とも本站のデータには一切記載していない。判定は「開発方の資本帰属」→「本体（日本版）の発行方」の順で行い、海外版の発行方は判定に含めない。",
+      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50 で不変。extra は 35 → 37 家（ライドオンジャパン、ビサイドを追加。いずれも status は covered、gameIds に新規条目を登録）。Famitsu 期待榜は 9/26 に『Persona 6』が『ゼルダの伝説 時のオカリナ』を抜いて 2 位に入ったとする報道が出たが、票数（Persona 6 477／Ocarina 445）は既収録の asOf 2026-09-21 の内容と一致しており、同一号に対する後追い報道と判断して mostWanted は据え置いた。tgs は展後記録として凍結を継続。"
     ]
   },
 };
