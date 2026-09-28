@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-25T19:30:00+08:00",
-    edition: "2026-09-25",
-    window: "2026-07-25 ~ 2026-09-25（滚动最近 2 个月）",
+    updatedAt: "2026-09-28T14:03:00+08:00",
+    edition: "2026-09-28",
+    window: "2026-07-28 ~ 2026-09-28（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -6616,8 +6616,8 @@ window.OBSERVATORY = {
       companyJp: "株式会社集英社ゲームズ（開発：LASTWONDER）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-09（Nintendo Direct 内で発表。集英社ゲームズと LASTWONDER の共同プロジェクト）",
-      capturedAt: "2026-09-22",
+      announceDate: "2026-09-26（原作漫画 30 周年企画で全 204 話の無料公開がスタート）",
+      capturedAt: "2026-09-28",
       title: {
         jp: "HOSHiN ENGi Re:surrection（封神演義 Re:surrection）",
         cn: "封神演义 Re:surrection",
@@ -6628,7 +6628,7 @@ window.OBSERVATORY = {
       release: "2027年",
       releasePrecision: "年",
       summary: "集英社のゲームパブリッシングブランド「集英社ゲームズ」と、コンシューマー向けを中心に企画・開発を行う LASTWONDER が組んだ『封神演義』の新作ゲーム。藤崎竜の原作漫画（集英社『週刊少年ジャンプ』1996〜2000 年連載、全 23 巻、累計 2,200 万部）の完結後を舞台に、原作者が自らデザインした新主人公トウシン（Toshin）を操るローグライト・アクション。戦闘は原作の宝貝（パオペ）を主軸に据え、メイン枠が攻撃性能を、サブ枠が戦況の流れを変える二枠カスタマイズで、強化を進めると組み合わせから進化攻撃が解放される。霊獣チュエチュエ童子は地上で自動的にトウシンを援護し、騎乗すると空中機動と敵の死角への奇襲が可能になる。ダンジョンは挑戦ごとに構造が変わる分岐型で、経路と報酬が事前に提示され、道中で集めた素材は拠点へ持ち帰って恒久強化に充てられる。太公望・四不象・楊戩・哪吒・黄天化 ら原作キャラクターも登場し、交流と手合わせを通じて戦闘支援が解放される。対応機種は Nintendo Switch 2／PlayStation 5／PC（Steam）、2027 年発売予定。",
-      highlight: "【2026-09-09 Nintendo Direct】番組内で電撃発表。原作漫画の完結後を描くローグライトアクションとして、Nintendo Switch 2／PlayStation 5／Steam 向けに 2027 年発売と告知された。新主人公トウシンと霊獣チュエチュエ童子は原作者 藤崎竜 がデザインし、本人が監修も担当する。太公望・四不象・楊戩・哪吒・黄天化 の登場も発表され、英語・日本語・簡体字・繁体字に対応する。　集英社ゲームズにとっては『UN:Me』に続く 2 本目の大型 IP タイトルで、同社は TGS2026（5 号館 05-C10）でも両作を出展していた。過去 20 年で家庭用ゲーム化がなかった IP の復活となる。",
+      highlight: "【2026-09-26 全 204 話無料公開】原作漫画 30 周年企画の一環として、藤崎竜『封神演義』全 23 巻・全 204 話が 2026-09-26 から 2027-04-23 まで無料公開された（少年ジャンプ＋・ゼブラック・ヤングジャンプ＋）。ゲーム本編は Nintendo Switch 2／PlayStation 5／Steam 向けに 2027 年発売予定のまま。　発表の起点は 2026-09-09 の Nintendo Direct で、対応機種 3 種と原作者 藤崎竜 がデザインする新主人公トウシンが告知されている。集英社ゲームズにとっては『UN:Me』に続く 2 本目の大型 IP タイトルで、TGS2026（5 号館 05-C10）でも両作を出展していた。過去 20 年で家庭用ゲーム化がなかった IP の復活となる。",
       console: {
         status: "2027年発売予定（Nintendo Switch 2／PlayStation 5／PC）",
         os: ["Nintendo Switch 2", "PlayStation 5", "Windows（Steam）"],
@@ -6658,7 +6658,8 @@ window.OBSERVATORY = {
         { source: "集英社ゲームズ公式プレスリリース（ゲームプレイ詳細・対応機種・言語対応）", url: "https://animenewsnetwork.com/press-release/2026-09-09/hoshin-engi-re-surrection-turns-shonen-jump-epic-into-hand-drawn-roguelite-coming-in-2027/.241585" },
         { source: "FinalBoss.io（ループ構造・宝貝の二枠システム・未発表項目の整理）", url: "https://finalboss.io/hoshin-engi-re-surrection-turns-its-manga-afterstory-into-roguelite-runs" },
         { source: "Thisisgame SEA（Steam ストア情報・対応機種・発売時期）", url: "https://thisisgamesea.com/game/hoshin-engi-resurrection-action-roguelite-pc-2027" },
-        { source: "Seasonal Anime News（シリーズのメディア展開史とスマホ版からの復帰）", url: "https://news.seasonalanime.com/shueisha-games-reveals-hoshin-engi-roguelite-game-55827b" }
+        { source: "Seasonal Anime News（シリーズのメディア展開史とスマホ版からの復帰）", url: "https://news.seasonalanime.com/shueisha-games-reveals-hoshin-engi-roguelite-game-55827b" },
+        { source: "GameTrader.SG（30 周年企画の全 204 話無料公開の報道・本作の位置づけ）", url: "https://www.gametrader.sg/blog/tag/fujisaki-ryu" }
       ],
       videos: [
         { label: "Nintendo Direct 初公開映像（Anime News Network の発表記事に掲載）", platform: "媒体", url: "https://www.animenewsnetwork.com/news/2026-09-09/shueisha-games-reveals-hoshin-engi-roguelite-game/.241588" },
@@ -7831,6 +7832,237 @@ window.OBSERVATORY = {
       },
       tags: ["移植", "サバイバルホラー", "Switch2", "定档"]
     },
+    {
+      id: "chiikawa-pocket",
+      company: "アプリボット（Applibot）",
+      companyJp: "株式会社アプリボット",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-09-27（1.5 周年。『ふれあい』正式版と記念イベント「ピーターパン」が同日スタート）",
+      capturedAt: "2026-09-28",
+      title: { jp: "ちいかわぽけっと", cn: "吉伊卡哇袋着走", en: "Chiikawa Pocket" },
+      genre: "暮らし・ミニゲーム集（カジュアル）",
+      platforms: ["iOS", "Android"],
+      release: "2025-03-27（配信開始済み。世界 43 の国と地域）",
+      releasePrecision: "已开服",
+      summary: "《ちいかわぽけっと》是插画家长野（ナガノ）在 X 连载的人气漫画《ちいかわ》的首款手机应用，由日本アプリボット（Applibot，总部东京涩谷）负责企划、开发与运营，2025 年 3 月 27 日起在全球 43 个国家和地区上线，事前登录突破 150 万件。玩家可以随时与ちいかわ们一起生活，玩法由讨伐、料理、栽培等小游戏以及与角色互动的「ふれあい」构成。2026 年 9 月 27 日迎来上线 1.5 周年：同日 0 时（JST）「ふれあい」正式版上线，加入角色语音与按照顾程度递增的阶段报酬；纪念活动「ピーターパン」同步开始（至 11 月 2 日），纪念登录赠送活动服装与最多相当于 10,000 宝石的奖励。本条为在营作品的漏收补收，本体上线时间在观测窗口之外。",
+      highlight: "【2026-09-27 1.5 周年】配信から 1.5 年を迎え、同日 0 時（JST）から『ふれあい』正式版と 1.5 周年記念イベント「ピーターパン」がスタート。2026-07-24 におためし版として先行実装されていた『ふれあい』が正式版になり、一部のふれあいにキャラクターボイスが加わり、お世話の積み重ねに応じて段階的に報酬が増える仕組みが入った。おふろの演出も強化され、汚れたちいかわをいつでも洗える。記念ログインでは 2 日目にイベント衣装のラッコ、期間中の累計ログインで最大宝石 10,000 個相当を配布する。　本体は 2025-03-27 配信開始で窗口外のため、本条目は在営タイトルの節目イベントとしての漏収補収になる。",
+      mobile: {
+        status: "配信中（2025-03-27 サービス開始、世界 43 の国と地域）",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料（アプリ内課金あり）",
+        preReg: { open: false, since: "受付終了（2025-03-27 配信開始。事前登録は 150 万件を突破）", reward: "事前登録 150 万件突破で宝石×5,000 を配信開始時に全員配布" },
+        developer: "株式会社アプリボット",
+        publisher: "株式会社アプリボット",
+        region: "日本／韓国・台湾・香港・マカオ・タイ・米国など世界 43 の国と地域",
+        distribution: "App Store／Google Play でのダウンロード配信（基本プレイ無料）",
+        payment: [],
+        ipSource: "ナガノ『ちいかわ』（イラストレーター・ナガノが 2020 年より X に投稿している漫画。権利表記 ©nagano / chiikawa committee Developed by Applibot, Inc.）。『日本キャラクター大賞』で 2022・2024・2025・2026 の 4 回グランプリ、X のフォロワーは 479 万人超",
+        series: "『ちいかわ』初のスマートフォンアプリ。企画・制作・開発・運営はいずれもアプリボット（本社：東京都渋谷区）。アニメはフジテレビ系『めざましテレビ』内で放送中で、2026-07-24 には『映画ちいかわ 人魚の島のひみつ』が公開された",
+        features: [
+          "『ちいかわたちといつでもどこでも一緒』をコンセプトに、討伐・料理・栽培などの遊びを詰め合わせた構成",
+          "新機能『ふれあい』は 2026-07-24 におためし版を先行的に実装し、2026-09-27 の 1.5 周年で正式版へ",
+          "『ふれあい』は「おせわ」（ごはん・お風呂）と「コーディネート」（着せかえ・家具のレイアウト）、なでる／くすぐるの 3 系統",
+          "正式版では一部のふれあいにキャラクターボイスが加わり、お世話の積み重ねに応じて段階的に報酬が増える仕組みが入った",
+          "「おふろ」の演出を強化。汚れたちいかわをいつでも洗え、操作に応じて反応が変化する",
+          "1.5 周年記念イベント「ピーターパン」を 2026-09-27 00:00 〜 2026-11-02 14:59 に開催し、進行で家具アイテムが手に入る",
+          "記念ログインでは 2 日目にイベント衣装のラッコ、期間中の累計ログインで最大宝石 10,000 個相当を配布",
+          "新機能の先行体験として「大きなスマホ」（最大高さ約 1.9m の巨大サイネージ）を 2026-07-10 〜 09-06 に全国 28 箇所で展示した",
+        ],
+        synopsis: "原作漫画『ちいかわ』の世界観を、いつでもどこでも一緒に過ごせる形にしたスマートフォンアプリ。プレイヤーはちいかわたちの暮らしを眺めながらミニゲームで報酬を集め、家具や衣装で自分の部屋を作っていく。2026-09-27 の 1.5 周年で『ふれあい』が正式版となり、撫でる・食事・入浴といった行為への反応が増え、お世話の積み重ねが段階的な報酬として還元される設計になった。期間限定イベントは数か月単位で更新され、アニメ・映画・グッズと連動したテーマが組まれる。",
+        cast: "キャスト一覧は公式には公表されていない（1.5 周年の『ふれあい』正式版で一部のふれあいにキャラクターボイスが追加された）"
+      },
+      news: [
+        { source: "PR TIMES（アプリボット公式リリース：新機能『ふれあい』の追加・おためし版・全国 28 箇所の「大きなスマホ」展示）", url: "https://prtimes.jp/main/html/rd/p/000000039.000156996.html" },
+        { source: "巴哈姆特 GNN（1.5 週年「彼得潘」活動・「互動」正式版・親密等級系統）", url: "https://gnn.gamer.com.tw/detail.php?sn=312383" },
+        { source: "4Gamers 台灣（1.5 週年紀念活動與「互動」正式版細節）", url: "https://www.4gamers.com.tw/news/detail/82300/chiikawa-pocket-1-5-anniversary-peter-pan-theme-event" }
+      ],
+      videos: [
+        { label: "新機能『ふれあい』PV 第 1 弾（アプリボット公式リリースに掲載）", platform: "YouTube", url: "https://youtu.be/L7gpAgpOBns" },
+        { label: "1.5 周年特設サイト（公式）", platform: "官方站", url: "https://jp.chiikawa-pocket.com/ja/1.5year/" }
+      ],
+      hype: {
+        score: 74,
+        signals: [
+          "『日本キャラクター大賞』で 2022・2024・2025・2026 と 4 回グランプリ。X のフォロワーは 479 万人超（公式リリース）",
+          "配信は世界 43 の国と地域、事前登録 150 万件突破でスタートした国内最大級のキャラクター IP アプリ",
+          "1.5 周年では『ふれあい』正式版・記念イベント「ピーターパン」・特設サイト・記念映像・全国 28 箇所の展示など複数企画を同時展開",
+          "本体の配信開始は 2025-03-27 で窗口外のため、本条目は在営タイトルの節目イベントとしての漏収補収になる"
+        ]
+      },
+      tags: ["手游", "IP授权", "ちいかわ", "カジュアル", "周年", "在営タイトル"]
+    },
+    {
+      id: "magia-exedra",
+      company: "アニプレックス（Aniplex）",
+      companyJp: "株式会社アニプレックス（企画・配信。開発：ポケラボ／f4samurai）",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-09-27（1.5 周年生放送「Magia Day 2026」で完全新作オリジナルシリーズの 10/04 開幕を発表）",
+      capturedAt: "2026-09-28",
+      title: { jp: "魔法少女まどか☆マギカ Magia Exedra", cn: "魔法少女小圆 Magia Exedra", en: "Puella Magi Madoka Magica: Magia Exedra" },
+      genre: "コマンド式ターン制バトル RPG（ガチャ）",
+      platforms: ["iOS", "Android", "PC（Steam）"],
+      release: "2025-03-27（正式リリース済み。先行サービス 2025-03-26、Steam 版 2025-07-17）",
+      releasePrecision: "已开服",
+      summary: "《魔法少女まどか☆マギカ Magia Exedra》是アニプレックス（Aniplex）企划与发行、ポケラボ 与 f4samurai 开发的《魔法少女小圆》系列最新手机／PC 游戏，2025 年 3 月 27 日正式上线（iOS／Android，Steam 版 7 月 17 日），配信前事前登录突破 100 万件。玩家在失忆少女与「灯台剧场」的设定下探索魔女结界、收集魔法少女的记忆并进行回合制战斗。2026 年 9 月 27 日举办上线 1.5 周年生放送「Magia Day 2026 -1.5th Anniversary-」，发表本作首个完全原创新系列《魔法少女そらな☆マギカ ～Our Fates, Our Futures～》，2026 年 10 月 4 日开幕，全语音、舞台为系列首次的「宇宙」，剧本 草野原々、角色原案 こかむも。主题曲「ネイビーブルー」同日 0 时开始配信，由剧中主角 凪星そらな（CV：結川あさき）演唱。本条为在营作品的漏收补收。",
+      highlight: "【2026-09-27 1.5 周年生放送】17:00 より YouTube で配信された 1.5 周年特別生放送「Magia Day 2026 -1.5th Anniversary-」にて、本作初の完全新作オリジナルシリーズ『魔法少女そらな☆マギカ ～Our Fates, Our Futures～』の 2026-10-04 開幕が発表された。既存ストーリーから独立した完全新作で、フルボイス展開、舞台はシリーズ初の「宇宙（そら）」。シナリオは草野原々、キャラクター原案はこかむもが担当し、テーマソング「ネイビーブルー」を 2026-10-04 00:00 より配信する（歌唱：凪星そらな／CV：結川あさき、作詞・作編曲：辻村有記、編曲：伊藤賢）。　本体は 2025-03-26 先行サービス開始で窗口外、新シリーズ開幕も 2026-10-04 のため、本条目は在営タイトルの節目イベントとしての漏収補収になる。",
+      mobile: {
+        status: "配信中（2025-03-27 正式リリース、iOS／Android。Steam 版は 2025-07-17 配信）",
+        os: ["iOS", "Android", "Windows（Steam）"],
+        monetization: "基本プレイ無料（ガチャ課金）",
+        preReg: { open: false, since: "受付終了（2025-03-26 先行サービス開始。配信前の事前登録は 100 万件を突破）", reward: "事前登録 100 万件突破の特典を配布（詳細は公式サイトを参照）" },
+        developer: "ポケラボ／f4samurai（運営：ポケラボ）",
+        publisher: "株式会社アニプレックス",
+        region: "日本・海外（繁体字版は So-net が発行）",
+        distribution: "App Store／Google Play／Steam でのダウンロード配信（基本無料）",
+        payment: [],
+        ipSource: "『魔法少女まどか☆マギカ』（Magica Quartet／アニプレックス）。権利表記 ©2024 Magica Quartet/Aniplex, Magia Exedra Project。テレビアニメ本編に加えスピンオフ『マギアレコード』『オリコマギカ』のキャラクターも登場する",
+        series: "シリーズ最新作のスマホ／PC 向け RPG。『マギアレコード 魔法少女まどか☆マギカ外伝』のサービス終了（2024-07-31）に伴いアカウント引き継ぎが用意された。2026-09-27 に配信 1.5 周年を迎えた",
+        features: [
+          "魔女結界を探索して魔法少女の記憶を集める、コマンド式ターン制バトルの RPG（公式ハッシュタグ #まどドラ）",
+          "2026-09-27 17:00 より 1.5 周年記念特別生放送「Magia Day 2026 -1.5th Anniversary-」を YouTube で配信",
+          "同生放送で初の完全新作オリジナルシリーズ『魔法少女そらな☆マギカ ～Our Fates, Our Futures～』の 2026-10-04 開幕を発表",
+          "新シリーズは既存ストーリーから独立した完全新作で、フルボイス。舞台はシリーズ初の「宇宙（そら）」",
+          "シナリオは草野原々、キャラクター原案はこかむも。告知コピーは「魔法少女の次なる舞台は――宇宙（そら）」",
+          "テーマソング「ネイビーブルー」を 2026-10-04 00:00 より配信開始。歌唱は凪星そらな（CV：結川あさき）、作詞・作編曲は辻村有記、編曲は伊藤賢"
+        ],
+        synopsis: "『魔法少女まどか☆マギカ』シリーズのキャラクターが集結する 3D ターン制バトル RPG。記憶を失った少女が「灯台劇場」と呼ばれる場所で魔法少女たちの記憶を集めていく構成で、テレビアニメ本編に加えスピンオフ『マギアレコード』のキャラクターも登場する。2026-09-27 の 1.5 周年生放送では、既存の物語から独立した完全新作オリジナルシリーズをフルボイスで展開することが発表され、その舞台はシリーズ初の「宇宙（そら）」に置かれる。",
+        cast: "凪星そらな（CV：結川あさき）ほか（新シリーズのキャストは現時点で発表された範囲のみ）"
+      },
+      news: [
+        { source: "Quest Board.JP（1.5 周年生放送での新シリーズ発表・開幕日・スタッフ・主題歌クレジット）", url: "https://quest-board.jp/quests/our-fates-our-futures/" },
+        { source: "GREE プレスリリース（企画・配信 アニプレックス／開発 ポケラボ・f4samurai／2025-03-26 先行サービス開始・対応機種・権利表記）", url: "https://hd.gree.net/jp/ja/news/press/2025/0326-01.html" }
+      ],
+      videos: [
+        { label: "公式サイト（Magia Day 2026 と新シリーズ情報）", platform: "官方站", url: "https://www.madoka-exedra.com" },
+        { label: "公式 X（@madoka_exedra・GREE プレスリリースに明記）", platform: "X", url: "https://x.com/madoka_exedra" }
+      ],
+      hype: {
+        score: 78,
+        signals: [
+          "『魔法少女まどか☆マギカ』は劇場新作も控える国内屈指のアニメ IP で、本作はその最新ゲーム。配信前に事前登録 100 万件を突破した",
+          "1.5 周年生放送で初の完全新作オリジナルシリーズを発表し、フルボイス・新舞台「宇宙」という追加投資の大きい告知を行った",
+          "主題歌を主人公自身の声（CV：結川あさき）で物語と同日に配信する構成で、キャラクターと楽曲をセットで訴求している",
+          "本体の配信開始は 2025-03-27、新シリーズ開幕も 2026-10-04 で、いずれも窗口内の新作発表ではない"
+        ]
+      },
+      tags: ["手游", "IP授权", "アニプレックス", "RPG", "周年", "在営タイトル"]
+    },
+    {
+      id: "nekopara-sekai-connect",
+      company: "グッドスマイルカンパニー × NEKO WORKs",
+      companyJp: "株式会社グッドスマイルカンパニー（制作・配信）／NEKO WORKs（制作・原作監修）",
+      bucket: "update",
+      platformClass: "multi",
+      announceDate: "2026-09-28（PC（Steam）版の配信を開始。モバイル版とのアカウント連携に対応）",
+      capturedAt: "2026-09-28",
+      title: { jp: "ネコぱら セカイコネクト", cn: "猫娘乐园 世界连结", en: "Nekopara Sekai Connect" },
+      genre: "カフェ経営シミュレーション＋リズム／ガチャ",
+      platforms: ["iOS", "Android", "PC（Steam）"],
+      release: "2026-04-14（iOS／Android 配信開始済み）／2026-09-28（Steam 版）",
+      releasePrecision: "已发售",
+      summary: "《ネコぱら セカイコネクト》是《猫娘乐园》系列 10 周年纪念作品，由 NEKO WORKs 制作与监修、グッドスマイルカンパニー（Good Smile Company）制作与发行，原作作者 Sayori 参与企划。手机版 2026 年 4 月 14 日上线（iOS／Android，日英双语），PC（Steam）版于 2026 年 9 月 28 日配信开始，支持与手机版账号连动继承进度并追加简体中文。玩法偏向沙盒式咖啡厅经营：自定义店内装潢、雇用猫娘接待客人，配合节奏游戏与踏破型终盘内容「VR キャットタワー」，核心循环为抽卡收集角色。2026 年 8 月 24 日维护后追加 ★5［制服］まゆみ 与主线第 6 章。本条为在营作品的 Steam 版配信补收。",
+      highlight: "【2026-09-28 Steam 版配信開始】PC（Steam）版が配信を開始し、モバイル版からのアカウント連携でデータを引き継げるようになった。対応言語は日本語・英語に加えて簡体字。　モバイル版（iOS／Android）は 2026-04-14 に配信開始済みで、こちらは窗口外。8/24 のメンテナンスでは ★5［制服］まゆみ（CV：瀬戸麻沙美）とメインストーリー第 6 章「桜ヶ丘ネコ学園編」を実装して同章が完結し、エンドコンテンツ「VR キャットタワー」が 201F から 300F まで拡張された。原作者 Sayori が企画と監修に入る 10 周年記念作で、制作・配信はグッドスマイルカンパニーが担当する。",
+      mobile: {
+        status: "配信中（iOS／Android は 2026-04-14 サービス開始、Steam 版は 2026-09-28 配信開始）",
+        os: ["iOS", "Android", "Windows（Steam）"],
+        monetization: "基本プレイ無料（ガチャ課金。Steam 版も基本無料）",
+        preReg: { open: false, since: "受付終了（2026-04-14 配信開始）", reward: "事前登録の特典内容は公式サイトを参照（配信開始済みのため受付終了）" },
+        developer: "NEKO WORKs",
+        publisher: "株式会社グッドスマイルカンパニー",
+        region: "日本／世界（日本語・英語。Steam 版は簡体字にも対応）",
+        distribution: "App Store／Google Play／Steam でのダウンロード配信。Steam 版はモバイル版アカウントとのデータ連携に対応",
+        payment: [],
+        ipSource: "NEKO WORKs（Sayori）『ネコぱら』シリーズ（シリーズ累計 700 万本超、TV アニメ化もされた恋愛アドベンチャー）。本作は原作者みずからが企画に携わるシリーズ 10 周年記念作品",
+        series: "原作の恋愛アドベンチャーとは異なり、カフェ経営とキャラクター収集を軸にしたスピンオフ。公式サイトは nekoconne.com、公式 X は @nekoconne（英語版は @nekoconne_en）",
+        features: [
+          "『ネコぱら』世界観を舞台にしたサンドボックス型のカフェ経営 RPG。内装のカスタマイズ、キャラクターの雇用と接客を行う",
+          "リズムゲームのパートと、踏破型のエンドコンテンツ「VR キャットタワー」を収録する",
+          "ガチャで猫娘を集めるのが中核のループ。原作の猫娘に加え世界各地の新キャラクターが登場する",
+          "PC（Steam）版が 2026-09-28 に配信開始。モバイル版からのアカウント連携でデータを引き継げる",
+          "2026-08-24 のメンテナンスで ★5［制服］まゆみ（CV：瀬戸麻沙美）を追加し、メインストーリー第 6 章「桜ヶ丘ネコ学園編」を実装して同章を完結させた",
+          "同日の更新で「VR キャットタワー」を 201F から 300F まで拡張し、PvP「キッチンカーバトル」のロジックも調整した"
+        ],
+        synopsis: "『ネコぱら』シリーズの 10 周年を記念したスマートフォン／PC 向けスピンオフ。原作が恋愛アドベンチャーなのに対し、本作はカフェの内装を組み替え、猫娘のスタッフを雇って接客するサンドボックス型の経営ゲームで、ガチャによるキャラクター収集・リズムゲーム・エンドコンテンツの踏破が主要な遊びになる。原作者の Sayori が企画と監修に入り、原作の猫娘に加えて世界各地の新キャラクターが追加される。",
+        cast: "★5［制服］まゆみ（CV：瀬戸麻沙美）ほか（主要キャストの一覧は公式には公表されていない）"
+      },
+      news: [
+        { source: "AUTOMATON（Steam 版 2026-09-28 配信とモバイル版からのデータ引き継ぎ・8/24 更新の内容）", url: "https://automaton-media.com/en/news/nekopara-sekai-connect-coming-to-steam-on-september-28-a-cafe-management-spin-off-game" },
+        { source: "Anime News Network（Steam 版 9/28 配信・制作／配信／宣伝協力の体制・モバイル版 4/14 配信開始）", url: "https://www.animenewsnetwork.com/daily-briefs/2026-08-24/nekopara-sekai-connect-game-launches-for-pc-on-september-28/.240926" },
+        { source: "Holiday Travel（8/24 メンテナンスの更新内容・ストア URL・公式 X・言語対応）", url: "http://haveagood-holiday.com/en/articles/nekopara-sekai-connect-steam-release-date" }
+      ],
+      videos: [
+        { label: "公式サイト（ネコぱら セカイコネクト）", platform: "官方站", url: "https://nekoconne.com" },
+        { label: "Steam ストアページ（PC 版）", platform: "Steam", url: "https://store.steampowered.com/app/4437450/" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "原作『ネコぱら』はシリーズ累計 700 万本超、TV アニメ化もされた海外人気の高い日本 IP（公式発表）",
+          "制作・配信ともにグッドスマイルカンパニー、開発・監修は NEKO WORKs で、日本側が主体の体制",
+          "Steam 版の配信開始で日本語・英語に加えて簡体字にも対応し、PC 経由の新規流入を狙う",
+          "ただしモバイル版の配信開始は 2026-04-14 で窗口外、今回の増分は Steam 版配信とモバイル版の章追加に限られる"
+        ]
+      },
+      tags: ["手游", "跨平台", "IP授权", "グッドスマイル", "経営シミュレーション", "Steam"]
+    },
+    {
+      id: "summer-pockets-sunnyside-stories",
+      company: "ビジュアルアーツ（Key）",
+      companyJp: "株式会社ビジュアルアーツ（ブランド：Key）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-09-26（Key 公式サイトで発売日 12/18 と 3 形態の価格・特典を発表）",
+      capturedAt: "2026-09-28",
+      title: { jp: "Summer Pockets Sunnyside Stories", cn: "Summer Pockets Sunnyside Stories", en: "Summer Pockets Sunnyside Stories" },
+      genre: "恋愛アドベンチャー（選択肢なし・フルボイス短編集）",
+      platforms: ["PC（Windows 11）"],
+      release: "2026-12-18（日本語版。DL 版 2,970 円／通常版 3,960 円／豪華特典版 10,780 円・税込）",
+      releasePrecision: "日",
+      summary: "Key（ビジュアルアーツ）于 2026 年 9 月 26 日发表《Summer Pockets Sunnyside Stories》，预定 2026 年 12 月 18 日在 Windows 11 发售，为日语版。本作把 Key 官方网站自 2018 年起公开的《Summer Pockets》短篇小说集重制成全语音的恋爱冒险游戏，官方定义为「没有选项、沉浸阅读故事」的形式，除既有短篇外还收录新绘 CG 与完全新写篇章。原画为 Na-Ga、ふむゆん、和泉つばす、永山ゆうのん四人，音乐由折戸伸治、大橋柊平、髙梨泰輔、しょうゆ负责，新主题曲「Luster piece」由鈴木このみ演唱。发行分为下载版 2,970 日元、普通版 3,960 日元、豪华特典版 10,780 日元三档（含税）。原作《Summer Pockets》2018 年发售，2025 年改编电视动画。",
+      highlight: "【2026-09-26 発売日決定】Key が公式サイトの告知ページで、『Summer Pockets Sunnyside Stories』を 2026-12-18（金）に Windows 11 向け日本語版で発売すると発表した。Key 公式サイトで 2018 年から公開されてきた『Summer Pockets』のショートストーリー集をフルボイスの恋愛アドベンチャー（選択肢なし）として作り直すもので、既存の短編に加えて新規 CG と完全新規エピソードを収録する。原画は Na-Ga・ふむゆん・和泉つばす・永山ゆうのん、音楽は折戸伸治・大橋柊平・髙梨泰輔・しょうゆ、新オープニングソング「Luster piece」は鈴木このみが歌唱（作詞 新島夕／作曲・編曲 大橋柊平）。発売形態は DL 版 2,970 円・通常版 3,960 円・豪華特典版 10,780 円（税込）の 3 種で、豪華特典版には OP・ED 収録サウンドトラック CD、ふむゆん描きおろしの B2 タペストリー、アクリルパネルなどが付属する。",
+      console: {
+        status: "2026-12-18 発売予定（日本語版 Windows 11 向け）",
+        os: ["Windows 11（日本語版）"],
+        monetization: "買い切り（DL 版 2,970 円／通常版 3,960 円／豪華特典版 10,780 円・税込）",
+        developer: "Key（ビジュアルアーツ）",
+        publisher: "株式会社ビジュアルアーツ（Key）",
+        region: "日本（日本語版のみ。他言語版は未発表）",
+        distribution: "ダウンロード版とパッケージ版（通常版・豪華特典版）の 3 形態",
+        stores: ["Key 公式サイト通販（DL 版・通常版・豪華特典版）"],
+        features: [
+          "Key 公式サイトで 2018 年から公開されてきた『Summer Pockets』のショートストーリー集を、フルボイスの恋愛アドベンチャーとして作り直した作品",
+          "ジャンルは「恋愛アドベンチャー（選択肢なし）」。分岐を選ぶのではなく物語を追う構成になっている",
+          "既存の短編に加えて新規 CG と完全新規エピソードを収録する",
+          "原画は Na-Ga・ふむゆん・和泉つばす・永山ゆうのんの 4 名。音楽は折戸伸治・大橋柊平・髙梨泰輔・しょうゆが担当",
+          "新オープニングソング「Luster piece」は鈴木このみが歌唱（作詞 新島夕／作曲・編曲 大橋柊平）",
+          "豪華特典版には OP・ED 収録のサウンドトラック CD、ふむゆん描きおろしの B2 タペストリー、アクリルパネルなどが付属する"
+        ],
+        synopsis: "2018 年発売の Key 作品『Summer Pockets』で、公式サイトに同年から掲載されてきた短編をまとめてフルボイス化した一本。短編は本編の前日譚や裏側を描く内容で、書籍版に書き下ろされた分や完全新規のエピソードも収録される。原作は 2025 年に TV アニメ化されており、夏の記憶を主題にした物語を、選択肢なしの読み物として声つきで味わう構成になっている。",
+        ipSource: "Key『Summer Pockets』（2018 年発売の全年齢向け恋愛アドベンチャー。2020 年に追加シナリオ版『REFLECTION BLUE』、2025 年に TV アニメ化）",
+        series: "『Summer Pockets』の派生作品。原作と公式サイトの短編連載を経て、フルボイスの短編集として独立した商品になる",
+        cast: "未発表（公式サイトでは主題歌の歌唱が鈴木このみと告知されている）"
+      },
+      news: [
+        { source: "Quest Board.JP（発売日・3 形態の価格と特典・新 OP・スタッフの発表内容）", url: "https://quest-board.jp/quests/summer-pockets-sunnyside-stories/" },
+        { source: "Key 公式告知ページ（発表元）", url: "https://key.visualarts.gr.jp/summer_ss/" }
+      ],
+      videos: [
+        { label: "Key 公式告知ページ（発売日・版ごとの内容）", platform: "官方站", url: "https://key.visualarts.gr.jp/summer_ss/" },
+        { label: "Key 開発室 公式 X（@key_official・発表告知）", platform: "X", url: "https://x.com/key_official/status/2103814163428675714" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "原作『Summer Pockets』は Steam のユーザーレビュー 4,600 件超のうち 98% が好評という評価を持つ Key の代表的な全年齢作品",
+          "2025 年の TV アニメ化で新規層が入っており、公式サイトの短編を全ボイス化する今回の企画は既存ファンの待望にあたる",
+          "新 OP を鈴木このみが担当し、原画 4 名・音楽 4 名という Key 本体の制作体制が公式サイトで明示された",
+          "対応は PC（Windows 11）の日本語版のみで、他機種・他言語版は未発表"
+        ]
+      },
+      tags: ["PC", "新作発表", "ビジュアルノベル", "Key", "ビジュアルアーツ"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -7839,7 +8071,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-25",
+    asOf: "2026-09-28",
     listTotal: 50,
     categories: [
       {
@@ -7908,7 +8140,7 @@ window.OBSERVATORY = {
         label: "IP管理・エンターテインメント・その他開発スタジオ",
         sub: "",
         items: [
-          { name: "株式会社アニプレックス", short: "Aniplex", status: "covered", focus: true, gameIds: ["re-survival-unit", "fate-extra-record", "melty-blood-twi-lumina"], note: "『BIOHAZARD Survival Unit』の配信元（開発は JOYCITY、Capcom は IP 監修）。2025-11-18 に世界 151 の国と地域でサービス開始済み。『Fate/EXTRA Record』（2027-01-28）と『MELTY BLOOD: TWI-LUMINA』（2027-04-22、開発 FRENCH-BREAD）も当社発売。TGS2026 は 4 号館 04-C04 に出展し、両作を試遊出展" },
+          { name: "株式会社アニプレックス", short: "Aniplex", status: "covered", focus: true, gameIds: ["re-survival-unit", "fate-extra-record", "melty-blood-twi-lumina", "magia-exedra"], note: "『BIOHAZARD Survival Unit』の配信元（開発は JOYCITY、Capcom は IP 監修）。2025-11-18 に世界 151 の国と地域でサービス開始済み。『Fate/EXTRA Record』（2027-01-28）と『MELTY BLOOD: TWI-LUMINA』（2027-04-22、開発 FRENCH-BREAD）も当社発売。TGS2026 は 4 号館 04-C04 に出展し、両作を試遊出展。9/27 には企画・配信を担う『魔法少女まどか☆マギカ Magia Exedra』の 1.5 周年生放送「Magia Day 2026 -1.5th Anniversary-」で完全新作オリジナルシリーズ『魔法少女そらな☆マギカ ～Our Fates, Our Futures～』（10/04 開幕）を発表した" },
           { name: "有限会社ノーツ", short: "Notes / TYPE-MOON", status: "watch", focus: true },
           { name: "株式会社カヤック", short: "Kayac", status: "watch" },
           { name: "株式会社トイロジック", short: "Toylogic", status: "watch" },
@@ -7917,7 +8149,7 @@ window.OBSERVATORY = {
           { name: "株式会社イザナギゲームズ", short: "IzanagiGames", status: "covered", gameIds: ["akiba-lost"], note: "『AKIBA LOST』（2026-09-17 発売、日本テレビ／AX-ON との共同製作）を建卡。実写 ADV を軸に据える独立系で、日本テレビと組んでドラマ先行→ゲームという順序を取った点が特徴" },
           { name: "株式会社インティ・クリエイツ", short: "Inti Creates", status: "watch", note: "TGS2026 Famitsu 直播环节已提及，尚未建卡" },
           { name: "ポリゴンマジック株式会社", short: "Polygon Magic", status: "watch" },
-          { name: "株式会社ビジュアルアーツ", short: "VisualArts", status: "watch" }
+          { name: "株式会社ビジュアルアーツ", short: "VisualArts", status: "covered", gameIds: ["summer-pockets-sunnyside-stories"], note: "京都・大阪を拠点とする老舗ビジュアルノベルメーカーで、ブランド「Key」を擁する。9/26 に Key の新作『Summer Pockets Sunnyside Stories』（2026-12-18、Windows 11 向け日本語版）の発売日と 3 形態の価格・特典を公式サイトで発表した" }
         ]
       }
     ],
@@ -7927,7 +8159,7 @@ window.OBSERVATORY = {
       items: [
         { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
-          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "tokyo-revengers-unlimited"] },
+          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "tokyo-revengers-unlimited", "nekopara-sekai-connect"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
         { name: "株式会社モノリスソフト", short: "Monolith Soft", status: "covered", gameIds: ["xenoblade-genesis"] },
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
@@ -7958,7 +8190,8 @@ window.OBSERVATORY = {
         { name: "株式会社アクティブゲーミングメディア（PLAYISM）", short: "PLAYISM", status: "covered", gameIds: ["devil-connection"], note: "インディーゲームのローカライズとパブリッシングを手がける日本企業。PLAYISM ブランドで家庭用・モバイル向けの発行を行い、『DevilConnection』（開発：ChaoGames）の Switch／iOS／Android 版を 2027-01-21 に発売する。PLAYISM GAME SHOW: TGS 2026 Preview で本作の発売日を発表し、TGS2026 会場ではプレイアブル出展も行った" },
         { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium", "sentimental-graffiti-remake", "azure-memoria"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
         { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された" },
-        { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した" }
+        { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した" },
+        { name: "株式会社アプリボット", short: "Applibot", status: "covered", gameIds: ["chiikawa-pocket"], focus: true, note: "『ちいかわ』初のスマホアプリ『ちいかわぽけっと』を企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。2025-03-27 の配信開始から世界 43 の国と地域で展開し、2026-09-27 に 1.5 周年を迎えて『ふれあい』正式版と記念イベントを実施した" }
       ]
     }
   },
@@ -8026,15 +8259,15 @@ window.OBSERVATORY = {
    * E. 本期综述
    * ------------------------------------------------------- */
   digest: {
-    headline: "TGS2026 展後（2026-09-25 19:00 場）。日方主導の新規発表は日中で出切っており、本場の増分は更新 2 件（『ACE COMBAT 8』本編序章シネマティックの公開＝9/24、『ドラゴンクエストモンスターズ 朽ちた世界』の新システム公開＝9/25）と、Nintendo Direct 2026.9.9 で発表済みだった Capcom『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）の漏収補収 1 件、および『鬼武者 Way of the Sword』の発売日記載の訂正。条目総数は 143 → 144（手游区 35／主机・PC 区 118）",
+    headline: "TGS2026 展後（2026-09-28 場）。本場は 09-26〜09-28 の 3 日分をまとめて処理した。日方主導の新規スマホ作の発表はゼロだったが、在営タイトルの漏収補収 2 件（『ちいかわぽけっと』の 1.5 周年、『魔法少女まどか☆マギカ Magia Exedra』1.5 周年生放送での完全新作オリジナルシリーズ発表）と、跨平台 1 件（『ネコぱら セカイコネクト』Steam 版の配信開始＝9/28）、主机・PC 1 件（Key『Summer Pockets Sunnyside Stories』の発表＝9/26）を追加し、既存 1 件（『封神演義 Re:surrection』）を更新した。条目総数は 144 → 148（手游区 38／主机・PC 区 120）",
     points: [
-      "**手游侧**：本場の増分区間（9/25 日中〜夜）に日方主導の新規スマホ作は確認できなかった。事前登録開始・配信開始・国内アニメ／VTuber IP 系の 3 系統で計 15 組以上を検索したが、日方主導の新作はゼロで、確認できたのは中国資本の開発・発行による作品のみだったため、すべて不収録とした。",
-      "**手游侧（在営タイトルの窓口内進展）**：『BanG Dream! Our Notes』（ブシロード／開発 フロムトーキョー）の国際服が 9/25 に正式サービスを開始。事前登録 200 万件突破の特典配布、9/25 から 5 日連続の楽曲追加、台北 WirForce 2026・ソウル弘大・ロサンゼルス Little Tokyo のオフライン企画が告知された。日本版は 9/24 の Google Play 審査未完による延期が続いており、9/25 19:00 時点で配信時期は未公表。",
-      "**主机・PC 側（更新 2 件）**：『ACE COMBAT 8: Wings of Theve』が 9/24 に本編序章のシネマティックをシリーズ公式チャンネルで公開（実写前日譚『ACE COMBAT HOUR ZERO』Episode 3 は 9/23）。『ドラゴンクエストモンスターズ 朽ちた世界』は 9/25 に「クイックスカウト」「スカウトラン」「共闘バトル」、NPC アルミラ、新モンスターの情報とスクリーンショットを公開した。",
-      "**主机・PC 側（漏収補収 1 件）**：Capcom が Nintendo Direct 2026.9.9 で発表していた『バイオハザード RE:2 デラックスエディション』『RE:3』『RE:4 ゴールドエディション』の Nintendo Switch 2 版（デジタル 2026-10-16／パッケージ 2027-01-29）を補収。Switch 版の RE2／RE3 はクラウド版のみだったため今回が初のネイティブ移植で、RE4 も 2023 年リメイク版として任天堂機初となる。原作リメイクの発売日は窗口外のため bucket は update。",
-      "**本場で訂正した既存データ**：『鬼武者 Way of the Sword』の release を「2026-09-25（Switch 2 版）」から「2026-09-04（発売済み）」へ修正した。Capcom は 7 月 2 日に発売日を 9/25 から 9/4 へ前倒ししており、9/25 発売という記載は更新前の情報だった（公式サイトの「発売日変更通知」で確認）。releasePrecision も「已发售」に変更。",
-      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃）、② 周年・記念企画系（悪魔城ドラキュラ 40 周年）、③ 9/9 Nintendo Direct の発表リスト（日方パブリッシャー分を逐条照合）を確認した。Direct 分では RE 3 作の移植が未収録だったため補収し、『ピクミン4』NS2 版／『ゼノブレイド3』NS2 版／Nintendo Switch Sports Resort／『ゼルダ無双 厄災黙示録』DE は既存作の移植・増強版として次要口径のため未収録のまま据え置いた。『チェンソーマン』のスマホ新作は引き続き開発・発行元が未公表で、厳格運用のまま未収録を維持（持ち越し）。",
-      "**中资は全面的に跳过／厂商名单と期待榜**：中国資本の開発・発行による新作はすべて不収録とした（作品名・社名は本站のデータには一切記載していない）。4 个 category の家数は 8／16／16／10＝50、extra 34 家でいずれも不変。gameIds は Capcom に『バイオハザード RE 3 作 Switch 2 版』を追加した。Famitsu 期待榜は新期を確認できず mostWanted は据え置き（asOf 2026-09-21、9/17 号）。tgs は展後記録として凍結のまま。"
+      "**手游侧（漏収補収 2 件）**：本場の増分区間（9/25 夜〜9/28）に日方主導の新規スマホ作の発表は確認できなかったが、在営タイトルの重大な漏収を 2 件補収した。①『ちいかわぽけっと』（企画・制作・開発・運営 アプリボット、2025-03-27 配信開始、世界 43 の国と地域、事前登録 150 万件突破）——2026-09-27 に 1.5 周年を迎え、『ふれあい』正式版と記念イベント「ピーターパン」（〜11/02）がスタート。記念ログインで最大宝石 10,000 個相当を配布。②『魔法少女まどか☆マギカ Magia Exedra』（企画・配信 アニプレックス／開発 ポケラボ・f4samurai）——9/27 の 1.5 周年生放送「Magia Day 2026」で初の完全新作オリジナルシリーズ『魔法少女そらな☆マギカ ～Our Fates, Our Futures～』の 10/04 開幕を発表。舞台は「宇宙（そら）」、シナリオ 草野原々／キャラクター原案 こかむも、フルボイス。",
+      "**手游侧（跨平台 1 件・Steam 版配信開始）**：『ネコぱら セカイコネクト』（制作・配信 グッドスマイルカンパニー／制作・原作監修 NEKO WORKs）の PC（Steam）版が 9/28 に配信を開始した。iOS／Android 版は 2026-04-14 から配信中で、Steam 版はアカウント連携によるデータ引き継ぎと簡体字に対応する。8/24 のメンテナンスでは ★5［制服］まゆみ（CV：瀬戸麻沙美）とメインストーリー第 6 章「桜ヶ丘ネコ学園編」を実装して同章が完結し、エンドコンテンツ「VR キャットタワー」が 201F から 300F に拡張された。",
+      "**主机・PC 侧（新作発表 1 件）**：Key が 9/26 に『Summer Pockets Sunnyside Stories』を 2026-12-18（金）に Windows 11 向け日本語版で発売すると発表した。公式サイトで 2018 年から公開されてきた『Summer Pockets』のショートストーリー集を、フルボイスの恋愛アドベンチャー（選択肢なし）として作り直すもので、新規 CG と完全新規エピソードを収録する。原画は Na-Ga・ふむゆん・和泉つばす・永山ゆうのん、新 OP「Luster piece」は鈴木このみが歌唱。DL 版 2,970 円／通常版 3,960 円／豪華特典版 10,780 円の 3 形態。",
+      "**既存条目の更新 1 件**：『封神演義 Re:surrection』（集英社ゲームズ／開発 LASTWONDER）——9/26 より原作漫画 30 周年企画として藤崎竜『封神演義』全 23 巻・全 204 話が 2026-09-26 から 2027-04-23 まで無料公開された（少年ジャンプ＋・ゼブラック・ヤングジャンプ＋）。ゲーム本編は Nintendo Switch 2／PS5／Steam 向けに 2027 年発売予定のまま。",
+      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃／まどか☆マギカ）、② 周年・記念企画系（モンスターストライク 13 周年＝9/26-27、サクラ大戦 30 周年、悪魔城ドラキュラ 40 周年、日本ゲーム大賞 2026）、③ 9/26〜9/28 の日次まとめ（Quest Board.JP 9/26・9/27）と国内 PC／コンシューマ新作リストを確認した。『モンスターストライク』（MIXI）は 13 周年と Re:ZERO コラボ第 2 弾（9/27 0:00〜）があったが本体は新作ではなく、MIXI は watch のまま据え置いた（不凑数）。『チェンソーマン』のスマホ新作は引き続き開発・発行元が未公表で、厳格運用のまま未収録（持ち越し）。『BanG Dream! Our Notes』の日本版は 9/28 時点で公式サイトにサービス開始の告知がなく、配信時期未公表のまま継続ウォッチとする。",
+      "**中资作品の扱い（不収録）**：本場の増分区間でも、中国資本の企業が開発または発行する作品が複数確認されたが、指定の紅線に従いすべて不収録とした。社名・作品名とも本站のデータには一切記載していない。資本の判定は「開発方の資本帰属」→「本体（日本版）の発行方」の順で行い、海外版の発行方は判定に含めない。",
+      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50 で不変、extra は 34 → 35 家（アプリボットを追加）。gameIds は Aniplex に『Magia Exedra』、グッドスマイルカンパニー に『ネコぱら セカイコネクト』、ビジュアルアーツ（Key）に『Summer Pockets Sunnyside Stories』を追加し、VisualArts は watch から covered へ変更した。Famitsu 期待榜は 9/27 号の新期を確認できず mostWanted は据え置き（asOf 2026-09-21）。tgs は展後記録として凍結のまま。"
     ]
   },
 };
