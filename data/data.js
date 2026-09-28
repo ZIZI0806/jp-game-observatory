@@ -41,6 +41,8 @@ window.OBSERVATORY = {
   games: [
     {
       id: "hakuoki-ibun-berezinsky-no-majo",
+      kv: "assets/kv/hakuoki-ibun-berezinsky-no-majo.jpg",
+      kvSrc: "公式サイト",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -96,6 +98,8 @@ window.OBSERVATORY = {
     },
     {
       id: "kimi-ni-madoi-kimi-ni-oboreru",
+      kv: "assets/kv/kimi-ni-madoi-kimi-ni-oboreru.jpg",
+      kvSrc: "公式サイト",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -208,6 +212,8 @@ window.OBSERVATORY = {
     },
     {
       id: "mix-dunk-king-of-basketball",
+      kv: "assets/kv/mix-dunk-king-of-basketball.jpg",
+      kvSrc: "sounova.com",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -415,6 +421,8 @@ window.OBSERVATORY = {
 
     {
       id: "exe-arena",
+      kv: "assets/kv/exe-arena.jpg",
+      kvSrc: "saiganak.com",
       company: "BOUNTYKINDS SOLUTIONS",
       companyJp: "BOUNTYKINDS SOLUTIONS INC.（日本語表記は未確認）",
       bucket: "new",
@@ -490,6 +498,8 @@ window.OBSERVATORY = {
        「LEVEL5 VISION 2026 II 夢」内で発表。 */
     {
       id: "fantasy-life-i-celestial-express",
+      kv: "assets/kv/fantasy-life-i-celestial-express.jpg",
+      kvSrc: "nintendoeverything.com",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "new",
@@ -547,6 +557,8 @@ window.OBSERVATORY = {
 
     {
       id: "layton-curious-village-remake",
+      kv: "assets/kv/layton-curious-village-remake.jpg",
+      kvSrc: "公式サイト",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "new",
@@ -604,6 +616,8 @@ window.OBSERVATORY = {
 
     {
       id: "yokai-watch-2-hadou",
+      kv: "assets/kv/yokai-watch-2-hadou.jpg",
+      kvSrc: "invenglobal.com",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "new",
@@ -662,6 +676,8 @@ window.OBSERVATORY = {
 
     {
       id: "inazuma-eleven-bold-revolution",
+      kv: "assets/kv/inazuma-eleven-bold-revolution.jpg",
+      kvSrc: "公式サイト",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "new",
@@ -716,6 +732,8 @@ window.OBSERVATORY = {
 
     {
       id: "holy-horror-mansion",
+      kv: "assets/kv/holy-horror-mansion.jpg",
+      kvSrc: "公式サイト",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "update",
@@ -776,6 +794,8 @@ window.OBSERVATORY = {
 
     {
       id: "decapolice",
+      kv: "assets/kv/decapolice.jpg",
+      kvSrc: "公式サイト",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "update",
@@ -835,6 +855,8 @@ window.OBSERVATORY = {
 
     {
       id: "snack-world-reloaded",
+      kv: "assets/kv/snack-world-reloaded.jpg",
+      kvSrc: "公式サイト",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "update",
@@ -893,6 +915,8 @@ window.OBSERVATORY = {
 
     {
       id: "puchipoyon-fantasy-world",
+      kv: "assets/kv/puchipoyon-fantasy-world.jpg",
+      kvSrc: "公式サイト",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ（開発・配信：株式会社NHN PlayArt）",
       bucket: "update",
@@ -944,6 +968,8 @@ window.OBSERVATORY = {
 
     {
       id: "digimon-up",
+      kv: "assets/kv/digimon-up.jpg",
+      kvSrc: "公式サイト",
       company: "Bandai Namco Entertainment",
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "update",
@@ -1047,6 +1073,8 @@ window.OBSERVATORY = {
 
     {
       id: "hololive-dreams",
+      kv: "assets/kv/hololive-dreams.jpg",
+      kvSrc: "公式サイト",
       company: "COVER × QualiArts",
       companyJp: "カバー株式会社／株式会社QualiArts（サイバーエージェント連結子会社）",
       bucket: "update",
@@ -1101,6 +1129,8 @@ window.OBSERVATORY = {
 
     {
       id: "mushoku-tensei-chronicle-of-echoes",
+      kv: "assets/kv/mushoku-tensei-chronicle-of-echoes.jpg",
+      kvSrc: "公式サイト",
       company: "GREE Entertainment / Asobimo",
       companyJp: "グリーエンターテインメント株式会社（企画・配信）／株式会社アソビモ（開発・運営）",
       bucket: "update",
@@ -1151,6 +1181,8 @@ window.OBSERVATORY = {
 
     {
       id: "mha-united-survival",
+      kv: "assets/kv/mha-united-survival.jpg",
+      kvSrc: "公式サイト",
       company: "KLab × gumi",
       companyJp: "KLab株式会社／株式会社gumi（共同開発）",
       bucket: "update",
@@ -1203,6 +1235,8 @@ window.OBSERVATORY = {
 
     {
       id: "suikoden-star-leap",
+      kv: "assets/kv/suikoden-star-leap.jpg",
+      kvSrc: "公式サイト",
       company: "KONAMI",
       companyJp: "株式会社コナミデジタルエンタテインメント",
       bucket: "update",
@@ -1255,6 +1289,8 @@ window.OBSERVATORY = {
 
     {
       id: "shinobi-nexus-senran-kagura",
+      kv: "assets/kv/shinobi-nexus-senran-kagura.jpg",
+      kvSrc: "hpgames.jp",
       company: "HONEY∞PARADE GAMES / Marvelous",
       companyJp: "株式会社HONEY∞PARADE GAMES（マーベラスグループ）",
       bucket: "new",
@@ -1308,6 +1344,8 @@ window.OBSERVATORY = {
 
     {
       id: "beast-of-reincarnation",
+      kv: "assets/kv/beast-of-reincarnation.jpg",
+      kvSrc: "beast-of-reincarnation.happinet-games.com",
       company: "GAME FREAK / Fictions",
       companyJp: "株式会社ゲームフリーク（開発）／Fictions, Inc.（販売）",
       bucket: "update",
@@ -1365,6 +1403,8 @@ window.OBSERVATORY = {
 
     {
       id: "marvel-tokon-fighting-souls",
+      kv: "assets/kv/marvel-tokon-fighting-souls.jpg",
+      kvSrc: "公式サイト",
       company: "Arc System Works",
       companyJp: "株式会社アークシステムワークス（開発）／PlayStation Publishing（販売）",
       bucket: "update",
@@ -1424,6 +1464,8 @@ window.OBSERVATORY = {
 
     {
       id: "unme",
+      kv: "assets/kv/unme.jpg",
+      kvSrc: "公式サイト",
       company: "Shueisha Games / Historia",
       companyJp: "株式会社集英社ゲームズ（発信元）／株式会社ヒストリア（開発）",
       bucket: "new",
@@ -1462,6 +1504,8 @@ window.OBSERVATORY = {
 
     {
       id: "kyoto-xanadu",
+      kv: "assets/kv/kyoto-xanadu.jpg",
+      kvSrc: "gamewith.jp",
       company: "Nihon Falcom",
       companyJp: "日本ファルコム株式会社",
       bucket: "update",
@@ -1520,6 +1564,8 @@ window.OBSERVATORY = {
 
     {
       id: "honogurashi-no-niwa",
+      kv: "assets/kv/honogurashi-no-niwa.jpg",
+      kvSrc: "nippon1.jp",
       company: "Nippon Ichi Software",
       companyJp: "株式会社日本一ソフトウェア",
       bucket: "update",
@@ -1578,6 +1624,8 @@ window.OBSERVATORY = {
 
     {
       id: "splatoon-raiders",
+      kv: "assets/kv/splatoon-raiders.jpg",
+      kvSrc: "nintendonewshub.com",
       company: "Nintendo",
       companyJp: "任天堂株式会社",
       bucket: "update",
@@ -1635,6 +1683,8 @@ window.OBSERVATORY = {
 
     {
       id: "alchemist-portmasters",
+      kv: "assets/kv/alchemist-portmasters.jpg",
+      kvSrc: "appbank.net",
       company: "KMS / K3 Studio",
       companyJp: "株式会社KMS ゲームスタジオ「K3 Studio」",
       bucket: "new",
@@ -1684,6 +1734,8 @@ window.OBSERVATORY = {
 
     {
       id: "sakamoto-days-rogue-dawn",
+      kv: "assets/kv/sakamoto-days-rogue-dawn.jpg",
+      kvSrc: "haveagood-holiday.com",
       company: "Rudel Inc.",
       companyJp: "株式会社Rudel（本社：東京都新宿区）",
       bucket: "new",
@@ -1735,6 +1787,8 @@ window.OBSERVATORY = {
 
     {
       id: "ame-nochi-hare-onna",
+      kv: "assets/kv/ame-nochi-hare-onna.jpg",
+      kvSrc: "thisisgamesea.com",
       company: "GAME FREAK",
       companyJp: "株式会社ゲームフリーク",
       bucket: "update",
@@ -1794,6 +1848,8 @@ window.OBSERVATORY = {
 
     {
       id: "blue-nova",
+      kv: "assets/kv/blue-nova.jpg",
+      kvSrc: "appbank.net",
       company: "GungHo Online Entertainment",
       companyJp: "ガンホー・オンライン・エンターテイメント",
       bucket: "new",
@@ -1852,6 +1908,8 @@ window.OBSERVATORY = {
 
     {
       id: "rhapsody-in-scarlet",
+      kv: "assets/kv/rhapsody-in-scarlet.jpg",
+      kvSrc: "konami.com",
       company: "KONAMI",
       companyJp: "コナミデジタルエンタテインメント",
       bucket: "new",
@@ -2029,6 +2087,8 @@ window.OBSERVATORY = {
 
     {
       id: "where-the-seeds-fall",
+      kv: "assets/kv/where-the-seeds-fall.jpg",
+      kvSrc: "cq-esports.com",
       company: "Cygames Edge",
       companyJp: "Cygames Edge",
       bucket: "new",
@@ -2062,6 +2122,8 @@ window.OBSERVATORY = {
 
     {
       id: "hyperreal-tgs-new",
+      kv: "assets/kv/hyperreal-tgs-new.jpg",
+      kvSrc: "gamersegames.com.br",
       company: "HYPER REAL（産経デジタル）",
       companyJp: "株式会社産経デジタル ゲームブランド「HYPER REAL」",
       bucket: "new",
@@ -2099,6 +2161,8 @@ window.OBSERVATORY = {
 
     {
       id: "shochiku-tgs-2026",
+      kv: "assets/kv/shochiku-tgs-2026.jpg",
+      kvSrc: "appbank.net",
       company: "松竹ゲームズ（松竹株式会社 ゲーム事業室）",
       companyJp: "松竹株式会社 ゲーム事業室",
       bucket: "new",
@@ -2192,6 +2256,8 @@ window.OBSERVATORY = {
 
     {
       id: "dq-monsters-withered-world",
+      kv: "assets/kv/dq-monsters-withered-world.jpg",
+      kvSrc: "news.18183.com",
       company: "Square Enix",
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
@@ -2301,6 +2367,8 @@ window.OBSERVATORY = {
 
     {
       id: "ff7-revelation",
+      kv: "assets/kv/ff7-revelation.jpg",
+      kvSrc: "rpgsite.net",
       company: "Square Enix",
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
@@ -2430,6 +2498,8 @@ window.OBSERVATORY = {
 
     {
       id: "persona-4-revival",
+      kv: "assets/kv/persona-4-revival.jpg",
+      kvSrc: "haveagood-holiday.com",
       company: "ATLUS（SEGA）",
       companyJp: "株式会社アトラス",
       bucket: "update",
@@ -2485,6 +2555,8 @@ window.OBSERVATORY = {
 
     {
       id: "metroid-ravenous",
+      kv: "assets/kv/metroid-ravenous.jpg",
+      kvSrc: "mandatory.com",
       company: "Nintendo",
       companyJp: "任天堂株式会社",
       bucket: "update",
@@ -2542,6 +2614,8 @@ window.OBSERVATORY = {
 
     {
       id: "kirby-world-beyond",
+      kv: "assets/kv/kirby-world-beyond.jpg",
+      kvSrc: "gametrader.sg",
       company: "Nintendo / HAL Laboratory",
       companyJp: "任天堂株式会社 / 株式会社ハル研究所",
       bucket: "update",
@@ -2701,6 +2775,8 @@ window.OBSERVATORY = {
 
     {
       id: "mhw-switch2-ascendance",
+      kv: "assets/kv/mhw-switch2-ascendance.jpg",
+      kvSrc: "saiganak.com",
       company: "Capcom",
       companyJp: "株式会社カプコン",
       bucket: "update",
@@ -2755,6 +2831,8 @@ window.OBSERVATORY = {
 
     {
       id: "onimusha-way-of-the-sword",
+      kv: "assets/kv/onimusha-way-of-the-sword.jpg",
+      kvSrc: "公式サイト",
       company: "Capcom",
       companyJp: "株式会社カプコン",
       bucket: "update",
@@ -2810,6 +2888,8 @@ window.OBSERVATORY = {
 
     {
       id: "blood-of-dawnwalker",
+      kv: "assets/kv/blood-of-dawnwalker.jpg",
+      kvSrc: "en.3dmgame.com",
       company: "Bandai Namco Entertainment",
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "update",
@@ -3044,6 +3124,8 @@ window.OBSERVATORY = {
 
     {
       id: "professor-layton-new-world-of-steam",
+      kv: "assets/kv/professor-layton-new-world-of-steam.jpg",
+      kvSrc: "公式サイト",
       company: "LEVEL-5",
       companyJp: "株式会社レベルファイブ",
       bucket: "update",
@@ -3140,6 +3222,8 @@ window.OBSERVATORY = {
 
     {
       id: "patlabor-the-case-files",
+      kv: "assets/kv/patlabor-the-case-files.jpg",
+      kvSrc: "appbank.net",
       company: "Good Smile Company",
       companyJp: "株式会社グッドスマイルカンパニー",
       bucket: "update",
@@ -3202,6 +3286,8 @@ window.OBSERVATORY = {
     },
     {
       id: "onepiece-marine-gourmet",
+      kv: "assets/kv/onepiece-marine-gourmet.jpg",
+      kvSrc: "op-restaurant.bn-ent.net",
       company: "Bandai Namco Entertainment",
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：カイロソフト）",
       bucket: "update",
@@ -3286,6 +3372,8 @@ window.OBSERVATORY = {
 
     {
       id: "haikyu-all-challengers",
+      kv: "assets/kv/haikyu-all-challengers.jpg",
+      kvSrc: "公式サイト",
       company: "TOHO Games",
       companyJp: "TOHO Games（東宝株式会社／開発・運営：G2 Studios）",
       bucket: "new",
@@ -3349,6 +3437,8 @@ window.OBSERVATORY = {
 
     {
       id: "bleach-mirrors-high",
+      kv: "assets/kv/bleach-mirrors-high.jpg",
+      kvSrc: "公式サイト",
       company: "Bandai Namco Entertainment",
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "new",
@@ -3421,6 +3511,8 @@ window.OBSERVATORY = {
 
     {
       id: "shakugan-no-shana-blaze-edge",
+      kv: "assets/kv/shakugan-no-shana-blaze-edge.jpg",
+      kvSrc: "haveagood-holiday.com",
       company: "CTW Inc.",
       companyJp: "CTW株式会社（G123）",
       bucket: "new",
@@ -3479,6 +3571,8 @@ window.OBSERVATORY = {
     },
     {
       id: "oboromuramasa-kaikitan",
+      kv: "assets/kv/oboromuramasa-kaikitan.jpg",
+      kvSrc: "公式サイト",
       company: "Marvelous",
       companyJp: "株式会社マーベラス（開発：ヴァニラウェア）",
       bucket: "new",
@@ -3536,6 +3630,8 @@ window.OBSERVATORY = {
     },
     {
       id: "jujutsu-kaisen-rumble-survivaton",
+      kv: "assets/kv/jujutsu-kaisen-rumble-survivaton.jpg",
+      kvSrc: "haveagood-holiday.com",
       company: "Shueisha Games",
       companyJp: "株式会社集英社ゲームズ（開発：poncle）",
       bucket: "new",
@@ -3594,6 +3690,8 @@ window.OBSERVATORY = {
     },
     {
       id: "another-eden-begins",
+      kv: "assets/kv/another-eden-begins.jpg",
+      kvSrc: "cgmagonline.com",
       company: "Wright Flyer Studios",
       companyJp: "株式会社ライトフライヤースタジオ（開発協力：Studio Prisma）",
       bucket: "new",
@@ -3712,6 +3810,8 @@ window.OBSERVATORY = {
     },
     {
       id: "blackchannel-blaze-road",
+      kv: "assets/kv/blackchannel-blaze-road.jpg",
+      kvSrc: "公式サイト",
       company: "Plott",
       companyJp: "株式会社Plott（Plott Games）",
       bucket: "new",
@@ -3768,6 +3868,8 @@ window.OBSERVATORY = {
     },
     {
       id: "scimagic-g123",
+      kv: "assets/kv/scimagic-g123.jpg",
+      kvSrc: "公式サイト",
       company: "CTW Inc.",
       companyJp: "CTW株式会社（G123）",
       bucket: "new",
@@ -3826,6 +3928,8 @@ window.OBSERVATORY = {
     },
     {
       id: "fate-extra-record",
+      kv: "assets/kv/fate-extra-record.jpg",
+      kvSrc: "公式サイト",
       company: "Aniplex",
       companyJp: "株式会社アニプレックス（企画：有限会社ノーツ／開発：メテオライズ）",
       bucket: "new",
@@ -3882,6 +3986,8 @@ window.OBSERVATORY = {
     },
     {
       id: "eminence-in-shadow-phantom-echoes",
+      kv: "assets/kv/eminence-in-shadow-phantom-echoes.jpg",
+      kvSrc: "公式サイト",
       company: "Aiming",
       companyJp: "株式会社Aiming（Team CARAVAN／原作監修：KADOKAWA）",
       bucket: "new",
@@ -3938,6 +4044,8 @@ window.OBSERVATORY = {
     },
     {
       id: "dragon-ball-xenoverse-3",
+      kv: "assets/kv/dragon-ball-xenoverse-3.jpg",
+      kvSrc: "公式サイト",
       company: "Bandai Namco",
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：株式会社ディンプス）",
       bucket: "new",
@@ -3995,6 +4103,8 @@ window.OBSERVATORY = {
     },
     {
       id: "weiss-schwarz-online",
+      kv: "assets/kv/weiss-schwarz-online.jpg",
+      kvSrc: "公式サイト",
       company: "Bushiroad",
       companyJp: "株式会社ブシロード（Bushiroad Games）",
       bucket: "new",
@@ -4052,6 +4162,8 @@ window.OBSERVATORY = {
     },
     {
       id: "wo-long-2-wings-of-ember",
+      kv: "assets/kv/wo-long-2-wings-of-ember.jpg",
+      kvSrc: "eurogamer.net",
       company: "Koei Tecmo",
       companyJp: "株式会社コーエーテクモゲームス（開発：Team NINJA）",
       bucket: "new",
@@ -4112,6 +4224,8 @@ window.OBSERVATORY = {
 
     {
       id: "mega-man-dual-override",
+      kv: "assets/kv/mega-man-dual-override.jpg",
+      kvSrc: "vandal.elespanol.com",
       company: "Capcom",
       companyJp: "株式会社カプコン",
       bucket: "new",
@@ -4173,6 +4287,8 @@ window.OBSERVATORY = {
 
     {
       id: "dragon-dogma-2-dark-arisen",
+      kv: "assets/kv/dragon-dogma-2-dark-arisen.jpg",
+      kvSrc: "pixelsinorbit.com",
       company: "Capcom",
       companyJp: "株式会社カプコン",
       bucket: "new",
@@ -4240,6 +4356,8 @@ window.OBSERVATORY = {
 
     {
       id: "konosuba-machisuba",
+      kv: "assets/kv/konosuba-machisuba.jpg",
+      kvSrc: "公式サイト",
       company: "KADOKAWA",
       companyJp: "株式会社KADOKAWA",
       bucket: "new",
@@ -4365,6 +4483,8 @@ window.OBSERVATORY = {
 
     {
       id: "melty-blood-twi-lumina",
+      kv: "assets/kv/melty-blood-twi-lumina.jpg",
+      kvSrc: "公式サイト",
       company: "Aniplex",
       companyJp: "株式会社アニプレックス（開発：FRENCH-BREAD）",
       bucket: "new",
@@ -4435,6 +4555,8 @@ window.OBSERVATORY = {
     },
     {
       id: "attack-on-titan-3",
+      kv: "assets/kv/attack-on-titan-3.jpg",
+      kvSrc: "gaming-age.com",
       company: "Koei Tecmo（開発：オメガフォース）",
       companyJp: "株式会社コーエーテクモゲームス（開発：ω-Force）",
       bucket: "new",
@@ -4470,6 +4592,8 @@ window.OBSERVATORY = {
     },
     {
       id: "atelier-karia",
+      kv: "assets/kv/atelier-karia.jpg",
+      kvSrc: "rpgsite.net",
       company: "Koei Tecmo（開発：ガスト）",
       companyJp: "株式会社コーエーテクモゲームス（開発：ガスト）",
       bucket: "new",
@@ -4505,6 +4629,8 @@ window.OBSERVATORY = {
     },
     {
       id: "gundam-rogue-orbit",
+      kv: "assets/kv/gundam-rogue-orbit.jpg",
+      kvSrc: "公式サイト",
       company: "Bandai Namco（開発・発売とも自社）",
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "new",
@@ -4540,6 +4666,8 @@ window.OBSERVATORY = {
     },
     {
       id: "bloodstained-scarlet-engagement",
+      kv: "assets/kv/bloodstained-scarlet-engagement.jpg",
+      kvSrc: "psu.com",
       company: "ArtPlay（開発）／505 Games（発売）",
       companyJp: "株式会社アートプレイ（開発）／505 Games（発売）",
       bucket: "new",
@@ -4574,6 +4702,8 @@ window.OBSERVATORY = {
     },
     {
       id: "holovillage-our-cozy-days",
+      kv: "assets/kv/holovillage-our-cozy-days.jpg",
+      kvSrc: "公式サイト",
       company: "COVER（Holo Indie）／開発：Roboqlo",
       companyJp: "カバー株式会社（Holo Indie）／開発：Roboqlo",
       bucket: "new",
@@ -4608,6 +4738,8 @@ window.OBSERVATORY = {
     },
     {
       id: "physint",
+      kv: "assets/kv/physint.jpg",
+      kvSrc: "sea.ign.com",
       company: "Kojima Productions（開発）／Xbox Game Studios（発売）",
       companyJp: "株式会社コジマプロダクション（開発）／Xbox Game Studios（発売）",
       bucket: "new",
@@ -4642,6 +4774,8 @@ window.OBSERVATORY = {
     },
     {
       id: "ninjala-2-uncharted-planet",
+      kv: "assets/kv/ninjala-2-uncharted-planet.jpg",
+      kvSrc: "公式サイト",
       company: "GungHo Online Entertainment（開発・発売）",
       companyJp: "ガンホー・オンライン・エンターテイメント",
       bucket: "new",
@@ -4699,6 +4833,8 @@ window.OBSERVATORY = {
     },
     {
       id: "chit-chat-party",
+      kv: "assets/kv/chit-chat-party.jpg",
+      kvSrc: "公式サイト",
       company: "GungHo Online Entertainment（発売）／Alim Co., Ltd.（開発）",
       companyJp: "ガンホー・オンライン・エンターテイメント（発売）／株式会社アリム（開発）",
       bucket: "new",
@@ -4756,6 +4892,8 @@ window.OBSERVATORY = {
     },
     {
       id: "hello-kitty-party-land",
+      kv: "assets/kv/hello-kitty-party-land.jpg",
+      kvSrc: "sanrio-games.jp",
       company: "サンリオ（Sanrio Games）",
       companyJp: "株式会社サンリオ（Sanrio Games）",
       bucket: "new",
@@ -4811,6 +4949,8 @@ window.OBSERVATORY = {
     },
     {
       id: "sanrio-kawaii-me-live",
+      kv: "assets/kv/sanrio-kawaii-me-live.jpg",
+      kvSrc: "sanrio-games.jp",
       company: "サンリオ（Sanrio Games）",
       companyJp: "株式会社サンリオ（Sanrio Games）",
       bucket: "update",
@@ -4872,6 +5012,8 @@ window.OBSERVATORY = {
     },
     {
       id: "fragaria-memories-color-of-wishes",
+      kv: "assets/kv/fragaria-memories-color-of-wishes.jpg",
+      kvSrc: "sanrio-games.jp",
       company: "サンリオ（Sanrio Games）／Ateam Entertainment",
       companyJp: "株式会社サンリオ（Sanrio Games）／株式会社アテーム",
       bucket: "new",
@@ -4932,6 +5074,8 @@ window.OBSERVATORY = {
     },
     {
       id: "lollipop-chainsaw-new-project",
+      kv: "assets/kv/lollipop-chainsaw-new-project.jpg",
+      kvSrc: "enduins.com",
       company: "Dragami Games（IP 保有・企画）／ JP UNIVERSE（開発）",
       companyJp: "株式会社ドラガミゲームス ／ JP UNIVERSE 株式会社",
       bucket: "update",
@@ -4993,6 +5137,8 @@ window.OBSERVATORY = {
 
     {
       id: "kemuri",
+      kv: "assets/kv/kemuri.jpg",
+      kvSrc: "ludens.com.tw",
       company: "UNSEEN Inc.",
       companyJp: "株式会社UNSEEN（UNSEEN Inc.／東京都）",
       bucket: "new",
@@ -5049,6 +5195,8 @@ window.OBSERVATORY = {
 
     {
       id: "le-mirage-mystique",
+      kv: "assets/kv/le-mirage-mystique.jpg",
+      kvSrc: "公式サイト",
       company: "Broccoli（LicoBiTs）",
       companyJp: "株式会社ブロッコリー（女性向けブランド LicoBiTs／企画・制作：ティズクリエイション株式会社）",
       bucket: "new",
@@ -5160,6 +5308,8 @@ window.OBSERVATORY = {
     },
     {
       id: "toei-games-killa",
+      kv: "assets/kv/toei-games-killa.jpg",
+      kvSrc: "sounova.com",
       company: "TOEI GAMES（東映）／ Black Tangerine",
       companyJp: "東映株式会社 ゲーム事業ブランド「東映ゲームス」／ Black Tangerine",
       bucket: "new",
@@ -5273,6 +5423,8 @@ window.OBSERVATORY = {
     },
     {
       id: "haishin-shoujo-no-uraaka-meikyuu",
+      kv: "assets/kv/haishin-shoujo-no-uraaka-meikyuu.jpg",
+      kvSrc: "公式サイト",
       company: "G-MODE（発売）／ Acacia（原作・制作）",
       companyJp: "株式会社ジー・モード ／ Acacia",
       bucket: "new",
@@ -5331,6 +5483,8 @@ window.OBSERVATORY = {
     },
     {
       id: "haruka-ryugu-no-miko",
+      kv: "assets/kv/haruka-ryugu-no-miko.jpg",
+      kvSrc: "news.para-daily.com",
       company: "コーエーテクモゲームス（Ruby Party）",
       companyJp: "株式会社コーエーテクモゲームス（ルビーパーティー）",
       bucket: "update",
@@ -5388,6 +5542,8 @@ window.OBSERVATORY = {
     },
     {
       id: "hakuoki-shinkai-kiwame",
+      kv: "assets/kv/hakuoki-shinkai-kiwame.jpg",
+      kvSrc: "cpstesters.com",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -5440,6 +5596,8 @@ window.OBSERVATORY = {
     },
     {
       id: "kimi-wa-yukima-koimusubi",
+      kv: "assets/kv/kimi-wa-yukima-koimusubi.jpg",
+      kvSrc: "公式サイト",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -5493,6 +5651,8 @@ window.OBSERVATORY = {
     },
     {
       id: "shinso-no-doppelt",
+      kv: "assets/kv/shinso-no-doppelt.jpg",
+      kvSrc: "公式サイト",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -5546,6 +5706,8 @@ window.OBSERVATORY = {
     },
     {
       id: "velvet-candy-tint-kiss",
+      kv: "assets/kv/velvet-candy-tint-kiss.jpg",
+      kvSrc: "公式サイト",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -5652,6 +5814,8 @@ window.OBSERVATORY = {
     },
     {
       id: "nobunaga-hishou",
+      kv: "assets/kv/nobunaga-hishou.jpg",
+      kvSrc: "quest-board.jp",
       company: "Koei Tecmo Games",
       companyJp: "株式会社コーエーテクモゲームス",
       bucket: "new",
@@ -5706,6 +5870,8 @@ window.OBSERVATORY = {
     },
     {
       id: "sugar-lies",
+      kv: "assets/kv/sugar-lies.jpg",
+      kvSrc: "play.asia",
       company: "Kogado Studio",
       companyJp: "株式会社工画堂スタジオ",
       bucket: "new",
@@ -5760,6 +5926,8 @@ window.OBSERVATORY = {
     },
     {
       id: "colopl-wiz-generation",
+      kv: "assets/kv/colopl-wiz-generation.jpg",
+      kvSrc: "colopl.co.jp",
       company: "COLOPL（制作：STAR STUDIOS）",
       companyJp: "株式会社コロプラ（プロデュース：STAR STUDIOS）",
       bucket: "new",
@@ -5818,6 +5986,8 @@ window.OBSERVATORY = {
     },
     {
       id: "castlevania-belmonts-curse",
+      kv: "assets/kv/castlevania-belmonts-curse.jpg",
+      kvSrc: "公式サイト",
       company: "Konami Digital Entertainment（開発：Evil Empire）",
       companyJp: "コナミデジタルエンタテインメント（開発：Evil Empire）",
       bucket: "update",
@@ -5876,6 +6046,8 @@ window.OBSERVATORY = {
     },
     {
       id: "danganronpa-2x2",
+      kv: "assets/kv/danganronpa-2x2.jpg",
+      kvSrc: "公式サイト",
       company: "Spike Chunsoft",
       companyJp: "株式会社スパイク・チュンソフト",
       bucket: "update",
@@ -5989,6 +6161,8 @@ window.OBSERVATORY = {
     },
     {
       id: "romancing-saga-3-destinies-united",
+      kv: "assets/kv/romancing-saga-3-destinies-united.jpg",
+      kvSrc: "公式サイト",
       company: "Square Enix",
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "new",
@@ -6047,6 +6221,8 @@ window.OBSERVATORY = {
     },
     {
       id: "silent-hill-townfall",
+      kv: "assets/kv/silent-hill-townfall.jpg",
+      kvSrc: "gameforest.de",
       company: "KONAMI",
       companyJp: "コナミデジタルエンタテインメント",
       bucket: "update",
@@ -6102,6 +6278,8 @@ window.OBSERVATORY = {
     },
     {
       id: "lufia-1-2-the-sinistrals-saga",
+      kv: "assets/kv/lufia-1-2-the-sinistrals-saga.jpg",
+      kvSrc: "theclick.gg",
       company: "TAITO（発売：Clear River Games）",
       companyJp: "株式会社タイトー（発売：Clear River Games）",
       bucket: "new",
@@ -6157,6 +6335,8 @@ window.OBSERVATORY = {
     },
     {
       id: "sophiechat-ai",
+      kv: "assets/kv/sophiechat-ai.jpg",
+      kvSrc: "automaton-media.com",
       company: "コーエーテクモゲームス（ガスト）× SpiralAI",
       companyJp: "株式会社コーエーテクモゲームス（ガスト）／SpiralAI株式会社",
       bucket: "new",
@@ -6214,6 +6394,8 @@ window.OBSERVATORY = {
     },
     {
       id: "yu-gi-oh-tag-force-gx",
+      kv: "assets/kv/yu-gi-oh-tag-force-gx.jpg",
+      kvSrc: "appbank.net",
       company: "KONAMI",
       companyJp: "コナミデジタルエンタテインメント",
       bucket: "new",
@@ -6327,6 +6509,8 @@ window.OBSERVATORY = {
     },
     {
       id: "qliphah-in-providences-shadow",
+      kv: "assets/kv/qliphah-in-providences-shadow.jpg",
+      kvSrc: "rpgfan.com",
       company: "Arc System Works",
       companyJp: "株式会社アークシステムワークス（共同開発：UnitePlus）",
       bucket: "update",
@@ -6385,6 +6569,8 @@ window.OBSERVATORY = {
     },
     {
       id: "hoshin-engi-re-surrection",
+      kv: "assets/kv/hoshin-engi-re-surrection.jpg",
+      kvSrc: "finalboss.io",
       company: "Shueisha Games",
       companyJp: "株式会社集英社ゲームズ（開発：LASTWONDER）",
       bucket: "new",
@@ -6452,6 +6638,8 @@ window.OBSERVATORY = {
     },
     {
       id: "devil-connection",
+      kv: "assets/kv/devil-connection.jpg",
+      kvSrc: "公式サイト",
       company: "PLAYISM",
       companyJp: "株式会社アクティブゲーミングメディア（PLAYISM ブランド）",
       bucket: "update",
@@ -6522,6 +6710,8 @@ window.OBSERVATORY = {
     },
     {
       id: "koyorenium",
+      kv: "assets/kv/koyorenium.jpg",
+      kvSrc: "quest-board.jp",
       company: "ENTERGRAM",
       companyJp: "株式会社エンターグラム（企画・製作：株式会社カバー）",
       bucket: "new",
@@ -6581,6 +6771,8 @@ window.OBSERVATORY = {
     },
     {
       id: "legacy-code",
+      kv: "assets/kv/legacy-code.jpg",
+      kvSrc: "appbank.net",
       company: "講談社（講談社ゲームラボ）",
       companyJp: "株式会社講談社（講談社ゲームラボ）",
       bucket: "new",
@@ -6643,6 +6835,8 @@ window.OBSERVATORY = {
     },
     {
       id: "ragnarok-adventures",
+      kv: "assets/kv/ragnarok-adventures.jpg",
+      kvSrc: "公式サイト",
       company: "GungHo Online Entertainment",
       companyJp: "ガンホー・オンライン・エンターテイメント株式会社",
       bucket: "new",
@@ -6700,6 +6894,8 @@ window.OBSERVATORY = {
     },
     {
       id: "dream-club-zero-r-plus",
+      kv: "assets/kv/dream-club-zero-r-plus.jpg",
+      kvSrc: "quest-board.jp",
       company: "D3 Publisher",
       companyJp: "株式会社ディースリー・パブリッシャー",
       bucket: "new",
@@ -6753,6 +6949,8 @@ window.OBSERVATORY = {
     },
     {
       id: "edf-6-2-invaders-from-another-world",
+      kv: "assets/kv/edf-6-2-invaders-from-another-world.jpg",
+      kvSrc: "公式サイト",
       company: "D3 Publisher",
       companyJp: "株式会社ディースリー・パブリッシャー（開発：SANDLOT）",
       bucket: "new",
@@ -6810,6 +7008,8 @@ window.OBSERVATORY = {
     },
     {
       id: "sentimental-graffiti-remake",
+      kv: "assets/kv/sentimental-graffiti-remake.jpg",
+      kvSrc: "quest-board.jp",
       company: "ENTERGRAM",
       companyJp: "株式会社エンターグラム",
       bucket: "update",
@@ -6915,6 +7115,8 @@ window.OBSERVATORY = {
     },
     {
       id: "gachi-koi-kangoku-melty-holic",
+      kv: "assets/kv/gachi-koi-kangoku-melty-holic.jpg",
+      kvSrc: "automaton-media.com",
       company: "SERIALGAMES",
       companyJp: "株式会社シリアルゲームズ（SERIALGAMES Inc.／東京都台東区）",
       bucket: "update",
@@ -6975,6 +7177,8 @@ window.OBSERVATORY = {
     },
     {
       id: "kitsune-to-kaeru-no-tabi",
+      kv: "assets/kv/kitsune-to-kaeru-no-tabi.jpg",
+      kvSrc: "ストアページ",
       company: "room6",
       companyJp: "株式会社room6（京都）／ yokaze",
       bucket: "update",
@@ -7035,6 +7239,8 @@ window.OBSERVATORY = {
     },
     {
       id: "apothecary-diaries-false-imperial-brother",
+      kv: "assets/kv/apothecary-diaries-false-imperial-brother.jpg",
+      kvSrc: "quest-board.jp",
       company: "TOHO Games ／ Koei Tecmo Games",
       companyJp: "東宝株式会社（TOHO Games）／ 株式会社コーエーテクモゲームス（ブランド：ガスト）",
       bucket: "new",
@@ -7095,6 +7301,8 @@ window.OBSERVATORY = {
     },
     {
       id: "gobble",
+      kv: "assets/kv/gobble.jpg",
+      kvSrc: "slantedgame.com",
       company: "Nippon Ichi Software",
       companyJp: "株式会社日本一ソフトウェア",
       bucket: "new",
@@ -7155,6 +7363,8 @@ window.OBSERVATORY = {
     },
     {
       id: "dragon-quest-xi-s-switch-2",
+      kv: "assets/kv/dragon-quest-xi-s-switch-2.jpg",
+      kvSrc: "na.store.square-enix-games.com",
       company: "Square Enix",
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
@@ -7213,6 +7423,8 @@ window.OBSERVATORY = {
     },
     {
       id: "castlevania-classic-mobile",
+      kv: "assets/kv/castlevania-classic-mobile.jpg",
+      kvSrc: "gamehaunt.com",
       company: "Konami Digital Entertainment",
       companyJp: "株式会社コナミデジタルエンタテインメント",
       bucket: "update",
@@ -7273,6 +7485,8 @@ window.OBSERVATORY = {
     },
     {
       id: "dawngazer-ignisphere",
+      kv: "assets/kv/dawngazer-ignisphere.jpg",
+      kvSrc: "enduins.com",
       company: "Monochrome Corp. / Good Smile Company",
       companyJp: "Monochrome Corp.（兵庫県西宮市）／ 株式会社グッドスマイルカンパニー（東京都千代田区）",
       bucket: "new",
@@ -7331,6 +7545,8 @@ window.OBSERVATORY = {
     },
     {
       id: "kowloons-gate-suzaku",
+      kv: "assets/kv/kowloons-gate-suzaku.jpg",
+      kvSrc: "news.18183.com",
       company: "JETMAN",
       companyJp: "JETMAN（開発）",
       bucket: "new",
@@ -7439,6 +7655,8 @@ window.OBSERVATORY = {
     },
     {
       id: "sento-survivor",
+      kv: "assets/kv/sento-survivor.jpg",
+      kvSrc: "ludens.com.tw",
       company: "ZOO Corporation",
       companyJp: "ZOO Corporation（開発・発行）",
       bucket: "new",
@@ -7496,6 +7714,8 @@ window.OBSERVATORY = {
     },
     {
       id: "resident-evil-switch-2-trilogy",
+      kv: "assets/kv/resident-evil-switch-2-trilogy.jpg",
+      kvSrc: "公式サイト",
       company: "Capcom",
       companyJp: "株式会社カプコン",
       bucket: "update",
@@ -7550,6 +7770,8 @@ window.OBSERVATORY = {
     },
     {
       id: "nekopara-sekai-connect",
+      kv: "assets/kv/nekopara-sekai-connect.jpg",
+      kvSrc: "公式サイト",
       company: "グッドスマイルカンパニー × NEKO WORKs",
       companyJp: "株式会社グッドスマイルカンパニー（制作・配信）／NEKO WORKs（制作・原作監修）",
       bucket: "update",
@@ -7608,6 +7830,8 @@ window.OBSERVATORY = {
     },
     {
       id: "summer-pockets-sunnyside-stories",
+      kv: "assets/kv/summer-pockets-sunnyside-stories.jpg",
+      kvSrc: "公式サイト",
       company: "ビジュアルアーツ（Key）",
       companyJp: "株式会社ビジュアルアーツ（ブランド：Key）",
       bucket: "new",
@@ -7664,6 +7888,8 @@ window.OBSERVATORY = {
     },
     {
       id: "mercenaries-grace",
+      kv: "assets/kv/mercenaries-grace.jpg",
+      kvSrc: "nintendoeverything.com",
       company: "Rideon Japan",
       companyJp: "株式会社ライドオンジャパン",
       bucket: "new",
@@ -7719,6 +7945,8 @@ window.OBSERVATORY = {
     },
     {
       id: "namco-legendary-mountains",
+      kv: "assets/kv/namco-legendary-mountains.jpg",
+      kvSrc: "appbank.net",
       company: "ビサイド（BeXide）",
       companyJp: "株式会社ビサイド",
       bucket: "update",
@@ -7966,17 +8194,29 @@ window.OBSERVATORY = {
   },
 
   /* ---------------------------------------------------------
-   * E. 本期综述
+   * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "展後整理（2026-09-28 19:00 場）。**作品本体が 3 か月以上前に日本国内で配信・発売済みの「在営作品の内容更新」は不収録**とする口径に沿って既存 5 件を削除し、条目総数は 148 → 143 となった。本場の増分区間（09-28 夜）に日方主導の新規スマホ作の発表はなく、新規登録はゼロ。",
-    points: [
-      "**手游侧**：本場（19:00 場）の増分区間である 09-28 夜に、日方主導の新規スマホタイトルの発表は確認できなかった。検索は 手游通稿向け・IP 授权向け・主机PC 向け・厂商名单・期待榜の 5 系統を実行し、ヒットしたのはいずれも既収録作・海外資本の作品・既存作の他機種展開だった。新規登録ゼロをそのまま記録している。",
-      "**収録口径の整理（条目削除 5 件）**：**作品本体が 3 か月以上前（2026-06-28 以前）に日本国内で配信・発売済みの作品は、窓口内の「内容更新」——周年企画・新章追加・他 IP コラボ・ゲームショウ露出・新イベント等——を収録対象外**とすることを明確化した。これに該当する 5 件（周年記念 2 件・メインシナリオ新章 1 件・他社 IP コラボ 1 件・ゲームショウ露出 1 件）を削除。条目総数は 148 → 143。",
-      "**存続する類型（本体レベルの構造的展開）**：作品本体が窓口左端より前でも、「他機種版の配信・発売」「発売日の決定・変更」「運営終了」は本体側の構造的展開として引き続き update で記録する。削除後、本体が窓口左端より前に配信・発売済みの update 条目は 7 件で、いずれも他機種版展開または本体リリース情報であり内容更新ではないことを逐条確認した。",
-      "**厂商名单と期待榜**：4 个 category の家数は 8／16／16／10＝50 で不変。extra は 36 家で不変（うち 1 家は対象作品がなくなり covered → watch へ変更）。Famitsu 期待榜は前回計測分から変動なく据え置き。tgs は展後記録として凍結を継続。",
-      "**漏収核查**：① 国内アニメ・漫画 IP 系スマホ作（呪術廻戦／ブルーロック／無職転生／東京リベンジャーズ／ONE PIECE／ホロライブ／サンリオ／ガンダム／名探偵コナン／鬼滅の刃／BLEACH／チェンソーマン）、② 周年・記念企画系、③ 国内週次新作・発売リスト、④ Quest Board.JP 日次を確認したが、本場で新規収録に値する案件はなかった。",
-      "**継続ウォッチ（動きなし）**：①『チェンソーマン』のスマホ新作は開発元・発行元が未公表のため厳格運用を維持 ②『モンスターストライク』13 周年と『サクラ大戦』30 周年は作品本体が新作ではないため不収録、MIXI は watch のまま ③ 既存作のオンラインサービス終了告知（2027 年 5 月以降）は運営終了であり卡片化せず記録のみとした。",
+    headline: "更新履歴（直近 2 回の観測のみ掲載）",
+    history: [
+      {
+        at: "2026-09-28 22:20",
+        scene: "収録口径の修正・遡及整理",
+        items: [
+          "**「在営作品の内容更新」は不収録**へ口径を変更 —— 作品本体が 3 か月以上前に日本国内で配信・発売済みの作品は、窓口内の周年企画・新章追加・他 IP コラボ・展示露出・新イベント等を収録対象外とする。",
+          "この口径に該当する 7 件を削除し、条目総数は 148 → **143**（手游区 32 ／ 主机・PC 区 121）。",
+          "対象作品がなくなった extra 1 家を covered → watch へ変更。厂商清单 4 分类 8／16／16／10＝50 は不変。"
+        ]
+      },
+      {
+        at: "2026-09-28 19:10",
+        scene: "定時巡検",
+        items: [
+          "日方主導の新規スマホタイトルの発表はなく、新規登録はゼロ。",
+          "漏収補収として跨平台 1 件（『NAMCO LEGENDARY Mountains』iOS／Android 版 9/24 配信開始）と主机・PC 1 件（Rideon Japan 新作 SRPG『Mercenaries Grace』9/25 発表）を収録。",
+          "TGS2026 は展後記録として凍結、Famitsu 期待榜は前回計測から据え置き。"
+        ]
+      }
     ]
   },
 };

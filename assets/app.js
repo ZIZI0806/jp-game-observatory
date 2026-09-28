@@ -140,11 +140,40 @@
       </div>`).join("");
   }
 
+  /* 更新履歴（直近 2 回ぶんだけ）。
+     以前は 1 回ぶんの長文（headline ＋ 6 項目）を全文出していたが、
+     面が縦に伸びるだけで読みづらかったため「直近 2 回の履歴」に置き換えた。
+     旧スキーマ（headline + points）だけのデータでも壊れないようフォールバックを持つ。 */
+  const DIGEST_HIST_MAX = 2;
+
   function renderDigest() {
-    const d = D.digest;
-    document.getElementById("digestPanel").innerHTML = `
-      <h2>${esc(d.headline)}</h2>
-      <ul>${d.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`;
+    const d = D.digest || {};
+    const panel = document.getElementById("digestPanel");
+    const hist = Array.isArray(d.history) ? d.history.filter(Boolean).slice(0, DIGEST_HIST_MAX) : null;
+
+    if (hist && hist.length) {
+      panel.innerHTML = `
+        <div class="dlog-head">
+          <h2>更新履歴</h2>
+          <span class="dlog-note">直近 ${hist.length} 回の観測　·　最終更新 ${esc(fmtDateTime(D.meta.updatedAt))}</span>
+        </div>
+        <ol class="dlog">
+          ${hist.map(h => `
+            <li class="dlog-item">
+              <div class="dlog-top">
+                <span class="dlog-at">${esc(h.at || "")}</span>
+                ${h.scene ? `<span class="dlog-scene">${esc(h.scene)}</span>` : ""}
+              </div>
+              ${(h.items || []).length ? `<ul class="dlog-list">${h.items.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+            </li>`).join("")}
+        </ol>`;
+      return;
+    }
+
+    // 旧スキーマ（後方互換）
+    panel.innerHTML = `
+      <h2>${esc(d.headline || "")}</h2>
+      <ul>${(d.points || []).map(p => `<li>${esc(p)}</li>`).join("")}</ul>`;
   }
 
   function renderSources() {
@@ -773,6 +802,23 @@
   /* ============================================================
      抽屉详情
      ============================================================ */
+
+  /* 主视觉（KV）。数据侧 g.kv 存图片地址（本地 assets/kv/… 或来源站图片）。
+     出所は公式サイト / PR TIMES / 報道原文の og:image が主。
+     外部参照のとき Referer 判定で弾かれないよう no-referrer を付ける。
+     読み込みに失敗したら枠ごと畳む（壊れた画像アイコンを出さない）。 */
+  function kvHTML(g) {
+    const src = g.kv && String(g.kv).trim();
+    if (!src) return "";
+    const alt = (g.title && (g.title.cn || g.title.jp)) || g.id;
+    return `
+      <figure class="d-kv">
+        <img src="${esc(src)}" alt="${esc(alt)} 主视觉 / KEY VISUAL"
+             loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <figcaption>主视觉 / KEY VISUAL${g.kvCredit ? `　·　${esc(g.kvCredit)}` : ""}</figcaption>
+      </figure>`;
+  }
+
   function openDrawer(id) {
     const g = D.games.find(x => x.id === id);
     if (!g) return;
@@ -862,6 +908,8 @@
 
       <div class="d-actions"><button class="jpg-btn" id="drawerJpg" title="把这份详情另存为 JPG 图片">存为 JPG（整页详情）</button></div>
 
+      ${kvHTML(g)}
+
       <div class="d-section">
         <h4>基本信息</h4>
         <div class="d-grid">
@@ -929,6 +977,11 @@
     document.getElementById("drawerClose").addEventListener("click", closeDrawer);
     document.getElementById("drawerJpg").addEventListener("click", () =>
       saveJpg(g, "drawer", document.getElementById("drawerJpg")));
+    const kvImg = document.querySelector("#drawer .d-kv img");
+    if (kvImg) kvImg.addEventListener("error", () => {
+      const fig = kvImg.closest(".d-kv");
+      if (fig) fig.hidden = true;          // 画像が取れない条目は枠ごと消す
+    });
     document.getElementById("drawer").scrollTop = 0;
   }
 
@@ -951,14 +1004,21 @@
      布局与绘制分离：layoutSheet() 只产出「画什么」的模型（纯函数，
      可以在没有 canvas 的环境里用假测量函数单测），drawSheet() 才碰真实 canvas。
      ============================================================ */
+  /* 导出参数。以前は倍率 2・品質 0.93 で、暗い背景に細い明色文字という画作りも重なり、
+     「保存した JPG の文字が読めない」という指摘があった。次の 3 点で調整した。
+       ① SCALE 2 → 3      … 拡大しても輪郭が潰れないだけの画素数を確保
+       ② QUALITY 0.93 → 0.95 … JPEG の 4:2:0 色差間引きで色付き小文字が滲むのを緩和
+       ③ 小さい文字のサイズとコントラストを底上げ（下の T と各 SF サイズ）
+     MAX_PIX_H はブラウザのキャンバス上限に当たらないための安全弁。 */
   const SHEET = {
     W: 900, PAD: 40, BOT: 30, PANEL_R: 16,
+    SCALE: 3, MAX_PIX_H: 15000, QUALITY: 0.95,
     FONT: '"Segoe UI","Microsoft YaHei",Meiryo,sans-serif',
     t: {
-      bg: "#0a0e15", panel: "#111722", soft: "#0d1119", track: "#151c29", line: "#1e2836",
-      text: "#e3ebf5", dim: "#93a2b8", faint: "#5d6c81",
-      teal: "#4dd4c0", hot: "#ff6b9d", warm: "#ffab5c", gold: "#ffd166",
-      blue: "#5b8cff", violet: "#a78bfa"
+      bg: "#0a0e15", panel: "#111722", soft: "#0d1119", track: "#151c29", line: "#24303f",
+      text: "#e8eff8", dim: "#c0ccdb", faint: "#8c9cb2",
+      teal: "#5ee0cd", hot: "#ff7ba8", warm: "#ffb872", gold: "#ffd97a",
+      blue: "#7aa9ff", violet: "#b9a2ff"
     }
   };
   const SF = (size, weight) => (weight || 400) + " " + size + "px " + SHEET.FONT;
@@ -1096,8 +1156,10 @@
     const co = colorOf(g.company);
     const hs = hypeColor(g.hype ? g.hype.score : 0);
     const M = { w: W, h: 0, bg: T.bg, rects: [], texts: [], rules: [], bars: [] };
+    /* 座標は整数に丸めてから積む。端数座標のままだと device ピクセル境界をまたいで
+       テキストが半端に再サンプリングされ、輪郭がぼける。 */
     const put = (x, y, s, font, color, align) =>
-      M.texts.push({ x: x, y: y, s: s, font: font, color: color, align: align || "left" });
+      M.texts.push({ x: Math.round(x), y: Math.round(y), s: s, font: font, color: color, align: align || "left" });
     const fit = (x, y, s, size, weight, color, maxw, align) => {
       const r = fitLine(s, maxw, size, weight, measure);
       put(x, y, r.s, r.font, color, align);
@@ -1105,17 +1167,17 @@
     let y = PAD + 40;
 
     // ① 顶栏：厂商 + 分区·发表日
-    fit(x0, y, String(g.company || "").toUpperCase(), 13, 700, co, iw * 0.55);
+    fit(x0, y, String(g.company || "").toUpperCase(), 14, 700, co, iw * 0.55);
     fit(xr, y + 1, (g.bucket === "new" ? "新作发表" : "定档/进展") + " · " + (g.announceDate || "—"),
-        12, 600, T.faint, iw * 0.42, "right");
-    y += 34;
+        12.5, 600, T.faint, iw * 0.42, "right");
+    y += 36;
 
     // ② 标题
-    fit(x0, y, g.title.cn || g.title.jp || g.id, 30, 700, T.text, iw);
-    y += 42;
+    fit(x0, y, g.title.cn || g.title.jp || g.id, 31, 700, T.text, iw);
+    y += 44;
     const sub = [g.title.jp, (g.title.en && g.title.en !== g.title.jp && g.title.en !== g.title.cn) ? g.title.en : ""]
       .filter(Boolean).join(" ／ ");
-    if (sub) { fit(x0, y, sub, 15, 400, T.faint, iw); y += 24; }
+    if (sub) { fit(x0, y, sub, 15.5, 400, T.faint, iw); y += 26; }
 
     // ③ 徽章行：类型 / 平台 / 发售日（自动换行）
     y += 12;
@@ -1126,33 +1188,33 @@
         .filter(c => c.s);
       let cx = x0, cy = y;
       list.forEach(c => {
-        const f = SF(12.5, 500);
-        const cw = measure(c.s, f) + 22;
-        if (cx > x0 && cx + cw > x0 + iw) { cx = x0; cy += 34; }
-        M.rects.push({ x: cx, y: cy, w: cw, h: 26, r: 7, fill: T.soft,
+        const f = SF(13, 500);
+        const cw = measure(c.s, f) + 24;
+        if (cx > x0 && cx + cw > x0 + iw) { cx = x0; cy += 35; }
+        M.rects.push({ x: cx, y: cy, w: cw, h: 27, r: 7, fill: T.soft,
                        stroke: c.k === "plat" ? "rgba(91,140,255,.34)" : c.k === "date" ? "rgba(77,212,192,.34)" : T.line });
-        put(cx + 11, cy + 6.5, c.s, f, c.k === "plat" ? T.blue : c.k === "date" ? T.teal : T.dim);
+        put(cx + 12, cy + 7, c.s, f, c.k === "plat" ? T.blue : c.k === "date" ? T.teal : T.dim);
         cx += cw + 8;
       });
-      y = cy + 26;
+      y = cy + 27;
     })();
 
     // ④ 规格网格（3 列 × 若干行）
     sheetSpecGroups(g, kind).forEach(gr => {
-      y += 22;
-      put(x0, y, gr.title, SF(11.5, 700), gr.kind === "mobile" ? T.hot : T.violet);
-      y += 19;
+      y += 24;
+      put(x0, y, gr.title, SF(12.5, 700), gr.kind === "mobile" ? T.hot : T.violet);
+      y += 21;
       M.rules.push({ x: x0, y: y, w: iw });
-      y += 13;
-      const cols = 3, gap = 12, cw = (iw - gap * (cols - 1)) / cols, chh = 58;
+      y += 14;
+      const cols = 3, gap = 12, cw = (iw - gap * (cols - 1)) / cols, chh = 64;
       gr.rows.forEach((r, i) => {
         const cx = x0 + (i % cols) * (cw + gap);
         const cy = y + Math.floor(i / cols) * (chh + gap);
         M.rects.push({ x: cx, y: cy, w: cw, h: chh, r: 9, fill: T.soft, stroke: T.line });
-        const kf = fitLine(r[0], cw - 26, 10.5, 400, measure);
-        const vf = fitLine(r[1], cw - 26, 13, 500, measure);
-        put(cx + 13, cy + 11, kf.s, kf.font, T.faint);
-        put(cx + 13, cy + 30, vf.s, vf.font, T.text);
+        const kf = fitLine(r[0], cw - 28, 11.5, 400, measure);
+        const vf = fitLine(r[1], cw - 28, 14.5, 500, measure);
+        put(cx + 14, cy + 12, kf.s, kf.font, T.faint);
+        put(cx + 14, cy + 33, vf.s, vf.font, T.text);
       });
       y += Math.ceil(gr.rows.length / cols) * (chh + gap) - gap;
     });
@@ -1162,45 +1224,45 @@
               : (g.console && g.console.preOrder && g.console.preOrder.open) ? { d: g.console.preOrder, badge: "予約受付中" }
               : null;
     if (pre) {
-      const lines = String(pre.d.reward || "").trim() ? wrapText(pre.d.reward, iw - 32, SF(13), measure) : [];
-      const bh = 44 + (lines.length ? lines.length * 22 + 10 : 0);
+      const lines = String(pre.d.reward || "").trim() ? wrapText(pre.d.reward, iw - 32, SF(14), measure) : [];
+      const bh = 46 + (lines.length ? lines.length * 23 + 10 : 0);
       y += 20;
       M.rects.push({ x: x0, y: y, w: iw, h: bh, r: 10, fill: "rgba(77,212,192,.07)", stroke: "rgba(77,212,192,.34)" });
-      put(x0 + 16, y + 13, pre.badge, SF(13, 700), T.teal);
-      if (pre.d.since) put(xr - 16, y + 14, pre.d.since + " 開始", SF(11), T.faint, "right");
-      lines.forEach((ln, i) => put(x0 + 16, y + 42 + i * 22, ln, SF(13), T.dim));
+      put(x0 + 16, y + 14, pre.badge, SF(14, 700), T.teal);
+      if (pre.d.since) put(xr - 16, y + 15, pre.d.since + " 開始", SF(11.5), T.faint, "right");
+      lines.forEach((ln, i) => put(x0 + 16, y + 44 + i * 23, ln, SF(14), T.dim));
       y += bh;
     }
 
     // ⑤.5 最新情报（窗口内新增的现场事实，与卡片上的「最新情报」条同源）
     const L = latestOf(g);
     if (L.marker && L.latest) {
-      const lf = SF(14), ll = wrapText(L.latest, iw - 32, lf, measure);
-      const lh = 40 + ll.length * 24;
+      const lf = SF(15), ll = wrapText(L.latest, iw - 32, lf, measure);
+      const lh = 42 + ll.length * 26;
       y += 20;
       M.rects.push({ x: x0, y: y, w: iw, h: lh, r: 10, fill: "rgba(255,171,92,.08)", stroke: "rgba(255,171,92,.34)" });
-      put(x0 + 16, y + 12, "最新情報", SF(12.5, 700), T.warm);
-      put(xr - 16, y + 13, L.marker, SF(11), T.faint, "right");
-      ll.forEach((ln, i) => put(x0 + 16, y + 38 + i * 24, ln, lf, T.text));
+      put(x0 + 16, y + 13, "最新情報", SF(13, 700), T.warm);
+      put(xr - 16, y + 14, L.marker, SF(11.5), T.faint, "right");
+      ll.forEach((ln, i) => put(x0 + 16, y + 40 + i * 26, ln, lf, T.text));
       y += lh;
     }
 
     // ⑥ 内容摘要（完整，不截断）
-    y += 24;
-    put(x0, y, "内容摘要", SF(11.5, 700), T.faint);
-    y += 22;
-    const sumF = SF(15), sumLines = wrapText(g.summary || "", iw, sumF, measure);
-    sumLines.forEach((ln, i) => put(x0, y + i * 27, ln, sumF, T.dim));
-    y += sumLines.length * 27;
+    y += 26;
+    put(x0, y, "内容摘要", SF(12.5, 700), T.faint);
+    y += 23;
+    const sumF = SF(16), sumLines = wrapText(g.summary || "", iw, sumF, measure);
+    sumLines.forEach((ln, i) => put(x0, y + i * 29, ln, sumF, T.dim));
+    y += sumLines.length * 29;
 
     // ⑦ 要点
     if (L.insight) {
-      const hf = SF(13.5), hl = wrapText(L.insight, iw - 30, hf, measure);
-      const hh = hl.length * 23 + 22;
+      const hf = SF(14.5), hl = wrapText(L.insight, iw - 30, hf, measure);
+      const hh = hl.length * 25 + 24;
       y += 16;
       M.rects.push({ x: x0, y: y, w: iw, h: hh, r: 0, fill: "rgba(167,139,250,.08)" });
       M.rects.push({ x: x0, y: y, w: 3, h: hh, r: 0, fill: "rgba(167,139,250,.6)" });
-      hl.forEach((ln, i) => put(x0 + 16, y + 11 + i * 23, ln, hf, T.dim));
+      hl.forEach((ln, i) => put(x0 + 16, y + 12 + i * 25, ln, hf, T.dim));
       y += hh;
     }
 
@@ -1220,41 +1282,41 @@
     const ipTxt = [pick("ipSource"), pick("series")].filter(Boolean).join("　·　");
     if (ipTxt) blocks.push({ t: "IP / 系列背景", text: ipTxt });
     blocks.forEach(b => {
-      y += 24;
-      put(x0, y, b.t, SF(11.5, 700), T.faint);
-      y += 18;
+      y += 26;
+      put(x0, y, b.t, SF(12.5, 700), T.faint);
+      y += 20;
       M.rules.push({ x: x0, y: y, w: iw });
-      y += 13;
-      const bf = SF(13.5);
+      y += 14;
+      const bf = SF(14.5);
       if (b.list) {
         b.list.forEach(it => {
           const lines = wrapText(it, iw - 18, bf, measure);
-          put(x0, y + 1, "·", SF(13.5, 700), T.teal);
-          lines.forEach((ln, i) => put(x0 + 18, y + i * 23, ln, bf, T.dim));
-          y += lines.length * 23 + 7;
+          put(x0, y + 1, "·", SF(14.5, 700), T.teal);
+          lines.forEach((ln, i) => put(x0 + 18, y + i * 25, ln, bf, T.dim));
+          y += lines.length * 25 + 8;
         });
       } else {
         const lines = wrapText(b.text, iw, bf, measure);
-        lines.forEach((ln, i) => put(x0, y + i * 23, ln, bf, T.dim));
-        y += lines.length * 23;
+        lines.forEach((ln, i) => put(x0, y + i * 25, ln, bf, T.dim));
+        y += lines.length * 25;
       }
     });
 
     // ⑨ 期待度
-    y += 26;
+    y += 28;
     M.rules.push({ x: x0, y: y, w: iw });
-    y += 15;
-    put(x0, y + 3, "全球舆论期待度", SF(11.5, 700), T.faint);
-    put(xr, y, String((g.hype || {}).score) + " / 100", SF(19, 700), hs, "right");
-    y += 32;
+    y += 16;
+    put(x0, y + 4, "全球舆论期待度", SF(12.5, 700), T.faint);
+    put(xr, y, String((g.hype || {}).score) + " / 100", SF(20, 700), hs, "right");
+    y += 34;
     const score = Math.max(0, Math.min(100, (g.hype || {}).score || 0));
-    M.bars.push({ x: x0, y: y, w: iw, h: 6, r: 3, fill: T.track });
-    M.bars.push({ x: x0, y: y, w: iw * score / 100, h: 6, r: 3, fill: hs });
+    M.bars.push({ x: x0, y: y, w: iw, h: 7, r: 3, fill: T.track });
+    M.bars.push({ x: x0, y: y, w: iw * score / 100, h: 7, r: 3, fill: hs });
 
     // ⑩ 脚注（出处与口径）
-    y += 30;
+    y += 32;
     M.rules.push({ x: x0, y: y, w: iw });
-    y += 13;
+    y += 14;
     const srcs = (g.news || []).slice(0, 3).map(n => n.source).join("　·　");
     const vids = (g.videos || []).slice(0, 4).map(v => v.platform).join(" / ");
     [
@@ -1262,9 +1324,9 @@
       "来源：" + (srcs || "—") + (vids ? "　·　影像 / 官方渠道：" + vids : ""),
       "期待度为公开信号定性综合评估（日本侧期待榜 / 全球媒体覆盖 / 社媒与预告片声量），非平台真实流量数据。"
     ].forEach(line => {
-      const ls = wrapText(line, iw, SF(11.5), measure);
-      ls.forEach((ln, i) => put(x0, y + i * 19, ln, SF(11.5), T.faint));
-      y += ls.length * 19 + 5;
+      const ls = wrapText(line, iw, SF(12.5), measure);
+      ls.forEach((ln, i) => put(x0, y + i * 21, ln, SF(12.5), T.faint));
+      y += ls.length * 21 + 6;
     });
 
     // ⑪ 面板与顶部色条：垫在最底层，必须插到内容前面
@@ -1342,9 +1404,9 @@
         : fallbackMeasure;
 
       const M = layoutSheet(g, kind, measure);
-      // 2 倍高清；万一卡片特别长，降倍率保证不超过浏览器画布上限
-      let scale = 2;
-      while (scale > 1 && M.h * scale > 12000) scale -= 0.25;
+      // 既定 3 倍高清；万一特别长，降到不超过浏览器画布上限为止
+      let scale = SHEET.SCALE;
+      while (scale > 1 && M.h * scale > SHEET.MAX_PIX_H) scale -= 0.25;
 
       const cv = document.createElement("canvas");
       drawSheet(cv, M, scale);
@@ -1362,7 +1424,7 @@
         a.remove();
         setTimeout(() => URL.revokeObjectURL(dl), 5000);
         toast("已保存 " + name + "（" + cv.width + " × " + cv.height + "）", true);
-      }, "image/jpeg", 0.93);
+      }, "image/jpeg", SHEET.QUALITY);
     } catch (e) {
       restore();
       toast("导出失败：" + e.message, false);

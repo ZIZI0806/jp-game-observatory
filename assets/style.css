@@ -111,6 +111,26 @@ body{
   content:"▹";position:absolute;left:2px;top:-1px;color:var(--accent);font-size:12px;
 }
 
+/* 更新履歴（直近 2 回ぶんだけを出す） */
+.dlog-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:13px}
+.dlog-head h2{font-size:16.5px;font-weight:640;letter-spacing:.2px;margin:0}
+.dlog-note{font-size:11.5px;color:var(--text-faint);margin-left:auto}
+.dlog{list-style:none;display:flex;flex-direction:column;gap:12px}
+.dlog-item{
+  background:rgba(255,255,255,.018);border:1px solid var(--border);
+  border-radius:10px;padding:11px 15px;
+}
+.dlog-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.dlog-at{
+  font-family:var(--mono);font-size:11.5px;color:var(--accent);flex:none;
+  background:rgba(77,212,192,.1);border:1px solid rgba(77,212,192,.28);
+  border-radius:6px;padding:2px 8px;
+}
+.dlog-scene{font-size:12.8px;color:var(--text);font-weight:600}
+.dlog-list{list-style:none;display:flex;flex-direction:column;gap:5px;margin-top:8px}
+.dlog-list li{font-size:12.8px;color:var(--text-dim);line-height:1.7;padding-left:15px;position:relative}
+.dlog-list li::before{content:"·";position:absolute;left:2px;top:-1px;color:var(--accent);font-weight:700}
+
 /* ---------------- Tabs ---------------- */
 .tabs{display:flex;gap:6px;border-bottom:1px solid var(--border);margin-bottom:20px;flex-wrap:wrap}
 .tab{
@@ -667,6 +687,20 @@ body{
 .mob-head .jpg-btn{font-size:10.5px;padding:3px 9px;border-radius:6px}
 .jpg-btn:disabled{opacity:.55;cursor:default}
 .d-actions{display:flex;justify-content:flex-end;margin-top:13px}
+
+/* 抽屉の主视觉（KV）。title と「基本信息」の間に置く。 */
+.d-kv{
+  margin:16px 0 0;border:1px solid var(--border);border-radius:11px;
+  overflow:hidden;background:var(--panel);
+}
+.d-kv img{
+  display:block;width:100%;height:auto;max-height:430px;
+  object-fit:contain;background:#0b1018;
+}
+.d-kv figcaption{
+  font-size:10.5px;color:var(--text-faint);letter-spacing:.3px;
+  padding:7px 12px;border-top:1px solid var(--border);background:var(--bg-soft);
+}
 
 /* ---------------- 其它 ---------------- */
 .empty{
