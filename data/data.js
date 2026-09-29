@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-09-28
+ * 最后更新: 2026-09-29
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-28T22:20:00+08:00",
-    edition: "2026-09-28",
-    window: "2026-07-28 ~ 2026-09-28（滚动最近 2 个月）",
+    updatedAt: "2026-09-29T11:50:00+08:00",
+    edition: "2026-09-29",
+    window: "2026-07-29 ~ 2026-09-29（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -3754,17 +3754,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：バンダイナムコエイセス）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-24（本編オープニングシネマティックをシリーズ公式チャンネルで公開）",
-      capturedAt: "2026-09-25",
+      announceDate: "2026-09-28（地域別の発売スケジュールを公開し、デラックスエディションの先行アクセスが開始）",
+      capturedAt: "2026-09-29",
       title: { jp: "ACE COMBAT 8: Wings of Theve", cn: "皇牌空战 8 Wings of Theve", en: "Ace Combat 8: Wings of Theve" },
       genre: "フライトシューティング／空戦アクション",
       platforms: ["PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
-      release: "2026-10-02（デラックスエディションは 09-29 から先行アクセス）",
+      release: "2026-10-02（家庭用。PC（Steam）は 10-01。デラックスエディションは 09-29 から先行アクセス）",
       releasePrecision: "日",
       summary: "系列最新作，2026-10-02 发售，数字豪华版自 09-29 起先行体验。2026-09-22 预告、09-24 晚在系列官方 YouTube 频道首映了本编序章过场动画——本作过场采用第一人称视角，并加入移动镜头与按键互动等参与机制；同期真人前传短篇《ACE COMBAT HOUR ZERO》第 3 集于 09-23 公开，以被国家封口的新闻主播为主角，由 Tamlyn Tomita 主演。09-14 通过 PlayStation.Blog 公开故事预告并确认「歼灭战」（Annihilation Battle）在任务 7 回归：限时内自行决定先打哪个目标、什么时候回补给线装弹，连锁破坏进一步加深策略性。本作同时介绍了两件超大型兵器——周长 6 公里、配备 2,000 米跑道的海上浮体「Megafloat Fatsia」，以及低轨道 500 公里、以金属棒动能打击的卫星兵器「Tonitrus Spear」。预约特典为可操作机体 F-14A Tomcat 与《ACE COMBAT ZERO: THE BELKAN WAR》移植版。",
-      highlight: "【2026-09-24 オープニングシネマティック公開】シリーズ公式チャンネルで本編序章のシネマティックがプレミア公開された（9/22 に予告、英語字幕版も同時公開）。あわせて実写前日譚『ACE COMBAT HOUR ZERO』Episode 3 が 9/23 に公開され、国家に口封じされたニュースキャスター役をタムリン・トミタが演じた。　【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】バンダイナムコ 展台以本作为核心（试玩机＋限定周边＋现场预购），PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作——系列首次公开试玩正好卡在 10/02 发售前两周。　歼灭战回归是核心卖点：破坏顺序与补给线时机交给玩家，连锁破坏让「先打哪一个」直接影响战果。",
+      highlight: "【2026-09-28 発売スケジュール公開】バンダイナムコが公式 X で地域別の発売時刻表とローンチトレーラーを公開し、デラックスエディションの先行アクセスが 9月28日 23:00（BST）＝日本時間 9月29日 朝に始まった（通常版は PC（Steam）が 10月1日、家庭用が 10月2日）。海外レビューは Metacritic 87（PS5・53 本）で「シリーズ最高水準」との評価が並び、PS5 版の容量は約 108.6GB と判明。　【2026-09-24 オープニングシネマティック公開】シリーズ公式チャンネルで本編序章のシネマティックがプレミア公開された（9/22 に予告、英語字幕版も同時公開）。あわせて実写前日譚『ACE COMBAT HOUR ZERO』Episode 3 が 9/23 に公開され、国家に口封じされたニュースキャスター役をタムリン・トミタが演じた。　【日本ゲーム大賞 9/20】フューチャー部門を受賞。　【TGS2026 9/17】バンダイナムコ 展台以本作为核心（试玩机＋限定周边＋现场预购），PlayStation 展台的 PS Plus 优先试玩 4 款亦含本作。　歼灭战回归是核心卖点：破坏顺序与补给线时机交给玩家，连锁破坏让「先打哪一个」直接影响战果。",
       console: {
-        status: "2026年10月2日発売予定。予約受付中",
+        status: "2026年10月2日発売予定（デラックスエディションは 09-29 から先行アクセス開始済み）。予約受付中",
         os: ["PlayStation 5", "Xbox Series X|S", "PC（Steam）"],
         monetization: "通常版とデラックスエディションの 2 形態。デラックスエディションは 3 日間の先行アクセス（Advanced Access、9月29日開始）、コスメセット、Premium Ace Pass Plus クーポンを同梱。予約特典はプレイアブル機 F-14A Tomcat と Steam 版『ACE COMBAT ZERO THE BELKAN WAR』",
         developer: "バンダイナムコエイセス",
@@ -8000,6 +8000,174 @@ window.OBSERVATORY = {
       },
       tags: ["手游", "跨平台", "主机", "パズル", "買い切り", "バンダイナムコIP"]
     },
+    {
+      id: "stupid-never-dies",
+      company: "セガ（SEGA）",
+      companyJp: "株式会社セガ（開発：株式会社GPTRACK50）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-21（無料体験版「First Bite」のアップデート配信）",
+      capturedAt: "2026-09-29",
+      title: { jp: "Stupid Never Dies", cn: "Stupid Never Dies", en: "Stupid Never Dies" },
+      genre: "ローグライト 3D アクション RPG",
+      platforms: ["PlayStation 5", "PC (Steam)"],
+      release: "2026-10-21（PlayStation 5／PC（Steam）。タイムゾーン差により一部地域は 10-22）",
+      releasePrecision: "日",
+      summary: "由 SEGA 旗下 GPTRACK50 开发、SEGA 共同发行的 roguelite 3D 动作 RPG，2026-10-21 在 PlayStation 5 与 PC（Steam）发售。舞台是被「大战」摧毁、由怪物支配的异界地牢；玩家操作怪物社会最底层的胆小僵尸 Davy，为查明让冷冻保存的少女 Julia 复活的方法，必须打倒万魔之王 KOM。每次潜入都从 1 级重新开始，但「Blazing Fast Growth」让升级速度随击杀不断加速，理论上一次潜入即可一路冲到最底层。战斗中捕食精英怪物夺取其能力，可切换 10 种怪物能力与自身能力；在据点的购物中心以「Body Hack」换装头、手臂与腿部，并用怪物素材解锁 Zombie Skills。2026-07-30 正式公布发售日，同时披露为全球流通与发行提供支持的 SEGA 共同发行体制；09-03 起免费体验版「First Bite」（约收录前两小时内容，存档可继承至正式版）开放下载，09-04 在 PlayStation 的 State of Play 上公开第三支预告并首次介绍 KOM 麾下四天王，09-21 体验版推送更新，改进攻击命中判定并新增「Combat Camera Assist」。",
+      highlight: "【2026-09-21 体験版アップデート】無料体験版「First Bite」にアップデートが配信され、敵への攻撃判定が改善されるとともに、戦闘中に敵を画面内に収める「Combat Camera Assist」が追加された。　【2026-09-04 第3弾トレーラー・体験版配信】PlayStation の State of Play で第3弾トレーラーが公開され、KOM 麾下の四天王（Surtr R.S.／Dragul／Takiyasha-Hime／Wolfgang）と Everent、新しいキービジュアルが初公開された。　【2026-07-30 発売日決定】発売日 2026-10-21 を正式発表し、全世界の流通・販売を担う SEGA との共同パブリッシング体制を明らかにした。　本体は未発売で、窓口内の進展は発売日の決定と体験版配信にあたる（初出は 2025-12 の The Game Awards）。",
+      console: {
+        status: "2026年10月21日発売予定（タイムゾーン差により一部地域は 10-22）。予約受付中",
+        os: ["PlayStation 5", "PC（Steam）"],
+        monetization: "買い切り。通常版 49.99 ドル／上位版「Glorious Idiot Edition」59.99 ドル（税別）。追加 DLC『TickTock Teddies: Nonsense Overload Pack』は 15.00 ドル。一部地域では PS5 のパッケージ通常版も流通する",
+        developer: "株式会社GPTRACK50",
+        publisher: "株式会社セガ（共同パブリッシング）",
+        region: "日本／北米／欧州ほか世界同時",
+        distribution: "ダウンロード版（PlayStation Store／Steam）",
+        stores: ["PlayStation Store", "Steam"],
+        preOrder: { open: true, since: "2026-07-30 の発売日発表と同時に予約受付を開始", reward: "上位版「Glorious Idiot Edition」に追加 DLC『TickTock Teddies: Nonsense Overload Pack』を同梱。通常版向けの予約特典は公表されていない" },
+        features: [
+          "レベル 1 から始まる異界ダンジョンに潜るローグライト 3D アクション RPG。主人公は死なない気弱なゾンビ Davy",
+          "「Blazing Fast Growth」により、敵を倒すほどレベルアップ速度が加速し、理論上は 1 回の潜行で最深部まで到達できる",
+          "エリートモンスターを捕食して能力を取り込み、10 種のモンスター能力と自身の能力を使い分ける",
+          "拠点のショッピングモールで「Body Hack」により頭・腕・脚を換装し、モンスター素材で Zombie Skills を解放する",
+          "「Davy Burst」で一時的に実力を引き上げる切り札を備える"
+        ],
+        synopsis: "舞台は「大戦」で文明が崩壊し、怪物たちが支配する異界のダンジョン。怪物社会の最底辺に生きる気弱なゾンビ Davy は、廃墟のショッピングモールで冷凍保存されていた人間の少女 Julia に一目惚れする。彼女を蘇らせる方法を知るため、Davy は万魔の王 KOM を倒して人類が失った知識を取り戻す旅に出る。",
+        ipSource: "オリジナル IP（GPTRACK50 による完全新規企画で、既存作品のライセンスではない）",
+        series: "GPTRACK50 は 2022 年に設立されたセガのスタジオで、代表は元カプコンのプロデューサー小林裕幸氏。本作は同スタジオのオリジナルタイトルにあたる",
+        cast: "公式発表なし（キャスト名は公表されていない）"
+      },
+      news: [
+        { source: "GPTRACK50 公式ニュース（2026-07-30 発売日 10-21 の正式発表と DLC 情報）", url: "https://www.gptrack50.com/en/news/releasedateannouncement-en/" },
+        { source: "GPTRACK50 公式ニュース（体験版「First Bite」配信・第3弾トレーラー・ストア URL）", url: "https://www.gptrack50.com/en/news/firstbitedemo/" },
+        { source: "Steam 公式ニュース（2026-09-21 体験版アップデート：攻撃判定の改善と Combat Camera Assist）", url: "https://store.steampowered.com/news/app/3486530" },
+        { source: "Bloody Disgusting（2026-09-23 ゲームプレイ映像『Deep Bite』第2弾＝Blazing Fast Growth の解説、発売日 10-21・ストア URL の記載あり）", url: "https://bloody-disgusting.com/video-games/3968809/get-the-hang-of-blazing-fast-growth-in-new-gameplay-video-for-stupid-never-dies-watch" },
+        { source: "RPGFan（発売日 10-21 と SEGA との共同パブリッシング体制）", url: "https://www.rpgfan.com/2026/09/15/stupid-never-dies-october-21st-ps5-pc/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/3486530/Stupid_Never_Dies" },
+        { label: "PlayStation Store 作品ページ", platform: "PlayStation Store", url: "https://store.playstation.com/concept/10013888" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "The Game Awards 2025 で初公開され、2026-07-30 に発売日 2026-10-21 と SEGA との共同パブリッシング体制が確定した",
+          "無料体験版「First Bite」が PS5／Steam で配信中で、セーブデータを製品版へ引き継げる。2026-09-21 には攻撃判定とカメラ補助を改善するアップデートが配信された",
+          "RPGFan・Bloody Disgusting など英語圏メディアの取り上げが多い一方、国内メディアの報道は限定的",
+          "Famitsu 期待榜には未登場"
+        ]
+      },
+      tags: ["主机", "PC", "アクションRPG", "ローグライト", "買い切り"]
+    },
+    {
+      id: "shinjuku-anomaly",
+      company: "AMATA Games（AMATA K.K.）",
+      companyJp: "AMATA K.K.（東京都千代田区）",
+      bucket: "update",
+      platformClass: "pc",
+      announceDate: "2026-09-28（発売日 9月30日を発表し、最新トレーラーを公開）",
+      capturedAt: "2026-09-29",
+      title: { jp: "新宿異変", cn: "新宿异变", en: "Shinjuku Anomaly" },
+      genre: "ホラー・ビジュアルノベル（短編／マルチエンディング）",
+      platforms: ["PC (Steam)"],
+      release: "2026-09-30 10:00（JST）（PC（Steam））",
+      releasePrecision: "日",
+      summary: "由 AMATA K.K. 旗下发行品牌 AMATA Games 开发与发行的短篇恐怖视觉小说，2026-09-30 10:00（JST）在 Steam 上线。玩家在新宿夜间做一份「拍摄异象」的兼职，规则只有四条：看到异象必须立刻拍照、拍摄时要靠近到能拍清的距离、但不能靠得太近、胶片用完必须返回事务所——「距离感」的取舍构成全部玩法与压迫感的来源，含多结局。支持日语、英语、繁体中文、简体中文四种语言。作品于 2024-12 开设 Steam 商店页，2026-09-28 公布发售日并公开最新预告。AMATA K.K. 是位于东京千代田区的游戏开发公司，自社作品包括 VR 脱出游戏《Last Labyrinth》，另于 2026-09-24 公布正在开发 CAPCOM 授权的《逆转裁判 5》（Dual Destinies）VR 版，预定 2027 年登陆 Meta Quest／Meta VR 眼镜。",
+      highlight: "【2026-09-28 発売日決定】AMATA Games が『新宿異変』を 2026-09-30 10:00（JST）に Steam で配信すると発表し、最新トレーラーを公開した。　本体は未発売で、2024-12 のストアページ開設（窓口外）以来の進展がこの発売日決定にあたる。　日本語・英語・簡体字・繁体字の 4 言語に対応。　開発元の AMATA K.K. は、カプコン公認『逆転裁判 5』（Dual Destinies）の VR 版を 2027 年に Meta Quest／Meta VR グラス向けに開発中と 2026-09-24 に発表している。",
+      console: {
+        status: "2026年9月30日 10:00（JST）配信予定（PC（Steam））",
+        os: ["PC（Steam）"],
+        monetization: "買い切り。AMATA Games 公式表記は 3.99 USD から（ストア価格は地域により異なる）",
+        developer: "AMATA K.K.",
+        publisher: "AMATA Games（AMATA K.K. のパブリッシングブランド）",
+        region: "世界（日本語・英語・簡体字・繁体字の 4 言語に対応）",
+        distribution: "ダウンロード版（Steam）",
+        stores: ["Steam"],
+        preOrder: { open: false, since: "事前登録・予約販売の告知はなく、配信日に Steam で購入する形態", reward: "予約特典の告知はなし" },
+        features: [
+          "新宿の夜を舞台に、異変を撮影するアルバイトを題材にした短編ホラー・ビジュアルノベル",
+          "「異変を見つけたら撮る」「鮮明に写る距離まで近づく」「しかし近づきすぎない」「フィルムを使い切ったら事務所へ戻る」の 4 つのルールのもと、対象との距離を読みながら撮影を進める",
+          "選択によって結末が変わるマルチエンディング構成で、1 回のプレイは短時間で完結する",
+          "登場人物・事件・組織はいずれも架空である旨の注意書きが公式ページに明示されている"
+        ],
+        synopsis: "プレイヤーは新宿の夜に「異変」を撮影するアルバイトを引き受ける。課せられたルールは、異変を見つけたらすぐ撮ること、鮮明に写る距離まで近づくこと、しかし近づきすぎないこと、そしてフィルムを使い切ったら事務所へ戻ること。夜の街に現れる異変との距離を測りながら、撮影を進めていく。",
+        ipSource: "オリジナル IP（AMATA Games の自社企画）",
+        series: "AMATA K.K. が展開するインディー・パブリッシングブランド「AMATA Games」の 1 作。同社は『Last Labyrinth』などの自社タイトルを手がけてきた開発会社で、カプコン公認『逆転裁判 5』（Dual Destinies）の VR 版を 2027 年に Meta Quest／Meta VR グラス向けに開発中と発表している",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "Anime News Network（2026-09-28 発売日 9/30 の発表・トレーラー・対応 4 言語）", url: "https://www.animenewsnetwork.com/news/2026-09-28/amata-games-shinjuku-anomaly-game-reveals-september-30-launch-in-trailer/.242280" },
+        { source: "AMATA Games 公式ニュース（発売日 2026-09-30 の告知）", url: "https://amata.games/en/news/20260928_release/" },
+        { source: "Gematsu（発売日 9/30 の報道）", url: "https://www.gematsu.com/2026/09/horror-visual-novel-shinjuku-anomaly-launches-september-30" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（予告映像・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/3386350/Shinjuku_Anomaly/" }
+      ],
+      hype: {
+        score: 38,
+        signals: [
+          "Anime News Network と Gematsu が発売日決定を報じ、英語圏のインディー系メディアにも波及した",
+          "2024-12 のストアページ開設から約 2 年越しの発売日決定で、事前の話題蓄積は大きくない",
+          "開発元の AMATA K.K. はカプコン公認『逆転裁判 5』VR 版の開発元として知名度があり、その文脈でも言及されている"
+        ]
+      },
+      tags: ["PC", "ホラー", "ビジュアルノベル", "買い切り", "インディー"]
+    },
+    {
+      id: "japanese-ramen-simulator",
+      company: "Wild Dog",
+      companyJp: "Wild Dog Inc.（本社：東京都／代表：Hiroto Nakajo）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-09-28（Steam で早期アクセス配信を開始）",
+      capturedAt: "2026-09-29",
+      title: { jp: "Japanese Ramen Simulator", cn: "Japanese Ramen Simulator", en: "Japanese Ramen Simulator" },
+      genre: "マルチプレイ対応ラーメン店経営シミュレーション",
+      platforms: ["PC (Steam)"],
+      release: "2026-09-28（早期アクセス配信開始。PC（Steam）／Windows 10・11）",
+      releasePrecision: "日",
+      summary: "由东京独立工作室 Wild Dog 开发与发行、主打多人协作的拉面店经营模拟游戏，2026-09-28 9:00（JST）在 Steam 开启早期访问。最多 6 人联机（房间上限 10 人）共同经营一家拉面店，流程覆盖备料、煮面、摆配菜、端菜、接待与收尾清理；汤底温度、煮面时长、配菜摆法都会影响成品，基于物理的摆盘让每一碗都不完全相同。菜单还包括饺子、盖饭与讲究泡沫比例的啤酒。营业中会出现专门刁难的拉面评论家、盯上收银机的小偷以及突发火灾，需要用手里剑、灭火器等道具应对；玩家可自由布置厨房与座位的设备家具，用「My Design」自制海报与碗面图案，并访问朋友的店铺。空间语音会随距离与墙壁改变听感，也可雇佣 NPC 店员单人经营。上线前 Steam 愿望单突破 13 万件，早期访问定价 1,900 日元，首发两周 10% 折扣。",
+      highlight: "【2026-09-28 早期アクセス開始】Wild Dog が PC（Steam）向けの早期アクセス配信を開始した（1,900 円、2 週間 10%OFF）。　Steam ウィッシュリストは発売前に 13 万件を突破し、開発チームはクローズドβでのフィードバック協力者に謝意を表明した。　1〜10 人対応（推奨 6 人）の協力型ラーメン店経営シムで、NPC 店員を雇えばソロでも経営できる。",
+      console: {
+        status: "2026年9月28日 早期アクセス配信開始（PC（Steam）／Windows 10・11）",
+        os: ["Windows 10", "Windows 11"],
+        monetization: "買い切り。早期アクセス版は 1,900 円（米国価格 14.99 ドル／英国 13.75 ポンド）。配信開始から 2 週間は 10%OFF",
+        developer: "Wild Dog Inc.",
+        publisher: "Wild Dog Inc.",
+        region: "世界（日本語・英語・簡体字・繁体字・フランス語・イタリア語・ドイツ語・スペイン語・ポルトガル語・韓国語の 10 言語に対応）",
+        distribution: "ダウンロード版（Steam）",
+        stores: ["Steam"],
+        preOrder: { open: false, since: "予約販売は行わず、Steam のウィッシュリスト登録で配信開始を告知する形態", reward: "配信開始から 2 週間の 10%OFF が実質のローンチ特典" },
+        features: [
+          "最大 6 人（ルーム上限 10 人）でのオンライン協力に対応したラーメン店経営シミュレーション。NPC 店員を雇えばソロでも営業できる",
+          "仕込み・調理・盛り付け・接客・片付けまで一連の業務を再現し、麺の茹で時間・スープの温度・トッピングの配置が出来を左右する",
+          "物理演算ベースの盛り付けにより、同じ注文でも一杯ごとに仕上がりが変わる",
+          "営業中にラーメン評論家の来店・レジを狙う泥棒・突発的な火災などのイベントが発生し、手里剣や消火器で対処する",
+          "厨房設備や家具を自由に配置でき、「My Design」でポスター・のれん・丼の絵柄を自作して友人の店を訪問できる"
+        ],
+        synopsis: "プレイヤーは仲間とともにラーメン店を切り盛りする。スープを仕込み、麺を茹で、トッピングを整えて一杯を作り、餃子や丼もの、ビールも提供しながら接客を回していく。売上を次の設備投資に回し、厨房と客席を自分好みに作り替えながら、理想の行列店を目指す。",
+        ipSource: "オリジナル IP（Wild Dog Inc. の自社企画）",
+        series: "Wild Dog Inc. は東京拠点のインディー開発スタジオで、『Keep Digging』を手がけたチーム。本作はその最新作にあたり、実在のラーメン店を取材して調理音の収録も行ったとされる",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "Games Press（Wild Dog 公式プレスリリース：早期アクセス開始・価格・ウィッシュリスト 13 万件）", url: "https://www.gamespress.com/zh-CN/A-MULTIPLAYER-RAMEN-SHOP-SIMULATOR-WITH-ALMOST-TOO-MUCH-FREED-Wild-Dog" },
+        { source: "Jemdo Game（早期アクセス開始の詳細・対応人数・収録内容）", url: "https://news.jemdogame.com/en/japanese-ramen-simulator-enters-early-access-today-on-pc" }
+      ],
+      videos: [
+        { label: "早期アクセス トレーラー（Wild Dog 公式）", platform: "YouTube", url: "https://youtu.be/r7uAvTFB_JQ" },
+        { label: "Steam ストアページ（プレイ映像・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/4968640/" }
+      ],
+      hype: {
+        score: 51,
+        signals: [
+          "Steam ウィッシュリストが発売前に 13 万件を突破し、開発チームが公式に謝意を表明した",
+          "英語圏のインディー系メディアが早期アクセス開始を報道。国内向けの大規模な発表は限定的",
+          "協力型の経営シムというジャンルで、最大 6 人のオンライン協力と自由度の高い店舗設計が差別化点として紹介されている"
+        ]
+      },
+      tags: ["PC", "シミュレーション", "協力プレイ", "早期アクセス", "インディー"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -8008,7 +8176,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-28",
+    asOf: "2026-09-29",
     listTotal: 50,
     categories: [
       {
@@ -8018,7 +8186,7 @@ window.OBSERVATORY = {
         items: [
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
-          { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定し、本体側も covered へ", gameIds: ["persona-6", "persona-4-revival", "stranger-than-heaven", "crazy-taxi-world-tour"] },
+          { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
@@ -8200,6 +8368,17 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-09-29 11:50",
+        scene: "定時巡検",
+        items: [
+          "日方主導の新規スマホタイトルの発表はなく、手游区の新規登録はゼロ。",
+          "漏収補収として主机・PC 3 件を収録 —— SEGA 共同パブリッシングの『Stupid Never Dies』（GPTRACK50、10-21 発売予定）、AMATA K.K. の短編ホラー『新宿異変』（9-30 配信決定）、Wild Dog の『Japanese Ramen Simulator』（9-28 早期アクセス開始）。",
+          "『ACE COMBAT 8: Wings of Theve』は地域別の発売スケジュールが公開され、デラックスエディションの先行アクセスが開始。海外レビューは Metacritic 87。",
+          "条目総数は 143 → **146**（手游区 32／主机・PC 区 124）。厂商清单 4 分类 8／16／16／10＝50 は不変。",
+          "Famitsu 期待榜は 9/2〜9/8 計測分から動きがなく据え置き。TGS2026 は展後記録として凍結を継続。"
+        ]
+      },
+      {
         at: "2026-09-28 22:20",
         scene: "収録口径の修正・遡及整理",
         items: [
@@ -8208,15 +8387,6 @@ window.OBSERVATORY = {
           "対象作品がなくなった extra 1 家を covered → watch へ変更。厂商清单 4 分类 8／16／16／10＝50 は不変。"
         ]
       },
-      {
-        at: "2026-09-28 19:10",
-        scene: "定時巡検",
-        items: [
-          "日方主導の新規スマホタイトルの発表はなく、新規登録はゼロ。",
-          "漏収補収として跨平台 1 件（『NAMCO LEGENDARY Mountains』iOS／Android 版 9/24 配信開始）と主机・PC 1 件（Rideon Japan 新作 SRPG『Mercenaries Grace』9/25 発表）を収録。",
-          "TGS2026 は展後記録として凍結、Famitsu 期待榜は前回計測から据え置き。"
-        ]
-      }
     ]
   },
 };
