@@ -2319,6 +2319,8 @@ window.OBSERVATORY = {
 
     {
       id: "kingdom-hearts-4",
+      kv: "assets/kv/kingdom-hearts-4.jpg",
+      kvSrc: "公式サイト",
       company: "Square Enix",
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
@@ -2412,6 +2414,8 @@ window.OBSERVATORY = {
 
     {
       id: "ff-resonance",
+      kv: "assets/kv/ff-resonance.jpg",
+      kvSrc: "公式サイト",
       company: "Square Enix",
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
@@ -2466,6 +2470,8 @@ window.OBSERVATORY = {
 
     {
       id: "persona-6",
+      kv: "assets/kv/persona-6.jpg",
+      kvSrc: "公式サイト",
       company: "ATLUS（SEGA）",
       companyJp: "株式会社アトラス",
       bucket: "update",
@@ -2727,6 +2733,8 @@ window.OBSERVATORY = {
 
     {
       id: "zelda-oot-remake",
+      kv: "assets/kv/zelda-oot-remake.jpg",
+      kvSrc: "公式サイト",
       company: "Nintendo",
       companyJp: "任天堂株式会社",
       bucket: "update",
@@ -2985,6 +2993,8 @@ window.OBSERVATORY = {
 
     {
       id: "the-duskbloods",
+      kv: "assets/kv/the-duskbloods.jpg",
+      kvSrc: "公式サイト",
       company: "FromSoftware",
       companyJp: "株式会社フロム・ソフトウェア",
       bucket: "update",
@@ -3198,6 +3208,8 @@ window.OBSERVATORY = {
 
     {
       id: "xenoblade-genesis",
+      kv: "assets/kv/xenoblade-genesis.jpg",
+      kvSrc: "公式サイト",
       company: "Nintendo / Monolith Soft",
       companyJp: "任天堂株式会社 / 株式会社モノリスソフト",
       bucket: "update",
@@ -6474,6 +6486,8 @@ window.OBSERVATORY = {
     },
     {
       id: "dynasty-warriors-3-complete-edition-remastered",
+      kv: "assets/kv/dynasty-warriors-3-complete-edition-remastered.jpg",
+      kvSrc: "Steam ストアページ",
       company: "Koei Tecmo",
       companyJp: "株式会社コーエーテクモゲームス（開発：ω-Force）",
       bucket: "update",
