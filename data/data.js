@@ -157,6 +157,8 @@ window.OBSERVATORY = {
     },
     {
       id: "black-wolves-saga-switch",
+      kv: "assets/kv/black-wolves-saga-switch.jpg",
+      kvSrc: "公式サイト",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -363,6 +365,8 @@ window.OBSERVATORY = {
 
     {
       id: "over-rush",
+      kv: "assets/kv/over-rush.jpg",
+      kvSrc: "公式サイト",
       company: "NHN PlayArt",
       companyJp: "NHNプレイアート株式会社",
       bucket: "new",
@@ -1023,6 +1027,8 @@ window.OBSERVATORY = {
 
     {
       id: "yowamushi-pedal-resonance-pedaism",
+      kv: "assets/kv/yowamushi-pedal-resonance-pedaism.jpg",
+      kvSrc: "公式サイト",
       company: "enish × G Holdings",
       companyJp: "株式会社enish／株式会社Gホールディングス（共同）",
       bucket: "update",
@@ -1951,6 +1957,8 @@ window.OBSERVATORY = {
 
     {
       id: "project-zircon",
+      kv: "assets/kv/project-zircon.jpg",
+      kvSrc: "公式サイト",
       company: "KONAMI",
       companyJp: "コナミデジタルエンタテインメント",
       bucket: "new",
@@ -2038,6 +2046,8 @@ window.OBSERVATORY = {
 
     {
       id: "active-cinema-rpg-369",
+      kv: "assets/kv/active-cinema-rpg-369.jpg",
+      kvSrc: "公式サイト",
       company: "COLOPL",
       companyJp: "株式会社コロプラ",
       bucket: "new",
@@ -2959,6 +2969,8 @@ window.OBSERVATORY = {
 
     {
       id: "rev-noir",
+      kv: "assets/kv/rev-noir.jpg",
+      kvSrc: "公式サイト",
       company: "KONAMI",
       companyJp: "コナミデジタルエンタテインメント",
       bucket: "update",
@@ -4549,6 +4561,8 @@ window.OBSERVATORY = {
 
     {
       id: "crazy-taxi-world-tour",
+      kv: "assets/kv/crazy-taxi-world-tour.jpg",
+      kvSrc: "公式サイト",
       company: "SEGA",
       companyJp: "株式会社セガ",
       bucket: "new",
@@ -6139,6 +6153,8 @@ window.OBSERVATORY = {
     },
     {
       id: "magical-girl-incustom-village",
+      kv: "assets/kv/magical-girl-incustom-village.jpg",
+      kvSrc: "公式サイト",
       company: "GOOD SMILE COMPANY（開発：Acacia／Re,AER）",
       companyJp: "株式会社グッドスマイルカンパニー（発売）／ Acacia・Re,AER（開発）",
       bucket: "update",
@@ -7099,6 +7115,8 @@ window.OBSERVATORY = {
     },
     {
       id: "azure-memoria",
+      kv: "assets/kv/azure-memoria.jpg",
+      kvSrc: "公式サイト",
       company: "ENTERGRAM",
       companyJp: "株式会社エンターグラム（主演・監修：VTuber 本阿弥あずさ／すぺしゃりて）",
       bucket: "new",
