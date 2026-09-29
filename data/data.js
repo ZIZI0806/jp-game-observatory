@@ -277,6 +277,8 @@ window.OBSERVATORY = {
 
     {
       id: "touken-ranbu-pazugiri",
+      kv: "assets/kv/touken-ranbu-pazugiri.jpg",
+      kvSrc: "公式サイト",
       company: "EXNOA（DMM GAMES）／ NHN PlayArt",
       companyJp: "合同会社EXNOA（DMM GAMES）／ NHNプレイアート株式会社",
       bucket: "new",
@@ -2223,6 +2225,8 @@ window.OBSERVATORY = {
      * ------------------------------------------------------- */
     {
       id: "pokemon-winds-waves",
+      kv: "assets/kv/pokemon-winds-waves.jpg",
+      kvSrc: "nintendoeverything.com",
       company: "The Pokémon Company / GAME FREAK",
       companyJp: "株式会社ポケモン / 株式会社ゲームフリーク",
       bucket: "update",
@@ -2669,6 +2673,8 @@ window.OBSERVATORY = {
 
     {
       id: "fire-emblem-fortunes-weave",
+      kv: "assets/kv/fire-emblem-fortunes-weave.jpg",
+      kvSrc: "gurugamer.com",
       company: "Intelligent Systems / Nintendo",
       companyJp: "株式会社インテリジェントシステムズ / 任天堂株式会社",
       bucket: "update",
@@ -3012,6 +3018,8 @@ window.OBSERVATORY = {
 
     {
       id: "eternal-anima",
+      kv: "assets/kv/eternal-anima.jpg",
+      kvSrc: "gamemeca.com",
       company: "Marvelous",
       companyJp: "株式会社マーベラス",
       bucket: "update",
@@ -3064,6 +3072,8 @@ window.OBSERVATORY = {
 
     {
       id: "trails-2nd-chapter",
+      kv: "assets/kv/trails-2nd-chapter.jpg",
+      kvSrc: "gurugamer.com",
       company: "Nihon Falcom",
       companyJp: "日本ファルコム株式会社",
       bucket: "update",
@@ -3750,6 +3760,8 @@ window.OBSERVATORY = {
     },
     {
       id: "ace-combat-8-wings-of-theve",
+      kv: "assets/kv/ace-combat-8-wings-of-theve.jpg",
+      kvSrc: "PlayStation.Blog",
       company: "Bandai Namco Entertainment",
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：バンダイナムコエイセス）",
       bucket: "new",
@@ -4411,6 +4423,8 @@ window.OBSERVATORY = {
 
     {
       id: "stranger-than-heaven",
+      kv: "assets/kv/stranger-than-heaven.jpg",
+      kvSrc: "Steam ストアページ",
       company: "SEGA",
       companyJp: "株式会社セガ（開発：龍が如くスタジオ）",
       bucket: "new",
@@ -4448,6 +4462,8 @@ window.OBSERVATORY = {
 
     {
       id: "akiba-lost",
+      kv: "assets/kv/akiba-lost.jpg",
+      kvSrc: "akibalost.com",
       company: "IzanagiGames",
       companyJp: "株式会社イザナギゲームズ（共同製作：日本テレビ／AX-ON）",
       bucket: "new",
@@ -5252,6 +5268,8 @@ window.OBSERVATORY = {
     },
     {
       id: "toei-games-hino",
+      kv: "assets/kv/toei-games-hino.jpg",
+      kvSrc: "公式サイト",
       company: "TOEI GAMES（東映）／ UnGloomStudio",
       companyJp: "東映株式会社 ゲーム事業ブランド「東映ゲームス」／ UnGloomStudio",
       bucket: "new",
@@ -5367,6 +5385,8 @@ window.OBSERVATORY = {
     },
     {
       id: "toei-games-debug-nephemee",
+      kv: "assets/kv/toei-games-debug-nephemee.jpg",
+      kvSrc: "公式サイト",
       company: "TOEI GAMES（東映）／ Nephemee Studio",
       companyJp: "東映株式会社 ゲーム事業ブランド「東映ゲームス」／ Nephemee Studio",
       bucket: "new",
@@ -5761,6 +5781,8 @@ window.OBSERVATORY = {
     },
     {
       id: "genroh-switch",
+      kv: "assets/kv/genroh-switch.jpg",
+      kvSrc: "news.seasonalanime.com",
       company: "Idea Factory (Otomate)",
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
@@ -7602,6 +7624,8 @@ window.OBSERVATORY = {
     },
     {
       id: "regloss-cross",
+      kv: "assets/kv/regloss-cross.jpg",
+      kvSrc: "Steam ストアページ",
       company: "COVER（holo Indie）",
       companyJp: "カバー株式会社（holo Indie ブランド／運営 CCMC）",
       bucket: "new",
@@ -8002,6 +8026,8 @@ window.OBSERVATORY = {
     },
     {
       id: "stupid-never-dies",
+      kv: "assets/kv/stupid-never-dies.jpg",
+      kvSrc: "gptrack50.com",
       company: "セガ（SEGA）",
       companyJp: "株式会社セガ（開発：株式会社GPTRACK50）",
       bucket: "update",
@@ -8061,6 +8087,8 @@ window.OBSERVATORY = {
     },
     {
       id: "shinjuku-anomaly",
+      kv: "assets/kv/shinjuku-anomaly.jpg",
+      kvSrc: "amata.games",
       company: "AMATA Games（AMATA K.K.）",
       companyJp: "AMATA K.K.（東京都千代田区）",
       bucket: "update",
@@ -8115,6 +8143,8 @@ window.OBSERVATORY = {
     },
     {
       id: "japanese-ramen-simulator",
+      kv: "assets/kv/japanese-ramen-simulator.jpg",
+      kvSrc: "Steam ストアページ",
       company: "Wild Dog",
       companyJp: "Wild Dog Inc.（本社：東京都／代表：Hiroto Nakajo）",
       bucket: "new",
