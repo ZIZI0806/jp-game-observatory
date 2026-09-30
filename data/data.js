@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-09-29
+ * 最后更新: 2026-09-30
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-29T19:10:00+08:00",
-    edition: "2026-09-29",
-    window: "2026-07-29 ~ 2026-09-29（滚动最近 2 个月）",
+    updatedAt: "2026-09-30T14:20:00+08:00",
+    edition: "2026-09-30",
+    window: "2026-07-30 ~ 2026-09-30（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -8230,6 +8230,116 @@ window.OBSERVATORY = {
       },
       tags: ["PC", "シミュレーション", "協力プレイ", "早期アクセス", "インディー"]
     },
+
+    {
+      id: "iconology",
+      company: "Idea Factory (IFChronicle)",
+      companyJp: "アイディアファクトリー株式会社（IFChronicle）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-30（新ブランド「IFChronicle」と第 1 弾タイトルを発表）",
+      capturedAt: "2026-09-30",
+      title: { jp: "ICONOLOGY（イコノロジー）", cn: "ICONOLOGY", en: "ICONOLOGY" },
+      genre: "犯罪サスペンス・アドベンチャー（ビジュアルノベル）",
+      platforms: ["Nintendo Switch", "Nintendo Switch Lite", "PC (Steam)"],
+      release: "未定",
+      releasePrecision: "未定",
+      summary: "《ICONOLOGY》是 Idea Factory 于 2026-09-30 新设立的冒险游戏专门品牌「IFChronicle」的第 1 弹。舞台为近未来东京，警视厅极秘部队「先端技术搜查课」用脑活动可视化装置「White Cube」把嫌疑人的思维抽取成绘画，玩家以美术知识解读这些心象风景画，逼出动机与创伤。剧本由《PSYCHO-PASS》的深见真执笔，角色设计为《Fate/Grand Order》的悌太；多结局结构，读错画或选错选项会走向悬案与残酷坏结局。平台为 Nintendo Switch／Switch Lite／PC（Steam），发售日与价格未定；发售前自 10-14 起在一迅社《comic HOWL》开始漫画连载。",
+      highlight: "【発表 2026-09-30】Idea Factory 新设冒险游戏专门品牌「IFChronicle」，同日公布第 1 弹《ICONOLOGY》：Nintendo Switch／Switch Lite／PC（Steam）向，发售日与价格未定，teaser 站与官方社交账号一并开设。　启用《PSYCHO-PASS》深见真（剧本）与《Fate/Grand Order》悌太（角色设计），并明确英・日・繁・简 4 语言同步 —— 老牌厂商借新品牌直接押注「全球同步」，与该公司过去「日本先行、后追本地化」的路线不同。",
+      console: {
+        status: "発売日未定（開発中）",
+        os: ["Nintendo Switch", "Nintendo Switch Lite", "PC (Steam)"],
+        monetization: "未発表",
+        developer: "アイディアファクトリー株式会社",
+        publisher: "アイディアファクトリー株式会社（IFChronicle）",
+        region: "日本／世界同時（英語・日本語・繁体字・簡体字を同時対応予定）",
+        distribution: "パッケージ／ダウンロード（Nintendo Switch、Steam）",
+        stores: ["Nintendo Switch", "Steam"],
+        features: [
+          "脳活動可視化装置「White Cube」が出力する「心象風景画」を、美術の知識で読み解いて真相に迫る捜査パート",
+          "被疑者は自分の思考を偽れないという設定のもと、絵から動機とトラウマを解読して「半落ち」の自供と物証を引き出す",
+          "読み違いや選択ミスで未解決事件・残酷なバッドエンドに分岐するマルチエンディング構成",
+          "先端技術捜査課の刑事たちとの交流と選択が、物語の結末と関係性を変える",
+          "発売に先立ち、一迅社『comic HOWL』で 2026-10-14 からコミカライズ連載（作画：紗与イチ）が開始"
+        ],
+        synopsis: "近未来の東京。複雑化・凶悪化する犯罪に対抗するため、警視庁は極秘の「先端技術捜査課」を設け、被疑者の脳内イメージを絵画として抽出する装置「White Cube」を配備した。抽出された心象風景画を読み解ける人材は限られ、美大生の椿屋春歩がその才能を見出されて特別捜査官に招かれる。10 年前に両親を惨殺された未解決事件の呪縛を抱えながら、彼女は刑事たちと組み、被疑者の脳内という第二の現場で捜査を進める。",
+        ipSource: "オリジナル IP（アイディアファクトリー／IFChronicle の自社企画）",
+        series: "アイディアファクトリーが 2026-09-30 に設立したアドベンチャー専門ブランド「IFChronicle」の第 1 弾。同社は『ネプテューヌ』シリーズや女性向けブランド「オトメイト」で知られるが、IFChronicle は日本発のサスペンス／ミステリー ADV を世界市場へ出すことを目的に据えた新レーベル",
+        cast: "公式発表なし（主要キャストは未発表。シナリオ＝深見真、キャラクターデザイン＝悌太 は発表済み）"
+      },
+      news: [
+        { source: "GoNintendo（IFChronicle 設立と第 1 弾の発表・公式説明）", url: "https://gonintendo.com/contents/65544-crime-suspense-adventure-game-iconology-announced-for-switch" },
+        { source: "TheDailyGame（発表内容と 4 言語同時展開の位置づけ）", url: "https://thedailygame.news/story/2026-09-30-idea-factory-announces-iconology-a-crime-suspense-visual-novel-from-psyc--35eb2edf" }
+      ],
+      videos: [
+        { label: "発表トレーラー（GoNintendo 記事内に埋め込み）", platform: "GoNintendo", url: "https://gonintendo.com/contents/65544-crime-suspense-adventure-game-iconology-announced-for-switch" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "『PSYCHO-PASS』の深見真、『Fate/Grand Order』の悌太という知名度の高いスタッフ 2 名を新ブランドの初手に据えた発表",
+          "英・日・繁体字・簡体字の 4 言語同時対応を当初から明言し、英語圏メディアの報道が同日に広がった",
+          "女性向けブランド「オトメイト」とは別レーベルで、同社が新規層を狙うサスペンス専門ブランドの第 1 弾"
+        ]
+      },
+      tags: ["新作", "主机・PC", "ビジュアルノベル", "サスペンス", "アイディアファクトリー", "IFChronicle"]
+    },
+
+    {
+      id: "digging-a-hole-together",
+      company: "松竹ゲームズ（松竹株式会社 ゲーム事業室）",
+      companyJp: "松竹株式会社 ゲーム事業室（松竹ゲームズ）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-29（松竹ゲームズと rokaplay が続編を発表）",
+      capturedAt: "2026-09-30",
+      title: { jp: "A Game About Digging A Hole Together", cn: "A Game About Digging A Hole Together", en: "A Game About Digging A Hole Together" },
+      genre: "掘削シミュレーション＋オンライン協力プレイ",
+      platforms: ["PC (Steam / Epic Games Store / Xbox on PC)", "PlayStation 5", "Xbox Series X|S", "Nintendo Switch 2"],
+      release: "2026 年後半（発売予定、日付未定）",
+      releasePrecision: "年",
+      summary: "《A Game About Digging A Hole Together》是 2025-02 发售、全球销量突破 100 万套的挖掘游戏《A Game About Digging A Hole》的续作，由松竹游戏事业室（松竹ゲームズ）与德国 rokaplay 于 2026-09-29 共同发表。支持最多 4 人线上协力与跨平台联机，舞台从自家庭院搬到常夏海滩，地形与工具系统重做。开发由前作作者与奥地利维也纳的 Mipumi Games 共同担任。平台为 PC（Steam／Epic Games Store／Xbox on PC）・PS5・Xbox Series X|S・Nintendo Switch 2，预定 2026 年后半发售，价格未定。",
+      highlight: "【発表 2026-09-29】松竹ゲームズ 与 rokaplay 共同发表挖掘游戏续作，支持最多 4 人线上协力与跨平台联机，预定 2026 年后半发售（日期与价格未定）。　前作《A Game About Digging A Hole》2025-02 上市、全球销量突破 100 万套，Steam 约 1.9 万条评测中 89% 好评。把玩家呼声最高的联机做成续作主轴，并由松竹以「与当地发行商共同发行」的方式承接海外 IP —— 与其 TGS 阵容中代理海外独立游戏的路线一致。",
+      console: {
+        status: "2026 年後半 発売予定（日付未定・開発中）",
+        os: ["PC (Windows)", "PlayStation 5", "Xbox Series X|S", "Nintendo Switch 2"],
+        monetization: "未発表（価格は未定）",
+        developer: "Mipumi Games（オーストリア・ウィーン）／ 前作の作者",
+        publisher: "松竹ゲームズ（松竹株式会社 ゲーム事業室）／ rokaplay（ドイツ・ダルムシュタット）",
+        region: "日本／北米／欧州（発表時点で地域限定の記述はなし）",
+        distribution: "ダウンロード（Steam / Epic Games Store / Xbox on PC / PlayStation Store / Microsoft Store / Nintendo eShop）。パッケージ展開は未発表",
+        stores: ["Steam", "Epic Games Store", "PlayStation Store", "Microsoft Store", "Nintendo eShop"],
+        features: [
+          "最大 4 人のオンライン協力プレイとクロスプレイに対応し、1 つの穴を一緒に掘り下げる",
+          "舞台を前作の自宅の庭から常夏のビーチへ移し、地形・道具・ショップのシステムを一から再構築",
+          "掘る→売る→装備を強化する→さらに深く掘る、という前作のコアループを維持",
+          "水風船やパイナップル型の爆弾など、夏を意識した新ツールを追加",
+          "所持金・積載量・道具の状態を示すゲージなど、探索の手触りを伝える UI を刷新"
+        ],
+        synopsis: "前作『A Game About Digging A Hole』は、買い取った家の庭に埋まった宝を求めて掘り進み、掘り出した鉱石や宝物を売って装備とバックパックを強化する掘削シミュレーション。続編はそのコアループを保ったまま、常夏のビーチを新舞台に据え、最大 4 人のオンライン協力に対応した。プレイヤーは同じ穴を協力して掘り下げ、層ごとに変化する地形と新しい道具を使って地下深くを目指す。",
+        ipSource: "オリジナル IP。前作は Cyberwave（現 DoubleBee）が開発し、本作は前作の作者と Mipumi Games が共同で開発する",
+        series: "シリーズ 2 作目。前作は 2025-02-07 に Steam で発売され、世界販売 100 万本超（報道により 120 万本超の数字もあり）、Steam レビュー約 1 万 9 千件で 89% が好評。松竹ゲームズにとっては海外インディーの続編を現地パブリッシャーと共同で出す事例",
+        cast: "公式発表なし（固有のキャラクター設定は発表されていない）"
+      },
+      news: [
+        { source: "Quest Board.JP（発表内容・開発／発行体制の詳細）", url: "https://quest-board.jp/en/quests/a-game-about-digging-a-hole-together" },
+        { source: "Polygon（発表と最大 4 人協力・トレーラー）", url: "https://www.polygon.com/a-game-about-digging-a-hole-with-friends-sequel-announcement-trailer" }
+      ],
+      videos: [
+        { label: "発表トレーラー（Polygon 記事内に埋め込み）", platform: "Polygon", url: "https://www.polygon.com/a-game-about-digging-a-hole-with-friends-sequel-announcement-trailer" },
+        { label: "公式リビールトレーラー（IGN 掲載）", platform: "IGN", url: "https://www.ign.com/videos/a-game-about-digging-a-hole-together-official-reveal-trailer" }
+      ],
+      hype: {
+        score: 46,
+        signals: [
+          "前作が世界販売 100 万本超・Steam 89% 好評のヒット作で、続編発表そのものに既定の関心がある",
+          "シリーズ最大の要望だったマルチプレイ対応を、発表時に明確な改善点として提示した",
+          "Polygon・4Gamer.net・GAME Watch などが同日に報道し、英語圏を中心にカバレッジが広い",
+          "Famitsu 読者期待榜への登場や国内向けの大型展開はまだ確認されていない"
+        ]
+      },
+      tags: ["新作", "主机・PC", "協力プレイ", "シミュレーション", "松竹ゲームズ", "海外開発"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -8238,7 +8348,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-29",
+    asOf: "2026-09-30",
     listTotal: 50,
     categories: [
       {
@@ -8267,7 +8377,7 @@ window.OBSERVATORY = {
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa", "gobble"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。社内提案制度「Project Pitch Fest」から生まれた横スクロールアクション『GOBBLE（ガブル）』を 2026-09-24 に発売した" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "covered", gameIds: ["danganronpa-2x2"] },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
-          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball","hakuoki-shinkai-kiwame","kimi-wa-yukima-koimusubi","shinso-no-doppelt","velvet-candy-tint-kiss","genroh-switch"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中（9/13 の Otomate Party 2026 で『薄桜鬼 真改 極』『深窓のドッペルト』『VELVET CANDY TINT KISS』『君は雪間に希う -恋結び-』『源狼 GENROH』の 5 作を追加発表し、本台も同日付で 5 件を建卡）" },
+          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball","hakuoki-shinkai-kiwame","kimi-wa-yukima-koimusubi","shinso-no-doppelt","velvet-candy-tint-kiss","genroh-switch","iconology"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中（9/13 の Otomate Party 2026 で『薄桜鬼 真改 極』『深窓のドッペルト』『VELVET CANDY TINT KISS』『君は雪間に希う -恋結び-』『源狼 GENROH』の 5 作を追加発表し、本台も同日付で 5 件を建卡）。9/30 にはアドベンチャー専門の新ブランド「IFChronicle」を設立し、第 1 弾『ICONOLOGY』を同日付で建卡した" },
           { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
           { name: "プラチナゲームズ株式会社", short: "PlatinumGames", status: "watch" },
           { name: "株式会社SNK", short: "SNK", status: "watch" },
@@ -8324,7 +8434,7 @@ window.OBSERVATORY = {
       label: "指定清单外 · 补充监测",
       note: "以下厂商不在指定清单内，但本期已有实际新作动态，或为新手游发行方，故纳入监测。",
       items: [
-        { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026"] },
+        { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026", "digging-a-hole-together"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
           { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
@@ -8430,6 +8540,18 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-09-30 14:20",
+        scene: "定時巡検（午前の部・繰り下げ実行）",
+        items: [
+          "日方主導の新規スマホタイトルの発表は確認できず、手游区の新規登録はゼロ。新規は主机・PC 2 件 —— アイディアファクトリーの新ブランド「IFChronicle」第 1 弾『ICONOLOGY』（9-30 発表）と、松竹ゲームズと rokaplay が共同発表した『A Game About Digging A Hole Together』（9-29 発表）。",
+          "条目総数は 146 → **148**（手游区 32／主机・PC 区 124 → 126）。厂商清单 4 分類 8／16／16／10＝50 は不変。",
+          "漏収核查（アニメ IP 個別検索）: 『メイドインアビス』初のスマホゲーム（avex pictures／Nobollel）を確認したが、9-11 に配信日変更（延期・新日付未定）の告知が出ており、初公開が窓口外のため独立条目化は保留（ユーザー裁定待ち）。",
+          "漏収核查で保留: 松竹ゲームズの『夢幻桜楼閣』（電猫遊戯開発）が 9-30 に発売日 2026-11-05 と Switch 版を発表。初公開が窓口外のため独立条目化は保留し、既存の shochiku-tgs-2026 条目内の記載に留めた。",
+          "中資・香港資本が開発または発行に関与する案件は検索で確認したが、社名・作品名を記載せず不収録（既定の赤線運用）。日本側が発表・開発・発行のいずれにも関与しない海外開発タイトル（Sturmjager 等）も不収録。",
+          "Famitsu 期待榜は 9/2〜9/8 計測分から新期なしで据え置き（asOf 2026-09-21 を維持）。TGS2026 は展後記録として凍結を継続。"
+        ]
+      },
+      {
         at: "2026-09-29 19:10",
         scene: "定時巡検（夕方の部）",
         items: [
@@ -8439,17 +8561,6 @@ window.OBSERVATORY = {
           "見送り（在営作品の内容更新）: 『テニスの王子様』の恋愛 ADV 2 作（7-30 発売）に 9-28 付で第 1 弾有償 DLC の配信日が決定。既発売タイトルの追加コンテンツのため不収録。",
           "中資・香港資本が開発または発行に関与する案件を検索で確認したが、いずれも社名・作品名を記載せず不収録（既定の赤線運用）。JP-IP 授権案件の待裁定は 9-29 午前の判定を維持。",
           "Famitsu 期待榜は 9/2〜9/8 計測分から新期なしで据え置き。TGS2026 は展後記録として凍結を継続。"
-        ]
-      },
-      {
-        at: "2026-09-29 11:50",
-        scene: "定時巡検",
-        items: [
-          "日方主導の新規スマホタイトルの発表はなく、手游区の新規登録はゼロ。",
-          "漏収補収として主机・PC 3 件を収録 —— SEGA 共同パブリッシングの『Stupid Never Dies』（GPTRACK50、10-21 発売予定）、AMATA K.K. の短編ホラー『新宿異変』（9-30 配信決定）、Wild Dog の『Japanese Ramen Simulator』（9-28 早期アクセス開始）。",
-          "『ACE COMBAT 8: Wings of Theve』は地域別の発売スケジュールが公開され、デラックスエディションの先行アクセスが開始。海外レビューは Metacritic 87。",
-          "条目総数は 143 → **146**（手游区 32／主机・PC 区 124）。厂商清单 4 分类 8／16／16／10＝50 は不変。",
-          "Famitsu 期待榜は 9/2〜9/8 計測分から動きがなく据え置き。TGS2026 は展後記録として凍結を継続。"
         ]
       },
     ]
