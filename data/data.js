@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-30T14:20:00+08:00",
+    updatedAt: "2026-09-30T19:10:00+08:00",
     edition: "2026-09-30",
     window: "2026-07-30 ~ 2026-09-30（滚动最近 2 个月）",
     sources: [
@@ -8340,6 +8340,125 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "主机・PC", "協力プレイ", "シミュレーション", "松竹ゲームズ", "海外開発"]
     },
+    {
+      id: "isekai-rondo-otogi",
+      company: "KEMCO",
+      companyJp: "株式会社コトブキソリューション（開発：株式会社エクスクリエイト）",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-09-30（Google Play で事前登録、App Store で予約受付を開始）",
+      capturedAt: "2026-09-30",
+      title: { jp: "異世界輪舞 御伽 ～最弱ステで転生させられたけど、神も妖怪も祓い奉ります！～", cn: "异世界轮舞 御伽 ～虽被转生为最弱属性，神与妖怪皆由我祓除！～", en: "Isekai Rondo Otogi" },
+      genre: "ターン制 RPG（異世界ファンタジー）",
+      platforms: ["iOS", "Android", "Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "Xbox One", "PC (Steam)"],
+      release: "未定（発売日・配信日未発表）",
+      releasePrecision: "未定",
+      summary: "KEMCO（コトブキソリューション）与开发方 EXE-CREATE 的 RPG 新作，2026-09-30 在 Google Play 开启事前登录、App Store 开启预约。主角ショウ被从ファクルタス抛到保留日本古风的异世界「ナカツノクニ」，与同伴失散、属性与被动技能几乎清零，还被诬陷后流放孤岛；遇见巫女ヨミ后走上「大阴阳师」之路。玩法以收集大量被动技能堆出压倒性强度，探索多层的「黄泉ダンジョン」，并在锻冶屋强化武具、靠农田提升能力。桃太郎、竹取物语等日本民间传说人物会登场。除 iOS／Android 外，同步公布 Nintendo Switch 2／Switch、PlayStation 5／4、Xbox、PC（Steam）版；发售日与收费形态尚未发表。",
+      highlight: "【2026-09-30 事前登録開始】KEMCO が Google Play での事前登録と App Store での予約受付を開始した。前作『異世界輪舞』のショウを主人公に据え、日本古来の神話・妖怪を題材にしたターン制 RPG の続編。　iOS／Android に加えて Nintendo Switch 2／Nintendo Switch・PlayStation 5／4・Xbox・Steam まで同時展開する完全マルチプラットフォーム構成で、KEMCO の RPG ラインでは展開規模が大きい。発売日・価格・事前登録特典はいずれも未発表で、店舗側の受付だけが先行して始まった形。",
+      news: [
+        { source: "Games Press（KEMCO 公式プレスリリース・2026-09-30）", url: "https://www.gamespress.com/en-GB/RPG-Isekai-Rondo-Otogi-for-AndroidiOS-Isekai-Rondo-Otogi-is-now-availa" },
+        { source: "KEMCO 公式サイト（作品ページ・日本語版）", url: "https://www.kemco.jp/game/isekai_otogi/ja/" },
+        { source: "KEMCO 公式 お知らせ（2026 年 9 月・各種ストアのウィッシュリスト受付開始）", url: "https://www.kemco.jp/news/" }
+      ],
+      videos: [
+        { label: "KEMCO 公式 PV（公式サイト掲載）", platform: "YouTube", url: "https://www.youtube.com/watch?v=oy8hyTOp0ow" },
+        { label: "公式サイト（PV・あらすじ・スクリーンショット）", platform: "官方站", url: "https://www.kemco.jp/game/isekai_otogi/ja/" }
+      ],
+      hype: {
+        score: 41,
+        signals: [
+          "KEMCO と EXE-CREATE の RPG ラインはスマートフォン向けを年間複数本供給する国内定番だが、事前登録者数や Famitsu 期待榜への登場はなく国内の話題量は限定的",
+          "iOS・Android に加えて Nintendo Switch 2／Switch・PlayStation 5／4・Xbox・Steam まで同時展開する発表形態で、同社の RPG としては異例に展開規模が大きい",
+          "公式 PV と公式サイトを公開し、日本古来の神話・妖怪を題材にした点は英語圏のプレスリリースでも前面に出された",
+          "発売日・価格・事前登録特典がいずれも未発表で、期待度を測る国内指標が現時点では乏しい"
+        ]
+      },
+      tags: ["新作", "跨平台", "手游", "RPG", "KEMCO"],
+      mobile: {
+        status: "事前登録受付中（発売日未発表）",
+        os: ["iOS", "Android"],
+        monetization: "未発表（KEMCO のスマートフォン向け RPG は買い切りが主流。ESRB の表記は In-Game Purchases／ランダムアイテムあり）",
+        preReg: { open: true, since: "2026-09-30（Google Play で事前登録、App Store で予約受付を開始）", reward: "公式発表なし" },
+        developer: "株式会社エクスクリエイト（EXE-CREATE）",
+        publisher: "KEMCO（株式会社コトブキソリューション）",
+        region: "日本／海外（KEMCO は日本語版と英語版を並行展開）",
+        distribution: "App Store / Google Play（日本・海外）。家庭用は Nintendo Switch 2／Nintendo Switch・PlayStation 5／PlayStation 4・Xbox・PC（Steam）",
+        payment: [],
+        ipSource: "オリジナル IP（前作『異世界輪舞』の世界観を継ぐ KEMCO・EXE-CREATE の完全新作）",
+        series: "KEMCO と EXE-CREATE が手がける RPG ライン（『アスディバインサーガ』『アルファディア』など）に連なる一作。前作『異世界輪舞』の主人公ショウが再び主人公を務める続編的位置づけ",
+        features: [
+          "最弱ステータスにリセットされた主人公ショウが、膨大な数の「パッシブスキル」を習得して無双する育成システム",
+          "多層構造の「黄泉ダンジョン」を攻略し、鍛冶屋で武具を強化、畑で能力を伸ばす異世界生活パート",
+          "桃太郎や竹取物語など日本の昔話の登場人物が暮らす異世界ナカツノクニを舞台にしたターン制バトル",
+          "母国ファクルタスとナカツノクニ、二つの世界の危機を描くオリジナルストーリー",
+          "iOS・Android から Nintendo Switch 2／Switch・PlayStation 5／4・Xbox・Steam まで同一内容で展開するマルチプラットフォーム構成"
+        ],
+        synopsis: "現代日本を思わせるファンタジー世界ファクルタスから、古き日本の面影を残す異世界ナカツノクニへ飛ばされた主人公ショウ。仲間とはぐれ、ステータスとパッシブスキルのほとんどを失ったうえ、濡れ衣を着せられて孤島へ流されてしまう。そこへ現れた巫女ヨミとの出会いをきっかけに、神も妖怪も跋扈するナカツノクニを救う大陰陽師への道が開かれていく。",
+        cast: "公式発表なし"
+      }
+    },
+    {
+      id: "brigandine-abyss",
+      company: "Happinet",
+      companyJp: "株式会社ハピネット（開発：株式会社アドグローブ）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-08-26（PC（Steam）発売、翌 08-27 に家庭用機向け発売）",
+      capturedAt: "2026-09-30",
+      title: { jp: "ブリガンダイン アビス", cn: "圣骑士之战 深渊", en: "BRIGANDINE ABYSS" },
+      genre: "ファンタジーウォーシミュレーション（ヘックス制 SRPG）",
+      platforms: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
+      release: "2026-08-26（PC（Steam）発売済み）／2026-08-27（Nintendo Switch 2・PlayStation 5・Xbox Series X|S 発売済み）",
+      releasePrecision: "日",
+      summary: "《Brigandine（圣骑士之战）》系列第 4 作，由日本 Adglobe 开发、Happinet 在日本发行、NIS America 负责海外发行。2026-08-26 在 PC（Steam）上线，08-27 登陆 Nintendo Switch 2／PlayStation 5／Xbox Series X|S，支持日语语音与简繁中文等 6 种语言。舞台为大陆 Meltitea：老牌强国 Solginat 的宰相发动政变、建立「新生 Abyssloa 帝国」，玩家从 6 个国家中择一出战。除 6 条剧情线的 Story Mode，另有可从 24 国中任选、胜利条件各异的 Mission Mode。战斗为六角格回合制，用 Command Points 编成带队武将与怪物，并靠高低差与 Rally 指令改变战局。制作人齋藤勝、导演山本真、角色设计河野純子／ニジハヤシ、音乐近藤嶺。",
+      highlight: "【2026-08-27 発売】ハピネットが国内発売を担う『ブリガンダイン』シリーズ第 4 作（開発：株式会社アドグローブ）が、PC（Steam）8-26／家庭用機 8-27 に世界同時発売された。　前作『ブリガンダイン ルーナジア戦記』（2020）から 6 年ぶりの新作で、6 カ国のストーリーモードと 24 カ国のミッションモード、ヘックスの戦術バトル、リーダー撃破で部隊ごと消滅するパーマデス仕様を備える。海外発売は NIS America が担当し、日本語音声を含む 6 言語に対応。",
+      news: [
+        { source: "Enduins（世界同時発売とゲーム内容）", url: "https://www.enduins.com/?p=67332" },
+        { source: "ハピネット 公式プレスリリース（世界同時発売決定・2026-02-13）", url: "https://www.happinet-games.com/release/260213/happinet0213.pdf" },
+        { source: "ハピネット 公式プレスリリース（Steam 体験版配信開始）", url: "https://happinet-games.com/release/260525/happinet0525.pdf" },
+        { source: "公式サイト（ブリガンダイン アビス）", url: "https://brigandine-abyss.happinet-games.com/" }
+      ],
+      videos: [
+        { label: "公式トレーラー（ハピネット発表資料掲載）", platform: "YouTube", url: "https://youtu.be/dD_vigYaaoA" },
+        { label: "Steam ストアページ（トレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/3211430/BRIGANDINE_ABYSS/" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "1998 年の初代から続く国内定番 SRPG シリーズの 6 年ぶり新作で、発表時からシリーズファンの待望論があった",
+          "河野純子（幻想水滸伝）・近藤嶺（大神／ファイアーエムブレム 風花雪月）・堀川将之（ファイアーエムブレム 蒼炎の軌跡）ら国内有名スタッフの参加が話題になった",
+          "PCGamingWiki 掲載の批評スコアは Metacritic 70／OpenCritic 72（PC 版）と中位に落ち着き、発売 2 週間で開発元がフィードバック対応を表明している",
+          "Famitsu の国内週販ランキング上位には入っておらず、国内での話題量は限定的"
+        ]
+      },
+      tags: ["新作", "主机", "PC", "SRPG", "買い切り", "海外同時発売"],
+      console: {
+        status: "2026-08-27 発売済み（Nintendo Switch 2・PlayStation 5・Xbox Series X|S。PC（Steam）は 08-26 発売済み）",
+        os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC（Steam）"],
+        monetization: "買い切り（地域価格制）。Steam では通常版と Deluxe Edition バンドルが販売されており、ストーリー DLC の予定は発表されていない",
+        developer: "株式会社アドグローブ（Adglobe Inc.）",
+        publisher: "株式会社ハピネット（日本）／NIS America, Inc.（海外）",
+        region: "日本／北米／欧州ほか世界同時（日本語・英語・フランス語・ドイツ語・簡体中文・繁体中文の 6 言語、日本語はフルボイス）",
+        distribution: "パッケージ版・ダウンロード版（Nintendo Switch 2・PlayStation 5・Xbox Series X|S はダウンロード版が中心、Xbox はデジタルのみ）",
+        stores: ["Steam", "PlayStation Store", "Nintendo eShop", "Microsoft Store"],
+        preOrder: {
+          open: false,
+          since: "2026-08-26／08-27 に発売済みのため予約受付は終了",
+          reward: "予約特典は公式発表なし。Steam の Deluxe Edition バンドルに追加コンテンツを同梱"
+        },
+        features: [
+          "6 つの国からひとつを選んで戦う Story Mode と、24 カ国から自由に選べる Mission Mode の 2 本立て",
+          "最大 3 部隊のリーダーと、Command Points の範囲で従えるモンスターによるパーティ編成",
+          "Organization Phase で拠点開発・兵士雇用・強化を行い、Attack Phase で隣国へ侵攻する 2 段階ターン制",
+          "ヘックス（六角形）マップ上のターン制戦闘。フィールドの高低差と Rally コマンドが戦術の幅を広げる",
+          "リーダーが倒れると部隊ごと消滅し、モンスターも失われるパーマデス仕様（トークンによる復活は可能）"
+        ],
+        synopsis: "かつて『ブリガンダイン』の魔法鎧がアビスローア帝国の野望を打ち砕いてから 200 年。大陸最大の強国ソルジュナート王国で宰相ケイオスルスが謀反を起こし、「新生アビスローア帝国」が建国される。プレイヤーは大陸内 6 勢力のいずれかの指導者となり、モンスターを従えて新帝国の侵攻に立ち向かう。",
+        ipSource: "『ブリガンダイン』シリーズ（ハピネット）。1998 年の初代『ブリガンダイン レジェンド オブ フォーセナ』から続くシリーズの第 4 作にあたる",
+        series: "前作『ブリガンダイン ルーナジア戦記』（2020）の流れをくむシリーズ最新作。プロデューサー 齋藤勝、ディレクター 山本真、シナリオ 松野出、キャラクターデザイン 河野純子／ニジハヤシ、音楽 近藤嶺",
+        cast: "公式発表なし"
+      }
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -8469,7 +8588,9 @@ window.OBSERVATORY = {
         { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した" },
         { name: "株式会社アプリボット", short: "Applibot", status: "watch", gameIds: [], focus: true, note: "『ちいかわ』初のスマホアプリを企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。同作は 2025-03-27 配信開始済みの在営タイトルのため、本台は内容更新を収録対象外としている" },
         { name: "株式会社ライドオンジャパン", short: "Rideon Japan", status: "covered", gameIds: ["mercenaries-grace"], note: "タクティカル RPG『Mercenaries Saga』シリーズを自社で企画・開発・配信する日本のスタジオ。2026-09-25 にシリーズ第 8 作『Mercenaries Grace: Black Feather and the Golden Right Arm』（PlayStation 5／Nintendo Switch／PC（Steam）、日本では 2026 年 11 月にデジタル配信予定）を発表したため補充監視に追加" },
-        { name: "株式会社ビサイド", short: "BeXide", status: "covered", gameIds: ["namco-legendary-mountains"], note: "日本のゲーム開発・パブリッシャー。バンダイナムコエンターテインメントからナムコ アーケード作品の IP ライセンスを受け、3D パズル『NAMCO LEGENDARY Mountains』を自社で開発・販売。2026-06-25 に Nintendo Switch／Nintendo Switch 2／Steam 版、2026-09-24 に iOS／Android 版を買い切りで配信した" }
+        { name: "株式会社ビサイド", short: "BeXide", status: "covered", gameIds: ["namco-legendary-mountains"], note: "日本のゲーム開発・パブリッシャー。バンダイナムコエンターテインメントからナムコ アーケード作品の IP ライセンスを受け、3D パズル『NAMCO LEGENDARY Mountains』を自社で開発・販売。2026-06-25 に Nintendo Switch／Nintendo Switch 2／Steam 版、2026-09-24 に iOS／Android 版を買い切りで配信した" },
+        { name: "株式会社コトブキソリューション（KEMCO）", short: "KEMCO", status: "covered", gameIds: ["isekai-rondo-otogi"], note: "大阪市に本社を置く老舗パブリッシャー。開発はエクスクリエイト（EXE-CREATE）が担い、スマートフォン向け RPG を継続的に供給してきた。2026-09-30 に新作 RPG『異世界輪舞 御伽』の事前登録（Google Play）／予約受付（App Store）を開始し、iOS・Android に加えて Nintendo Switch 2／Switch・PlayStation 5／4・Xbox・Steam まで同時展開するマルチプラットフォーム作として発表したため補充監視に追加" },
+        { name: "株式会社ハピネット", short: "Happinet", status: "covered", gameIds: ["brigandine-abyss"], note: "玩具・映像・ゲームの流通と自社パブリッシングを手がける東証プライム上場企業（東京都台東区、証券コード 7552）。『ブリガンダイン』シリーズの国内発売元で、最新作『ブリガンダイン アビス』（開発：株式会社アドグローブ）を PC（Steam）2026-08-26／家庭用機 2026-08-27 に世界同時発売した。海外発売は NIS America が担当" }
       ]
     }
   },
@@ -8540,6 +8661,18 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-09-30 19:10",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "日方主導の新規スマホタイトルは 1 件 —— KEMCO がスマートフォン向け RPG『異世界輪舞 御伽 ～最弱ステで転生させられたけど、神も妖怪も祓い奉ります！～』の事前登録（Google Play）と予約受付（App Store）を 9-30 に開始した。前作『異世界輪舞』の主人公ショウを据えた続編で、iOS・Android に加えて Switch 2／Switch・PlayStation 5／4・Xbox・Steam まで同時展開するマルチプラットフォーム作。",
+          "条目総数は 148 → **150**（手游区 32 → 33／主机・PC 区 126 → 128）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 36 → **38 社**（KEMCO・ハピネットを追加）。",
+          "漏収補収（主机・PC）: ハピネット×アドグローブ『ブリガンダイン アビス』が PC（Steam）8-26／家庭用機 8-27 に世界同時発売済みだったことを確認し、条目化した（シリーズ第 4 作、6 カ国のストーリーモード＋24 カ国のミッションモード、ヘックス制 SRPG）。",
+          "漏収核查（アニメ IP 個別検索）: ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマンを確認。スマホ側の新規は上記 KEMCO 1 件のみで、他は在営タイトルの内容更新（『Pokémon TCG Pocket』の新拡張パック等）または初公開が窓口外であることを理由に不収録とした。",
+          "BLEACH Mirrors High の事前登録 40 万件突破（バンダイナムコ発表）は報道日を特定できず、日付を推測で埋めないため今回は条目更新を見送った。次場で一次ソースの日付を確認できれば回填する。",
+          "見送り（既定の赤線運用）: 日本 IP のライセンスを受けた海外資本開発のスマホ新作や大手 IP のモバイル版など、海外資本が開発・運営に関与する案件を検索で確認したが、社名・作品名とも記載せず不収録とした。Famitsu 期待榜は新期なしで据え置き（asOf 2026-09-21 を維持）、TGS2026 は展後記録として凍結を継続。"
+        ]
+      },
+      {
         at: "2026-09-30 14:20",
         scene: "定時巡検（午前の部・繰り下げ実行）",
         items: [
@@ -8549,18 +8682,6 @@ window.OBSERVATORY = {
           "漏収核查で保留: 松竹ゲームズの『夢幻桜楼閣』（電猫遊戯開発）が 9-30 に発売日 2026-11-05 と Switch 版を発表。初公開が窓口外のため独立条目化は保留し、既存の shochiku-tgs-2026 条目内の記載に留めた。",
           "中資・香港資本が開発または発行に関与する案件は検索で確認したが、社名・作品名を記載せず不収録（既定の赤線運用）。日本側が発表・開発・発行のいずれにも関与しない海外開発タイトル（Sturmjager 等）も不収録。",
           "Famitsu 期待榜は 9/2〜9/8 計測分から新期なしで据え置き（asOf 2026-09-21 を維持）。TGS2026 は展後記録として凍結を継続。"
-        ]
-      },
-      {
-        at: "2026-09-29 19:10",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "日方主導の新規スマホタイトルの発表はなく、条目の新規登録・更新ともにゼロ。条目総数は **146** のまま（手游区 32／主机・PC 区 124）。",
-          "窓口内（9-28 夜〜9-29）を 14 組の検索で確認。9-29 は『ACE COMBAT 8: Wings of Theve』のデラックス版先行アクセス開始や海外勢の発売日（『Minecraft Dungeons II』『The Witcher 3: Wild Hunt Remastered』等）が中心で、日方の新規発表は確認できず。",
-          "見送り（在営作品の内容更新）: 『hololive Dreams』が 9-29 11:00 に初の大型アップデート（第 3 エリア「ソーダポップ・ラグーン」＋新ミニゲーム）を実施。本体が窓口左端（7-29）より前の配信のため不収録。",
-          "見送り（在営作品の内容更新）: 『テニスの王子様』の恋愛 ADV 2 作（7-30 発売）に 9-28 付で第 1 弾有償 DLC の配信日が決定。既発売タイトルの追加コンテンツのため不収録。",
-          "中資・香港資本が開発または発行に関与する案件を検索で確認したが、いずれも社名・作品名を記載せず不収録（既定の赤線運用）。JP-IP 授権案件の待裁定は 9-29 午前の判定を維持。",
-          "Famitsu 期待榜は 9/2〜9/8 計測分から新期なしで据え置き。TGS2026 は展後記録として凍結を継続。"
         ]
       },
     ]
