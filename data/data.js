@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-09-30T19:10:00+08:00",
-    edition: "2026-09-30",
-    window: "2026-07-30 ~ 2026-09-30（滚动最近 2 个月）",
+    updatedAt: "2026-10-08T19:10:00+08:00",
+    edition: "2026-10-08",
+    window: "2026-08-08 ~ 2026-10-08（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -4398,27 +4398,27 @@ window.OBSERVATORY = {
       companyJp: "株式会社KADOKAWA",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-09-20（TGS2026 DMM GAMES ブースの特別ステージで主題歌を発表）",
-      capturedAt: "2026-09-20",
+      announceDate: "2026-10-05（KADOKAWA 公式 X で発売時期を 2026 年内から 2027 年 2 月へ変更と発表）",
+      capturedAt: "2026-10-08",
       title: { jp: "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～", cn: "为美好的世界献上祝福！～为这可爱的城镇献上繁荣！～", en: "KonoSuba: God's Blessing on This Wonderful World! - Prosperity to This Beloved City!" },
       genre: "異世界トラブル生活 RPG（3D バトル＋生活パート、基本無料＋アイテム課金）",
       platforms: ["iOS", "Android", "PC"],
-      release: "2026年内（日本先行、海外配信は未発表）",
-      releasePrecision: "年",
+      release: "2027年2月（日本先行、海外配信は未発表。発売日は未発表）",
+      releasePrecision: "月",
       summary: "角川（KADOKAWA）以《为美好的世界献上祝福！》为原作推出的官方新作，简称「まちすば」，定位为「异世界麻烦生活 RPG」。舞台设在阿克塞尔，玩法由 3D 演出的战斗与日常／城镇生活两部分组成，战斗中用 3D 动画还原惠惠的爆裂魔法等角色标志性技能；剧情为完全原创，而非复刻动画或小说既有篇章。原作轻小说作者晓夏目亲自担任剧情监修，原作插画师三嶋黑音参与制作协力。手机版由角川自行发行，PC 版另定由 DMM GAMES 配信。",
-      highlight: "【TGS2026 9/20】DMM GAMES ブース 15:00 の特別ステージで、主題歌が Machico の新曲「WOOHOO!」に決定（カズマ役 福島潤＋KADOKAWA プロデューサー 藤井大樹 が登壇、MC は百華繚乱。アーカイブ公開中）。　IP 持有方角川首次亲自下场做手游：原作作者监修剧情、原班声优回归，接替 2025 年初停服的《このすば Fantastic Days》。",
+      highlight: "【2026-10-05 発売延期】KADOKAWA が公式 X で、発売時期を「2026 年内」から 2027 年 2 月へ変更すると発表した（日付は未公表。開発・調整のための期間確保が理由で、事前登録と対応機種は変更なし）。　IP 持有方角川首次亲自下场做手游：原作作者监修剧情、原班声优回归，接替 2025 年初停服的《このすば Fantastic Days》。",
       mobile: {
-        status: "事前登録受付中",
+        status: "事前登録受付中（発売時期は 2027 年 2 月へ変更）",
         os: ["iOS", "Android"],
         monetization: "基本無料（アイテム課金あり）",
-        preReg: { open: true, since: "2026-07-26", reward: "日本国内の App Store / Google Play で事前登録を受付中。ティザー PV とキービジュアルは 7/26 公開。人数マイルストーン型の特典内容は公式発表待ち。" },
+        preReg: { open: true, since: "2026-07-26", reward: "日本国内の App Store / Google Play で事前登録を受付中（2026-07-26 開始、延期後も継続）。ティザー PV とキービジュアルは 7/26 公開。人数マイルストーン型の特典内容は公式発表待ち。" },
         developer: "未公表（KADOKAWA が企画・製作・配信。開発会社名は非公開）",
         publisher: "KADOKAWA（スマホ版）。PC 版は DMM GAMES で配信",
         region: "日本先行（海外配信は未発表）",
         distribution: "App Store / Google Play（日本）。PC 版は DMM GAMES",
         payment: [],
         ipSource: "©暁なつめ・三嶋くろね／KADOKAWA／このすば3製作委員会。原作は KADOKAWA 刊のライトノベル『この素晴らしい世界に祝福を！』（シリーズ累計 1,000 万部超）。IP ホルダーである KADOKAWA 自身が企画・配信を主導。",
-        series: "本作は 2025 年初頭にサービス終了したスマホ向け『この素晴らしい世界に祝福を！ファンタスティックデイズ』以来、シリーズのスマホゲーム復帰作。同時期に TV アニメ第 4 期の 2027 年放送も発表され、アニメ10周年のタイミングでゲームとアニメを同時に打ち出している。",
+        series: "本作は 2025 年初頭にサービス終了したスマホ向け『この素晴らしい世界に祝福を！ファンタスティックデイズ』以来、シリーズのスマホゲーム復帰作。同時期に TV アニメ第 4 期の 2027 年放送も発表され、アニメ10周年のタイミングでゲームとアニメを同時に打ち出している。2026-10-05 に発売時期を 2027 年 2 月へ変更した。",
         features: ["3D グラフィックによる戦闘と日常パート", "原作キャラの必殺技（めぐみんの爆裂魔法など）を 3D アニメで再現", "原作者・暁なつめ 監修による完全オリジナルストーリー", "原作声優陣が続投（カズマ／アクア／めぐみん／ダクネス）", "スマホ＋PC のクロスプラットフォーム展開、PC 版は DMM GAMES"],
         synopsis: "「異世界トラブル生活 RPG」と銘打ち、カズマと仲間たちの騒がしい日常と成り行き任せの冒険を描く。既存のアニメや原作のエピソードをなぞるのではなく、原作世界観の上に書き下ろされた新規の物語となる。",
         cast: "カズマ：福島潤／アクア：雨宮天／めぐみん：高橋李依／ダクネス：茅野愛衣（アニメ版から続投）"
@@ -4427,19 +4427,21 @@ window.OBSERVATORY = {
         { source: "KADOKAWA 公式作品サイト", url: "https://konosuba-machisuba.com/" },
         { source: "Yomimono（PC 版 DMM GAMES 配信決定・TGS2026 ステージ情報／4Gamer・電ファミ・Game Spark・INSIDE の4社を出典）", url: "http://yomimono.id/konosuba-game-machisuba-pc-version-heads-to-dmm-games" },
         { source: "Anime United（KADOKAWA 発表・キャスト・世界観の整理）", url: "https://www.animeunited.com.br/noticias/ultimas/konosuba-novo-rpg-machisuba-4a-temporada-anime" },
-        { source: "Anime World（TGS2026 ステージで主題歌 Machico「WOOHOO!」発表）", url: "https://animeworld.info/2026/09/20/konosuba-game-machisuba-theme-song-revealed-machico-s-new-track-woohoo" }
+        { source: "Anime World（TGS2026 ステージで主題歌 Machico「WOOHOO!」発表）", url: "https://animeworld.info/2026/09/20/konosuba-game-machisuba-theme-song-revealed-machico-s-new-track-woohoo" },
+        { source: "Gacha Go!（KADOKAWA が 2026-10-05 に延期を発表／事前登録・対応機種は不変）", url: "https://gachago.com/?p=18312" },
       ],
       videos: [
         { label: "公式作品サイト（ティザー PV・キービジュアルを公開）", platform: "官方站", url: "https://konosuba-machisuba.com/" },
         { label: "Yomimono 报道（PC 版 DMM GAMES 配信决定＋9/20 TGS2026 特别舞台）", platform: "媒体", url: "http://yomimono.id/konosuba-game-machisuba-pc-version-heads-to-dmm-games" }
       ],
       hype: {
-        score: 72,
+          score: 70,
         signals: [
           "アニメ10周年イベントで発表され、原作小説はシリーズ累計 1,000 万部超。同時に TV アニメ第 4 期（2027年）も告知され IP の勢いが高い",
           "原作者・暁なつめ がストーリー監修、原作イラストの三嶋くろね が製作協力、主要声優 4 名が続投と、原作準拠の体制が明示されている",
           "TGS2026 の DMM GAMES ブースで 9/20 15:00 から特別ステージを実施し、カズマ役の福島潤と KADOKAWA プロデューサーが登壇予定",
-          "前作『ファンタスティックデイズ』が 2025 年初頭にサービス終了しており、シリーズのスマホ復帰作として既存ファンの関心が集まっている"
+          "前作『ファンタスティックデイズ』が 2025 年初頭にサービス終了しており、シリーズのスマホ復帰作として既存ファンの関心が集まっている",
+          "2026-10-05 に発売時期が 2026 年内から 2027 年 2 月へ延期され、開発と調整に時間をかける方針が示された"
         ]
       },
       tags: ["IP授权", "手游", "跨平台", "KADOKAWA", "TGS2026"]
@@ -8459,15 +8461,239 @@ window.OBSERVATORY = {
         cast: "公式発表なし"
       }
     },
+    {
+      id: "kinnikuman-muscle-tag-match-reiwa",
+      company: "Bandai Namco",
+      companyJp: "株式会社バンダイナムコエンターテインメント",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-10-01（事前登録の受付開始と「キン肉マン 超人総選挙2026」の開催を発表）",
+      capturedAt: "2026-10-08",
+      title: { jp: "キン肉マン マッスルタッグマッチ 令和復活編", cn: "金肉人 摔角大赛 令和复活篇", en: "Kinnikuman Muscle Tag Match: Reiwa Fukkatsu-hen" },
+      genre: "タッグ対戦アクション（買い切り・Bluetooth 2P対戦対応）",
+      platforms: ["iOS", "Android"],
+      release: "2026年秋（日本。発売時期は調整中で、App Store の予約ページは 2026-11-30 を表示）",
+      releasePrecision: "季",
+      summary: "万代南梦宫娱乐把 1985 年在红白机（FC）发售的动作游戏《キン肉マン マッスルタッグマッチ》强化后搬到手机平台的新作，2026-10-01 随事前登录开跑一并发表。玩法沿袭原作：从擂台上选两名超人组队，接住ミートくん抛出的「命の玉」即可发动必杀技，攻防节奏保留当年的手感。作为强化点，参战超人由原作的 8 名扩充到 50 名，并首次实装蓝牙通信的 2 人对战。售价 1,000 日元（含税）、买断制、没有转蛋与道具课金。官方同日启动「キン肉マン 超人総選挙2026」（10-01〜10-12），得票第 1〜20 名、第 29 名与第 50 名的超人将取得参战资格，结果预定刊于 11-09 发售的《週刊プレイボーイ》第 47 期。",
+      highlight: "【2026-10-01 発表】バンダイナムコエンターテインメントが、1985 年のファミコン用『キン肉マン マッスルタッグマッチ』をパワーアップしてスマートフォン向けに復活させると発表した（1,000 円・税込の買い切り）。　参戦超人を原作の 8 名から 50 名へ拡大し、Bluetooth 通信による 2P 対戦を新たに実装。同時に「超人総選挙2026」を開始し、上位 20 名に加えて 29 位・50 位の超人にも参戦権を与える。",
+      news: [
+        { source: "Quest Board.JP（発表内容・機種・価格・超人総選挙2026 の詳細）", url: "https://quest-board.jp/en/quests/buzz-leak-2026-10-01-leak-1-20261001" },
+        { source: "mixi ニュース（超人総選挙2026 の開催と参戦権の付与条件）", url: "https://news.mixi.jp/view_news.pl?id=8970492&media_id=54" },
+        { source: "巴哈姆特 GNN（事前登録開始・価格・50 名参戦・Bluetooth 対戦）", url: "https://gnn.gamer.com.tw/detail.php?sn=312603" }
+      ],
+      videos: [
+        { label: "App Store 予約ページ（スクリーンショット・事前登録）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6775757720" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "1985 年のファミコン定番作を約 41 年ぶりにスマートフォンへ復活させる企画で、当時遊んだ世代の懐古需要が大きい",
+          "「超人総選挙2026」で参戦超人をファン投票で決める仕組みが話題を集め、投票は 10-12 まで実施される",
+          "原作漫画はシリーズ累計 8,500 万部を突破し、連載は現在も『週刊プレイボーイ』で継続中",
+          "価格 1,000 円の買い切りでガチャを排した点が歓迎される一方、配信は日本国内のみで海外展開は未発表"
+        ]
+      },
+      tags: ["IP授权", "手游", "买断制", "Bandai Namco", "キン肉マン"],
+      mobile: {
+        status: "事前登録受付中（2026-10-01 開始。発売時期は調整中）",
+        os: ["iOS", "Android"],
+        monetization: "買い切り 1,000 円（税込）。ガチャおよびアイテム課金はなし",
+        preReg: { open: true, since: "2026-10-01", reward: "App Store の予約受付と Google Play の事前登録を受付中。人数マイルストーン型の特典内容は公式発表待ち。" },
+        developer: "バンダイナムコエンターテインメント（個別の開発会社名は非公表）",
+        publisher: "バンダイナムコエンターテインメント",
+        region: "日本（海外配信は未発表）",
+        distribution: "App Store / Google Play（日本）",
+        payment: [],
+        ipSource: "©ゆでたまご・東映アニメーション／©ゆでたまご・集英社・キン肉マン製作委員会／©Bandai Namco Entertainment Inc.。原作はゆでたまご（嶋田隆司・中井義則）の漫画『キン肉マン』（1979 年連載開始、シリーズ累計 8,500 万部超）。",
+        series: "1985 年にバンダイから発売されたファミコン用『キン肉マン マッスルタッグマッチ』の強化移植作。スマートフォン向け『キン肉マン』ゲームとしては近年で最大規模の参戦人数となる。",
+        features: [
+          "8 名から 50 名へ拡大した参戦超人（一部は超人総選挙2026 の結果で決定）",
+          "Bluetooth 通信による 2 人同時対戦",
+          "ミートくんの投げる「命の玉」を取ると必殺技が発動する原作準拠のシステム",
+          "1985 年版のタッグチーム戦を踏襲した操作とルール",
+          "買い切り 1,000 円でガチャなし"
+        ],
+        synopsis: "キン肉星から来た落ちこぼれ超人・キン肉マンと仲間たちが、タッグを組んでリング上の敵超人と戦う。プレイヤーは 2 名の超人を選んでタッグを組み、相手チームを倒す。原作どおり、ミートくんが投げ入れる「命の玉」を取ると必殺技が発動し、一撃で形勢が変わる。",
+        cast: "公式発表なし"
+      }
+    },
+    {
+      id: "invokyr",
+      company: "松竹ゲームズ（松竹株式会社 ゲーム事業室）",
+      companyJp: "松竹株式会社 ゲーム事業室（松竹ゲームズ）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-10-08（Steam で早期アクセス配信を開始。松竹ゲームズが共同発売を担当）",
+      capturedAt: "2026-10-08",
+      title: { jp: "Invokyr", cn: "勇敢者之试炼：Invokyr", en: "Invokyr" },
+      genre: "協力型サバイバルホラー（呪われたボードゲーム、最大 6 人オンライン協力）",
+      platforms: ["PC (Steam)"],
+      release: "2026-10-08（Steam 早期アクセス配信開始。PC（Steam）／Windows）",
+      releasePrecision: "日",
+      summary: "由法国里尔独立工作室 Ludogram 开发、松竹游戏事业室（松竹ゲームズ）担任联合发行的合作生存恐怖游戏，2026-10-08 17:00（JST）在 Steam 开启早期访问，定价 1,200 日元。舞台是一副被诅咒的棋盘：玩家受神秘「游戏管理员」操控，靠掷骰前进，在不断变换的噩梦场景、致命陷阱与诅咒中设法抵达终点。收录 15 种以上怪物与 20 种以上随机事件，12 种以上效果各异的骰子、可换取能力的诅咒雕像，以及强化道具与装置会随每局规则变化。最多 6 人联机协作，也能在危急时抛下队友。Demo 自 2026 年 6 月上线以来累计下载突破 100 万次。",
+      highlight: "【2026-10-08 早期アクセス配信開始】松竹ゲームズが共同発売を担う Ludogram（フランス）開発の協力型サバイバルホラー『Invokyr』が、Steam で 17:00（JST）に早期アクセス配信を開始した（1,200 円・税込）。　体験版は 2026 年 6 月の公開以降、世界累計 100 万ダウンロードを突破。開発はフランス側が担いつつ日本側が発売に関与する体制で、松竹ゲームズの海外インディー共同発売路線の延長線上にある。",
+      news: [
+        { source: "松竹ゲームズ 公式ニュース（早期アクセス配信日・日本語タイトル確定・共同発売の発表）", url: "https://game.shochiku.co.jp/news/a-6-player-cooperative-survival-horror-game-invokyr-early-access-release-set-for-thursday-october-8th/" },
+        { source: "Steam ストアページ（Invokyr）", url: "https://store.steampowered.com/app/3883570/Invokyr" },
+        { source: "Ludens Media（配信日・価格・体験版 100 万ダウンロード）", url: "https://www.ludens.com.tw/invokyr-steam-early-access-1-million-downloads" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（アナウンストレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/3883570/Invokyr" }
+      ],
+      hype: {
+        score: 54,
+        signals: [
+          "体験版が 2026 年 6 月の公開以降、世界累計 100 万ダウンロードを突破し、レビューも高評価を維持している",
+          "Steam Next Fest（2026 年 6 月）で注目を集め、早期アクセス前から日本語を含む 13 言語対応が告知されている",
+          "最大 6 人のオンライン協力と、味方を切り捨てるかどうかの選択を組み込んだ協力型サバイバルホラーという題材が配信者と相性が良い",
+          "日本側は松竹ゲームズが共同発売を担当するが、開発はフランスの Ludogram が主体で、国内スタジオの企画ではない"
+        ]
+      },
+      tags: ["新作", "PC", "早期アクセス", "サバイバルホラー", "海外開発"],
+      console: {
+        status: "2026-10-08 早期アクセス配信開始（PC（Steam））",
+        os: ["Windows 10", "Windows 11"],
+        monetization: "買い切り。早期アクセス版は 1,200 円（税込）。追加課金の予定は発表されていない",
+        developer: "Ludogram（フランス・リール、2020 年設立、約 20 名）",
+        publisher: "Ludogram／松竹ゲームズ（松竹株式会社 ゲーム事業室）",
+        region: "世界（日本語・英語・フランス語・ドイツ語・スペイン語・イタリア語・韓国語・簡体字・繁体字・ポルトガル語・ポーランド語・ロシア語・ウクライナ語の 13 言語に対応）",
+        distribution: "ダウンロード版（Steam）。早期アクセス中は無料の体験版も配信",
+        stores: ["Steam"],
+        preOrder: { open: false, since: "早期アクセス配信のため予約販売はなし。配信前は Steam で無料の体験版を公開していた", reward: "公式 SNS のキャンペーン（2026-10-03〜10-07）で、Steam キー 3 本組を抽選 10 名に配布" },
+        features: [
+          "呪われたボードゲームを舞台に、神秘的な「ゲームマスター」の支配下でサイコロを振って進む協力型サバイバルホラー",
+          "15 種以上のモンスターと 20 種以上のイベントを収録し、サイコロの目ごとにルールと状況が変化する",
+          "効果の異なる 12 種以上の特殊なサイコロ、危険と引き換えに能力を得る呪いの像、強化アイテムを使い分ける",
+          "最大 6 人のオンライン協力に対応。共闘の途中で仲間を見捨てるかどうかの選択も仕様に組み込まれている",
+          "ジャングル・氷山・巨大なおもちゃ箱など、ボードを取り巻く迷宮が層ごとに変化する"
+        ],
+        synopsis: "プレイヤーは呪われた 1970 年代のボードゲームに閉じ込められた者たちとなり、恨みを抱く「ゲームマスター」の支配する館から脱出を目指す。サイコロを振って盤上を進み、召喚される怪物・罠・呪いをかわしながら終点にたどり着ければ自由を得られる。ただし毎回のサイコロが新たな脅威を呼び込み、館の構造も一局ごとに変化する。",
+        ipSource: "オリジナル IP（Ludogram の自社企画）",
+        series: "Ludogram にとって初の早期アクセス配信タイトル。体験版は Steam Next Fest 2026 年 6 月版に出展され、公開後 1 か月で世界 100 万ダウンロードを突破した",
+        cast: "公式発表なし"
+      }
+    },
+    {
+      id: "angelian-trigger",
+      company: "PiXEL",
+      companyJp: "PiXEL CO., LTD.",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-05（Steam 版 2026-12-10 発売と PlayStation 5 版 2027 年を発表）",
+      capturedAt: "2026-10-08",
+      title: { jp: "アンシェリアントリガー", cn: "Angelian Trigger", en: "Angelian Trigger" },
+      genre: "疑似 3D シューティング（レールシューター、スコアアタック）",
+      platforms: ["PC (Steam)", "PlayStation 5", "Nintendo Switch"],
+      release: "2026-12-10（PC（Steam）版 発売予定）／2027 年（PlayStation 5 版 予定）。Nintendo Switch 版は 2024-12-12 に日本で発売済み",
+      releasePrecision: "日",
+      summary: "由日本 PiXEL 自主开发与发行的伪 3D 射击游戏，2026-10-05 宣布从 Nintendo Switch 独占拓展到 PC 与 PS5：Steam 版 2026-12-10 发售，PS5 版预定 2027 年。作品最早于 2024-12-12 在日本 Switch 平台推出，本次把 Steam 商店页的语言列表收窄为日语、删去原本标注的英语支持。玩法致敬 1980 年代《Space Harrier》《Burning Force》《Night Striker》一类的模拟 3D 射击：玩家以背后视点操控主角在 3D 关卡中奔跑跳跃并向画面深处射击；两位女主 Mia 与 Sheryl 分别拥有二段跳＋双手枪与滞空＋大型火炮的不同操作，另有支援机器人 O-P2、后方掩护射击、力场与可锁定多个敌人的追踪激光。行星各 4 关、故事与街机模式合计 24 关。ED 主题曲为森川美穂的新曲「Believe」，收录于 2026-10-21 发售的专辑《Roots and Wings》。",
+      highlight: "【2026-10-05 発表】PiXEL CO., LTD. が疑似 3D シューティング『アンシェリアントリガー』の Steam 版を 2026-12-10 に発売し、PlayStation 5 版を 2027 年に投入すると発表した。　本作は 2024-12-12 に日本国内の Nintendo Switch 向けに先行発売された自社 IP の移植・展開で、エンディング主題歌が森川美穂の新曲「Believe」（2026-10-21 発売のアルバム『Roots and Wings』収録）に決まったことも併せて公表された。",
+      news: [
+        { source: "Quest Board.JP（ED 主題歌「Believe」と発売スケジュール・ゲーム内容）", url: "https://quest-board.jp/en/quests/steam-playstation5-believe-000000006-000183676" },
+        { source: "Steam ストアページ（アンシェリアントリガー）", url: "https://store.steampowered.com/app/3428830/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/3428830/" }
+      ],
+      hype: {
+        score: 44,
+        signals: [
+          "1980 年代アーケードの疑似 3D シューティングを現行機向けに作り直す企画で、レトロ STG 層からの支持が中心",
+          "Nintendo Switch 版は 2024-12 に日本国内限定で発売済みで、今回は PC（Steam）と PS5 への展開発表にあたる",
+          "エンディング主題歌が森川美穂の新曲「Believe」に決定し、同曲を収録したアルバム『Roots and Wings』（10-21）と連動する発表が行われた",
+          "Steam 版の対応言語が日本語のみに絞られ、当初記載のあった英語対応が外された点は公式に説明されていない"
+        ]
+      },
+      tags: ["更新", "主机", "PC", "STG", "移植", "自社IP"],
+      console: {
+        status: "PC（Steam）版 2026-12-10 発売予定／PlayStation 5 版 2027 年予定（Nintendo Switch 版は 2024-12-12 に日本で発売済み）",
+        os: ["Windows 10 以降", "PlayStation 5", "Nintendo Switch"],
+        monetization: "買い切り。価格は未発表（Steam ストアページでウィッシュリスト登録を受付中）",
+        developer: "PiXEL CO., LTD.",
+        publisher: "PiXEL CO., LTD.",
+        region: "日本（Steam 版の対応言語は日本語のみ。PS5 版の言語対応は未発表）",
+        distribution: "ダウンロード版（Steam）。Nintendo Switch 版は国内のパッケージ／ダウンロードで発売済み",
+        stores: ["Steam"],
+        preOrder: { open: false, since: "Steam ストアページは公開済み。予約販売の開始時期は未発表", reward: "公式発表なし" },
+        features: [
+          "1980 年代の疑似 3D シューティング（『スペースハリアー』『バーニングフォース』『ナイトストライカー』など）へのオマージュを掲げた 3D シューティング",
+          "二段ジャンプと二丁拳銃のミア、浮遊と大型キャノンのシェリルという操作の異なる 2 人の主人公",
+          "支援ロボット O-P2 による後方からの援護射撃とフォースフィールド",
+          "複数の敵を同時にロックオンできるホーミングレーザーと、集団撃破によるボーナス得点",
+          "各惑星 4 ステージ構成で、ストーリーモードとアーケードモードを合わせて全 24 ステージ"
+        ],
+        synopsis: "惑星ガラドシークの大都市ワティにあるイームズ探偵事務所。浮気調査や失踪人捜索といった小さい案件に追われる日々の中、匿名の依頼人が緑の惑星サリウスへの調査を持ち込む。依頼が匿名であることに不穏さを覚えつつ飛び立ったミアとシェリルは、惑星産業大臣ワスリアが管轄するサリウスで大きな陰謀に踏み込んでいく。",
+        ipSource: "オリジナル IP（PiXEL CO., LTD. の自社企画）。『Wing of the Asteria』などレトロ調 STG を手がけてきた同社の新規 IP にあたる",
+        series: "Nintendo Switch 版が 2024-12-12 に日本国内で発売されたシリーズ初作。今回の発表で PC（Steam）2026-12-10・PlayStation 5 2027 年への展開が確定した",
+        cast: "公式発表なし"
+      }
+    },
+    {
+      id: "pixelheroscramble-plus",
+      company: "One or Eight",
+      companyJp: "One or Eight INC.（本社：東京都千代田区）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-10-07（公式プレスリリースで新作を告知し、Steam 体験版を配信開始）",
+      capturedAt: "2026-10-08",
+      title: { jp: "PixelHeroScramble Plus", cn: "像素英雄大混战 Plus", en: "PixelHeroScramble Plus" },
+      genre: "固定ルート型タワーディフェンス（ピクセルアート）",
+      platforms: ["PC (Steam)", "Nintendo Switch"],
+      release: "2026-12-01（PC（Steam）／Nintendo Switch。Steam のストア表記は 11-30）",
+      releasePrecision: "日",
+      summary: "由东京的 One or Eight INC. 自主开发与发行的像素风固定路线塔防游戏，2026-10-07 公布新作情报并同步在 Steam 上线体验版。玩家把 60 种以上可解锁的兵种配置在固定路线上，通过阻挡、异常状态、回复与增益等不同职能的组合阻止敌群推进，并在关键时刻发动「EX 技能」扭转战局；另有只能使用一次的道具可用作救场。舞台涵盖城市、草原、沙漠等环境，难度分 Normal／Hard／Challenge 三档，Challenge 会附加特殊限制。支持单人游玩，体验版存档可继承到正式版，并预定参加 Steam Next Fest 2026 年 10 月版（10-19〜10-26）。",
+      highlight: "【2026-10-07 発表】東京拠点の One or Eight INC. が、ピクセルアートの固定ルート型タワーディフェンス『PixelHeroScramble Plus』を発表し、Steam で無料体験版の配信を開始した。　製品版は PC（Steam）と Nintendo Switch 向けに 2026-12-01 発売予定で、体験版のセーブデータは製品版へ引き継げる。Steam Next Fest 2026 年 10 月版（10-19〜10-26）への参加も告知されている。",
+      news: [
+        { source: "Games Press（One or Eight INC. 公式プレスリリース：新作告知・体験版 10-07 配信・12-01 発売）", url: "https://www.gamespress.com/zh-CN/New-Tower-Defense-Game-PixelHeroScramble-Plus" },
+        { source: "Steam ストアページ（PixelHeroScramble Plus）", url: "https://store.steampowered.com/app/4059620/" },
+        { source: "Retro News（体験版の内容と発売日・価格の見込み）", url: "https://www.retronews.com/pixelheroscramble-plus-demo" }
+      ],
+      videos: [
+        { label: "リビールトレーラー（公式）", platform: "YouTube", url: "https://youtu.be/nkfeFzcNC7Y" },
+        { label: "Steam ストアページ（スクリーンショット・先行予告）", platform: "Steam", url: "https://store.steampowered.com/app/4059620/" }
+      ],
+      hype: {
+        score: 34,
+        signals: [
+          "タワーディフェンスとしては珍しい「固定ルート型」を軸に据え、60 種以上のユニットと EX 技能の組み合わせを売りにする",
+          "東京拠点の One or Eight INC. が自社で開発・発売まで担う国内インディーで、日本語・英語・簡体字・繁体字の 4 言語に対応する",
+          "体験版は Steam Next Fest 2026 年 10 月版（10-19〜10-26）への参加を告知しており、期間中に露出が増える見込み",
+          "国内の大手媒体による報道はまだ限定的で、日本国内での話題量は現時点で小さい"
+        ]
+      },
+      tags: ["新作", "主机", "PC", "タワーディフェンス", "国内インディー"],
+      console: {
+        status: "2026-12-01 発売予定（PC（Steam）／Nintendo Switch）。Steam では 10-07 から無料体験版を配信中",
+        os: ["Windows 10（64bit）", "Windows 11（64bit）", "Nintendo Switch"],
+        monetization: "買い切り。価格は各ストアの製品ページを参照（報道では 6 ドル前後とされる）",
+        developer: "One or Eight INC.",
+        publisher: "One or Eight INC.",
+        region: "世界（日本語・英語・簡体字・繁体字に対応。日本語は音声・テキスト、他はテキストのみ）",
+        distribution: "ダウンロード版（Steam／Nintendo eShop）。パッケージ展開は未発表",
+        stores: ["Steam", "Nintendo eShop"],
+        preOrder: { open: false, since: "Steam ではウィッシュリスト登録を受付中。予約販売の開始は未発表", reward: "公式発表なし" },
+        features: [
+          "敵が決まったルートを進む「固定ルート型」のタワーディフェンスで、どのユニットをどこに置くかの配置と入れ替えが戦術の中心",
+          "進行に応じて解放される 60 種以上のユニット（複数の敵を止める防御型、状態異常をまく型、回復・支援型など）",
+          "発動のタイミングが勝敗を分ける「EX 技能」。隕石攻撃やバリア展開などで形勢を覆す",
+          "1 回限りで戦況を変える「アイテム」を用意し、タワーディフェンス初心者でも詰まりにくい設計",
+          "街・草原・砂漠など舞台が変化し、難易度は Normal／Hard／Challenge の 3 段階。Challenge は特殊な制限が付く"
+        ],
+        synopsis: "プレイヤーは押し寄せるピクセルの敵群に対して、解放したユニットを固定ルート上に配置して防衛する。敵を倒して得た資金でユニットの強化や入れ替えを行い、ボスが待つステージ終端まで突破されないように戦う。60 種以上のユニットの相性を見つけることが攻略の鍵になる。",
+        ipSource: "オリジナル IP（One or Eight INC. の自社企画）",
+        series: "One or Eight INC. の自社開発・自社発売タイトル。本社は東京都千代田区に置かれ、自社コンテンツの制作を事業の柱とする",
+        cast: "公式発表なし"
+      }
+    },
   ],
 
   /* ---------------------------------------------------------
-   * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 37 社补充）
+   * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
    *    status: covered 已建作品卡 / partial 部分覆盖 / watch 待观察
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-09-30",
+    asOf: "2026-10-08",
     listTotal: 50,
     categories: [
       {
@@ -8478,7 +8704,7 @@ window.OBSERVATORY = {
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
-          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit"] },
+          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
@@ -8553,7 +8779,7 @@ window.OBSERVATORY = {
       label: "指定清单外 · 补充监测",
       note: "以下厂商不在指定清单内，但本期已有实际新作动态，或为新手游发行方，故纳入监测。",
       items: [
-        { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026", "digging-a-hole-together"] },
+        { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026", "digging-a-hole-together", "invokyr"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
           { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
@@ -8575,7 +8801,7 @@ window.OBSERVATORY = {
         { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
       { name: "株式会社Plott", short: "Plott", status: "covered", gameIds: ["blackchannel-blaze-road"], note: "ゲームの企画・開発を手がけてきたスタジオが自社パブリッシングへ広げた事例。YouTube アニメ『ブラックチャンネル』（チャンネル登録者 130 万人超、小学館）の初のスマートフォンゲーム化を 9/14 に配信開始" },
-      { name: "株式会社KADOKAWA", short: "KADOKAWA", status: "covered", gameIds: ["konosuba-machisuba"], note: "指定 50 社には含まれないが、IP ホルダー自身が企画・配信を主導するスマホ新作『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～』（まちすば、2026 年内 / iOS・Android・PC、PC 版は DMM GAMES）が窓内で発表されたため補充監視に追加。原作小説はシリーズ累計 1,000 万部超" },
+      { name: "株式会社KADOKAWA", short: "KADOKAWA", status: "covered", gameIds: ["konosuba-machisuba"], note: "指定 50 社には含まれないが、IP ホルダー自身が企画・配信を主導するスマホ新作『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～』（まちすば、iOS・Android・PC／DMM GAMES）が窓内で発表されたため補充監視に追加。原作小説はシリーズ累計 1,000 万部超。2026-10-05 に発売時期が 2027 年 2 月へ延期された。" },
         { name: "株式会社アートプレイ", short: "ArtPlay", status: "covered", gameIds: ["bloodstained-scarlet-engagement"], note: "『Bloodstained』シリーズを手がける五十嵐孝司（IGA）の開発スタジオ。発売は 505 Games が担当するが、IP と開発は日本側が主導しており、TGS2026 の Xbox 放送で新作のゲームプレイ映像が公開されたため補充監視に追加" },
         { name: "株式会社サンリオ（Sanrio Games）", short: "Sanrio Games", status: "covered", gameIds: ["hello-kitty-party-land", "sanrio-kawaii-me-live", "fragaria-memories-color-of-wishes"], focus: true, note: "国内最大级キャラクター IP ホルダーが 2026 年に立ち上げた自社ゲームブランド。外部ライセンスではなく自社で企画・開発を主導し、3 年で 10 タイトルを計画。家庭用『Hello Kitty パーティランド』とスマホ『Sanrio Kawaii Me Live!』『FRAGARIAMEMORIES Color of Wishes』の 3 作で TGS2026 に初出展した" },
         { name: "株式会社ドラガミゲームス", short: "Dragami Games", status: "covered", gameIds: ["lollipop-chainsaw-new-project"], note: "角川ゲームスの家庭用ゲーム事業を引き継ぐスタジオ。『ロリポップチェーンソー』新作を TGS2026 の SEGA／ATLUS ブース内で初のプレイアブル出展（正式タイトル・対応機種は未発表）" },
@@ -8590,7 +8816,9 @@ window.OBSERVATORY = {
         { name: "株式会社ライドオンジャパン", short: "Rideon Japan", status: "covered", gameIds: ["mercenaries-grace"], note: "タクティカル RPG『Mercenaries Saga』シリーズを自社で企画・開発・配信する日本のスタジオ。2026-09-25 にシリーズ第 8 作『Mercenaries Grace: Black Feather and the Golden Right Arm』（PlayStation 5／Nintendo Switch／PC（Steam）、日本では 2026 年 11 月にデジタル配信予定）を発表したため補充監視に追加" },
         { name: "株式会社ビサイド", short: "BeXide", status: "covered", gameIds: ["namco-legendary-mountains"], note: "日本のゲーム開発・パブリッシャー。バンダイナムコエンターテインメントからナムコ アーケード作品の IP ライセンスを受け、3D パズル『NAMCO LEGENDARY Mountains』を自社で開発・販売。2026-06-25 に Nintendo Switch／Nintendo Switch 2／Steam 版、2026-09-24 に iOS／Android 版を買い切りで配信した" },
         { name: "株式会社コトブキソリューション（KEMCO）", short: "KEMCO", status: "covered", gameIds: ["isekai-rondo-otogi"], note: "大阪市に本社を置く老舗パブリッシャー。開発はエクスクリエイト（EXE-CREATE）が担い、スマートフォン向け RPG を継続的に供給してきた。2026-09-30 に新作 RPG『異世界輪舞 御伽』の事前登録（Google Play）／予約受付（App Store）を開始し、iOS・Android に加えて Nintendo Switch 2／Switch・PlayStation 5／4・Xbox・Steam まで同時展開するマルチプラットフォーム作として発表したため補充監視に追加" },
-        { name: "株式会社ハピネット", short: "Happinet", status: "covered", gameIds: ["brigandine-abyss"], note: "玩具・映像・ゲームの流通と自社パブリッシングを手がける東証プライム上場企業（東京都台東区、証券コード 7552）。『ブリガンダイン』シリーズの国内発売元で、最新作『ブリガンダイン アビス』（開発：株式会社アドグローブ）を PC（Steam）2026-08-26／家庭用機 2026-08-27 に世界同時発売した。海外発売は NIS America が担当" }
+        { name: "株式会社ハピネット", short: "Happinet", status: "covered", gameIds: ["brigandine-abyss"], note: "玩具・映像・ゲームの流通と自社パブリッシングを手がける東証プライム上場企業（東京都台東区、証券コード 7552）。『ブリガンダイン』シリーズの国内発売元で、最新作『ブリガンダイン アビス』（開発：株式会社アドグローブ）を PC（Steam）2026-08-26／家庭用機 2026-08-27 に世界同時発売した。海外発売は NIS America が担当" },
+        { name: "PiXEL CO., LTD.", short: "PiXEL", status: "covered", gameIds: ["angelian-trigger"], note: "レトロ調のシューティングを自社で企画・開発・発売する日本のスタジオ（『Wing of the Asteria』など）。疑似 3D STG『アンシェリアントリガー』は 2024-12-12 に国内 Nintendo Switch 向けへ先行発売され、2026-10-05 に PC（Steam）版 2026-12-10・PlayStation 5 版 2027 年の展開が発表されたため補充監視に追加" },
+        { name: "One or Eight INC.", short: "One or Eight", status: "covered", gameIds: ["pixelheroscramble-plus"], note: "東京都千代田区を拠点に自社コンテンツの企画・開発・発売を行う国内スタジオ。2026-10-07 に固定ルート型タワーディフェンス『PixelHeroScramble Plus』（PC（Steam）／Nintendo Switch、2026-12-01 発売予定）を発表し、同日から Steam で無料体験版を配信したため補充監視に追加" },
       ]
     }
   },
@@ -8599,20 +8827,20 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-09-21",
+    asOf: "2026-10-04",
     source: "Famitsu 週刊ファミ通 读者期待榜",
-    url: "https://gonintendo.com/contents/65225-famitsu-most-wanted-games-for-sept-19th-2026",
+    url: "https://gonintendo.com/contents/65705-famitsu-most-wanted-games-for-oct-4th-2026",
     list: [
-      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 569 },
-      { rank: 2, title: "Persona 6", platform: "PS5", votes: 477 },
-      { rank: 3, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 445 },
-      { rank: 4, title: "Persona 4 Revival", platform: "PS5", votes: 416 },
-      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 323 },
-      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 244 },
+      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 583 },
+      { rank: 2, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 504 },
+      { rank: 3, title: "Persona 6", platform: "PS5", votes: 456 },
+      { rank: 4, title: "Persona 4 Revival", platform: "PS5", votes: 382 },
+      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 318 },
+      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 304 },
       { rank: 7, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 212 },
-      { rank: 8, title: "Final Fantasy Resonance", platform: "NS2", votes: 170 },
-      { rank: 9, title: "Xenoblade Genesis", platform: "NS2", votes: 159 },
-      { rank: 10, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 154 }
+      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 186 },
+      { rank: 9, title: "Final Fantasy Resonance", platform: "NS2", votes: 159 },
+      { rank: 10, title: "Xenoblade Genesis", platform: "NS2", votes: 138 }
     ]
   },
 
@@ -8661,6 +8889,19 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-08 19:10",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "日方主導の新規スマホタイトルは 1 件 —— バンダイナムコエンターテインメントが 10-01、1985 年のファミコン用『キン肉マン マッスルタッグマッチ』を強化してスマホ向けに復活させる『キン肉マン マッスルタッグマッチ 令和復活編』を発表し、事前登録と「超人総選挙2026」を開始した。参戦超人 50 名、Bluetooth の 2P 対戦対応、1,000 円の買い切り。",
+          "条目総数は 150 → **154**（手游区 33 → 34／主机・PC 区 128 → 132）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 38 → **40 社**（PiXEL・One or Eight を追加）。",
+          "主机・PC の新規は 3 件 —— 松竹ゲームズが共同発売を担う協力型サバイバルホラー『Invokyr』（開発 Ludogram・Steam 早期アクセスを 10-08 に開始）、PiXEL の疑似 3D STG『アンシェリアントリガー』の Steam 版 12-10／PS5 版 2027 年の発表、東京の One or Eight による固定ルート型タワーディフェンス『PixelHeroScramble Plus』（12-01 発売・体験版を 10-07 配信）。",
+          "更新は 1 件 —— KADOKAWA の『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～』（まちすば）が、10-05 の公式 X で発売時期を「2026 年内」から 2027 年 2 月へ延期。事前登録と対応機種（iOS・Android・PC／DMM GAMES）は変更なし。",
+          "漏収核查（アニメ／ゲーム IP の個別検索）：ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマンなどを確認。スマホ側の新規は上記の 1 件のみだった。",
+          "見送り（既定の赤線運用）：日本 IP のライセンスを受けた海外資本開発のスマホ新作や、開発元が韓国資本の新作を検索で確認したが、社名・作品名とも記載せず不収録とした。在営タイトルのサービス終了告知・コラボ・周年企画などの内容更新も口径どおり不収録（運営終了は記録のみ）。",
+          "Famitsu 期待榜は 2026-10-04 期へ更新（1 位 Pokemon Winds／Waves 583 票、2 位 ゼルダの伝説 時のオカリナ 504 票、3 位 ペルソナ6 456 票）。Nintendo Direct 組では『Kirby and the World Beyond』が 26 位に初登場した。TGS2026 は展後記録として凍結を継続。"
+        ]
+      },
+      {
         at: "2026-09-30 19:10",
         scene: "定時巡検（夕方の部）",
         items: [
@@ -8670,18 +8911,6 @@ window.OBSERVATORY = {
           "漏収核查（アニメ IP 個別検索）: ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマンを確認。スマホ側の新規は上記 KEMCO 1 件のみで、他は在営タイトルの内容更新（『Pokémon TCG Pocket』の新拡張パック等）または初公開が窓口外であることを理由に不収録とした。",
           "BLEACH Mirrors High の事前登録 40 万件突破（バンダイナムコ発表）は報道日を特定できず、日付を推測で埋めないため今回は条目更新を見送った。次場で一次ソースの日付を確認できれば回填する。",
           "見送り（既定の赤線運用）: 日本 IP のライセンスを受けた海外資本開発のスマホ新作や大手 IP のモバイル版など、海外資本が開発・運営に関与する案件を検索で確認したが、社名・作品名とも記載せず不収録とした。Famitsu 期待榜は新期なしで据え置き（asOf 2026-09-21 を維持）、TGS2026 は展後記録として凍結を継続。"
-        ]
-      },
-      {
-        at: "2026-09-30 14:20",
-        scene: "定時巡検（午前の部・繰り下げ実行）",
-        items: [
-          "日方主導の新規スマホタイトルの発表は確認できず、手游区の新規登録はゼロ。新規は主机・PC 2 件 —— アイディアファクトリーの新ブランド「IFChronicle」第 1 弾『ICONOLOGY』（9-30 発表）と、松竹ゲームズと rokaplay が共同発表した『A Game About Digging A Hole Together』（9-29 発表）。",
-          "条目総数は 146 → **148**（手游区 32／主机・PC 区 124 → 126）。厂商清单 4 分類 8／16／16／10＝50 は不変。",
-          "漏収核查（アニメ IP 個別検索）: 『メイドインアビス』初のスマホゲーム（avex pictures／Nobollel）を確認したが、9-11 に配信日変更（延期・新日付未定）の告知が出ており、初公開が窓口外のため独立条目化は保留（ユーザー裁定待ち）。",
-          "漏収核查で保留: 松竹ゲームズの『夢幻桜楼閣』（電猫遊戯開発）が 9-30 に発売日 2026-11-05 と Switch 版を発表。初公開が窓口外のため独立条目化は保留し、既存の shochiku-tgs-2026 条目内の記載に留めた。",
-          "中資・香港資本が開発または発行に関与する案件は検索で確認したが、社名・作品名を記載せず不収録（既定の赤線運用）。日本側が発表・開発・発行のいずれにも関与しない海外開発タイトル（Sturmjager 等）も不収録。",
-          "Famitsu 期待榜は 9/2〜9/8 計測分から新期なしで据え置き（asOf 2026-09-21 を維持）。TGS2026 は展後記録として凍結を継続。"
         ]
       },
     ]
