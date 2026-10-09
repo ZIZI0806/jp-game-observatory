@@ -8744,6 +8744,8 @@ window.OBSERVATORY = {
     },
     {
       id: "hololive-mahjong-holojan",
+      kv: "assets/kv/hololive-mahjong-holojan.jpg",
+      kvSrc: "公式サイト",
       company: "COVER × Aiming",
       companyJp: "カバー株式会社／株式会社Aiming",
       bucket: "new",
@@ -8802,6 +8804,8 @@ window.OBSERVATORY = {
     },
     {
       id: "girls-und-panzer-bokosuka-rush",
+      kv: "assets/kv/girls-und-panzer-bokosuka-rush.jpg",
+      kvSrc: "公式サイト",
       company: "G Holdings",
       companyJp: "Gホールディングス株式会社",
       bucket: "new",
@@ -8857,6 +8861,8 @@ window.OBSERVATORY = {
     },
     {
       id: "girls-und-panzer-all-star-tank-carnival",
+      kv: "assets/kv/girls-und-panzer-all-star-tank-carnival.jpg",
+      kvSrc: "nintendoeverything.com",
       company: "D3 Publisher",
       companyJp: "株式会社ディースリー・パブリッシャー",
       bucket: "new",
@@ -8913,6 +8919,8 @@ window.OBSERVATORY = {
     },
     {
       id: "karei-endless-death-match",
+      kv: "assets/kv/karei-endless-death-match.jpg",
+      kvSrc: "公式サイト",
       company: "Phase",
       companyJp: "株式会社フェイズ（Phase Co., Ltd.）",
       bucket: "new",
