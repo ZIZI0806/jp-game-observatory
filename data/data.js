@@ -8803,7 +8803,7 @@ window.OBSERVATORY = {
     {
       id: "girls-und-panzer-bokosuka-rush",
       company: "G Holdings",
-      companyJp: "株式会社Gホールディングス",
+      companyJp: "Gホールディングス株式会社",
       bucket: "new",
       platformClass: "mobile",
       announceDate: "2026-10-09（制作決定を発表）",
@@ -8813,7 +8813,7 @@ window.OBSERVATORY = {
       platforms: ["iOS", "Android"],
       release: "未定（配信日は未発表）",
       releasePrecision: "未定",
-      summary: "《少女与战车》新作手机游戏，2026-10-09 与 D3Publisher 的主机新作同日发表。舞台取自剧场版《ガールズ&パンツァー der Film》中登场的「ボコ博物館」：西住みほ 与 島田愛里寿 前往馆内体验「戦車シミュレーター」，却在里面遭遇 ボコ 作为敌人。玩家可自由组合乘员与战车，乘员会随使用逐步成长，战车侧的能力也随之解锁。开发・配信由动画／漫画 IP 社交游戏的日本企业 G Holdings 担当。配信日期、事前登录、课金形态均未公布，官方仅公开了制作决定 PV 与官方网站。同日公布的家庭用新作是 Nintendo Switch 2 的『オールスター・タンク・カーニバル』，IP 的游戏展开同时启动。",
+      summary: "《少女与战车》新作手机游戏，2026-10-09 与 D3Publisher 的主机新作同日发表。舞台取自剧场版《ガールズ&パンツァー der Film》中登场的「ボコ博物館」：西住みほ 与 島田愛里寿 前往馆内体验「戦車シミュレーター」，却在里面遭遇 ボコ 作为敌人。玩家可自由组合乘员与战车，乘员会随使用逐步成长，战车侧的能力也随之解锁。开发・配信由日本企业 G Holdings（グノシー／Gunosy Inc. 100% 出资子公司，本社：東京都新宿区、2018 年设立，主业为智能手机游戏企划与制作）担当。配信日期、事前登录、课金形态均未公布，官方仅公开了制作决定 PV 与官方网站。同日公布的家庭用新作是 Nintendo Switch 2 的『オールスター・タンク・カーニバル』，IP 的游戏展开同时启动。",
       highlight: "【2026-10-09 制作決定】アニメ『ガールズ&パンツァー』の新作アプリゲーム『ガールズ&パンツァー ボコすかラッシュ』（略称 #ガルすか）の制作が決定し、記念 PV が公開された。舞台は劇場版『ガールズ&パンツァー der Film』に登場する「ボコ博物館」で、西住みほ と 島田愛里寿 が館内の「戦車シミュレーター」に挑み、ボコ が敵として立ちはだかる。　配信日・事前登録・課金形態はいずれも未発表。同日、D3パブリッシャーの Nintendo Switch 2 用『ガールズ＆パンツァー オールスター・タンク・カーニバル』も発表され、IP のゲーム展開が同時に動いた。",
       news: [
         { source: "公式サイト『ガールズ&パンツァー ボコすかラッシュ』（制作決定・PV）", url: "https://garupan-garusuka.com/" },
@@ -8838,8 +8838,8 @@ window.OBSERVATORY = {
         os: ["iOS", "Android"],
         monetization: "未発表",
         preReg: { open: false, since: "未開始", reward: "事前登録は未開始（2026-10-09 時点で配信日・登録開始の告知なし）" },
-        developer: "未公表（G Holdings が開発・配信を担当すると発表）",
-        publisher: "株式会社Gホールディングス",
+        developer: "Gホールディングス株式会社（開発・配信を担当）",
+        publisher: "Gホールディングス株式会社",
         region: "日本",
         distribution: "未発表（スマートフォン向けアプリとして制作決定）",
         payment: [],
@@ -9103,7 +9103,7 @@ window.OBSERVATORY = {
         { name: "PiXEL CO., LTD.", short: "PiXEL", status: "covered", gameIds: ["angelian-trigger"], note: "レトロ調のシューティングを自社で企画・開発・発売する日本のスタジオ（『Wing of the Asteria』など）。疑似 3D STG『アンシェリアントリガー』は 2024-12-12 に国内 Nintendo Switch 向けへ先行発売され、2026-10-05 に PC（Steam）版 2026-12-10・PlayStation 5 版 2027 年の展開が発表されたため補充監視に追加" },
         { name: "One or Eight INC.", short: "One or Eight", status: "covered", gameIds: ["pixelheroscramble-plus"], note: "東京都千代田区を拠点に自社コンテンツの企画・開発・発売を行う国内スタジオ。2026-10-07 に固定ルート型タワーディフェンス『PixelHeroScramble Plus』（PC（Steam）／Nintendo Switch、2026-12-01 発売予定）を発表し、同日から Steam で無料体験版を配信したため補充監視に追加" },
         { name: "株式会社フリュー", short: "FURYU", status: "covered", gameIds: ["anomalith"], note: "東京・八王子に本社を置く東証プライム上場の国内メーカー（2007 年にオムロンから MBO で独立）。プライズ・キャラクター商品を柱に、家庭用ゲームとアニメ事業を展開する。2026-05 に発表した自社初の本格サバイバル TPS『アノマリス/ANOMALITH』（開発：ウイニングエンターテインメントグループ＝旧ナツメアタリ、2026-10-29 発売予定）の正式体験版が 2026-10-08 に配信開始されたため、補充監視に追加した" },
-        { name: "株式会社Gホールディングス", short: "G Holdings", status: "covered", gameIds: ["girls-und-panzer-bokosuka-rush"], note: "アニメ・漫画 IP を題材にしたソーシャルゲームの企画・開発・配信を手がける日本企業（enish と共同で『弱虫ペダル』新作アプリを運営）。2026-10-09 にアニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の制作を発表したため補充監視に追加" },
+        { name: "Gホールディングス株式会社（G Holdings Co., Ltd.）", short: "G Holdings", status: "covered", gameIds: ["girls-und-panzer-bokosuka-rush"], note: "本社・東京都新宿区西新宿（2018 年 6 月設立）の日本企業。事業内容はスマートフォンゲームの企画・制作で、グノシー（Gunosy Inc.／東証プライム 6047）の 100% 子会社。アニメ・漫画 IP のスマホゲームを手がけ、『ハイキュー!! TOUCH AND CONNECT』『弱虫ペダル レゾナンス・ペダイズム』『進撃の巨人 Brave Order』などを展開してきた。2026-10-09 にアニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の開発・配信を発表したため補充監視に追加（資本は日本側のみ＝中資否認、グノシーの会社概要ページで確認）" },
         { name: "株式会社フェイズ（Phase Co., Ltd.）", short: "Phase", status: "covered", gameIds: ["karei-endless-death-match"], note: "東京都を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオ。ターン制パズルローグライク『華麗 無限城の死闘』（Steam／iOS／Android、2026 年第 4 四半期予定）を自社で開発・販売し、2026-10-02 に無料体験版を 10-10 配信と発表したため補充監視に追加。TGS2026 に出展し会場で試遊を実施した" },
       ]
     }
