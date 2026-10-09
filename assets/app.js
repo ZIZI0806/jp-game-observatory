@@ -105,7 +105,6 @@
     const updCount = D.games.filter(g => g.bucket === "update").length;
     const companies = new Set(D.games.map(g => g.company)).size;
     const dated = D.games.filter(g => /^\d{4}-\d{2}-\d{2}/.test(g.release)).length;
-    const tgsCount = D.games.filter(g => (g.tags || []).includes("TGS2026")).length;
 
     const mobAll = D.games.filter(g => isMobileZone(g));
     const crossCount = mobAll.filter(g => isCross(g)).length;
@@ -751,33 +750,6 @@
               <div class="wanted-vbar"><div class="wanted-vfill" style="width:${(x.votes / max * 100).toFixed(1)}%"></div></div>
               <div class="wanted-vnum">${x.votes}</div>
             </div>
-          </div>`).join("")}
-      </div>`;
-  }
-
-  /* ============================================================
-     TGS
-     ============================================================ */
-  function renderTgs() {
-    const t = D.tgs;
-    document.getElementById("panelTgs").innerHTML = `
-      <div class="tgs-hero">
-        <h2>東京ゲームショウ 2026 — 30 周年纪念展</h2>
-        <div class="tgs-meta">
-          <div>会期　<b>${esc(t.dates)}</b></div>
-          <div>会场　<b>${esc(t.venue)}</b></div>
-          <div>主题　<b>${esc(t.theme)}</b></div>
-        </div>
-        <p class="tgs-note">${esc(t.note)}</p>
-      </div>
-      <div class="booth-grid">
-        ${t.booths.map(b => `
-          <div class="booth">
-            <div class="booth-top">
-              <div class="booth-name">${esc(b.company)}</div>
-              <div class="booth-hall">${esc(b.hall)}</div>
-            </div>
-            <div class="booth-items">${esc(b.items)}</div>
           </div>`).join("")}
       </div>`;
   }
@@ -1478,7 +1450,6 @@
     document.getElementById("toolbar").hidden = !isGames;
     document.getElementById("panelCompanies").hidden = tab !== "companies";
     document.getElementById("panelWanted").hidden = tab !== "wanted";
-    document.getElementById("panelTgs").hidden = tab !== "tgs";
     document.getElementById("panelMap").hidden = tab !== "map";
     if (tab === "map" && window.__obsInitMap) window.__obsInitMap();
 
@@ -1525,7 +1496,6 @@
   renderSources();
   renderCompanies();
   renderWanted();
-  renderTgs();
   initPlatforms();
   bind();
   switchTab("mobile");

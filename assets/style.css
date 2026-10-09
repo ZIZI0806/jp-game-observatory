@@ -23,6 +23,12 @@
          "Microsoft YaHei",system-ui,sans-serif;
 }
 
+/* 🔴 hidden 属性を必ず効かせる。
+   下で display:flex / grid を当てている要素は UA 既定の [hidden]{display:none} に
+   勝ってしまい、タブを切り替えても表示されたままになる（実際 .toolbar と #panelMap で
+   この症状が出ていた）。個別対応ではなく 1 か所で塞ぐ。 */
+[hidden]{display:none !important}
+
 *{box-sizing:border-box;margin:0;padding:0}
 
 html{scroll-behavior:smooth}
@@ -308,32 +314,7 @@ body{
 .wanted-vfill{height:100%;background:linear-gradient(90deg,var(--accent-2),var(--accent));border-radius:3px}
 .wanted-vnum{font-family:var(--mono);font-size:11.5px;color:var(--text-dim);min-width:34px;text-align:right}
 
-/* ---------------- TGS ---------------- */
-.tgs-hero{
-  background:linear-gradient(140deg,rgba(255,107,157,.09),rgba(91,140,255,.06));
-  border:1px solid var(--border);border-left:3px solid var(--accent-3);
-  border-radius:var(--radius);padding:22px 26px;margin-bottom:20px;
-}
-.tgs-hero h2{font-size:20px;font-weight:660;margin-bottom:8px}
-.tgs-hero .tgs-meta{display:flex;gap:22px;flex-wrap:wrap;margin-top:12px}
-.tgs-hero .tgs-meta div{font-size:12.5px;color:var(--text-dim)}
-.tgs-hero .tgs-meta b{color:var(--accent);font-weight:600;font-family:var(--mono);font-size:12px}
-.tgs-note{margin-top:13px;font-size:12.3px;color:var(--text-faint);line-height:1.7}
-
-.booth-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
-.booth{
-  background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
-  padding:15px 18px;transition:.18s;
-}
-.booth:hover{border-color:var(--border-hi)}
-.booth-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px}
-.booth-name{font-size:14px;font-weight:620}
-.booth-hall{
-  font-family:var(--mono);font-size:10.5px;padding:2px 8px;border-radius:5px;
-  background:rgba(91,140,255,.1);border:1px solid rgba(91,140,255,.28);color:#8fa9ff;
-  white-space:nowrap;
-}
-.booth-items{font-size:12.4px;color:var(--text-dim);line-height:1.72}
+/* ---------------- TGS（タブごと撤去済み。スタイルは将来再利用のため残置せず削除） ---------------- */
 
 /* ============================================================
    手游重点区
@@ -947,4 +928,100 @@ body{
   .map-search{flex:1 1 100%}
   #tokyoMap{height:46vh;min-height:300px}
   .map-legend{display:none}
+}
+
+/* ============================================================
+   「東京以外」ラベル — 東京拠点が確認できない社の置き場
+   地図左下の空き隅（Leaflet の zoom は左上・attribution は右下）に浮かせる
+   ============================================================ */
+.map-canvas{position:relative;min-width:0}
+.map-canvas>#tokyoMap{width:100%}
+
+.map-outside{
+  position:absolute;left:14px;bottom:28px;z-index:900;
+  pointer-events:none;max-width:calc(100% - 28px);
+}
+.map-outside>*{pointer-events:auto}
+
+.mo-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.02em;
+  color:var(--text-dim);background:rgba(8,11,17,.86);backdrop-filter:blur(6px);
+  border:1px dashed var(--border-hi);border-radius:999px;
+  padding:6px 13px;cursor:pointer;transition:.18s;
+}
+.mo-btn:hover,.mo-btn.is-open{color:var(--text);border-style:solid;border-color:var(--accent);background:rgba(8,11,17,.94)}
+.mo-dot{width:7px;height:7px;border-radius:50%;background:var(--text-faint);transition:.18s}
+.mo-btn:hover .mo-dot,.mo-btn.is-open .mo-dot{background:var(--accent);box-shadow:0 0 0 3px rgba(77,212,192,.22)}
+.mo-n{font-family:var(--mono);font-weight:700;color:var(--accent)}
+
+/* ラベルは左下に固定し、パネルはその真上に開く（ボタンが動かないように） */
+.mo-panel{
+  position:absolute;left:0;bottom:calc(100% + 8px);
+  width:min(330px,calc(100vw - 60px));max-height:min(42vh,360px);
+  display:flex;flex-direction:column;overflow:hidden;
+  background:rgba(10,14,21,.95);backdrop-filter:blur(9px);
+  border:1px solid var(--border-hi);border-radius:var(--radius);
+  box-shadow:0 14px 36px rgba(0,0,0,.5);
+}
+.mo-head{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:9px 11px;border-bottom:1px solid var(--border);
+}
+.mo-head b{font-size:12.5px;color:var(--text);font-weight:700}
+.mo-head .mo-close{
+  flex:0 0 22px;width:22px;height:22px;border-radius:6px;padding:0;
+  background:var(--panel-2);border:1px solid var(--border);color:var(--text-dim);
+  font-size:14px;line-height:1;cursor:pointer;
+}
+.mo-head .mo-close:hover{color:var(--text);border-color:var(--border-hi)}
+.mo-note{
+  margin:0;padding:8px 11px;font-size:10.6px;line-height:1.6;color:var(--text-faint);
+  border-bottom:1px solid var(--border);
+}
+.mo-list{overflow-y:auto;padding:6px;display:flex;flex-direction:column;gap:3px}
+.mo-item{
+  display:flex;align-items:center;gap:9px;width:100%;text-align:left;
+  background:transparent;border:1px solid transparent;border-radius:9px;
+  padding:6px 8px;font:inherit;cursor:pointer;transition:.13s;
+}
+.mo-item:hover{background:var(--panel-2);border-color:var(--border)}
+.mo-item.active{background:rgba(77,212,192,.1);border-color:var(--accent)}
+.mo-logo{
+  flex:0 0 24px;width:24px;height:24px;border-radius:8px;background:#fff;
+  border:1.5px solid var(--c,var(--accent));display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
+.mo-logo img{width:80%;height:80%;object-fit:contain}
+.mo-logo>span{font:700 9px/1 var(--sans);color:#101722}
+.mo-txt{min-width:0;display:flex;flex-direction:column}
+.mo-txt b{font-size:12px;color:var(--text);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mo-txt i{font-size:10px;color:var(--text-faint);font-style:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* 東京拠点（本社が道府県外）のピンは二重枠で区別する */
+.cmp-wrap.branch .cmp-in{border-width:2px;box-shadow:0 1px 6px rgba(0,0,0,.6),0 0 0 2px rgba(8,11,17,.55),0 0 0 4px rgba(255,171,92,.35)}
+
+.mp-badge.branch{border-color:rgba(255,171,92,.55);color:#ffc78a;background:rgba(255,171,92,.12)}
+.mp-badge.outside{border-color:var(--border-hi);color:var(--text-faint);background:var(--panel)}
+.mp-addr-k{
+  display:inline-block;margin-right:6px;font-size:9.5px;padding:0 6px;border-radius:999px;
+  background:rgba(255,171,92,.12);color:#ffc78a;border:1px solid rgba(255,171,92,.4);
+  vertical-align:1px;
+}
+.mp-hq{font-size:11px;color:var(--text-faint);margin-top:3px;line-height:1.5;word-break:break-word}
+.mli-tag{
+  flex:0 0 auto;margin-left:auto;font-style:normal;white-space:nowrap;
+  font-size:9.5px;padding:0 6px;border-radius:999px;
+  background:rgba(255,171,92,.12);color:#ffc78a;border:1px solid rgba(255,171,92,.4);
+}
+.map-legend i.branch{
+  width:11px;height:11px;border:2px solid var(--accent);border-radius:50%;
+  box-shadow:0 0 0 2px rgba(255,171,92,.55);border-top:2px solid var(--accent);
+}
+
+@media (max-width:1100px){
+  .map-outside{left:10px;bottom:24px}
+  .mo-panel{max-height:min(42vh,340px)}
+}
+@media (max-width:640px){
+  .mo-panel{width:calc(100vw - 44px)}
 }
