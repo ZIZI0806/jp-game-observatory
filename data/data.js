@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-09T14:10:00+08:00",
+    updatedAt: "2026-10-09T19:10:00+08:00",
     edition: "2026-10-09",
     window: "2026-08-09 ~ 2026-10-09（滚动最近 2 个月）",
     sources: [
@@ -1303,15 +1303,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社HONEY∞PARADE GAMES（マーベラスグループ）",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-08-14",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-10-07（新情報映像を公開し、15 名のシノビ少女とストーリー序盤を紹介）",
+      capturedAt: "2026-10-09",
       title: { jp: "シノビNEXUS –閃乱カグラ–", cn: "忍者NEXUS -闪乱神乐-", en: "Shinobi NEXUS -Senran Kagura-" },
       genre: "コマンド RPG（ハイパーシノビバトル）",
       platforms: ["iOS", "Android", "Windows 11（DMM GAMES）"],
       release: "2026年内（配信日未定・事前登录中）",
       releasePrecision: "年",
-      summary: "HONEY∞PARADE GAMES 的《闪乱神乐》系列新作手游，2026 年 8 月 14 日在 Google Play 开启事前登录，iOS 与 DMM GAMES（Windows 11 64bit）版同步受理，预计 2026 年内开服。故事舞台设定在前作《忍者大师 闪乱神乐 NEW LINK》三年后，描写忍者学生们在善与恶交错之中各自背负信念、直面残酷命运的成长过程。战斗是洗练的指令式 RPG 与忍法结合的「超忍战斗」，角色表现采用卡通渲染 3D，并延续该工作室惯有的「换装、交流、立体场景」功能。角色设计仍由系列元老八重樫南担任。",
-      highlight: "系列新作回归手机端，前作三年后的全新忍者少女阵容，指令制 RPG＋忍法战斗。",
+      summary: "HONEY∞PARADE GAMES 的《闪乱神乐》系列新作手游，2026 年 8 月 14 日在 Google Play 开启事前登录，iOS 与 DMM GAMES（Windows 11 64bit）版同步受理，预计 2026 年内开服。故事舞台设定在前作《忍者大师 闪乱神乐 NEW LINK》三年后，描写忍者学生们在善与恶交错之中各自背负信念、直面残酷命运的成长过程。战斗是洗练的指令式 RPG 与忍法结合的「超忍战斗」，角色表现采用卡通渲染 3D，并延续该工作室惯有的「换装、交流、立体场景」功能。角色设计仍由系列元老八重樫南担任。2026-10-07 官方公开新情报影像，介绍从三所学园选出的 15 名忍者少女，并展示主线剧情序盘（コヒメ・イノリ・アキラ 三人相遇），11 月将播出以实机玩法为中心的情报节目。",
+      highlight: "【2026-10-07 新情報映像】TGS2026 の配信中止を受けて、HONEY∞PARADE GAMES は 10-07 に新情報映像を公開した。姫路バビ女子学園・綺羅星天女学園・紫月月弦女学園の 3 学園から選ばれた 15 名のシノビ少女が勢ぞろいし、メインストーリー序盤（コヒメ・イノリ・アキラ が出会う場面）も披露。2026 年 11 月にはゲームプレイを中心にした情報番組の配信を予定している。　系列新作回归手机端，前作三年后的全新忍者少女阵容，指令制 RPG＋忍法战斗。",
       mobile: {
         status: "事前登録受付中",
         os: ["iOS", "Android"],
@@ -1331,13 +1331,15 @@ window.OBSERVATORY = {
       news: [
         { source: "ゲームハック（マーベラス公式プレスリリース転載・8/14 Google Play 事前登録開始）", url: "https://gamehack.jp/381554" },
         { source: "QooApp ニュース（Android 事前登録開始と作品概要）", url: "https://news.qoo-app.com/post/442839" },
-        { source: "公式サイト（キャラクター紹介・秘伝忍法映像）", url: "https://hpgames.jp/shinovi-nexus/" }
+        { source: "公式サイト（キャラクター紹介・秘伝忍法映像）", url: "https://hpgames.jp/shinovi-nexus/" },
+        { source: "Yomimono（電ファミニコゲーマー発の報道：10-07 の新情報映像と 11 月の情報番組）", url: "https://www.yomimono.id/honey-parade-games-details-shinobi-nexus-senran-kagura" },
       ],
       videos: [
         { label: "タイトル発表PV", platform: "YouTube", url: "https://youtu.be/_avt71u1eZc" },
         { label: "公式 YouTube チャンネル @shinovi_nexus", platform: "YouTube", url: "https://www.youtube.com/@shinovi_nexus" },
         { label: "DMM GAMES 版 事前登録ページ", platform: "官方站", url: "https://dmg-shinovi-nexus.hpgames.jp/" },
-        { label: "App Store 事前登録ページ", platform: "App Store", url: "https://apps.apple.com/jp/app/id6569243522" }
+        { label: "App Store 事前登録ページ", platform: "App Store", url: "https://apps.apple.com/jp/app/id6569243522" },
+        { label: "新情報映像（15 名のシノビ少女とストーリー序盤を紹介）", platform: "媒体", url: "https://www.yomimono.id/honey-parade-games-details-shinobi-nexus-senran-kagura" },
       ],
       hype: {
         score: 71,
@@ -8740,6 +8742,232 @@ window.OBSERVATORY = {
         series: "新規 IP でシリーズ化はされていない。フリューとしては初の本格的な三人称シューティングで、プロデューサーは同社の城戸剛。2026-05 に発表され、2026-10-29 に世界同時発売を予定する"
       }
     },
+    {
+      id: "hololive-mahjong-holojan",
+      company: "COVER × Aiming",
+      companyJp: "カバー株式会社／株式会社Aiming",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-10-09（タイトル発表と事前登録受付開始）",
+      capturedAt: "2026-10-09",
+      title: { jp: "ホロライブ麻雀 -ホロじゃん-", cn: "hololive 麻将 -Holo-Jan-", en: "Hololive Mahjong -Holo-Jan-" },
+      genre: "推しと楽しむ麻雀ゲーム（オンライン対局・アイテム課金型）",
+      platforms: ["iOS", "Android", "Windows", "ブラウザ"],
+      release: "2026年内（配信日未定・事前登録受付中）",
+      releasePrecision: "年",
+      summary: "Cover（カバー）与 Aiming 的协作新作，2026-10-09 发表并同日开启事前登录。这是 hololive 首款正统麻将游戏，收录 37 名 hololive 旗下 VTuber——白上フブキ、宝鐘マリン、ロボ子さん、大神ミオ等均在其中。对局为可与全国玩家匹配的在线日麻，并针对新手内置「初心者アシスト機能」，另收录为本作新录的专属语音与可在牌局中使用的专属表情贴图。对应 iOS／Android／Windows／浏览器四端，基本免费、道具课金。事前登录按人数分 10 万／20 万／30 万三档发放 SNS 头像与「雀卓スキン」（按期生分主题），30 万人档另抽奖赠送麻将杂志风笔记本。官方同步开设 X／YouTube／TikTok／Discord，并定于 10-13 20:00 播出情报解禁生放送。",
+      highlight: "【2026-10-09 タイトル発表・事前登録開始】カバーと Aiming の協業による hololive 初の麻雀ゲーム『ホロライブ麻雀 -ホロじゃん-』が発表された。ホロライブのタレント 37 名が参加し、iOS／Android／Windows／ブラウザの 4 環境で展開。初心者アシスト機能、本作用に録り下ろした専用ボイス、対局中に使える専用スタンプを搭載する。　事前登録は App Store・Google Play・公式 X で受付中で、10 万／20 万／30 万人の段階に応じて SNS アイコンと「雀卓スキン」を配布、30 万人達成では麻雀雑誌風ノートの抽選も行う。10-13 20:00 には情報解禁を記念した生放送を予定。",
+      news: [
+        { source: "hololive 公式サイト（カバー公式ニュースリリース：タイトル発表・事前登録開始・キャンペーン報酬）", url: "https://hololive.hololivepro.com/news/20261009-01-415/" },
+        { source: "Yomimono（KAI-YOU 発の報道：対応機種・事前登録キャンペーン・関連企画の整理）", url: "https://yomimono.id/cover-and-aiming-announce-hololive-mahjong-game-holojan-for-2026" }
+      ],
+      videos: [
+        { label: "ゲームトレーラー（公式 YouTube・ホロじゃん公式チャンネル）", platform: "YouTube", url: "https://youtu.be/VhCUbO3w1NU" },
+        { label: "公式サイト『ホロライブ麻雀 -ホロじゃん-』", platform: "官方站", url: "https://www.holo-jong.com/" },
+        { label: "公式 X（@hololivemahjong）", platform: "X", url: "https://x.com/hololivemahjong" },
+        { label: "情報解禁記念生放送（2026-10-13 20:00 予定）", platform: "YouTube", url: "https://youtube.com/live/fhn_uUqI9hs" }
+      ],
+      hype: {
+        score: 74,
+        signals: [
+          "hololive 初の麻雀ゲームで、白上フブキ・宝鐘マリン・ロボ子さん・大神ミオら 37 名のタレントが参加。VTuber ファンベースがそのまま需要になる",
+          "カバーと Aiming の協業タイトル。発表当日に公式 X・YouTube・TikTok・Discord を一斉開設し、告知の初動を強く打った",
+          "事前登録を 10 万／20 万／30 万人の 3 段階に区切り、麻雀という裾野の広いジャンルで新規層の取り込みを狙う設計",
+          "10-13 の情報解禁生放送、11 月のインフルエンサー先行プレイなど、配信前の露出計画がすでに組まれている"
+        ]
+      },
+      tags: ["新作", "手游", "跨平台", "麻雀", "VTuber", "hololive"],
+      mobile: {
+        status: "事前登録受付中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アイテム課金型）",
+        preReg: { open: true, since: "2026-10-09", reward: "10万人：SNSアイコン＋雀卓スキン（0～2期生・ゲーマーズ）／20万人：SNSアイコン＋雀卓スキン（3～5期生）／30万人：SNSアイコン＋雀卓スキン（秘密結社holoX・ReGLOSS・FLOW GLOW）＋公式Xフォロー者から抽選で麻雀雑誌風ノート。受付は App Store・Google Play・公式 X のフォロー等で実施" },
+        developer: "カバー株式会社（企画・運営）／株式会社Aiming（協業・開発）",
+        publisher: "株式会社Aiming",
+        region: "日本",
+        distribution: "App Store / Google Play（日本）／ PC（Windows）／ ブラウザ版",
+        payment: [],
+        ipSource: "カバー株式会社が運営する女性VTuberグループ「hololive」の公式ライセンス作品。hololive 初の麻雀ゲーム",
+        series: "hololive は 2018 年始動。過去に『麻雀ファイトガール SP』とのコラボや独自の麻雀大会を実施してきたが、hololive 名義の単独タイトルは本作が初",
+        features: [
+          "ホロライブのタレント総勢 37 名が参加する、hololive 初の麻雀ゲーム",
+          "麻雀初心者でも安心の「初心者アシスト機能」を搭載",
+          "本作のために録り下ろした専用ボイスと、対局中に感情を伝えられる専用スタンプ",
+          "スマートフォンと PC（Windows・ブラウザ）の双方に対応し、全国のプレイヤーとオンライン対局ができる",
+          "事前登録者数に応じて、期生別デザインの「雀卓スキン」など段階的な特典を配布"
+        ],
+        synopsis: "ホロライブのタレントたちと麻雀を楽しむことを主眼に据えたタイトル。プレイヤーは推しのタレントと卓を囲み、全国のプレイヤーと対局しながら専用ボイスとスタンプでコミュニケーションを取る。情報解禁生放送では「牌源郷（ぱいげんきょう）」という独自の世界観が示された。",
+        cast: "公式に声優の個別発表はなし。ホロライブ所属タレント 37 名が本人役で参加し、本作用に専用ボイスを録り下ろした（白上フブキ・宝鐘マリン・ロボ子さん・大神ミオほか）"
+      }
+    },
+    {
+      id: "girls-und-panzer-bokosuka-rush",
+      company: "G Holdings",
+      companyJp: "株式会社Gホールディングス",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-10-09（制作決定を発表）",
+      capturedAt: "2026-10-09",
+      title: { jp: "ガールズ&パンツァー ボコすかラッシュ", cn: "少女与战车 BOKOSUKA RUSH", en: "Girls und Panzer: Bokosuka Rush" },
+      genre: "タンクアクション（スマートフォン向けアプリ）",
+      platforms: ["iOS", "Android"],
+      release: "未定（配信日は未発表）",
+      releasePrecision: "未定",
+      summary: "《少女与战车》新作手机游戏，2026-10-09 与 D3Publisher 的主机新作同日发表。舞台取自剧场版《ガールズ&パンツァー der Film》中登场的「ボコ博物館」：西住みほ 与 島田愛里寿 前往馆内体验「戦車シミュレーター」，却在里面遭遇 ボコ 作为敌人。玩家可自由组合乘员与战车，乘员会随使用逐步成长，战车侧的能力也随之解锁。开发・配信由动画／漫画 IP 社交游戏的日本企业 G Holdings 担当。配信日期、事前登录、课金形态均未公布，官方仅公开了制作决定 PV 与官方网站。同日公布的家庭用新作是 Nintendo Switch 2 的『オールスター・タンク・カーニバル』，IP 的游戏展开同时启动。",
+      highlight: "【2026-10-09 制作決定】アニメ『ガールズ&パンツァー』の新作アプリゲーム『ガールズ&パンツァー ボコすかラッシュ』（略称 #ガルすか）の制作が決定し、記念 PV が公開された。舞台は劇場版『ガールズ&パンツァー der Film』に登場する「ボコ博物館」で、西住みほ と 島田愛里寿 が館内の「戦車シミュレーター」に挑み、ボコ が敵として立ちはだかる。　配信日・事前登録・課金形態はいずれも未発表。同日、D3パブリッシャーの Nintendo Switch 2 用『ガールズ＆パンツァー オールスター・タンク・カーニバル』も発表され、IP のゲーム展開が同時に動いた。",
+      news: [
+        { source: "公式サイト『ガールズ&パンツァー ボコすかラッシュ』（制作決定・PV）", url: "https://garupan-garusuka.com/" },
+        { source: "Anime News Network（D3P と G Holdings が同日にそれぞれ新作を発表・作品内容と開発体制）", url: "https://www.animenewsnetwork.com/news/2026-10-09/girls-und-panzer-franchise-gets-2-new-games/.242665" }
+      ],
+      videos: [
+        { label: "公式 X（@garupan_grsk：制作決定 PV を公開）", platform: "X", url: "https://x.com/garupan_grsk/status/2108378272803467294" },
+        { label: "公式サイト（PV・続報）", platform: "官方站", url: "https://garupan-garusuka.com/" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "劇場版『ガールズ&パンツァー 最終章』第 5 話が 2026-10-09 に公開され、IP の話題性が高い時期に合わせて発表された",
+          "IP ホルダーではなく、アニメ・漫画 IP のソーシャルゲームを手がけてきた G Holdings が開発・配信を担当する",
+          "配信日・事前登録・課金形態がすべて未発表で、現時点で公開されている情報は制作決定と PV に限られる",
+          "同日に D3パブリッシャーの Nintendo Switch 2 用新作も発表され、家庭用とスマホで IP 展開が同時に動いた"
+        ]
+      },
+      tags: ["新作", "手游", "アニメIP", "タンクアクション", "ガールズ&パンツァー"],
+      mobile: {
+        status: "配信予定（時期未定）",
+        os: ["iOS", "Android"],
+        monetization: "未発表",
+        preReg: { open: false, since: "未開始", reward: "事前登録は未開始（2026-10-09 時点で配信日・登録開始の告知なし）" },
+        developer: "未公表（G Holdings が開発・配信を担当すると発表）",
+        publisher: "株式会社Gホールディングス",
+        region: "日本",
+        distribution: "未発表（スマートフォン向けアプリとして制作決定）",
+        payment: [],
+        ipSource: "アニメ『ガールズ&パンツァー』のライセンス作品（©GIRLS und PANZER Projekt／©GIRLS und PANZER Film Projekt／©GIRLS und PANZER Finale Projekt）。IP ホルダーからライセンスを受けて G Holdings が制作する",
+        series: "『ガールズ&パンツァー』のゲーム展開は PS4『ドリームタンクマッチ』（2018）と Switch『ドリームタンクマッチ DX』（2019）が直近。本作は同シリーズのスマートフォン向け新作",
+        features: [
+          "劇場版『ガールズ&パンツァー der Film』に登場する「ボコ博物館」が舞台。みほ と 愛里寿 が館内の戦車シミュレーターに挑む",
+          "乗員と搭乗する戦車の組み合わせを自由に組める。乗員は使うほど成長し、戦車側の能力も解放される",
+          "戦車シミュレーターの中で「ボコ」が敵として立ちはだかるオリジナルの戦闘設定",
+          "キャラクター IP を前面に出したスマートフォン向けの新作アプリ"
+        ],
+        synopsis: "劇場版に登場した「ボコ博物館」を舞台に、西住みほ と 島田愛里寿 が館内の「戦車シミュレーター」を体験する。ところがシミュレーターの中では ボコ が敵として現れ、二人は戦車戦に挑むことになる。",
+        cast: "公式に新規の声優発表はなし（西住みほ・島田愛里寿 ら原作アニメのキャラクターが登場）"
+      }
+    },
+    {
+      id: "girls-und-panzer-all-star-tank-carnival",
+      company: "D3 Publisher",
+      companyJp: "株式会社ディースリー・パブリッシャー",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-10-09（Nintendo Switch 2 用として 2027 年内発売を発表）",
+      capturedAt: "2026-10-09",
+      title: { jp: "ガールズ＆パンツァー オールスター・タンク・カーニバル", cn: "少女与战车 全明星坦克嘉年华", en: "Girls und Panzer: All-Star Tank Carnival" },
+      genre: "戦車アクション",
+      platforms: ["Nintendo Switch 2"],
+      release: "2027年内（日本。価格は未定）",
+      releasePrecision: "年",
+      summary: "D3Publisher 于 2026-10-09 发表的《少女与战车》主机新作，对应 Nintendo Switch 2，预定 2027 年内日本发售，价格未定。开发由 2018 年 PS4《少女与战车 梦幻坦克战》团队参与，定位是「全面进化的坦克动作体验」：保留前作轻快的漂移动作，强化画面与演出，并强调车长从炮塔探出头的反应与生动台词。除坦克对战外，新增可操作西住美穗徒步探索故事舞台「大洗」的观光要素——可开着四号战车在镇上行驶，与散落各处的伙伴对话触发游戏原创的剧情任务。线上对战最多支持 10 名玩家实时对战。官方公开了发表用预告影像与特设网站。",
+      highlight: "【2026-10-09 発表】ディースリー・パブリッシャーが Nintendo Switch 2 用ソフト『ガールズ＆パンツァー オールスター・タンク・カーニバル』を 2027 年内に発売すると発表した。価格は未定。開発には PS4／Switch『ガールズ＆パンツァー ドリームタンクマッチ』のスタッフが参加し、軽快なドリフトアクションをそのままにグラフィックスと演出を強化する。　最大 10 人のオンライン対戦に加え、物語の舞台・大洗を探索できるモードを新搭載。西住みほ を操作して徒歩で町を歩けるほか四号戦車で走行でき、町の仲間に話しかけるとゲームオリジナルのストーリークエストが発生する。",
+      news: [
+        { source: "4Gamer（D3P 発表：Nintendo Switch 2 用・2027 年内発売・価格未定）", url: "https://www.4gamer.net/games/048/G104897/20261009011/" },
+        { source: "Nintendo Everything（作品概要・大洗の探索要素・最大 10 人のオンライン対戦）", url: "https://nintendoeverything.com/girls-und-panzer-all-star-tank-carnival-announced-for-nintendo-switch-2/" },
+        { source: "Anime News Network（同日発表のスマホ版とあわせた報道）", url: "https://www.animenewsnetwork.com/news/2026-10-09/girls-und-panzer-franchise-gets-2-new-games/.242665" }
+      ],
+      videos: [
+        { label: "公式サイト『ガールズ＆パンツァー オールスター・タンク・カーニバル』", platform: "官方站", url: "https://www.d3p.co.jp/garupan/" },
+        { label: "4Gamer 報道（アナウンスメントトレーラーを掲載）", platform: "媒体", url: "https://www.4gamer.net/games/048/G104897/20261009011/" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "『ドリームタンクマッチ』の開発チームが参加する続編で、シリーズファンの期待が直接乗る",
+          "劇場版『最終章』第 5 話が 2026-10-09 に公開され、IP の盛り上がりと同時に発表された",
+          "最大 10 人のオンライン対戦と、大洗を徒歩・戦車で探索できる新モードを搭載する",
+          "Nintendo Switch 2 向けとして 2027 年内発売予定。具体的な発売日と価格は未発表"
+        ]
+      },
+      tags: ["新作", "主机", "タンクアクション", "アニメIP", "ガールズ&パンツァー", "Switch 2"],
+      console: {
+        status: "2027年内 発売予定（日本）",
+        os: ["Nintendo Switch 2"],
+        monetization: "未発表（価格未定）",
+        developer: "株式会社ディースリー・パブリッシャー（開発に『ガールズ＆パンツァー ドリームタンクマッチ』のスタッフが参加）",
+        publisher: "株式会社ディースリー・パブリッシャー",
+        region: "日本",
+        distribution: "Nintendo Switch 2 用ソフト（パッケージ／ダウンロードの別は未発表）",
+        stores: ["Nintendo eShop"],
+        features: [
+          "『ドリームタンクマッチ』の軽快なドリフトアクションを継承しつつ、グラフィックスと演出を強化した戦車アクション",
+          "装甲の角度調整、履帯を狙って相手を足止めするなど、原作らしい戦車道の駆け引きを再現",
+          "戦車長がハッチから顔を出す反応やセリフの演出を強化し、試合中の臨場感を高める",
+          "物語の舞台・大洗を探索できるモードを新搭載。西住みほ を操作して徒歩で町を歩き、四号戦車で走行もできる",
+          "町に散らばる仲間キャラクターに話しかけると、ゲームオリジナルのストーリークエスト（試合）が発生する",
+          "最大 10 人のリアルタイムオンライン対戦に対応。好きな戦車とクルーの組み合わせで全国の相手と戦える"
+        ],
+        synopsis: "アニメ『ガールズ＆パンツァー』の戦車道を題材にしたアクションゲーム。プレイヤーは戦車を操って全国の相手と対戦するほか、物語の舞台である大洗の町を 西住みほ として歩き、仲間との会話から試合へと発展する物語をたどる。",
+        ipSource: "アニメ『ガールズ&パンツァー』のライセンス作品（©GIRLS und PANZER Projekt／©GIRLS und PANZER Film Projekt／©GIRLS und PANZER Finale Projekt）",
+        series: "『ガールズ＆パンツァー ドリームタンクマッチ』（PS4・2018）／同 DX（Nintendo Switch・2019）の系譜に連なる家庭用新作"
+      }
+    },
+    {
+      id: "karei-endless-death-match",
+      company: "Phase",
+      companyJp: "株式会社フェイズ（Phase Co., Ltd.）",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-10-02（無料体験版の配信日と Steam Next Fest 参加を発表）",
+      capturedAt: "2026-10-09",
+      title: { jp: "華麗 無限城の死闘", cn: "华丽 无限城死斗", en: "KAREI - ENDLESS DEATH MATCH" },
+      genre: "ターン制パズルローグライク",
+      platforms: ["Steam（Windows）", "iOS", "Android"],
+      release: "2026年第4四半期（Steam 製品版。iOS は『KAREI 序章』として 2026-10-10 に無料配信、Android も同日から無料体験版）",
+      releasePrecision: "季",
+      summary: "东京游戏开发公司 Phase（株式会社フェイズ）自社开发、自社发行的回合制解谜 Roguelike。2026-10-02 宣布免费体验版将于 10-10 在 Steam（Windows）、iOS、Android 三平台同步推出，并确定参加 10-20〜27 的 Steam Next Fest。舞台是 8×8 棋盘：玩家每走一步敌人也走一步，必须在「斩击／闪避／设下机关」之间做出选择，能否看穿敌人下一步决定能否继续向上攀层。玩家扮演一名女忍者，携带卷轴、手里剑、隐身三种忍具挑战无人归来的「无限城」。楼层每次重新生成且不继承进度，途中取得的秘具可扭转战局。体验版可玩第 1〜10 层并迎战首位头目「がしゃどくろ」，iOS 版以《KAREI 序章》名义在 App Store 接受预约（仅 iPhone、iOS 15.0 以上）。对应日语与英语，未支持中文。本作曾在 TGS2026 展出试玩。",
+      highlight: "【2026-10-02 発表】東京のゲーム開発会社フェイズが、自社開発・自社販売のターン制パズルローグライク『華麗 無限城の死闘』の無料体験版を 10-10 に Steam（Windows）・iOS・Android の 3 プラットフォームで同時配信すると発表した。Steam Next Fest（10-20〜27）への参加も決定。　舞台は 8×8 の盤面で、自分が一手動くと敵も一手動く。体験版は第 1〜10 層と最初のボス「がしゃどくろ」まで遊べ、専用のオンラインランキングシーズン「黎明の足音」も開催される。iOS 版は『KAREI 序章』のタイトルで App Store にて予約注文を受付中。",
+      news: [
+        { source: "AppBank（体験版の配信日・対応機種・体験版で遊べる範囲と価格）", url: "https://www.appbank.net/2026/10/07/game/3123994.php" },
+        { source: "QooApp（フェイズ発表の原文・玩法特徴・Steam 新品節への参加）", url: "https://news.qoo-app.com/post/446739/karei-endless-death-match-demo" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（KAREI - ENDLESS DEATH MATCH・トレーラー掲載）", platform: "Steam", url: "https://store.steampowered.com/app/4937320/" },
+        { label: "App Store『KAREI 序章』予約ページ", platform: "App Store", url: "https://apps.apple.com/app/id6806519293" },
+        { label: "Google Play 体験版ページ", platform: "Google Play", url: "https://play.google.com/store/apps/details?id=net.karei.game.demo" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "東京の開発会社フェイズによる自社パブリッシング作で、TGS2026 に出展し会場で試遊を実施している",
+          "Steam・iOS・Android の 3 平台で同日に無料体験版を出し、Steam Next Fest にも参加するためインディー層への露出を確保できる",
+          "「死」を前提にした短いランを積み重ねるパズルローグライクで、海外のインディー系メディアにも取り上げられている",
+          "対応言語は日本語と英語のみで韓国語・中国語は未対応。国内向けの追加露出は今後の課題"
+        ]
+      },
+      tags: ["新作", "跨平台", "パズルローグライク", "インディー", "和風"],
+      mobile: {
+        status: "配信予定（2026-10-10 に無料体験版を配信。製品版は Steam で 2026 年第 4 四半期予定）",
+        os: ["iOS", "Android"],
+        monetization: "未発表（体験版は無料。製品版の価格は未公表）",
+        preReg: { open: true, since: "2026-10-02", reward: "iOS 版『KAREI 序章』は App Store で予約注文を受付中（2026-10-10 配信予定・無料、第 10 階層まで収録）。人数マイルストーン型の特典は未発表" },
+        developer: "株式会社フェイズ（Phase Co., Ltd.／東京）",
+        publisher: "株式会社フェイズ（Phase Co., Ltd.）",
+        region: "日本（Steam 版は日本語・英語に対応。中国語・韓国語は未対応）",
+        distribution: "App Store（iOS・『KAREI 序章』として）／ Google Play（Android 体験版）／ Steam（Windows）",
+        payment: [],
+        ipSource: "オリジナル IP（株式会社フェイズによる自社企画・開発・販売。既存 IP のライセンスではない）",
+        series: "新規オリジナル IP。フェイズは東京を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオで、本作はその自社パブリッシング作のひとつ",
+        features: [
+          "8×8 の盤面で、自分が一手動くと敵も一手動くターン制。斬る・避ける・仕掛けるの選択が毎ターンの小さなパズルになる",
+          "巻物・手裏剣・隠れ身の 3 つの忍具を使い分け、敵の次の一手を読んで上の階を目指す",
+          "道中で手に入る秘具が形勢を逆転させる。何を拾い、いつ使うかが生還を左右する",
+          "通常の階層に加えて、床まで敵になる「からくり」の階層が登場。階層は毎回生成され、進捗は持ち越されない",
+          "体験版は第 1〜10 層と最初のボス「がしゃどくろ」まで。専用のオンラインランキングシーズン「黎明の足音」を開催"
+        ],
+        synopsis: "いつからか建っている「無限城」——幾多の猛者が挑み、誰ひとり帰らなかった。巻物・手裏剣・隠れ身を携えた一人のくノ一が、上へ上へと登っていく。8×8 の盤上で敵の一手を読み切り、次の一歩を選び続ける。",
+        cast: "公式に声優情報の発表はなし（プレイヤーキャラクターは一人のくノ一）"
+      }
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -8809,7 +9037,7 @@ window.OBSERVATORY = {
           { name: "株式会社バンク・オブ・イノベーション", short: "Bank of Innovation", status: "watch" },
           { name: "ワンダープラネット株式会社", short: "WonderPlanet", status: "watch" },
           { name: "株式会社アピリッツ", short: "Appirits", status: "watch" },
-          { name: "株式会社Aiming", short: "Aiming", status: "covered", gameIds: ["eminence-in-shadow-phantom-echoes"], note: "自社スタジオ Team CARAVAN が『陰の実力者になりたくて！ ファントムエコーズ』を開発し、スマホ中心の事業からコンシューマ 3D アクションへ領域を広げる（2027 年発売予定、KADOKAWA が原作監修）" },
+          { name: "株式会社Aiming", short: "Aiming", status: "covered", gameIds: ["eminence-in-shadow-phantom-echoes", "hololive-mahjong-holojan"], note: "自社スタジオ Team CARAVAN が『陰の実力者になりたくて！ ファントムエコーズ』を開発し、スマホ中心の事業からコンシューマ 3D アクションへ領域を広げる（2027 年発売予定、KADOKAWA が原作監修）" },
         ]
       },
       {
@@ -8845,7 +9073,7 @@ window.OBSERVATORY = {
         { name: "NHNプレイアート株式会社", short: "NHN PlayArt", status: "covered", gameIds: ["touken-ranbu-pazugiri", "over-rush", "puchipoyon-fantasy-world"], note: "TGS2026 に8年ぶり出展し新作3本を同時公開。『幻想世界のぷちぽよん』は LEVEL-5 との共同タイトル、『刀剣乱舞 ぱずぎり』はパズル部分の開発を担当" },
         { name: "TOHO Games（東宝株式会社）", short: "TOHO Games", status: "covered", gameIds: ["haikyu-all-challengers", "apothecary-diaries-false-imperial-brother"], focus: true, note: "动画『ハイキュー!!』のIP保有元が自らゲーム事業ブランドを運営。IP ホルダー直営のため監修業務と直結。9/10 にはコーエーテクモゲームス（ガスト）と共同でテレビアニメ『薬屋のひとりごと』初の家庭用ゲーム『薬屋のひとりごと ～偽りの皇弟～』（2027 年初頭、Switch 2・Switch・PS5・Steam）を発表し、自社ブランド初のコンシューマーゲーム事業参入となる" },
         { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
-        { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["regloss-cross", "hololive-dreams", "holovillage-our-cozy-days"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発" },
+        { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["regloss-cross", "hololive-dreams", "holovillage-our-cozy-days", "hololive-mahjong-holojan"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発。2026-10-09 には Aiming との協業で hololive 初の麻雀ゲーム『ホロライブ麻雀 -ホロじゃん-』を発表した" },
         { name: "株式会社QualiArts", short: "QualiArts", status: "covered", gameIds: ["hololive-dreams"], note: "サイバーエージェント連結子会社。『hololive Dreams』の開発・配信元" },
         { name: "株式会社enish", short: "enish", status: "covered", gameIds: ["yowamushi-pedal-resonance-pedaism"], note: "東証グロース上場。Gホールディングスと共同で『弱虫ペダル』新作アプリを運営" },
         { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
@@ -8866,7 +9094,7 @@ window.OBSERVATORY = {
         { name: "株式会社アクティブゲーミングメディア（PLAYISM）", short: "PLAYISM", status: "covered", gameIds: ["devil-connection"], note: "インディーゲームのローカライズとパブリッシングを手がける日本企業。PLAYISM ブランドで家庭用・モバイル向けの発行を行い、『DevilConnection』（開発：ChaoGames）の Switch／iOS／Android 版を 2027-01-21 に発売する。PLAYISM GAME SHOW: TGS 2026 Preview で本作の発売日を発表し、TGS2026 会場ではプレイアブル出展も行った" },
         { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium", "sentimental-graffiti-remake", "azure-memoria"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
         { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された" },
-        { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した" },
+        { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world", "girls-und-panzer-all-star-tank-carnival"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した。2026-10-09 には『ガールズ＆パンツァー オールスター・タンク・カーニバル』の Nintendo Switch 2 版を 2027 年内発売と発表" },
         { name: "株式会社アプリボット", short: "Applibot", status: "watch", gameIds: [], focus: true, note: "『ちいかわ』初のスマホアプリを企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。同作は 2025-03-27 配信開始済みの在営タイトルのため、本台は内容更新を収録対象外としている" },
         { name: "株式会社ライドオンジャパン", short: "Rideon Japan", status: "covered", gameIds: ["mercenaries-grace"], note: "タクティカル RPG『Mercenaries Saga』シリーズを自社で企画・開発・配信する日本のスタジオ。2026-09-25 にシリーズ第 8 作『Mercenaries Grace: Black Feather and the Golden Right Arm』（PlayStation 5／Nintendo Switch／PC（Steam）、日本では 2026 年 11 月にデジタル配信予定）を発表したため補充監視に追加" },
         { name: "株式会社ビサイド", short: "BeXide", status: "covered", gameIds: ["namco-legendary-mountains"], note: "日本のゲーム開発・パブリッシャー。バンダイナムコエンターテインメントからナムコ アーケード作品の IP ライセンスを受け、3D パズル『NAMCO LEGENDARY Mountains』を自社で開発・販売。2026-06-25 に Nintendo Switch／Nintendo Switch 2／Steam 版、2026-09-24 に iOS／Android 版を買い切りで配信した" },
@@ -8875,6 +9103,8 @@ window.OBSERVATORY = {
         { name: "PiXEL CO., LTD.", short: "PiXEL", status: "covered", gameIds: ["angelian-trigger"], note: "レトロ調のシューティングを自社で企画・開発・発売する日本のスタジオ（『Wing of the Asteria』など）。疑似 3D STG『アンシェリアントリガー』は 2024-12-12 に国内 Nintendo Switch 向けへ先行発売され、2026-10-05 に PC（Steam）版 2026-12-10・PlayStation 5 版 2027 年の展開が発表されたため補充監視に追加" },
         { name: "One or Eight INC.", short: "One or Eight", status: "covered", gameIds: ["pixelheroscramble-plus"], note: "東京都千代田区を拠点に自社コンテンツの企画・開発・発売を行う国内スタジオ。2026-10-07 に固定ルート型タワーディフェンス『PixelHeroScramble Plus』（PC（Steam）／Nintendo Switch、2026-12-01 発売予定）を発表し、同日から Steam で無料体験版を配信したため補充監視に追加" },
         { name: "株式会社フリュー", short: "FURYU", status: "covered", gameIds: ["anomalith"], note: "東京・八王子に本社を置く東証プライム上場の国内メーカー（2007 年にオムロンから MBO で独立）。プライズ・キャラクター商品を柱に、家庭用ゲームとアニメ事業を展開する。2026-05 に発表した自社初の本格サバイバル TPS『アノマリス/ANOMALITH』（開発：ウイニングエンターテインメントグループ＝旧ナツメアタリ、2026-10-29 発売予定）の正式体験版が 2026-10-08 に配信開始されたため、補充監視に追加した" },
+        { name: "株式会社Gホールディングス", short: "G Holdings", status: "covered", gameIds: ["girls-und-panzer-bokosuka-rush"], note: "アニメ・漫画 IP を題材にしたソーシャルゲームの企画・開発・配信を手がける日本企業（enish と共同で『弱虫ペダル』新作アプリを運営）。2026-10-09 にアニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の制作を発表したため補充監視に追加" },
+        { name: "株式会社フェイズ（Phase Co., Ltd.）", short: "Phase", status: "covered", gameIds: ["karei-endless-death-match"], note: "東京都を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオ。ターン制パズルローグライク『華麗 無限城の死闘』（Steam／iOS／Android、2026 年第 4 四半期予定）を自社で開発・販売し、2026-10-02 に無料体験版を 10-10 配信と発表したため補充監視に追加。TGS2026 に出展し会場で試遊を実施した" },
       ]
     }
   },
@@ -8945,6 +9175,20 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-09 19:10",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "日方主導の新規スマホタイトルは 2 件 —— ①カバーと Aiming の協業による hololive 初の麻雀ゲーム『ホロライブ麻雀 -ホロじゃん-』が 10-09 に発表され、同日から事前登録を開始した（ホロライブのタレント 37 名が参加、iOS／Android／Windows／ブラウザ、基本無料のアイテム課金型、2026 年内配信予定。10-13 20:00 に情報解禁の生放送を予定）。②アニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の制作が決定した（開発・配信は G Holdings、配信日・事前登録は未発表）。",
+          "条目総数は 155 → **159**（手游区 34 → 37／主机・PC 区 132 → 135）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 41 → **43 社**（G Holdings・Phase を追加）。",
+          "主机・PC の新規は 2 件 —— D3パブリッシャーの Nintendo Switch 2 用『ガールズ＆パンツァー オールスター・タンク・カーニバル』（2027 年内・価格未定、『ドリームタンクマッチ』開発チームが参加、最大 10 人のオンライン対戦と大洗探索を搭載）、および漏収回填として東京のフェイズが自社開発・自社販売するターン制パズルローグライク『華麗 無限城の死闘』（10-10 に Steam／iOS／Android の 3 平台で無料体験版、Steam Next Fest 10-20〜27 に参加）。",
+          "更新は 1 件 —— HONEY∞PARADE GAMES の『シノビNEXUS –閃乱カグラ–』が 10-07 に新情報映像を公開し、3 学園から選ばれた 15 名のシノビ少女とメインストーリー序盤（コヒメ・イノリ・アキラ の邂逅）を紹介した。2026 年 11 月にはゲームプレイを中心にした情報番組を配信予定。",
+          "漏収核查（アニメ／ゲーム IP の個別検索）：ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマン／ガールズ&パンツァー／閃乱カグラ を確認。ホロライブとガールズ&パンツァーの 2 件が今回の実入りだった。",
+          "見送り（既定の赤線運用）：① 開発が海外で日方は発売元のみの案件は日方主導と判断せず不収録。② 本体が窓口外の在営タイトルへのコンテンツ追加（新章・周年・コラボ・DLC）は口径どおり不収録（運営終了は記録のみ）。③ 中国・韓国資本の案件、および日本 IP をライセンスした海外資本開発の新作は社名・作品名とも記載せず。④ 非日本開発のインディー（3i ショーケースの各作など）も不収録。",
+          "TGS2026 は展後記録として凍結を継続。Famitsu 期待榜は 2026-10-04 期のままで新期なし。KV（主视觉）取得は日常巡検の範囲外で、本場新增 4 件も未取得のまま（別建ての KV 場で処理）。",
+          "【持越し】① ⑥ 項の赤線は「社名の字面走査」のため、日文名の香港資本（法人登記住所が香港）は引き続き人手での確認が必要。② 条目 bucket の旧揺れ：『KEMURI』（2023 年発表・2026-09-18 建卡）は bucket=new のまま（⑦f の文言上は update が妥当）。次場以降の清理候補。③ 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。"
+        ]
+      },
+      {
         at: "2026-10-09 14:10",
         scene: "定時巡検（日中の部）",
         items: [
@@ -8955,19 +9199,6 @@ window.OBSERVATORY = {
           "見送り（既定の赤線運用）：① 開発が海外で日方は発売元のみの案件（ポーランドの MythicOwl 開発・Pocketpair Publishing 発売『Truckful』＝10-09 発売）は、日方主導の開発・発売とは判断せず不収録。② 既に PC（Steam）で発売済みの『Monster Hunter Stories 3: Twisted Reflection』の Xbox on PC 版（11-18）は、同一プラットフォーム内のストア追加に留まるため他機種版扱いにしない。③ 本体が窓口外の旧作への移植・DLC 追加は口径どおり不収録。④ 中国・韓国資本の案件は社名・作品名とも記載せず。⑤ 国内小規模カジュアル 1 本（SAT-BOX）は監視対象社・報道量とも基準に達しないため見送り。在営タイトルの内容更新も口径どおり不収録。",
           "TGS2026 は展後記録として凍結を継続。Famitsu 期待榜は 2026-10-04 期で新期なし。KV（主视觉）取得は日常巡検の範囲外で、本場新增分も未取得のまま。",
           "【持越し】① ⑥ 項の赤線は「社名の字面走査」のため、日文名の香港資本（法人登記住所が香港）は引き続き人手での確認が必要。② 条目 bucket の旧揺れ：『KEMURI』（2023 年発表・2026-09-18 建卡）は bucket=new のまま（⑦f の文言上は update が妥当）。次場以降の清理候補。"
-        ]
-      },
-      {
-        at: "2026-10-08 19:10",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "日方主導の新規スマホタイトルは 1 件 —— バンダイナムコエンターテインメントが 10-01、1985 年のファミコン用『キン肉マン マッスルタッグマッチ』を強化してスマホ向けに復活させる『キン肉マン マッスルタッグマッチ 令和復活編』を発表し、事前登録と「超人総選挙2026」を開始した。参戦超人 50 名、Bluetooth の 2P 対戦対応、1,000 円の買い切り。",
-          "条目総数は 150 → **154**（手游区 33 → 34／主机・PC 区 128 → 131）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 38 → **40 社**（PiXEL・One or Eight を追加）。",
-          "主机・PC の新規は 3 件 —— 松竹ゲームズが共同発売を担う協力型サバイバルホラー『Invokyr』（開発 Ludogram・Steam 早期アクセスを 10-08 に開始）、PiXEL の疑似 3D STG『アンシェリアントリガー』の Steam 版 12-10／PS5 版 2027 年の発表、東京の One or Eight による固定ルート型タワーディフェンス『PixelHeroScramble Plus』（12-01 発売・体験版を 10-07 配信）。",
-          "更新は 1 件 —— KADOKAWA の『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～』（まちすば）が、10-05 の公式 X で発売時期を「2026 年内」から 2027 年 2 月へ延期。事前登録と対応機種（iOS・Android・PC／DMM GAMES）は変更なし。",
-          "漏収核查（アニメ／ゲーム IP の個別検索）：ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマンなどを確認。スマホ側の新規は上記の 1 件のみだった。",
-          "見送り（既定の赤線運用）：日本 IP のライセンスを受けた海外資本開発のスマホ新作や、開発元が韓国資本の新作を検索で確認したが、社名・作品名とも記載せず不収録とした。在営タイトルのサービス終了告知・コラボ・周年企画などの内容更新も口径どおり不収録（運営終了は記録のみ）。",
-          "Famitsu 期待榜は 2026-10-04 期へ更新（1 位 Pokemon Winds／Waves 583 票、2 位 ゼルダの伝説 時のオカリナ 504 票、3 位 ペルソナ6 456 票）。Nintendo Direct 組では『Kirby and the World Beyond』が 26 位に初登場した。TGS2026 は展後記録として凍結を継続。"
         ]
       },
     ],
