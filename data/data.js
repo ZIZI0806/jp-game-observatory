@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-09-30
+ * 最后更新: 2026-10-09
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-08T19:10:00+08:00",
-    edition: "2026-10-08",
-    window: "2026-08-08 ~ 2026-10-08（滚动最近 2 个月）",
+    updatedAt: "2026-10-09T14:10:00+08:00",
+    edition: "2026-10-09",
+    window: "2026-08-09 ~ 2026-10-09（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -4329,17 +4329,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社カプコン",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 カプコン展台で日本初の一般試遊を実施）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-10-09（発売当日）",
+      capturedAt: "2026-10-09",
       title: { jp: "ドラゴンズドグマ 2 ダークアリズン", cn: "龙之信条 2：黑暗觉者", en: "Dragon's Dogma 2: Dark Arisen" },
       genre: "动作RPG（大型付费追加内容）",
       platforms: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC (Steam)"],
-      release: "2026-10-09",
+      release: "2026-10-09（発売済み。Nintendo Switch 2 は本体同梱のセット版のみ、他機種は拡張単体もあり）",
       releasePrecision: "日",
       summary: "《龙之信条 2》的付费大型扩张内容，2026-10-09 发售。PS5／Xbox Series X|S／Steam 上作为单独 DLC 提供，Switch 2 则是首次登陆任天堂硬件、以「本体＋扩张」的组合包形式发售。新舞台是北方被遗弃的雪原「诺干（Norgan）」，围绕神秘角色 Eir 与不死的堕落巨龙展开，新增两块早期章节：Lost Rites（建议 20 级左右）与 Forsaken Dominion（建议 40 级左右）。核心循环是「遗物远征」——从雪原带回的古代遗物交由村长 Jiera 鉴定，能开出性能随稀有度浮动的新武器防具，部分装备还会直接赋予全新战斗技能或强化既有技能。此外追加 12 座「Lost Rites」新迷宫、新敌（贝奥尔坎游牧战士、能喷冰息冻住目标的诺干巨人、冰龙 Fimbl）、可花钱雇来嗅出隐藏宝藏的凶狼 Freki，武器技能槽从 4 个扩到 6 个，并加入面对满级玩家的 Hard Mode。角色创建新增发型与纹身。",
-      highlight: "【TGS2026 9/17】Capcom 展台（7 号馆）提供日本首次可试玩，并设 e-Capcom 现场贩售与预购。　卡普空把 2024 年原作的「不便」当成卖点来扩容：用雪原新区域＋遗物鉴定循环给通关后的角色一个继续变强的理由，同时首次把系列带上 Switch 2。",
+      highlight: "【発売 2026-10-09】Nintendo Switch 2／PlayStation 5／Xbox Series X|S／PC（Steam）で発売。発売に合わせて津田健次郎ナレーションの特別映像も公開された。　卡普空把 2024 年原作的「不便」当成卖点来扩容：用雪原新区域＋遗物鉴定循环给通关后的角色一个继续变强的理由，同时首次把系列带上 Switch 2。",
       console: {
-        status: "2026-10-09 発売予定（予約受付中。日本では発売日 9:00 配信とストアに記載）",
+        status: "2026-10-09 発売済み（日本は 10-09 9:00 JST 配信）",
         os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC（Steam）"],
         monetization: "買い切り。既存プレイヤー向けの拡張単体は 29.99 ドル、本体同梱のセット版は 49.99 ドル（北米価格。日本価格は現時点で未発表）。Switch 2 版は本体と拡張を同梱したセット版のみ",
         developer: "カプコン",
@@ -4494,15 +4494,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社イザナギゲームズ（共同製作：日本テレビ／AX-ON）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（発売当日／TGS2026 イザナギゲームズ展台に試遊機 30 台）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-10-09（PC（Steam）版を 10-21 に配信すると発表）",
+      capturedAt: "2026-10-09",
       title: { jp: "AKIBA LOST（アキバロスト）", cn: "秋叶原迷踪", en: "AKIBA LOST" },
       genre: "長編実写群像マルチアングル ADV（サスペンス）",
       platforms: ["Nintendo Switch", "Nintendo Switch 2", "PS5", "PC(Steam)"],
-      release: "2026-09-17（発売済み）",
+      release: "2026-09-17（家庭用機は発売済み。PC（Steam）版は 2026-10-21 配信予定）",
       releasePrecision: "已发售",
       summary: "IzanagiGames 与日本电视台、AX-ON 共同制作的长篇实拍群像悬疑游戏，9 月 17 日发售，登陆 Nintendo Switch／Switch 2／PS5／Steam。故事围绕 13 年前秋叶原六名少女失踪的未解悬案「秋叶原神隐」，天才创作者新城大辉（北山宏光饰）宣布以此为题材制作游戏，随即再次发生失踪与威胁电话。玩法为可自由切换主角与六名女主角视角的「zapping」多视角叙事，选择会改变人物关系与事件走向，并包含「冻结系统」（某角色线暂停时推其他角色线来解冻）与 360 度相机调查。官方在发售前一天公开的特别预告明确标注「与剧版内容完全不同」。",
-      highlight: "【TGS2026 9/17】发售当日起 IzanagiGames 展位设 30 台试玩机，是本届规模最大的实拍悬疑 ADV 试玩区。　先播 6 集日剧、再卖游戏，却在发售前一天明说「游戏和剧完全不一样」：多视角分支＋冻结系统是剧版线性叙事做不到的部分。",
+      highlight: "【Steam 版 2026-10-21】発売当日にプラットフォーム審査の都合で見送られた PC（Steam）版の配信日が 10-21 に決定。ローンチ割引を 10% から 20% へ拡大し、ギャラリーに相棒キャラのスチル 200 枚を追加、ドット絵の壁紙も配布する。　先播 6 集日剧、再卖游戏，却在发售前一天明说「游戏和剧完全不一样」：多视角分支＋冻结系统是剧版线性叙事做不到的部分。",
       news: [
         { source: "Quest Board.JP（发售日・价格・TGS2026 出展与玩法解析）", url: "https://quest-board.jp/en/quests/akiba-lost" },
         { source: "官方作品站", url: "https://akibalost.com/" }
@@ -8685,6 +8685,61 @@ window.OBSERVATORY = {
         cast: "公式発表なし"
       }
     },
+    {
+      id: "anomalith",
+      company: "FuRyu",
+      companyJp: "株式会社フリュー",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-08（正式体験版を PlayStation 5／Nintendo Switch 2／PC（Steam）で配信開始）",
+      capturedAt: "2026-10-09",
+      title: { jp: "アノマリス/ANOMALITH", cn: "ANOMALITH（アノマリス）", en: "ANOMALITH" },
+      genre: "サバイバルTPS（ホラー）",
+      platforms: ["PlayStation 5", "Nintendo Switch 2", "PC (Steam)"],
+      release: "2026-10-29（予定。PlayStation 5／Nintendo Switch 2／PC（Steam））",
+      releasePrecision: "日",
+      summary: "FuRyu 首款自研自发本格第三人称生存射击。舞台是「昭和从未结束」的架空日本：被称作「異界」的异常空间毫无征兆地出现，17 岁的水無月玲緒奈为寻找失踪的挚友加入政府「特別危険区画対策室」，成为潜入异界的调查员。玩法采取「潜入—回收—归还」的撤离射击循环，弹药与背包格都有限，必须在带什么进去、带什么回来之间取舍；除枪械外还能发动 12 种「異形化スキル」进行近身战。基地内可用异界带回的异体物强化武器与装备，外观与数值分离、共 9 个部位 300 件以上。剧本田中罗密欧、角色设计 MON、作曲北村友香。2026-10-29 在 PS5／Nintendo Switch 2／PC（Steam）发售，通常版 8,580 日元，「DIGITAL DELUXE EDITION」与「危険地帯対策室 BOX」各 12,100 日元（均含税），对应日语、英语、简体中文、繁体中文、韩语 5 种语言。",
+      highlight: "【2026-10-08 正式体験版】PS5／Nintendo Switch 2／PC（Steam）の 3 機種で正式体験版の配信を開始。Steam 版は 8 月の期間限定体験版からの更新で、クリアすると DIGITAL DELUXE EDITION 特典「武装女子高生服」の一部を開発できる。配信・投稿ガイドラインと 5 言語のファンキットも同時公開。　発売は 3 週間後の 10-29。フリュー初の TPS に田中ロミオ（脚本）・MON（キャラクターデザイン）・北村友香（音楽）が集まった布陣は発表時から国内外で話題を集め、Steam のウィッシュリストは発表初日に 1 万件、5 月末に 3 万件を超えた。",
+      news: [
+        { source: "Quest Board.JP（正式体験版の配信内容・価格・ガイドライン）", url: "https://quest-board.jp/en/quests/anomalith-3" },
+        { source: "AUTOMATON（プロデューサー城戸剛インタビュー：開発経緯と参考作品）", url: "https://automaton-media.com/en/interviews/liminal-space-third-person-shooter-anomalith-draws-inspiration-from-resident-evil-and-escape-from-tarkov-while-embracing-an-anime-girl-retro-japanese-worldview-we-talk-to-the-producer" },
+        { source: "Gematsu（作品概要・スタッフ・対応機種）", url: "https://www.gematsu.com/games/anomalith" }
+      ],
+      videos: [
+        { label: "公式 X（@AnomalyZCO）", platform: "X", url: "https://x.com/AnomalyZCO" },
+        { label: "Steam ストアページ（ANOMALITH）", platform: "Steam", url: "https://store.steampowered.com/app/4017880/ANOMALITH/" }
+      ],
+      hype: {
+        score: 64,
+        signals: [
+          "フリュー初の本格 TPS で、脚本・田中ロミオ、キャラクターデザイン・MON、音楽・北村友香という布陣が発表時から注目を集めた",
+          "Steam のウィッシュリストは発表から 1 日で 1 万件、2026-05-30 に 3 万件を突破。日本国外からの反応が特に大きい",
+          "正式体験版は発売 3 週間前に PS5／Switch 2／Steam の 3 機種で同時配信され、5 言語のファンキットと投稿ガイドラインも用意された",
+          "一方でフリューの TPS 開発は初めてで、発表当初はゲームプレイの品質を不安視する声も上がっていた"
+        ]
+      },
+      tags: ["新作", "主机", "サバイバルTPS", "オリジナルIP", "ホラー"],
+      console: {
+        status: "2026-10-29 発売予定（正式体験版を 2026-10-08 から PS5／Nintendo Switch 2／Steam で配信中）",
+        os: ["PlayStation 5", "Nintendo Switch 2", "Windows 11"],
+        monetization: "買い切り。通常版 8,580 円（税込）、DIGITAL DELUXE EDITION／危険地帯対策室 BOX 各 12,100 円（税込）",
+        developer: "株式会社ウイニングエンターテインメントグループ（旧ナツメアタリ）",
+        publisher: "株式会社フリュー",
+        region: "日本／北米／欧州ほか世界同時（日本語・英語・簡体字・繁体字・韓国語の 5 言語に対応）",
+        distribution: "ダウンロード版（PlayStation Store／Nintendo eShop／Steam）。北米では PS5 のパッケージ版も 2026-11-12 に発売予定",
+        stores: ["PlayStation Store", "Nintendo eShop", "Steam"],
+        features: [
+          "「異界」と呼ばれる異常空間へ潜り、物資を回収して帰還するサバイバル TPS。弾薬とインベントリの枠が限られ、持ち帰る物の取捨選択が攻略の中心になる",
+          "銃器はアタッチメントでカスタマイズ可能。撃破した異形から得た異体物を使い、攻守にわたる「異形化スキル」を習得・強化する",
+          "反転した重力の団地、終わらない列車など、昭和レトロの日常空間がねじれた「リミナルスペース」を舞台にした探索",
+          "9 か所・300 件以上の衣装パーツを用意し、見た目と装備ステータスを切り離して着替えられる",
+          "拠点では武器・装備の開発・強化、仲間との会話、200 件以上の調査報告書の収集により世界観と事件の背景が明かされる"
+        ],
+        synopsis: "20XX 年、日本。予兆なく「異界」と呼ばれる異常空間が出現し、政府の特別危険区画対策室でも発生源の解明も撃退もできないままだった。親友のありさが異界に取り残されたことをきっかけに、17 歳の水無月玲緒奈は調査員となる。初の潜入で多数の調査員が犠牲になるなか、彼女は異形に触れたことで特異な力に目覚め、唯一の生還者として異界の深部へと向かう。",
+        ipSource: "フリューとウイニングエンターテインメントグループによる完全新規 IP（既存 IP のライセンスではない）",
+        series: "新規 IP でシリーズ化はされていない。フリューとしては初の本格的な三人称シューティングで、プロデューサーは同社の城戸剛。2026-05 に発表され、2026-10-29 に世界同時発売を予定する"
+      }
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -8693,7 +8748,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-08",
+    asOf: "2026-10-09",
     listTotal: 50,
     categories: [
       {
@@ -8819,6 +8874,7 @@ window.OBSERVATORY = {
         { name: "株式会社ハピネット", short: "Happinet", status: "covered", gameIds: ["brigandine-abyss"], note: "玩具・映像・ゲームの流通と自社パブリッシングを手がける東証プライム上場企業（東京都台東区、証券コード 7552）。『ブリガンダイン』シリーズの国内発売元で、最新作『ブリガンダイン アビス』（開発：株式会社アドグローブ）を PC（Steam）2026-08-26／家庭用機 2026-08-27 に世界同時発売した。海外発売は NIS America が担当" },
         { name: "PiXEL CO., LTD.", short: "PiXEL", status: "covered", gameIds: ["angelian-trigger"], note: "レトロ調のシューティングを自社で企画・開発・発売する日本のスタジオ（『Wing of the Asteria』など）。疑似 3D STG『アンシェリアントリガー』は 2024-12-12 に国内 Nintendo Switch 向けへ先行発売され、2026-10-05 に PC（Steam）版 2026-12-10・PlayStation 5 版 2027 年の展開が発表されたため補充監視に追加" },
         { name: "One or Eight INC.", short: "One or Eight", status: "covered", gameIds: ["pixelheroscramble-plus"], note: "東京都千代田区を拠点に自社コンテンツの企画・開発・発売を行う国内スタジオ。2026-10-07 に固定ルート型タワーディフェンス『PixelHeroScramble Plus』（PC（Steam）／Nintendo Switch、2026-12-01 発売予定）を発表し、同日から Steam で無料体験版を配信したため補充監視に追加" },
+        { name: "株式会社フリュー", short: "FURYU", status: "covered", gameIds: ["anomalith"], note: "東京・八王子に本社を置く東証プライム上場の国内メーカー（2007 年にオムロンから MBO で独立）。プライズ・キャラクター商品を柱に、家庭用ゲームとアニメ事業を展開する。2026-05 に発表した自社初の本格サバイバル TPS『アノマリス/ANOMALITH』（開発：ウイニングエンターテインメントグループ＝旧ナツメアタリ、2026-10-29 発売予定）の正式体験版が 2026-10-08 に配信開始されたため、補充監視に追加した" },
       ]
     }
   },
@@ -8889,6 +8945,19 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-09 14:10",
+        scene: "定時巡検（日中の部）",
+        items: [
+          "本場の新規条目は 1 件 —— フリューが 10-08、昭和レトロ×リミナルスペースを舞台にしたサバイバル TPS『アノマリス/ANOMALITH』の正式体験版を PS5／Nintendo Switch 2／PC（Steam）の 3 機種で同時配信した（本体は 10-29 発売予定）。脚本に田中ロミオ、キャラクターデザインに MON、音楽に北村友香を起用し、配信・投稿ガイドラインと 5 言語のファンキットも公開。本台はこれまでフリューを監視していなかったため、今回あわせて補充監視に追加した。",
+          "条目総数は 154 → **155**（主机・PC 区 131 → 132、手游区 34 は不変）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 40 → **41 社**（フリューを追加）。",
+          "発売情報の更新は 2 件 —— カプコンの『ドラゴンズドグマ 2 ダークアリズン』が 10-09 に Switch 2／PS5／Xbox Series X|S／PC（Steam）で発売（Switch 2 は本体同梱セット版のみ、他機種は拡張単体もあり）。イザナギゲームズの実写サスペンス ADV『AKIBA LOST』は、発売当日にプラットフォーム審査で見送られた PC（Steam）版の配信日が 10-09 に 10-21 と発表された。",
+          "漏収核查（アニメ／ゲーム IP の個別検索）：ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマンなどを確認。日方主導のスマホ新作は本場も確認できなかった。",
+          "見送り（既定の赤線運用）：① 開発が海外で日方は発売元のみの案件（ポーランドの MythicOwl 開発・Pocketpair Publishing 発売『Truckful』＝10-09 発売）は、日方主導の開発・発売とは判断せず不収録。② 既に PC（Steam）で発売済みの『Monster Hunter Stories 3: Twisted Reflection』の Xbox on PC 版（11-18）は、同一プラットフォーム内のストア追加に留まるため他機種版扱いにしない。③ 本体が窓口外の旧作への移植・DLC 追加は口径どおり不収録。④ 中国・韓国資本の案件は社名・作品名とも記載せず。⑤ 国内小規模カジュアル 1 本（SAT-BOX）は監視対象社・報道量とも基準に達しないため見送り。在営タイトルの内容更新も口径どおり不収録。",
+          "TGS2026 は展後記録として凍結を継続。Famitsu 期待榜は 2026-10-04 期で新期なし。KV（主视觉）取得は日常巡検の範囲外で、本場新增分も未取得のまま。",
+          "【持越し】① ⑥ 項の赤線は「社名の字面走査」のため、日文名の香港資本（法人登記住所が香港）は引き続き人手での確認が必要。② 条目 bucket の旧揺れ：『KEMURI』（2023 年発表・2026-09-18 建卡）は bucket=new のまま（⑦f の文言上は update が妥当）。次場以降の清理候補。"
+        ]
+      },
+      {
         at: "2026-10-08 19:10",
         scene: "定時巡検（夕方の部）",
         items: [
@@ -8901,18 +8970,6 @@ window.OBSERVATORY = {
           "Famitsu 期待榜は 2026-10-04 期へ更新（1 位 Pokemon Winds／Waves 583 票、2 位 ゼルダの伝説 時のオカリナ 504 票、3 位 ペルソナ6 456 票）。Nintendo Direct 組では『Kirby and the World Beyond』が 26 位に初登場した。TGS2026 は展後記録として凍結を継続。"
         ]
       },
-      {
-        at: "2026-09-30 19:10",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "日方主導の新規スマホタイトルは 1 件 —— KEMCO がスマートフォン向け RPG『異世界輪舞 御伽 ～最弱ステで転生させられたけど、神も妖怪も祓い奉ります！～』の事前登録（Google Play）と予約受付（App Store）を 9-30 に開始した。前作『異世界輪舞』の主人公ショウを据えた続編で、iOS・Android に加えて Switch 2／Switch・PlayStation 5／4・Xbox・Steam まで同時展開するマルチプラットフォーム作。",
-          "条目総数は 148 → **150**（手游区 32 → 33／主机・PC 区 126 → 128）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 36 → **38 社**（KEMCO・ハピネットを追加）。",
-          "漏収補収（主机・PC）: ハピネット×アドグローブ『ブリガンダイン アビス』が PC（Steam）8-26／家庭用機 8-27 に世界同時発売済みだったことを確認し、条目化した（シリーズ第 4 作、6 カ国のストーリーモード＋24 カ国のミッションモード、ヘックス制 SRPG）。",
-          "漏収核查（アニメ IP 個別検索）: ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマンを確認。スマホ側の新規は上記 KEMCO 1 件のみで、他は在営タイトルの内容更新（『Pokémon TCG Pocket』の新拡張パック等）または初公開が窓口外であることを理由に不収録とした。",
-          "BLEACH Mirrors High の事前登録 40 万件突破（バンダイナムコ発表）は報道日を特定できず、日付を推測で埋めないため今回は条目更新を見送った。次場で一次ソースの日付を確認できれば回填する。",
-          "見送り（既定の赤線運用）: 日本 IP のライセンスを受けた海外資本開発のスマホ新作や大手 IP のモバイル版など、海外資本が開発・運営に関与する案件を検索で確認したが、社名・作品名とも記載せず不収録とした。Famitsu 期待榜は新期なしで据え置き（asOf 2026-09-21 を維持）、TGS2026 は展後記録として凍結を継続。"
-        ]
-      },
-    ]
+    ],
   },
 };
