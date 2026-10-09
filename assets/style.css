@@ -732,3 +732,219 @@ body{
   .mobile-kpi{grid-template-columns:repeat(2,1fr)}
   .d-mobile{margin-left:0;padding-left:11px}
 }
+
+/* ============================================================
+   日本ゲーム会社マップ（panelMap）
+   Leaflet + 国土地理院タイル／会社ロゴピン／資本関係ライン
+   ============================================================ */
+
+#panelMap{display:flex;flex-direction:column;gap:14px}
+
+/* ---- 操作バー ---- */
+.map-bar{
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  background:var(--panel);border:1px solid var(--border);
+  border-radius:var(--radius);padding:11px 14px;
+}
+.map-jumps{display:flex;gap:6px}
+.map-jump{
+  background:var(--panel-2);border:1px solid var(--border);color:var(--text-dim);
+  font:inherit;font-size:12px;padding:5px 12px;border-radius:999px;cursor:pointer;
+  transition:.15s;
+}
+.map-jump:hover{color:var(--text);border-color:var(--border-hi)}
+.map-jump.active{background:rgba(77,212,192,.14);border-color:var(--accent);color:var(--accent)}
+
+.map-search{position:relative;flex:1 1 220px;min-width:180px;display:flex;align-items:center}
+.map-search svg{position:absolute;left:11px;width:15px;height:15px;color:var(--text-faint);pointer-events:none}
+.map-search input{
+  width:100%;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);
+  font:inherit;font-size:13px;padding:7px 12px 7px 33px;border-radius:9px;outline:none;
+}
+.map-search input:focus{border-color:var(--accent)}
+
+.map-toggle{
+  display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--text-dim);
+  cursor:pointer;white-space:nowrap;user-select:none;
+}
+.map-toggle input{accent-color:var(--accent);width:14px;height:14px;cursor:pointer}
+.map-legend{
+  display:flex;align-items:center;gap:14px;font-size:11px;color:var(--text-faint);
+  flex-wrap:wrap;
+}
+.map-legend i{display:inline-block;width:16px;height:0;vertical-align:middle;margin-right:5px;border-top:2px solid var(--hot)}
+.map-legend i.dash{border-top:2px dashed var(--accent)}
+.map-legend i.ring{width:9px;height:9px;border:1px dashed var(--hot);border-radius:50%;border-top:1px dashed var(--hot)}
+
+/* ---- 地図 + サイド ---- */
+.map-wrap{display:grid;grid-template-columns:minmax(0,1fr) 336px;gap:14px;align-items:stretch}
+
+#tokyoMap{
+  position:relative;height:min(70vh,720px);min-height:440px;
+  border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;
+  background:#0a0f16;
+}
+#tokyoMap .leaflet-container{background:#0a0f16;font-family:var(--sans)}
+#tokyoMap[data-theme="dark"] .leaflet-tile-pane{
+  filter:invert(1) hue-rotate(178deg) brightness(.94) contrast(.9) saturate(.75);
+}
+#tokyoMap .leaflet-control-attribution{
+  background:rgba(8,11,17,.72);color:var(--text-faint);font-size:10px;
+  border-top-left-radius:8px;
+}
+#tokyoMap .leaflet-control-attribution a{color:var(--text-dim)}
+#tokyoMap .leaflet-bar a{
+  background:var(--panel);color:var(--text);border-bottom-color:var(--border);
+}
+#tokyoMap .leaflet-bar a:hover{background:var(--panel-2);color:var(--accent)}
+#tokyoMap .leaflet-bar{border:1px solid var(--border);box-shadow:none}
+
+/* ---- 会社ピン ---- */
+.cmp-wrap{background:none;border:none}
+.cmp{position:relative;display:flex;align-items:center;justify-content:center;
+  width:24px;height:24px;transition:width .18s,height .18s}
+.cmp-in{
+  width:100%;height:100%;border-radius:50%;
+  background:#fff;border:2px solid var(--c,#4dd4c0);
+  overflow:hidden;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 1px 6px rgba(0,0,0,.6),0 0 0 2px rgba(8,11,17,.55);
+  transition:transform .15s,border-color .15s;
+}
+.cmp-in img{width:78%;height:78%;object-fit:contain;display:block}
+.cmp-in>span{
+  font:600 10px/1 var(--sans);color:#101722;letter-spacing:-.02em;
+}
+.cmp-wrap.approx .cmp-in{border-style:dashed;border-color:var(--c,#4dd4c0)}
+.cmp:hover .cmp-in,.cmp-wrap.is-active .cmp-in{transform:scale(1.18);box-shadow:0 2px 12px rgba(0,0,0,.75),0 0 0 3px rgba(77,212,192,.55)}
+.cmp-tip{
+  position:absolute;top:100%;left:50%;transform:translateX(-50%);
+  margin-top:3px;white-space:nowrap;
+  font:600 10px/1.35 var(--sans);color:var(--text);
+  background:rgba(8,11,17,.82);border:1px solid var(--border);
+  padding:1px 6px;border-radius:6px;opacity:0;pointer-events:none;transition:opacity .15s;
+}
+#tokyoMap[data-zl="close"] .cmp-tip,
+.cmp:hover .cmp-tip,
+.cmp-wrap.is-active .cmp-tip{opacity:1}
+.cmp-wrap.is-active{z-index:1200}
+
+/* ---- サイド ---- */
+.map-side{display:flex;flex-direction:column;min-height:0;gap:12px}
+
+.map-detail{
+  background:var(--panel);border:1px solid var(--border-hi);border-radius:var(--radius);
+  padding:16px 16px 18px;position:relative;overflow-y:auto;max-height:min(62vh,660px);
+}
+.mp-close{
+  position:absolute;top:9px;right:10px;width:24px;height:24px;border-radius:7px;
+  background:var(--panel-2);border:1px solid var(--border);color:var(--text-dim);
+  font-size:15px;line-height:1;cursor:pointer;padding:0;
+}
+.mp-close:hover{color:var(--text);border-color:var(--border-hi)}
+
+.mp-head{display:flex;gap:12px;align-items:flex-start;padding-right:26px}
+.mp-logo{
+  flex:0 0 46px;width:46px;height:46px;border-radius:12px;background:#fff;
+  border:2px solid var(--c,var(--accent));display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
+.mp-logo img{width:80%;height:80%;object-fit:contain}
+.mp-logo>span{font:700 15px/1 var(--sans);color:#101722}
+.mp-headtxt{min-width:0;flex:1}
+.mp-head h3{font-size:14.5px;line-height:1.45;color:var(--text);font-weight:700;word-break:break-word}
+.mp-sub{display:flex;gap:5px;flex-wrap:wrap;margin:6px 0 5px}
+.mp-badge{
+  font-size:10px;padding:1px 7px;border-radius:999px;border:1px solid var(--border-hi);
+  color:var(--text-dim);background:var(--panel-2);white-space:nowrap;
+}
+.mp-badge.t-major{border-color:rgba(255,92,122,.5);color:#ff92a8;background:rgba(255,92,122,.1)}
+.mp-badge.t-mid{border-color:rgba(91,140,255,.45);color:#9db8ff;background:rgba(91,140,255,.1)}
+.mp-badge.approx{border-color:rgba(255,171,92,.5);color:#ffc78a;background:rgba(255,171,92,.1)}
+.mp-badge.shared{border-color:rgba(77,212,192,.45);color:#8fe6da;background:rgba(77,212,192,.1)}
+.mp-addr{font-size:11.5px;color:var(--text-dim);line-height:1.55;word-break:break-word}
+.mp-note{font-size:11px;color:var(--text-faint);margin-top:4px;line-height:1.5}
+.mp-count{font-size:10.5px;color:var(--text-faint);margin-top:5px;font-family:var(--mono)}
+
+.mp-sec{margin-top:14px;border-top:1px solid var(--border);padding-top:11px}
+.mp-sec h4{
+  font-size:11px;letter-spacing:.06em;color:var(--accent);font-weight:700;
+  display:flex;align-items:center;gap:7px;margin-bottom:8px;
+}
+.mp-tag{
+  font-size:9.5px;font-weight:500;letter-spacing:0;color:var(--text-faint);
+  border:1px solid var(--border);border-radius:999px;padding:0 6px;
+}
+.mp-none{font-size:11.5px;color:var(--text-faint);line-height:1.6}
+.mp-alt{font-size:11.5px;color:var(--text-dim);margin-top:5px;line-height:1.6}
+
+.mp-game{
+  display:block;width:100%;text-align:left;background:var(--panel-2);
+  border:1px solid var(--border);border-radius:10px;padding:9px 11px;
+  font:inherit;cursor:pointer;transition:.15s;
+}
+.mp-game:hover{border-color:var(--accent);background:#18202e}
+.mp-game-t{display:block;font-size:12.5px;color:var(--text);font-weight:600;line-height:1.5}
+.mp-game-m{display:block;font-size:10.5px;color:var(--text-faint);margin-top:3px;font-family:var(--mono)}
+.mp-game-m em{color:var(--warm);font-style:normal}
+
+.mp-top{
+  background:var(--panel-2);border:1px solid var(--border);border-left:3px solid var(--warm);
+  border-radius:10px;padding:9px 11px;
+}
+.mp-top strong{display:block;font-size:12.5px;color:var(--text)}
+.mp-top span{display:block;font-size:11px;color:var(--text-dim);margin-top:3px;line-height:1.55}
+
+.mp-rels{list-style:none;display:flex;flex-direction:column;gap:6px}
+.mp-rel{
+  display:grid;grid-template-columns:auto 1fr;gap:3px 8px;align-items:baseline;
+  background:var(--panel-2);border:1px solid var(--border);border-radius:9px;padding:7px 10px;
+}
+.mp-rel-k{
+  font-size:9.5px;padding:1px 6px;border-radius:999px;white-space:nowrap;
+  background:rgba(77,212,192,.12);color:#8fe6da;border:1px solid rgba(77,212,192,.3);
+}
+.mp-rel-parent .mp-rel-k,.mp-rel-sub .mp-rel-k{background:rgba(255,92,122,.12);color:#ff92a8;border-color:rgba(255,92,122,.32)}
+.mp-rel-holder .mp-rel-k{background:rgba(255,171,92,.12);color:#ffc78a;border-color:rgba(255,171,92,.32)}
+.mp-rel-listed .mp-rel-k{background:rgba(91,140,255,.12);color:#9db8ff;border-color:rgba(91,140,255,.32)}
+.mp-rel-note .mp-rel-k{background:var(--panel);color:var(--text-faint);border-color:var(--border)}
+.mp-rel-v{font-size:11.5px;color:var(--text);line-height:1.5;word-break:break-word}
+.mp-rel-v b{color:var(--warm);font-family:var(--mono);font-size:11px;margin-left:3px}
+.mp-rel-n{grid-column:1/3;font-size:10.5px;color:var(--text-faint);line-height:1.5}
+
+/* ---- 会社リスト ---- */
+.map-list{
+  background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+  padding:8px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;
+  flex:1 1 auto;min-height:120px;max-height:min(56vh,600px);
+}
+.map-list-item{
+  display:flex;align-items:center;gap:9px;width:100%;text-align:left;
+  background:transparent;border:1px solid transparent;border-radius:9px;
+  padding:6px 8px;font:inherit;cursor:pointer;transition:.13s;
+}
+.map-list-item:hover{background:var(--panel-2);border-color:var(--border)}
+.map-list-item.active{background:rgba(77,212,192,.1);border-color:var(--accent)}
+.mli-logo{
+  flex:0 0 26px;width:26px;height:26px;border-radius:8px;background:#fff;
+  border:1.5px solid var(--c,var(--accent));display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
+.mli-logo img{width:80%;height:80%;object-fit:contain}
+.mli-logo>span{font:700 9px/1 var(--sans);color:#101722}
+.mli-txt{min-width:0;display:flex;flex-direction:column}
+.mli-txt b{font-size:12px;color:var(--text);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mli-txt i{font-size:10px;color:var(--text-faint);font-style:normal;font-family:var(--mono)}
+
+.map-foot{font-size:10.5px;color:var(--text-faint);line-height:1.7}
+
+/* ---- レスポンシブ ---- */
+@media (max-width:1100px){
+  .map-wrap{grid-template-columns:minmax(0,1fr)}
+  #tokyoMap{height:52vh;min-height:360px}
+  .map-detail{max-height:none}
+  .map-list{max-height:280px}
+}
+@media (max-width:640px){
+  .map-bar{gap:9px;padding:10px}
+  .map-search{flex:1 1 100%}
+  #tokyoMap{height:46vh;min-height:300px}
+  .map-legend{display:none}
+}

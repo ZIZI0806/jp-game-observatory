@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>日本ゲーム観測台 / Japan Game Observatory</title>
-<link rel="stylesheet" href="assets/style.css?v=20260928b">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/style.css?v=20261009a">
 </head>
 <body>
 
@@ -49,6 +50,7 @@
     <button class="tab is-key active" data-tab="mobile">手游新作<span class="tab-count" id="cntMobile"></span></button>
     <button class="tab" data-tab="console">主机・PC<span class="tab-count" id="cntConsole"></span></button>
     <button class="tab" data-tab="companies">厂商覆盖<span class="tab-count" id="cntCompanies"></span></button>
+    <button class="tab" data-tab="map">会社地図</button>
     <button class="tab" data-tab="wanted">期待榜</button>
     <button class="tab" data-tab="tgs">TGS2026 前瞻</button>
   </nav>
@@ -90,6 +92,39 @@
   </div>
 
   <div id="panelCompanies" hidden></div>
+
+  <!-- 日本ゲーム会社マップ（本社所在地ピン） -->
+  <div id="panelMap" hidden>
+    <div class="map-bar">
+      <div class="map-jumps">
+        <button class="map-jump" type="button" data-jump="jp">全国</button>
+        <button class="map-jump active" type="button" data-jump="kanto">首都圏</button>
+        <button class="map-jump" type="button" data-jump="tokyo">東京23区</button>
+      </div>
+      <label class="map-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input type="text" id="mapSearch" placeholder="会社名 / 所在地で絞り込み…">
+      </label>
+      <label class="map-toggle"><input type="checkbox" id="mapEdgeToggle" checked>関係線を表示</label>
+      <label class="map-toggle"><input type="checkbox" id="mapThemeToggle" checked>地図を暗色に</label>
+    </div>
+    <div class="map-wrap">
+      <div id="tokyoMap"></div>
+      <aside class="map-side">
+        <div id="mapDetail" class="map-detail" hidden></div>
+        <div id="mapList" class="map-list"></div>
+        <p class="map-foot" id="mapFoot"></p>
+      </aside>
+    </div>
+    <div class="map-legend">
+      <span><i></i>資本関係（親会社・子会社・株主）</span>
+      <span><i class="dash"></i>協業・共同開発（資本関係を含まない場合あり）</span>
+      <span><i class="ring"></i>同ビルに複数社（円内に展開）</span>
+      <span>点線のピン枠＝所在地は都道府県・市区町村レベルまでの確認</span>
+      <span>ピンの図像は各社公式サイトのアイコン（取得できない社は略号）</span>
+    </div>
+  </div>
+
   <div id="panelWanted" hidden></div>
   <div id="panelTgs" hidden></div>
 
@@ -107,7 +142,10 @@
 <div class="drawer-mask" id="drawerMask" hidden></div>
 <aside class="drawer" id="drawer" hidden></aside>
 
+<script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="data/data.js"></script>
-<script src="assets/app.js?v=20260928b"></script>
+<script src="data/map.js?v=20261009a"></script>
+<script src="assets/app.js?v=20261009a"></script>
+<script src="assets/map.js?v=20261009a"></script>
 </body>
 </html>

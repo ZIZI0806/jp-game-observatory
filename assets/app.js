@@ -1446,6 +1446,10 @@
     SF: SF
   };
 
+  /* 会社地図（assets/map.js）から作品詳細ドロワーを開くための公開口 */
+  window.__obsOpenDrawer = openDrawer;
+  window.__obsCloseDrawer = closeDrawer;
+
   /* ============================================================
      初始化
      ============================================================ */
@@ -1475,6 +1479,8 @@
     document.getElementById("panelCompanies").hidden = tab !== "companies";
     document.getElementById("panelWanted").hidden = tab !== "wanted";
     document.getElementById("panelTgs").hidden = tab !== "tgs";
+    document.getElementById("panelMap").hidden = tab !== "map";
+    if (tab === "map" && window.__obsInitMap) window.__obsInitMap();
 
     // 两个作品区现在都带发售 / 配信状况，状态排序全面开放
     const sel = document.getElementById("sortSelect");
