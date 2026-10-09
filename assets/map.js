@@ -341,8 +341,11 @@
         nearbyDistance: 18,             // この画素半径内を「重なり」とみなす
         circleSpiralSwitchover: 6
       });
-      oms.legColors.usual.normal = "#4dd4c0";
-      oms.legColors.highlighted.normal = "#ff5c7a";
+      // 🔴 同梱の OMS は v0.2.6。legColors はフラットな文字列
+      //    （v0.2.7 以降の {usual:{normal,highlighted}} ではない）。
+      //    誤ってネスト前提で書くと strict mode で TypeError になり initMap ごと落ちる。
+      oms.legColors.usual = "#4dd4c0";
+      oms.legColors.highlighted = "#ff5c7a";
       oms.addListener("click", function (m) { if (m && m.__cid) openDetail(m.__cid); });
     }
 
