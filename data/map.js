@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-10-09",
+    asOf: "2026-10-10",
     count: 92,
     onMap: 83,
     outsideTokyo: 9,
@@ -68,7 +68,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区富士見2-13-3", pref: "東京都",
       lat: 35.69775, lng: 139.744293, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/kadokawa.ico", games: 2,
+      logo: "assets/logo/kadokawa.ico", games: 3,
       match: ["KADOKAWA", "角川"],
       top: null,
       eq: [
