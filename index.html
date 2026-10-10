@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>日本ゲーム観測台 / Japan Game Observatory</title>
 <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
-<link rel="stylesheet" href="assets/style.css?v=20261009c">
+<link rel="stylesheet" href="assets/style.css?v=20261010a">
 </head>
 <body>
 
@@ -96,10 +96,11 @@
   <div id="panelMap" hidden>
     <div class="map-bar">
       <div class="map-jumps">
-        <button class="map-jump" type="button" data-jump="jp">全国</button>
-        <button class="map-jump active" type="button" data-jump="kanto">首都圏</button>
-        <button class="map-jump" type="button" data-jump="tokyo">東京23区</button>
+        <button class="map-jump" type="button" data-jump="jp" title="全社を本社位置で表示（本社が道府県外の社も本社にピンが立ちます）">全国<span class="mj-sub">本社位置</span></button>
+        <button class="map-jump active" type="button" data-jump="kanto" title="本社＝東京の社は本社に、道府県外の社は東京拠点にピンを打ちます">首都圏<span class="mj-sub">本社／東京拠点</span></button>
+        <button class="map-jump" type="button" data-jump="tokyo" title="東京23区に寄せて表示">東京23区</button>
       </div>
+      <span class="map-scope" id="mapScope">首都圏表示：本社／東京拠点</span>
       <label class="map-search">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
         <input type="text" id="mapSearch" placeholder="会社名 / 所在地で絞り込み…">
@@ -136,6 +137,8 @@
       <span><i class="dash"></i>協業・共同開発（資本関係を含まない場合あり）</span>
       <span><i class="ring"></i>同ビルに複数社（円内に展開）</span>
       <span><i class="branch"></i>東京拠点＝本社が道府県外の社（カード内に本社所在地を表示）</span>
+      <span><i class="nonTokyo"></i>全国表示で本社が道府県外の社</span>
+      <span><b>全国</b>… 全社を本社位置に打点／<b>首都圏</b>… 本社＝東京は本社、道府県外は東京拠点に打点</span>
       <span>重なったピンはクリックすると扇状に開きます</span>
       <span>点線のピン枠＝所在地は都道府県・市区町村レベルまでの確認</span>
       <span>ピンの図像は各社公式サイトのアイコン（取得できない社は略号）</span>
@@ -161,8 +164,8 @@
 <script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/vendor/oms/oms.js"></script>
 <script src="data/data.js"></script>
-<script src="data/map.js?v=20261009c"></script>
-<script src="assets/app.js?v=20261009c"></script>
-<script src="assets/map.js?v=20261009c"></script>
+<script src="data/map.js?v=20261010a"></script>
+<script src="assets/app.js?v=20261010a"></script>
+<script src="assets/map.js?v=20261010a"></script>
 </body>
 </html>

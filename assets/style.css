@@ -1018,10 +1018,37 @@ body{
   box-shadow:0 0 0 2px rgba(255,171,92,.55);border-top:2px solid var(--accent);
 }
 
+/* ---- 表示スコープ（全国／首都圏） ---- */
+.map-jumps{align-items:stretch}
+.map-jump{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  line-height:1.15;gap:1px;
+}
+.map-jump .mj-sub{
+  display:block;font-size:8.5px;letter-spacing:.02em;opacity:.72;white-space:nowrap;
+}
+.map-jump.active .mj-sub{opacity:.9}
+.map-scope{
+  font-size:11px;color:var(--text-faint);white-space:nowrap;
+  padding:3px 10px;border-radius:999px;border:1px dashed var(--border-hi);
+}
+/* 全国表示で「本社が道府県外」のピンは別色の外枠で区別する */
+.cmp-wrap.nonTokyo .cmp-in{
+  border-width:2px;
+  box-shadow:0 1px 6px rgba(0,0,0,.6),0 0 0 2px rgba(8,11,17,.55),0 0 0 4px rgba(91,140,255,.5);
+}
+.mp-badge.hqpin{border-color:rgba(91,140,255,.5);color:#9db8ff;background:rgba(91,140,255,.12)}
+.map-legend i.nonTokyo{
+  width:11px;height:11px;border:2px solid var(--accent);border-radius:50%;
+  box-shadow:0 0 0 2px rgba(91,140,255,.55);border-top:2px solid var(--accent);
+}
+
 @media (max-width:1100px){
   .map-outside{left:10px;bottom:24px}
   .mo-panel{max-height:min(42vh,340px)}
 }
 @media (max-width:640px){
   .mo-panel{width:calc(100vw - 44px)}
+  .map-jump .mj-sub{display:none}
+  .map-scope{display:none}
 }
