@@ -8237,6 +8237,8 @@ window.OBSERVATORY = {
 
     {
       id: "iconology",
+      kv: "assets/kv/iconology.jpg",
+      kvSrc: "gonintendo.com",
       company: "Idea Factory (IFChronicle)",
       companyJp: "アイディアファクトリー株式会社（IFChronicle）",
       bucket: "new",
@@ -8291,6 +8293,8 @@ window.OBSERVATORY = {
 
     {
       id: "digging-a-hole-together",
+      kv: "assets/kv/digging-a-hole-together.jpg",
+      kvSrc: "assets-prd.ignimgs.com",
       company: "松竹ゲームズ（松竹株式会社 ゲーム事業室）",
       companyJp: "松竹株式会社 ゲーム事業室（松竹ゲームズ）",
       bucket: "new",
@@ -8346,6 +8350,8 @@ window.OBSERVATORY = {
     },
     {
       id: "isekai-rondo-otogi",
+      kv: "assets/kv/isekai-rondo-otogi.jpg",
+      kvSrc: "kemco.jp",
       company: "KEMCO",
       companyJp: "株式会社コトブキソリューション（開発：株式会社エクスクリエイト）",
       bucket: "new",
@@ -8403,6 +8409,8 @@ window.OBSERVATORY = {
     },
     {
       id: "brigandine-abyss",
+      kv: "assets/kv/brigandine-abyss.jpg",
+      kvSrc: "shared.st.dl.eccdnx.com",
       company: "Happinet",
       companyJp: "株式会社ハピネット（開発：株式会社アドグローブ）",
       bucket: "new",
@@ -8465,6 +8473,8 @@ window.OBSERVATORY = {
     },
     {
       id: "kinnikuman-muscle-tag-match-reiwa",
+      kv: "assets/kv/kinnikuman-muscle-tag-match-reiwa.jpg",
+      kvSrc: "is1-ssl.mzstatic.com",
       company: "Bandai Namco",
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "new",
@@ -8521,6 +8531,8 @@ window.OBSERVATORY = {
     },
     {
       id: "invokyr",
+      kv: "assets/kv/invokyr.jpg",
+      kvSrc: "game.shochiku.co.jp",
       company: "松竹ゲームズ（松竹株式会社 ゲーム事業室）",
       companyJp: "松竹株式会社 ゲーム事業室（松竹ゲームズ）",
       bucket: "new",
@@ -8577,6 +8589,8 @@ window.OBSERVATORY = {
     },
     {
       id: "angelian-trigger",
+      kv: "assets/kv/angelian-trigger.jpg",
+      kvSrc: "shared.akamai.steamstatic.com",
       company: "PiXEL",
       companyJp: "PiXEL CO., LTD.",
       bucket: "update",
@@ -8632,6 +8646,8 @@ window.OBSERVATORY = {
     },
     {
       id: "pixelheroscramble-plus",
+      kv: "assets/kv/pixelheroscramble-plus.jpg",
+      kvSrc: "shared.akamai.steamstatic.com",
       company: "One or Eight",
       companyJp: "One or Eight INC.（本社：東京都千代田区）",
       bucket: "new",
@@ -8689,6 +8705,8 @@ window.OBSERVATORY = {
     },
     {
       id: "anomalith",
+      kv: "assets/kv/anomalith.jpg",
+      kvSrc: "automaton-media.com",
       company: "FuRyu",
       companyJp: "株式会社フリュー",
       bucket: "update",
@@ -8978,6 +8996,8 @@ window.OBSERVATORY = {
     },
     {
       id: "yushakei-game-of-the-goddess",
+      kv: "assets/kv/yushakei-game-of-the-goddess.jpg",
+      kvSrc: "appbank.net",
       company: "KADOKAWA",
       companyJp: "株式会社KADOKAWA",
       bucket: "update",
@@ -9034,6 +9054,8 @@ window.OBSERVATORY = {
     },
     {
       id: "atmosfar",
+      kv: "assets/kv/atmosfar.jpg",
+      kvSrc: "shueisha-games.com",
       company: "集英社ゲームズ（発行）／Apog Labs（開発）",
       companyJp: "株式会社集英社ゲームズ（発行）／Apog Labs AB（開発）",
       bucket: "update",
@@ -9093,6 +9115,8 @@ window.OBSERVATORY = {
     },
     {
       id: "truckful",
+      kv: "assets/kv/truckful.jpg",
+      kvSrc: "cdn.getshifter.co",
       company: "Pocketpair Publishing（発行）／MythicOwl（開発）",
       companyJp: "Pocketpair, Inc.（ポケットペア）／MythicOwl",
       bucket: "new",
