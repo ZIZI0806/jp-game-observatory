@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-10T09:10:00+08:00",
+    updatedAt: "2026-10-10T19:00:00+08:00",
     edition: "2026-10-10",
     window: "2026-08-10 ~ 2026-10-10（滚动最近 2 个月）",
     sources: [
@@ -9032,6 +9032,122 @@ window.OBSERVATORY = {
         cast: "ザイロ・フォルバーツ：阿座上洋平／テオリッタ：飯塚麻結／パトーシェ・キヴィア：石上静香／ドッタ・ルズラス：堀江瞬（TV アニメから続投）。ゲームオリジナル：ノイ・マルジェラ：富田美憂／リサベラ：和泉風花"
       }
     },
+    {
+      id: "atmosfar",
+      company: "集英社ゲームズ（発行）／Apog Labs（開発）",
+      companyJp: "株式会社集英社ゲームズ（発行）／Apog Labs AB（開発）",
+      bucket: "update",
+      platformClass: "pc",
+      announceDate: "2026-10-07（早期アクセス配信日を 2026-10-29 に決定）",
+      capturedAt: "2026-10-10",
+      title: { jp: "ATMOSFAR", cn: "ATMOSFAR -异星遗航-", en: "ATMOSFAR" },
+      genre: "空中サバイバルクラフト（オープンワールド、最大 4 人のオンライン協力）",
+      platforms: ["PC (Steam)", "PC (Epic Games Store)"],
+      release: "2026-10-29（PC（Steam／Epic Games Store）で早期アクセス配信開始予定。早期アクセス期間は 9 か月以上）",
+      releasePrecision: "日",
+      summary: "由瑞典马尔默的独立工作室 Apog Labs 开发、集英社旗下游戏发行品牌「集英社ゲームズ」发行的空中生存建造游戏。舞台是漂浮着无数岛屿与宇宙遗迹的外星球「タイコス（Tycos）」：玩家驾驶可悬停的飞行器「Wasp」在浮岛间穿行、分解废料、建造并升级自己的空中母舰「Cloud Cruiser」，最多 4 人在线协作。本作于 2025 年 6 月的 PC Gaming Show 首次公开并由集英社ゲームズ 取得发行权，此后在 2026 年 2 月的 Steam Next Fest 提供体验版、3 月愿望单突破 20 万。2026-10-07 正式公布将于 2026-10-29 以 Steam／Epic Games Store 的早期访问形式上线。早期访问初始版本收录 2 个区域、4 种 Wasp 与完整云巡者母舰系统，1.0 版将追加第三区域「The Rime」与剧情结局。",
+      highlight: "【2026-10-07 早期アクセス日決定】集英社ゲームズが発行する Apog Labs（スウェーデン・マルメ）開発の空中サバイバル『ATMOSFAR』が、2026-10-29 に PC（Steam／Epic Games Store）で早期アクセス配信を開始すると発表された。　最大 4 人のオンライン協力、移動式の空中基地「Cloud Cruiser」の建造・改修、役割の異なる 4 クラスの飛行艇「Wasp」、浮島のオープンワールド探索を柱とする。早期アクセス初期版は 2 地域＋4 種の Wasp＋完全な Cloud Cruiser を収録し、期間は 9 か月以上、1.0 では第 3 地域「The Rime」とストーリーの結末を追加する予定。",
+      news: [
+        { source: "集英社ゲームズ 公式作品ページ（発行元・開発元・対応機種・言語・発売予定）", url: "https://shueisha-games.com/en?p=3858" },
+        { source: "Steam ストアページ（ATMOSFAR。発行表記：SHUEISHA GAMES／開発：Apog Labs）", url: "https://store.steampowered.com/app/1798230/ATMOSFAR/" },
+        { source: "GamesFinity（早期アクセス日・4 人協力・ロードマップの報道）", url: "https://www.gamesfinity.com/news/atmosfar-early-access-date" },
+        { source: "GAME-scanner（発売時期の変遷：当初 2026-05-20 予定からの延期と 10-29 決定）", url: "https://game-scanner.com/news/atmosfar-steam-early-access-october-2026" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（アナウンストレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/1798230/ATMOSFAR/" },
+        { label: "集英社ゲームズ 公式作品ページ（作品情報）", platform: "官方站", url: "https://shueisha-games.com/en?p=3858" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "2025-06 の PC Gaming Show 2025 で集英社ゲームズ が発行を担当すると発表し、2026-03 時点で Steam のウィッシュリストが 20 万件を突破した",
+          "2026-02 の Steam Next Fest で体験版を配信し、フィードバックを踏まえたデモ更新を重ねてきた",
+          "移動式の空中基地「Cloud Cruiser」と 4 クラスの飛行艇という、据え置きのサバイバルクラフトにはない設計が注目を集めている",
+          "販売は Steam／Epic Games Store の PC のみ。コンシューマ機版・スマートフォン版は発表されていない"
+        ]
+      },
+      tags: ["PC", "早期アクセス", "サバイバルクラフト", "海外開発", "集英社ゲームズ"],
+      console: {
+        status: "2026-10-29 早期アクセス配信予定（PC（Steam／Epic Games Store））",
+        os: ["Windows"],
+        monetization: "買い切り（早期アクセス）。価格は未発表。早期アクセス中に値上げする予定があると告知されている",
+        developer: "Apog Labs（Apoapsis Game Laboratories AB、スウェーデン・マルメ。代表作『Airport CEO』）",
+        publisher: "集英社ゲームズ（SHUEISHA GAMES）",
+        region: "世界（日本語・英語・繁体字・簡体字・フランス語・ドイツ語・スペイン語・ポルトガル語（ブラジル）の 8 言語に対応予定）",
+        distribution: "ダウンロード版（Steam／Epic Games Store）",
+        stores: ["Steam", "Epic Games Store"],
+        preOrder: { open: false, since: "早期アクセス配信のため予約販売はなし。Steam／Epic Games Store でウィッシュリスト登録を受付中", reward: "公式発表なし" },
+        features: [
+          "浮島の広がる外惑星タイコスを舞台にした、オープンワールドの空中サバイバルクラフト",
+          "最大 4 人のオンライン協力に対応（ソロプレイも可）",
+          "移動式の空中基地「Cloud Cruiser」を建造・改修し、ハンガーや居住区を自由にカスタマイズする",
+          "役割の異なる 4 クラスの飛行艇「Wasp」（Utility／Cargo／Scout／Fighter）を使い分ける",
+          "雷雨やジェット気流などの気象、酸素・燃料・電力の資源管理が探索できる範囲を左右する",
+          "早期アクセス初期版は 2 地域・4 種の Wasp・完全な Cloud Cruiser を収録。1.0 で第 3 地域「The Rime」とストーリーの結末を追加"
+        ],
+        synopsis: "人類最後の前哨基地が崩壊した外惑星タイコスが舞台。プレイヤーは飛行艇で浮島を渡り、廃材を回収して飛行船と空中母艦を強化しながら、なぜ前哨基地が滅びたのかを解き明かしていく。移動する拠点「Cloud Cruiser」を仲間と共同で運用し、嵐や野生生物の脅威をかわしながら未踏の空域へ踏み込む。",
+        ipSource: "オリジナル IP（Apog Labs の自社企画）。著作権表記は ©Apoapsis Game Laboratories AB / SHUEISHA, SHUEISHA GAMES",
+        series: "Apog Labs にとって『Airport CEO』（2021 年 Steam 配信）に続く 2 作目。2025-06 の PC Gaming Show 2025 で集英社ゲームズ が発行を担当すると発表され、当初は 2026-05-20 の配信を予定していたが延期し、2026-10-29 に確定した",
+        cast: "公式発表なし"
+      }
+    },
+    {
+      id: "truckful",
+      company: "Pocketpair Publishing（発行）／MythicOwl（開発）",
+      companyJp: "Pocketpair, Inc.（ポケットペア）／MythicOwl",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-10-09（PC（Steam）／Android（Google Play）で配信開始）",
+      capturedAt: "2026-10-10",
+      title: { jp: "Truckful", cn: "Truckful", en: "Truckful" },
+      genre: "手描き風・物理演算の荷物運搬アドベンチャー（シングルプレイ）",
+      platforms: ["PC (Steam)", "Android", "PlayStation 4", "PlayStation 5"],
+      release: "2026-10-09（PC（Steam）／Android（Google Play）配信開始）。PlayStation 4／5 版は 2026 年内発売予定・日付未定",
+      releasePrecision: "日",
+      summary: "由波兰工作室 MythicOwl 开发、日本 Pocketpair 旗下发行品牌「Pocketpair Publishing」发行的卡车配送冒险游戏。玩家驾驶一辆老旧的皮卡，为宁静乡村的居民运送各种货物——从易碎的花瓶到必须尽快送达的冷冻鱼——货物的装载方式会通过物理演算影响车身平衡，导致翻车或货物滑落。玩家可在蜿蜒的乡间小路、湿地、沼泽与流沙间探索，逐步揭开环绕古老森林的秘密。2026-10-09 同步在 Steam 与 Google Play（Android）上线，PS4／PS5 版预定 2026 年内推出但未定档。发售前曾入选 TGS2026 的「SELECTED INDIE 80」，在 Pocketpair 展位与专属展区提供试玩。",
+      highlight: "【2026-10-09 PC／Android 配信開始】Pocketpair のパブリッシング部門「Pocketpair Publishing」が手がける、MythicOwl（ポーランド）開発の配送アドベンチャー『Truckful』が、Steam と Google Play（Android）で配信を開始した。　手描き風のビジュアルと物理演算の荷物運搬が特徴で、積み方次第でトラックのバランスが崩れて荷崩れが起きる。PlayStation 4／5 版は 2026 年内に発売予定だが日付は未定。発売前には TGS2026 の「SELECTED INDIE 80」に選出され、Pocketpair ブースで試遊できた。",
+      news: [
+        { source: "Pocketpair 公式ニュース（配信開始・Steam／Google Play のストアリンク・発売記念セール）", url: "https://www.pocketpair.jp/en/game-news/truckful-now-available-on-steam-google-play" },
+        { source: "GamingOnPhone（配信日・Google Play 事前登録・Pocketpair Publishing の発表）", url: "https://gamingonphone.com/news/truckful-is-bringing-its-cozy-truck-delivery-adventure-to-android-and-pc-this-october/" },
+        { source: "GamingOnLinux（MythicOwl／Pocketpair Publishing の発表と特徴の整理）", url: "https://www.gamingonlinux.com/2026/09/the-deeply-mysterious-delivery-adventure-truckful-arrives-in-october/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（発売日トレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/3090810/Truckful/" },
+        { label: "Google Play（Android 版ストアページ）", platform: "Google Play", url: "https://play.google.com/store/apps/details?id=com.mythicowl.truckful" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "Pocketpair のパブリッシング部門が手がける海外インディーで、2026-09-09 に配信日を告知してから 1 か月でリリースにこぎつけた",
+          "手描き風のビジュアルと物理演算の荷物運搬という組み合わせが、配信者向けの「失敗が面白い」作品として注目される",
+          "配信前に TGS2026 の SELECTED INDIE 80 に選出され、Pocketpair ブースと専用区画の両方で試遊できた",
+          "Google Play（Android）版も同時配信され、PC とスマートフォンの両方で購入できる"
+        ]
+      },
+      tags: ["新作", "跨平台", "アドベンチャー", "海外開発", "Pocketpair"],
+      mobile: {
+        status: "2026-10-09 配信開始（Android／Google Play）",
+        os: ["Android"],
+        monetization: "買い切り（Steam 版は発売記念で 10% オフ）。価格は 19.99 ドル相当",
+        preReg: { open: false, since: "配信済みのため事前登録は終了。配信前は Google Play で事前登録を受付、Steam ではウィッシュリスト登録を実施していた", reward: "公式発表なし" },
+        developer: "MythicOwl（ポーランド）",
+        publisher: "Pocketpair Publishing（Pocketpair, Inc.、本社：東京都品川区西五反田）",
+        region: "世界（日本語に対応）",
+        distribution: "Google Play（Android）／ PC（Steam）",
+        payment: [],
+        ipSource: "オリジナル IP（MythicOwl の自社企画）",
+        series: "Pocketpair が 2024 年に立ち上げたパブリッシングブランド「Pocketpair Publishing」が手がける海外インディーの一作。開発の MythicOwl は『Truckful』を長く制作してきた",
+        features: [
+          "手描き風のビジュアルで描かれる、のどかな田舎町の配送アドベンチャー（シングルプレイ）",
+          "荷物の積み方で物理演算によりトラックのバランスが変わり、横転や荷崩れが起きる",
+          "壊れやすい花瓶から急ぎの冷凍魚まで、種類ごとに異なる運搬の難しさがある",
+          "トラックの重量・積載量・走行性能をアップグレードし、自分好みにカスタマイズできる",
+          "湿地・沼・流沙・隠し道を探索し、古い森にまつわる謎を解き明かす"
+        ],
+        synopsis: "プレイヤーは片田舎の集落で暮らす住人たちの依頼をこなしながら、古いピックアップトラックで荷物を運ぶ。曲がりくねった道や湿地、砂地を走り抜け、荷台の積み方と物理挙動に気を配りながら配達を完了させる。依頼を重ねて住民の信頼を得るうち、集落の外れに広がる古い森に隠された秘密へと近づいていく。",
+        cast: "公式発表なし"
+      }
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -9144,7 +9260,7 @@ window.OBSERVATORY = {
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
         { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
-        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton", "hoshin-engi-re-surrection"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展" },
+        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton", "hoshin-engi-re-surrection", "atmosfar"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展。2026-10-10 には、同ブランドが発行する空中サバイバル『ATMOSFAR』（開発：Apog Labs＝スウェーデン、PC 早期アクセス 2026-10-29 予定）を追記した" },
         { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
       { name: "株式会社Plott", short: "Plott", status: "covered", gameIds: ["blackchannel-blaze-road"], note: "ゲームの企画・開発を手がけてきたスタジオが自社パブリッシングへ広げた事例。YouTube アニメ『ブラックチャンネル』（チャンネル登録者 130 万人超、小学館）の初のスマートフォンゲーム化を 9/14 に配信開始" },
@@ -9177,20 +9293,20 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-10-04",
+    asOf: "2026-10-09",
     source: "Famitsu 週刊ファミ通 读者期待榜",
-    url: "https://gonintendo.com/contents/65705-famitsu-most-wanted-games-for-oct-4th-2026",
+    url: "https://gonintendo.com/contents/65964-famitsu-most-wanted-games-for-oct-9th-2026",
     list: [
-      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 583 },
-      { rank: 2, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 504 },
-      { rank: 3, title: "Persona 6", platform: "PS5", votes: 456 },
-      { rank: 4, title: "Persona 4 Revival", platform: "PS5", votes: 382 },
-      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 318 },
-      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 304 },
-      { rank: 7, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 212 },
-      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 186 },
-      { rank: 9, title: "Final Fantasy Resonance", platform: "NS2", votes: 159 },
-      { rank: 10, title: "Xenoblade Genesis", platform: "NS2", votes: 138 }
+      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 790 },
+      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 784 },
+      { rank: 3, title: "Persona 6", platform: "PS5", votes: 689 },
+      { rank: 4, title: "Persona 4 Revival", platform: "PS5", votes: 663 },
+      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 477 },
+      { rank: 6, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 389 },
+      { rank: 7, title: "Grand Theft Auto 6", platform: "PS5", votes: 371 },
+      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 254 },
+      { rank: 9, title: "Final Fantasy Resonance", platform: "NS2", votes: 246 },
+      { rank: 10, title: "Xenoblade Genesis", platform: "NS2", votes: 201 }
     ]
   },
 
@@ -9239,6 +9355,22 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-10 19:00",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "日方主導のスマホ新作の新規発表は本場なし（10-10 日中〜19:00 の国内向け新規スマホタイトル告知は確認できず）。実入りは主机・PC 側の新規 2 件。",
+          "主机・PC の新規は 2 件 —— ①集英社ゲームズ が発行し Apog Labs（スウェーデン）が開発する空中サバイバル『ATMOSFAR』が、2026-10-29 に PC（Steam／Epic Games Store）で早期アクセス配信を開始すると 10-07 に発表した（本体は 2025-06 の PC Gaming Show 2025 で既に公開済みのため bucket=update、漏収回填）。②Pocketpair のパブリッシング部門 Pocketpair Publishing が発行し MythicOwl（ポーランド）が開発する配送アドベンチャー『Truckful』が、10-09 に Steam と Google Play（Android）で配信を開始した（本体の配信が窗口内のため bucket=new）。",
+          "条目総数は 160 → 162（主机・PC 区 135 → 137。platformClass は pc 13 → 14、multi 13 → 14）。手游区は 38 のまま。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 43 社のまま（Pocketpair は今回登録せず＝下記参照。集英社ゲームズ の gameIds に 1 件追記）。",
+          "漏収核查（アニメ／ゲーム IP の個別検索）：BLEACH（『BLEACH Mirrors High』は 8-29 に事前登録開始済み・既収録）／hololive（『ホロじゃん』既収録）／ガールズ&パンツァー（既収録）／呪術廻戦／転生したらスライムだった件／名探偵コナン／ウマ娘／学園アイドルマスター／この素晴らしい世界に祝福を！ ほかを確認。新規の日方主導スマホ新作は見つからず。",
+          "見送り（既定の赤線運用）：① 中国・韓国資本の案件は社名・作品名とも記載せず。② 本体が窗口外の在営タイトルへの内容更新（新キャラ・コラボ・DLC・周年）は口径どおり不収録。③ 開発が海外で日方は発売元のみの案件は、日方発行元が一次情報を出しているものだけを拾う方針。④ 非日本開発のインディーは不収録。",
+          "本場の見送り案件（事実のみ）：日方主導と確認できない海外発のスマホ新作が複数（ポーランド・カナダ発のタイトル等）あり、日本企業の関与が確認できないため収録せず。また『インセクトストライクZ』（モリミライ）は一次源（ASCII.jp 原文）と法人の同一性が確認できず、既定の「一次源主義」により本場は見送り。",
+          "補充監視リスト（extra）について：『Truckful』の日本の発行元 Pocketpair は今回 extra に追加していない。前例として、10-08 収録の『Invokyr』の国内発行元（松竹ゲームズ）も extra には未登録であり、パブリッシャーは必ずしも監視リストに載せない運用。加えて extra を 1 社増やすと会社地図（data/map.js）の母集団 92 社＝50＋43−紅線 1 が変動し、ロゴ資産の取得が必要になるため、本場は保留とした。",
+          "会社地図（data/map.js）：本場は新規会社の追加・移転・資本変更なし。母集団 92 社（hq 72／branch 11／out 9・打点 83／全国 91）と meta.asOf 2026-10-10 は変更なし。",
+          "Famitsu 期待榜：2026-10-09 期が発表され、首位が『Zelda: Ocarina of Time』（790 票）に交代、『Pokemon Winds / Waves』（784）が 2 位に。mostWanted を 10-04 期から 10-09 期へ整表更新した。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。② 条目 bucket の旧揺れ：『KEMURI』は bucket=new のまま（⑦f 文言上は update が妥当）。③ 待用户裁定：VISUAL ARTS（騰訊 100% 譲渡）の data.js 残留と地図除外の不整合／香港資本案件／Ace Attorney DD VR（VR 分類）。"
+        ]
+      },
+      {
         at: "2026-10-10 09:10",
         scene: "定時巡検（朝の部）",
         items: [
@@ -9249,20 +9381,6 @@ window.OBSERVATORY = {
           "漏収核查（アニメ／ゲーム IP・ブランドの個別検索）：呪術廻戦／ONE PIECE／BLEACH／鬼滅の刃／東京リベンジャーズ／ブルーロック／チェンソーマン／刀剣乱舞／ホロライブ／僕のヒーローアカデミア／ガールズ&パンツァー／Otomate・LicoBiTs ほかを確認。実入りは上記の『勇者刑に処す』ゲーム 1 件。",
           "見送り（既定の赤線運用）：① 中国・韓国資本の案件は社名・作品名とも記載せず。② 本体が窗口外の在営タイトルへの内容更新（新キャラ・コラボ・DLC・周年）は口径どおり不収録。③ 開発が海外で日方は発売元のみの案件、および非日本開発のインディー（Steam 新作群）も不収録。",
           "【持越し】① 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。② 条目 bucket の旧揺れ：『KEMURI』は bucket=new のまま（⑦f 文言上は update が妥当）。③ 待用户裁定：のぶニャがの野望 系（発行＝香港）／Ace Attorney DD VR（VR 分類）／メイドインアビス スマホ（初公開が窗口外）／夢幻桜楼閣（同）。④ TGS2026 は展後記録として凍結。Famitsu 期待榜は 2026-10-04 期のままで新期なし。"
-        ]
-      },
-      {
-        at: "2026-10-09 19:10",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "日方主導の新規スマホタイトルは 2 件 —— ①カバーと Aiming の協業による hololive 初の麻雀ゲーム『ホロライブ麻雀 -ホロじゃん-』が 10-09 に発表され、同日から事前登録を開始した（ホロライブのタレント 37 名が参加、iOS／Android／Windows／ブラウザ、基本無料のアイテム課金型、2026 年内配信予定。10-13 20:00 に情報解禁の生放送を予定）。②アニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の制作が決定した（開発・配信は G Holdings、配信日・事前登録は未発表）。",
-          "条目総数は 155 → **159**（手游区 34 → 37／主机・PC 区 132 → 135）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 41 → **43 社**（G Holdings・Phase を追加）。",
-          "主机・PC の新規は 2 件 —— D3パブリッシャーの Nintendo Switch 2 用『ガールズ＆パンツァー オールスター・タンク・カーニバル』（2027 年内・価格未定、『ドリームタンクマッチ』開発チームが参加、最大 10 人のオンライン対戦と大洗探索を搭載）、および漏収回填として東京のフェイズが自社開発・自社販売するターン制パズルローグライク『華麗 無限城の死闘』（10-10 に Steam／iOS／Android の 3 平台で無料体験版、Steam Next Fest 10-20〜27 に参加）。",
-          "更新は 1 件 —— HONEY∞PARADE GAMES の『シノビNEXUS –閃乱カグラ–』が 10-07 に新情報映像を公開し、3 学園から選ばれた 15 名のシノビ少女とメインストーリー序盤（コヒメ・イノリ・アキラ の邂逅）を紹介した。2026 年 11 月にはゲームプレイを中心にした情報番組を配信予定。",
-          "漏収核查（アニメ／ゲーム IP の個別検索）：ONE PIECE／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー!!／BLEACH／ホロライブ／ポケモン／鬼滅の刃／チェンソーマン／ガールズ&パンツァー／閃乱カグラ を確認。ホロライブとガールズ&パンツァーの 2 件が今回の実入りだった。",
-          "見送り（既定の赤線運用）：① 開発が海外で日方は発売元のみの案件は日方主導と判断せず不収録。② 本体が窓口外の在営タイトルへのコンテンツ追加（新章・周年・コラボ・DLC）は口径どおり不収録（運営終了は記録のみ）。③ 中国・韓国資本の案件、および日本 IP をライセンスした海外資本開発の新作は社名・作品名とも記載せず。④ 非日本開発のインディー（3i ショーケースの各作など）も不収録。",
-          "TGS2026 は展後記録として凍結を継続。Famitsu 期待榜は 2026-10-04 期のままで新期なし。KV（主视觉）取得は日常巡検の範囲外で、本場新增 4 件も未取得のまま（別建ての KV 場で処理）。",
-          "【持越し】① ⑥ 項の赤線は「社名の字面走査」のため、日文名の香港資本（法人登記住所が香港）は引き続き人手での確認が必要。② 条目 bucket の旧揺れ：『KEMURI』（2023 年発表・2026-09-18 建卡）は bucket=new のまま（⑦f の文言上は update が妥当）。次場以降の清理候補。③ 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。"
         ]
       },
     ],
