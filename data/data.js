@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-10T19:00:00+08:00",
-    edition: "2026-10-10",
-    window: "2026-08-10 ~ 2026-10-10（滚动最近 2 个月）",
+    updatedAt: "2026-10-12T19:00:00+08:00",
+    edition: "2026-10-12",
+    window: "2026-08-12 ~ 2026-10-12（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -9172,6 +9172,86 @@ window.OBSERVATORY = {
         cast: "公式発表なし"
       }
     },
+    {
+      id: "blazblue-centralfiction-ps5",
+      company: "Arc System Works",
+      companyJp: "株式会社アークシステムワークス",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-10（EVO France 2026 の会場で PS5 版の制作を発表）",
+      capturedAt: "2026-10-12",
+      title: {
+        jp: "BLAZBLUE CENTRALFICTION（PS5版）",
+        cn: "苍翼默示录 神观之梦（PS5 版）",
+        en: "BlazBlue: Central Fiction (PS5)"
+      },
+      genre: "2D 対戦格闘（ビジュアルノベル要素を含む）",
+      platforms: [
+        "PlayStation 5",
+        "PC（Steam）"
+      ],
+      release: "未発表（「TRINITY -PHASE 3-」アップデート後の後日リリース予定）",
+      releasePrecision: "未定",
+      summary: "アークシステムワークスの 2D 対戦格闘『BLAZBLUE CENTRALFICTION』に PlayStation 5 版が制作されることが発表された。2015 年にアーケードで稼働し、PS3・PS4・Switch・PC へ展開してきたシリーズ最終章の移植版で、PS5 版はロールバックネットコードの追加、Steam 版とのクロスプラットフォーム対戦、フランス語・イタリア語・ドイツ語・スペイン語の 4 言語追加、トレーニングモードの新機能を備える。PS4 版からのアップグレードも予定される。発表はフランス・ニースで開催された EVO France 2026 の会場で行われ、ロールバック対応により Steam 版と性能が揃うことで、海外プレイヤー同士の対戦環境が広がる。",
+      highlight: "【2026-10-10 PS5 版発表】EVO France 2026 の会場でアークシステムワークスが『BLAZBLUE CENTRALFICTION』の PS5 版制作を発表した（ロールバックネットコード追加・Steam 版とのクロスプレイ対応・4 言語追加・トレーニングモード強化。PS4 版からのアップグレード予定。リリースは「TRINITY -PHASE 3-」アップデート後）。　2015 年稼働のシリーズ最終章を約 10 年ぶりに新ハードへ移植し、対戦格闘の現行競技水準に合わせてオンライン基盤を刷新する。",
+      console: {
+        status: "PS5 版を制作中（リリース日未発表）",
+        os: [
+          "PlayStation 5"
+        ],
+        monetization: "未発表（既存版は買い切り。Trinity Glassfille は PS4・PC 版向け DLC として追加予定）",
+        developer: "アークシステムワークス",
+        publisher: "アークシステムワークス",
+        region: "日本／北米／欧州（フランス語・イタリア語・ドイツ語・スペイン語を新規追加）",
+        distribution: "ダウンロード版（PS4 版からのアップグレードを予定）",
+        stores: [
+          "PlayStation Store"
+        ],
+        features: [
+          "PS5 版にロールバックネットコードを追加。Steam 版と同等のオンライン対戦基盤を整える",
+          "PlayStation 5 と PC（Steam）のクロスプラットフォーム対戦に対応",
+          "フランス語・イタリア語・ドイツ語・スペイン語の 4 言語をテキストに追加（ストーリーモード含む）",
+          "トレーニングモードに新機能を追加",
+          "PS4 版からの PS5 アップグレード版を用意予定"
+        ],
+        synopsis: "『BLAZBLUE』シリーズの最終章として 2015 年にアーケードで稼働し、同年以降 PS3・PS4・Switch・PC で展開してきた 2D 対戦格闘。テキストアドベンチャーパートと格闘パートを組み合わせ、「ドライブ」と呼ばれるキャラクター固有の能力を軸にした読み合いが特徴。PS5 版は EVO France 2026 で発表され、リリースは「TRINITY -PHASE 3-」アップデートの後となる。",
+        ipSource: "『BLAZBLUE』シリーズ（アークシステムワークス自社 IP）",
+        series: "BLAZBLUE シリーズ第 4 作／シリーズ最終章の移植版"
+      },
+      news: [
+        {
+          source: "Anime News Network",
+          url: "https://kuronekoanime.org/news/2026-10-10/blazblue-centralfiction-fighting-game-gets-release-on-ps5/.242699"
+        },
+        {
+          source: "The Fighting Games",
+          url: "https://thefightinggames.com/news/blazblue-central-fiction-ps5-rollback-netcode-crossplay"
+        }
+      ],
+      videos: [
+        {
+          label: "Arc System Works EU 公式発表（PS5 版・ロールバック・クロスプレイ）",
+          platform: "媒体",
+          url: "https://www.invenglobal.com/articles/27020/blazblue-central-fiction-ps5-version-confirmed"
+        }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "EVO France 2026（10/9〜11・ニース）の会場で発表され、対戦格闘コミュニティで即日報道された",
+          "ロールバックネットコードと PC クロスプレイ対応により、PS4／PC とは別扱いだった対戦環境が統合される",
+          "移植元は 2015 年稼働のシリーズ最終章で、国内外の対戦勢に既存の支持基盤がある"
+        ]
+      },
+      tags: [
+        "PC",
+        "主机",
+        "格斗",
+        "移植",
+        "ASW",
+        "长期运营"
+      ]
+    }
   ],
 
   /* ---------------------------------------------------------
@@ -9283,7 +9363,7 @@ window.OBSERVATORY = {
         { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
-        { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）" },
+        { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow", "blazblue-centralfiction-ps5"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）。『BLAZBLUE CENTRALFICTION』PS5 版は自社 IP の機種追加として 2026-10-10 に発表" },
         { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton", "hoshin-engi-re-surrection", "atmosfar"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展。2026-10-10 には、同ブランドが発行する空中サバイバル『ATMOSFAR』（開発：Apog Labs＝スウェーデン、PC 早期アクセス 2026-10-29 予定）を追記した" },
         { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
@@ -9378,7 +9458,21 @@ window.OBSERVATORY = {
   digest: {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
-      {
+            {
+        at: "2026-10-12 19:00",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "日方主導のスマホ新作の新規発表は本場なし（10-10 19:00〜10-12 の国内向け新規スマホタイトル告知は確認できず）。実入りは主机・PC 側の新規 1 件。",
+          "主机・PC の新規 1 件 —— アークシステムワークスが 2026-10-10、フランス・ニースの EVO France 2026 会場で 2D 対戦格闘『BLAZBLUE CENTRALFICTION』の PS5 版制作を発表した。ロールバックネットコード追加、Steam 版とのクロスプレイ、仏・伊・独・西の 4 言語追加、トレーニングモード強化を備え、PS4 版からのアップグレードも予定。2015 年稼働のシリーズ最終章の機種追加であるため bucket=update で収録（本体は窗口左端より前）。",
+          "条目総数は 162 → 163（主机・PC 区 137 → 138、platformClass は console 109 → 110）。手游区は 39 のまま。厂商清单 4 分類 8／16／16／10＝50 と補充監視（extra）43 社はいずれも不変（Arc System Works は既に extra 登録済み）。",
+          "漏収核查（アニメ／ゲーム IP の個別検索）：呪術廻戦／ブルーロック／チェンソーマン／スパイファミリー／NARUTO／ONE PIECE／hololive／この素晴らしい世界に祝福を！ ほかを確認。日方主導の新規スマホ新作は見つからず。『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～（まちすば）』の 2027 年 2 月への発売延期は 10-05 時点で既収録済み（capturedAt 2026-10-08）で、本場の追記は不要。",
+          "見送り（既定の赤線運用）：① 中国・韓国資本の案件は社名・作品名とも記載せず（『PROJECT RASENGAN』のうち『Naruto Mobile』は 2016 年に中国本土で先行配信された騰訊系タイトルのため、スマホ部分は既定どおり収録対象外）。② 本体が窗口外の在営タイトルへの内容更新（新キャラ・コラボ・DLC・周年）は口径どおり不収録。③ 非日本開発のインディー（Sifu Mobile、Gale Knights 等）は不収録。",
+          "会社地図（data/map.js）：本場は新規会社の追加・移転・資本変更なし。母集団 92 社（hq 72／branch 11／out 9・打点 83／全国 91）は不変、meta.asOf のみ 2026-10-10 → 2026-10-12 へ更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：本場は新期の発表を確認できず（直近は 10-09 期で整表更新済み）。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 待用户裁定：VISUAL ARTS（騰訊 100% 譲渡）の data.js 残留と地図除外の不整合。② 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③ 『KEMURI』の bucket 旧揺れ（bucket=new のまま）。"
+        ]
+      },
+{
         at: "2026-10-10 19:00",
         scene: "定時巡検（夕方の部）",
         items: [
@@ -9393,20 +9487,7 @@ window.OBSERVATORY = {
           "Famitsu 期待榜：2026-10-09 期が発表され、首位が『Zelda: Ocarina of Time』（790 票）に交代、『Pokemon Winds / Waves』（784）が 2 位に。mostWanted を 10-04 期から 10-09 期へ整表更新した。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。② 条目 bucket の旧揺れ：『KEMURI』は bucket=new のまま（⑦f 文言上は update が妥当）。③ 待用户裁定：VISUAL ARTS（騰訊 100% 譲渡）の data.js 残留と地図除外の不整合／香港資本案件／Ace Attorney DD VR（VR 分類）。"
         ]
-      },
-      {
-        at: "2026-10-10 09:10",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "日方主導のスマホ新作の新規発表は本場なし（10-09 夜〜10-10 朝の国内向け新タイトル告知は確認できず）。実入りは漏収回填 1 件 と既存タイトルの続報。",
-          "漏収回填（スマホ）1 件 —— KADOKAWA の『勇者刑に処す -Game of the GODDESS-』（開発：VIC GAME STUDIOS＝韓国、国内パブリッシング：KADOKAWA）が未収録だった。2026-10-03 の「電撃文庫 秋の祭典オンライン2026」でティザーKV・PV の第2弾とゲームオリジナルキャラクター（ノイ・マルジェラ：富田美憂／リサベラ：和泉風花）が公開された。本体（企画の公表）は窗口左端より前のため bucket=update で収録。",
-          "条目総数は 159 → 160（手游区 37 → 38／主机・PC 区 135 のまま。mobile 24 → 25、bucket は new 99／update 61）。厂商清单 4 分類 8／16／16／10＝50 は不変、補充監視（extra）は 43 社のまま（KADOKAWA は既登録で gameIds に 1 件追記）。",
-          "主机・PC 側も本場は日方主導の新規条目なし。10-09 の日方側の大きな動きは『ACE COMBAT 8: Wings of Theve』の世界累計 100 万本突破（発売 10-02、約 1 週間でシリーズ最速、Metacritic 87）と、SNK『餓狼伝説 City of the Wolves』へのアニメ『東京リベンジャーズ』コラボ（マイキー／ドラケン、10-22 配信）——後者は在営タイトルの内容更新のため条目化せず。",
-          "漏収核查（アニメ／ゲーム IP・ブランドの個別検索）：呪術廻戦／ONE PIECE／BLEACH／鬼滅の刃／東京リベンジャーズ／ブルーロック／チェンソーマン／刀剣乱舞／ホロライブ／僕のヒーローアカデミア／ガールズ&パンツァー／Otomate・LicoBiTs ほかを確認。実入りは上記の『勇者刑に処す』ゲーム 1 件。",
-          "見送り（既定の赤線運用）：① 中国・韓国資本の案件は社名・作品名とも記載せず。② 本体が窗口外の在営タイトルへの内容更新（新キャラ・コラボ・DLC・周年）は口径どおり不収録。③ 開発が海外で日方は発売元のみの案件、および非日本開発のインディー（Steam 新作群）も不収録。",
-          "【持越し】① 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。② 条目 bucket の旧揺れ：『KEMURI』は bucket=new のまま（⑦f 文言上は update が妥当）。③ 待用户裁定：のぶニャがの野望 系（発行＝香港）／Ace Attorney DD VR（VR 分類）／メイドインアビス スマホ（初公開が窗口外）／夢幻桜楼閣（同）。④ TGS2026 は展後記録として凍結。Famitsu 期待榜は 2026-10-04 期のままで新期なし。"
-        ]
-      },
+      }
     ],
   },
 };

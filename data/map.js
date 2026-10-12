@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-10-10",
+    asOf: "2026-10-12",
     count: 92,
     onMap: 83,
     outsideTokyo: 9,
