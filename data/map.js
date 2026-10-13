@@ -25,10 +25,10 @@
 window.OBSERVATORY_MAP = {
   meta: {
     asOf: "2026-10-13",
-    count: 92,
-    onMap: 83,
+    count: 94,
+    onMap: 85,
     outsideTokyo: 9,
-    hqPlotted: 92,   // 全国地図（本社位置）に打点できる社数
+    hqPlotted: 94,   // 全国地図（本社位置）に打点できる社数
     tileCredit: "地図タイル：国土地理院（淡色地図）",
     geoCredit: "住所検索：国土地理院 住所検索API",
     note: "ピンの位置は本社ビルの所在地（街区レベル）。【首都圏】表示は本社が道府県外の社を東京拠点の位置に打点し、その旨をカード内に表示する。【全国】表示は全社を本社位置（hqLat/hqLng）に打点する。破線リングは所在地が都道府県・市区町村レベルまでの確認にとどまる社。"
@@ -1264,6 +1264,32 @@ window.OBSERVATORY_MAP = {
         {"rel":"note","name":"独立系（非上場）"},
       ],
     },
+    {
+      id: "edia", name: "株式会社エディア", short: "エディア",
+      tier: "small", color: "#e0556d",
+      addr: "東京都千代田区一ツ橋2-4-3 光文恒産ビル7F", pref: "東京都",
+      lat: 35.694088, lng: 139.757599, hqLat: 35.694088, hqLng: 139.757599, precision: "block",
+      officeKind: "hq", officeLabel: "本社",
+      logo: null, games: 2,
+      match: ["エディア", "Edia", "MintLip"],
+      top: null,
+      eq: [
+        {"rel":"listed","name":"東証スタンダード 3935"},
+      ],
+    },
+    {
+      id: "neos", name: "ネオス株式会社", short: "ネオス",
+      tier: "small", color: "#8b98a9",
+      addr: "東京都千代田区神田須田町1-23-1 住友不動産神田ビル2号館10F", pref: "東京都",
+      lat: 35.697186, lng: 139.769226, hqLat: 35.697186, hqLng: 139.769226, precision: "block",
+      officeKind: "hq", officeLabel: "本社",
+      logo: null, games: 1,
+      match: ["ネオス", "Neos"],
+      top: null,
+      eq: [
+        {"rel":"parent","name":"テクミラホールディングス","pct":"100%（東証スタンダード 3627）"},
+      ],
+    }
   ],
   edges: [
     { a: "toho-games", b: "koei-tecmo", kind: "partner", label: "" },
