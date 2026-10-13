@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-10-10
+ * 最后更新: 2026-10-13
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-12T19:10:00+08:00",
-    edition: "2026-10-12",
-    window: "2026-08-12 ~ 2026-10-12（滚动最近 2 个月）",
+    updatedAt: "2026-10-13T09:00:00+08:00",
+    edition: "2026-10-13",
+    window: "2026-08-13 ~ 2026-10-13（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -9253,6 +9253,100 @@ window.OBSERVATORY = {
         "ASW",
         "长期运营"
       ]
+    },
+    {
+      id: "metaphor-refantazio-switch2",
+      company: "ATLUS（SEGA）",
+      companyJp: "株式会社アトラス（発売：株式会社セガ）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-12（Nintendo Switch 2 版の「序章体験版」を日本・オーストラリアの Nintendo eShop で予告なく配信開始）",
+      capturedAt: "2026-10-13",
+      title: {
+        jp: "Metaphor: ReFantazio（Nintendo Switch 2 版）",
+        cn: "暗喻幻想：ReFantazio（Nintendo Switch 2 版）",
+        en: "Metaphor: ReFantazio (Nintendo Switch 2)"
+      },
+      genre: "ファンタジー RPG",
+      platforms: [
+        "Nintendo Switch 2"
+      ],
+      release: "2026-11-12（Nintendo Switch 2 版。本体は 2024-10-11 に他機種で発売済み）",
+      releasePrecision: "日",
+      summary: "ATLUS（Studio Zero）开发、SEGA 发行的奇幻 RPG。本体 2024-10-11 已登陆 PS4／PS5／Xbox Series X|S／PC（Steam），全球累计突破 200 万份，并在 TGA 2024 拿下最佳 RPG、最佳叙事、最佳艺术指导三项大奖。Nintendo Switch 2 版于 2026 年 6 月的 Nintendo Direct 首次公开，定档 2026-11-12，数字版自 9 月 1 日起开放预购（美国 eShop 标准版 39.99 美元，另有 Guidebook 版与 ATLUS 35th Digital Anniversary 版），TGS2026 的 SEGA／ATLUS 展台亦提供了限定的战斗试玩「Sword Trial」。2026-10-12，官方在无预告的情况下向日本与澳大利亚的 Nintendo eShop 放出可继承存档的「序章体验版」，收录开场剧情与第一座迷宫。玩法为指令回合制与实时场地动作结合的混合战斗，核心是可自由更换的职业「阿基态（Archetype）」；白天探索迷宫与接任务、夜间加深羁绊并提升美德的时间管理系统，沿用《女神异闻录》系列的设计。",
+      highlight: "【2026-10-12 序章体験版を予告なく配信】Nintendo Switch 2 版の「序章体験版」が日本・オーストラリアの Nintendo eShop に突如出現した。序盤のストーリーと最初のダンジョンを収録し、セーブデータは 2026-11-12 発売の製品版へ引き継げる（ダウンロードサイズ約 29.8GB）。北米など他地域は順次配信の見込み。　本体は 2024-10-11 に他機種で発売済みで TGA2024 の 3 部門を受賞、世界累計は 200 万本を超える。Switch 2 版は 2026-06 の Nintendo Direct で発表され、9-01 にデジタル予約が始まっていた。今回は本体レベルの機種展開として収録する。",
+      console: {
+        status: "2026年11月12日発売予定（予約受付中）。「序章体験版」を 2026-10-12 から日本・オーストラリアの Nintendo eShop で配信中",
+        os: [
+          "Nintendo Switch 2"
+        ],
+        monetization: "買い切り。米国 eShop 表記で Standard Edition 39.99 ドル／Guidebook Edition 49.99 ドル／ATLUS 35th Digital Anniversary Edition 69.99 ドル（同作の Switch 2 版はいずれも他機種より約 30 ドル安い設定。日本価格は eShop を参照）",
+        developer: "アトラス（スタジオ・ゼロ）",
+        publisher: "株式会社セガ",
+        region: "日本／北米／欧州ほか（テキスト：日本語・英語・中国語（簡体字／繁体字）・韓国語・フランス語・イタリア語・ドイツ語・スペイン語・ポルトガル語・ロシア語）",
+        distribution: "パッケージ版・ダウンロード版（数量限定の Steelbook Edition あり）",
+        stores: [
+          "Nintendo eShop"
+        ],
+        preOrder: {
+          open: true,
+          since: "2026-09-01（デジタル予約受付開始）",
+          reward: "予約特典の内容は公式サイトを参照。数量限定の Steelbook Edition が用意される"
+        },
+        features: [
+          "『ペルソナ』シリーズの橋野桂（監督）・副島成記（キャラクターデザイン）・目黒将司（音楽）が手がける新規ファンタジー RPG",
+          "コマンド式のターン制バトルと、フィールドでのリアルタイムアクションを組み合わせたハイブリッド戦闘",
+          "「アーキタイプ」と呼ぶ職業をキャラクターごとに自由に付け替え、パーティ編成とスキル構成を組み替えられる",
+          "昼はダンジョン探索と依頼、夜は仲間との絆と徳目の強化に充てる時間管理システム",
+          "2026-10-12 から配信中の「序章体験版」は序盤のストーリーと最初のダンジョンを収録し、セーブデータを製品版へ引き継げる（約 29.8GB）"
+        ],
+        synopsis: "滅びかけたウクロニア連合王国を舞台に、国王暗殺の後に発動した「選挙魔法」をきっかけとして王位を争う物語。プレイヤーは妖精ガリカとともに各地を巡り、心に眠る「アーキタイプ」の力を目覚めさせながら、道中で出会う仲間との絆を深めていく。",
+        ipSource: "アトラス（スタジオ・ゼロ）の自社 IP。2016 年に発足したスタジオ・ゼロの初の完全新規タイトル（開発コード『Project Re Fantasy』）で、特定の既存 IP に依拠しないオリジナル作品",
+        series: "本体は 2024-10-11 に PS4／PS5／Xbox Series X|S／PC（Steam）で発売され、世界累計 200 万本を突破。Nintendo Switch 2 版は任天堂ハードへの初展開となる",
+        cast: "主人公：花江夏樹／ガリカ：諸星すみれ／ルイ：小西克幸（日本語音声）"
+      },
+      news: [
+        {
+          source: "RPG Site（Switch 2 版「序章体験版」の eShop 配信を報道）",
+          url: "https://www.rpgsite.net/news/21557-metaphor-refantazio-switch-2-demo-download-prologue"
+        },
+        {
+          source: "Nintendo Everything（Famitsu 期待榜 10-11 期：Switch 2 版が 24 位に初登場）",
+          url: "https://nintendoeverything.com/famitsus-most-wanted-games-october-11-2026-zelda-ocarina-of-time-overthrows-pokemon-winds-and-waves-multiple-new-games-appear/"
+        },
+        {
+          source: "TwistedVoxel（Switch 2 版の予約受付開始とキャラクター PV シリーズを報道）",
+          url: "https://twistedvoxel.com/metaphor-refantazio-switch-2-pre-orders-now-open/"
+        }
+      ],
+      videos: [
+        {
+          label: "Steam 公式ストアページ（本体・「序章体験版」の配信ページ）",
+          platform: "Steam",
+          url: "https://store.steampowered.com/app/2679460/ReFantazio/"
+        },
+        {
+          label: "RPG Site 報道（eShop 配信状況・体験版の内容と容量）",
+          platform: "媒体",
+          url: "https://www.rpgsite.net/news/21557-metaphor-refantazio-switch-2-demo-download-prologue"
+        }
+      ],
+      hype: {
+        score: 68,
+        signals: [
+          "本体は Metacritic 94・TGA2024 で RPG／ナラティブ／アートディレクションの 3 部門を受賞し、世界累計 200 万本超の実績がある",
+          "Famitsu 読者期待榜 10-11 期で Switch 2 版が 24 位（80 票）に初登場",
+          "eShop のデジタル予約は 2026-09-01 に開始済みで、TGS2026 の SEGA／ATLUS 展台でも限定試遊が用意された",
+          "序章体験版は予告なしの配信だったが、セーブ引き継ぎ対応で Switch 2 購入層の取り込みを狙う"
+        ]
+      },
+      tags: [
+        "主机",
+        "Switch2",
+        "机种追加",
+        "ATLUS",
+        "RPG"
+      ]
     }
   ],
 
@@ -9262,7 +9356,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-10",
+    asOf: "2026-10-13",
     listTotal: 50,
     categories: [
       {
@@ -9272,7 +9366,7 @@ window.OBSERVATORY = {
         items: [
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
-          { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
+          { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
@@ -9285,7 +9379,7 @@ window.OBSERVATORY = {
         label: "有力パブリッシャー・著名デベロッパー",
         sub: "",
         items: [
-          { name: "株式会社アトラス", short: "ATLUS", status: "covered", gameIds: ["persona-6", "persona-4-revival"] },
+          { name: "株式会社アトラス", short: "ATLUS", status: "covered", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2"] },
           { name: "株式会社フロム・ソフトウェア", short: "FromSoftware", status: "covered", gameIds: ["the-duskbloods"] },
           { name: "株式会社レベルファイブ", short: "LEVEL-5", status: "covered", gameIds: ["professor-layton-new-world-of-steam", "layton-curious-village-remake", "yokai-watch-2-hadou", "inazuma-eleven-bold-revolution", "holy-horror-mansion", "decapolice", "snack-world-reloaded", "puchipoyon-fantasy-world"], note: "9/10「LEVEL5 VISION 2026 II 夢」一次公布 10 个标题，本台为其建卡 7 件（主机/PC 6＋手游 1）" },
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa", "gobble"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。社内提案制度「Project Pitch Fest」から生まれた横スクロールアクション『GOBBLE（ガブル）』を 2026-09-24 に発売した" },
@@ -9461,6 +9555,20 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-13 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "日方主導のスマホ新作の新規発表は本場なし（10-12 夕〜10-13 朝の国内向け新規スマホタイトル告知は確認できず）。実入りは主机・PC 側の機種展開 1 件。",
+          "主机・PC の新規 1 件 —— アトラス（発売：セガ）が 2026-10-12、『Metaphor: ReFantazio』の Nintendo Switch 2 版「序章体験版」を日本・オーストラリアの Nintendo eShop で予告なく配信開始した。序盤のストーリーと最初のダンジョンを収録し、セーブデータは 2026-11-12 発売の製品版へ引き継げる。本体は 2024-10-11 に他機種で発売済みのため bucket=update で収録（条目 164）。",
+          "条目総数は 163 → 164（主机・PC 区 138 → 139、platformClass は console 110 → 111）。手游区 39 は不変。厂商清单 4 分類 8／16／16／10＝50 と補充監視（extra）43 社はいずれも不変（ATLUS・SEGA は既登録で gameIds に追記）。",
+          "漏収核查（アニメ IP の個別検索）：東京リベンジャーズ／チェンソーマン／SPY×FAMILY／僕のヒーローアカデミア／呪術廻戦／ブルーロック／刀剣乱舞／ホロライブほかを確認。日方主導の新規スマホ新作は見つからず（確認できたスマホ作はいずれも本体が窗口外の在営タイトル）。",
+          "見送り（既定の赤線運用）：① 中国資本の案件は社名・作品名とも記載せず。② 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。③ 非日本開発のインディー（Sifu のモバイル版、Legion Breaker 等）は不収録。④ 開発主体の国籍が確認できない小規模インディー PC 作 1 件は本場見送り。",
+          "会社地図（data/map.js）：新規会社の追加・移転・資本変更なし。母集団 92 社（hq 72／branch 11／out 9）は不変、meta.asOf のみ 2026-10-12 → 2026-10-13 へ更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：10-11 付は 10-09 期と同一数値（上位 10 は変化なし）のため整表更新は不要。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 待用户裁定：VISUAL ARTS の data.js 残留と地図除外の不整合（資本譲渡の経緯あり）。② 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③ 『KEMURI』の bucket 旧揺れ（bucket=new のまま）。"
+        ]
+      },
+      {
         at: "2026-10-12 19:10",
         scene: "定時巡検（夕方の部・追補）",
         items: [
@@ -9474,21 +9582,7 @@ window.OBSERVATORY = {
           "【是正】digest 内に残っていた中国資本の社名・作品名の記載を、既定の赤線運用（点名しない）に合わせて修正した。",
           "【持越し】① 待用户裁定：VISUAL ARTS の data.js 残留と地図除外の不整合（資本譲渡の経緯あり）。② 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③ 『KEMURI』の bucket 旧揺れ（bucket=new のまま）。"
         ]
-      },
-            {
-        at: "2026-10-12 19:00",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "日方主導のスマホ新作の新規発表は本場なし（10-10 19:00〜10-12 の国内向け新規スマホタイトル告知は確認できず）。実入りは主机・PC 側の新規 1 件。",
-          "主机・PC の新規 1 件 —— アークシステムワークスが 2026-10-10、フランス・ニースの EVO France 2026 会場で 2D 対戦格闘『BLAZBLUE CENTRALFICTION』の PS5 版制作を発表した。ロールバックネットコード追加、Steam 版とのクロスプレイ、仏・伊・独・西の 4 言語追加、トレーニングモード強化を備え、PS4 版からのアップグレードも予定。2015 年稼働のシリーズ最終章の機種追加であるため bucket=update で収録（本体は窗口左端より前）。",
-          "条目総数は 162 → 163（主机・PC 区 137 → 138、platformClass は console 109 → 110）。手游区は 39 のまま。厂商清单 4 分類 8／16／16／10＝50 と補充監視（extra）43 社はいずれも不変（Arc System Works は既に extra 登録済み）。",
-          "漏収核查（アニメ／ゲーム IP の個別検索）：呪術廻戦／ブルーロック／チェンソーマン／スパイファミリー／NARUTO／ONE PIECE／hololive／この素晴らしい世界に祝福を！ ほかを確認。日方主導の新規スマホ新作は見つからず。『この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～（まちすば）』の 2027 年 2 月への発売延期は 10-05 時点で既収録済み（capturedAt 2026-10-08）で、本場の追記は不要。",
-          "見送り（既定の赤線運用）：① 中国・韓国資本の案件は社名・作品名とも記載せず（日本 IP を原作とする案件でも、開発・発行の資本が中国側にあるものは既定どおり収録対象外）。② 本体が窗口外の在営タイトルへの内容更新（新キャラ・コラボ・DLC・周年）は口径どおり不収録。③ 非日本開発のインディー（Sifu Mobile、Gale Knights 等）は不収録。",
-          "会社地図（data/map.js）：本場は新規会社の追加・移転・資本変更なし。母集団 92 社（hq 72／branch 11／out 9・打点 83／全国 91）は不変、meta.asOf のみ 2026-10-10 → 2026-10-12 へ更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：本場は新期の発表を確認できず（直近は 10-09 期で整表更新済み）。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 待用户裁定：VISUAL ARTS（資本譲渡の経緯あり）の data.js 残留と地図除外の不整合。② 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③ 『KEMURI』の bucket 旧揺れ（bucket=new のまま）。"
-        ]
-      },
+      }
     ],
   },
 };
