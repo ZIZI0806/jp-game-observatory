@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-13T19:00:00+08:00",
-    edition: "2026-10-13",
-    window: "2026-08-13 ~ 2026-10-13（滚动最近 2 个月）",
+    updatedAt: "2026-10-14T09:00:00+08:00",
+    edition: "2026-10-14",
+    window: "2026-08-14 ~ 2026-10-14（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -3479,16 +3479,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-10-11（事前登録 70 万件突破をバンダイナムコが公式発表）",
-      capturedAt: "2026-10-12",
+      announceDate: "2026-10-13（10-27 19:00 の SPECIAL BROADCAST 配信をバンダイナムコが公式発表）",
+      capturedAt: "2026-10-14",
       title: { jp: "BLEACH Mirrors High", cn: "BLEACH Mirrors High", en: "BLEACH Mirrors High" },
       genre: "カードベース アクション RPG（3v3）",
       platforms: ["iOS", "Android"],
       release: "2026年内（App Store 表記は 2026-11-28）",
       releasePrecision: "年",
       summary: "万代南梦宫发行的《BLEACH》改编卡片动作 RPG。故事设定在「千年血战篇」之后，玩家以护廷十三队一员、自定义新人死神的身份展开冒险；原作久保带人参与企划概念与角色设计，并设计了 Shirin Migishima、Shirane Sanari（双主角）以及 Naru Jurinna、Giro Hando、Maiko Tokishima 等原创角色。系统上提供「Avatar Customization」自定义外貌与「Customize Zanpakuto」自定义斩魄刀（刀镡・刀身・刀鞘），战斗为 3 人编队、以卡牌输入触发战术交锋，可用 Chain／Link Attack 把队友技能连成连续攻击，另有可扭转战局的「SOUL DRIVE」连携系统。2026-07 完成封闭 β 测试，2026-08-27 官方 X 宣布 2026 年内上线，TGS2026 提供试玩。本届 TGS2026 上，本作是万代南梦宫主展台里少数的手机作品之一，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》等主机大作同区展出，自 9 月 17 日起提供可试玩版本并配合周边发放。官方把手机游戏放进综合大厂主展台、而非另设小型手游展区，显示宣传投入正在加码。2026-10-11 官方宣布全球事前登录突破 70 万件，并追加 7200 个 Mirror Gems（约 24 抽）、★3［死神代行］一护、★3［十三番队副队长］露琪亚与 ★3 以上确定召唤券 5 张作为上线奖励；配信日与课金形态仍未公布。",
-      highlight: "【事前登録 70 万件突破 10/11】バンダイナムコが世界同時 70 万件突破を公式発表し、7,200 ミラージェム（24 連相当）／★3［死神代行］黒崎一護／★3［十三番隊副隊長］朽木ルキア／★3 以上確定チケット 5 枚をローンチ特典に追加。　久保帯人が制作協力・概念・キャラクターデザインで参画し、オリジナル両主人公を描き下ろし——原作サイドの深い関与が最大の差別化点。",
+      highlight: "【10/27 特番告知 10/13】バンダイナムコが 2026-10-27（火）19:00 から YouTube で「BLEACH Mirrors High SPECIAL BROADCAST」を配信し、本作の新情報を発表すると告知。出演は小林千晃（右島志燐役）・指出毬亜（佐鳴白祢役）・森田成一（黒崎一護役）・折笠富美子（朽木ルキア役）、MC 松澤ネキ。　【事前登録 70 万件突破 10/11】バンダイナムコが世界同時 70 万件突破を公式発表し、7,200 ミラージェム（24 連相当）／★3［死神代行］黒崎一護／★3［十三番隊副隊長］朽木ルキア／★3 以上確定チケット 5 枚をローンチ特典に追加。　久保帯人が制作協力・概念・キャラクターデザインで参画し、オリジナル両主人公を描き下ろし——原作サイドの深い関与が最大の差別化点。",
       news: [
+        { source: "4Gamer.net（SPECIAL BROADCAST 10/27 19:00 配信の告知・出演者）", url: "https://www.4gamer.net/games/970/G097078/20261013046/" },
         { source: "Anime News Network（バンダイナムコ公式プレスリリース：事前登録 70 万件突破）", url: "https://www.animenewsnetwork.com/press-release/2026-10-11/bleach-mirrors-high-pre-registration-campaign-surpasses-700000-worldwide-unlocking-3-star-soul-/.242670" },
         { source: "Enduins（2026 年上线确认与原创角色）", url: "https://www.enduins.com/news/bandai-namco-confirms-2026-mobile-launch-for-bleach-mirrors-high" },
         { source: "Quest Board.JP（官方 X 公告与 TGS2026 试玩）", url: "https://quest-board.jp/en/quests/bleach-mirrors-high/" },
@@ -9524,6 +9525,61 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["主机", "Switch", "女性向ADV", "机种追加", "エディア"]
+    },
+    {
+      id: "buzz-or-die",
+      company: "講談社ゲームラボ",
+      companyJp: "株式会社講談社（講談社ゲームクリエイターズラボ）",
+      bucket: "update",
+      platformClass: "pc",
+      announceDate: "2026-10-13（発売日 2026-10-28 決定と体験版配信開始を発表）",
+      capturedAt: "2026-10-14",
+      title: { jp: "BUZZ or DIE", cn: "BUZZ or DIE", en: "BUZZ or DIE" },
+      genre: "デスゲーム・アドベンチャー",
+      platforms: ["PC（Steam）"],
+      release: "2026-10-28（Steam。価格は未発表）",
+      releasePrecision: "日",
+      summary: "讲谈社的独立游戏支援项目「讲谈社游戏创作者实验室」发行、个人开发者凡（Bon）开发的死亡游戏题材冒险游戏。2026 年 8 月 31 日随凡加入实验室一并正式发表，10 月 13 日宣布于 2026 年 10 月 28 日在 Steam 发售，并同步配信收录第 0 章（约 30 分钟、全语音）的免费体验版。舞台是一档由死刑犯出演的综艺节目：玩家与死刑犯搭档组队，在「调查」环节潜入对手的精神世界挖掘其过去与弱点，再在「缩略图制作」环节用这些素材做短视频封面，以观众点赞数决胜负，胜者获得特赦与「实现任何愿望」的权利，败者则被公开处刑。缩略图的取向会改变视频内容走向。立绘与 CG 由漫画家岡田淳司负责，对应日语・英语・简体中文。",
+      highlight: "【2026-10-13 発売日決定】講談社ゲームクリエイターズラボが『BUZZ or DIE』を 2026-10-28（水）に Steam で発売すると発表し、第 0 章（約 30 分・フルボイス）を収録した無料体験版の配信と 2nd PV の公開を同時に行った。　死刑囚が出演するバラエティ番組を舞台に、相手の過去を暴いたショート動画の「いいね」数で勝敗が決まるデスゲーム ADV。正式発表は 2026-08-31 だが、Steam ストアページはそれ以前から存在していたため bucket は update で扱う。",
+      console: {
+        status: "2026-10-28 発売予定（Steam。体験版配信中）",
+        os: ["PC（Steam）"],
+        monetization: "買い切り（価格は未発表）",
+        developer: "凡（Bon／個人開発者）",
+        publisher: "株式会社講談社（講談社ゲームクリエイターズラボ）",
+        region: "全世界（日本語・英語・簡体字）",
+        distribution: "Steam でのダウンロード販売",
+        stores: ["Steam"],
+        features: [
+          "対戦相手の精神世界に入り込んで過去と弱みを集める「調査パート」",
+          "集めた素材でショート動画のサムネイルを作る「サムネ制作パート」。サムネイルの方向性で動画の内容が分岐する",
+          "勝敗は視聴者の「いいね」数で決まり、勝者には恩赦と願いが叶う権利、敗者には公開処刑が待つ",
+          "立ち絵とスチルは漫画家の岡田淳司が担当。体験版は第 0 章を収録しフルボイス"
+        ],
+        synopsis: "訳ありの死刑囚たちが出演する「バズらなければ死ぬ」バラエティ番組が舞台。プレイヤーは死刑囚の相棒（新興宗教の元教祖・佐木島翔ほか）とペアを組み、対戦相手の過去を掘り起こしてショート動画に仕立て、視聴者の支持を競う。暴力的・グロテスクな表現を含む。",
+        ipSource: "オリジナル（凡による新規 IP）",
+        series: "凡は『EgoMixer』『十二股全部フる』など短編フリーゲームを手がけてきた個人開発者で、本作が講談社ゲームクリエイターズラボからの初の商業作となる",
+        cast: "未発表（体験版はフルボイス）"
+      },
+      news: [
+        { source: "ファミ通.com（発売日 10/28 決定・体験版配信・2nd PV）", url: "https://www.famitsu.com/article/202610/90741" },
+        { source: "電ファミニコゲーマー（2026-08-31 の正式発表・ゲーム内容）", url: "https://news.denfaminicogamer.jp/news/2608312e" },
+        { source: "Gematsu（PC 向け発表）", url: "https://www.gematsu.com/2026/08/death-row-inmates-reality-show-x-death-game-adventure-buzz-or-die-announced-for-pc" }
+      ],
+      videos: [
+        { label: "2nd PV（YouTube）", platform: "YouTube", url: "https://youtu.be/68xyIW7EkBM" },
+        { label: "Steam ストアページ（体験版配信中）", platform: "Steam", url: "https://store.steampowered.com/app/2899240/BUZZ_or_DIE/" }
+      ],
+      hype: {
+        score: 36,
+        signals: [
+          "大手出版社・講談社のインディー支援レーベルからの発売で、国内ゲームメディア（ファミ通・電ファミ）が発表と発売日決定を報じた",
+          "ショート動画と「いいね」を勝敗軸にしたデスゲームという現代的な題材で、SNS での話題化を狙いやすい",
+          "立ち絵を漫画家の岡田淳司が担当し、体験版はフルボイス",
+          "個人開発の小規模作品で、Famitsu 期待榜など大型の期待指標には現れていない"
+        ]
+      },
+      tags: ["PC", "発売日決定", "アドベンチャー", "デスゲーム", "講談社"]
     }
   ],
 
@@ -9533,7 +9589,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-13",
+    asOf: "2026-10-14",
     listTotal: 50,
     categories: [
       {
@@ -9650,7 +9706,7 @@ window.OBSERVATORY = {
         { name: "株式会社工画堂スタジオ", short: "Kogado Studio", status: "covered", gameIds: ["sugar-lies"], note: "東京都立川市の老舗パブリッシャーで、短編ビジュアルノベルや音楽・教育関連ソフトを手がけてきた。2026-09-18 の KONAMI TGS2026 生放送で新作『Sugar Lies』（PC／Steam 2026 年末、Nintendo Switch 2027 年春）を発表したため補充監視に追加" },
         { name: "株式会社アクティブゲーミングメディア（PLAYISM）", short: "PLAYISM", status: "covered", gameIds: ["devil-connection"], note: "インディーゲームのローカライズとパブリッシングを手がける日本企業。PLAYISM ブランドで家庭用・モバイル向けの発行を行い、『DevilConnection』（開発：ChaoGames）の Switch／iOS／Android 版を 2027-01-21 に発売する。PLAYISM GAME SHOW: TGS 2026 Preview で本作の発売日を発表し、TGS2026 会場ではプレイアブル出展も行った" },
         { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium", "sentimental-graffiti-remake", "azure-memoria"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
-        { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された" },
+        { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code", "buzz-or-die"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された。2026-10-13 には凡（Bon）開発の『BUZZ or DIE』を 2026-10-28 に Steam で発売すると発表し、体験版を配信した" },
         { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world", "girls-und-panzer-all-star-tank-carnival"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した。2026-10-09 には『ガールズ＆パンツァー オールスター・タンク・カーニバル』の Nintendo Switch 2 版を 2027 年内発売と発表" },
         { name: "株式会社アプリボット", short: "Applibot", status: "watch", gameIds: [], focus: true, note: "『ちいかわ』初のスマホアプリを企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。同作は 2025-03-27 配信開始済みの在営タイトルのため、本台は内容更新を収録対象外としている" },
         { name: "株式会社ライドオンジャパン", short: "Rideon Japan", status: "covered", gameIds: ["mercenaries-grace"], note: "タクティカル RPG『Mercenaries Saga』シリーズを自社で企画・開発・配信する日本のスタジオ。2026-09-25 にシリーズ第 8 作『Mercenaries Grace: Black Feather and the Golden Right Arm』（PlayStation 5／Nintendo Switch／PC（Steam）、日本では 2026 年 11 月にデジタル配信予定）を発表したため補充監視に追加" },
@@ -9734,6 +9790,21 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-14 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ】日方主導のスマホ新作の新規発表は本場なし（10-13 夕〜10-14 朝の国内向け新規スマホタイトル告知は確認できず）。既収録の BLEACH Mirrors High に続報 1 件。",
+          "更新 1 件 —— バンダイナムコが 2026-10-13、『BLEACH Mirrors High』の SPECIAL BROADCAST を 2026-10-27 19:00 から YouTube で配信し新情報を発表すると告知（出演：小林千晃・指出毬亜・森田成一・折笠富美子、MC 松澤ネキ）。highlight 首句に追記。",
+          "主机・PC の新規 1 件（漏収追補）—— 講談社ゲームクリエイターズラボが 2026-10-13、凡（Bon）開発のデスゲーム ADV『BUZZ or DIE』を 2026-10-28 に Steam で発売すると発表し、体験版（第 0 章）を配信。前場は日文ホワイトリスト媒体の報道がなく見送ったが、ファミ通.com の記事を確認できたため収録。正式発表は 2026-08-31 だが Steam ページはそれ以前から存在するため bucket=update。",
+          "条目総数は 167 → 168（主机・PC 区 142 → 143、platformClass は pc 14 → 15）。手游区 39 は不変。companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社も不変（講談社ゲームラボの gameIds に追記）。",
+          "漏収核查（アニメ IP の個別検索）：葬送のフリーレン／薬屋のひとりごと／ダンダダンを確認。日方主導の新規ゲーム発表なし（薬屋は 9-09 発表の既収録作のみ、他はグッズ・リアル脱出ゲーム）。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 共同開発者の国籍・資本が確認できない PC 新作 1 件（日本の発行元・日本の開発者）は待用户裁定。③ 日本の発行元によるローカライズ発売で開発元の国籍が不明な家庭用作品 1 件、Steam ページのみで初出が確認できない個人制作 PC 作品 1 件は見送り。④ 本体が窗口外の作品の機種展開で発表日も窗口外のもの（Switch 2 版、2026-06 発表）は対象外。",
+          "会社地図（data/map.js）：2026-10-13 のユーザー裁定（中資紅線の例外放行）に基づき、株式会社ビジュアルアーツ（Key）を新規登録。本社＝大阪府大阪市浪速区難波中2-10-70 パークスタワー17F（国税庁法人番号公表サイトで確認、2024-06-24 に大阪市北区から移転）。東京拠点は一次源で確認できなかったため officeKind=out。母集団 94 → 95 社（hq 74／branch 11／out 10、onMap 85・hqPlotted 95）。座標は国土地理院住所検索 API。",
+          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。② 『KEMURI』の bucket 旧揺れ（bucket=new のまま）。（VISUAL ARTS の扱いは 10-13 裁定で結案、地図補登も本場で完了）"
+        ]
+      },
+      {
         at: "2026-10-13 19:00",
         scene: "定時巡検（夕方の部）",
         items: [
@@ -9746,20 +9817,6 @@ window.OBSERVATORY = {
           "見送り（既定の赤線運用）：① 中国資本の案件は不収録。② 日本国外の開発による PC インディーは不収録。③ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。④ 講談社ゲームラボの PC 新作が 1 件あるが、日文ホワイトリスト媒体での報道が確認できず（中国語メディアのみ）、リンク基準を満たさないため本場見送り。",
           "会社地図（data/map.js）：エディア（東京都千代田区一ツ橋2-4-3）とネオス（東京都千代田区神田須田町1-23-1）を新規追加し、母集団を 92 → 94 社に更新（hq 74／branch 11／out 9、onMap 85・hqPlotted 94）。座標は国土地理院住所検索 API、geo-check は要確認 0 件。",
           "Famitsu 期待榜：新期の発表は確認できず（直近は 10-09 期で整表更新済み。10-11 付の海外転載も同一数値のため整表更新は不要）。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 待用户裁定：VISUAL ARTS の data.js 残留と地図除外の不整合（資本譲渡の経緯あり）。② 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③ 『KEMURI』の bucket 旧揺れ（bucket=new のまま）。"
-        ]
-      },
-      {
-        at: "2026-10-13 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "日方主導のスマホ新作の新規発表は本場なし（10-12 夕〜10-13 朝の国内向け新規スマホタイトル告知は確認できず）。実入りは主机・PC 側の機種展開 1 件。",
-          "主机・PC の新規 1 件 —— アトラス（発売：セガ）が 2026-10-12、『Metaphor: ReFantazio』の Nintendo Switch 2 版「序章体験版」を日本・オーストラリアの Nintendo eShop で予告なく配信開始した。序盤のストーリーと最初のダンジョンを収録し、セーブデータは 2026-11-12 発売の製品版へ引き継げる。本体は 2024-10-11 に他機種で発売済みのため bucket=update で収録（条目 164）。",
-          "条目総数は 163 → 164（主机・PC 区 138 → 139、platformClass は console 110 → 111）。手游区 39 は不変。厂商清单 4 分類 8／16／16／10＝50 と補充監視（extra）43 社はいずれも不変（ATLUS・SEGA は既登録で gameIds に追記）。",
-          "漏収核查（アニメ IP の個別検索）：東京リベンジャーズ／チェンソーマン／SPY×FAMILY／僕のヒーローアカデミア／呪術廻戦／ブルーロック／刀剣乱舞／ホロライブほかを確認。日方主導の新規スマホ新作は見つからず（確認できたスマホ作はいずれも本体が窗口外の在営タイトル）。",
-          "見送り（既定の赤線運用）：① 中国資本の案件は社名・作品名とも記載せず。② 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。③ 非日本開発のインディー（Sifu のモバイル版、Legion Breaker 等）は不収録。④ 開発主体の国籍が確認できない小規模インディー PC 作 1 件は本場見送り。",
-          "会社地図（data/map.js）：新規会社の追加・移転・資本変更なし。母集団 92 社（hq 72／branch 11／out 9）は不変、meta.asOf のみ 2026-10-12 → 2026-10-13 へ更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：10-11 付は 10-09 期と同一数値（上位 10 は変化なし）のため整表更新は不要。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 待用户裁定：VISUAL ARTS の data.js 残留と地図除外の不整合（資本譲渡の経緯あり）。② 『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③ 『KEMURI』の bucket 旧揺れ（bucket=new のまま）。"
         ]
       },

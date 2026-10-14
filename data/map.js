@@ -18,17 +18,17 @@
  * eq（資本関係）は公開情報ベースの要約であり、出資比率は時点により変動する。
  * top（史上最高収益作）は公表情報がある社のみ。null は「公開情報なし」。
  *
- * ※ 収録対象は OBSERVATORY.companies の登録社から 1 社を除いた 92 社。
- *   除外理由は中資紅線（詳細は memory/reference.md §7）。社名は本ファイルに記載しない。
+ * ※ 収録対象は OBSERVATORY.companies の登録社 95 社（2026-10-14 時点・除外なし）。
+ *   旧版で中資紅線により除外していた 1 社（ビジュアルアーツ）は 2026-10-13 のユーザー裁定で例外放行・収録。
  * ========================================================================== */
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-10-13",
-    count: 94,
+    asOf: "2026-10-14",
+    count: 95,
     onMap: 85,
-    outsideTokyo: 9,
-    hqPlotted: 94,   // 全国地図（本社位置）に打点できる社数
+    outsideTokyo: 10,
+    hqPlotted: 95,   // 全国地図（本社位置）に打点できる社数
     tileCredit: "地図タイル：国土地理院（淡色地図）",
     geoCredit: "住所検索：国土地理院 住所検索API",
     note: "ピンの位置は本社ビルの所在地（街区レベル）。【首都圏】表示は本社が道府県外の社を東京拠点の位置に打点し、その旨をカード内に表示する。【全国】表示は全社を本社位置（hqLat/hqLng）に打点する。破線リングは所在地が都道府県・市区町村レベルまでの確認にとどまる社。"
@@ -1289,6 +1289,19 @@ window.OBSERVATORY_MAP = {
       eq: [
         {"rel":"parent","name":"テクミラホールディングス","pct":"100%（東証スタンダード 3627）"},
       ],
+    },
+    {
+      id: "visual-arts", name: "株式会社ビジュアルアーツ（Key）", short: "VISUAL ARTS / Key",
+      tier: "small", color: "#f2a65a",
+      addr: "大阪府大阪市浪速区難波中2-10-70 パークスタワー17F", pref: "大阪府",
+      lat: 34.662411, lng: 135.501251, hqLat: 34.662411, hqLng: 135.501251, precision: "block",
+      officeKind: "out", officeLabel: "本社", hqAddr: "大阪府大阪市浪速区難波中2-10-70 パークスタワー17F",
+      logo: null, games: 1,
+      match: ["ビジュアルアーツ", "VisualArts", "VISUAL ARTS"],
+      top: {"t":"CLANNAD","b":"ブランド Key の代表作"},
+      eq: [
+        {"rel":"parent","name":"Tencent","pct":"100%（2023年〜）"},
+      ],
     }
   ],
   edges: [
@@ -1313,5 +1326,6 @@ window.OBSERVATORY_MAP = {
     { a: "klab", b: "gumi", kind: "partner", label: "" },
     { a: "enish", b: "g-holdings", kind: "partner", label: "" },
     { a: "honey-parade-games", b: "marvelous", kind: "capital", label: "100%" },
+    { a: "visual-arts", b: "wright-flyer-studios", kind: "partner", label: "" },
   ],
 };
