@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-14T19:00:00+08:00",
-    edition: "2026-10-14",
-    window: "2026-08-14 ~ 2026-10-14（滚动最近 2 个月）",
+    updatedAt: "2026-10-15T19:00:00+08:00",
+    edition: "2026-10-15",
+    window: "2026-08-15 ~ 2026-10-15（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -6048,16 +6048,16 @@ window.OBSERVATORY = {
       bucket: "update",
       platformClass: "console",
       announceDate: "2026-09-20（TGS2026 コナミ展台ステージで体験版 10/01 配信を発表／日本ゲーム大賞 2026 フューチャー部門 受賞）",
-      capturedAt: "2026-09-20",
+      capturedAt: "2026-10-15",
       title: { jp: "Castlevania: Belmont's Curse（悪魔城ドラキュラ ベルモンドの呪い）", cn: "恶魔城：贝尔蒙特的诅咒", en: "Castlevania: Belmont's Curse" },
       genre: "横スクロール探索型アクション（メトロイドヴァニア）",
       platforms: ["PlayStation 5", "Xbox Series X|S", "Nintendo Switch", "PC (Steam)"],
-      release: "2026-10-15（世界同時）",
-      releasePrecision: "日",
+      release: "2026-10-15（世界同時・発売済み）",
+      releasePrecision: "已发售",
       summary: "KONAMI 的《恶魔城》系列新作，2026-10-15 在 PS5／Xbox Series X|S／Nintendo Switch／Steam 全球同日发售，标准版 3,850 日元、午夜版 4,950 日元（含税）。舞台是 1499 年被魔物侵袭的中世纪巴黎，主角为曾讨伐德古拉的吸血鬼猎人特雷弗·贝尔蒙特之女「罗斯·贝尔蒙特」——她兼有父亲的战斗本领与母亲赛法·贝尔南德传授的秘法，后者以塔罗牌形式呈现。开发交由《死亡细胞》的 Evil Empire：鞭子「Vampire Killer」既能攻击，也能勾住场景物件把自己拉上平台或钟摆式荡过缺口，配合蹬墙跳、滑铲与鞭索拉近敌人形成高速战斗；打到的 Boss（死神、美杜莎、卡蜜拉，以及新诠释的圣女贞德等）会被封进罗斯的塔罗牌转为「阿尔卡纳」，解锁法术与特殊动作。2026-09-20 的 TGS2026 舞台宣布 10/01 起配信可继承存档的体验版，该作同日获日本游戏大奖 2026「未来部门」奖。",
-      highlight: "【TGS2026 9/20】コナミ展台 14:00 のステージに制作人 谷口勲 と監督 外尾有樹子 が登壇し、体験版を 10/01 から配信すると発表——体験版で育てたレベル等のセーブデータは製品版へ引き継げる。同日の日本ゲーム大賞 2026 フューチャー部門でも受賞。　シリーズ十数年来の全新作で、開発は『Dead Cells』の Evil Empire。鞭による移動と、倒したボスをタロットに封じてアルカナ化する仕組みが軸。",
+      highlight: "【2026-10-15 世界同時発売】コナミデジタルエンタテインメントが『Castlevania: Belmont's Curse』を PlayStation 5／Xbox Series X|S／Nintendo Switch／Steam で世界同時に発売した（Steam は 04:00 UTC の全球一斉アンロック、PS5／Xbox は各国 0 時）。　シリーズ十数年来の全新作で、開発は『Dead Cells』の Evil Empire。鞭による移動と、倒したボスをタロットに封じてアルカナ化する仕組みが軸。TGS2026 の 9/20 ステージで体験版 10/01 配信を発表し、同日の日本ゲーム大賞 2026 フューチャー部門も受賞していた。",
       console: {
-        status: "2026年10月15日発売予定。予約受付中。体験版は 10月1日 配信予定（セーブデータ引き継ぎ対応）",
+        status: "2026-10-15 発売（発売中）。体験版（10/01 配信）のセーブデータは製品版へ引き継ぎ済み",
         os: ["PlayStation 5", "Xbox Series X|S", "Nintendo Switch", "PC（Steam）"],
         monetization: "通常版 3,850 円（税込）／ミッドナイト版 4,950 円（税込）。追加課金の有無は未発表",
         developer: "Evil Empire",
@@ -6080,12 +6080,14 @@ window.OBSERVATORY = {
         cast: "トレバー・ベルモント：置鮎龍太郎／死神：鶴岡聡（TGS2026 ステージ登壇・出演者より）"
       },
       news: [
+        { source: "Enduins（コナミ公式リリース：世界同時発売と各エディション内容）", url: "https://www.enduins.com/news/its-time-to-hunt-the-night-castlevania-belmonts-curse-launches-today" },
         { source: "Nintendo Everything（TGS2026 ステージで体験版 10/01 配信と作品概要を発表）", url: "https://nintendoeverything.com/castlevania-belmonts-curse-demo-coming-to-switch-next-month/" },
         { source: "Nintendo Life（コナミ公式発表の整理）", url: "https://www.nintendolife.com/news/2026/09/konami-releasing-castlevania-belmonts-curse-demo-next-month" },
         { source: "Inven Global（日本ゲーム大賞 2026 フューチャー部門 受賞作品の紹介）", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" }
       ],
       videos: [
         { label: "Nintendo Everything 報道（作品概要と体験版情報／公式映像の解説を含む）", platform: "媒体", url: "https://nintendoeverything.com/castlevania-belmonts-curse-demo-coming-to-switch-next-month/" },
+        { label: "KONAMI Asia 公式 YouTube チャンネル（発売告知・関連映像）", platform: "YouTube", url: "https://www.youtube.com/@KonamiAsia" },
         { label: "Nintendo Life 報道（コナミ公式発表の整理）", platform: "媒体", url: "https://www.nintendolife.com/news/2026/09/konami-releasing-castlevania-belmonts-curse-demo-next-month" }
       ],
       hype: {
@@ -9588,18 +9590,18 @@ window.OBSERVATORY = {
       bucket: "new",
       platformClass: "mobile",
       announceDate: "2026-10-14（スマートフォンゲーム化の発表と事前登録開始）",
-      capturedAt: "2026-10-14",
+      capturedAt: "2026-10-15",
       title: {
-        jp: "重兵装型女子高生",
-        cn: "重兵装型女子高中生",
-        en: "Heavily Armed High School Girls: Wordless Record"
+        jp: "JJK: 重兵装型女子高生 ワードレスレコード",
+        cn: "JJK 重兵装型女子高中生 Wordless Record",
+        en: "JJK: Heavy-Armed High School Girls Wordless Record"
       },
       genre: "放置系 RPG（観察・シミュレーション／アイテム課金型）",
       platforms: ["iOS", "Android"],
       release: "未発表（2026-10-14 事前登録受付開始。配信時期・価格は未公表）",
       releasePrecision: "未定",
-      summary: "《重兵装型女子高生》是插画家 neco 自 2014 年投稿以来持续展开的「武装×女高中生」插画企划，经 Max Factory 手办化后成为跨媒体企划，并定于 2027 年播出电视动画。本作是该 IP 的首款智能手机游戏，由日本 NEXTNINJA 开发并运营，2026 年 10 月 14 日发表、同日开启事前登录。玩法并非让玩家担任指挥官，而是以被称作「校长」的一只猫的视角，旁观并守护武装少女们的日常与战斗，收录角色互动、专用语音与 ASMR 内容。类型为放置型 RPG，对应 iOS／Android，基本免费、道具课金，配信时期与价格均未公布。报道称三名主要角色分别由 Rie Takahashi、Sayumi Suzushiro、Yoshino Aoyama 配音，企划与 2027 年的电视动画（监督 橘正紀、系列构成 高橋奈津子）同源。",
-      highlight: "【2026-10-14 スマホゲーム化を発表・事前登録開始】イラストレーター neco の「武装×女子高生」企画『重兵装型女子高生』の初のスマートフォンゲームが、日本資本の NextNinja の開発・運営で発表され、同日から事前登録が始まった。　プレイヤーは指揮官ではなく「校長」と呼ばれる猫の視点から武装少女たちを見守る放置系 RPG で、キャラクターとの交流・専用ボイス・ASMR を収録。2027 年放送予定のテレビアニメと同源のクロスメディア企画にあたる。",
+      summary: "《JJK: 重兵装型女子高生 ワードレスレコード》是插画家 neco 自 2014 年投稿以来持续展开的「武装×女高中生」插画企划的首款智能手机游戏，由日本 NEXTNINJA 开发并运营，2026 年 10 月 14 日发表、同日开启事前登录。玩法并非让玩家担任指挥官，而是以被称作「校长」的一只猫的视角，旁观并守护上野区「回家部」三名一年级少女的日常与战斗，收录角色互动、专用语音与 ASMR 内容。主要角色为灯华（CV：高桥李依）、奏（CV：铃代纱弓）、穗波（CV：青山吉能）。官方站点、官方 X 与官方 YouTube 同步开设；事前登录通过关注官方 X、订阅官方 YouTube 并登记邮箱完成，到达奖励日后公布，官方 X 的转发活动持续到 10 月 26 日 23:59。类型为放置型 RPG，对应 iOS／Android，基本免费、道具课金，配信时期与价格均未公布。企划与 2027 年播出的电视动画（监督 橘正纪、系列构成 高桥奈津子）同源。",
+      highlight: "【2026-10-15 公式サイト・キャストを一次源で確認】公式サイト（juheiso-game.jp）・公式 X ・公式 YouTube が開設済みで、主要 3 名のキャストも判明——灯華：高橋李依、奏：鈴代紗弓、穂波：青山吉能（いずれも上野区域「回家部」の 1 年生）。事前登録は公式 X のフォロー・公式 YouTube のチャンネル登録・メールアドレス登録で受付中で、到達報酬は後日発表。公式 X の RP キャンペーンは 10-26 23:59 まで。　イラストレーター neco の「武装×女子高生」企画初のスマホゲームで、プレイヤーは「校長」と呼ばれる猫の視点から少女たちを見守る放置系 RPG。2027 年放送予定のテレビアニメと同源のクロスメディア企画。",
       mobile: {
         status: "事前登録受付中",
         os: ["iOS", "Android"],
@@ -9607,12 +9609,12 @@ window.OBSERVATORY = {
         preReg: {
           open: true,
           since: "2026-10-14",
-          reward: "公式の到達報酬は未確認（受付開始のみが報じられている）"
+          reward: "到達報酬は後日発表（公式 X のフォロー・公式 YouTube のチャンネル登録・メールアドレス登録で受付）"
         },
         developer: "株式会社NextNinja",
         publisher: "株式会社NextNinja",
         region: "日本",
-        distribution: "App Store / Google Play（日本）。ストアページは未確認",
+        distribution: "App Store / Google Play（日本）。事前登録は公式サイト／公式 X／公式 YouTube 経由で受付中",
         payment: [],
         ipSource: "イラストレーター neco のイラスト企画『重兵装型女子高生』の公式ゲーム化。原作 neco。テレビアニメはグッドスマイルフィルム／グッドスマイルカンパニーの制作で 2027 年放送予定",
         series: "『重兵装型女子高生』は 2014-02-13 に neco が pixiv に初投稿した武装×女子高生のイラストシリーズ。2018 年から Max Factory の figma でフィギュア化され、2026-06-05 にテレビアニメ化が発表された。スマートフォンゲーム化は本作が初となる",
@@ -9623,32 +9625,26 @@ window.OBSERVATORY = {
           "2027 年放送予定のテレビアニメと同一 IP のクロスメディア展開"
         ],
         synopsis: "プレイヤーは武装した女子高生たちを指揮するのではなく、作中で「校長」と呼ばれる一匹の猫として彼女たちの日常と戦いを見守る。放置系の進行とキャラクターとの交流、専用ボイス、ASMR が体験の中心に据えられている。",
-        cast: "英語表記の報道では主要 3 名を Rie Takahashi・Sayumi Suzushiro・Yoshino Aoyama が担当とされる（日本語表記の漢字は一次源で未確認）"
+        cast: "灯華：高橋李依／奏：鈴代紗弓／穂波：青山吉能（いずれも上野区域「回家部」の 1 年生）"
       },
       news: [
-        {
-          source: "Yomimono（KAI-YOU・電ファミニコゲーマー発の報道を集約：発表と事前登録開始）",
-          url: "https://www.yomimono.id/neco-s-heavy-armed-schoolgirls-gets-a-smartphone-rpg-where-the-player-is-a-cat"
-        }
+        { source: "巴哈姆特電玩資訊站（作品資訊・公式サイト／公式 X／公式 YouTube の URL と配信元）", url: "https://gnn.gamer.com.tw/detail.php?sn=313421" },
+        { source: "Yomimono（4Gamer・電ファミニコゲーマー・KAI-YOU の報道を集約：発表・事前登録開始・キャスト）", url: "https://www.yomimono.id/neco-s-heavy-armed-schoolgirls-gets-a-smartphone-rpg-where-the-player-is-a-cat" }
       ],
       videos: [
-        {
-          label: "詳報記事（公式映像・スクリーンショットは記事内。専用映像 URL は未確認）",
-          platform: "WEB",
-          url: "https://www.yomimono.id/neco-s-heavy-armed-schoolgirls-gets-a-smartphone-rpg-where-the-player-is-a-cat"
-        }
+        { label: "初報映像（高橋李依ナレーション／公式 YouTube チャンネル）", platform: "YouTube", url: "https://www.youtube.com/@juheiso-game" },
+        { label: "公式サイト（ティザービジュアル・初報映像を掲載）", platform: "公式サイト", url: "https://www.juheiso-game.jp" }
       ],
       hype: {
-        score: 48,
+        score: 50,
         signals: [
           "neco の「武装×女子高生」はフィギュア・figma で海外にもファンベースを持ち、2027 年のテレビアニメ化も決まっている既存 IP",
-          "開発・運営が日本資本の NextNinja（『学園文豪ストレイドッグス』などを手がける）",
-          "発表当日に事前登録を開始し、アニメ側と合わせたクロスメディア告知を行った",
-          "配信時期・到達報酬・ストアページが未公表で、Famitsu 期待榜などの大型指標には未登場"
+          "開発・運営が日本資本の NextNinja（キャラクター IP のアプリ開発を手がける国内スタジオ）",
+          "発表当日に公式サイト・公式 X・公式 YouTube を同時開設し、アニメ側と合わせたクロスメディア告知を行った",
+          "配信時期・到達報酬が未公表で、Famitsu 期待榜などの大型指標にはまだ現れていない"
         ]
       },
-      tags: ["新作", "手游", "放置RPG", "重兵装型女子高生", "NextNinja"],
-      caution: "海外アグリゲータ（Yomimono）が KAI-YOU・電ファミニコゲーマーの報道を集約した内容に基づく。タイトルのローマ字表記（JJK: Heavy-Armed High School Girls Wordless Record）と副題、公式ストアページ、専用映像 URL は日本語一次源で確認できていないため、title は IP 名（重兵装型女子高生）を採用した（未经官方确认）"
+      tags: ["新作", "手游", "放置RPG", "重兵装型女子高生", "NextNinja"]
     },
 {
       id: "1999tokoyo-building",
@@ -9712,6 +9708,122 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["PC", "発売日決定", "ホラー", "アドベンチャー", "講談社"]
+    },
+    {
+      id: "gundam-blitz-order",
+      company: "バンダイナムコエンターテインメント",
+      companyJp: "株式会社バンダイナムコエンターテインメント",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-10-15（新作モバイルゲームの情報解禁とネットワークテスト参加者募集開始）",
+      capturedAt: "2026-10-15",
+      title: { jp: "ガンダム ブリッツオーダー", cn: "高达 激战指令", en: "Gundam Blitz Order" },
+      genre: "放置型シミュレーション RPG（自動進行＋部隊編成／アイテム課金型）",
+      platforms: ["iOS", "Android"],
+      release: "未発表（配信時期・価格は未公表。ネットワークテストは 2026-11-18〜11-24 開催予定）",
+      releasePrecision: "未定",
+      summary: "万代南梦宫娱乐 2026-10-15 公布的高达系列手游新作，通称「ガンブリ」。这是高达游戏首次挑战放置系玩法：端末关闭期间自动战斗仍持续进行并收集强化素材，素材最多可积攒 24 小时，用素材强化部队时全部持有单位会同步升级，因此刚入手的机体不必从头练级即可直接上阵。参战阵容收录跨越各世代的高达系列机动战士、战舰与机动装甲（ν 高达、强袭自由高达、沙扎比等），各单位分属守护／强袭／突击／炮击／狙击／支援六种「职业」，需要结合彼此相性与「EX 技能」自由配置阵型与站位。已公布内容包含与强敌首领的激战、护卫战舰抵达目的地的任务，以及与其他玩家竞争的玩法。官方同日 12:00 起招募网络测试参加者：报名至 10 月 26 日 11:59，测试 11 月 18 日至 11 月 24 日，名额 2,500 名且仅限居住在日本国内者。配信时期与收费形态均未公布。",
+      highlight: "【2026-10-15 情報解禁・NT テスター募集中】バンダイナムコエンターテインメントが『ガンダム ブリッツオーダー』を発表し、同日 12:00 からネットワークテストの参加者募集を開始した（応募 10/26 11:59 まで・2,500 名・日本国内居住者限定、テストは 11/18 14:00〜11/24 13:59）。　ガンダムゲーム初の放置ジャンル挑戦作で、自動戦闘で集めた素材を使うと全ユニットがまとめてレベルアップし、新規獲得の機体も即戦力になる。MS・戦艦・MA を 6 クラスと「EX スキル」で編成する。",
+      mobile: {
+        status: "配信予定（時期未発表）",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料（アイテム課金型）。詳細は未発表",
+        preReg: {
+          open: false,
+          since: "",
+          reward: "事前登録は未開始。ネットワークテストのテスター募集のみ受付中（参加枠 2,500 名・日本国内居住者限定、当選連絡は 11/13 予定）"
+        },
+        developer: "株式会社バンダイナムコエンターテインメント",
+        publisher: "株式会社バンダイナムコエンターテインメント",
+        region: "日本（ネットワークテストは日本国内居住者が対象）",
+        distribution: "App Store / Google Play（予定）。ストアページは未公開",
+        payment: [],
+        ipSource: "『機動戦士ガンダム』シリーズ（創通・サンライズ）。バンダイナムコエンターテインメントが自社で開発・運営する IP ホルダー直営作",
+        series: "1979 年開始のガンダムシリーズを題材にしたモバイルゲームの新作。同社は『機動戦士ガンダム バトルオペレーション2』『SDガンダム ジージェネレーション エターナル』など複数のガンダムアプリを運営しており、本作はその中で初の放置系ジャンルにあたる",
+        features: [
+          "自動戦闘で強化素材を集める放置系。素材は最大 24 時間分まで保持でき、好きなタイミングで受け取れる",
+          "素材を使った強化では所持ユニットがまとめてレベルアップし、新規獲得ユニットも即戦力として使える",
+          "ガンダムシリーズの MS・戦艦・モビルアーマーが参戦。守護／強襲／突撃／砲撃／狙撃／支援の 6 クラスと「EX スキル」で編成・配置を組む",
+          "強力なボスとの戦い、戦艦を護衛して目的地を目指すミッション、他プレイヤーとの競争要素を予定",
+          "MS の開発や作中に登場したアイテムの収集など、バトル以外のガンダムコンテンツも用意"
+        ],
+        synopsis: "果てなき戦場へ出撃せよ——プレイヤーは部隊を率いて戦う。端末を閉じている間もモビルスーツが自動で戦い強化素材を集めてくれるため、1 日のどこかで受け取ればロスなく育成できる。編成ではクラスの相性と EX スキルを踏まえて配置を決める戦略性が軸になる。",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "ガンダム ブリッツオーダー 公式サイト（情報解禁・ネットワークテスト募集要項と開発だより）", url: "https://gundam-blitzorder.ggame.jp/" },
+        { source: "Quest Board.JP（新作発表とネットワークテスト募集の詳細、公式 X アカウントの案内）", url: "https://quest-board.jp/en/quests/buzz-leak-2026-10-15-leak-5-20261015" },
+        { source: "巴哈姆特電玩資訊站（バンダイナムコエンターテインメント公式リリースの繁体字版）", url: "https://gnn.gamer.com.tw/detail.php?sn=313430" }
+      ],
+      videos: [
+        { label: "発表トレーラー（公式サイト MOVIE 節が公式 YouTube チャンネル「GUNDAM」へリンク）", platform: "YouTube", url: "https://www.youtube.com/@GUNDAM" },
+        { label: "公式サイト（作品紹介・スクリーンショット・募集要項）", platform: "公式サイト", url: "https://gundam-blitzorder.ggame.jp/" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "ガンダムは 1979 年から続く国内最大級の IP。発表当日に国内・海外のゲームメディアが一斉に報じ、同社は 10-28 に「ガンダムゲーム 40 周年記念配信」も控えている",
+          "シリーズ初の放置系ジャンルという新規性があり、ネットワークテスト募集という参加型の告知を用意している",
+          "配信時期・価格・事前登録が未公表で、Famitsu 期待榜などの大型指標にはまだ現れていない",
+          "公式サイトで開発ブログ「開発だより」を同日から連載開始し、継続的な情報発信の枠組みを用意している"
+        ]
+      },
+      tags: ["新作", "手游", "放置シミュレーション", "ガンダム", "ネットワークテスト"]
+    },
+    {
+      id: "catharsis-last-atelier",
+      company: "Kodansha Game Creators Lab",
+      companyJp: "株式会社講談社（講談社ゲームクリエイターズラボ）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-10-15（Steam 体験版の配信開始と Steam Next Fest 2026 年 10 月版への参加決定）",
+      capturedAt: "2026-10-15",
+      title: { jp: "CaTHaRSiS〜The last of atelier〜（カタルシス 最後のアトリエ）", cn: "Catharsis 最后的画室", en: "Catharsis ~The Last Atelier~" },
+      genre: "没入型アートアドベンチャー（ウォーキングシミュレーター）",
+      platforms: ["PC (Steam)"],
+      release: "2026年内（Steam。価格は未発表）",
+      releasePrecision: "年",
+      summary: "讲谈社游戏创作者实验室发行、个人开发者 Mana 的出道作，2026-10-15 在 Steam 配信免费体验版，并确定参加 10-19 开幕的「Steam 新品节 2026 年 10 月版」。这是一款步行模拟式的沉浸艺术冒险：玩家扮演一个无名无姓、对人类与自我都一无所知的存在，在神秘声音引导下走进一幅幅名画内部，收集寄宿于画中的「记忆」。正式版计划收录以梵高、克里姆特、莫奈等画作为主题的 10 个世界，体验版则收录两关共约 30 分钟——一关把梵高《星夜》与《夜晚露天咖啡座》重构为同一座深蓝夜色小镇，玩家追随某位男子残留的记忆碎片行走，并可操控同行的狼与猫头鹰（狼可在地面疾驰、猫头鹰可升空俯瞰）；另一关取材米莱《奥菲莉娅》，乘船自水边驶入森林深处。各关没有 Game Over 与时间限制，移动手感与机关设计会随画作改变，关末均设有一段印象深刻的过场动画。对应日语、英语、简体中文，单人游玩。",
+      highlight: "【2026-10-15 体験版配信開始】講談社ゲームクリエイターズラボが、個人開発者 Mana のデビュー作『カタルシス〜最後のアトリエ〜』の無料体験版を Steam で配信開始。10-19 開幕の「Steam Next Fest 2026 年 10 月版」への参加も決まった。　名画の中を歩く没入型アート ADV で、体験版はゴッホ「星月夜」「夜のカフェテラス」とミレイ「オフィーリア」をモチーフにした約 30 分。製品版は 2026 年内に 10 の画作世界を収録予定。",
+      console: {
+        status: "2026年内発売予定（Steam。無料体験版を配信中）",
+        os: ["PC（Steam）"],
+        monetization: "買い切り（価格は未発表）",
+        developer: "Mana（個人開発者）",
+        publisher: "株式会社講談社（講談社ゲームクリエイターズラボ）",
+        region: "全世界（日本語・英語・簡体字に対応）",
+        distribution: "Steam でのダウンロード販売",
+        stores: ["Steam"],
+        features: [
+          "ゴッホ、クリムト、モネらの名画を再構成した 10 の世界を歩く没入型アート ADV",
+          "体験版はゴッホ「星月夜」「夜のカフェテラス」とミレイ「オフィーリア」をモチーフにした 3 ステージ（計約 30 分）を収録",
+          "画作ごとに移動手段とギミックが変わる。狼に乗って疾走し、フクロウになって上空から見下ろせる",
+          "ゲームオーバーも制限時間もなく、絵の光や色彩の変化を眺めながら自分のペースで進められる",
+          "各ステージの最後には物語を印象づけるカットシーンが用意されている"
+        ],
+        synopsis: "人間について何も知らず、記憶も自我も持たない名もなき存在が、真っ白な空間で目を覚ます。謎の声に導かれて絵の中へ入り、そこに残された人々の時間と感情に触れながら、世界と人間について知っていく。",
+        ipSource: "オリジナル（個人開発者 Mana による新規 IP）",
+        series: "Mana は海外移住後に独学で Unreal Engine を学び、Epic Games 主催の開発コンテスト「Unreal Quest 5」で受賞。2024 年 2 月に講談社ゲームクリエイターズラボに採択され、本作がデビュー作となる",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "Quest Board.JP（体験版配信開始・Steam Next Fest 参加・作品内容の詳細）", url: "https://quest-board.jp/en/quests/adv-steam-next-000009042-000001719" },
+        { source: "Yomimono（4Gamer・電ファミニコゲーマー発の報道を集約：体験版配信開始）", url: "https://www.yomimono.id/catharsis-demo-launches-on-steam-with-starry-night-and-ophelia-stages" }
+      ],
+      videos: [
+        { label: "作品紹介記事（公式トレーラー・スクリーンショットは記事内。専用映像 URL は未確認）", platform: "WEB", url: "https://quest-board.jp/en/quests/adv-steam-next-000009042-000001719" }
+      ],
+      hype: {
+        score: 32,
+        signals: [
+          "大手出版社・講談社のインディー支援レーベルからの発売で、国内ゲームメディア（4Gamer・電ファミニコゲーマー）が体験版配信を報じた",
+          "「名画の中を歩く」という題材と、画作ごとに操作感が変わる設計が独自性を持つ",
+          "Steam Next Fest 2026 年 10 月版への参加が決まり、配信直後の露出が見込める",
+          "個人開発のデビュー作で、Famitsu 期待榜など大型の期待指標には現れていない"
+        ]
+      },
+      tags: ["PC", "新作", "アートADV", "講談社", "体験版"],
+      caution: "本体の初出時期は一次源で特定できていない（東京ゲームショウで先行ビルドが注目されたとの報道があり、その時点は滚动窗口内）。本場時点で講談社クリエイターズラボの製品一覧に未掲載のため、体験版配信＝窗口内での初の広範リリースとして bucket は new で扱った"
     }
   ],
 
@@ -9732,7 +9844,7 @@ window.OBSERVATORY = {
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
-          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa"] },
+          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
@@ -9838,7 +9950,7 @@ window.OBSERVATORY = {
         { name: "株式会社工画堂スタジオ", short: "Kogado Studio", status: "covered", gameIds: ["sugar-lies"], note: "東京都立川市の老舗パブリッシャーで、短編ビジュアルノベルや音楽・教育関連ソフトを手がけてきた。2026-09-18 の KONAMI TGS2026 生放送で新作『Sugar Lies』（PC／Steam 2026 年末、Nintendo Switch 2027 年春）を発表したため補充監視に追加" },
         { name: "株式会社アクティブゲーミングメディア（PLAYISM）", short: "PLAYISM", status: "covered", gameIds: ["devil-connection"], note: "インディーゲームのローカライズとパブリッシングを手がける日本企業。PLAYISM ブランドで家庭用・モバイル向けの発行を行い、『DevilConnection』（開発：ChaoGames）の Switch／iOS／Android 版を 2027-01-21 に発売する。PLAYISM GAME SHOW: TGS 2026 Preview で本作の発売日を発表し、TGS2026 会場ではプレイアブル出展も行った" },
         { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium", "sentimental-graffiti-remake", "azure-memoria"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
-        { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code", "buzz-or-die", "1999tokoyo-building"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された。2026-10-13 には凡（Bon）開発の『BUZZ or DIE』を 2026-10-28 に Steam で発売すると発表し、体験版を配信した" },
+        { name: "株式会社講談社（講談社ゲームラボ）", short: "講談社ゲームラボ", status: "covered", gameIds: ["legacy-code", "buzz-or-die", "1999tokoyo-building", "catharsis-last-atelier"], note: "大手出版社の講談社が擁するゲーム事業レーベル。既存 IP のゲーム化ではなく新規オリジナル企画の発掘を主眼に置く。『Legacy Code』（開発：127号室）を 2026-09-16 に Steam ストアページ公開で発表し、TGS2026 のインディーコンテスト「センス・オブ・ワンダー ナイト 2026」のファイナリスト 8 作品に選出された。2026-10-13 には凡（Bon）開発の『BUZZ or DIE』を 2026-10-28 に Steam で発売すると発表し、体験版を配信した。2026-10-15 には Mana 開発の没入型アート ADV『カタルシス〜最後のアトリエ〜』の無料体験版を Steam で配信開始し、Steam Next Fest 2026 年 10 月版への参加も発表した" },
         { name: "株式会社ディースリー・パブリッシャー", short: "D3 Publisher", status: "covered", gameIds: ["dream-club-zero-r-plus", "edf-6-2-invaders-from-another-world", "girls-und-panzer-all-star-tank-carnival"], note: "『地球防衛軍』『ドリームクラブ』などの自社シリーズを持つ日本のパブリッシャー。TGS2026 のステージ配信で『地球防衛軍6.2 INVADERS FROM ANOTHER WORLD』と『ドリームクラブZERO R+』を発表した。2026-10-09 には『ガールズ＆パンツァー オールスター・タンク・カーニバル』の Nintendo Switch 2 版を 2027 年内発売と発表" },
         { name: "株式会社アプリボット", short: "Applibot", status: "watch", gameIds: [], focus: true, note: "『ちいかわ』初のスマホアプリを企画・制作・開発・運営する国内スタジオ（本社：東京都渋谷区）。同作は 2025-03-27 配信開始済みの在営タイトルのため、本台は内容更新を収録対象外としている" },
         { name: "株式会社ライドオンジャパン", short: "Rideon Japan", status: "covered", gameIds: ["mercenaries-grace"], note: "タクティカル RPG『Mercenaries Saga』シリーズを自社で企画・開発・配信する日本のスタジオ。2026-09-25 にシリーズ第 8 作『Mercenaries Grace: Black Feather and the Golden Right Arm』（PlayStation 5／Nintendo Switch／PC（Steam）、日本では 2026 年 11 月にデジタル配信予定）を発表したため補充監視に追加" },
@@ -9922,6 +10034,23 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-15 19:00",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "【スマホ】日方主導のスマホ新作が 1 件 —— バンダイナムコエンターテインメントが 2026-10-15 に、ガンダムシリーズ初の放置系モバイルゲーム『ガンダム ブリッツオーダー』を発表し、同日 12:00 からネットワークテストの参加者募集を開始した（2,500 名・日本国内居住者限定、テストは 11/18〜11/24）。自動戦闘で集めた素材を使うと全ユニットがまとめてレベルアップし、新規獲得の機体も即戦力になる設計。配信時期・価格は未公表。",
+          "スマホの既収録 1 件を更新 —— 『重兵装型女子高生』（NextNinja）について、公式サイト（juheiso-game.jp）・公式 X ・公式 YouTube と主要キャスト（灯華：高橋李依／奏：鈴代紗弓／穂波：青山吉能）を日本語一次源で確認し、事前登録が公式 X フォロー・YouTube 登録・メール登録で受付中と判明。前場で付けていた caution を解除し、title を正式名称に更新した。",
+          "主机・PC の新規 1 件 —— 講談社ゲームクリエイターズラボ発行、個人開発者 Mana のデビュー作『カタルシス〜最後のアトリエ〜』が 2026-10-15 に Steam で無料体験版を配信開始（ゴッホ「星月夜」「夜のカフェテラス」とミレイ「オフィーリア」をモチーフにした約 30 分）。10-19 開幕の Steam Next Fest 2026 年 10 月版への参加も決定した。",
+          "更新 1 件 —— コナミの『Castlevania: Belmont's Curse』が 2026-10-15 に PS5／Xbox Series X|S／Nintendo Switch／Steam で世界同時発売された（Steam は 04:00 UTC の全球一斉アンロック、PS5／Xbox は各国 0 時）。release を発売済みに更新。",
+          "条目総数は 170 → 172（スマホ区 40 → 41、主机・PC 区 144 → 145）。platformClass は mobile 26 → 27、pc 16 → 17。bucket は new 101 → 103。",
+          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変（バンダイナムコエンターテインメントと講談社ゲームラボの gameIds に各 1 件追記）。",
+          "漏収核查（アニメ IP の個別検索）：ONE PIECE／呪術廻戦／鬼滅の刃／東京リベンジャーズ／ブルーロック／ポケモン／ハイキュー／ドラゴンボールを確認。日方主導の新規スマホタイトルは確認できず。ONE PIECE は既収録の『ONE PIECE 海のごちそうレストラン』（＝海外表記 ONE PIECE Grand Gourmet、10-22/23 発売予定）の続報のみ、東京リベンジャーズは SNK の対戦格闘 DLC（10-22 配信予定・主机）のみだった。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（日本 IP の中国資本スタジオ開発モバイル作、中国資本の正版 IP カード RPG 各 1 件を含む）。② 韓国資本のスマホ新作（位置情報 RPG ほか 1 件）は不収録。③ 発行元が香港法人のリズムアクション（開発は日本のスタジオ）は紅線口径により不収録。④ 独・英など非日本開発のインディーは不収録。⑤ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持）。meta.asOf のみ 2026-10-15 に更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定（主机・PC 60 分／スマホ 15 分、『SDガンダム ジージェネレーション エターナル』などが対象）——次場以降の注目材料。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。"
+        ]
+      },
+      {
         at: "2026-10-14 19:00",
         scene: "定時巡検（夕方の部）",
         items: [
@@ -9934,19 +10063,6 @@ window.OBSERVATORY = {
           "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持、meta.asOf は 2026-10-14 のまま）。geo-check は要確認 0 件。",
           "Famitsu 期待榜：10-11 付の海外転載は直近 10-09 期と同一数値（1 位ゼルダ時のオカリナ 790／2 位ポケモン 784／3 位ペルソナ 6 689）のため整表更新は不要。TGS2026 は展後記録として凍結を継続。",
           "【持越し】①『チェンソーマン』スマホ新作の開発・発行元は依然未公表。②『KEMURI』の bucket 旧揺れ（bucket=new のまま）。③『重兵装型女子高生』スマホゲームは公式ストアページ・日本語一次源の追加確認が必要。"
-        ]
-      },
-      {
-        at: "2026-10-14 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【スマホ】日方主導のスマホ新作の新規発表は本場なし（10-13 夕〜10-14 朝の国内向け新規スマホタイトル告知は確認できず）。既収録の BLEACH Mirrors High に続報 1 件。",
-          "更新 1 件 —— バンダイナムコが 2026-10-13、『BLEACH Mirrors High』の SPECIAL BROADCAST を 2026-10-27 19:00 から YouTube で配信し新情報を発表すると告知（出演：小林千晃・指出毬亜・森田成一・折笠富美子、MC 松澤ネキ）。highlight 首句に追記。",
-          "主机・PC の新規 1 件（漏収追補）—— 講談社ゲームクリエイターズラボが 2026-10-13、凡（Bon）開発のデスゲーム ADV『BUZZ or DIE』を 2026-10-28 に Steam で発売すると発表し、体験版（第 0 章）を配信。正式発表は 2026-08-31 だが Steam ページはそれ以前から存在するため bucket=update。",
-          "条目総数は 167 → 168（主机・PC 区 142 → 143、platformClass は pc 14 → 15）。手游区 39 は不変。companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社も不変。",
-          "漏収核查（アニメ IP の個別検索）：葬送のフリーレン／薬屋のひとりごと／ダンダダンを確認。日方主導の新規ゲーム発表なし。",
-          "会社地図（data/map.js）：2026-10-13 のユーザー裁定（中資紅線の例外放行）に基づき、株式会社ビジュアルアーツ（Key）を新規登録し、母集団を 94 → 95 社（hq 74／branch 11／out 10）に更新。座標は国土地理院住所検索 API、geo-check は要確認 0 件。",
-          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。"
         ]
       },
     ],
