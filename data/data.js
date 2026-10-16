@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-10-13
+ * 最后更新: 2026-10-16
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-15T19:00:00+08:00",
-    edition: "2026-10-15",
-    window: "2026-08-15 ~ 2026-10-15（滚动最近 2 个月）",
+    updatedAt: "2026-10-16T09:10:00+08:00",
+    edition: "2026-10-16",
+    window: "2026-08-16 ~ 2026-10-16（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -7671,17 +7671,18 @@ window.OBSERVATORY = {
       companyJp: "カバー株式会社（holo Indie ブランド／運営 CCMC）",
       bucket: "new",
       platformClass: "pc",
-      announceDate: "2026-09-25（holo Indie が Steam ストアページとプロモーション映像を公開）",
-      capturedAt: "2026-09-25",
+      announceDate: "2026-10-15（Steam で配信開始）",
+      capturedAt: "2026-10-16",
       title: { jp: "ReGLOSS:CROSS", cn: "ReGLOSS:CROSS", en: "ReGLOSS:CROSS" },
       genre: "2D パズル",
       platforms: ["PC (Steam)"],
-      release: "2026-10-15",
-      releasePrecision: "日",
+      release: "2026-10-15（Steam 配信開始済み。490 円）",
+      releasePrecision: "已发售",
       summary: "由 hololive 官方创作游戏品牌「holo Indie」（运营 CCMC，隶属 COVER）发行、独立开发者 yado 制作的 2D 益智游戏。玩家通过指定只能沿直线前进的「ReGLOSS」成员们的移动方向，引导分成两组搭档的成员在迷宫中会合。游戏以二头身 Q 版形象描绘 ReGLOSS 成员，并配有改编 BGM。收录 5 个普通关卡与 3 个额外关卡，合计 8 关、70 道谜题；随关卡推进会出现「传送门」「路标」等机关，开发方称后半段难度即便对益智老手也不轻松。2026-09-25 正式公开 Steam 商店页并同步放出宣传影片，预定 2026-10-15 在 Steam 推出。",
-      highlight: "【2026-09-25 Steam ストアページ公開】holo Indie が独立開発者 yado の 2D パズル『ReGLOSS:CROSS』の Steam ストアページを公開し、プロモーション映像を同時に公開した。hololive のユニット「ReGLOSS」のメンバーを二頭身の Q 版キャラクターで描き、直進しかしないメンバーの進路を指示して 2 組のペアを合流させるのが目的。　全 8 ステージ・70 問（通常 5＋追加 3）で、進行に伴い「ワープ」「道標」などのギミックが加わる。前半は易しいが、後半はパズル慣れしたプレイヤーでも苦戦する難度になると開発者が説明している。発売は 2026-10-15 予定。",
+      highlight: "【2026-10-15 Steam で配信開始】COVER の創作ゲームブランド「holo Indie」から、独立開発者 yado の 2D パズル『ReGLOSS:CROSS』が Steam で 490 円で配信開始された。hololive のユニット「ReGLOSS」のメンバーを二頭身の Q 版キャラクターで描き、直進しかしないメンバーの進路を指示して 2 組のペアを合流させる。　全 8 ステージ・70 問（通常 5＋追加 3）で、進行に伴い「ワープ」「道標」などのギミックが加わる。日本語・英語に対応し、権利表記は COVER と CCMC が連記されている。",
       news: [
-        { source: "巴哈姆特 GNN（Steam ストアページ公開とプロモーション映像、収録ステージ数とギミック）", url: "https://gnn.gamer.com.tw/detail.php?sn=312360" }
+        { source: "巴哈姆特 GNN（Steam ストアページ公開とプロモーション映像、収録ステージ数とギミック）", url: "https://gnn.gamer.com.tw/detail.php?sn=312360" },
+        { source: "Yomimono（ASCII.jp・PANORA 発の報道を集約：2026-10-15 の Steam 配信開始、価格 490 円、全 70 問）", url: "http://yomimono.id/holo-indie-releases-regloss-cross-puzzle-game-on-steam" }
       ],
       videos: [
         { label: "プロモーション映像（GNN 記事内に掲載）", platform: "媒体", url: "https://gnn.gamer.com.tw/detail.php?sn=312360" }
@@ -7696,9 +7697,9 @@ window.OBSERVATORY = {
       },
       tags: ["PC", "Steam", "パズル", "hololive", "holo Indie", "新作発表"],
       console: {
-        status: "2026-10-15 配信予定（Steam ストアページ公開済み、ウィッシュリスト登録受付中）",
+        status: "発売中（2026-10-15 に Steam で配信開始）",
         os: ["Windows（Steam）"],
-        monetization: "買い切り（価格は未発表）",
+        monetization: "買い切り。490 円",
         developer: "yado（個人開発者）",
         publisher: "カバー株式会社（ブランド：holo Indie／運営：CCMC）",
         region: "日本／世界（Steam での配信予定）",
@@ -7785,17 +7786,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社カプコン",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-09（Nintendo Direct で Switch 2 版を発表）",
-      capturedAt: "2026-09-25",
+      announceDate: "2026-10-16（デジタル版の配信開始）",
+      capturedAt: "2026-10-16",
       title: { jp: "バイオハザード RE:2 デラックスエディション／RE:3／RE:4 ゴールドエディション（Nintendo Switch 2 版）", cn: "生化危机 RE:2 豪华版／RE:3／RE:4 黄金版（Nintendo Switch 2 版）", en: "Resident Evil 2 Deluxe Edition / Resident Evil 3 / Resident Evil 4 Gold Edition (Nintendo Switch 2)" },
       genre: "サバイバルホラー（RE エンジン版リメイクの移植）",
       platforms: ["Nintendo Switch 2"],
-      release: "2026-10-16（デジタル版。パッケージ版は 2027-01-29）",
-      releasePrecision: "日",
+      release: "2026-10-16（デジタル版 発売済み。パッケージ版は 2027-01-29）",
+      releasePrecision: "已发售",
       summary: "Capcom 在 2026-09-09 的 Nintendo Direct 上宣布，把 RE 引擎重制的三款系列作品一次移植到 Nintendo Switch 2：《生化危机 RE:2 豪华版》《RE:3》《RE:4 黄金版》。数字版 2026-10-16 上线，实体版 2027-01-29。三款均为 2019／2020／2023 年重制版的移植，而非云版本——Switch 上此前的 RE2／RE3 只能通过云游戏游玩，本次是原生移植；RE4 也是首次以 2023 年重制版的形态登陆任天堂平台。RE2 豪华版与 RE4 黄金版附带追加内容（黄金版含 Separate Ways）。同一场 Direct 上 Capcom 还宣布《Monster Hunter Wilds》Switch 2 版于 12-04 发售。因原作重制版发售日均在滚动窗口之外，本条按在营作品的平台拓展记为 update。",
-      highlight: "【2026-09-09 Nintendo Direct】Capcom が『バイオハザード RE:2 デラックスエディション』『RE:3』『RE:4 ゴールドエディション』の Nintendo Switch 2 版を発表した。デジタル版は 2026-10-16、パッケージ版は 2027-01-29。　Switch 版の RE2／RE3 はこれまでクラウド版のみだったため、今回が初のネイティブ移植。RE4 も 2023 年のリメイク版としては任天堂機初登場となる。RE2 デラックスエディションと RE4 ゴールドエディションには追加コンテンツが同梱される。",
+      highlight: "【2026-10-16 デジタル版を配信開始】Capcom が『バイオハザード RE:2 デラックスエディション』『RE:3』『RE:4 ゴールドエディション』の Nintendo Switch 2 版デジタル版を配信開始した（パッケージ版は 2027-01-29）。　Switch 版の RE2／RE3 はこれまでクラウド版のみだったため、今回が初のネイティブ移植。RE4 も 2023 年のリメイク版としては任天堂機初登場となる。早期購入特典の割引は 11-07 まで実施される。",
       console: {
-        status: "2026年10月16日発売予定（デジタル版）。予約受付中",
+        status: "発売中（デジタル版 2026-10-16 配信開始。パッケージ版は 2027-01-29）",
         os: ["Nintendo Switch 2"],
         monetization: "買い切り。RE:2 デラックスエディションと RE:4 ゴールドエディションには追加コンテンツを同梱",
         developer: "カプコン",
@@ -7816,7 +7817,7 @@ window.OBSERVATORY = {
       },
       news: [
         { source: "Capcom 公式プレスリリース（Monster Hunter Wilds の Switch 2 版とあわせて RE リメイク 3 作を発表）", url: "https://www.capcom.co.jp/ir/english/news/pdf/e260910.pdf" },
-        { source: "Insider Saga（Nintendo Direct 2026.9.9 での RE 3 作発表のまとめ）", url: "https://insidersaga.com/nintendo-just-answered-playstation-state-of-play-with-an-even-bigger-lineup" },
+        { source: "Nintendo Everything（日本語 eShop の 2026-10-15 週ラインナップ。RE:2／RE:3／RE:4 の Switch 2 版が 10-16 配信）", url: "https://nintendoeverything.com/japanese-nintendo-eshop-releases-for-october-15-2026/" },
         { source: "God is a Geek（Nintendo Direct の発売日まとめ。RE 3 作 Switch 2 は 10/16）", url: "https://godisageek.com/2026/09/nintendo-direct-september-2026-release-dates" }
       ],
       videos: [
@@ -9824,6 +9825,180 @@ window.OBSERVATORY = {
       },
       tags: ["PC", "新作", "アートADV", "講談社", "体験版"],
       caution: "本体の初出時期は一次源で特定できていない（東京ゲームショウで先行ビルドが注目されたとの報道があり、その時点は滚动窗口内）。本場時点で講談社クリエイターズラボの製品一覧に未掲載のため、体験版配信＝窗口内での初の広範リリースとして bucket は new で扱った"
+    },
+    {
+      id: "tales-of-eternia-remastered",
+      company: "Bandai Namco",
+      companyJp: "株式会社バンダイナムコエンターテインメント（開発：株式会社トーセ）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-15（日本で発売。Steam 版と世界同時発売は 10-16）",
+      capturedAt: "2026-10-16",
+      title: { jp: "テイルズ オブ エターニア リマスター", cn: "永恒传奇 Remastered", en: "Tales of Eternia Remastered" },
+      genre: "アクション RPG（リマスター）",
+      platforms: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "PC (Steam)"],
+      release: "2026-10-15（日本発売済み。PS5／PS4／Switch 2／Switch／Xbox Series X|S）／Steam 版は 2026-10-16、世界同時発売も 10-16",
+      releasePrecision: "已发售",
+      summary: "万代南梦宫娱乐把 2000 年 11 月发售的 PS1 用《传奇》系列本编第四作《永恒传说》首次重制，交由曾负责《圣恩传说 f Remastered》的 TOSE 开发。日本 2026-10-15 先行发售，世界其它地区为 10-16（Steam 版同为 10-16），对应 Switch／Switch 2／PS5／PS4／Xbox Series X|S／Steam 六种机种。舞台是被分割成「因费利亚」与「塞莱斯蒂亚」两个世界的行星エターニア：住在边境村拉修恩斯的 リッド・ハーシェル 与青梅竹马 ファラ・オーエルステッド 遇到失去记忆的少女 メルディ，为阻止两个世界相撞的「大坠落」而踏上寻找元素精灵クレイモス 的旅程。战斗沿用系列初期的 A-LMBS 线性动作战斗，并追加目的地标记、可关闭随机遇敌、自动战斗高速模式等便利功能，画面与音效可在「重制版／原作版」两种模式间自由切换。原作 2000 年 11 月于日本 PS1 发售（北美 2001 年以 Tales of Destiny II 之名推出），2005 年有 PSP 移植版。",
+      highlight: "【2026-10-15 日本で発売】バンダイナムコエンターテインメント（開発：トーセ）の『テイルズ オブ エターニア リマスター』が日本で発売された（Steam 版と世界同時発売は 10-16）。PS5／PS4／Switch 2／Switch／Xbox Series X|S／Steam の 6 機種展開。　原作は 2000 年 11 月の PS1 用アクション RPG で、本作は「テイルズ オブ リマスタードプロジェクト」の第 4 弾。目的地マーカーの表示、遇敵オフ、自動戦闘の高速モードに加え、グラフィックと効果音を原作仕様に切り替えるモードを備える。",
+      console: {
+        status: "発売中（日本は 2026-10-15、世界同時発売は 2026-10-16。Steam 版は 2026-10-16）",
+        os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "Windows（Steam）"],
+        monetization: "買い切り。Nintendo Switch 版はパッケージとダウンロードの両方、PS4／Switch 2／Xbox Series X|S／Steam 版はダウンロードのみ",
+        developer: "株式会社トーセ",
+        publisher: "株式会社バンダイナムコエンターテインメント",
+        region: "日本／世界（日本語・英語・フランス語・イタリア語・ドイツ語・スペイン語・ロシア語・韓国語・簡体字・繁体字に対応）",
+        distribution: "パッケージ版・ダウンロード版（Nintendo Switch はパッケージあり。他機種はダウンロード販売）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Microsoft Store", "Steam", "全国のゲーム取扱店"],
+        features: [
+          "2000 年 11 月発売の PS1 用アクション RPG『テイルズ オブ エターニア』を初めてリマスター化",
+          "「テイルズ オブ リマスタードプロジェクト」の第 4 弾（第 3 弾は『テイルズ オブ グレイセス エフ リマスター』）",
+          "目的地マーカーの表示、遇敵オフ、自動戦闘の高速モードといった便利機能を追加",
+          "グラフィックと効果音を「リマスター版」と「原作版」で切り替えられるモードを搭載",
+          "シリーズ初期の A-LMBS（アグレッシブ・リニアモーションバトルシステム）を維持した 2D リアルタイム戦闘"
+        ],
+        synopsis: "舞台は、二つの世界「インフェリア」と「セレステイア」に分かれた惑星エターニア。辺境の村ラシュアンの少年リッドと幼馴染のファラは、記憶を失った少女メルディと出会う。メルディの出自を探るうちに、二つの世界が衝突する「大墜落」の危機が迫っていることを知り、元素精霊クレイモス の力を使い、二つの世界を救う旅に出る。",
+        ipSource: "『テイルズ オブ』シリーズ（バンダイナムコエンターテインメント）。原作は 2000 年 11 月に PS1 で発売、北米では 2001 年に『Tales of Destiny II』として展開、2005 年に PSP 版が発売された",
+        series: "1995 年開始の『テイルズ オブ』シリーズ本編第 4 作。シリーズ累計販売本数は公式に公表されていない",
+        cast: "公式発表なし（日本語・英語のボイス言語切り替えに対応。オープニング主題歌は Garnet Crow の「flying」）"
+      },
+      news: [
+        { source: "任天堂 製品ページ（発売日 2026-10-15、対応機種、対応言語）", url: "https://www.nintendo.com/my/games/detail.html?id=70010000127560" },
+        { source: "巴哈姆特電玩資訊站（2026-10-15 の発売と発売告知映像、バンダイナムコアジアの発売元表記）", url: "https://gnn.gamer.com.tw/detail.php?sn=313481" },
+        { source: "『テイルズ オブ』シリーズ 30th Anniversary 公式サイト", url: "https://happy-30th-anniv.tales-ch.jp/" }
+      ],
+      videos: [
+        { label: "任天堂 製品ページ（発売告知トレーラーを掲載）", platform: "官方站", url: "https://www.nintendo.com/my/games/detail.html?id=70010000127560" },
+        { label: "『テイルズ オブ』30th Anniversary 公式サイト（シリーズ公式ポータル）", platform: "官方站", url: "https://happy-30th-anniv.tales-ch.jp/" }
+      ],
+      hype: {
+        score: 47,
+        signals: [
+          "『テイルズ オブ』は国内に固定ファンを持ち、リマスタードプロジェクトは第 4 弾まで継続している",
+          "原作は PS1 期の 2D 戦闘 A-LMBS を評価する根強いファンがおり、6 機種同時展開で間口を広げた",
+          "発売日は日本 10-15／世界 10-16 と報じられ、任天堂の製品ページにも 10-15 と明記されている",
+          "国内の露出は発売告知映像と店頭施策が中心で、Famitsu 期待榜には入っていない"
+        ]
+      },
+      tags: ["主机", "RPG", "リマスター", "発売", "テイルズ"]
+    },
+    {
+      id: "pukey-goddess-shot-trick",
+      company: "Alliance Arts",
+      companyJp: "株式会社Alliance Arts（発行・開発）",
+      bucket: "update",
+      platformClass: "pc",
+      announceDate: "2026-10（Triple-i Initiative 2026 で発売日 12-08 を発表）",
+      capturedAt: "2026-10-16",
+      title: { jp: "PUKEY GODDESS SHOT TRICK", cn: "酒鬼女神的酒诡", en: "PUKEY GODDESS SHOT TRICK" },
+      genre: "ローグライト飲酒サバイバル（心理ホラー／ノベル）",
+      platforms: ["PC (Steam)"],
+      release: "2026-12-08（PC（Steam）。予定価格 4.99 ドル）",
+      releasePrecision: "日",
+      summary: "东京的独立发行商 Alliance Arts 与创作者 WHO YOU 共同开发的心理恐怖游戏，2026-10 在「Triple-i Initiative 2026」上发表发售日为 12-08，预计定价 4.99 美元。玩法是俄式轮盘式的拼酒生存战：玩家在地狱酒吧里与病娇恶魔ファム・スール（CV：ななひら）逐杯对饮，每杯的酒精度与效果不同，谁先「吐出灵魂」谁就输；喝得越醉，原本的规则越会崩坏，可以施展只有醉汉才使得出的招数。除饮酒对决外还可用 3D 视点探索酒吧内部，剧情随选择分岔出 7 种以上的毁灭结局。首发于 2026-04-25 的「INDIE Live Expo 2026.4.25」，Steam 愿望单在 2026-05-07 突破 20 万件、2026-09-29 突破 50 万件；10-19 开跑的 Steam 新品节将提供开头约 20 分钟的免费体验版。制作阵容与《晕晕电波症候群》重合——制作人／导演／编剧 WHO YOU（林 風肖）、角色设计 odyk、音乐 Aiobahn +81、主题曲「DEMON'S SHOT」由 DEMONDICE 担任作词与演唱。",
+      highlight: "【2026-10 発売日決定】Alliance Arts が「Triple-i Initiative 2026」で『PUKEY GODDESS SHOT TRICK』の発売日を 2026-12-08（予定価格 4.99 ドル）に確定した。Steam のウィッシュリストは 2026-09-29 に 50 万件を突破（初公開は 2026-04-25 の INDIE Live Expo 2026）。　10-19 からは Steam Next Fest 2026 年 10 月版に合わせて、ゲーム冒頭約 20 分を収録した初の無料体験版を配信予定。本体の初出は窗口外のため bucket は update で扱う。",
+      console: {
+        status: "2026-12-08 発売予定（Steam。10-19 から無料体験版を配信予定）",
+        os: ["Windows（Steam）"],
+        monetization: "買い切り（予定価格 4.99 ドル）",
+        developer: "Alliance Arts／WHO YOU",
+        publisher: "株式会社Alliance Arts",
+        region: "世界（日本語のほか簡体字などの字幕に対応）",
+        distribution: "Steam でのダウンロード販売",
+        stores: ["Steam"],
+        features: [
+          "酒精度と効果が異なるショットグラスを選び合う、ロシアンルーレット形式の飲酒サバイバル",
+          "飲めば飲むほどルールが壊れていき、酔漢にしか使えない「酔っ払いの技」で切り抜ける",
+          "3D で構築された地獄のバー（Pandemonium）を探索し、選択の積み重ねで 7 種類以上の破滅的マルチエンドに分岐",
+          "『暈暈電波症候群』の制作陣（WHO YOU／odyk／ななひら）が再集結し、音楽は Aiobahn +81、主題歌は DEMONDICE",
+          "Steam のウィッシュリストは 2026-09-29 時点で 50 万件を突破し、発売前から国内外で反響が大きい"
+        ],
+        synopsis: "地獄のバーで、あなたを殺したいほど愛している悪魔「ファム・スール」と一晩の飲み比べに挑む。唯一のルールは、相手を泥酔させて「魂を吐かせる」こと。飲むほどに規則が崩れ、酔った者だけが使える技が増えていく。二日酔いの向こう側にあるのは、7 通り以上の破滅的な結末のいずれかだ。",
+        ipSource: "オリジナル（Alliance Arts と WHO YOU による新規 IP）",
+        series: "Alliance Arts の前作『暈暈電波症候群（Yunyun Syndrome!? Rhythm Psychosis）』と制作陣を共有する姉妹企画的な位置づけ。同作は世界累計 15 万本を突破している",
+        cast: "ファム・スール：ななひら（公式発表。日本語音声）"
+      },
+      news: [
+        { source: "Steam ストアページ（発売日 2026-12-08・予定価格・対応字幕）", url: "https://store.steampowered.com/app/4150720/" },
+        { source: "巴哈姆特電玩資訊站（12-08 発売決定、10-19 の初回体験版、作品内容と制作陣）", url: "https://gnn.gamer.com.tw/detail.php?sn=313246" },
+        { source: "4Gamers（ウィッシュリスト 50 万件突破と Triple-i Initiative 2026 での発売日発表）", url: "https://www.4gamers.com.tw/news/detail/82580/pukey-goddess-shot-trick-release-date-announcement" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（発売告知トレーラーを掲載）", platform: "Steam", url: "https://store.steampowered.com/app/4150720/" },
+        { label: "公式 X（ファム・スール 名義で設定画・描き下ろしを公開）", platform: "X", url: "https://x.com/pukeygoddess" }
+      ],
+      hype: {
+        score: 56,
+        signals: [
+          "Steam のウィッシュリストが 2026-05-07 に 20 万件、2026-09-29 に 50 万件を突破。数値シグナルが明確に公開されている",
+          "『暈暈電波症候群』の制作陣（WHO YOU／odyk／ななひら）が再集結し、主題歌を DEMONDICE が担当するなど話題性が高い",
+          "Triple-i Initiative 2026 という海外向けインディーショーケースで発売日を発表し、海外メディアの転載も広い",
+          "発売は 2026-12-08 で、Famitsu 期待榜などの国内指標には現れていない"
+        ]
+      },
+      tags: ["PC", "発売日決定", "ローグライト", "ホラー", "Alliance Arts"]
+    },
+    {
+      id: "uta-macross-revival",
+      company: "AUGUST Inc.（企画・プロデュース）／開発：xeen Inc.",
+      companyJp: "AUGUST Inc.（企画・プロデュース）／開発：xeen Inc.",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-09-10（CAMPFIRE で買い切りリメイクの復活プロジェクトが始動）",
+      capturedAt: "2026-10-16",
+      title: { jp: "歌マクロス スマホDeカルチャー 復活プロジェクト", cn: "歌之超时空要塞（复活企划）", en: "Uta Macross: Smartphone De-Culture (Revival Project)" },
+      genre: "リズムゲーム（買い切り型リメイク／ガチャ廃止）",
+      platforms: ["iOS", "Android", "PC (Steam)"],
+      release: "2027年春（Steam／iOS／Android 予定。価格は未定）",
+      releasePrecision: "季",
+      summary: "《超时空要塞》系列手机节奏游戏《歌マクロス スマホDeカルチャー》（2017 年 8 月由 DeNA 配信、2022 年 6 月停服）的复活企划，2026-09-10 20:00 起在 CAMPFIRE 展开众筹。目标 3000 万日元在开跑约 1 小时后即达成，9-16 突破 1.14 亿、10-14 时点累计超过 1.39 亿日元。与旧作不同，本次改为买断制并废除角色强化扭蛋，在 iOS／Android 之外追加 Steam 版，原生支持键鼠与主流手柄；保留当年高规格的演唱会舞台演出与插画，收录约 50 首歌曲、★4 以上卡牌 1000 张以上、每名歌姬 20 套以上服装，追加内容以 DLC 提供。按达成额分档解锁：7500 万日元启动家用机版开发、9000 万扩充 3D 演唱会曲目、1 亿追加完全新曲、1.5 亿考虑追加对应机种。众筹实施至 10-31。",
+      highlight: "【2026-10-14 支援総額 1 億 3,900 万円突破】2017 年配信・2022 年 6 月にサービス終了したスマホ向けリズムゲーム『歌マクロス スマホDeカルチャー』の買い切りリメイクが、CAMPFIRE のクラウドファンディングで 2026-10-14 時点の支援総額 1 億 3,900 万円を突破した。目標 3,000 万円は開始から約 1 時間で達成、9-16 には 1.14 億円に到達。　Steam／iOS／Android の 3 環境で 2027 年春発売予定で、ガチャを廃した買い切り型。約 50 曲、★4 以上のプレート 1,000 枚超、歌姫ごとに 20 着以上の衣装を収録し、追加楽曲・衣装は DLC で展開する。",
+      mobile: {
+        status: "配信予定（2027 年春）",
+        os: ["iOS", "Android"],
+        monetization: "買い切り（原版のキャラクター強化ガチャを廃止。価格は未定）",
+        preReg: {
+          open: false,
+          since: "",
+          reward: "事前登録は未開始。CAMPFIRE のクラウドファンディング（2026-09-10 20:00〜10-31 23:59、目標 3,000 万円）の支援者向けリターンとして PC 版ダウンロードキーなどが用意されている"
+        },
+        developer: "xeen Inc.（開発）／AUGUST Inc.（企画・プロデュース）",
+        publisher: "AUGUST Inc.",
+        region: "日本（クラウドファンディングは CAMPFIRE で国内向けに実施）",
+        distribution: "App Store / Google Play（予定）／PC（Steam）／クラウドファンディングのリターンに PC 版ダウンロードキー",
+        payment: [],
+        ipSource: "『マクロス』シリーズ（ビックウエスト）。原版『歌マクロス スマホDeカルチャー』は DeNA が 2017 年 8 月に配信し、2022 年 6 月にサービスを終了した",
+        series: "1982 年の『超時空要塞マクロス』に始まるシリーズ。ゲーム側は 2017 年のスマホ向けリズムゲームが前身で、本作はその買い切りリメイクとして位置づけられる",
+        features: [
+          "スマホ向けリズムゲーム『歌マクロス スマホDeカルチャー』を買い切り型として再構築し、iOS／Android に加えて Steam 版を新たに用意する",
+          "原作のキャラクター強化ガチャを廃止し、買い切り＋DLC の販売形態へ変更する",
+          "当時の高品質なライブ演出とイラストを保持しつつ、キーボード・マウスおよび主要ゲームパッドへのネイティブ対応を実装する",
+          "基本パッケージに約 50 曲、★4 以上のプレート 1,000 枚超、歌姫ごとに 20 着以上の衣装を収録",
+          "追加楽曲・衣装・プレートは DLC で順次展開し、達成額に応じてコンシューマー機への展開も検討する"
+        ],
+        synopsis: "マクロスシリーズ 40 余年分の楽曲とキャラクターを 3D ライブで楽しむリズムゲーム。プレイヤーは歌姫たちのステージを追体験しながら、楽曲と衣装を集めて自分だけのライブを組み立てていく。買い切り型への転換により、サービス終了で遊べなくなった体験を現行環境で長く楽しめる形に作り直すことが主眼に置かれている。",
+        cast: "公式発表なし（原版に登場した歌姫たちの続投が前提とみられるが、キャストの個別発表は 2026-10-16 時点でない）"
+      },
+      news: [
+        { source: "巴哈姆特電玩資訊站（募資総額 1 億 3,900 萬元突破・追加回饋方案、実施期間・対応平台・権利表記）", url: "https://gnn.gamer.com.tw/detail.php?sn=313428" },
+        { source: "CAMPFIRE 特設ページ（購買型クラウドファンディングの実施期間・目標金額・リターン）", url: "https://camp-fire.jp/projects/951391/view" },
+        { source: "Gameforce Mobile（クラウドファンディングの推移と収録内容の整理）", url: "https://gameforcemobile.com/news/5540-macross-rhythm-game-revival-raises-139-million-yen-as-fans-fight-to-restore-a-lost-mobile-" }
+      ],
+      videos: [
+        { label: "CAMPFIRE 特設ページ（プロジェクト紹介映像・開発状況を掲載）", platform: "官方站", url: "https://camp-fire.jp/projects/951391/view" },
+        { label: "公式サイト『歌マクロス』", platform: "官方站", url: "https://uta.macross.site" },
+        { label: "公式 X（@uta_macross）", platform: "X", url: "https://x.com/uta_macross" }
+      ],
+      hype: {
+        score: 66,
+        signals: [
+          "クラウドファンディングは目標 3,000 万円を開始約 1 時間で達成し、10-14 時点で 1 億 3,900 万円超。支援者数と金額という公開シグナルが明確に出ている",
+          "2017 年配信・2022 年 6 月サービス終了という「遊べなくなった」タイトルの復活であり、当時のユーザーの需要が直接金額に表れた",
+          "ガチャを廃した買い切り型への転換と Steam 版の新設が、海外メディア（CBR ほか）でも報じられた",
+          "発売は 2027 年春で、Famitsu 期待榜などの国内指標にはまだ現れていない"
+        ]
+      },
+      tags: ["新作", "跨平台", "リズムゲーム", "マクロス", "クラウドファンディング"]
     }
   ],
 
@@ -9833,7 +10008,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-14",
+    asOf: "2026-10-16",
     listTotal: 50,
     categories: [
       {
@@ -9844,7 +10019,7 @@ window.OBSERVATORY = {
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
-          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order"] },
+          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order", "tales-of-eternia-remastered"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
@@ -9868,7 +10043,7 @@ window.OBSERVATORY = {
           { name: "株式会社SNK", short: "SNK", status: "watch" },
           { name: "株式会社ゲームフリーク", short: "GAME FREAK", status: "covered", gameIds: ["ame-nochi-hare-onna", "pokemon-winds-waves", "beast-of-reincarnation"], note: "『Beast of Reincarnation』(8/4) は同社初の非ポケモン AAA 作品" },
           { name: "株式会社ハル研究所", short: "HAL Laboratory", status: "covered", gameIds: ["kirby-world-beyond"] },
-          { name: "株式会社トーセ", short: "TOSE", status: "watch" },
+          { name: "株式会社トーセ", short: "TOSE", status: "covered", gameIds: ["tales-of-eternia-remastered"], note: "受託開発大手。『テイルズ オブ エターニア リマスター』（2026-10-15 日本発売／10-16 世界同時発売）の開発を担当した。同社は『テイルズ オブ グレイセス エフ リマスター』も手がけている" },
           { name: "株式会社イルカ", short: "Iruka", status: "watch" },
           { name: "株式会社コジマプロダクション", short: "Kojima Productions", status: "covered" },
           { name: "株式会社ディンプス", short: "DIMPS", status: "covered", gameIds: ["dragon-ball-xenoverse-3"], note: "『ドラゴンボール ゼノバース3』の開発を担当（販売はバンダイナムコエンターテインメント、2027 年発売予定）。同シリーズは第 1 作から継続して開発に関与している" }
@@ -10034,37 +10209,38 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-16 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ】日方主導のスマホ完全新作は本場もゼロ。10-15 夜〜10-16 朝の国内向けモバイル新作は確認できず、増分は主机・PC と、スマホを含む復活企画のみだった。",
+          "スマホを含む新規 1 件（漏収追補）—— 2017 年配信・2022 年 6 月サービス終了のスマホ向けリズムゲーム『歌マクロス スマホDeカルチャー』の買い切りリメイクが、CAMPFIRE のクラウドファンディング（2026-09-10 20:00〜10-31 23:59、目標 3,000 万円）で 10-14 時点の支援総額 1 億 3,900 万円を突破した。Steam／iOS／Android の 3 環境で 2027 年春発売予定、ガチャを廃した買い切り型。初公開が窗口内（2026-09-10）のため bucket=new、platformClass=multi で収録した。",
+          "主机・PC の新規 1 件（漏収追補）—— バンダイナムコエンターテインメント（開発：トーセ）の『テイルズ オブ エターニア リマスター』が 2026-10-15 に日本で発売された（PS5／PS4／Switch 2／Switch／Xbox Series X|S、世界同時発売と Steam 版は 10-16）。原作は 2000 年 11 月の PS1 用アクション RPG で、本体の初出は窗口外のため bucket=update として収録した。",
+          "主机・PC の新規 1 件（漏収追補）—— 株式会社Alliance Arts（東京）が『PUKEY GODDESS SHOT TRICK（酒鬼女神的酒诡）』の発売日を 2026-12-08 に確定したと「Triple-i Initiative 2026」で発表。Steam のウィッシュリストは 2026-09-29 に 50 万件を突破し、10-19 開幕の Steam Next Fest 2026 年 10 月版に合わせて初の無料体験版を配信予定。本体は 2026-04-25 の INDIE Live Expo 2026 で初公開済み＝bucket=update。",
+          "既収録の更新 2 件 —— ①『ReGLOSS:CROSS』（COVER／holo Indie）が 2026-10-15 に Steam で 490 円で配信開始。②『バイオハザード RE:2 デラックスエディション／RE:3／RE:4 ゴールドエディション（Nintendo Switch 2 版）』のデジタル版が 2026-10-16 に配信開始（パッケージ版は 2027-01-29）。",
+          "条目総数は 172 → 175（スマホ区 41 → 42、主机・PC 区 145 → 148）。platformClass は mobile 27・console 114 → 115・pc 17 → 18・multi 14 → 15。bucket は new 103 → 104、update 69 → 71。",
+          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変。トーセ は watch → covered（『テイルズ オブ エターニア リマスター』の開発を担当）、バンダイナムコエンターテインメントの gameIds に同作を追記した。",
+          "漏収核查（アニメ IP の個別検索）：ONE PIECE／呪術廻戦／BLEACH／鬼滅の刃／東京リベンジャーズ／ブルーロック／ホロライブ／ポケモン／チェンソーマン／Otomate・LicoBiTs を確認。BLEACH は既収録『BLEACH Mirrors High』の SPECIAL BROADCAST（10-27）告知のみ、ホロライブは既収録 3 件の続報のみで、いずれも新規なし。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（中国本土専用モバイル作の全世界展開ほか 1 件を含む）。② 韓国資本のスマホ新作（漫画 IP のカード RPG ほか 1 件）は不収録。③ 発行元が香港法人のタイトルは紅線口径により不収録（うち 1 件は開発が日本側）。④ 欧米・南米など非日本開発のインディーは不収録。⑤ 18 歳以上向け（FANZA 運営）の新作は本台の口径外として見送り。⑥ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持）。meta.asOf のみ 2026-10-16 に更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトルと VR 作品の分類は引き続き用户裁定待ち。",
+          "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-15 19:14（commit 5544aac）で増分区間は 10-15 夕方〜10-16 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
+        ]
+      },
+      {
         at: "2026-10-15 19:00",
         scene: "定時巡検（夕方の部）",
         items: [
           "【スマホ】日方主導のスマホ新作が 1 件 —— バンダイナムコエンターテインメントが 2026-10-15 に、ガンダムシリーズ初の放置系モバイルゲーム『ガンダム ブリッツオーダー』を発表し、同日 12:00 からネットワークテストの参加者募集を開始した（2,500 名・日本国内居住者限定、テストは 11/18〜11/24）。自動戦闘で集めた素材を使うと全ユニットがまとめてレベルアップし、新規獲得の機体も即戦力になる設計。配信時期・価格は未公表。",
-          "スマホの既収録 1 件を更新 —— 『重兵装型女子高生』（NextNinja）について、公式サイト（juheiso-game.jp）・公式 X ・公式 YouTube と主要キャスト（灯華：高橋李依／奏：鈴代紗弓／穂波：青山吉能）を日本語一次源で確認し、事前登録が公式 X フォロー・YouTube 登録・メール登録で受付中と判明。前場で付けていた caution を解除し、title を正式名称に更新した。",
-          "主机・PC の新規 1 件 —— 講談社ゲームクリエイターズラボ発行、個人開発者 Mana のデビュー作『カタルシス〜最後のアトリエ〜』が 2026-10-15 に Steam で無料体験版を配信開始（ゴッホ「星月夜」「夜のカフェテラス」とミレイ「オフィーリア」をモチーフにした約 30 分）。10-19 開幕の Steam Next Fest 2026 年 10 月版への参加も決定した。",
-          "更新 1 件 —— コナミの『Castlevania: Belmont's Curse』が 2026-10-15 に PS5／Xbox Series X|S／Nintendo Switch／Steam で世界同時発売された（Steam は 04:00 UTC の全球一斉アンロック、PS5／Xbox は各国 0 時）。release を発売済みに更新。",
-          "条目総数は 170 → 172（スマホ区 40 → 41、主机・PC 区 144 → 145）。platformClass は mobile 26 → 27、pc 16 → 17。bucket は new 101 → 103。",
-          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変（バンダイナムコエンターテインメントと講談社ゲームラボの gameIds に各 1 件追記）。",
-          "漏収核查（アニメ IP の個別検索）：ONE PIECE／呪術廻戦／鬼滅の刃／東京リベンジャーズ／ブルーロック／ポケモン／ハイキュー／ドラゴンボールを確認。日方主導の新規スマホタイトルは確認できず。ONE PIECE は既収録の『ONE PIECE 海のごちそうレストラン』（＝海外表記 ONE PIECE Grand Gourmet、10-22/23 発売予定）の続報のみ、東京リベンジャーズは SNK の対戦格闘 DLC（10-22 配信予定・主机）のみだった。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（日本 IP の中国資本スタジオ開発モバイル作、中国資本の正版 IP カード RPG 各 1 件を含む）。② 韓国資本のスマホ新作（位置情報 RPG ほか 1 件）は不収録。③ 発行元が香港法人のリズムアクション（開発は日本のスタジオ）は紅線口径により不収録。④ 独・英など非日本開発のインディーは不収録。⑤ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持）。meta.asOf のみ 2026-10-15 に更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定（主机・PC 60 分／スマホ 15 分、『SDガンダム ジージェネレーション エターナル』などが対象）——次場以降の注目材料。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。"
+          "スマホの既収録 1 件を更新 —— 『重兵装型女子高生』（NextNinja）について、公式サイト・公式 X・公式 YouTube と主要キャスト（灯華：高橋李依／奏：鈴代紗弓／穂波：青山吉能）を日本語一次源で確認し、事前登録が受付中と判明。前場で付けていた caution を解除し、title を正式名称に更新した。",
+          "主机・PC の新規 1 件 —— 講談社ゲームクリエイターズラボ発行、個人開発者 Mana のデビュー作『カタルシス〜最後のアトリエ〜』が 2026-10-15 に Steam で無料体験版を配信開始し、10-19 開幕の Steam Next Fest 2026 年 10 月版への参加も決定した。",
+          "更新 1 件 —— コナミの『Castlevania: Belmont's Curse』が 2026-10-15 に世界同時発売された。release を発売済みに更新。",
+          "条目総数は 170 → 172（スマホ区 40 → 41、主机・PC 区 144 → 145）。bucket は new 101 → 103。companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 韓国資本のスマホ新作は不収録。③ 発行元が香港法人のリズムアクション（開発は日本のスタジオ）は紅線口径により不収録。④ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし。meta.asOf のみ 2026-10-15 に更新。geo-check は要確認 0 件。",
+          "【持越し】① 10-28 の「ガンダムゲーム 40 周年記念配信」。②『チェンソーマン』スマホ新作の開発・発行元は未公表。③『KEMURI』の bucket 旧揺れ。"
         ]
-      },
-      {
-        at: "2026-10-14 19:00",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "【スマホ】日方主導のスマホ新作が 1 件 —— イラストレーター neco の「武装×女子高生」企画『重兵装型女子高生』の初のスマートフォンゲームが 2026-10-14 に発表され、同日から事前登録が開始された。開発・運営は日本資本の NextNinja。プレイヤーは「校長」と呼ばれる猫の視点で武装少女たちを見守る放置系 RPG（iOS／Android、2027 年放送予定の TV アニメと同源）。配信時期は未公表で、公式ストアページと一次源は追って確認が必要。",
-          "主机・PC の新規 1 件（漏収追補）—— 講談社ゲームクリエイターズラボが 2026-10-14、3 人組チーム・常夜不動産のネオノスタルジック×ホラー ADV『1999TOKOYO Building』を 2026-11-10 に Steam で発売すると発表し、第 1 章（約 2 時間）を収録した無料体験版を配信。本体の初出は窗口外のため bucket=update で収録した。",
-          "条目総数は 168 → 170（スマホ区 39 → 40、主机・PC 区 143 → 144）。platformClass は mobile 25 → 26、pc 15 → 16。bucket は new 100 → 101、update 68 → 69。",
-          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変（講談社ゲームラボの gameIds に 1 件追記）。",
-          "漏収核查（アニメ IP の個別検索）：ONE PIECE／呪術廻戦／東京リベンジャーズ／ブルーロック／ホロライブ／ポケモン／刀剣乱舞／チェンソーマンを確認。ホロライブは既収録『ホロライブ麻雀 -ホロじゃん-』の 10-13 生放送詳細のみ、ポケモンは在営タイトルの内容更新のみで、いずれも新規なし。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（中国資本スタジオ開発のタクティクス RPG 1 件を含む）。② 韓国資本のスマホ新作（位置情報 RPG ほか 2 件）は不収録。③ 独・英など非日本開発のインディーは不収録。④ PC ギャルゲーの続編制作決定（Navel）は発売時期・機種とも未公表のため見送り。⑤ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持、meta.asOf は 2026-10-14 のまま）。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：10-11 付の海外転載は直近 10-09 期と同一数値（1 位ゼルダ時のオカリナ 790／2 位ポケモン 784／3 位ペルソナ 6 689）のため整表更新は不要。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】①『チェンソーマン』スマホ新作の開発・発行元は依然未公表。②『KEMURI』の bucket 旧揺れ（bucket=new のまま）。③『重兵装型女子高生』スマホゲームは公式ストアページ・日本語一次源の追加確認が必要。"
-        ]
-      },
+      }
     ],
   },
 };
