@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-16T09:10:00+08:00",
+    updatedAt: "2026-10-16T19:10:00+08:00",
     edition: "2026-10-16",
     window: "2026-08-16 ~ 2026-10-16（滚动最近 2 个月）",
     sources: [
@@ -2104,19 +2104,25 @@ window.OBSERVATORY = {
       kv: "assets/kv/where-the-seeds-fall.jpg",
       kvSrc: "cq-esports.com",
       company: "Cygames Edge",
-      companyJp: "Cygames Edge",
+      companyJp: "株式会社Cygames（ブランド：CygamesEdge／開発：CygamesEdge と Zeleo の共同）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09",
-      capturedAt: "2026-09-15",
-      title: { jp: "Where the Seeds Fall", cn: "Where the Seeds Fall", en: "Where the Seeds Fall" },
-      genre: "垂直平台动作 / 动作冒险",
-      platforms: ["PS5 等"],
-      release: "2026-11-05",
+      announceDate: "2026-10-16（Steam で体験版配信・最終トレーラー公開）",
+      capturedAt: "2026-10-16",
+      title: {
+        jp: "崩落の国",
+        cn: "崩落之国",
+        en: "Where the Seeds Fall"
+      },
+      genre: "落下アクション / プラットフォームアクション",
+      platforms: ["PlayStation 5", "Nintendo Switch 2", "PC (Steam)"],
+      release: "2026-11-05（PlayStation 5／Nintendo Switch 2／PC (Steam)。税込 1,100 円）",
       releasePrecision: "日",
-      summary: "Cygames 新设立的工作室「Cygames Edge」的首部项目。玩家操控角色沿世界树向下穿行，主轴为垂直方向的平台跳跃挑战；主线约三小时，另有额外关卡与计时挑战供深度玩家挖掘。",
-      highlight: "大厂内部新工作室的出道作，被视为 Cygames 拓展主机单机路线的试探。",
+      summary: "Cygames 面向中小规模作品设立的新品牌「CygamesEdge」的首部作品，由约 10 人的团队开发、Cygames 发行，原案出自 Cygames 内部游戏制作比赛。玩法为垂直方向的「落下动作」：人类文明栖息在世界树之上，玩家操控失去一切的主人公从树顶向荒废的地面向下穿行，核心是看清落脚点、控制下落与读取风向；植物藤蔓上的叶片踏板踩过即消失，「フラワーダイブ」则可把花苞投到地面开花后安全落地。2026-10-16 17:00 起在 Steam 配信免费体验版（约 15〜30 分钟、动作全部解锁、不含剧情），正式版将于 2026-11-05 登陆 PS5／Nintendo Switch 2／Steam，仅数字版，税后 1,100 日元，主线约 3 小时。",
+      highlight: "【2026-10-16 体験版＋最終トレーラー】Cygames の新ブランド「CygamesEdge」の第 1 弾『崩落の国』（英題：Where the Seeds Fall）が、2026-10-16 17:00 から Steam で無料体験版の配信を開始し、あわせて世界観を描く最終トレーラーを公開した。　正式版は 2026-11-05 に PS5／Nintendo Switch 2／Steam の 3 機種で税込 1,100 円、本編は約 3 時間で数字版のみ。体験版は全アクション解放済みの高難度ステージで、物語要素は含まない。",
       news: [
+        { source: "Yomimono（GAME Watch・Automaton・電ファミニコゲーマー発の報道を集約：体験版配信と 2026-11-05・税込 1,100 円）", url: "https://www.yomimono.id/cygamesedge-debut-title-where-the-seeds-fall-gets-steam-demo" },
+        { source: "游民星空（Cygames 発表の中国語版：体験版は Steam で配信、3 機種・税込 1,100 円、開発は CygamesEdge と共同）", url: "https://www.gamersky.com/news/202610/2229946.shtml" },
         { source: "CQ-Esports（State of Play Japan 汇总）", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" }
       ],
       videos: [
@@ -2124,14 +2130,15 @@ window.OBSERVATORY = {
         { label: "Eurogamer State of Play 全程汇总", platform: "媒体", url: "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026" }
       ],
       hype: {
-        score: 61,
+        score: 65,
         signals: [
-          "Cygames 品牌背书 + State of Play 首秀",
-          "短篇精悍定位与主流长线 JRPG 形成反差，媒体评价偏好奇",
-          "发售日近（11/5），转化窗口短"
+          "Cygames の新ブランド CygamesEdge の第 1 弾という話題性と、State of Play Japan での初出",
+          "2026-10-16 に Steam で無料体験版を配信し、発売 3 週間前にしてプレイアブルになった",
+          "税込 1,100 円・本編約 3 時間という短編セッティングは、価格とボリュームの妥当性が評価の焦点になる",
+          "PS5／Nintendo Switch 2／Steam の 3 機種同時・数字版のみで、パッケージ需要は想定していない"
         ]
       },
-      tags: ["工作室首作", "动作", "StateOfPlay"]
+      tags: ["工作室首作", "动作", "StateOfPlay", "体験版", "CygamesEdge"]
     },
 
     {
@@ -4755,18 +4762,26 @@ window.OBSERVATORY = {
       kvSrc: "公式サイト",
       company: "COVER（Holo Indie）／開発：Roboqlo",
       companyJp: "カバー株式会社（Holo Indie）／開発：Roboqlo",
-      bucket: "new",
+      bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09（Nintendo Switch 2 版の展開を発表）",
-      capturedAt: "2026-09-17",
-      title: { jp: "holoVillage: Our Cozy Days", cn: "holoVillage: Our Cozy Days", en: "holoVillage: Our Cozy Days" },
+      announceDate: "2026-10-15（Nintendo Switch 2 版の発売日 2026-10-22・税込 2,900 円が確定／予約受付開始）",
+      capturedAt: "2026-10-16",
+      title: {
+        jp: "holoVillage: Our Cozy Days（ぷちホロの村）",
+        cn: "holoVillage: Our Cozy Days",
+        en: "holoVillage: Our Cozy Days"
+      },
       genre: "スローライフシミュレーション＋ダンジョン探索",
-      platforms: ["PC (Steam)", "Nintendo Switch 2"],
-      release: "2026年秋（日本／具体的な日付は未発表。PC 版は 2026-04-24 配信済み）",
-      releasePrecision: "期",
-      summary: "由 カバー 旗下 holo Indie 发行、Roboqlo 开发的 hololive 官方慢生活模拟游戏。PC(Steam) 版已于 2026 年 4 月 24 日上线，Nintendo Switch 2 版于 2026 年 9 月公布、预定同年秋在日本推出。玩家与 hololive 成员的 Q 版形象共同经营村庄：耕作、钓鱼、采矿、制作道具、开店买卖；村外有敌人、多阶段迷宫与头目，可用不同武器种类、锻造强化装备并搭配职业能力树。可邀请成员入住村庄、帮忙农活、换装与合影，随好感度提升获得角色专属档案卡与家具。发售时收录超过 1,800 种家具与 1,300 种以上服装及角色部件，家具可多层堆叠与上墙，房间设计可上传服务器供他人参观。2026 年夏季大型更新已为近战武器追加 Step Dodge 与 Guard。",
-      highlight: "PC(Steam) 版已于 2026-04-24 上线，Switch 2 版 9 月中旬公布、预定 2026 年秋——hololive 官方游戏品牌首次走「PC 先行 → 主机跟进」路线，用 1,800 种家具与 1,300 种部件把「与推し同住」做成可长期经营的模拟品类。",
+      platforms: [
+        "PC (Steam)",
+        "Nintendo Switch 2"
+      ],
+      release: "2026-10-22（Nintendo Switch 2 版。税込 2,900 円・ニンテンドー e ショップ販売）／PC (Steam) 版は 2026-04-24 配信済み",
+      releasePrecision: "日",
+      summary: "由 カバー 旗下 holo Indie 发行、Roboqlo 开发的 hololive 官方慢生活模拟游戏。PC(Steam) 版已于 2026 年 4 月 24 日上线，Nintendo Switch 2 版于 2026 年 9 月公布，2026-10-15 起开放预约、发售日定为 2026-10-22（税后 2,900 日元，ニンテンドー e ショップ 销售）。玩家与 hololive 成员的 Q 版形象共同经营村庄：耕作、钓鱼、采矿、制作道具、开店买卖；村外有敌人、多阶段迷宫与头目，可用不同武器种类、锻造强化装备并搭配职业能力树。可邀请成员入住村庄、帮忙农活、换装与合影，随好感度提升获得角色专属档案卡与家具。发售时收录超过 1,800 种家具与 1,300 种以上服装及角色部件，家具可多层堆叠与上墙，房间设计可上传服务器供他人参观；共 47 名 hololive 成员登场，支持日语与英语。",
+      highlight: "【2026-10-15 Switch 2 版発売日確定】COVER の創作ゲームブランド「holo Indie」（運営 CCMC）が、『ぷちホロの村』こと『holoVillage: Our Cozy Days』の Nintendo Switch 2 版について、発売日を 2026-10-22、税込 2,900 円に確定し、2026-10-15 からニンテンドー e ショップで予約受付を開始した。　PC (Steam) 版は 2026-04-24 に配信済みで、本体が観測期間より前のため他機種版の展開として記録する。47 名のホロライブタレントが二頭身キャラクターで登場し、日本語・英語に対応する。",
       news: [
+        { source: "Yomimono（ASCII.jp・PANORA 発の報道を集約：Switch 2 版の予約受付開始と 2026-10-22・税込 2,900 円）", url: "http://yomimono.id/holo-indie-s-puchi-holo-no-mura-opens-nintendo-switch-2-preorders" },
         { source: "Nintendo Everything（Switch 2 版発表と作品概要）", url: "https://nintendoeverything.com/holovillage-our-cozy-days-coming-to-nintendo-switch-2/" },
         { source: "Nintendo News Hub（発売時期・収録要素・夏季アップデートの整理）", url: "https://www.nintendonewshub.com/news/holovillage-our-cozy-days-coming-to-nintendo-switch-2" },
         { source: "Universo Nintendo（PC 版配信日 2026-04-24 と日本国内での 2026 年内発売）", url: "https://universonintendo.com/holovillage-our-cozy-days-e-anunciado-para-o-switch-2-e-chega-ainda-em-2026-no-japao" }
@@ -4775,15 +4790,21 @@ window.OBSERVATORY = {
         { label: "公式トレーラー（Nintendo Everything の記事内に掲載）", platform: "媒体", url: "https://nintendoeverything.com/holovillage-our-cozy-days-coming-to-nintendo-switch-2/" }
       ],
       hype: {
-        score: 60,
+        score: 63,
         signals: [
           "ホロライブは VTuber 市場で最大級の IP で、2026 年は 9 周年と『hololive Dreams』の世界展開で露出が続いている",
-          "公式トレーラーが Nintendo Everything など任天堂系メディアで一斉に取り上げられ、Switch 2 の周辺タイトルとして関心を集めた",
+          "Switch 2 版の発売日が 2026-10-22、税込 2,900 円に確定し、予約受付が 2026-10-15 に始まった",
           "PC 版が先行配信済みで、Switch 2 版は移植としての完成度に関心が向く",
-          "発売時期が 2026 年秋とのみ告知され具体日が未発表のため、期待度の裏付けは限定的"
+          "発売直前に控えているため、ウィッシュリスト数などの追加シグナルは現時点で公開されていない"
         ]
       },
-      tags: ["新作発表", "シミュレーション", "ホロライブ", "Switch 2", "Holo Indie"]
+      tags: [
+        "シミュレーション",
+        "ホロライブ",
+        "Switch 2",
+        "Holo Indie",
+        "移植"
+      ]
     },
     {
       id: "physint",
@@ -9999,6 +10020,42 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["新作", "跨平台", "リズムゲーム", "マクロス", "クラウドファンディング"]
+    },
+    {
+      id: "kigetsu-night-of-the-waning-moon",
+      company: "エディア",
+      companyJp: "株式会社エディア",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-16（Steam ストアページ公開・体験版配信開始）",
+      capturedAt: "2026-10-16",
+      title: {
+        jp: "虧月の夜",
+        cn: "亏月之夜",
+        en: "Kigetsu: Night of the Waning Moon"
+      },
+      genre: "タイムリープ・サバイバルホラー ADV",
+      platforms: ["Nintendo Switch", "PC (Steam)"],
+      release: "2026-01-29（Nintendo Switch 版 発売済み・税込 5,280 円）／PC (Steam) 版は発売日・価格とも未発表",
+      releasePrecision: "已发售",
+      summary: "日本 IP・出版企业 エディア 制作的时光回溯型生存恐怖冒险游戏。舞台设于昭和初期一座与外界隔绝的农村，主人公每失去一次性命就会被送回同一时刻，在不断重复的循环里逐步逼近村庄隐藏的真相。公开发表的场景图以「每一次死亡都有重量」为基调：血泪交加倒地的少女、隔着格子微笑的独眼人物、举着锄头镰刀与火把逼近的村民，以及红色残月下与长发异形对峙的白衣身影。Switch 版已于 2026-01-29 发售（CERO D），原案由曾参与《银河系天使》系列与《.hack》的森本浩二担任。Steam 版仅公开商店页与体验版，发售日、价格均未公布。",
+      highlight: "【2026-10-16 Steam 体験版配信】昭和初期の閉鎖的な農村を舞台に、命を落とすたびに同じ時間へ巻き戻されるタイムリープ・サバイバルホラー ADV『虧月の夜（きげつのよる／英題：Kigetsu: Night of the Waning Moon）』が Steam ストアページを公開し、あわせて体験版の配信を開始した。　Nintendo Switch 版は 2026-01-29 に発売済み（税込 5,280 円・CERO D）で、本体が観測期間より前のため他機種版の展開として記録する。Steam 版の発売日・価格は「Coming soon」で未発表。原案は森本浩二氏。",
+      news: [
+        { source: "Quest Board.JP（Steam ストアページ公開と体験版配信、公式サイト NEWS 2026-10-16 付の告知）", url: "https://quest-board.jp/quests/buzz-leak-2026-10-16-leak-5-20261016" },
+        { source: "公式サイト『虧月の夜』NEWS（2026-10-16 付 体験版配信のお知らせ）", url: "https://kigetsunoyoru.com/" }
+      ],
+      videos: [
+        { label: "公式オープニングムービー（公式 YouTube）", platform: "YouTube", url: "https://youtu.be/GU0ITWyAYSI" }
+      ],
+      hype: {
+        score: 42,
+        signals: [
+          "Nintendo Switch 版が 2026-01-29 に発売済みの移植展開で、新規発表ではなく Steam ストアページ公開と体験版配信",
+          "Steam ストアページは日本語・英語に対応し、発売日と価格はいずれも未発表",
+          "原案に森本浩二氏（『ギャラクシーエンジェル』シリーズや『.hack』）を迎えたタイムリープ・ホラー ADV という企画の独自性"
+        ]
+      },
+      tags: ["PC", "Steam", "Nintendo Switch", "移植", "ホラー", "ADV", "タイムリープ"]
     }
   ],
 
@@ -10137,7 +10194,7 @@ window.OBSERVATORY = {
         { name: "株式会社フリュー", short: "FURYU", status: "covered", gameIds: ["anomalith"], note: "東京・八王子に本社を置く東証プライム上場の国内メーカー（2007 年にオムロンから MBO で独立）。プライズ・キャラクター商品を柱に、家庭用ゲームとアニメ事業を展開する。2026-05 に発表した自社初の本格サバイバル TPS『アノマリス/ANOMALITH』（開発：ウイニングエンターテインメントグループ＝旧ナツメアタリ、2026-10-29 発売予定）の正式体験版が 2026-10-08 に配信開始されたため、補充監視に追加した" },
         { name: "Gホールディングス株式会社（G Holdings Co., Ltd.）", short: "G Holdings", status: "covered", gameIds: ["girls-und-panzer-bokosuka-rush"], note: "本社・東京都新宿区西新宿（2018 年 6 月設立）の日本企業。事業内容はスマートフォンゲームの企画・制作で、グノシー（Gunosy Inc.／東証プライム 6047）の 100% 子会社。アニメ・漫画 IP のスマホゲームを手がけ、『ハイキュー!! TOUCH AND CONNECT』『弱虫ペダル レゾナンス・ペダイズム』『進撃の巨人 Brave Order』などを展開してきた。2026-10-09 にアニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の開発・配信を発表したため補充監視に追加（資本は日本側のみ＝中資否認、グノシーの会社概要ページで確認）" },
         { name: "株式会社フェイズ（Phase Co., Ltd.）", short: "Phase", status: "covered", gameIds: ["karei-endless-death-match"], note: "東京都を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオ。ターン制パズルローグライク『華麗 無限城の死闘』（Steam／iOS／Android、2026 年第 4 四半期予定）を自社で開発・販売し、2026-10-02 に無料体験版を 10-10 配信と発表したため補充監視に追加。TGS2026 に出展し会場で試遊を実施した" },
-        { name: "株式会社エディア", short: "エディア", status: "covered", gameIds: ["project-sign-astraea", "rebirthday-song-switch"], note: "東証スタンダード上場（証券コード 3935）の IP・出版企業。本社は東京都千代田区一ツ橋。2025-09-30 に女性向けコンシューマーブランド「MintLip+」を設立し、Nintendo Switch 用の完全新作乙女ゲーム 2 本の制作を発表、その第 1 弾『PROJECT SIGN：Astraea』が 2026-10-13 にティザーサイトを公開した。2026-10-08 には honeybee（アリスマティック）の『Re:BIRTHDAY SONG〜恋を唄う死神〜 another record』の Nintendo Switch 移植版の発売決定と予約受付を発表している" },
+        { name: "株式会社エディア", short: "エディア", status: "covered", gameIds: ["project-sign-astraea", "rebirthday-song-switch", "kigetsu-night-of-the-waning-moon"], note: "東証スタンダード上場（証券コード 3935）の IP・出版企業。本社は東京都千代田区一ツ橋。2025-09-30 に女性向けコンシューマーブランド「MintLip+」を設立し、Nintendo Switch 用の完全新作乙女ゲーム 2 本の制作を発表、その第 1 弾『PROJECT SIGN：Astraea』が 2026-10-13 にティザーサイトを公開した。2026-10-08 には honeybee（アリスマティック）の『Re:BIRTHDAY SONG〜恋を唄う死神〜 another record』の Nintendo Switch 移植版の発売決定と予約受付を発表している" },
         { name: "ネオス株式会社", short: "ネオス", status: "covered", gameIds: ["crayon-shinchan-switch2"], note: "東京都千代田区神田須田町に本社を置き、コンシューマゲーム事業と DX ソリューション事業を展開する日本企業。親会社はテクミラホールディングス（東証スタンダード 3627）。『クレヨンしんちゃん』ゲームシリーズ 2 作の Nintendo Switch 2 版（2027-03-04）を 2026-10-13 に発表した" },
       ]
     }
@@ -10209,6 +10266,24 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-16 19:00",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "【スマホ】日方主導のスマホ完全新作は本場もゼロ。10-16 の日中〜夜の区間で国内向けモバイル新作の発表は確認できず、本場の増分は主机・PC のみだった。",
+          "主机・PC の新規 1 件（漏収追補）—— エディアのタイムリープ・サバイバルホラー ADV『虧月の夜（きげつのよる／英題：Kigetsu: Night of the Waning Moon）』が 2026-10-16 に Steam ストアページを公開し、あわせて体験版の配信を開始した。昭和初期の閉鎖的な農村を舞台に、主人公が命を落とすたびに同じ時間へ巻き戻される。Switch 版は 2026-01-29 に発売済み（税込 5,280 円・CERO D）で、本体が観測期間より前のため bucket=update として収録した。原案は森本浩二氏。",
+          "既有条目の更新 1 件 —— Cygames の新ブランド CygamesEdge の第 1 弾『崩落の国』（英題：Where the Seeds Fall）が、2026-10-16 17:00 から Steam で無料体験版を配信し、最終トレーラーを公開した。正式版は 2026-11-05、PS5／Nintendo Switch 2／Steam の 3 機種・数字版のみで税込 1,100 円、本編約 3 時間。title を日本語正式名『崩落の国』に更新した。",
+          "既有条目の更新 1 件 —— 『holoVillage: Our Cozy Days（ぷちホロの村）』の Nintendo Switch 2 版について、発売日が 2026-10-22、税込 2,900 円に確定し、2026-10-15 から予約受付が始まった（ASCII.jp・PANORA）。PC (Steam) 版は 2026-04-24 配信済みのため、他機種版の展開として bucket を new → update に是正した。",
+          "条目総数は 175 → 176（スマホ区 42 は不変、主机・PC 区 148 → 149）。platformClass は console 115 → 116。bucket は new 104 → 103、update 71 → 73。",
+          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変。エディアの gameIds に新作を追記した。",
+          "漏収核查（アニメ IP の個別検索）：ONE PIECE／ハイキュー／呪術廻戦／鬼滅の刃／BLEACH／ブルーロック／東京リベンジャーズ／ホロライブ／サンリオ／ポケモン／SAO・転スラ・リゼロ・オーバーロード／乙女向け（オトメイト）を確認 → 日方主導の新規スマホ作はなし。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（日本 IP を中国資本スタジオが開発するモバイル作ほか）。② 韓国資本のスマホ新作（テレビアニメ原作のターン制 RPG ほか）は不収録。③ 18 歳以上向け（FANZA 運営）の新作は本台の口径外として見送り。④ 発行元が香港法人のリズムローグライク（開発は日本のスタジオ、10-15／16 に 1.0 正式版）は紅線口径により不収録を継続。⑤ 非日本開発のインディーは不収録。⑥ 本体が観測期間より前の在営タイトルへの内容更新（バンダイナムコの『SD ガンダム ジージェネレーション エターナル』新ユニット追加、在営タイトルのコラボ企画など）は口径どおり不収録。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持）。meta.asOf は 2026-10-16 で据え置き。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。",
+          "【本場の特記事項】19:00 場として起動。前回実行は同日 09:21（commit b5c139c）で増分区間は 10-16 09:00〜19:00。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
+        ]
+      },
+      {
         at: "2026-10-16 09:00",
         scene: "定時巡検（朝の部）",
         items: [
@@ -10225,20 +10300,6 @@ window.OBSERVATORY = {
           "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトルと VR 作品の分類は引き続き用户裁定待ち。",
           "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-15 19:14（commit 5544aac）で増分区間は 10-15 夕方〜10-16 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
-        ]
-      },
-      {
-        at: "2026-10-15 19:00",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "【スマホ】日方主導のスマホ新作が 1 件 —— バンダイナムコエンターテインメントが 2026-10-15 に、ガンダムシリーズ初の放置系モバイルゲーム『ガンダム ブリッツオーダー』を発表し、同日 12:00 からネットワークテストの参加者募集を開始した（2,500 名・日本国内居住者限定、テストは 11/18〜11/24）。自動戦闘で集めた素材を使うと全ユニットがまとめてレベルアップし、新規獲得の機体も即戦力になる設計。配信時期・価格は未公表。",
-          "スマホの既収録 1 件を更新 —— 『重兵装型女子高生』（NextNinja）について、公式サイト・公式 X・公式 YouTube と主要キャスト（灯華：高橋李依／奏：鈴代紗弓／穂波：青山吉能）を日本語一次源で確認し、事前登録が受付中と判明。前場で付けていた caution を解除し、title を正式名称に更新した。",
-          "主机・PC の新規 1 件 —— 講談社ゲームクリエイターズラボ発行、個人開発者 Mana のデビュー作『カタルシス〜最後のアトリエ〜』が 2026-10-15 に Steam で無料体験版を配信開始し、10-19 開幕の Steam Next Fest 2026 年 10 月版への参加も決定した。",
-          "更新 1 件 —— コナミの『Castlevania: Belmont's Curse』が 2026-10-15 に世界同時発売された。release を発売済みに更新。",
-          "条目総数は 170 → 172（スマホ区 40 → 41、主机・PC 区 144 → 145）。bucket は new 101 → 103。companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 韓国資本のスマホ新作は不収録。③ 発行元が香港法人のリズムアクション（開発は日本のスタジオ）は紅線口径により不収録。④ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし。meta.asOf のみ 2026-10-15 に更新。geo-check は要確認 0 件。",
-          "【持越し】① 10-28 の「ガンダムゲーム 40 周年記念配信」。②『チェンソーマン』スマホ新作の開発・発行元は未公表。③『KEMURI』の bucket 旧揺れ。"
         ]
       }
     ],
