@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-10-16",
+    asOf: "2026-10-17",
     count: 95,
     onMap: 85,
     outsideTokyo: 10,
@@ -151,7 +151,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都品川区西品川1-1-1 住友不動産大崎ガーデンタワー", pref: "東京都",
       lat: 35.615051, lng: 139.731003, hqLat: 35.615051, hqLng: 139.731003, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/sega.png", games: 5,
+      logo: "assets/logo/sega.png", games: 6,
       match: ["セガ", "SEGA"],
       top: {"t":"ソニック・ザ・ヘッジホッグ シリーズ","b":"シリーズ累計出荷が同社最大"},
       eq: [
@@ -179,7 +179,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都港区芝5-37-8 バンダイナムコ未来研究所", pref: "東京都",
       lat: 35.643997, lng: 139.745132, hqLat: 35.643997, hqLng: 139.745132, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/bandai-namco.png", games: 9,
+      logo: "assets/logo/bandai-namco.png", games: 11,
       match: ["バンダイナムコ", "Bandai Namco"],
       top: {"t":"ELDEN RING","b":"販売元として世界累計 3,000 万本超（2025 年発表）"},
       eq: [
@@ -364,7 +364,7 @@ window.OBSERVATORY_MAP = {
       addr: "神奈川県横浜市港北区新横浜2-3-9 新横浜金子ビル", pref: "神奈川県",
       lat: 35.507767, lng: 139.614792, hqLat: 35.507767, hqLng: 139.614792, precision: "block",
       officeKind: "out", officeLabel: "本社", hqAddr: "神奈川県横浜市港北区新横浜2-3-9 新横浜金子ビル",
-      logo: "assets/logo/arc-system-works.png", games: 2,
+      logo: "assets/logo/arc-system-works.png", games: 3,
       match: ["アークシステムワークス", "Arc System Works"],
       top: {"t":"GUILTY GEAR シリーズ","b":"同社の看板格闘シリーズ"},
       eq: [
@@ -391,7 +391,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都品川区西品川1-1-1 住友不動産大崎ガーデンタワー", pref: "東京都",
       lat: 35.615051, lng: 139.731003, hqLat: 35.615051, hqLng: 139.731003, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/atlus.ico", games: 2,
+      logo: "assets/logo/atlus.ico", games: 3,
       match: ["アトラス", "ATLUS"],
       top: {"t":"ペルソナ5","b":"同社最大のヒット作"},
       eq: [
@@ -417,7 +417,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区外神田3-16-12 アキバCOビル8F", pref: "東京都",
       lat: 35.702534, lng: 139.771484, hqLat: 35.702534, hqLng: 139.771484, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/good-smile.png", games: 4,
+      logo: "assets/logo/good-smile.png", games: 6,
       match: ["グッドスマイル", "Good Smile"],
       top: null,
       eq: [
@@ -523,7 +523,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都台東区駒形2-4-5 駒形CAビル", pref: "東京都",
       lat: 35.705666, lng: 139.793976, hqLat: 35.705666, hqLng: 139.793976, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 1,
+      logo: null, games: 2,
       match: ["ハピネット", "Happinet"],
       top: null,
       eq: [
@@ -590,7 +590,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都品川区東品川4-12-8 品川シーサイドイーストタワー", pref: "東京都",
       lat: 35.611389, lng: 139.748795, hqLat: 35.611389, hqLng: 139.748795, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/marvelous.ico", games: 3,
+      logo: "assets/logo/marvelous.ico", games: 4,
       match: ["マーベラス", "Marvelous"],
       top: {"t":"牧場物語 / STORY OF SEASONS シリーズ","b":"同社を代表する長期シリーズ"},
       eq: [
@@ -657,7 +657,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区神田神保町2-10-4 PMO神保町10F", pref: "東京都",
       lat: 35.697018, lng: 139.75592, hqLat: 35.697018, hqLng: 139.75592, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/shueisha-games.png", games: 3,
+      logo: "assets/logo/shueisha-games.png", games: 4,
       match: ["集英社ゲームズ", "Shueisha Games"],
       top: null,
       eq: [
@@ -1011,7 +1011,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都新宿区新宿5-15-5 新宿三光町ビル7・8F", pref: "東京都",
       lat: 35.693821, lng: 139.707016, hqLat: 35.693821, hqLng: 139.707016, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/iruka.jpg", games: 4,
+      logo: "assets/logo/iruka.jpg", games: 6,
       match: ["イルカ"],
       top: null,
       eq: [
@@ -1127,7 +1127,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都渋谷区渋谷3-3-1 A-PLACE渋谷金王7F", pref: "東京都",
       lat: 35.657131, lng: 139.706757, hqLat: 34.970341, hqLng: 135.744385, precision: "block",
       officeKind: "branch", officeLabel: "東京開発センター", hqPref: "京都府", hqAddr: "京都府京都市南区上鳥羽上調子町2-3",
-      logo: null, games: 0,
+      logo: null, games: 2,
       match: ["トーセ", "TOSE"],
       top: {"t":"（受託開発主体）","b":"自社 IP ではなく受託開発が主事業"},
       eq: [
@@ -1270,7 +1270,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区一ツ橋2-4-3 光文恒産ビル7F", pref: "東京都",
       lat: 35.694088, lng: 139.757599, hqLat: 35.694088, hqLng: 139.757599, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 2,
+      logo: null, games: 3,
       match: ["エディア", "Edia", "MintLip"],
       top: null,
       eq: [

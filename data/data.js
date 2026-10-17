@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-16T19:10:00+08:00",
-    edition: "2026-10-16",
-    window: "2026-08-16 ~ 2026-10-16（滚动最近 2 个月）",
+    updatedAt: "2026-10-17T10:15:00+08:00",
+    edition: "2026-10-17",
+    window: "2026-08-17 ~ 2026-10-17（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -2285,15 +2285,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-25（クイックスカウト／共闘バトルなど新情報とスクリーンショットを公開）",
-      capturedAt: "2026-09-25",
+      announceDate: "2026-10-16（オンライン共闘・闘技場など第 5 報の新情報を公開）",
+      capturedAt: "2026-10-17",
       title: { jp: "ドラゴンクエストモンスターズ 朽ちた世界", cn: "勇者斗恶龙 怪物篇 朽ちた世界", en: "Dragon Quest Monsters: The Withered World" },
       genre: "怪物收集 RPG",
       platforms: ["Nintendo Switch", "Nintendo Switch 2", "PS5", "Xbox Series X|S", "PC"],
       release: "2026-12-03",
       releasePrecision: "日",
       summary: "《勇者斗恶龙 V》女主角 Bianca 与 Nera 担任主角的怪物收集作品，舞台为 Witherwood 王国。玩家可侦查、培育并合成怪物，Square Enix 称登场怪物超过 500 种，并计划加入线上 PvP。Demo 已配信且存档可继承至正式版。9/16 Square Enix 宣布 DQ 系列全球累计出货＋数字销量突破 1 亿套，本作是该里程碑后的首个系列新作，TGS2026 展台设有可与之合影的怪物特设区。9/25 又公开了「快速侦查（クイックスカウト）」「侦查奔跑（スカウトラン）」「共斗战斗（共闘バトル）」、NPC「アルミラ」以及新怪物等情报与截图。",
-      highlight: "【2026-09-25 新情報公開】スクウェア・エニックスが「クイックスカウト」「スカウトラン」「共闘バトル」、NPC アルミラ、新モンスターなどの新情報とスクリーンショットを公開した。　DQ 系列全球累计突破 1 亿套的官宣与本作 12/03 发售形成接力；TGS2026 展台设可合影的怪物特设区。",
+      highlight: "【2026-10-16 オンライン要素公開】スクウェア・エニックスが『ドラゴンクエストモンスターズ 朽ちた世界』のオンライン要素と闘技場の詳細を公開した。クロスプラットフォームのオンライン共闘は一般任務が毎日入れ替わる 3 段階の難度、活動任務がシリーズ歴代の特殊モンスターで、回復・支援で共闘報酬が積み上がり全員の与ダメージと回復量が上がる。ほかにマスターランキング（7 段階）／プライベートマッチ／オンライン異界マスター、タマゴ報酬、G〜A の 7 クラスある闘技場、ランダム編成で 50 連勝に挑む「真のモンスターマスターへの道」を収録。2026-12-03 に Switch 2／Switch／PS5／Xbox Series X|S／PC（Steam は 12-04）で発売予定。　9/25 の第 4 報に続く第 5 報で、発売前の情報公開が加速している。",
       console: {
         status: "2026年12月3日発売予定（Demo 配信中・セーブ引き継ぎ可）",
         os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
@@ -2318,7 +2318,8 @@ window.OBSERVATORY = {
         { source: "GameBastion / Gematsu（クイックスカウト・スカウトラン・共闘バトル・アルミラ・新モンスターの新情報とスクリーンショット）", url: "https://gamebastion.com/n/dragon-quest-monsters-the-withered-world-10/522151" },
         { source: "18183（TGS2026 の実機トレーラーと共闘バトル）", url: "https://news.18183.com/yxxw/202609/9036299.html" },
         { source: "CQ-Esports（State of Play Japan）", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" },
-        { source: "Games Reviews（TGS 展台阵容）", url: "https://gamesreviews.com/news/09/square-enixs-tgs-2026-lineup-playable-ff7-revelation-resonance-demos-kh-collection-ports/" }
+        { source: "Games Reviews（TGS 展台阵容）", url: "https://gamesreviews.com/news/09/square-enixs-tgs-2026-lineup-playable-ff7-revelation-resonance-demos-kh-collection-ports/" },
+        { source: "4Gamers（2026-10-16 のオンライン共闘・闘技場・50 連勝ローグライクの新情報）", url: "https://www.4gamers.com.tw/news/detail/82690/dragon-quest-monsters-the-withered-world-details-online-content" }
       ],
       videos: [
         { label: "TGS2026 実機トレーラーの掲載元（18183）", platform: "媒体", url: "https://news.18183.com/yxxw/202609/9036299.html" },
@@ -4467,19 +4468,20 @@ window.OBSERVATORY = {
       companyJp: "株式会社セガ（開発：龍が如くスタジオ）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
-      capturedAt: "2026-09-20",
+      announceDate: "2026-10-16（第 1 章「小倉」のストーリートレーラーを公開）",
+      capturedAt: "2026-10-17",
       title: { jp: "STRANGER THAN HEAVEN", cn: "异于天堂", en: "Stranger Than Heaven" },
       genre: "ストリートアクションアドベンチャー（多時代クロニクル）",
       platforms: ["PS5", "Xbox Series X|S", "PC(Steam)"],
       release: "2027-01-15（Game Pass 同時配信）",
       releasePrecision: "日",
       summary: "SEGA 旗下龍が如くスタジオ（曾用代号 Project Century）在 TGS2026 开幕之夜生配信中公开约 10 分钟的序章影像，并首次确定发售日为 2027 年 1 月 15 日，登陆 PS5／Xbox Series X|S／PC(Steam) 并同步加入 Game Pass。作品以日本近代史为舞台，横跨 1915 年福冈小仓、1929 年广岛吴市、1943 年大阪浪速区、1951 年静冈热海，以及 1965 年东京新宿的虚构街区神室町。主角大东诚为日美混血，故事讲述无家可归者在半个世纪里寻找归属的挣扎。",
-      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】开幕日 15:40「龍が如くスタジオ TV」TGS2026 特别节目公开约 10 分钟序章影像并确定发售日为 2027-01-15，该舞台在 SEGA 与 RGG Studio 官方频道同步配信；SEGA/ATLUS 展位另排 9/19 实机（Kenny Omega）、9/20 实机（kson）、9/21 最终舞台（城田優・藤岡靛），9/19-21 13:00-15:00 经 SEGA Account 抽选优先试玩。　如龙工作室彻底离开现代日本：五个时代、五个地域，并用已故演员菅原文太的 CG 形象做角色，取得其家族与东映的正式授权。",
+      highlight: "【2026-10-16 Act 1「小倉」トレーラー】セガ／龍が如くスタジオが 2026-10-16 に第 1 章「小倉（1915 年）」のストーリートレーラーを公開した。主人公・大東誠がサンフランシスコから密航船オルフェウス号で小倉（福岡県）へ渡るまでを描き、船長オルフェウスを Snoop Dogg、小倉の実力者・八嶋平吾を大塚明夫が演じる。以降 1929 年呉・1943 年大阪ミナミ・1951 年熱海・1965 年新宿と 5 つの時代を順に紹介する連作トレーラーの第 1 弾。　【TGS2026】開幕之夜で約 10 分钟の序章影像を公開し発売日 2027-01-15（PS5／Xbox Series X|S／PC(Steam)・Game Pass 同時）を確定、日本ゲーム大賞 2026 フューチャー部門を受賞した。",
       news: [
         { source: "Anime News Network（TGS2026 Special Opening Night 直播内容）", url: "https://animenewsnetwork.com/news/2026-09-16/stranger-than-heaven-game-video-previews-opening-showbiz-combat/.241858" },
         { source: "Game8（开场影像与难度模式试玩解析）", url: "https://game8.co/articles/latest/stranger-than-heaven-sees-makoto-daito-eat-garbage-and-fight-police-in-intro-story-reveal" },
-        { source: "Quest Board.JP（SEGA/ATLUS 展台 27 舞台・16 作品日程）", url: "https://quest-board.jp/en/quests/16-27-2026-000007653-000005397" }
+        { source: "Quest Board.JP（SEGA/ATLUS 展台 27 舞台・16 作品日程）", url: "https://quest-board.jp/en/quests/16-27-2026-000007653-000005397" },
+        { source: "Yakuza Fan（SEGA 公式の Act 1: Kokura ストーリートレーラー公開を報じる）", url: "https://yakuzafan.com/news/yakuza-games/stranger-than-heaven/kokura-story-trailer-act-1-stranger-than-heaven" }
       ],
       videos: [
         { label: "Anime News Network 报道（含 TGS2026 开幕之夜公开的开场影像与官方评述）", platform: "媒体", url: "https://animenewsnetwork.com/news/2026-09-16/stranger-than-heaven-game-video-previews-opening-showbiz-combat/.241858" },
@@ -10056,7 +10058,189 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["PC", "Steam", "Nintendo Switch", "移植", "ホラー", "ADV", "タイムリープ"]
-    }
+    },
+    {
+      id: "grisaia-shuuketsu-no-hyakka",
+      company: "グッドスマイルカンパニー × フロントウイング",
+      companyJp: "株式会社グッドスマイルカンパニー（企画・製作）／株式会社フロントウイング（企画・製作。開発・運営：CLYRE, Inc.）",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-10-16（日本で事前登録受付開始）",
+      capturedAt: "2026-10-17",
+      title: {
+        jp: "グリザイア 集結の百果",
+        cn: "灰色 集結的百果",
+        en: "Grisaia: Shuuketsu no Hyakka"
+      },
+      genre: "育成シミュレーション（基本無料・一部アイテム課金型）",
+      platforms: ["iOS", "Android"],
+      release: "2026年内（配信時期・価格は未公表）",
+      releasePrecision: "年",
+      summary: "《灰色 集結的百果》是「灰色」系列 15 周年纪念企划的智能手机专用养成模拟游戏，由 Good Smile Company 与 Frontwing 共同企划制作、CLYRE 负责开发与运营。作品于 2026 年 2 月 27 日的「灰色系列 15 周年纪念特别节目」中首次公开，2026 年 10 月 16 日起在日本 App Store 与 Google Play 开放事前登录，预定 2026 年内上线，基本免费、部分道具付费。游戏集结《灰色的果实》《灰色的迷宮》《灰色的乐园》《灰色的幻影扳机》等历代作品角色，并有 6 名自称「风见雄二女儿」的神秘少女首次登场——设定为从 20 年后的未来穿越至现代，展开跨越作品与时代的新故事。主题曲「グレイズブレンダー」由南條愛乃演唱，作词桑島由一、作曲编曲藤間仁（Elements Garden）。同企划的家庭用 ADV《灰色的新果实 -集結的百果-》（2027 年预定）与本作剧情相连。",
+      highlight: "【2026-10-16 事前登録開始】「グリザイア」シリーズ 15 周年企画のスマホ向け育成シミュレーション『グリザイア 集結の百果』が、2026-10-16 から日本の App Store と Google Play で事前登録を開始した。企画・製作はグッドスマイルカンパニーとフロントウイング、開発・運営は CLYRE。基本プレイ無料（一部アイテム課金制）で 2026 年内の配信を予定している。　本体の初公開は 2026-02-27 の「グリザイア シリーズ 15 周年記念特別番組」で観測期間より前のため、更新として記録する。歴代シリーズのキャラクターに加え、「風見雄二の娘」を名乗る 6 人の少女が新たに登場し、同じ 15 周年企画の家庭用 ADV『グリザイアの新果実 -集結の百果-』と物語がリンクする。",
+      mobile: {
+        status: "事前登録受付中",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（一部アイテム課金制）",
+        preReg: {
+          open: true,
+          since: "2026-10-16",
+          reward: "到達報酬の詳細は公式サイトで案内（本稿執筆時点で人数目標・報酬内容の具体は未公表）"
+        },
+        developer: "CLYRE, Inc.（企画・製作：株式会社グッドスマイルカンパニー／株式会社フロントウイング）",
+        publisher: "株式会社グッドスマイルカンパニー／株式会社フロントウイング",
+        region: "日本",
+        distribution: "App Store / Google Play（日本）",
+        payment: [],
+        ipSource: "『グリザイア』シリーズ（原作・権利元：株式会社フロントウイング）。2011 年の『グリザイアの果実』に始まるシリーズの 15 周年記念企画",
+        series: "『グリザイア』シリーズは 2011-02-25 発売の『グリザイアの果実』に始まり『グリザイアの迷宮』『グリザイアの楽園』『グリザイア ファントムトリガー』『グリザイア クロノスリベリオン』と展開してきた。本作はシリーズ 15 周年記念として 2026-02-27 の記念番組で初公開されたスマホ向け育成シミュレーションで、同じ 15 周年企画として発表された家庭用 ADV『グリザイアの新果実 -集結の百果-』（2027 年予定・機種未発表）と物語がリンクする",
+        features: [
+          "『グリザイアの果実』『グリザイア ファントムトリガー』など歴代シリーズのキャラクターが一堂に集結する育成シミュレーション",
+          "「風見雄二の娘」を名乗る 6 人の少女が本作で初登場。20 年後の未来から現代へやって来たという設定で新章を描く",
+          "iOS・Android 専用。基本プレイ無料（一部アイテム課金制）で 2026 年内の配信を予定",
+          "主題歌「グレイズブレンダー」は南條愛乃が歌唱、作詞は桑島由一、作曲・編曲は藤間仁（Elements Garden）",
+          "同じ 15 周年企画の家庭用 ADV『グリザイアの新果実 -集結の百果-』と物語がリンクする"
+        ],
+        synopsis: "『グリザイア』シリーズ 15 周年記念のスマートフォン向け育成シミュレーション。歴代シリーズのキャラクターに加え、「風見雄二の娘」を名乗る 6 人の少女が新たに登場する。彼女たちは 20 年後の未来から現代へと時を超えて集結したとされ、作品の枠を越えて交差する新たな物語が描かれる。プレイヤーは少女たちを育成しながら物語を追う。",
+        cast: "公式発表なし（主題歌歌唱：南條愛乃）",
+        caution: "開発・運営の CLYRE, Inc. は資本構成を一次源で確認できていない（企画・製作はグッドスマイルカンパニーとフロントウイングの共同発表）"
+      },
+      news: [
+        { source: "巴哈姆特 GNN（2026-10-16 に日本で事前登録開始／開発・運営元と主題歌情報）", url: "https://gnn.gamer.com.tw/detail.php?sn=313576" },
+        { source: "AppBank（シリーズ 15 周年企画の発表を報じる記事。同企画のスマホ向け『グリザイア 集結の百果』に言及）", url: "https://www.appbank.net/2026/09/01/game/3092248.php" }
+      ],
+      videos: [
+        { label: "巴哈姆特 GNN の記事ページ（前導 PV の内容と事前登録の導線を掲載）", platform: "媒体", url: "https://gnn.gamer.com.tw/detail.php?sn=313576" }
+      ],
+      hype: {
+        score: 44,
+        signals: [
+          "『グリザイア』は 2011 年から続くフロントウイングの代表ブランドで、15 周年企画として家庭用 ADV と歩調を合わせた展開が組まれている",
+          "企画・製作が株式会社グッドスマイルカンパニーと株式会社フロントウイング（いずれも日本資本）",
+          "2026-02-27 の 15 周年記念特別番組で初公開されてから事前登録開始まで約 8 か月あり、関心はシリーズ従来ファンが中心",
+          "事前登録者数の公表や Famitsu 期待榜への登場はまだ無く、大型指標は低め"
+        ]
+      },
+      tags: ["新作", "手游", "育成シミュレーション", "グリザイア", "フロントウイング"]
+    },
+    {
+      id: "grisaia-shin-kajitsu-shuuketsu-no-hyakka",
+      company: "グッドスマイルカンパニー × フロントウイング",
+      companyJp: "株式会社グッドスマイルカンパニー（製作・配信）／株式会社フロントウイング（制作）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-01（シリーズ 15 周年記念の完全新作 ADV として発表）",
+      capturedAt: "2026-10-17",
+      title: {
+        jp: "グリザイアの新果実 -集結の百果-",
+        cn: "灰色的新果实 -集結的百果-",
+        en: "Grisaia no Shin Kajitsu: Shuuketsu no Hyakka"
+      },
+      genre: "ADV（ビジュアルノベル）",
+      platforms: ["未発表"],
+      release: "2027 年予定（対応機種・価格は未発表）",
+      releasePrecision: "年",
+      summary: "《灰色的新果实 -集結的百果-》是「灰色」系列 15 周年纪念的完全新作 ADV（视觉小说），由 Frontwing 制作、Good Smile Company 企划与发行，2026 年 9 月 1 日发表，预定 2027 年发售，对应机种与价格均未公布。剧本由 Frontwing 的永田瑠異（Storyberry）执笔，角色设计与原画由渡辺明夫担当。故事与同属 15 周年企划的智能手机游戏《灰色 集結的百果》相连：20 年后的未来穿越而来的 6 名自称「风见雄二女儿」的少女，与风见雄二及历代女主角共同揭开系列新篇章。官方 X（@grisaia_100）将持续公布后续情报。",
+      highlight: "【2026-09-01 発表】「グリザイア」シリーズ 15 周年記念の完全新作 ADV『グリザイアの新果実 -集結の百果-』が 2026-09-01 に発表された。制作はフロントウイング、製作・配信はグッドスマイルカンパニー、脚本は永田瑠異（ストーリィベリー）、キャラクターデザイン・原画は渡辺明夫。2027 年発売予定で、対応機種と価格は未発表。　同時期に発表されたスマホ向け『グリザイア 集結の百果』と物語がリンクし、「風見雄二の娘」を名乗る 6 人の少女が登場する。続報は公式 X（@grisaia_100）で案内される。",
+      console: {
+        status: "開発中（2027 年発売予定。対応機種・価格は未発表）",
+        monetization: "未発表（フロントウイングの既存 ADV は買い切りが中心）",
+        developer: "株式会社フロントウイング",
+        publisher: "株式会社グッドスマイルカンパニー",
+        region: "未発表（同社の既存 ADV は日本国内向けが中心）",
+        distribution: "未発表",
+        features: [
+          "『グリザイア』シリーズ 15 周年記念の完全新作 ADV（ビジュアルノベル）",
+          "脚本はフロントウイングの永田瑠異（ストーリィベリー）、キャラクターデザイン・原画は渡辺明夫",
+          "制作はフロントウイング、製作・配信はグッドスマイルカンパニーという分業体制",
+          "スマホ向け『グリザイア 集結の百果』と物語がリンクし、風見雄二・歴代ヒロイン・「風見雄二の娘」を名乗る 6 人の少女が共演する",
+          "対応機種・価格・2027 年内の具体的な発売日はいずれも未発表"
+        ],
+        synopsis: "『グリザイア』シリーズ 15 周年記念の完全新作 ADV。風見雄二とおなじみのヒロインたちに加え、「風見雄二の娘」を名乗る 6 人の少女が登場する。時を超えて集結した少女たちとともに、シリーズの新たな物語が幕を開ける。20 年後の未来から現代へやって来たという設定が明かされており、スマートフォン向け『グリザイア 集結の百果』とリンクした物語が描かれる。",
+        ipSource: "『グリザイア』シリーズ（原作・権利元：株式会社フロントウイング）",
+        series: "『グリザイア』シリーズは 2011 年の『グリザイアの果実』に始まり、テレビアニメ化や『グリザイア ファントムトリガー』『グリザイア クロノスリベリオン』などへ展開した。本作はシリーズ 15 周年記念として 2026-09-01 に発表された完全新作 ADV で、同時期に発表されたスマートフォン向け『グリザイア 集結の百果』と物語がリンクする",
+        cast: "公式発表なし",
+        caution: "対応機種・価格・2027 年内の具体的な発売日はいずれも未発表"
+      },
+      news: [
+        { source: "AppBank（2026-09-01 の発表内容・スタッフ・公式 X）", url: "https://www.appbank.net/2026/09/01/game/3092248.php" }
+      ],
+      videos: [
+        { label: "公式 X（@grisaia_100。続報はここで案内と発表元が明記）", platform: "公式 X", url: "https://x.com/grisaia_100" }
+      ],
+      hype: {
+        score: 40,
+        signals: [
+          "『グリザイア』は 15 年続くフロントウイングの代表ブランドで、完全新作 ADV の発表自体がシリーズファンの関心を集める",
+          "制作をフロントウイング、製作・配信をグッドスマイルカンパニーが担う日本資本のみの体制",
+          "2027 年発売予定ながら対応機種・価格が未発表で、現時点では情報量が限られる",
+          "プレミア感を狙って続報を公式 X に集約する告知方針のため、現時点の外部露出は小さい"
+        ]
+      },
+      tags: ["新作", "ADV", "グリザイア", "フロントウイング", "15周年"]
+    },
+    {
+      id: "morpho-reverie",
+      company: "フォーミライ",
+      companyJp: "フォーミライ株式会社（開発：Spectra Motif Studio）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-08-31（Steam ストアページと初報 PV を公開）",
+      capturedAt: "2026-10-17",
+      title: {
+        jp: "Morpho Reverie",
+        cn: "闪蝶幻想曲 Morpho Reverie",
+        en: "Morpho Reverie"
+      },
+      genre: "音楽アドベンチャー（リズムゲーム＋ビジュアルノベル）",
+      platforms: ["PC（Steam）"],
+      release: "未発表（2026-10-15 に無料体験版を配信。本編の発売日・価格は未公表）",
+      releasePrecision: "未定",
+      summary: "《Morpho Reverie（闪蝶幻想曲）》是日本的音乐冒险（节奏游戏＋视觉小说）游戏，由 Spectra Motif Studio 开发、フォーミライ株式会社发行。2026 年 8 月 31 日首次公开 Steam 商店页与首支宣传影片，2026 年 10 月 15 日配信免费体验版，收录第 1 章与全 11 曲；本编发售日与价格未公布。舞台设于近未来 2040 年，玩家扮演作曲家「黎音」寻找在音乐比赛中失踪的知音「希羽」，而出现在舞台上的却是与希羽一模一样的 AI 复制体「キーヴァα」；主线剧本超过 30 万字，含 5 个主要结局与多个分支结局。作曲由 ARForest、onoken、久保田修、かねこちはる 等人参与，主线含 20 首以上专属曲，音游模式另可游玩 BlackY 等人的授权曲，合计可游玩曲目超过 80 首，对应日语・英语・简繁中文・韩语。",
+      highlight: "【2026-10-15 体験版配信】音楽アドベンチャー『Morpho Reverie（モルフォ・レヴァリエ）』が Steam で無料体験版の配信を開始した。第 1 章と全 11 曲を収録し、フルボイスの書き下ろしおまけストーリーも体験できる。本編は PC（Steam）向けで、発売日・価格は未発表。　開発は Spectra Motif Studio、パブリッシングはフォーミライ株式会社。2040 年を舞台に、失踪した知音「希羽」と AI レプリカ「キーヴァα」を巡る物語で、AUTO PLAY モードにより音ゲーが苦手なプレイヤーでもストーリーを追える。",
+      console: {
+        status: "開発中（2026-10-15 に Steam で無料体験版を配信。本編の発売日・価格は未発表）",
+        os: ["Windows"],
+        monetization: "未発表（買い切り想定。Steam ストアページに価格表示なし）",
+        developer: "Spectra Motif Studio",
+        publisher: "フォーミライ株式会社",
+        region: "全世界（日本語・英語・簡体字・繁体字・韓国語）",
+        distribution: "Steam でのダウンロード販売",
+        stores: ["Steam"],
+        features: [
+          "リズムゲームパートとビジュアルノベルパートを交互に進める音楽アドベンチャー",
+          "2040 年を舞台に、失踪した知音「希羽」と、彼女と瓜二つの AI レプリカ「キーヴァα」を巡る SF ミステリー",
+          "30 万字超のメインシナリオと、5 つのメインエンディング＋複数のサブエンディング",
+          "ARForest、onoken、久保田修、かねこちはる らが楽曲を提供し、可遊玩曲は 80 曲以上",
+          "AUTO PLAY モードを備え、リズムゲームが苦手でも物語を追える設計",
+          "体験版は第 1 章と全 11 曲、フルボイスの書き下ろしおまけストーリーを収録"
+        ],
+        synopsis: "近未来の 2040 年。作曲家の黎音（レイン）は、音楽コンクールの最中に失踪した知音・希羽（キーヴァ）を探して旅をする。しかしステージに現れたのは、希羽と瓜二つの AI レプリカ「キーヴァα」だった。人間と AI レプリカが芸術を通じて対決するという状況の中、黎音は多くの演奏者と出会い、演奏を支えながら希羽失踪の真相に近づいていく。プレイヤーは主人公の性別を選択できる。",
+        ipSource: "オリジナル（Spectra Motif Studio の新規 IP）",
+        series: "パブリッシャーのフォーミライ株式会社は本作が初の大型タイトル。リズムゲームと ADV を融合させた構成は『シンフォニック＝レイン』系譜の音楽 ADV と比較されることが多い",
+        cast: "黎音（Rein／主人公・男女選択可）、希羽（Keeva）、キーヴァα ほか。主要キャストに石川界人・安済知佳らが参加",
+        caution: "本編の発売日・価格はいずれも未発表"
+      },
+      news: [
+        { source: "AppBank（2026-10-15 の体験版配信開始・収録内容と開発／発行元）", url: "https://www.appbank.net/2026/10/16/game/3133608.php" },
+        { source: "AUTOMATON（作品概要・キャスト・アクセス可能な曲数と対応言語）", url: "https://automaton-media.com/en/news/morpho-reverie-combines-rhythm-gameplay-and-a-visual-novel-in-a-narrative-exploring-musicians-being-replaced-by-ai" },
+        { source: "AppBank（2026-09-28 ストーリートレーラー公開とキャスト解禁・公式サイト／公式 X／公式 YouTube の URL）", url: "https://www.appbank.net/2026/09/28/game/3116813.php" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（体験版配信中）", platform: "Steam", url: "https://store.steampowered.com/app/5057180" },
+        { label: "公式 YouTube チャンネル（トレーラー・PV）", platform: "YouTube", url: "https://www.youtube.com/@MorphoReverie" }
+      ],
+      hype: {
+        score: 38,
+        signals: [
+          "国内の音楽ゲーム・ADV ファン向けの新規 IP で、ARForest・onoken・久保田修・かねこちはる ら豪華な楽曲陣と 80 曲以上の可遊玩曲を訴求している",
+          "開発は Spectra Motif Studio、パブリッシングはフォーミライ株式会社といずれも日本側",
+          "2026-08-31 の初報、09-28 のストーリートレーラー、10-15 の体験版と段階的に露出を増やしているが、大型の期待指標には未登場",
+          "対応言語が日・英・簡繁中・韓の 5 言語で、海外の音ゲーファン層も視野に入れた構成"
+        ]
+      },
+      tags: ["新作", "PC", "Steam", "音楽ゲーム", "ADV", "体験版"]
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -10065,7 +10249,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-16",
+    asOf: "2026-10-17",
     listTotal: 50,
     categories: [
       {
@@ -10153,7 +10337,7 @@ window.OBSERVATORY = {
       items: [
         { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026", "digging-a-hole-together", "invokyr"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
-          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect"] },
+          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect", "grisaia-shuuketsu-no-hyakka", "grisaia-shin-kajitsu-shuuketsu-no-hyakka"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
         { name: "株式会社モノリスソフト", short: "Monolith Soft", status: "covered", gameIds: ["xenoblade-genesis"] },
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
@@ -10196,6 +10380,7 @@ window.OBSERVATORY = {
         { name: "株式会社フェイズ（Phase Co., Ltd.）", short: "Phase", status: "covered", gameIds: ["karei-endless-death-match"], note: "東京都を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオ。ターン制パズルローグライク『華麗 無限城の死闘』（Steam／iOS／Android、2026 年第 4 四半期予定）を自社で開発・販売し、2026-10-02 に無料体験版を 10-10 配信と発表したため補充監視に追加。TGS2026 に出展し会場で試遊を実施した" },
         { name: "株式会社エディア", short: "エディア", status: "covered", gameIds: ["project-sign-astraea", "rebirthday-song-switch", "kigetsu-night-of-the-waning-moon"], note: "東証スタンダード上場（証券コード 3935）の IP・出版企業。本社は東京都千代田区一ツ橋。2025-09-30 に女性向けコンシューマーブランド「MintLip+」を設立し、Nintendo Switch 用の完全新作乙女ゲーム 2 本の制作を発表、その第 1 弾『PROJECT SIGN：Astraea』が 2026-10-13 にティザーサイトを公開した。2026-10-08 には honeybee（アリスマティック）の『Re:BIRTHDAY SONG〜恋を唄う死神〜 another record』の Nintendo Switch 移植版の発売決定と予約受付を発表している" },
         { name: "ネオス株式会社", short: "ネオス", status: "covered", gameIds: ["crayon-shinchan-switch2"], note: "東京都千代田区神田須田町に本社を置き、コンシューマゲーム事業と DX ソリューション事業を展開する日本企業。親会社はテクミラホールディングス（東証スタンダード 3627）。『クレヨンしんちゃん』ゲームシリーズ 2 作の Nintendo Switch 2 版（2027-03-04）を 2026-10-13 に発表した" },
+        { name: "フォーミライ株式会社", short: "フォーミライ", status: "covered", gameIds: ["morpho-reverie"], note: "音楽 ADV のパブリッシングを手がける国内企業。開発は Spectra Motif Studio。2026-08-31 に Steam ストアページと初報 PV を公開し、2026-10-15 に無料体験版を配信した『Morpho Reverie』（PC／Steam、本編の発売日・価格は未発表）を補充監視に追加した" },
       ]
     }
   },
@@ -10266,6 +10451,24 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-17 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ】日方主導のスマホ新作は 1 件 —— 『グリザイア』シリーズ 15 周年記念のスマホ向け育成シミュレーション『グリザイア 集結の百果』が 2026-10-16 に日本で事前登録を開始した。企画・製作はグッドスマイルカンパニーとフロントウイング、開発・運営は CLYRE。基本プレイ無料（一部アイテム課金制）で 2026 年内の配信を予定し、歴代シリーズのキャラクターに加えて「風見雄二の娘」を名乗る 6 人の少女が初登場する。本体の初公開は 2026-02-27 の 15 周年記念番組で観測期間より前のため bucket=update として収録した。",
+          "主机・PC の新規 1 件（漏収追補）—— 同じ 15 周年企画の完全新作 ADV『グリザイアの新果実 -集結の百果-』（制作フロントウイング／製作・配信グッドスマイルカンパニー、2027 年予定・機種未発表）が 2026-09-01 に発表されていた。脚本は永田瑠異（ストーリィベリー）、キャラクターデザイン・原画は渡辺明夫。",
+          "主机・PC の新規 1 件（漏収追補）—— 音楽アドベンチャー『Morpho Reverie（モルフォ・レヴァリエ）』（開発 Spectra Motif Studio／パブリッシング フォーミライ株式会社）が 2026-10-15 に Steam で無料体験版を配信した。初報は 2026-08-31 で観測期間内のため bucket=new。30 万字超のシナリオと 80 曲以上の可遊玩曲を収録する。",
+          "既収録の更新 2 件 —— ①『STRANGER THAN HEAVEN』（SEGA／龍が如くスタジオ）が 2026-10-16 に第 1 章「小倉（1915 年）」のストーリートレーラーを公開し、5 つの時代を順に紹介する連作トレーラー企画が始動した。②『ドラゴンクエストモンスターズ 朽ちた世界』（スクウェア・エニックス）が 2026-10-16 にオンライン共闘・マスターランキング・闘技場・50 連勝ローグライクの詳細とスクリーンショットを公開した。",
+          "条目総数は 176 → 179（スマホ区 42 → 43、主机・PC 区 149 → 151）。platformClass は mobile 27 → 28／console 116 → 117／pc 18 → 19／multi 15。bucket は new 103 → 105、update 73 → 74。console 子塊 112 → 114、mobile 子塊 42 → 43。",
+          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 → 46 社（フォーミライ株式会社を追加）。グッドスマイルカンパニーの gameIds に 2 件（グリザイア 2 作）を追記した。",
+          "漏収核查（アニメ IP・ブランドの個別検索）：呪術廻戦／ONE PIECE／BLEACH／鬼滅の刃／東京リベンジャーズ／ブルーロック／チェンソーマン／刀剣乱舞／ホロライブ／ポケモン／ドラゴンボール／無職転生／Otomate・LicoBiTs を確認 → 日方主導の新規スマホ作は『グリザイア 集結の百果』のみ。他は既収録か、本体が観測期間より前の内容更新、もしくは非日方主導だった。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 韓国資本のスマホ新作（テレビアニメ原作のターン制 RPG＝Com2uS Japan、既存タイトルと鬼滅の刃のコラボ＝Netmarble ほか）は不収録。③ 発行元が香港法人のリズムローグライク『Ratatan』（10-15 に 1.0 正式版）は紅線口径により不収録を継続。④ 本体が観測期間より前の在営タイトルへの内容更新（『ドラゴンボール スパーキング！ZERO』の更新、在営タイトルと他 IP のコラボ企画など）は口径どおり不収録。⑤ 非日本開発のインディー（ニュージーランド・アルゼンチン・英国など）は不収録。⑥ 18 禁（FANZA 運営）タイトルは口径外として見送り。⑦ 台湾・香港向けのみの配信分（本家が観測期間より前に配信済みのタイトルの海外版）は不収録。",
+          "会社地図（data/map.js）：good-smile（株式会社グッドスマイルカンパニー）の games を 4 → 6 に更新（新規 2 条目が match に命中）。住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・outsideTokyo 10・hqPlotted 95 を維持）。meta.asOf を 2026-10-17 に更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：10-11 号の内容は 10-09 期と同値（票数・順位とも一致）で新期なし。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤ 開発・運営が CLYRE, Inc. の『グリザイア 集結の百果』は資本構成を一次源で確認できていない（caution に明記）。",
+          "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-16 20:09（commit 56628cf、19:00 場）で増分区間は 10-16 夕方〜10-17 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
+        ]
+      },
+      {
         at: "2026-10-16 19:00",
         scene: "定時巡検（夕方の部）",
         items: [
@@ -10283,25 +10486,6 @@ window.OBSERVATORY = {
           "【本場の特記事項】19:00 場として起動。前回実行は同日 09:21（commit b5c139c）で増分区間は 10-16 09:00〜19:00。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
         ]
       },
-      {
-        at: "2026-10-16 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【スマホ】日方主導のスマホ完全新作は本場もゼロ。10-15 夜〜10-16 朝の国内向けモバイル新作は確認できず、増分は主机・PC と、スマホを含む復活企画のみだった。",
-          "スマホを含む新規 1 件（漏収追補）—— 2017 年配信・2022 年 6 月サービス終了のスマホ向けリズムゲーム『歌マクロス スマホDeカルチャー』の買い切りリメイクが、CAMPFIRE のクラウドファンディング（2026-09-10 20:00〜10-31 23:59、目標 3,000 万円）で 10-14 時点の支援総額 1 億 3,900 万円を突破した。Steam／iOS／Android の 3 環境で 2027 年春発売予定、ガチャを廃した買い切り型。初公開が窗口内（2026-09-10）のため bucket=new、platformClass=multi で収録した。",
-          "主机・PC の新規 1 件（漏収追補）—— バンダイナムコエンターテインメント（開発：トーセ）の『テイルズ オブ エターニア リマスター』が 2026-10-15 に日本で発売された（PS5／PS4／Switch 2／Switch／Xbox Series X|S、世界同時発売と Steam 版は 10-16）。原作は 2000 年 11 月の PS1 用アクション RPG で、本体の初出は窗口外のため bucket=update として収録した。",
-          "主机・PC の新規 1 件（漏収追補）—— 株式会社Alliance Arts（東京）が『PUKEY GODDESS SHOT TRICK（酒鬼女神的酒诡）』の発売日を 2026-12-08 に確定したと「Triple-i Initiative 2026」で発表。Steam のウィッシュリストは 2026-09-29 に 50 万件を突破し、10-19 開幕の Steam Next Fest 2026 年 10 月版に合わせて初の無料体験版を配信予定。本体は 2026-04-25 の INDIE Live Expo 2026 で初公開済み＝bucket=update。",
-          "既収録の更新 2 件 —— ①『ReGLOSS:CROSS』（COVER／holo Indie）が 2026-10-15 に Steam で 490 円で配信開始。②『バイオハザード RE:2 デラックスエディション／RE:3／RE:4 ゴールドエディション（Nintendo Switch 2 版）』のデジタル版が 2026-10-16 に配信開始（パッケージ版は 2027-01-29）。",
-          "条目総数は 172 → 175（スマホ区 41 → 42、主机・PC 区 145 → 148）。platformClass は mobile 27・console 114 → 115・pc 17 → 18・multi 14 → 15。bucket は new 103 → 104、update 69 → 71。",
-          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変。トーセ は watch → covered（『テイルズ オブ エターニア リマスター』の開発を担当）、バンダイナムコエンターテインメントの gameIds に同作を追記した。",
-          "漏収核查（アニメ IP の個別検索）：ONE PIECE／呪術廻戦／BLEACH／鬼滅の刃／東京リベンジャーズ／ブルーロック／ホロライブ／ポケモン／チェンソーマン／Otomate・LicoBiTs を確認。BLEACH は既収録『BLEACH Mirrors High』の SPECIAL BROADCAST（10-27）告知のみ、ホロライブは既収録 3 件の続報のみで、いずれも新規なし。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（中国本土専用モバイル作の全世界展開ほか 1 件を含む）。② 韓国資本のスマホ新作（漫画 IP のカード RPG ほか 1 件）は不収録。③ 発行元が香港法人のタイトルは紅線口径により不収録（うち 1 件は開発が日本側）。④ 欧米・南米など非日本開発のインディーは不収録。⑤ 18 歳以上向け（FANZA 運営）の新作は本台の口径外として見送り。⑥ 本体が窗口外の在営タイトルへの内容更新は口径どおり不収録。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持）。meta.asOf のみ 2026-10-16 に更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトルと VR 作品の分類は引き続き用户裁定待ち。",
-          "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-15 19:14（commit 5544aac）で増分区間は 10-15 夕方〜10-16 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
-        ]
-      }
     ],
   },
 };
