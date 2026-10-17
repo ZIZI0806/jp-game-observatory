@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-10-16
+ * 最后更新: 2026-10-17
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-17T10:15:00+08:00",
+    updatedAt: "2026-10-17T19:10:00+08:00",
     edition: "2026-10-17",
     window: "2026-08-17 ~ 2026-10-17（滚动最近 2 个月）",
     sources: [
@@ -10241,8 +10241,125 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "PC", "Steam", "音楽ゲーム", "ADV", "体験版"]
     },
+    {
+      id: "digimon-alysion",
+      company: "バンダイナムコエンターテインメント",
+      companyJp: "株式会社バンダイナムコエンターテインメント",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-10-16（事前登録の近日開始を公式 X で予告）",
+      capturedAt: "2026-10-17",
+      title: { jp: "DIGIMON ALYSION", cn: "数码宝贝 Alysion", en: "Digimon Alysion" },
+      genre: "デジタルカードゲーム（リアルタイム対戦／基本無料・アイテム課金型）",
+      platforms: ["iOS", "Android"],
+      release: "未発表（2026-12 に物理スターターデッキ発売予定。配信日・価格は未公表）",
+      releasePrecision: "未定",
+      summary: "《DIGIMON ALYSION》是万代南梦宫娱乐以实体《数码宝贝卡牌游戏》（Digimon Card Game）为原型的智能手机数字卡牌游戏。玩家构筑卡组并在线上实时对战；数字化版本追加了动画化的进化演出、更紧凑的对局节奏与重新设计的 UI，同时收录数字版独占卡牌与原创角色，并与 Web 漫画《数码宝贝 Liberator》共享世界观，另支持好友间私人 PvP 与多语言。官方 X 于 2026 年 10 月 16 日宣布事前登录将在数周内开启，并表示为稳定上线正在推进开发。实体版同名主题起始卡组预定 2026 年 12 月发售。",
+      highlight: "【2026-10-16 事前登録の近日開始を予告】バンダイナムコエンターテインメントの『DIGIMON ALYSION』公式 X が、事前登録を「数週間以内」に開始すると発表した。2026-12 には同名の物理スターターデッキも発売予定。　本作は物理『デジモンカードゲーム』をスマホ向けに再構築したリアルタイム対戦のデジタルカードゲームで、進化演出のアニメーション化や対戦テンポの短縮、専用 UI を実装し、Web コミック『デジモンリベレイター』と世界観を共有する。本体の初出は 2025-03-20 の「DIGIMON CON 2025」で観測期間より前のため、更新として記録する。",
+      mobile: {
+        status: "配信予定（時期未発表）",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料（アイテム課金型）。詳細は未発表",
+        preReg: {
+          open: false,
+          since: "",
+          reward: "事前登録は「数週間以内に開始」と予告された段階。開始日・達成報酬は未発表"
+        },
+        developer: "株式会社バンダイナムコエンターテインメント",
+        publisher: "株式会社バンダイナムコエンターテインメント",
+        region: "日本（多言語対応を予定）",
+        distribution: "App Store / Google Play（予定）。事前登録ページは未開設",
+        payment: [],
+        ipSource: "『デジタルモンスター／デジモンカードゲーム』（権利元：株式会社バンダイ）。Web コミック『デジモンリベレイター』と世界観を共有",
+        series: "デジモンシリーズは 1997 年の携帯育成玩具「デジタルモンスター」に始まり、アニメ・玩具・カードゲームへ展開してきた。スマホ向けでは既に『デジモンUP』が配信されており、本作はカードゲーム部門のデジタル展開として位置づけられる",
+        features: [
+          "物理『デジモンカードゲーム』をスマホ向けに再構築し、オンラインでリアルタイム対戦できるデジタルカードゲーム",
+          "進化演出のアニメーション化、対戦テンポの短縮、デジタル向けに再設計した UI を実装",
+          "デジタル版独占カードとオリジナルキャラクターを収録し、Web コミック『デジモンリベレイター』と世界観を共有",
+          "フレンド間のプライベート PvP と多言語対応を予定。2026-12 発売の物理スターターデッキと連動した展開を見込む"
+        ],
+        synopsis: "物理カードゲーム『デジモンカードゲーム』をそのままデジタルに移植するのではなく、スマートフォン向けに対戦体験を再設計したオンラインカードゲーム。プレイヤーはデッキを組んでリアルタイムに対戦し、進化の過程がアニメーションで描かれる。",
+        cast: "公式発表なし",
+        caution: "配信日・事前登録開始日・課金形態はいずれも未発表。国内一次源（バンダイナムコの公式ニュース）は未確認で、公式 X の告知と海外メディア報道に基づく"
+      },
+      news: [
+        { source: "公式サイト DIGIMON ALYSION（作品世界『デジモンリベレイター』の紹介）", url: "https://www.digimon-alysion.com/" },
+        { source: "Enduins（2026-10-16 の公式 X 告知・事前登録の開始予定・搭載要素を報道）", url: "https://www.enduins.com/news/bandai-namco-opens-pre-registration-for-digimon-alysion" },
+        { source: "公式 X @DIGIMON_ALYSION（事前登録の近日開始を告知した 2026-10-16 の投稿）", url: "https://x.com/DIGIMON_ALYSION/status/2111004227778625592" }
+      ],
+      videos: [
+        { label: "公式サイト（作品紹介・世界観解説）", platform: "公式サイト", url: "https://www.digimon-alysion.com/" },
+        { label: "公式 X の告知投稿（事前登録開始予定のアナウンス）", platform: "X", url: "https://x.com/DIGIMON_ALYSION/status/2111004227778625592" }
+      ],
+      hype: {
+        score: 55,
+        signals: [
+          "デジモンは 1997 年開始の国内老舗 IP。カードゲーム部門のデジタル化として、既存の TCG プレイヤー層をそのまま取り込める",
+          "2025-03-20 の「DIGIMON CON 2025」で初公開され、Anime Expo 2025 の試遊などで段階的に露出してきた経緯がある",
+          "配信日・事前登録開始日・課金形態が未公表で、Famitsu 期待榜などの国内指標にはまだ登場していない",
+          "公式 X の告知が英語併記で、海外のデジモン TCG 層も視野に入れた多言語展開が見込まれる"
+        ]
+      },
+      tags: ["手游", "カードゲーム", "デジモン", "事前登録予告"]
+    },
+    {
+      id: "rain98",
+      company: "C#4R4CT3R",
+      companyJp: "C#4R4CT3R（東京都渋谷区を拠点とするゲームレーベル）",
+      bucket: "update",
+      platformClass: "pc",
+      announceDate: "2026-10-17（Steam で無料体験版を配信）",
+      capturedAt: "2026-10-17",
+      title: { jp: "Rain98", cn: "Rain98", en: "Rain98" },
+      genre: "Lo-Fi 心理サスペンス ADV（ビジュアルノベル＋ポイント＆クリック）",
+      platforms: ["PC（Steam）", "コンソール（機種未発表）"],
+      release: "2026年内（PC／Steam。コンソール版は機種未発表。価格未公表）",
+      releasePrecision: "年",
+      summary: "《Rain98》是东京涩谷独立游戏厂牌 C#4R4CT3R 的首部作品，自称「Lo-Fi 心理悬疑恋爱冒险」，由视觉小说段落与街头探索的点击冒险两部分构成。2026 年 10 月 17 日在 Steam 配信免费体验版，收录故事开头到第 2 章前半、约 3 小时内容，可行走的涩谷街道范围较 TGS2026 展出时更广，并首次公开能登麻美子配音的新角色夜濑京子。本编共 7 章、主线约 10～15 小时，支援日英等 9 种语言，预定 2026 年内发售。作品于 2025 年 4 月首次公开，曾在 PAX East 2026 获 Best of Show。",
+      highlight: "【2026-10-17 体験版配信】東京・渋谷の C#4R4CT3R が手がける Lo-Fi 心理サスペンス ADV『Rain98』が、Steam で無料体験版の配信を開始した。The MIX Fall Game Showcase で新トレーラーも公開され、能登麻美子が演じる新キャラクター・夜瀬京子が初登場する。　体験版は物語の冒頭から第 2 章前半まで約 3 時間で、TGS2026 版より渋谷の街を歩ける範囲が広がった。本編は全 7 章・10〜15 時間規模で、2026 年内の発売を予定している。",
+      console: {
+        status: "開発中（2026-10-17 に Steam で無料体験版を配信。本編は 2026 年内発売予定）",
+        os: ["Windows"],
+        monetization: "未発表（買い切り想定。Steam ストアページに価格表示なし）",
+        developer: "C#4R4CT3R",
+        publisher: "C#4R4CT3R（自社パブリッシング）",
+        region: "全世界（日本語・英語など 9 言語対応）",
+        distribution: "Steam でのダウンロード販売",
+        stores: ["Steam"],
+        features: [
+          "1998 年の東京・渋谷を舞台に、世界の終わりを望む少女・雨原玲奈との同居生活を描く心理サスペンス ADV",
+          "ビジュアルノベルパートと、街歩き・会話・ミニゲームで構成されるアドベンチャーパートを交互に進める",
+          "体験版は物語の冒頭から第 2 章前半まで約 3 時間。TGS2026 で公開したビルドより渋谷の探索範囲を拡大した",
+          "日本語・英語など 9 言語に対応し、Lo-Fi の映像・音響演出で 90 年代末の空気を再現する",
+          "本編は全 7 章でプレイ時間 10〜15 時間を見込み、2026 年内の発売を予定"
+        ],
+        synopsis: "2026 年の東京で惰性的な日々を送る青年が、突然 1998 年へタイムスリップし、自殺を図っていた少女・雨原玲奈と出会う。世界を滅ぼす力を持つと語る彼女との共同生活を描きながら、現実と幻覚の境目が少しずつ崩れていく。プレイヤーは彼女との時間を重ねるほど、隠された秘密に近づいていく。",
+        ipSource: "オリジナル（C#4R4CT3R の新規 IP）",
+        series: "C#4R4CT3R のデビュー作。2025-04 の初公開以降、PAX East 2026 で Best of Show を受賞し、Bilibili World・ChinaJoy・BIC 2026・TGS2026 と各国のイベントに参加してきた",
+        cast: "雨原玲奈（CV：土屋李央）、夜瀬京子（CV：能登麻美子）",
+        caution: "本編の発売日・価格は未発表。コンソール版の機種も未公表"
+      },
+      news: [
+        { source: "Gematsu（2026-10-17 の体験版配信・収録範囲・対応言語・キャスト）", url: "https://www.gematsu.com/2026/10/rain98-demo-now-available" },
+        { source: "Games Press（C#4R4CT3R の公式プレスリリース。2026-10-16 付・The MIX Fall Game Showcase での新トレーラー公開）", url: "https://www.gamespress.com/en-GB/Lets-End-the-World-Together---Lo-Fi-Psychological-Suspense-Adventure-R" },
+        { source: "Steam ストアページ（Rain98 本体。体験版は別途 Demo ページ）", url: "https://store.steampowered.com/app/3498720/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー埋め込み）", platform: "Steam", url: "https://store.steampowered.com/app/3498720/" },
+        { label: "Gematsu の記事ページ（新トレーラーとスクリーンショットを掲載）", platform: "媒体", url: "https://www.gematsu.com/2026/10/rain98-demo-now-available" }
+      ],
+      hype: {
+        score: 41,
+        signals: [
+          "PAX East 2026 で Best of Show を受賞し、Bilibili World・ChinaJoy・BIC 2026・TGS2026 と国際的なインディー展示で継続的に露出している",
+          "開発・販売はいずれも東京・渋谷の C#4R4CT3R（日本側）で、Steam ウィッシュリストの韓国比率が高いと同社が言及している",
+          "体験版が 9 言語対応で配信され、インディー ADV としては対応言語数が多い",
+          "国内大手のような大型指標（Famitsu 期待榜・事前登録者数）にはまだ登場しておらず、知名度はインディー展示経由が中心"
+        ]
+      },
+      tags: ["PC", "Steam", "ADV", "インディー", "体験版"]
+    },
   ],
-
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
    *    status: covered 已建作品卡 / partial 部分覆盖 / watch 待观察
@@ -10260,7 +10377,7 @@ window.OBSERVATORY = {
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
-          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order", "tales-of-eternia-remastered"] },
+          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order", "tales-of-eternia-remastered", "digimon-alysion"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
@@ -10381,6 +10498,7 @@ window.OBSERVATORY = {
         { name: "株式会社エディア", short: "エディア", status: "covered", gameIds: ["project-sign-astraea", "rebirthday-song-switch", "kigetsu-night-of-the-waning-moon"], note: "東証スタンダード上場（証券コード 3935）の IP・出版企業。本社は東京都千代田区一ツ橋。2025-09-30 に女性向けコンシューマーブランド「MintLip+」を設立し、Nintendo Switch 用の完全新作乙女ゲーム 2 本の制作を発表、その第 1 弾『PROJECT SIGN：Astraea』が 2026-10-13 にティザーサイトを公開した。2026-10-08 には honeybee（アリスマティック）の『Re:BIRTHDAY SONG〜恋を唄う死神〜 another record』の Nintendo Switch 移植版の発売決定と予約受付を発表している" },
         { name: "ネオス株式会社", short: "ネオス", status: "covered", gameIds: ["crayon-shinchan-switch2"], note: "東京都千代田区神田須田町に本社を置き、コンシューマゲーム事業と DX ソリューション事業を展開する日本企業。親会社はテクミラホールディングス（東証スタンダード 3627）。『クレヨンしんちゃん』ゲームシリーズ 2 作の Nintendo Switch 2 版（2027-03-04）を 2026-10-13 に発表した" },
         { name: "フォーミライ株式会社", short: "フォーミライ", status: "covered", gameIds: ["morpho-reverie"], note: "音楽 ADV のパブリッシングを手がける国内企業。開発は Spectra Motif Studio。2026-08-31 に Steam ストアページと初報 PV を公開し、2026-10-15 に無料体験版を配信した『Morpho Reverie』（PC／Steam、本編の発売日・価格は未発表）を補充監視に追加した" },
+        { name: "C#4R4CT3R", short: "C#4R4CT3R", status: "covered", gameIds: ["rain98"], note: "東京都渋谷区を拠点とするインディーゲームのレーベル兼パブリッシャー。2026-10-17 に Steam で無料体験版を配信した『Rain98』（PC／Steam、2026 年内発売予定・価格未発表）を手がける。代表作の初公開は 2025-04 で観測期間より前のため、体験版配信を更新として記録した。本社の登記住所は一次源で未確認のため会社地図には未打点" },
       ]
     }
   },
@@ -10451,6 +10569,22 @@ window.OBSERVATORY = {
     headline: "更新履歴（直近 2 回の観測のみ掲載）",
     history: [
       {
+        at: "2026-10-17 19:00",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "【スマホ】日方主導で本場が拾えたスマホ案件は 1 件 —— バンダイナムコエンターテインメントの『DIGIMON ALYSION』（iOS／Android のリアルタイム対戦デジタルカードゲーム）で、公式 X が 2026-10-16 に事前登録を「数週間以内」に開始すると予告した。物理『デジモンカードゲーム』をスマホ向けに再構築し、進化演出のアニメーション化、対戦テンポの短縮、専用 UI、Web コミック『デジモンリベレイター』と共有する世界観、フレンド間のプライベート PvP、多言語対応を実装する。2026-12 には同名の物理スターターデッキも発売予定。本体の初出は 2025-03-20 の「DIGIMON CON 2025」で観測期間より前のため bucket=update として収録した。",
+          "主机・PC の新規 1 件 —— 東京・渋谷の C#4R4CT3R のデビュー作『Rain98』が 2026-10-17 に Steam で無料体験版を配信した。物語の冒頭から第 2 章前半まで約 3 時間で、TGS2026 で公開したビルドより渋谷の街を歩ける範囲が広い。The MIX Fall Game Showcase では新トレーラーが公開され、能登麻美子が演じる夜瀬京子が初登場した。本編は全 7 章・10〜15 時間規模、9 言語対応で 2026 年内の発売を予定する。初報は 2025-04 のため bucket=update。",
+          "条目総数は 179 → 181（スマホ区 43 → 44、主机・PC 区 151 → 152）。platformClass は mobile 28 → 29／pc 19 → 20（console 117・multi 15 は不変）。bucket は new 105（不変）／update 74 → 76。console 子塊 114 → 115、mobile 子塊 43 → 44。",
+          "companies：4 分類 8／16／16／10＝50（不変）、補充監視（extra）46 → 47 社（C#4R4CT3R を追加）。バンダイナムコエンターテインメントの gameIds に『DIGIMON ALYSION』を追記した。",
+          "漏収核查（アニメ IP・ブランドの個別検索）：ブルーロック／東京リベンジャーズ／鬼滅の刃／呪術廻戦／BLEACH／ONE PIECE／デジモン／オトメイト（ラディアンテイル）を確認 → 日方主導の新規スマホ作は『DIGIMON ALYSION』のみ。『ラディアンテイル for iOS & Android』は 2023-06-15 配信開始で観測期間外、ブルーロックは『BLUE LOCK Project: World Champion』、東京リベンジャーズは『UNLIMITED』『PUZZ REVE!』がいずれも在営中で内容更新のみだった。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 韓国資本のスマホ新作（テレビアニメ原作のターン制 RPG＝Com2uS Japan）は不収録。③ 台湾・香港向けのみの配信分は不収録。④ 発行元が香港法人のリズムローグライク『Ratatan』は紅線口径により不収録を継続。⑤ 本体が観測期間より前の在営タイトルへの内容更新（『Fatal Fury: COTW』への東京リベンジャーズ参戦など）は口径どおり不収録。⑥ 18 禁（FANZA 運営）向けの新作は口径外として見送り。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・outsideTokyo 10・hqPlotted 95 を維持）。バンダイナムコエンターテインメントの games を 11 → 12 に更新（新規条目が match に命中）。新規 2 社（C#4R4CT3R／フォーミライ株式会社）は本社の登記住所を一次源で確認できていないため地図には未打点（持越し）。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤『DIGIMON ALYSION』は国内一次源（バンダイナムコ公式ニュース）未確認（caution に明記）。",
+          "【本場の特記事項】19:00 場として起動。前回実行は 2026-10-17 10:24（commit a659e61、09:00 場）で増分区間は 10-17 朝〜19:00。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。",
+        ]
+      },
+      {
         at: "2026-10-17 09:00",
         scene: "定時巡検（朝の部）",
         items: [
@@ -10466,24 +10600,6 @@ window.OBSERVATORY = {
           "Famitsu 期待榜：10-11 号の内容は 10-09 期と同値（票数・順位とも一致）で新期なし。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤ 開発・運営が CLYRE, Inc. の『グリザイア 集結の百果』は資本構成を一次源で確認できていない（caution に明記）。",
           "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-16 20:09（commit 56628cf、19:00 場）で増分区間は 10-16 夕方〜10-17 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
-        ]
-      },
-      {
-        at: "2026-10-16 19:00",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "【スマホ】日方主導のスマホ完全新作は本場もゼロ。10-16 の日中〜夜の区間で国内向けモバイル新作の発表は確認できず、本場の増分は主机・PC のみだった。",
-          "主机・PC の新規 1 件（漏収追補）—— エディアのタイムリープ・サバイバルホラー ADV『虧月の夜（きげつのよる／英題：Kigetsu: Night of the Waning Moon）』が 2026-10-16 に Steam ストアページを公開し、あわせて体験版の配信を開始した。昭和初期の閉鎖的な農村を舞台に、主人公が命を落とすたびに同じ時間へ巻き戻される。Switch 版は 2026-01-29 に発売済み（税込 5,280 円・CERO D）で、本体が観測期間より前のため bucket=update として収録した。原案は森本浩二氏。",
-          "既有条目の更新 1 件 —— Cygames の新ブランド CygamesEdge の第 1 弾『崩落の国』（英題：Where the Seeds Fall）が、2026-10-16 17:00 から Steam で無料体験版を配信し、最終トレーラーを公開した。正式版は 2026-11-05、PS5／Nintendo Switch 2／Steam の 3 機種・数字版のみで税込 1,100 円、本編約 3 時間。title を日本語正式名『崩落の国』に更新した。",
-          "既有条目の更新 1 件 —— 『holoVillage: Our Cozy Days（ぷちホロの村）』の Nintendo Switch 2 版について、発売日が 2026-10-22、税込 2,900 円に確定し、2026-10-15 から予約受付が始まった（ASCII.jp・PANORA）。PC (Steam) 版は 2026-04-24 配信済みのため、他機種版の展開として bucket を new → update に是正した。",
-          "条目総数は 175 → 176（スマホ区 42 は不変、主机・PC 区 148 → 149）。platformClass は console 115 → 116。bucket は new 104 → 103、update 71 → 73。",
-          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 社はいずれも不変。エディアの gameIds に新作を追記した。",
-          "漏収核查（アニメ IP の個別検索）：ONE PIECE／ハイキュー／呪術廻戦／鬼滅の刃／BLEACH／ブルーロック／東京リベンジャーズ／ホロライブ／サンリオ／ポケモン／SAO・転スラ・リゼロ・オーバーロード／乙女向け（オトメイト）を確認 → 日方主導の新規スマホ作はなし。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（日本 IP を中国資本スタジオが開発するモバイル作ほか）。② 韓国資本のスマホ新作（テレビアニメ原作のターン制 RPG ほか）は不収録。③ 18 歳以上向け（FANZA 運営）の新作は本台の口径外として見送り。④ 発行元が香港法人のリズムローグライク（開発は日本のスタジオ、10-15／16 に 1.0 正式版）は紅線口径により不収録を継続。⑤ 非日本開発のインディーは不収録。⑥ 本体が観測期間より前の在営タイトルへの内容更新（バンダイナムコの『SD ガンダム ジージェネレーション エターナル』新ユニット追加、在営タイトルのコラボ企画など）は口径どおり不収録。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・hqPlotted 95 を維持）。meta.asOf は 2026-10-16 で据え置き。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。",
-          "【本場の特記事項】19:00 場として起動。前回実行は同日 09:21（commit b5c139c）で増分区間は 10-16 09:00〜19:00。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
         ]
       },
     ],

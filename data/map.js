@@ -179,7 +179,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都港区芝5-37-8 バンダイナムコ未来研究所", pref: "東京都",
       lat: 35.643997, lng: 139.745132, hqLat: 35.643997, hqLng: 139.745132, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/bandai-namco.png", games: 11,
+      logo: "assets/logo/bandai-namco.png", games: 12,
       match: ["バンダイナムコ", "Bandai Namco"],
       top: {"t":"ELDEN RING","b":"販売元として世界累計 3,000 万本超（2025 年発表）"},
       eq: [
