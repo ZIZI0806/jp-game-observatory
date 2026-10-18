@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-17T19:10:00+08:00",
-    edition: "2026-10-17",
-    window: "2026-08-17 ~ 2026-10-17（滚动最近 2 个月）",
+    updatedAt: "2026-10-18T09:20:00+08:00",
+    edition: "2026-10-18",
+    window: "2026-08-18 ~ 2026-10-18（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -2759,15 +2759,15 @@ window.OBSERVATORY = {
       companyJp: "任天堂株式会社",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-08（Zelda 专场）",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-10-17（日本向け新 TVCM 2 本を公開・ダークリンク初登場）",
+      capturedAt: "2026-10-18",
       title: { jp: "ゼルダの伝説 時のオカリナ（リメイク）", cn: "塞尔达传说 时之笛（重制）", en: "The Legend of Zelda: Ocarina of Time Remake" },
       genre: "3D 动作冒险（重制）",
       platforms: ["Nintendo Switch 2"],
       release: "2026-11-05",
       releasePrecision: "日",
-      summary: "在 9/8 的塞尔达系列 40 周年专场中公开，为 N64 原作《时之笛》的完全视觉重制版。公布当日即成为 X 等社交平台讨论度最高的环节之一。发售日期与预购详情尚未完全公开。",
-      highlight: "40 周年节点上的招牌重制；视觉风格在社媒引发分歧讨论，正反声量均高。",
+      summary: "1998 年 N64 原作的完全重制，2026 年 6 月的 Nintendo Direct 首次公开，9/8 的「塞尔达传说 40 周年 Direct」确认 11-05 发售，Nintendo Switch 2 独占。画面与过场全面重做并加入配音，右摇杆视角、按键跳跃、前转回避等操作向现行作靠拢，时之笛在按钮输入之外还支持哼唱等声音输入，并与手机应用「ZELDA NOTES」联动加入「Threads of Time」回顾功能。10-14 的 4 分多钟概览预告公开了新区域「Hall of Fallen Foes」——陈列已讨伐 Boss 石像、可触发带计时的再战。北美定价下载版 59.99 美元、实体版 69.99 美元。",
+      highlight: "【2026-10-17 新 TVCM】日本向けの 30 秒 CM が公開され、水之神殿のダークリンクが初登場——リンクの剣の上に立つ挑発的なポーズは原作の決闘姿勢から変えられ、剣上の重みでリンクの身体が反応する演出も加わった。　10-14 の概観トレーラーで判明した「Hall of Fallen Foes」（討伐済みボスの像を並べ、触れると時間計測つきの再戦が始まる新エリア）と合わせ、発売 3 週間前から情報出しが加速している。2026-11-05、Nintendo Switch 2 独占。",
       console: {
         status: "2026年11月5日発売予定（2026-09-08「ゼルダの伝説40周年 Direct」で発売日発表、予約受付中）",
         os: ["Nintendo Switch 2（Switch 1 版は未発表）"],
@@ -2789,19 +2789,19 @@ window.OBSERVATORY = {
         series: "シリーズ 40 周年記念作。原作はファミ通史上初の 40 点満点を獲得した作品"
       },
       news: [
-        { source: "检索汇总（Nintendo Direct 2026 报道）", url: "https://nintendoeverything.com/" },
-        { source: "Radio Times（Zelda 专场提及）", url: "https://www.radiotimes.com/technology/gaming/kirby-a-world-beyond-revealed-nintendo-3d-platformer-release-window-confirmed-newsupdate" }
+        { source: "Nintendo Life（日本向け新 TVCM とダークリンク初登場）", url: "https://www.nintendolife.com/news/2026/10/zelda-ocarina-of-time-ad-give-us-our-first-look-at-dark-link" },
+        { source: "Notebookcheck（CM の内容・Hall of Fallen Foes・北米価格）", url: "https://www.notebookcheck.net/Zelda-Ocarina-of-Time-remake-gives-Dark-Link-a-crested-shield-and-a-sharper-look.1426605.0.html" }
       ],
       videos: [
-        { label: "Zelda 40 周年专场报道（含重制影像）", platform: "媒体", url: "https://www.radiotimes.com/technology/gaming/kirby-a-world-beyond-revealed-nintendo-3d-platformer-release-window-confirmed-newsupdate" },
-        { label: "Nintendo Direct 2026.9.9 汇总", platform: "媒体", url: "https://www.gamemeca.com/en/view.php?gid=1780300" }
+        { label: "日本向け新 TVCM（ダークリンク登場／Nintendo Life 記事内に映像埋め込み）", platform: "媒体", url: "https://www.nintendolife.com/news/2026/10/zelda-ocarina-of-time-ad-give-us-our-first-look-at-dark-link" },
+        { label: "CM 場面解説（Notebookcheck・映像埋め込み）", platform: "媒体", url: "https://www.notebookcheck.net/Zelda-Ocarina-of-Time-remake-gives-Dark-Link-a-crested-shield-and-a-sharper-look.1426605.0.html" }
       ],
       hype: {
-        score: 84,
+        score: 86,
         signals: [
-          "Famitsu 读者期待榜 424 票（NS2 第 5 位）",
-          "40 周年 + 系列最高评价原作的组合",
-          "视觉风格争议反而扩大了讨论面"
+          "Famitsu 期待榜 2026-10-17 期で 636 票・Switch 2 首位（前号 790 票からは減票）",
+          "10-14 の概観トレーラーと 10-17 の TVCM で、ボス再戦エリアとダークリンク登場が判明し話題化",
+          "40 周年 + シリーズ最高評価原作の組み合わせで、発売 3 週間前から情報出しが集中している"
         ]
       },
       tags: ["重制", "周年作", "Switch2独占"]
@@ -4619,21 +4619,24 @@ window.OBSERVATORY = {
       companyJp: "株式会社コーエーテクモゲームス（開発：ω-Force）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 初日に発売日 12/10 を再告知・9/20 に声優登壇の専用ステージ）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-10-17（新ゲームトレーラー公開・各エディション予約受付中）",
+      capturedAt: "2026-10-18",
       title: { jp: "進撃の巨人3", cn: "进击的巨人3", en: "Attack on Titan 3" },
       genre: "タクティカルハンティングアクション（原作全編を追体験）",
       platforms: ["PlayStation 5", "Nintendo Switch 2", "Xbox Series X|S", "PC (Steam)"],
       release: "2026-12-10（世界同時）",
       releasePrecision: "日",
       summary: "Omega Force《进击的巨人》动作游戏三部曲的完结篇，由 コーエーテクモゲームス 于 2026 年 12 月 10 日全球同步发售，登陆 PS5／Nintendo Switch 2／Xbox Series X|S／PC(Steam)。本作不再从故事中段切入，而是把原作从调查兵团最初的壁外远征一路演绎到最终决战，玩家以可自定义的调查兵团士兵身份与艾伦、三笠、阿尔敏共同经历全篇，可与角色赠礼加深羁绊。立体机动动作进一步强化，新增部队编成系统与「壁外调查」玩法——在巨人控制区建立补给据点、管理瓦斯与刀刃资源把前线向外推进，另追加降低门槛的 Casual Mode。标准版／Steelbook 特装版／数字豪华版三版本已开放预约，数字豪华版含 72 小时抢先体验；MAPPA 制作的片头动画将在发售后的免费更新中追加。",
-      highlight: "【TGS2026 9/17】コーエーテクモ 展台专用舞台（9/20，声优 小林ゆう・三上枝織 登坛讲解新剧情与实机）与展台 5 款可试玩作品之一；开幕日再次确认 2026-12-10 发售。　三部曲完结篇把原作全篇一次讲完，用「壁外调查」的据点经营把狩猎循环向外推——MAPPA 片头动画只承诺发售后的免费更新，是这次少见的发行策略。",
+      highlight: "【2026-10-17 新トレーラー】原作の序盤から最終章までを通す構成、壁外調査の拠点づくりと装備資源の管理、巨人の新しい挙動が映像で示された。Standard 69.99 ドルに加え、SteelBook 仕様の Launch Edition とデジタルデラックス（アートブック・カスタマイズパック・72 時間アーリーアクセス）の 3 形態で予約受付中、前 2 作のセーブデータ特典も用意される。　三部曲完结篇把原作全篇一次讲完，用「壁外调查」的据点经营把狩猎循环向外推——MAPPA 片头动画只承诺发售后的免费更新，是这次少见的发行策略。",
       news: [
+        { source: "PanAsiaBiz（2026-10-17 の新トレーラー・各エディションと価格・前作セーブ特典）", url: "https://panasiabiz.com/117865/attack-on-titan-3-new-trailer-shows-full-story-ahead-of-launch" },
+        { source: "KOEI TECMO America 公式作品ページ（対応機種・2026-12-10 発売）", url: "https://www.koeitecmoamerica.com/attackontitan3/us/" },
         { source: "Game Developer（KOEI TECMO America 官方新闻稿全文：发售日与各版本）", url: "https://www.gamedeveloper.com/press-release/koei-tecmo-locks-in-dec-10-2026-release-date-for-attack-on-titan-3" },
         { source: "Gaming Age（发售日公布直播与首个实机影像）", url: "https://gaming-age.com/?p=117348/" },
         { source: "Enduins（TGS2026 首日发表汇总：12/10 定档与 9/20 舞台）", url: "https://www.enduins.com/news/tokyo-game-show-2026-day-1-biggest-announcements-so-far" }
       ],
       videos: [
+        { label: "New Game Trailer（2026-10-17 公開／PanAsiaBiz 記事内に映像埋め込み）", platform: "媒体", url: "https://panasiabiz.com/117865/attack-on-titan-3-new-trailer-shows-full-story-ahead-of-launch" },
         { label: "Gameplay Reveal Trailer（KOEI TECMO AMERICA 官方公开，官方新闻稿页面内嵌）", platform: "媒体", url: "https://www.gamedeveloper.com/press-release/koei-tecmo-locks-in-dec-10-2026-release-date-for-attack-on-titan-3" },
         { label: "Gaming Age 报道（内含发售日公布直播与实机影像）", platform: "媒体", url: "https://gaming-age.com/?p=117348/" }
       ],
@@ -10359,6 +10362,62 @@ window.OBSERVATORY = {
       },
       tags: ["PC", "Steam", "ADV", "インディー", "体験版"]
     },
+    {
+      id: "crymelight",
+      company: "FuRyu（開発：ウイニングエンターテインメントグループ）",
+      companyJp: "株式会社フリュー（開発：株式会社ウイニングエンターテインメントグループ）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-09-17（正式体験版を Steam で配信開始・OP 映像公開・Switch 2 版予約開始）",
+      capturedAt: "2026-10-18",
+      title: { jp: "クライムライト/CRYMELIGHT", cn: "恸哭幽光（CRYMELIGHT）", en: "CRYMELIGHT" },
+      genre: "ローグライクアクション（懺悔して強くなる）",
+      platforms: ["PlayStation 5", "Nintendo Switch 2", "PC (Steam)"],
+      release: "2026-11-05",
+      releasePrecision: "日",
+      summary: "FURYU「暗黑美少女动作」Cry 系列第三作。舞台是囚禁亡魂的牢狱「仙境」：失忆少女被引路人白兔命名为爱丽丝，与神秘少女玛丽一同参加「打倒女王者方可自由」的杀戮游戏。玩法为 Roguelike 动作——击败敌人后断末魔炸裂、在地面展开蓝紫色「Wonder Dimension」，空间越广增幅与机动越快；每关结束从三张扑克牌型技能卡选一张，以五张手牌凑「役」决定伤害与节奏；累积的「罪」可在茶会据点忏悔换取强化。2026-11-05 于 PS5／Switch 2／Steam 发售。",
+      highlight: "【2026-09-17 正式体験版】Steam で第 1 章まで（1.5〜3 時間）の正式体験版を配信開始し、主題歌「Love and Guilt」のオープニングムービーと英語実況動画を公開、Nintendo Switch 2 版の予約も開始した。　シリーズ初の全面 2D を採用した理由を監督の磯部拓実が説明しており、3D モデル化で生じる表情のズレを避け、原画の可愛さと繊細さをそのまま届けるためだという。カメラは「寄りの真横」から「引きの俯瞰」まで切り替えられ、UI の表示も任意に選べる。ティーパーティBOX 10,978 円／通常版 4,378 円（いずれも税込）。",
+      news: [
+        { source: "フリュー公式サイト（クライムライト／CRYMELIGHT 特設：発売日・価格・対応機種・体験版）", url: "https://www.cs.furyu.jp/crymelight/" },
+        { source: "Game Spark（gamescom 2026／PAX WEST／TGS2026 への出展と体験版アップデート）", url: "https://www.gamespark.jp/article/2026/08/26/171302.html" },
+        { source: "GoNintendo（オープニングムービー公開・世界観と各システムの紹介）", url: "https://gonintendo.com/contents/65090-check-out-the-opening-movie-for-crymelight" }
+      ],
+      videos: [
+        { label: "オープニングムービー（主題歌「Love and Guilt」／記事内に映像埋め込み）", platform: "媒体", url: "https://gonintendo.com/contents/65090-check-out-the-opening-movie-for-crymelight" },
+        { label: "公式 X（@_Project_Alice）", platform: "X", url: "https://x.com/_Project_Alice" },
+        { label: "Steam ストアページ（CRYMELIGHT）", platform: "Steam", url: "https://store.steampowered.com/app/3891160/" }
+      ],
+      hype: {
+        score: 60,
+        signals: [
+          "Steam のウィッシュリストが 2026-07-03 に 5 万人を突破し、TGS2026 では本編冒頭からの完全試遊版を出展した",
+          "シリーズ既定ファン向けに久弥直樹（プロット/ストーリー監修）・夜汽車（キャラクターデザイン）が続投し、主題歌と BGM は Sakuzyo が担当",
+          "ポーカーの「役」でビルドを組む独自システムと 2D 全面刷新が話題だが、Famitsu 期待榜には入っていない"
+        ]
+      },
+      tags: ["定档", "ローグライク", "ダークファンタジー", "オリジナルIP"],
+      console: {
+        status: "2026-11-05 発売予定（PS5／Nintendo Switch 2／Steam。正式体験版を 2026-09-17 から Steam で配信中）",
+        os: ["PlayStation 5", "Nintendo Switch 2", "Windows 11"],
+        monetization: "買い切り。パッケージ 通常版 4,378 円／ティーパーティBOX 10,978 円、ダウンロード 通常版 3,278 円／デラックスエディション 6,578 円（Steam 版 6,900 円、いずれも税込）",
+        developer: "株式会社ウイニングエンターテインメントグループ",
+        publisher: "株式会社フリュー",
+        region: "日本／アジア／北米・欧州（アジア向けは Clouded Leopard Entertainment が同日発売）",
+        distribution: "パッケージ版・ダウンロード版（PlayStation Store／Nintendo eShop／Steam）",
+        stores: ["PlayStation Store", "Nintendo eShop", "Steam"],
+        preOrder: { open: true, since: "2026-09-17", reward: "ティーパーティBOX／デラックスエディションに特典（アートブック・サウンドトラック・ボイスドラマ）" },
+        features: [
+          "倒した敵の断末魔が弾けて足元に青紫の「ワンダーディメンション」が広がり、範囲が広いほど能力と機動力が上がる加速アクション",
+          "ステージクリアごとに配られるトランプ型スキルカードから 1 枚を選び、5 枚の手札でポーカーの「役」を組んで効果を倍加させるビルド",
+          "戦闘で背負った「罪」をティーパーティ会場の懺悔室で告白して昇華し、強化素材とバフに変える成長システム",
+          "「ワールドイマーシブモード」（UI を最小化した寄りの横視点）と「アクションモード」（引きの俯瞰）を任意に切り替え可能",
+          "死ぬとカードと時間が巻き戻るが、拠点で積んだ武器・装飾品の強化だけは残るローグライト設計"
+        ],
+        synopsis: "「おまえたちは、罪人だ」——死者の魂が囚われる牢獄〈ワンダーランド〉で、記憶を失った少女は案内人・白兎に「アリス」と名付けられ、ティーパーティ会場へ導かれる。そこで告げられたルールは「支配者である女王を倒した者だけが自由になれる」というもの。アリスは謎の少女「メアリ」と手を取り、元の世界へ帰るためにゲームへ参加する。仲間たちの「罪」に触れるたび、失われた過去が痛みとともに目を覚ます。",
+        ipSource: "フリューとウイニングエンターテインメントグループによるオリジナル IP（ルイス・キャロル『不思議の国のアリス』を下敷きにした完全新作で、既存 IP のライセンスではない）",
+        series: "FURYU の「暗黒美少女アクション」Cry シリーズ第 3 作（2018 年 CRYSTAR／2023 年 CRYMACHINA に続く）。前 2 作の物語の後日譚だが単体で理解できる構成。2026-04-25 に初公開、2026-09-17 に正式体験版を配信、2026-11-05 に発売予定",
+      }
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -10492,7 +10551,7 @@ window.OBSERVATORY = {
         { name: "株式会社ハピネット", short: "Happinet", status: "covered", gameIds: ["brigandine-abyss"], note: "玩具・映像・ゲームの流通と自社パブリッシングを手がける東証プライム上場企業（東京都台東区、証券コード 7552）。『ブリガンダイン』シリーズの国内発売元で、最新作『ブリガンダイン アビス』（開発：株式会社アドグローブ）を PC（Steam）2026-08-26／家庭用機 2026-08-27 に世界同時発売した。海外発売は NIS America が担当" },
         { name: "PiXEL CO., LTD.", short: "PiXEL", status: "covered", gameIds: ["angelian-trigger"], note: "レトロ調のシューティングを自社で企画・開発・発売する日本のスタジオ（『Wing of the Asteria』など）。疑似 3D STG『アンシェリアントリガー』は 2024-12-12 に国内 Nintendo Switch 向けへ先行発売され、2026-10-05 に PC（Steam）版 2026-12-10・PlayStation 5 版 2027 年の展開が発表されたため補充監視に追加" },
         { name: "One or Eight INC.", short: "One or Eight", status: "covered", gameIds: ["pixelheroscramble-plus"], note: "東京都千代田区を拠点に自社コンテンツの企画・開発・発売を行う国内スタジオ。2026-10-07 に固定ルート型タワーディフェンス『PixelHeroScramble Plus』（PC（Steam）／Nintendo Switch、2026-12-01 発売予定）を発表し、同日から Steam で無料体験版を配信したため補充監視に追加" },
-        { name: "株式会社フリュー", short: "FURYU", status: "covered", gameIds: ["anomalith"], note: "東京・八王子に本社を置く東証プライム上場の国内メーカー（2007 年にオムロンから MBO で独立）。プライズ・キャラクター商品を柱に、家庭用ゲームとアニメ事業を展開する。2026-05 に発表した自社初の本格サバイバル TPS『アノマリス/ANOMALITH』（開発：ウイニングエンターテインメントグループ＝旧ナツメアタリ、2026-10-29 発売予定）の正式体験版が 2026-10-08 に配信開始されたため、補充監視に追加した" },
+        { name: "株式会社フリュー", short: "FURYU", status: "covered", gameIds: ["anomalith", "crymelight"], note: "東京・渋谷（鶯谷町）に本社を置く東証プライム上場の国内メーカー（2007 年にオムロンから MBO で独立）。プライズ・キャラクター商品を柱に、家庭用ゲームとアニメ事業を展開する。2026-05 に発表した自社初の本格サバイバル TPS『アノマリス/ANOMALITH』（開発：ウイニングエンターテインメントグループ＝旧ナツメアタリ、2026-10-29 発売予定）の正式体験版が 2026-10-08 に配信開始。同じ開発陣による『クライムライト/CRYMELIGHT』（2026-11-05 発売予定）も 2026-09-17 に正式体験版を配信したため、2 作を gameIds に登録した" },
         { name: "Gホールディングス株式会社（G Holdings Co., Ltd.）", short: "G Holdings", status: "covered", gameIds: ["girls-und-panzer-bokosuka-rush"], note: "本社・東京都新宿区西新宿（2018 年 6 月設立）の日本企業。事業内容はスマートフォンゲームの企画・制作で、グノシー（Gunosy Inc.／東証プライム 6047）の 100% 子会社。アニメ・漫画 IP のスマホゲームを手がけ、『ハイキュー!! TOUCH AND CONNECT』『弱虫ペダル レゾナンス・ペダイズム』『進撃の巨人 Brave Order』などを展開してきた。2026-10-09 にアニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の開発・配信を発表したため補充監視に追加（資本は日本側のみ＝中資否認、グノシーの会社概要ページで確認）" },
         { name: "株式会社フェイズ（Phase Co., Ltd.）", short: "Phase", status: "covered", gameIds: ["karei-endless-death-match"], note: "東京都を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオ。ターン制パズルローグライク『華麗 無限城の死闘』（Steam／iOS／Android、2026 年第 4 四半期予定）を自社で開発・販売し、2026-10-02 に無料体験版を 10-10 配信と発表したため補充監視に追加。TGS2026 に出展し会場で試遊を実施した" },
         { name: "株式会社エディア", short: "エディア", status: "covered", gameIds: ["project-sign-astraea", "rebirthday-song-switch", "kigetsu-night-of-the-waning-moon"], note: "東証スタンダード上場（証券コード 3935）の IP・出版企業。本社は東京都千代田区一ツ橋。2025-09-30 に女性向けコンシューマーブランド「MintLip+」を設立し、Nintendo Switch 用の完全新作乙女ゲーム 2 本の制作を発表、その第 1 弾『PROJECT SIGN：Astraea』が 2026-10-13 にティザーサイトを公開した。2026-10-08 には honeybee（アリスマティック）の『Re:BIRTHDAY SONG〜恋を唄う死神〜 another record』の Nintendo Switch 移植版の発売決定と予約受付を発表している" },
@@ -10507,20 +10566,20 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-10-09",
+    asOf: "2026-10-17",
     source: "Famitsu 週刊ファミ通 读者期待榜",
-    url: "https://gonintendo.com/contents/65964-famitsu-most-wanted-games-for-oct-9th-2026",
+    url: "https://gonintendo.com/contents/66231-famitsu-most-wanted-games-for-oct-17th-2026",
     list: [
-      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 790 },
-      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 784 },
-      { rank: 3, title: "Persona 6", platform: "PS5", votes: 689 },
-      { rank: 4, title: "Persona 4 Revival", platform: "PS5", votes: 663 },
-      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 477 },
-      { rank: 6, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 389 },
-      { rank: 7, title: "Grand Theft Auto 6", platform: "PS5", votes: 371 },
-      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 254 },
-      { rank: 9, title: "Final Fantasy Resonance", platform: "NS2", votes: 246 },
-      { rank: 10, title: "Xenoblade Genesis", platform: "NS2", votes: 201 }
+      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 636 },
+      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 594 },
+      { rank: 3, title: "Persona 4 Revival", platform: "PS5", votes: 482 },
+      { rank: 4, title: "Persona 6", platform: "PS5", votes: 479 },
+      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 307 },
+      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 281 },
+      { rank: 7, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 260 },
+      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 191 },
+      { rank: 9, title: "Xenoblade Genesis", platform: "NS2", votes: 182 },
+      { rank: 10, title: "Final Fantasy Resonance", platform: "NS2", votes: 180 }
     ]
   },
 
@@ -10566,8 +10625,25 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "更新履歴（直近 2 回の観測のみ掲載）",
+    headline: "10-17 夜〜10-18 朝：日方主導の新規スマホ作はゼロ。FURYU『クライムライト／CRYMELIGHT』を漏収追補し、『時のオカリナ』リメイクと『進撃の巨人3』が新映像を公開、Famitsu 期待榜は 10-17 期に入れ替え",
     history: [
+      {
+        at: "2026-10-18 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ】日方主導の新規スマホ作は本場もゼロ。10-17 夜〜10-18 朝に確認できたモバイル新作は、韓国資本のインディー『Seolhwa Dungeon』（Sungki Soft）と Netmarble『VAMPIR』のグローバル展開告知、韓国 OTIPLE の東南アジアソフトローンチのみで、いずれも口径どおり不収録。日方のスマホ側は既収録タイトルの続報（事前登録準備・体験版）にとどまった。",
+          "主机・PC の新規 1 件（漏収追補）—— FURYU の『クライムライト／CRYMELIGHT』（PS5／Nintendo Switch 2／Steam、2026-11-05、パッケージ通常版 4,378 円・税込）が未収録だった。FURYU の「暗黒美少女アクション」Cry シリーズ第 3 作で、開発は『アノマリス』と同じウイニングエンターテインメントグループ。初公開は 2026-04-25 で観測期間より前のため bucket=update とし、2026-09-17 の正式体験版（第 1 章まで 1.5〜3 時間）と OP 映像公開を観測点に収録した。ローグライク構造にポーカーの「役」で組むカードビルドと、倒した敵の断末魔で展開する「ワンダーディメンション」を組み合わせている。",
+          "既収録の更新 2 件 —— ①『ゼルダの伝説 時のオカリナ（リメイク）』（任天堂／Switch 2 独占、2026-11-05）が 2026-10-17 に日本向けの 30 秒 TVCM を公開し、水之神殿のダークリンクが初登場。剣の上に立つ挑発ポーズと、その重みでリンクの身体が反応する演出が新規。10-14 の概観トレーラーで判明した再戦エリア「Hall of Fallen Foes」とあわせ、発売 3 週間前から情報出しが加速している。②『進撃の巨人3』（コーエーテクモゲームス／ω-Force、2026-12-10）が 2026-10-17 に新ゲームトレーラーを公開。原作全編を通す構成、壁外調査の拠点運営と資源管理、巨人の新挙動が示され、Standard 69.99 ドル／SteelBook 版／デジタルデラックス（72 時間アーリーアクセス）の 3 形態で予約受付中と改めて案内された。",
+          "条目総数は 181 → 182（スマホ区 44 は不変、主机・PC 区 152 → 153）。platformClass は console 117 → 118（multi 15／mobile 29／pc 20 は不変）。bucket は new 105（不変）／update 76 → 77。console 子塊 115 → 116、mobile 子塊 44。",
+          "companies：4 分類 8／16／16／10＝50（不変）、補充監視（extra）47 社（不変）。株式会社フリューの gameIds を『アノマリス』1 件から 2 件に更新し、note の本社所在地を一次源（公式会社概要）に合わせて渋谷区鶯谷町に訂正した。",
+          "漏収核查（アニメ IP・ブランドの個別検索）：呪術廻戦／鬼滅の刃／東京リベンジャーズ／BLEACH／ONE PIECE／ホロライブ／刀剣乱舞／ブルーロック／ポケモン／進撃の巨人／Otomate・LicoBiTs に加え、ANOMALITH と同時期に動いていた FURYU の新作 2 本を機械照合 → 判明した漏収は『クライムライト／CRYMELIGHT』1 件のみ。デジモンは『DIGIMON ALYSION』が既収録、サンリオ・グリザイアも既収録だった。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 韓国資本（Netmarble『VAMPIR』のグローバル展開、Sungki Soft『Seolhwa Dungeon』、OTIPLE の東南アジアソフトローンチ）は不収録。③ 発行元が香港法人のタイトルは紅線口径により不収録を継続。④ SIE の PS5 独占『Until Dawn 2』（2027-01-28、開発 Firesprite＝英国）は日本企業側が企画・開発を主導していないため不収録。⑤ Aggro Crab／Landfall『PEAK』の Switch 2 版、Raw Fury『Hillthorn』など非日本開発のインディーは不収録。⑥ 本体が観測期間より前の在営タイトルへの内容更新（『Pokémon Pokopia』のハロウィンイベント等）は口径どおり不収録。⑦ 18 禁（FANZA 運営）向けの新作は口径外として見送り。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・outsideTokyo 10・hqPlotted 95 を維持）。新規条目が match に命中した株式会社フリューの games を 1 → 2 に更新し、全 95 社を機械再計算して decl≠act が 0 件であることを確認。meta.asOf を 2026-10-18 に更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：2026-10-17 期に入れ替え（前号 10-09 期から全 10 件の票数が減少）。1 位『ゼルダの伝説 時のオカリナ』636 票、2 位『Pokémon Winds / Waves』594 票、3 位『Persona 4 Revival』482 票、4 位『Persona 6』479 票。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤ 地図未打点 2 社（C#4R4CT3R／フォーミライ）は本社登記住所未取得のまま持越し。",
+          "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-17 19:07（commit 548c51d、19:00 場）で増分区間は 10-17 夕方〜10-18 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。",
+        ]
+      },
       {
         at: "2026-10-17 19:00",
         scene: "定時巡検（夕方の部）",
@@ -10582,24 +10658,6 @@ window.OBSERVATORY = {
           "Famitsu 期待榜：新期の発表は確認できず（10-09 期のまま）。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤『DIGIMON ALYSION』は国内一次源（バンダイナムコ公式ニュース）未確認（caution に明記）。",
           "【本場の特記事項】19:00 場として起動。前回実行は 2026-10-17 10:24（commit a659e61、09:00 場）で増分区間は 10-17 朝〜19:00。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。",
-        ]
-      },
-      {
-        at: "2026-10-17 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【スマホ】日方主導のスマホ新作は 1 件 —— 『グリザイア』シリーズ 15 周年記念のスマホ向け育成シミュレーション『グリザイア 集結の百果』が 2026-10-16 に日本で事前登録を開始した。企画・製作はグッドスマイルカンパニーとフロントウイング、開発・運営は CLYRE。基本プレイ無料（一部アイテム課金制）で 2026 年内の配信を予定し、歴代シリーズのキャラクターに加えて「風見雄二の娘」を名乗る 6 人の少女が初登場する。本体の初公開は 2026-02-27 の 15 周年記念番組で観測期間より前のため bucket=update として収録した。",
-          "主机・PC の新規 1 件（漏収追補）—— 同じ 15 周年企画の完全新作 ADV『グリザイアの新果実 -集結の百果-』（制作フロントウイング／製作・配信グッドスマイルカンパニー、2027 年予定・機種未発表）が 2026-09-01 に発表されていた。脚本は永田瑠異（ストーリィベリー）、キャラクターデザイン・原画は渡辺明夫。",
-          "主机・PC の新規 1 件（漏収追補）—— 音楽アドベンチャー『Morpho Reverie（モルフォ・レヴァリエ）』（開発 Spectra Motif Studio／パブリッシング フォーミライ株式会社）が 2026-10-15 に Steam で無料体験版を配信した。初報は 2026-08-31 で観測期間内のため bucket=new。30 万字超のシナリオと 80 曲以上の可遊玩曲を収録する。",
-          "既収録の更新 2 件 —— ①『STRANGER THAN HEAVEN』（SEGA／龍が如くスタジオ）が 2026-10-16 に第 1 章「小倉（1915 年）」のストーリートレーラーを公開し、5 つの時代を順に紹介する連作トレーラー企画が始動した。②『ドラゴンクエストモンスターズ 朽ちた世界』（スクウェア・エニックス）が 2026-10-16 にオンライン共闘・マスターランキング・闘技場・50 連勝ローグライクの詳細とスクリーンショットを公開した。",
-          "条目総数は 176 → 179（スマホ区 42 → 43、主机・PC 区 149 → 151）。platformClass は mobile 27 → 28／console 116 → 117／pc 18 → 19／multi 15。bucket は new 103 → 105、update 73 → 74。console 子塊 112 → 114、mobile 子塊 42 → 43。",
-          "companies 4 分類 8／16／16／10＝50、補充監視（extra）45 → 46 社（フォーミライ株式会社を追加）。グッドスマイルカンパニーの gameIds に 2 件（グリザイア 2 作）を追記した。",
-          "漏収核查（アニメ IP・ブランドの個別検索）：呪術廻戦／ONE PIECE／BLEACH／鬼滅の刃／東京リベンジャーズ／ブルーロック／チェンソーマン／刀剣乱舞／ホロライブ／ポケモン／ドラゴンボール／無職転生／Otomate・LicoBiTs を確認 → 日方主導の新規スマホ作は『グリザイア 集結の百果』のみ。他は既収録か、本体が観測期間より前の内容更新、もしくは非日方主導だった。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 韓国資本のスマホ新作（テレビアニメ原作のターン制 RPG＝Com2uS Japan、既存タイトルと鬼滅の刃のコラボ＝Netmarble ほか）は不収録。③ 発行元が香港法人のリズムローグライク『Ratatan』（10-15 に 1.0 正式版）は紅線口径により不収録を継続。④ 本体が観測期間より前の在営タイトルへの内容更新（『ドラゴンボール スパーキング！ZERO』の更新、在営タイトルと他 IP のコラボ企画など）は口径どおり不収録。⑤ 非日本開発のインディー（ニュージーランド・アルゼンチン・英国など）は不収録。⑥ 18 禁（FANZA 運営）タイトルは口径外として見送り。⑦ 台湾・香港向けのみの配信分（本家が観測期間より前に配信済みのタイトルの海外版）は不収録。",
-          "会社地図（data/map.js）：good-smile（株式会社グッドスマイルカンパニー）の games を 4 → 6 に更新（新規 2 条目が match に命中）。住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・outsideTokyo 10・hqPlotted 95 を維持）。meta.asOf を 2026-10-17 に更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：10-11 号の内容は 10-09 期と同値（票数・順位とも一致）で新期なし。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤ 開発・運営が CLYRE, Inc. の『グリザイア 集結の百果』は資本構成を一次源で確認できていない（caution に明記）。",
-          "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-16 20:09（commit 56628cf、19:00 場）で増分区間は 10-16 夕方〜10-17 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。"
         ]
       },
     ],

@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-10-17",
+    asOf: "2026-10-18",
     count: 95,
     onMap: 85,
     outsideTokyo: 10,
@@ -562,7 +562,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都渋谷区鶯谷町2-3 COMSビル2F", pref: "東京都",
       lat: 35.653881, lng: 139.704636, hqLat: 35.653881, hqLng: 139.704636, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 1,
+      logo: null, games: 2,
       match: ["フリュー", "FURYU", "FuRyu"],
       top: null,
       eq: [
