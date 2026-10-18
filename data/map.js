@@ -18,17 +18,17 @@
  * eq（資本関係）は公開情報ベースの要約であり、出資比率は時点により変動する。
  * top（史上最高収益作）は公表情報がある社のみ。null は「公開情報なし」。
  *
- * ※ 収録対象は OBSERVATORY.companies の登録社 95 社（2026-10-14 時点・除外なし）。
+ * ※ 収録対象は OBSERVATORY.companies の登録社 96 社（2026-10-18 時点・除外なし）。
  *   旧版で中資紅線により除外していた 1 社（ビジュアルアーツ）は 2026-10-13 のユーザー裁定で例外放行・収録。
  * ========================================================================== */
 
 window.OBSERVATORY_MAP = {
   meta: {
     asOf: "2026-10-18",
-    count: 95,
-    onMap: 85,
+    count: 96,
+    onMap: 86,
     outsideTokyo: 10,
-    hqPlotted: 95,   // 全国地図（本社位置）に打点できる社数
+    hqPlotted: 96,   // 全国地図（本社位置）に打点できる社数
     tileCredit: "地図タイル：国土地理院（淡色地図）",
     geoCredit: "住所検索：国土地理院 住所検索API",
     note: "ピンの位置は本社ビルの所在地（街区レベル）。【首都圏】表示は本社が道府県外の社を東京拠点の位置に打点し、その旨をカード内に表示する。【全国】表示は全社を本社位置（hqLat/hqLng）に打点する。破線リングは所在地が都道府県・市区町村レベルまでの確認にとどまる社。"
@@ -727,6 +727,19 @@ window.OBSERVATORY_MAP = {
       top: null,
       eq: [
         {"rel":"note","name":"資本関係は未確認"},
+      ],
+    },
+    {
+      id: "csharp4r4ct3r", name: "C#4R4CT3R", short: "C#4R4CT3R",
+      tier: "small", color: "#a99bd6",
+      addr: "東京都渋谷区", pref: "東京都",
+      lat: 35.66367, lng: 139.697723, hqLat: 35.66367, hqLng: 139.697723, precision: "ward",
+      officeKind: "hq", officeLabel: "本社",
+      logo: null, games: 1,
+      match: ["C#4R4CT3R"],
+      top: null,
+      eq: [
+        {"rel":"note","name":"本社は渋谷区。番地は非公開で、公式プレスリリースの表記は「Shibuya, Tokyo」のみ。所在地は市区町村レベルまでの確認にとどまる"},
       ],
     },
     {
