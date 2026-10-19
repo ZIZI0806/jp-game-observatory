@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-10-18",
+    asOf: "2026-10-19",
     count: 96,
     onMap: 86,
     outsideTokyo: 10,
@@ -208,7 +208,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区神田錦町2-2-1 KANDA SQUARE 8F", pref: "東京都",
       lat: 35.693214, lng: 139.763214, hqLat: 34.970066, hqLng: 135.755798, precision: "block",
       officeKind: "branch", officeLabel: "東京支店", hqPref: "京都府", hqAddr: "京都府京都市南区上鳥羽鉾立町11-1",
-      logo: "assets/logo/nintendo.png", games: 6,
+      logo: "assets/logo/nintendo.png", games: 7,
       match: ["任天堂", "Nintendo"],
       top: {"t":"マリオカート8 デラックス","b":"Nintendo Switch 史上最大の販売本数"},
       eq: [
@@ -364,7 +364,7 @@ window.OBSERVATORY_MAP = {
       addr: "神奈川県横浜市港北区新横浜2-3-9 新横浜金子ビル", pref: "神奈川県",
       lat: 35.507767, lng: 139.614792, hqLat: 35.507767, hqLng: 139.614792, precision: "block",
       officeKind: "out", officeLabel: "本社", hqAddr: "神奈川県横浜市港北区新横浜2-3-9 新横浜金子ビル",
-      logo: "assets/logo/arc-system-works.png", games: 3,
+      logo: "assets/logo/arc-system-works.png", games: 4,
       match: ["アークシステムワークス", "Arc System Works"],
       top: {"t":"GUILTY GEAR シリーズ","b":"同社の看板格闘シリーズ"},
       eq: [
@@ -1036,7 +1036,7 @@ window.OBSERVATORY_MAP = {
       addr: "千葉県市川市南八幡4-17-8 コスモ本八幡ビル4F", pref: "千葉県",
       lat: 35.717194, lng: 139.924744, hqLat: 35.717194, hqLng: 139.924744, precision: "block",
       officeKind: "out", officeLabel: "本社", hqAddr: "千葉県市川市南八幡4-17-8 コスモ本八幡ビル4F",
-      logo: null, games: 0,
+      logo: null, games: 1,
       match: ["インティ・クリエイツ", "Inti Creates"],
       top: {"t":"蒼き雷霆 ガンヴォルト シリーズ","b":"同社の自社 IP の主力"},
       eq: [

@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-18T19:35:00+08:00",
-    edition: "2026-10-18",
-    window: "2026-08-18 ~ 2026-10-18（滚动最近 2 个月）",
+    updatedAt: "2026-10-19T09:30:00+08:00",
+    edition: "2026-10-19",
+    window: "2026-08-19 ~ 2026-10-19（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -2440,17 +2440,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社スクウェア・エニックス",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-17（TGS2026 で新トレーラー公開・10-22 発売確定）",
-      capturedAt: "2026-09-17",
+      announceDate: "2026-10-18（ファミ通クロスレビューで 36/40）",
+      capturedAt: "2026-10-19",
       title: { jp: "FINAL FANTASY RESONANCE", cn: "最终幻想 Resonance", en: "FINAL FANTASY RESONANCE" },
       genre: "HD-2D 回合制 RPG",
       platforms: ["Switch", "Switch 2", "PS5", "Xbox Series X|S", "PC"],
       release: "2026-10-22",
       releasePrecision: "日",
       summary: "系列首款 HD-2D 作品，将 2015 年手游《FF Brave Exvius》的开篇剧情重编为完整单机游戏，并且不含抽卡。战斗为经典回合制（非 ATB），带可见时间轴、Stagger 窗口、Limit Burst、幻兽与历代英雄「Visions」。第一章 Demo 已配信且存档可继承。",
-      highlight: "【TGS2026 9/17】Square Enix 展台提供试玩，同日新预告确认 10/22 发售、eShop 免费试玩版存档可继承至正式版——本作是 SE 展台双试玩之一。　系列首款 HD-2D 作品，把 2015 年手游《FF Brave Exvius》的开篇重编为不含抽卡的完整单机游戏。",
+      highlight: "【2026-10-18 ファミ通 36/40】週刊ファミ通のクロスレビューで 9／9／9／9 の 36 点。4 名のレビュアー全員が 9 点を付けたのは今号で本作のみ。HD-2D の描画、Visions による歴代英雄の召喚、Guard Break と Resonance Moves の戦術性が評価され、本編 20〜30 時間／やり込み 70 時間というボリュームも言及された。　【TGS2026 9/17】Square Enix 展台提供试玩，同日新预告确认 10/22 发售、eShop 免费试玩版存档可继承至正式版——本作是 SE 展台双试玩之一。",
       console: {
-        status: "2026年10月22日発売予定（第一章 Demo 配信中）",
+        status: "2026年10月22日発売予定（第一章 Demo 配信中／ファミ通クロスレビュー 36/40）",
         os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
         monetization: "7,678 円（税込・小売リスト集計値／Switch 2 版は Game Key Card 形式）。買い切りでガチャ要素はなし",
         developer: "スクウェア・エニックス",
@@ -2470,7 +2470,8 @@ window.OBSERVATORY = {
       },
       news: [
         { source: "Eurogamer（State of Play 汇总）", url: "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026" },
-        { source: "Gurugamer（JRPG 盘点）", url: "https://gurugamer.com/pc-console/top-10-upcoming-jrpgs-to-release-in-2026-and-2027-27290" }
+        { source: "Gurugamer（JRPG 盘点）", url: "https://gurugamer.com/pc-console/top-10-upcoming-jrpgs-to-release-in-2026-and-2027-27290" },
+        { source: "GoNintendo（ファミ通クロスレビュー 2026-10-18：36/40）", url: "https://gonintendo.com/contents/66238-famitsu-review-scores-for-oct-18th-2026" },
       ],
       videos: [
         { label: "Eurogamer 汇总（含 Demo 公布预告影像）", platform: "媒体", url: "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026" },
@@ -2815,17 +2816,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社カプコン",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞）",
-      capturedAt: "2026-09-20",
+      announceDate: "2026-10-15（Switch 2 序章体験版の配信とデジタル予約開始を発表）",
+      capturedAt: "2026-10-19",
       title: { jp: "モンスターハンターワイルズ（Switch 2 版）/ 拡張「Ascendance」", cn: "怪物猎人 Wilds（Switch 2 版）/ 扩展包 Ascendance", en: "Monster Hunter Wilds (Switch 2) / Ascendance" },
       genre: "狩猎动作 RPG",
       platforms: ["Nintendo Switch 2", "PS5", "Xbox Series X|S", "PC"],
       release: "Switch 2 版 2026-12-04 / Ascendance 2027",
       releasePrecision: "日",
       summary: "Nintendo Direct 确认《Monster Hunter Wilds》于 2026 年 12 月 4 日登陆 Switch 2，含既有更新内容，支持本地无线与跨平台联机。大型扩展包「Ascendance」定于 2027 年推出，追加可借翔虫（Seikret）移动的垂直区域，并公布全新古龙「Gundoraga」。9/16 的 Capcom Spotlight 进一步公开炎王龙 Teostra 回归、新机制「Boost Bracer」，以及无需翔虫即可换武器、可在地图上的道具箱直接换装等本体同步实装的操作改善。Switch 2 版实体版已开放预约，数字版 10 月 19 日起开放。9/17 的 Xbox TGS2026 放送进一步把「Ascendance」的推出窗口锁定为 2027 年，追加公开新区域「Skybound Eyrie」与「Boost Driver」机制，并明确 Boost 系列系统覆盖全部 14 种武器。",
-      highlight: "【日本ゲーム大賞 9/20】フューチャー部門（未発売の TGS2026 出展作 537 作品から一般投票で 10 本）を受賞。　【TGS2026 9/17】Capcom 展台（7 号馆）Switch 2 版试玩是开幕日最长队列之一；同日 Xbox 放送把扩展「Ascendance」的推出窗口锁定为 2027 年，公开新区域「Skybound Eyrie」与面向全 14 种武器的新机制 Boost Bracer／Boost Driver。　扩展包在 TGS 开幕前夜公开炎王龙回归，并把这批操作改善同步回本体；Switch 2 版本体 12/04 先行。",
+      highlight: "【2026-10-19 PT 序章体験版】Nintendo Switch 2 向けの無料「序章体験版」が 10-19 PT（日本時間 10-20 未明）に配信され、同日デジタル予約も開始された。　体験版は製品版と同じ序章〜第 1 章 3 節「森へ」までを収録し、ハンターとオトモの作成、14 種の武器すべてを試せる。セーブデータは製品版へ引き継ぎ可能。マルチはローカル通信のみで、オンラインの SOS は使えず、救難信号は NPC のサポートハンター 3 名が応じる仕様。本体は 2026-12-04 発売（北米 39.99 ドル）。【日本ゲーム大賞 9/20】フューチャー部門を受賞。　【TGS2026 9/17】Capcom 展台（7 号馆）Switch 2 版试玩是开幕日最长队列之一；同日 Xbox 放送把扩展「Ascendance」的推出窗口锁定为 2027 年，公开新区域「Skybound Eyrie」与面向全 14 种武器的新机制 Boost Bracer／Boost Driver。",
       console: {
-        status: "Switch 2 版 2026年12月4日発売予定／大型拡張「Ascendance」2027年配信予定",
+        status: "Switch 2 版 2026年12月4日発売予定（序章体験版を 10-19 PT から配信中・デジタル予約受付中）／大型拡張「Ascendance」2027年配信予定",
         os: ["Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
         monetization: "Switch 2 版 4,990 円（税込・小売リスト集計値／Game Key Card 形式）",
         developer: "カプコン",
@@ -2845,7 +2846,8 @@ window.OBSERVATORY = {
       news: [
         { source: "Cleveland Free Times（Direct 汇总）", url: "https://www.freetimes.com/news/2026-09-11-nintendo-direct-9-9-2026-switch-2-line-up-gears-up-with-final-fantasy-monster-hunter-tomb-raider-and-more" },
         { source: "CQ-Esports（State of Play Japan）", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" },
-        { source: "Saiga NAK（Capcom 展台追加可试玩阵容与周边信息）", url: "https://saiganak.com/en/event/tgs2026-capcom-booth-announcement-part2" }
+        { source: "Saiga NAK（Capcom 展台追加可试玩阵容与周边信息）", url: "https://saiganak.com/en/event/tgs2026-capcom-booth-announcement-part2" },
+        { source: "This Is Game SEA（Switch 2 序章体験版の収録内容と 12-04 発売）", url: "https://thisisgamesea.com/game/console-gaming/monster-hunter-wilds-prologue-demo-nintendo-switch-2" },
       ],
       videos: [
         { label: "State of Play Japan 汇总（Ascendance 与 Gundoraga 公布）", platform: "媒体", url: "https://cq-esports.com/news/state-of-play-japan-september-2026-every-major-game-update" },
@@ -10483,6 +10485,176 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "手游", "アドベンチャー", "京都", "SNAPLACE"]
     },
+    {
+      id: "nintendo-switch-sports-resort",
+      company: "Nintendo",
+      companyJp: "任天堂株式会社",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-06-09（Nintendo Direct で 2026-10-22 発売を発表）",
+      capturedAt: "2026-10-19",
+      title: { jp: "Nintendo Switch Sports Resort", cn: "Nintendo Switch Sports Resort", en: "Nintendo Switch Sports Resort" },
+      genre: "体感スポーツ（12 種目／最大 4 人）",
+      platforms: ["Nintendo Switch 2"],
+      release: "2026-10-22",
+      releasePrecision: "日",
+      summary: "任天堂把 2009 年《Wii Sports Resort》的乌富岛搬回 Switch 2，做成 12 种体感项目的度假村合集。新增「拇指相扑」「滑板」，并把「动力巡航」「螺旋桨飞机」做成可自由环岛探索的模式；复活的还有保龄球、网球、乒乓球、拳击、射箭、排球、篮球、高尔夫。单人可挑战各地「岛屿冠军／岛屿传说」的 Island Crown 模式，本地最多 4 人，线上分职业联赛与休闲赛。项目积分「Spocco Point」可在道具中心换装。2026-10-22 发售，Switch 2 专用。",
+      highlight: "【2026-10-22 発売・Switch 2 専用】12 種目の体感スポーツと、ウーフーアイランドを自由に巡る探索モードを 1 本にまとめた Switch 2 専用ソフト。　新規は「親指相撲」「スケートボード」、復活は「パワークルーズ」「プロペラ機」「アーチェリー」「ボウリング」「卓球」「ボクシング」「テニス」「バレーボール」「バスケットボール」「ゴルフ」。オフラインの「アイランドクラウン」で各地のチャンピオン／レジェンドに挑み、オンラインは「プロリーグ」とカジュアル戦を用意する。Joy-Con 2 に加えて Switch の Joy-Con でも遊べる（スケートボードを除く）。",
+      news: [
+        { source: "任天堂公式（Nintendo Switch Sports Resort 紹介映像・TVCM 公開／香港）", url: "https://www.nintendo.com/hk/topics/article/2pdLIMh8gWKuOXC4AMDSF007" },
+        { source: "Nintendo 公式（12 種目の紹介と予約開始・北米）", url: "https://www.nintendo.com/us/whatsnew/get-warmed-up-for-the-new-and-returning-sports-in-nintendo-switch-sports-resort/" },
+        { source: "GoNintendo（概観トレーラーと収録モードの解説）", url: "https://gonintendo.com/contents/65872-start-training-for-the-launch-of-nintendo-switch-sports-resort-with-a-new-overview" }
+      ],
+      videos: [
+        { label: "紹介映像・TVCM（任天堂公式ページ内に埋め込み）", platform: "公式", url: "https://www.nintendo.com/hk/topics/article/2pdLIMh8gWKuOXC4AMDSF007" },
+        { label: "概観トレーラー（GoNintendo 記事内に埋め込み）", platform: "媒体", url: "https://gonintendo.com/contents/65872-start-training-for-the-launch-of-nintendo-switch-sports-resort-with-a-new-overview" }
+      ],
+      hype: {
+        score: 74,
+        signals: [
+          "任天堂の第 1 パーティー作で、『Wii Sports Resort』（2009）の世界観を 17 年ぶりに据えた続編的 position。2026-06-09 の Nintendo Direct で発表され、発売日は当初から動いていない",
+          "Famitsu 期待榜トップ 10 には入っていないが、海外メディアの試遊記事（Holiday Showcase）が発売 1 か月前から相次いでいる",
+          "北米価格はダウンロード 49.99 ドル／パッケージ 59.99 ドル、容量は約 16GB。Joy-Con 2 前提の操作系で Switch 2 の普及を後押しする位置づけ"
+        ]
+      },
+      tags: ["新作発表", "体感スポーツ", "Switch 2専用", "任天堂"],
+      console: {
+        status: "2026-10-22 発売予定（Nintendo Switch 2 専用）",
+        os: ["Nintendo Switch 2"],
+        monetization: "買い切り。北米はダウンロード 49.99 ドル／パッケージ 59.99 ドル（日本国内価格は一次源で未確認）",
+        developer: "任天堂",
+        publisher: "任天堂",
+        region: "日本／北米／欧州ほか（世界同時）",
+        distribution: "パッケージ版・ダウンロード版（Nintendo eShop／マイニンテンドーストア）。ダウンロード版は予約で事前ダウンロードに対応",
+        stores: ["Nintendo eShop", "マイニンテンドーストア"],
+        preOrder: { open: true, since: "2026-10", reward: "ダウンロード版の予約で事前ダウンロード（プリロード）が可能。特典の有無は公式発表なし" },
+        features: [
+          "12 種目を収録。新規の「親指相撲」「スケートボード」に加え、『Wii Sports Resort』から「パワークルーズ」「プロペラ機」「アーチェリー」「ボウリング」が復活する",
+          "スケートボード／パワークルーズ／プロペラ機は島を自由に巡る探索モードを持ち、撮影スポットや隠し要素を集められる",
+          "オフライン専用の「アイランドクラウン」で種目ごとの階級を上げ、アイランドチャンピオン／アイランドレジェンドに挑戦する",
+          "ローカル最大 4 人（Joy-Con 2 のほか Switch の Joy-Con も使用可、スケートボードを除く）＋オンラインの「プロリーグ」とカジュアルマッチ",
+          "各種目で貯まる「スポッコポイント」をアイテムセンターで衣装・髪型・スポーツ用具と交換し、スポーツメイトを着せ替えできる"
+        ],
+        synopsis: "舞台は観光地として整備された「ウーフーアイランド」。プレイヤーはスポーツメイト（または Mii）として、島の施設を巡りながら 12 種目の体感スポーツに挑む。1 人で階級を上げる「アイランドクラウン」と、家族・友人と食卓を囲むローカル対戦、オンラインの「プロリーグ」の 3 つの遊び方が用意されている。",
+        ipSource: "任天堂のオリジナル（『Wii Sports Resort』『Nintendo Switch Sports』の系譜）",
+        series: "『Wii Sports Resort』（2009）→『Nintendo Switch Sports』（2022）に連なる体感スポーツシリーズの最新作。2026-06-09 の Nintendo Direct で発表され、発売日は当初から 2026-10-22 で動いていない",
+        cast: "公式発表なし（プレイヤーは「スポーツメイト」または Mii で参加）",
+        caution: "日本国内の価格と、収録スポーツの細部（剣道・フリスビー等の有無）は一次源で未確認。北米価格のみ確認済み"
+      }
+    },
+    {
+      id: "demons-night-fever",
+      company: "Arc System Works（開発：Drecom × SuperNiche）",
+      companyJp: "株式会社アークシステムワークス（開発：株式会社ドリコム／SuperNiche LLC）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-09-13（Nintendo eShop で予約受付開始・テーマ曲「Dropout」の新 PV 公開）",
+      capturedAt: "2026-10-19",
+      title: { jp: "DEMONS' NIGHT FEVER", cn: "恶魔夜疯狂（DEMONS' NIGHT FEVER）", en: "Demons' Night Fever" },
+      genre: "シミュレーション RPG（グリッド制ターン戦術／育成 RTA）",
+      platforms: ["Nintendo Switch", "PlayStation 5", "PC (Steam)"],
+      release: "2026-10-22",
+      releasePrecision: "日",
+      summary: "《魔界战记》生父新川宗平（原日本一软件社长）担任制作人、Drecom 与 SuperNiche 共同开发的网格回合制 SRPG。舞台是另一个地球：最强邪神「吉猛」在弑神前一步被变成婴儿，启动复活程序「DEMONS' NIGHT FEVER」，把憎世的程序员「邪龙院狂死狼」卷了进来。核心是「剥削侍从系统」——牺牲己方侍从引爆「屠杀技能」或当祭品，侍从死得越多重生越强；战斗与作恶赚「恶德点数」强化军团，章节有时间限制，超时也把成果转为下一轮加成。2026-10-22 于 PS5／Switch／Steam 发售，4,950 日元。",
+      highlight: "【2026-09-13 eShop 予約開始】テーマ曲「Dropout」（syudou）を使った新 PV とともに、Nintendo Switch 版の予約受付が始まった。　新川宗平（『魔界戦記ディスガイア』シリーズ生みの親、元日本一ソフトウェア社長）がプロデューサーを務め、開発はドリコムと SuperNiche。味方を犠牲にする「搾取従者システム」を中心に据えたグリッド制 SRPG で、2026-09-17 から公式 Web マンガ全 8 話の連載も始まっている。価格はパッケージ・ダウンロードとも 4,950 円（税込）。",
+      news: [
+        { source: "Arc System Works 公式（Nintendo eShop 予約開始・新 PV）", url: "https://www.arcsystemworks.com/?p=15499" },
+        { source: "GoNintendo（ファミ通クロスレビュー 2026-10-18／29 点）", url: "https://gonintendo.com/contents/66238-famitsu-review-scores-for-oct-18th-2026" },
+        { source: "Press Play Media（新川宗平インタビューを交えた先行プレビュー）", url: "https://pressplaynews.net/2026/09/24/demons-night-fever-preview-ps5/" }
+      ],
+      videos: [
+        { label: "公式 PV（テーマ曲「Dropout」／Arc System Works 公式リリース内）", platform: "公式", url: "https://www.arcsystemworks.com/?p=15499" },
+        { label: "先行プレビュー（搾取従者システムの解説）", platform: "媒体", url: "https://pressplaynews.net/2026/09/24/demons-night-fever-preview-ps5/" }
+      ],
+      hype: {
+        score: 62,
+        signals: [
+          "新川宗平（元日本一ソフトウェア社長）の新規 SRPG として、2026-06 の Anime Expo パネルで存在が予告され、TGS2026 で試遊を出展した",
+          "2026-09-13 の予約開始と同時に PV を公開、2026-09-17 からは全 8 話の公式 Web マンガ連載を開始するなど、発売 1 か月前から露出を増やしている",
+          "ファミ通クロスレビューは 29/40（7/8/7/7）。期待榜トップ 10 には入っていない"
+        ]
+      },
+      tags: ["新作発表", "SRPG", "ダークコメディ", "オリジナルIP"],
+      console: {
+        status: "2026-10-22 発売予定（PS5／Nintendo Switch／Steam）",
+        os: ["PlayStation 5", "Nintendo Switch", "Windows 11"],
+        monetization: "買い切り。パッケージ・ダウンロードとも 4,950 円（税込）",
+        developer: "株式会社ドリコム／SuperNiche LLC",
+        publisher: "株式会社アークシステムワークス",
+        region: "日本（日本語・英語・中国語〈簡体字／繁体字〉対応）",
+        distribution: "パッケージ版・ダウンロード版（Nintendo eShop／PlayStation Store／Steam）",
+        stores: ["Nintendo eShop", "PlayStation Store", "Steam"],
+        preOrder: { open: true, since: "2026-09-13", reward: "公式発表なし（店舗別特典は各販売店の案内による）" },
+        features: [
+          "グリッド制のターン戦術。従者は原則として自律行動し、プレイヤーは邪龍院狂死狼を操作して彼らの配置を利用する",
+          "「搾取従者システム」——従者を自ら爆発させる「殺戮スキル」や生贄により、味方を消耗品として戦術に組み込む",
+          "従者は倒されるほど復活後に強くなる。戦闘・悪行で貯まる「悪徳ポイント」で拠点を開発し、軍団を育成する",
+          "章ごとに制限日数があり、誘拐や略奪で限られた時間内に戦力を最大化する「育成 RTA」的な進行",
+          "章ボスを倒すたびに世界の様相が変わり、怪人としてスーパーレンジャーと戦う、魔女として魔法少女を潰すなど状況が反転する"
+        ],
+        synopsis: "もう一つの地球。最凶の邪神「ギガスゴデス」は神を殺す一歩手前で赤子にされてしまい、あらかじめ仕込んでいた復活プログラム「DEMONS' NIGHT FEVER」を起動する。儀式に巻き込まれたのは、世界を憎む冴えないプログラマー「邪龍院狂死狼」。利害が一致した二人は奇妙な契約を結び、正義を名乗る神々に「悪」で挑む。",
+        ipSource: "アークシステムワークス／ドリコム／SuperNiche によるオリジナル IP（既存 IP のライセンスではない）",
+        series: "新川宗平が手がける新規 SRPG。2026-06 の Anime Expo 2026 パネルで存在が予告され、TGS2026 に出展。2026-09-17 から公式 Web マンガ全 8 話を連載",
+        cast: "水橋かおり、広瀬裕也ほか（TGS2026 のサイン色紙企画で 7 名を公表。全キャストは未公表）"
+      }
+    },
+    {
+      id: "azure-striker-gunvolt-triangle-ns2",
+      company: "Inti Creates",
+      companyJp: "株式会社インティ・クリエイツ",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-15（PS5／Steam 向け DLC『蒼き雷霆 ガンヴォルト GX』の詳細と紹介映像を公開）",
+      capturedAt: "2026-10-19",
+      title: { jp: "蒼き雷霆 ガンヴォルト トライアングル エディション Nintendo Switch 2 Edition", cn: "苍蓝雷霆 GUNVOLT 三棱合极版 Nintendo Switch 2 Edition", en: "Azure Striker Gunvolt Trilogy Enhanced: Nintendo Switch 2 Edition" },
+      genre: "軽小説 2D アクション（3 部作＋新規シナリオ）",
+      platforms: ["Nintendo Switch 2"],
+      release: "2026-10-22",
+      releasePrecision: "日",
+      summary: "Inti Creates 把 2025-07-24 发售的《苍蓝雷霆 GUNVOLT 三棱合极版》（收录 2014／2016／2022 三部正传与全部 DLC）移植到 Switch 2，并加入全新剧本「苍蓝雷霆 GUNVOLT GX」。GX 让钢伏特与 Copen 双主角同场，靠「灵感」系统切换角色积累增幅、攒满 GX 槽发动合击；Copen 每击破一名 Boss 获得专用 EX 武器。Switch 2 版支持更高分辨率与帧率，既有 Switch 版可花 1,500 日元买升级通行证；PS5／Steam 则在同日以 1,500 日元单独售卖 GX。2026-10-22 发售，6,480 日元。",
+      highlight: "【2026-10-15 GX の詳細と紹介映像】PS5／Steam 向け DLC「蒼き雷霆 ガンヴォルト GX」の詳細と紹介映像が公開された（1,500 円）。　Switch 2 Edition は 10-22 発売で 6,480 円（11-04 まで 21% OFF の 5,085 円）、既存 Switch 版からのアップグレードパスは 1,500 円（10% OFF の 1,350 円）。GX はガンヴォルトと Copen を切り替えながら進む書き下ろしの全編フルボイスストーリーで、待機中の相方が「インスピレーション」を溜め、満タンで交代すると一時強化と GX スキルにつながる。",
+      news: [
+        { source: "公式サイト（蒼き雷霆 ガンヴォルト トライアングル エディション）", url: "https://gunvolt.com/TE/" },
+        { source: "公式サイト（Nintendo Switch 2 Edition 特設・限定版／店舗特典）", url: "https://gunvolt.com/TE/jp/switch2/" },
+        { source: "GNN（DLC 追加モード「GX」の詳細と製品情報）", url: "https://gnn.gamer.com.tw/detail.php?sn=313470" }
+      ],
+      videos: [
+        { label: "公式 PV・映像一覧（GX 紹介映像を含む）", platform: "公式", url: "https://gunvolt.com/TE/jp/special/" },
+        { label: "Nintendo Switch 2 Edition 特設ページ（収録内容）", platform: "公式", url: "https://gunvolt.com/TE/jp/switch2/" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "シリーズ 3 部作と全 DLC をまとめた既存パッケージ（2025-07-24 発売）の Switch 2 版で、新規要素は書き下ろしシナリオ「GX」",
+          "2026-06-24 に Switch 2 Edition の情報を公開、2026-08-06 に GX の紹介映像、2026-10-15 に DLC 詳細と映像を公開と、段階的に情報を出している",
+          "発売記念セール（11-04 まで 21% OFF）と、既存 Switch 版からの 1,500 円アップグレードパスを用意している"
+        ]
+      },
+      tags: ["移植", "2Dアクション", "追加シナリオ", "Switch 2"],
+      console: {
+        status: "2026-10-22 発売予定（Nintendo Switch 2 Edition）",
+        os: ["Nintendo Switch 2"],
+        monetization: "買い切り。Switch 2 Edition 6,480 円（11-04 まで 5,085 円）／アップグレードパス 1,500 円（同 1,350 円）。PS5・Steam 版の追加シナリオ「蒼き雷霆 ガンヴォルト GX」は 1,500 円（いずれも税込）",
+        developer: "株式会社インティ・クリエイツ",
+        publisher: "株式会社インティ・クリエイツ",
+        region: "日本／北米／欧州（アジア向けパッケージは現地販売店経由）",
+        distribution: "パッケージ版（限定版 BOX あり）・ダウンロード版（Nintendo eShop）。アップグレードパスはダウンロードのみ",
+        stores: ["Nintendo eShop", "マイニンテンドーストア"],
+        preOrder: { open: true, since: "2026-09", reward: "店舗別特典と限定版 BOX の内容は公式サイトに掲載。ダウンロード版は発売記念セール（11-04 まで）を実施" },
+        features: [
+          "『蒼き雷霆 ガンヴォルト』（2014）『2』（2016）『3』（2022）の 3 部作と、これまでに配信された全 DLC を 1 本に収録",
+          "Switch 2 Edition は解像度・フレームレートを強化し、新規シナリオ「蒼き雷霆 ガンヴォルト GX」を同梱する",
+          "GX はガンヴォルトと Copen を任意に切り替える新システム「インスピレーション」を採用。待機側がゲージを溜め、交代で一時強化と GX スキルに繋がる",
+          "既存 Switch 版の保有者はアップグレードパスで Switch 2 Edition に移行できる",
+          "PS5／Steam 版は GX を単体 DLC（1,500 円）として同日配信し、本編側にも高難度ミッションを追加する"
+        ],
+        synopsis: "再び交差する二人の戦士——。『ガンヴォルト』シリーズ 3 部作をまとめたパッケージに、ガンヴォルトと Copen が共闘する書き下ろしシナリオ「GX」を加えた Switch 2 版。GX はシャオウーという旧友の失踪を発端に、二人の能力を切り替えながら進む全編フルボイスの物語で、クリア後には高難度ミッションが解放される。",
+        ipSource: "『蒼き雷霆 ガンヴォルト』シリーズ（インティ・クリエイツの自社 IP）",
+        series: "トライアングル エディション（2025-07-24 に Nintendo Switch ダウンロード版・Steam 版で発売）の Nintendo Switch 2 版。2026-06-24 に Switch 2 Edition の情報が公開され、2026-08-06 には GX の紹介映像が出た",
+        cast: "公式発表なし（GX の音声は日本語・英語のフルボイス）",
+        caution: "パッケージ限定版の価格と、アップグレード時のセーブデータ移行の可否は一次源で未確認（ダウンロード版の価格のみ確認済み）"
+      }
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -10490,7 +10662,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-17",
+    asOf: "2026-10-19",
     listTotal: 50,
     categories: [
       {
@@ -10498,7 +10670,7 @@ window.OBSERVATORY = {
         label: "大手パブリッシャー",
         sub: "コンシューマー・アーケード中心",
         items: [
-          { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders"] },
+          { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders", "nintendo-switch-sports-resort"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order", "tales-of-eternia-remastered", "digimon-alysion"] },
@@ -10566,7 +10738,7 @@ window.OBSERVATORY = {
           { name: "株式会社ヘキサドライブ", short: "HexaDrive", status: "watch" },
           { name: "あまた株式会社", short: "Amata", status: "watch" },
           { name: "株式会社イザナギゲームズ", short: "IzanagiGames", status: "covered", gameIds: ["akiba-lost"], note: "『AKIBA LOST』（2026-09-17 発売、日本テレビ／AX-ON との共同製作）を建卡。実写 ADV を軸に据える独立系で、日本テレビと組んでドラマ先行→ゲームという順序を取った点が特徴" },
-          { name: "株式会社インティ・クリエイツ", short: "Inti Creates", status: "watch", note: "TGS2026 Famitsu 直播环节已提及，尚未建卡" },
+          { name: "株式会社インティ・クリエイツ", short: "Inti Creates", status: "covered", gameIds: ["azure-striker-gunvolt-triangle-ns2"], note: "『蒼き雷霆 ガンヴォルト トライアングル エディション』（2025-07-24 発売）の Nintendo Switch 2 Edition を 2026-10-22 に発売。新規シナリオ「蒼き雷霆 ガンヴォルト GX」を同梱し、PS5／Steam 版には同日 1,500 円の DLC として配信する" },
           { name: "ポリゴンマジック株式会社", short: "Polygon Magic", status: "watch" },
           { name: "株式会社ビジュアルアーツ", short: "VisualArts", status: "covered", gameIds: ["summer-pockets-sunnyside-stories"], note: "京都・大阪を拠点とする老舗ビジュアルノベルメーカーで、ブランド「Key」を擁する。9/26 に Key の新作『Summer Pockets Sunnyside Stories』（2026-12-18、Windows 11 向け日本語版）の発売日と 3 形態の価格・特典を公式サイトで発表した" }
         ]
@@ -10593,7 +10765,7 @@ window.OBSERVATORY = {
         { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
-        { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow", "blazblue-centralfiction-ps5"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）。『BLAZBLUE CENTRALFICTION』PS5 版は自社 IP の機種追加として 2026-10-10 に発表" },
+        { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow", "blazblue-centralfiction-ps5", "demons-night-fever"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）。『BLAZBLUE CENTRALFICTION』PS5 版は自社 IP の機種追加として 2026-10-10 に発表。2026-10-22 には新川宗平（元日本一ソフトウェア社長）プロデュース、ドリコム×SuperNiche 開発の新規 SRPG『DEMONS' NIGHT FEVER』を発売する" },
         { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton", "hoshin-engi-re-surrection", "atmosfar"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展。2026-10-10 には、同ブランドが発行する空中サバイバル『ATMOSFAR』（開発：Apog Labs＝スウェーデン、PC 早期アクセス 2026-10-29 予定）を追記した" },
         { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
@@ -10690,8 +10862,24 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-18 夕方：日方主導の新規スマホ作はゼロ。京都の合同会社 SNAPLACE『京都ルール』（10-12 配信）を漏収追補し、Alliance Arts『PUKEY GODDESS SHOT TRICK』は体験版の一般公開中止を反映",
+    headline: "10-19 朝：日方主導の新規スマホ作はゼロ。10-22 発売の国内 3 本を漏収追補し、Switch 2 版『モンハンワイルズ』序章体験版と『FF RESONANCE』ファミ通 36/40 を反映",
     history: [
+      {
+        at: "2026-10-19 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ】本場も日方主導の新規スマホ作はゼロ。10-18 夜〜10-19 朝に確認できたモバイル案件は、既収録タイトルの続報（『DIGIMON ALYSION』の事前登録準備告知、『重兵装型女子高生 ワードレスレコード』のフォロー＆リポスト企画）と、韓国資本（Com2uS Japan『桃源暗鬼 Crimson Inferno』の国内事前登録、Netmarble×鬼滅の刃コラボ）、中国資本（中国資本系パブリッシャーの新作スマホが世界事前登録 2,500 万件を突破、戦術 SRPG 新作の事前登録開始）のみで、口径どおり不収録。",
+          "主机・PC の新規 3 件（いずれも 10-22 発売の国内作で未収録だった漏収追補）—— ①『Nintendo Switch Sports Resort』（任天堂／Switch 2 専用、10-22）。12 種目の体感スポーツとウーフーアイランドの探索を 1 本にまとめ、新規「親指相撲」「スケートボード」に加えて「パワークルーズ」「プロペラ機」などが復活する。②『DEMONS' NIGHT FEVER』（アークシステムワークス／ドリコム×SuperNiche、PS5・Switch・Steam、4,950 円）。新川宗平プロデュースのグリッド制 SRPG で、味方を犠牲にする「搾取従者システム」と制限日数の育成 RTA を軸にする。③『蒼き雷霆 ガンヴォルト トライアングル エディション Nintendo Switch 2 Edition』（インティ・クリエイツ、6,480 円）。3 部作＋全 DLC に書き下ろしシナリオ「GX」を同梱し、既存 Switch 版からは 1,500 円のアップグレードパスで移行できる。",
+          "既収録の更新 2 件 —— ①『モンスターハンターワイルズ（Switch 2 版）』が 2026-10-15 に無料の「序章体験版」を発表。10-19 PT（日本時間 10-20 未明）配信で、序章〜第 1 章 3 節「森へ」まで、14 種の武器すべて、セーブ引継ぎに対応する。マルチはローカル通信のみで、オンライン SOS は NPC のサポートハンターが代替する。同日デジタル予約も開始。②『FINAL FANTASY RESONANCE』が週刊ファミ通のクロスレビューで 9／9／9／9 の 36/40 を獲得（10-18 号）。4 名全員が 9 点を付けたのは今号で本作のみ。",
+          "条目総数は 183 → 186（スマホ区 45 は不変、主机・PC 区 153 → 156）。platformClass は console 118 → 121（multi 15／mobile 30／pc 20 は不変）。bucket は new 106 → 108、update 77 → 78。console 子塊 116 → 119、mobile 子塊 45。",
+          "companies：4 分類 8／16／16／10＝50（不変）、補充監視（extra）47 社（不変）。株式会社インティ・クリエイツを watch → covered とし gameIds に 1 件を登録。任天堂の gameIds に『Nintendo Switch Sports Resort』、アークシステムワークスの gameIds に『DEMONS' NIGHT FEVER』を追加した。",
+          "漏収核查：10-22 の国内発売ラッシュ（日服 eShop の週次リストと Famitsu レビュー一覧）を機械照合したところ、上記 3 本がいずれも未収録だった。IP 名検索（呪術廻戦／鬼滅の刃／ブルーロック／ONE PIECE／BLEACH／刀剣乱舞／ホロライブ／ポケモン／Otomate・LicoBiTs）では新規の日方スマホ作なし。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（事前登録 2,500 万件突破の告知、戦術 SRPG 新作、スマホ向けハンティング新作の予約数など）。② 韓国資本（Com2uS Japan『桃源暗鬼 Crimson Inferno』＝10-15 に国内事前登録開始、Netmarble 系コラボ）は不収録。③ 在営タイトルの内容更新（『モンスト』×『黄泉使者』コラボ、『ポケモンGO』のシーズンイベント、『Stella Sora』1 周年と Steam 版）は口径どおり不収録。④ 非日本開発のインディー（Hillthorn／Delve Survivors 等）は不収録（Delve Survivors は国内発行だが初公開日を一次源で確認できず、bucket 判定が不能なため見送り）。⑤ 18 禁（FANZA 運営）向けの新作は口径外。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（96 社＝hq 75／branch 11／out 10）。新規条目が match に命中した任天堂・アークシステムワークスの games を再計算し、全 96 社で decl≠act が 0 件であることを確認。meta.asOf を 2026-10-19 に更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：2026-10-17 期から変動なし（次号は 10-22 発売）。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-19 12:00 にエディア MintLip+『PROJECT SIGN：Astraea』の「資料」とキャラクターデザインが公開予定（本場の実行時刻より後）。② 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」。③『チェンソーマン』スマホ新作の開発・発行元は依然未公表。④『Delve Survivors』（NGJ 発行／iDiOSLAB 開発、Steam 11-12）は初公開日が未確認のまま。⑤ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
+        ]
+      },
       {
         at: "2026-10-18 19:00",
         scene: "定時巡検（夕方の部）",
@@ -10708,22 +10896,6 @@ window.OBSERVATORY = {
           "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③ 個人開発『高校野球マネジメント』は一次源・ストア URL を次場で確認したい。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤『DIGIMON ALYSION』は国内一次源（バンダイナムコ公式ニュース）未確認（caution に明記）。",
         ]
       },
-      {
-        at: "2026-10-18 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【スマホ】日方主導の新規スマホ作は本場もゼロ。10-17 夜〜10-18 朝に確認できたモバイル新作は、韓国資本のインディー『Seolhwa Dungeon』（Sungki Soft）と Netmarble『VAMPIR』のグローバル展開告知、韓国 OTIPLE の東南アジアソフトローンチのみで、いずれも口径どおり不収録。日方のスマホ側は既収録タイトルの続報（事前登録準備・体験版）にとどまった。",
-          "主机・PC の新規 1 件（漏収追補）—— FURYU の『クライムライト／CRYMELIGHT』（PS5／Nintendo Switch 2／Steam、2026-11-05、パッケージ通常版 4,378 円・税込）が未収録だった。FURYU の「暗黒美少女アクション」Cry シリーズ第 3 作で、開発は『アノマリス』と同じウイニングエンターテインメントグループ。初公開は 2026-04-25 で観測期間より前のため bucket=update とし、2026-09-17 の正式体験版（第 1 章まで 1.5〜3 時間）と OP 映像公開を観測点に収録した。ローグライク構造にポーカーの「役」で組むカードビルドと、倒した敵の断末魔で展開する「ワンダーディメンション」を組み合わせている。",
-          "既収録の更新 2 件 —— ①『ゼルダの伝説 時のオカリナ（リメイク）』（任天堂／Switch 2 独占、2026-11-05）が 2026-10-17 に日本向けの 30 秒 TVCM を公開し、水之神殿のダークリンクが初登場。剣の上に立つ挑発ポーズと、その重みでリンクの身体が反応する演出が新規。10-14 の概観トレーラーで判明した再戦エリア「Hall of Fallen Foes」とあわせ、発売 3 週間前から情報出しが加速している。②『進撃の巨人3』（コーエーテクモゲームス／ω-Force、2026-12-10）が 2026-10-17 に新ゲームトレーラーを公開。原作全編を通す構成、壁外調査の拠点運営と資源管理、巨人の新挙動が示され、Standard 69.99 ドル／SteelBook 版／デジタルデラックス（72 時間アーリーアクセス）の 3 形態で予約受付中と改めて案内された。",
-          "条目総数は 181 → 182（スマホ区 44 は不変、主机・PC 区 152 → 153）。platformClass は console 117 → 118（multi 15／mobile 29／pc 20 は不変）。bucket は new 105（不変）／update 76 → 77。console 子塊 115 → 116、mobile 子塊 44。",
-          "companies：4 分類 8／16／16／10＝50（不変）、補充監視（extra）47 社（不変）。株式会社フリューの gameIds を『アノマリス』1 件から 2 件に更新し、note の本社所在地を一次源（公式会社概要）に合わせて渋谷区鶯谷町に訂正した。",
-          "漏収核查（アニメ IP・ブランドの個別検索）：呪術廻戦／鬼滅の刃／東京リベンジャーズ／BLEACH／ONE PIECE／ホロライブ／刀剣乱舞／ブルーロック／ポケモン／進撃の巨人／Otomate・LicoBiTs に加え、ANOMALITH と同時期に動いていた FURYU の新作 2 本を機械照合 → 判明した漏収は『クライムライト／CRYMELIGHT』1 件のみ。デジモンは『DIGIMON ALYSION』が既収録、サンリオ・グリザイアも既収録だった。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない。② 韓国資本（Netmarble『VAMPIR』のグローバル展開、Sungki Soft『Seolhwa Dungeon』、OTIPLE の東南アジアソフトローンチ）は不収録。③ 発行元が香港法人のタイトルは紅線口径により不収録を継続。④ SIE の PS5 独占『Until Dawn 2』（2027-01-28、開発 Firesprite＝英国）は日本企業側が企画・開発を主導していないため不収録。⑤ Aggro Crab／Landfall『PEAK』の Switch 2 版、Raw Fury『Hillthorn』など非日本開発のインディーは不収録。⑥ 本体が観測期間より前の在営タイトルへの内容更新（『Pokémon Pokopia』のハロウィンイベント等）は口径どおり不収録。⑦ 18 禁（FANZA 運営）向けの新作は口径外として見送り。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（95 社＝hq 74／branch 11／out 10、onMap 85・outsideTokyo 10・hqPlotted 95 を維持）。新規条目が match に命中した株式会社フリューの games を 1 → 2 に更新し、全 95 社を機械再計算して decl≠act が 0 件であることを確認。meta.asOf を 2026-10-18 に更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：2026-10-17 期に入れ替え（前号 10-09 期から全 10 件の票数が減少）。1 位『ゼルダの伝説 時のオカリナ』636 票、2 位『Pokémon Winds / Waves』594 票、3 位『Persona 4 Revival』482 票、4 位『Persona 6』479 票。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-28 にバンダイナムコの「ガンダムゲーム 40 周年記念配信」が予定。②『チェンソーマン』スマホ新作の開発・発行元は依然未公表。③『KEMURI』の bucket 旧揺れ。④ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。⑤ 地図未打点 2 社（C#4R4CT3R／フォーミライ）は本社登記住所未取得のまま持越し。",
-          "【本場の特記事項】09:00 場として起動。前回実行は 2026-10-17 19:07（commit 548c51d、19:00 場）で増分区間は 10-17 夕方〜10-18 朝。自前で作っていない .tmp-* ファイルは検出されず、並行実行はなし。",
-        ]
-      },    ],
+    ],
   },
 };
