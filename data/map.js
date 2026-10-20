@@ -998,11 +998,12 @@ window.OBSERVATORY_MAP = {
       addr: "東京都渋谷区宇田川町40-1 Abema Towers", pref: "東京都",
       lat: 35.662331, lng: 139.696075, hqLat: 35.662331, hqLng: 139.696075, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/applibot.ico", games: 0,
+      logo: "assets/logo/applibot.ico", games: 1,
       match: ["アプリボット", "Applibot"],
       top: {"t":"FINAL FANTASY VII EVER CRISIS","b":"同社開発の主力タイトル"},
       eq: [
         {"rel":"parent","name":"サイバーエージェント","pct":"100%"},
+        {"rel":"sub","name":"Picorea","pct":"100%","note":"スマホ向けパズル『リラックマ ごゆるりパズル』の発売元。所在地は当社と同一（渋谷区宇田川町）"},
       ],
     },
     {
