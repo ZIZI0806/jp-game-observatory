@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-20T19:05:00+08:00",
-    edition: "2026-10-20",
-    window: "2026-08-20 ~ 2026-10-20（滚动最近 2 个月）",
+    updatedAt: "2026-10-21T12:40:00+08:00",
+    edition: "2026-10-21",
+    window: "2026-08-21 ~ 2026-10-21（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -3424,16 +3424,18 @@ window.OBSERVATORY = {
       companyJp: "TOHO Games（東宝株式会社／開発・運営：G2 Studios）",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-03-23",
-      capturedAt: "2026-09-15",
+      announceDate: "2026-10-20（App Store／Google Play での事前登録開始、メインビジュアルと公式 PV の公開、公式サイトのリニューアル）",
+      capturedAt: "2026-10-21",
       title: { jp: "ハイキュー!! ALL Challengers", cn: "排球少年!! ALL Challengers", en: "Haikyu!! ALL Challengers" },
       genre: "育成シミュレーション",
       platforms: ["iOS", "Android"],
       release: "未定",
       releasePrecision: "未定",
       summary: "东宝旗下游戏品牌 TOHO Games 企划・制作・发行，G2 Studios 开发运营的《排球少年!!》首款正统养成手游。主打「只属于自己的、以顶点为目标的故事」——球员的培养方针完全交由玩家决定：观察每位球员的数值属性、判断成长方向、安排训练菜单，再用亲手培养的选手编组出理想球队参赛。收录全新绘制的 2D 动态立绘与插画，并由动画原班声优录制专属新语音。采用竖屏单手操作。2026-03-23 发表并同步开启事前登录（官方 SNS 或 TOHO-ONE 平台，通过 TOHO-ONE 注册可获追加特典）。",
-      highlight: "选择「养成模拟」而非动作玩法，是《排球少年!!》手游系列第一次把教练视角做成核心循环。",
+      highlight: "【2026-10-20 ストア事前登録開始】TOHO Games が App Store／Google Play での事前登録を開始し、メインビジュアルと公式 PV を公開、公式サイトもリニューアルオープンした。　选择「养成模拟」而非动作玩法，是《排球少年!!》手游系列第一次把教练视角做成核心循环。",
       news: [
+        { source: "gamebiz（ストア事前登録開始・メインビジュアル・公式 PV・公式サイト更新）", url: "https://gamebiz.jp/news/434399" },
+        { source: "4Gamer.net（App Store／Google Play での事前登録開始と PV 公開）", url: "https://www.4gamer.net/games/992/G099243/20261020009/" },
         { source: "QooApp 新闻（发表内容与事前登录方式）", url: "https://news.qoo-app.com/post/432673" },
         { source: "Ludens Media（官方链接与宣传影片汇总）", url: "https://www.ludens.com.tw/haikyu-all-challengers-pre-registration-start-2026" },
         { source: "GameHaunt（事前登录奖励与玩法定位分析）", url: "https://gamehaunt.com/haikyu-all-challengers-revealed-for-mobile-game-pre-registration-launches-in-japan" },
@@ -3442,6 +3444,8 @@ window.OBSERVATORY = {
       videos: [
         { label: "官方站", platform: "官方站", url: "https://haikyu-allchallengers.jp/" },
         { label: "官方宣传影片（PV）", platform: "YouTube", url: "https://www.youtube.com/watch?v=p1yZgQSHRkE" },
+        { label: "官方 X（公式アカウント・最新情報）", platform: "X", url: "https://x.com/haikyu_ALLC" },
+        { label: "App Store ストアページ（事前登録）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6760275408" },
         { label: "TOHO-ONE 事前登录活动页（追加特典说明）", platform: "官方活动页", url: "https://www.toho-one.com/campaigns/2026/PR07001" }
       ],
       hype: {
@@ -3460,7 +3464,7 @@ window.OBSERVATORY = {
         preReg: {
           open: true,
           since: "2026-03-23",
-          reward: "事前登録人数に応じてゲーム内アイテムを配布。公式 SNS フォローまたは TOHO-ONE での登録が対象で、TOHO-ONE 経由は一般報酬に加えて追加特典あり。ガチャチケット配布に加え、Amazon ギフトコード等の抽選企画も実施"
+          reward: "事前登録人数に応じてゲーム内アイテムを配布。公式 SNS フォローまたは TOHO-ONE での登録が対象で、TOHO-ONE 経由は一般報酬に加えて追加特典あり。ガチャチケット配布に加え、Amazon ギフトコード等の抽選企画も実施。2026-10-20 からは App Store／Google Play のストアページからも登録できる"
         },
         developer: "G2 Studios",
         publisher: "TOHO Games（東宝株式会社）",
@@ -3473,8 +3477,7 @@ window.OBSERVATORY = {
           "育成した選手で自分だけのチームを編成し、大会で「頂点」を目指す",
           "新規描き下ろしの 2D アニメーション・イラストを収録",
           "アニメ本編キャストによる新規録り下ろしボイス",
-          "縦画面・片手操作に最適化された UI",
-          "TOHO-ONE 経由の事前登録で追加特典"
+          "縦画面・片手操作に最適化された UI。App Store／Google Play と TOHO-ONE の両方から事前登録できる"
         ],
         synopsis: "アニメ『ハイキュー!!』を題材に、プレイヤーが監督となって選手を育てる育成シミュレーション。日々の練習でどの能力を伸ばすか、いつ休ませるかといった判断を積み重ね、自分だけの理想のチームを作り上げていく。試合に勝ち続け、バレー界の「頂点」を目指すのが目標。過去作のようなアクション操作ではなく、戦略と育成に重心を置いた設計が特徴。",
         cast: "日向翔陽・影山飛雄ほか、アニメ本編の主要キャストが新規収録"
@@ -10902,6 +10905,190 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "手游", "ミニゲーム", "アドベンチャー", "SNAPLACE"]
     },
+
+    {
+      id: "sawaru-butsuri",
+      company: "SNAPLACE",
+      companyJp: "合同会社SNAPLACE（京都）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-10-13（iOS／Android 配信開始）",
+      capturedAt: "2026-10-21",
+      title: { jp: "さわる物理 ― 高校物理を実験で覚える", cn: "触摸物理", en: "Sawaru Butsuri" },
+      genre: "物理修理アドベンチャー／学習ゲーム（高校物理）",
+      platforms: ["iOS", "Android"],
+      release: "2026-10-13（配信開始済み。App Store の初回公開は 2026-10-02、ver 1.0.3 は 10-04）",
+      releasePrecision: "已发售",
+      summary: "京都的合同会社 SNAPLACE 于 2026-10-13 在 iOS／Android 推出的「物理修理冒险」。世界设定为物理定律被神秘存在 Δ 破坏——重力加倍、月球坠落、摩擦消失、桥被冲走——玩家扮演修理工，先听委托人的描述把原因收窄成三种假说，再实际测量、做实验、自己把公式一块块拼出来，最后以实验装置能否正常运转判定对错，而不是选择题。收录力学、热、波动、电磁、原子共 113 个单元，5 个地区 30 台装置、26 个「如果物理」世界、10 章剧情，另有高考题型实验室、立式电子计算器与间隔复习。免费游玩，买断 500 日元解锁全部，无广告、不联网、不收集个人信息。",
+      highlight: "【2026-10-13 配信開始】京都の合同会社SNAPLACE が、壊れた物理法則を実験で直す高校物理アドベンチャー『さわる物理』を iOS／Android で配信開始した。　公式を先に覚えるのではなく、困りごとに出会い、測定し、式を自分で組み立てる順番に組み替えている。全 113 単元・5 地区 30 装置・26 の「もしも物理」・10 章の物語を収録し、無料の範囲に加えて買い切り 500 円で全解放。広告・通信・個人情報収集はいずれもなし。",
+      news: [
+        { source: "AppBank（配信開始・収録単元・料金・無料範囲）", url: "https://www.appbank.net/2026/10/15/game/3133061.php" },
+        { source: "gamebiz（配信開始とゲーム内容）", url: "https://gamebiz.jp/news/434421" },
+        { source: "Quest Board.JP（遊び方・課金形態の解説）", url: "https://quest-board.jp/en/quests/ios-android-000000120-000018041" },
+        { source: "公式サイト（合同会社SNAPLACE 製品ページ）", url: "https://snaplace-corp.jp/sawarubutsuri/" }
+      ],
+      videos: [
+        { label: "公式サイト（スクリーンショット・4 つの遊びかた紹介）", platform: "官方站", url: "https://snaplace-corp.jp/sawarubutsuri/" },
+        { label: "App Store ストアページ（スクリーンショット・紹介文）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6799868337" },
+        { label: "Google Play ストアページ（スクリーンショット・紹介文）", platform: "Google Play", url: "https://play.google.com/store/apps/details?id=jp.snaplace.sawarubutsuri" }
+      ],
+      hype: {
+        score: 10,
+        signals: [
+          "配信直後でストア評価は未形成（App Store の評価件数は 0）。Famitsu 期待榜にも登場していない",
+          "告知は AppBank・gamebiz・Quest Board の記事が中心で、事前登録や大型広告を伴わない小規模ローンチ",
+          "買い切り 500 円・広告なし・通信なしという設計で、運営型のソーシャルゲームとは市場が重ならない",
+          "開発・販売は京都の合同会社SNAPLACE（国内法人）で、外資の関与は確認できない"
+        ]
+      },
+      tags: ["新作", "手游", "学習", "物理", "SNAPLACE"],
+      mobile: {
+        status: "正式サービス中（2026-10-13 配信開始）",
+        os: ["iOS 17.0 以上", "Android"],
+        monetization: "無料（買い切り 500 円のアプリ内課金 1 商品のみ）。広告・サブスクリプション・追加課金なし",
+        preReg: {
+          open: false,
+          since: "—",
+          reward: "事前登録なし（配信開始済み）"
+        },
+        developer: "合同会社SNAPLACE",
+        publisher: "合同会社SNAPLACE",
+        region: "日本（日本語・英語）",
+        distribution: "App Store / Google Play（日本）",
+        payment: [],
+        ipSource: "オリジナル（同社の自社企画。特定 IP のライセンスではない）",
+        series: "京都の合同会社SNAPLACE による自社タイトル。同社は『京都ルール あなたは京都で生活できますか』『うめしわ 〜定時で帰りたい365日〜』を手がける",
+        features: [
+          "止まった街の装置のつまみを合わせて直す「修復の遠征」。5 地区×6 装置の全 30 装置に、それぞれ 1 つの法則が対応する",
+          "公式は最初から与えられず、測定データから自分で式を 1 ピースずつ組み立てる。答え合わせは○×ではなく、実験装置が実際に動くかどうかで行う",
+          "「もしも物理」は重力定数が 2 倍になり月が落ちてくる世界など 26 世界を、Δ（デルタ）を追いながら修理するアドベンチャー仕立て",
+          "「はっけん物理」はガリレオの斜塔から現代の研究室まで 10 章の物語。実験学習ラボと入試問題ラボを合わせて全 113 単元を収録する",
+          "買い切り 500 円で全単元を解放。広告なし・通信なし（課金処理を除く）・個人情報を収集しないと公式が明記する"
+        ],
+        synopsis: "重力が 2 倍になって月が落ちてくる。橋が流されて、荷物を投げて届けるしかない港。何が壊れたのかを推理し、実験で確かめ、公式を自分で組み立てて直していく——直す方法は高校物理の公式だけ。題材は物理基礎と物理の全範囲だが、やることは「勉強」ではなく「修理」で、狙いどおりに直せた瞬間にその装置の法則が公式として手に入る。",
+        cast: "公式発表なし"
+      }
+    },
+
+    {
+      id: "chirucamp",
+      company: "enish",
+      companyJp: "株式会社enish",
+      bucket: "update",
+      platformClass: "multi",
+      announceDate: "2026-10-16（Steam 版の 2026-10-22 アーリーアクセス開始と価格 1,300 円を発表）",
+      capturedAt: "2026-10-21",
+      title: { jp: "ゆるキャン△ つなげるみんなのオールインワン!! ちるタイム", cn: "摇曳露营△ 悠闲时光", en: "Laid-Back Camp: Chill Time" },
+      genre: "チル × 作業支援（ポモドーロタイマー／キャンプ場づくり）",
+      platforms: ["iOS", "Android", "PC（Steam）"],
+      release: "2026-10-22（Steam 早期アクセス開始。iOS／Android は同日のアップデートで『ちるキャン△』へ移行）",
+      releasePrecision: "日",
+      summary: "《摇曳露营△》IP 的「边看露营边工作」作业支援游戏。用番茄钟把工作与休息切开，累计时长会记进日记、可在日历回看；待办写在 ToDo 上，做完就划掉。能给抚子、凛、千明、葵、惠那换装（含原创服装），帐篷、装备、料理可自由摆放，搭出自己的营地，装备与服装合计超过 1000 种。BGM 之外还能把篝火、雨、河、虫、风、海的环境音按喜好叠起来当工作背景音。Steam 版 2026-10-22 开启抢先体验，买断 1,300 日元、无扭蛋、DLC 另售；iOS／Android 同日通过更新从《つなキャン△》切到本作，无需重装，基本免费含内购。",
+      highlight: "【2026-10-16 発表／Steam 10-22 先行配信】enish が『ちるキャン△』の Steam 早期アクセスを 2026-10-22 に開始し、価格を 1,300 円（税込）に決めたと発表した。ウィッシュリストは 1 万件を突破している。　焚き火や雨の環境音を重ねながら、リンやなでしこのキャンプを眺めて作業する「チル×作業支援」。iOS／Android 版は同日のアップデートで『つなキャン△』から本作へ切り替わり、新規インストールは不要。ギアと着せかえは 1,000 種以上。",
+      news: [
+        { source: "AppBank（Steam 版の価格・配信形態・ゲーム内容・公式 X の動画）", url: "https://www.appbank.net/2026/10/19/game/3134878.php" },
+        { source: "Steam ストアページ（ウィッシュリスト・早期アクセス）", url: "https://store.steampowered.com/app/5063150/_/" },
+        { source: "公式サイト（ゲームアプリ公式）", url: "https://yurucamp-game.enish.com/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/5063150/_/" },
+        { label: "公式サイト", platform: "官方站", url: "https://yurucamp-game.enish.com/" },
+        { label: "公式 X（作業画面のゲーム動画 3 本を公開）", platform: "X", url: "https://x.com/yurucamp_game" }
+      ],
+      hype: {
+        score: 36,
+        signals: [
+          "『ゆるキャン△』IP の作業支援ゲームで、Steam のウィッシュリストがストアページ公開から約 1 か月で 1 万件を突破した",
+          "Steam 版は買い切り 1,300 円・ガチャなしで、運営型のソーシャルゲームとは課金形態が異なる",
+          "配信中のアプリを同日アップデートで切り替える方式のため、既存利用者の母数をそのまま引き継ぐ",
+          "Famitsu 期待榜には未登場。告知は AppBank と公式 X が中心"
+        ]
+      },
+      tags: ["IP授权", "跨平台", "作業支援", "チル", "enish"],
+      mobile: {
+        status: "サービス中（iOS／Android は 2026-10-22 のアップデートで『ちるキャン△』へ移行、Steam は同日アーリーアクセス開始）",
+        os: ["iOS", "Android"],
+        monetization: "iOS／Android は基本無料（一部アイテム課金）。Steam は買い切り 1,300 円（税込）でガチャなし、追加コンテンツ（DLC）は別売り",
+        preReg: {
+          open: false,
+          since: "—",
+          reward: "事前登録なし（配信中タイトルの大型アップデートと Steam 早期アクセス）"
+        },
+        developer: "株式会社enish",
+        publisher: "株式会社enish",
+        region: "日本（Steam 版は日本 1,300 円／米国 9.99 ドル／台湾 188 台湾ドル）",
+        distribution: "App Store / Google Play / Steam",
+        payment: [],
+        ipSource: "『ゆるキャン△』（あfろ／芳文社・野外活動プロジェクト）",
+        series: "配信中の『ゆるキャン△ つなげるみんなのオールインワン!!』（通称つなキャン△）を、2026-10-22 のアップデートで『ちるキャン△』へ改修する。同一アプリのため再インストールは不要",
+        features: [
+          "ポモドーロタイマーで作業と休憩を繰り返すと、その時間が日記に積み上がり、カレンダーでいつでも振り返れる",
+          "ToDo に書き出して終わったものから消していく作業管理と、キャンプを眺める画面が一体化している",
+          "なでしこ・リン・千明・あおい・恵那を着せかえ。テント・ギア・料理を好きな位置に置いて自分だけのキャンプ場を組める",
+          "ギアと着せかえは 1,000 種類以上。焚き火・雨・川・虫・風・海の環境音を好きなバランスで重ねて作業用 BGM にできる",
+          "Steam 版は買い切りでガチャなし。配信後も利用者の意見を反映した機能追加・改善を続けるとしている"
+        ],
+        synopsis: "リンやなでしこたちのキャンプを眺めながら、自分の仕事や勉強の時間を進める「チル×作業支援」ゲーム。ポモドーロタイマーで区切った作業時間は日記に積み上がり、ToDo を片付けるたびにキャンプの営みが少しずつ進んでいく。焚き火の音と雨の音を重ね、テントとギアを並べ替えて、机の横に小さなキャンプ場を置くような遊び。",
+        cast: "公式発表なし"
+      }
+    },
+
+    {
+      id: "culdcept-begins",
+      company: "Neos",
+      companyJp: "ネオス株式会社",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-20（Steam 版の 2026-10-28 発売を発表）",
+      capturedAt: "2026-10-21",
+      title: { jp: "カルドセプト ビギンズ", cn: "卡片召唤师 BEGINS", en: "Culdcept BEGINS" },
+      genre: "ボードゲーム × カードゲーム（デッキ構築ストラテジー）",
+      platforms: ["Nintendo Switch", "Nintendo Switch 2", "PC（Steam）"],
+      release: "2026-07-16（Switch／Switch 2 発売済み。PC（Steam）版は 2026-10-28）",
+      releasePrecision: "日",
+      summary: "1997 年由大宫软开创的「棋盘 × 卡牌」融合系列最新作，也是该系列约 10 年来的全新作品，由 Neos（tecMira Holdings 子公司）发行。玩家成为「Cepter」，掷骰在棋盘上移动、占领领地，用生物卡、道具卡、咒文卡作战，400 多张卡全部重绘，画面、UI 与世界设定一并刷新。2026-07-16 已登陆 Switch／Switch 2，全球出货与数字版合计突破 10 万套。Steam 版 2026-10-28 发售，追加 3 张新对战地图、10 种 Book 封面、卡牌图鉴朗读功能，并改善地图模式下角色位置与岔路行进方向的可视性；这些追加内容日后也会以免费更新回填到 Switch 版。Steam Next Fest 2026 年 10 月版提供试玩。",
+      highlight: "【2026-10-20 発表】ネオスが『カルドセプト ビギンズ』の PC（Steam）版を 2026-10-28 に発売すると発表した。　Switch／Switch 2 版は 2026-07-16 発売済みで、世界累計の出荷とダウンロード販売が 10 万本を突破している。Steam 版は新対戦マップ 3 枚、Book カバー 10 種、カード図鑑の読み上げ機能を追加し、マップモードのキャラ位置と分岐の進行方向の見やすさを改善。Steam Next フェス 2026 年 10 月版で体験版を配信中。",
+      console: {
+        status: "2026-07-16 発売済み（Switch／Switch 2）。PC（Steam）版は 2026-10-28 発売予定",
+        os: ["Nintendo Switch", "Nintendo Switch 2", "PC（Steam）"],
+        monetization: "買い切り。Steam 版の通常価格は未発表。早期購入特典（2026-10-28〜12-27）と、デジタルコンテンツ 5 点を同梱する Digital Deluxe Edition を用意する",
+        developer: "未公表（シリーズ原案はオウミヤソフト／発売はネオス）",
+        publisher: "ネオス株式会社（テクミラホールディングス子会社）",
+        region: "日本（日本語・英語・韓国語・繁体字・簡体字に対応）",
+        distribution: "パッケージ版・ダウンロード版",
+        stores: ["Nintendo eShop", "Steam", "全国のゲーム取扱店"],
+        features: [
+          "サイコロで盤面を進み、領地を占拠してカードで戦う「ボードゲーム×カードゲーム」の融合システム。25 年以上続くシリーズの最新作",
+          "全 400 枚以上のカードを描き下ろし。クリーチャー／アイテム／スペルで Book（デッキ）を組み、属性と領地で戦況が変わる",
+          "Steam 版は新対戦マップ 3 枚、Book カバー 10 種、カード図鑑の読み上げ機能を追加。マップモードのキャラ位置と分岐の進行方向の視認性も改善する",
+          "Steam 版の追加要素は、後日 Nintendo Switch／Switch 2 版にも無料アップデートとして還元される予定",
+          "1〜4 人対戦に対応。Steam Next フェス 2026 年 10 月版で体験版を配信し、早期購入特典の配布は 2026-12-27 まで"
+        ],
+        synopsis: "神々が創った大陸バヴラシュカ。その中心にある王立セプト学院では、石板「カウル」の力を扱うセプターが育成されている。転入したカムルはその才能を見出され、王国セプター守護隊に選ばれる。盤上を進み、領地を奪い、カードで戦う——運と戦略がせめぎ合う勝負の中で、セプターの力が目を覚ましはじめる。",
+        ipSource: "『カルドセプト』シリーズ（1997 年にオウミヤソフトが創出した国内オリジナル IP）",
+        series: "1997 年の初代以来 25 年以上続くシリーズ。本作は約 10 年ぶりの新作で、2026-07-16 に Switch／Switch 2 で発売され、世界累計 10 万本を突破した",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "Games Press（ネオス公式リリース：Steam 版 10-28 発売・追加要素・早期購入特典）", url: "https://www.gamespress.com/en-GB/Culdcept-BEGINS-arrives-on-Steam-October-28th" },
+        { source: "Gematsu（Steam 版 10-28 発売・10 万本突破）", url: "https://www.gematsu.com/2026/10/culdcept-begins-for-pc-launches-october-28" },
+        { source: "4Gamer.net（PC 版の発売日決定と体験版の案内）", url: "https://www.4gamer.net/games/981/G098183/20261020017/" }
+      ],
+      videos: [
+        { label: "公式トレーラー（Steam 版 10-28 発売告知）", platform: "YouTube", url: "https://youtu.be/GiZ1OLoUb4Q" },
+        { label: "4Gamer.net 記事（PC 版発売日と体験版）", platform: "媒体", url: "https://www.4gamer.net/games/981/G098183/20261020017/" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "Switch／Switch 2 版が世界累計 10 万本を突破しており、家庭用での需要は確認済み",
+          "25 年以上続く国内オリジナル IP の約 10 年ぶりの新作で、Steam 版は新規層への拡張を狙う",
+          "Steam Next フェス 2026 年 10 月版に体験版を出展し、ウィッシュリスト獲得を図っている",
+          "Famitsu 期待榜には登場していない。告知はプレスリリースと海外メディア中心"
+        ]
+      },
+      tags: ["主机PC", "ボードゲーム", "カード", "Steam", "ネオス"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -10909,7 +11096,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-20",
+    asOf: "2026-10-21",
     listTotal: 50,
     categories: [
       {
@@ -11008,7 +11195,7 @@ window.OBSERVATORY = {
         { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
         { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["regloss-cross", "hololive-dreams", "holovillage-our-cozy-days", "hololive-mahjong-holojan"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発。2026-10-09 には Aiming との協業で hololive 初の麻雀ゲーム『ホロライブ麻雀 -ホロじゃん-』を発表した" },
         { name: "株式会社QualiArts", short: "QualiArts", status: "covered", gameIds: ["hololive-dreams"], note: "サイバーエージェント連結子会社。『hololive Dreams』の開発・配信元" },
-        { name: "株式会社enish", short: "enish", status: "covered", gameIds: ["yowamushi-pedal-resonance-pedaism"], note: "東証グロース上場。Gホールディングスと共同で『弱虫ペダル』新作アプリを運営" },
+        { name: "株式会社enish", short: "enish", status: "covered", gameIds: ["yowamushi-pedal-resonance-pedaism", "chirucamp"], note: "東証グロース上場。Gホールディングスと共同で『弱虫ペダル』新作アプリを運営。『ゆるキャン△ つなげるみんなのオールインワン!!』を 2026-10-22 のアップデートで『ちるキャン△』へ改修し、同日 Steam 早期アクセス（買い切り 1,300 円）も開始する" },
         { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
@@ -11039,7 +11226,7 @@ window.OBSERVATORY = {
         { name: "Gホールディングス株式会社（G Holdings Co., Ltd.）", short: "G Holdings", status: "covered", gameIds: ["girls-und-panzer-bokosuka-rush"], note: "本社・東京都新宿区西新宿（2018 年 6 月設立）の日本企業。事業内容はスマートフォンゲームの企画・制作で、グノシー（Gunosy Inc.／東証プライム 6047）の 100% 子会社。アニメ・漫画 IP のスマホゲームを手がけ、『ハイキュー!! TOUCH AND CONNECT』『弱虫ペダル レゾナンス・ペダイズム』『進撃の巨人 Brave Order』などを展開してきた。2026-10-09 にアニメ『ガールズ&パンツァー』の新作スマホアプリ『ガールズ&パンツァー ボコすかラッシュ』の開発・配信を発表したため補充監視に追加（資本は日本側のみ＝中資否認、グノシーの会社概要ページで確認）" },
         { name: "株式会社フェイズ（Phase Co., Ltd.）", short: "Phase", status: "covered", gameIds: ["karei-endless-death-match"], note: "東京都を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオ。ターン制パズルローグライク『華麗 無限城の死闘』（Steam／iOS／Android、2026 年第 4 四半期予定）を自社で開発・販売し、2026-10-02 に無料体験版を 10-10 配信と発表したため補充監視に追加。TGS2026 に出展し会場で試遊を実施した" },
         { name: "株式会社エディア", short: "エディア", status: "covered", gameIds: ["project-sign-astraea", "rebirthday-song-switch", "kigetsu-night-of-the-waning-moon"], note: "東証スタンダード上場（証券コード 3935）の IP・出版企業。本社は東京都千代田区一ツ橋。2025-09-30 に女性向けコンシューマーブランド「MintLip+」を設立し、Nintendo Switch 用の完全新作乙女ゲーム 2 本の制作を発表、その第 1 弾『PROJECT SIGN：Astraea』が 2026-10-13 にティザーサイトを公開した。2026-10-08 には honeybee（アリスマティック）の『Re:BIRTHDAY SONG〜恋を唄う死神〜 another record』の Nintendo Switch 移植版の発売決定と予約受付を発表している" },
-        { name: "ネオス株式会社", short: "ネオス", status: "covered", gameIds: ["crayon-shinchan-switch2"], note: "東京都千代田区神田須田町に本社を置き、コンシューマゲーム事業と DX ソリューション事業を展開する日本企業。親会社はテクミラホールディングス（東証スタンダード 3627）。『クレヨンしんちゃん』ゲームシリーズ 2 作の Nintendo Switch 2 版（2027-03-04）を 2026-10-13 に発表した" },
+        { name: "ネオス株式会社", short: "ネオス", status: "covered", gameIds: ["crayon-shinchan-switch2", "culdcept-begins"], note: "東京都千代田区神田須田町に本社を置き、コンシューマゲーム事業と DX ソリューション事業を展開する日本企業。親会社はテクミラホールディングス（東証スタンダード 3627）。『クレヨンしんちゃん』ゲームシリーズ 2 作の Nintendo Switch 2 版（2027-03-04）を 2026-10-13 に発表した。2026-10-20 には『カルドセプト ビギンズ』の PC（Steam）版を 10-28 に発売すると発表している" },
         { name: "フォーミライ株式会社", short: "フォーミライ", status: "covered", gameIds: ["morpho-reverie"], note: "音楽 ADV のパブリッシングを手がける国内企業。開発は Spectra Motif Studio。2026-08-31 に Steam ストアページと初報 PV を公開し、2026-10-15 に無料体験版を配信した『Morpho Reverie』（PC／Steam、本編の発売日・価格は未発表）を補充監視に追加した" },
         { name: "C#4R4CT3R", short: "C#4R4CT3R", status: "covered", gameIds: ["rain98"], note: "東京都渋谷区を拠点とするインディーゲームのレーベル兼パブリッシャー。2026-10-17 に Steam で無料体験版を配信した『Rain98』（PC／Steam、2026 年内発売予定・価格未発表）を手がける。代表作の初公開は 2025-04 で観測期間より前のため、体験版配信を更新として記録した。本社の登記住所は一次源で未確認のため会社地図には未打点" },
       ]
@@ -11109,8 +11296,25 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-20 夕：サンエックスの『リラックマ ごゆるりパズル』（2027 年初頭・事前登録開始）と京都 SNAPLACE の『うめしわ 〜定時で帰りたい365日〜』を収録。エディアの『PROJECT SIGN：Astraea』は『アストライアの罪咎』として 2027-03-25 に発売決定",
+    headline: "10-21 朝：京都 SNAPLACE の高校物理アドベンチャー『さわる物理』（10-13 配信）を漏収追補。『ハイキュー!! ALL Challengers』は 10-20 にストア事前登録を開始し公式 PV を公開。ネオス『カルドセプト ビギンズ』Steam 版は 10-28 発売へ",
     history: [
+      {
+        at: "2026-10-21 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ】本場の増分区間（10-20 19:10〜10-21 12:40）で、日方主導の新規スマホ作は 1 件。京都の合同会社SNAPLACE が 2026-10-13 に iOS／Android で配信した高校物理アドベンチャー『さわる物理 ― 高校物理を実験で覚える』を漏収追補した。物理定数が壊れた世界で、依頼人の話から原因を推理し、測定・実験を経て公式を自分で組み立て、装置が動くかどうかで採点される。全 113 単元・5 地区 30 装置・26 の「もしも物理」・10 章の物語を収録し、無料＋買い切り 500 円・広告なし・通信なし。10-15 の AppBank、10-20 の gamebiz で報じられていたが未収録だった。",
+          "条目総数は 190 → 193（スマホ区 49 → 50、主机・PC 区 156 → 157）。platformClass は mobile 34 → 35（console 121 → 122／multi 15 → 16／pc 20 は不変）。bucket は new 112 → 113、update 78 → 80。『さわる物理』は本体配信が窗口内（2026-08-21 以降）のため new、『ちるキャン△』『カルドセプト ビギンズ』は本体が窗口左端より前の在営・発売済み作で、本場の観測点が他機種版（Steam）の配信決定のため update。",
+          "更新 1 件：『ハイキュー!! ALL Challengers』（TOHO Games／開発・運営 G2 Studios）。2026-10-20 に App Store／Google Play での事前登録を開始し、メインビジュアルと公式 PV を公開、公式サイトもリニューアルした。3 月の発表時は公式 SNS と TOHO-ONE 経由の登録のみだったため、ストア側の受付開始は初。announceDate・capturedAt・highlight 先頭・news 先頭・videos（公式 X と App Store）を更新し、features を 6 条から 5 条に整理した。",
+          "漏収 2 件（他機種版・作業支援の大型改修）：①『ゆるキャン△ つなげるみんなのオールインワン!! ちるタイム』（通称ちるキャン△、enish）＝2026-10-22 に Steam 早期アクセス開始、買い切り 1,300 円・ガチャなし。同一日に iOS／Android 版もアップデートで本作へ移行し、再インストールは不要。ウィッシュリストは 1 万件を突破。②『カルドセプト ビギンズ』（ネオス）＝Switch／Switch 2 版は 2026-07-16 発売済みで世界累計 10 万本。2026-10-20 に PC（Steam）版を 10-28 発売と発表し、新対戦マップ 3 枚・Book カバー 10 種・カード図鑑の読み上げを追加する。両件とも本体が窗口外のため bucket=update。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（10-21 に国内配信が始まったスマホ新作、10-20 に世界事前登録を始めた大型オープンワールド、10-21 の海外アップデート 等）。② 韓国資本は不収録（NHN の『推しの子』原作パズルが 10-20 に世界事前登録開始、GRAVITY のバスケカードゲームが 10-20 に配信開始）。③ 在営タイトルの内容更新（『ステラソラ』1 周年 POP UP STORE、『Wizardry Variants Daphne』2 周年、『SDガンダム ジージェネレーション エターナル』新イベント 等）は口径どおり不収録。④ 香港法人が発行する『THANKS, LIGHT.』（10-20 リリース）は紅線口径どおり見送り。⑤ 10-20 に Steam ストアページを公開した『EGO DESCENT』（RAIDENWORKS）は、法人の国籍・資本構成を一次源で確認できず持越し。",
+          "運営終了・事業情報：該当なし（本場の増分区間で新たなサービス終了の告知は確認できなかった）。",
+          "companies：4 分類 8／16／16／10＝50、補充監視（extra）47 社、いずれも不変。ネオスの gameIds に culdcept-begins、enish の gameIds に chirucamp を追記し、双方の note を更新した。『さわる物理』の SNAPLACE は extra 未登録のまま（京都の小規模法人で、既存 2 件と同じ判断）。",
+          "漏収核查：gamebiz の 10-20 分全記事、4Gamer の 10-20〜10-21 分、AppBank の 10-20 分、PR TIMES のゲーム分類、iTunes Search API（jp）を機械照合した。IP 名検索（呪術廻戦／鬼滅の刃／ブルーロック／東京リベンジャーズ／ホロライブ／刀剣乱舞／ポケモン／ハイキュー／ONE PIECE／BLEACH）では、日方主導の新規スマホ作は追加で確認できなかった。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（96 社＝hq 75／branch 11／out 10、onMap 86・outsideTokyo 10・hqPlotted 96）。新規 3 件のうち SNAPLACE は母集団外、enish・ネオスは既存社で games カウントが 1 件ずつ増えるため、全 96 社を機械再計算した。meta.asOf を 2026-10-21 に更新。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：10-21 時点で新期の発表なし（次号は 10-22 発売）。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-22 の国内発売ラッシュ（FF RESONANCE／Nintendo Switch Sports Resort／DEMONS' NIGHT FEVER／GUNVOLT／ちるキャン△ Steam）の初日情報。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（重大発表）。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版発売。④『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑤『JockeyBox』のストア・映像公開待ち。⑥ RAIDENWORKS『EGO DESCENT』の法人情報。⑦ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
+        ]
+      },
       {
         at: "2026-10-20 19:00",
         scene: "定時巡検（夕方の部）",
@@ -11125,23 +11329,6 @@ window.OBSERVATORY = {
           "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（96 社＝hq 75／branch 11／out 10）。新規 2 件はいずれも母集団（categories 50 社＋extra 47 社）外の法人のため打点対象外で、96 社の games カウントにも変動なし（全社で decl＝act を再確認）。meta.asOf は 2026-10-20 のまま。geo-check は要確認 0 件。",
           "Famitsu 期待榜：10-18 報道分は 10-11 期（投票 9/30〜10/6）で、既収録の 10-17 期と数値が完全一致するため新期なしと判断し、mostWanted は更新していない。次号は 10-22 発売。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 10-22 の国内発売ラッシュ（FF RESONANCE／Nintendo Switch Sports Resort／DEMONS' NIGHT FEVER／GUNVOLT）の初日情報。② 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」。③『チェンソーマン』スマホ新作の開発・発行元は依然未公表。④『JockeyBox』のストア・映像公開待ち。⑤『リラックマ ごゆるりパズル』の課金形態と配信日（2027 年初頭の幅のみ公表）。⑥ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
-        ]
-      },
-      {
-        at: "2026-10-20 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【スマホ】本場の増分区間（10-19 19:05〜10-20 14:30）で、日方主導の新規スマホ作を 2 件収録した。①『UMAWALK（ウマウォーク）』（合同会社スイッチメディア／東京・渋谷、2025-06 設立）＝10-19 に iOS／Android 同時配信開始。歩数がスタミナ、早歩きがスピード、階段と坂道がパワーに変換され、集中タイムで賢さ、おやすみで気性と調子が伸びる。毎週日曜 21:00 の全国一斉レースは日常の歩数量でクラス分けし、13 頭から 1 頭を選んで 24 戦で引退・次代へ。無料（広告あり）・ログイン不要。②『麻雀モンスターズ』（ポコソフト）＝App Store は 10-08 配信、10-19 に配信開始を告知。上海パズルの牌消しがそのまま戦闘になり、萬子＝火／筒子＝水／索子＝木／字牌と一九牌＝ヒュムの属性で攻める。盤面全消しで麻雀の役名を持つ必殺技が発動する。",
-          "条目総数は 186 → 188（スマホ区 45 → 47、主机・PC 区 156 は不変）。platformClass は mobile 30 → 32（console 121／multi 15／pc 20 は不変）。bucket は new 108 → 110、update 78 のまま。mobile 子塊 45 → 47。両件とも作品本体の配信日が窗口内（2026-08-20 以降）のため bucket=new。",
-          "主机・PC は新規 0 件。10-19 に Steam Next Fest が開幕し、国内勢の体験版が出そろった（フリューの『アノマリス』『クライムライト』は 10-26 まで、CygamesEdge『崩落の国』は 10-16 に配信済み、ガンホー『B.L.U.E. NOVA』は 10-30 からテクニカルテスト）が、いずれも既収録タイトルの体験版・テスト告知のため条目は動かさない。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（スマホ新作の世界事前登録 2,500 万件突破、10-29 の海外開服など）。② 韓国資本は不収録（NHN の『推しの子』原作パズルが 10-20 に世界事前登録開始、NC 系モバイルカジュアル子会社の新作サービス開始）。③ 在営タイトルの内容更新（『学園アイドルマスター』の 10-20 新ガチャ、『無職転生 クロニクル・オブ・エコーズ』のハロウィン、『プリコネ！R』×『ウマ娘』10-31 コラボ、『NIKKE』4 周年生放送）は口径どおり不収録。④『JockeyBox』（BOX、App Store 11-07、980 円）はストアページも映像も未公開のため見送り（持越し）。⑤ taskey が発表した Steam『Midnight Toybox』は、Steam 上のデベロッパー表記が別法人で資本関係を一次源で確認できず見送り。",
-          "運営終了：カプコン『モンスターハンターパズル アイルーアイランド』が 2027-01-14 11:00 でサービス終了し、11-12 に買い切り版「いつまでも版」へ移行する（データ引継ぎ可）。本体が窗口外の在営作のため条目は新設せず、当欄への記録にとどめる。",
-          "企業：東宝のゲーム事業が 8 月中間決算で営業収入 57.9% 増の 12.8 億円となり、『ハイキュー!!』『薬屋のひとりごと』を次の柱に据える方針を示した（TOHO Games）。",
-          "companies：4 分類 8／16／16／10＝50、補充監視（extra）47 社、いずれも不変。両件の開発・販売元は 50 家清单外の小規模法人（スイッチメディアは 2025-06 設立、ポコソフトは単独タイトル）のため extra への登録は見送り（前場の SNAPLACE と同じ判断）。",
-          "漏収核查：gamebiz の 10-19 分全記事（新作ゲーム／事前登録／サービス終了）と 4Gamer の 10-19〜10-20 分、日服ストアの新着を機械照合し、未収録だった日方スマホ作 2 本を検出した。IP 名検索（呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー／ONE PIECE／BLEACH／鬼滅の刃／ポケモン／無職転生／推しの子）では新規の日方スマホ作なし。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（96 社＝hq 75／branch 11／out 10）。新規 2 件は既存社の match に命中しないため games カウントも変動なし（全 96 社で decl＝act を再確認）。meta.asOf を 2026-10-20 に更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：新期の発表なし（次号は 10-22 発売）。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-22 の国内発売ラッシュ（FF RESONANCE／Nintendo Switch Sports Resort／DEMONS' NIGHT FEVER／GUNVOLT）の初日情報。② 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」。③『チェンソーマン』スマホ新作の開発・発行元は依然未公表。④『JockeyBox』のストア・映像公開待ち。⑤ 10-19 に予告されていたエディア MintLip+『PROJECT SIGN：Astraea』の資料公開は一次源を確認できず。⑥ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
         ]
       }
     ]
