@@ -25,10 +25,10 @@
 window.OBSERVATORY_MAP = {
   meta: {
     asOf: "2026-10-21",
-    count: 96,
-    onMap: 86,
+    count: 97,
+    onMap: 87,
     outsideTokyo: 10,
-    hqPlotted: 96,   // 全国地図（本社位置）に打点できる社数
+    hqPlotted: 97,   // 全国地図（本社位置）に打点できる社数
     tileCredit: "地図タイル：国土地理院（淡色地図）",
     geoCredit: "住所検索：国土地理院 住所検索API",
     note: "ピンの位置は本社ビルの所在地（街区レベル）。【首都圏】表示は本社が道府県外の社を東京拠点の位置に打点し、その旨をカード内に表示する。【全国】表示は全社を本社位置（hqLat/hqLng）に打点する。破線リングは所在地が都道府県・市区町村レベルまでの確認にとどまる社。"
@@ -1315,6 +1315,19 @@ window.OBSERVATORY_MAP = {
       top: {"t":"CLANNAD","b":"ブランド Key の代表作"},
       eq: [
         {"rel":"parent","name":"Tencent","pct":"100%（2023年〜）"},
+      ],
+    },
+    {
+      id: "coly", name: "株式会社coly", short: "coly",
+      tier: "mid", color: "#9f7aea",
+      addr: "東京都港区三田1-4-1 住友不動産麻布十番ビル3F", pref: "東京都",
+      lat: 35.653156, lng: 139.742737, hqLat: 35.653156, hqLng: 139.742737, precision: "block",
+      officeKind: "hq", officeLabel: "本社",
+      logo: null, games: 1,
+      match: ["coly"],
+      top: {"t":"魔法使いの約束","b":"自社開発・運営の看板タイトル"},
+      eq: [
+        {"rel":"listed","name":"東証スタンダード 4175"},
       ],
     }
   ],
