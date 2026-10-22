@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-22T08:10:00+08:00",
+    updatedAt: "2026-10-22T19:05:00+08:00",
     edition: "2026-10-22",
     window: "2026-08-22 ~ 2026-10-22（滚动最近 2 个月）",
     sources: [
@@ -3493,16 +3493,18 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-10-13（10-27 19:00 の SPECIAL BROADCAST 配信をバンダイナムコが公式発表）",
-      capturedAt: "2026-10-14",
+      announceDate: "2026-10-21（事前登録 100 万件突破をバンダイナムコが公式発表）",
+      capturedAt: "2026-10-22",
       title: { jp: "BLEACH Mirrors High", cn: "BLEACH Mirrors High", en: "BLEACH Mirrors High" },
       genre: "カードベース アクション RPG（3v3）",
       platforms: ["iOS", "Android"],
       release: "2026年内（App Store 表記は 2026-11-28）",
       releasePrecision: "年",
-      summary: "万代南梦宫发行的《BLEACH》改编卡片动作 RPG。故事设定在「千年血战篇」之后，玩家以护廷十三队一员、自定义新人死神的身份展开冒险；原作久保带人参与企划概念与角色设计，并设计了 Shirin Migishima、Shirane Sanari（双主角）以及 Naru Jurinna、Giro Hando、Maiko Tokishima 等原创角色。系统上提供「Avatar Customization」自定义外貌与「Customize Zanpakuto」自定义斩魄刀（刀镡・刀身・刀鞘），战斗为 3 人编队、以卡牌输入触发战术交锋，可用 Chain／Link Attack 把队友技能连成连续攻击，另有可扭转战局的「SOUL DRIVE」连携系统。2026-07 完成封闭 β 测试，2026-08-27 官方 X 宣布 2026 年内上线，TGS2026 提供试玩。本届 TGS2026 上，本作是万代南梦宫主展台里少数的手机作品之一，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》等主机大作同区展出，自 9 月 17 日起提供可试玩版本并配合周边发放。官方把手机游戏放进综合大厂主展台、而非另设小型手游展区，显示宣传投入正在加码。2026-10-11 官方宣布全球事前登录突破 70 万件，并追加 7200 个 Mirror Gems（约 24 抽）、★3［死神代行］一护、★3［十三番队副队长］露琪亚与 ★3 以上确定召唤券 5 张作为上线奖励；配信日与课金形态仍未公布。",
-      highlight: "【10/27 特番告知 10/13】バンダイナムコが 2026-10-27（火）19:00 から YouTube で「BLEACH Mirrors High SPECIAL BROADCAST」を配信し、本作の新情報を発表すると告知。出演は小林千晃（右島志燐役）・指出毬亜（佐鳴白祢役）・森田成一（黒崎一護役）・折笠富美子（朽木ルキア役）、MC 松澤ネキ。　【事前登録 70 万件突破 10/11】バンダイナムコが世界同時 70 万件突破を公式発表し、7,200 ミラージェム（24 連相当）／★3［死神代行］黒崎一護／★3［十三番隊副隊長］朽木ルキア／★3 以上確定チケット 5 枚をローンチ特典に追加。　久保帯人が制作協力・概念・キャラクターデザインで参画し、オリジナル両主人公を描き下ろし——原作サイドの深い関与が最大の差別化点。",
+      summary: "万代南梦宫发行的《BLEACH》改编卡片动作 RPG。故事设定在「千年血战篇」之后，玩家以护廷十三队一员、自定义新人死神的身份展开冒险；原作久保带人参与企划概念与角色设计，并设计了 Shirin Migishima、Shirane Sanari（双主角）以及 Naru Jurinna、Giro Hando、Maiko Tokishima 等原创角色。系统上提供「Avatar Customization」自定义外貌与「Customize Zanpakuto」自定义斩魄刀（刀镡・刀身・刀鞘），战斗为 3 人编队、以卡牌输入触发战术交锋，可用 Chain／Link Attack 把队友技能连成连续攻击，另有可扭转战局的「SOUL DRIVE」连携系统。2026-07 完成封闭 β 测试，2026-08-27 官方 X 宣布 2026 年内上线，TGS2026 提供试玩。本届 TGS2026 上，本作是万代南梦宫主展台里少数的手机作品之一，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》等主机大作同区展出，自 9 月 17 日起提供可试玩版本并配合周边发放。官方把手机游戏放进综合大厂主展台、而非另设小型手游展区，显示宣传投入正在加码。2026-10-11 官方宣布全球事前登录突破 70 万件，并追加 7200 个 Mirror Gems（约 24 抽）、★3［死神代行］一护、★3［十三番队副队长］露琪亚与 ★3 以上确定召唤券 5 张作为上线奖励。2026-10-21 バンダイナムコ 再宣布自 2026 年 8 月开跑以来全球事前登录突破 100 万件，达成奖励提升为 9000 个 Mirror Gems（约 30 抽）、★3［死神代行］黑崎一护、★3［十三番队副队长］朽木露琪亚与 ★3 以上确定召唤券 5 张，配信日与课金形态仍未公布。",
+      highlight: "【事前登録 100 万件突破 10/21】バンダイナムコが受付開始から 2 か月足らずで世界 100 万件突破を公式発表し、9,000 ミラージェム（30 連相当）／★3［死神代行］黒崎一護／★3［十三番隊副隊長］朽木ルキア／★3 以上確定チケット 5 枚を配信時の全員配布特典に増額した。　【10/27 特番告知 10/13】2026-10-27（火）19:00 から YouTube で「BLEACH Mirrors High SPECIAL BROADCAST」を配信し、本作の新情報を発表すると告知。出演は小林千晃（右島志燐役）・指出毬亜（佐鳴白祢役）・森田成一（黒崎一護役）・折笠富美子（朽木ルキア役）、MC 松澤ネキ。　久保帯人が制作協力・概念・キャラクターデザインで参画し、オリジナル両主人公を描き下ろし——原作サイドの深い関与が最大の差別化点。",
       news: [
+        { source: "Anime News Network（バンダイナムコ公式プレスリリース：事前登録 100 万件突破と達成特典の増額）", url: "https://www.animenewsnetwork.com/press-release/2026-10-21/bleach-mirrors-high-pre-registration-campaign-reaches-1-million-worldwide-in-under-2-months-new-/.242996" },
+        { source: "Final Weapon（100 万件突破の報道・特典内容・2026 年内配信）", url: "https://finalweapon.net/2026/10/21/bleach-mirrors-high-1-million-pre-registrations-new-rewards" },
         { source: "4Gamer.net（SPECIAL BROADCAST 10/27 19:00 配信の告知・出演者）", url: "https://www.4gamer.net/games/970/G097078/20261013046/" },
         { source: "Anime News Network（バンダイナムコ公式プレスリリース：事前登録 70 万件突破）", url: "https://www.animenewsnetwork.com/press-release/2026-10-11/bleach-mirrors-high-pre-registration-campaign-surpasses-700000-worldwide-unlocking-3-star-soul-/.242670" },
         { source: "Enduins（2026 年上线确认与原创角色）", url: "https://www.enduins.com/news/bandai-namco-confirms-2026-mobile-launch-for-bleach-mirrors-high" },
@@ -3522,7 +3524,7 @@ window.OBSERVATORY = {
           "原作久保帯人が制作協力・概念・キャラクターデザインで参画、オリジナル両主人公を描き下ろし",
           "2026-07 の CBT を経て 2026-08-27 に年内配信を公式 X で告知",
           "TGS2026 で試遊出展、「千年血戦篇後」というシリーズファン直撃の設定",
-          "2026-10-11 に事前登録 70 万件突破をバンダイナムコが公式発表、ローンチ特典を 24 連相当へ拡充"
+          "2026-10-21 に事前登録 100 万件突破をバンダイナムコが公式発表、ローンチ特典を 30 連相当へ増額"
         ]
       },
       tags: ["IP授权", "手游", "卡片战斗", "事前登录中", "TGS2026"],
@@ -3534,14 +3536,14 @@ window.OBSERVATORY = {
         preReg: {
           open: true,
           since: "2026-08（App Store / Google Play にて受付開始、詳細日は未発表）",
-          reward: "70 万件突破で「ミラージェム 7,200 個（ガチャ 24 連相当）」「★3［死神代行］黒崎一護」「★3［十三番隊副隊長］朽木ルキア」「★3 以上確定召喚チケット 5 枚」を配信時に全員配布"
+          reward: "100 万件突破で「ミラージェム 9,000 個（ガチャ 30 連相当）」「★3［死神代行］黒崎一護」「★3［十三番隊副隊長］朽木ルキア」「★3 以上確定召喚チケット 5 枚」を配信時に全員配布"
         },
         developer: "未発表（バンダイナムコエンターテインメント発行）",
         publisher: "バンダイナムコエンターテインメント",
         region: "グローバル（日本・海外同時展開を予定）",
         distribution: "App Store / Google Play",
         ipSource: "『BLEACH』（久保帯人／集英社）",
-        series: "アニメ『BLEACH 千年血戦篇』の後日譚。2025-12-21 にプロジェクト発表、2026-07 に CBT 実施、2026-10-11 に事前登録 70 万件突破",
+        series: "アニメ『BLEACH 千年血戦篇』の後日譚。2025-12-21 にプロジェクト発表、2026-07 に CBT 実施、2026-10-11 に事前登録 70 万件、2026-10-21 に 100 万件突破",
         features: [
           "アバターカスタマイズで自分だけの死神（外見）を作成",
           "斬魄刀カスタマイズ——鍔・刀身・鞘を組み合わせて固有の斬魄刀を作る",
@@ -4776,8 +4778,8 @@ window.OBSERVATORY = {
       companyJp: "カバー株式会社（Holo Indie）／開発：Roboqlo",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-10-15（Nintendo Switch 2 版の発売日 2026-10-22・税込 2,900 円が確定／予約受付開始）",
-      capturedAt: "2026-10-16",
+      announceDate: "2026-10-22（Nintendo Switch 2 版が予定どおり発売）",
+      capturedAt: "2026-10-22",
       title: {
         jp: "holoVillage: Our Cozy Days（ぷちホロの村）",
         cn: "holoVillage: Our Cozy Days",
@@ -4788,11 +4790,12 @@ window.OBSERVATORY = {
         "PC (Steam)",
         "Nintendo Switch 2"
       ],
-      release: "2026-10-22（Nintendo Switch 2 版。税込 2,900 円・ニンテンドー e ショップ販売）／PC (Steam) 版は 2026-04-24 配信済み",
+      release: "2026-10-22（Nintendo Switch 2 版・税込 2,900 円で発売済み）／PC (Steam) 版は 2026-04-24 配信済み",
       releasePrecision: "日",
       summary: "由 カバー 旗下 holo Indie 发行、Roboqlo 开发的 hololive 官方慢生活模拟游戏。PC(Steam) 版已于 2026 年 4 月 24 日上线，Nintendo Switch 2 版于 2026 年 9 月公布，2026-10-15 起开放预约、发售日定为 2026-10-22（税后 2,900 日元，ニンテンドー e ショップ 销售）。玩家与 hololive 成员的 Q 版形象共同经营村庄：耕作、钓鱼、采矿、制作道具、开店买卖；村外有敌人、多阶段迷宫与头目，可用不同武器种类、锻造强化装备并搭配职业能力树。可邀请成员入住村庄、帮忙农活、换装与合影，随好感度提升获得角色专属档案卡与家具。发售时收录超过 1,800 种家具与 1,300 种以上服装及角色部件，家具可多层堆叠与上墙，房间设计可上传服务器供他人参观；共 47 名 hololive 成员登场，支持日语与英语。",
-      highlight: "【2026-10-15 Switch 2 版発売日確定】COVER の創作ゲームブランド「holo Indie」（運営 CCMC）が、『ぷちホロの村』こと『holoVillage: Our Cozy Days』の Nintendo Switch 2 版について、発売日を 2026-10-22、税込 2,900 円に確定し、2026-10-15 からニンテンドー e ショップで予約受付を開始した。　PC (Steam) 版は 2026-04-24 に配信済みで、本体が観測期間より前のため他機種版の展開として記録する。47 名のホロライブタレントが二頭身キャラクターで登場し、日本語・英語に対応する。",
+      highlight: "【Switch 2 版 本日発売 10/22】COVER の創作ゲームブランド「holo Indie」（運営 CCMC）の『holoVillage: Our Cozy Days（ぷちホロの村）』Nintendo Switch 2 版が、予定どおり 2026-10-22 にニンテンドー e ショップで発売された（税込 2,900 円）。　PC (Steam) 版は 2026-04-24 に配信済みで、本体が観測期間より前のため他機種版の展開として記録する。47 名のホロライブタレントが二頭身キャラクターで登場し、日本語・英語に対応する。",
       news: [
+        { source: "Yomimono（ASCII.jp・INSIDE・PANORA 発の報道を集約：Switch 2 版の 10-22 発売と税込 2,900 円）", url: "http://yomimono.id/holo-indie-s-puchi-holo-no-mura-launches-on-nintendo-switch-2" },
         { source: "Yomimono（ASCII.jp・PANORA 発の報道を集約：Switch 2 版の予約受付開始と 2026-10-22・税込 2,900 円）", url: "http://yomimono.id/holo-indie-s-puchi-holo-no-mura-opens-nintendo-switch-2-preorders" },
         { source: "Nintendo Everything（Switch 2 版発表と作品概要）", url: "https://nintendoeverything.com/holovillage-our-cozy-days-coming-to-nintendo-switch-2/" },
         { source: "Nintendo News Hub（発売時期・収録要素・夏季アップデートの整理）", url: "https://www.nintendonewshub.com/news/holovillage-our-cozy-days-coming-to-nintendo-switch-2" },
@@ -11380,6 +11383,68 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "主机", "ホラー", "協力プレイ", "Switch 2", "Q-Games"]
     },
+    {
+      id: "danmachi-frontier-zero",
+      company: "enish",
+      companyJp: "株式会社enish",
+      bucket: "new",
+      platformClass: "multi",
+      announceDate: "2026-10-22",
+      capturedAt: "2026-10-22",
+      title: {
+        jp: "ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ",
+        cn: "在地下城寻求邂逅是否搞错了什么 Frontier Zero",
+        en: "Is It Wrong to Try to Pick Up Girls in a Dungeon? Frontier Zero"
+      },
+      genre: "未発表（原作世界を扱う新作ゲーム）",
+      platforms: ["iOS", "Android", "PC"],
+      release: "2027年（予定）",
+      releasePrecision: "年",
+      summary: "日本厂商 enish 于 2026-10-22 公布《在地下城寻求邂逅是否搞错了什么》系列新作《フロンティア・ゼロ》，预定 2027 年推出，登陆 iOS／Android 与 PC，以跨平台形式展开，除日本国内之外亦计划在海外发行。官方说明本作由原作者大森藤野协助打造游戏原创主线故事，内容为原作小说与电视动画均未描写的新剧情，而非重现既有篇章。开发与发行均由 enish 负责。截至公布时，游戏类型、具体玩法、收费模式、确切上线日期与支持语言均未公开，后续情报将通过本作官方 X 账号陆续发布。",
+      highlight: "【新作発表 10/22】株式会社enish が『ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ』を 2027 年配信予定で発表。スマートフォン（iOS／Android）と PC のクロスプラットフォームで、日本国内に加えて海外展開も予定する。　原作者・大森藤野が協力するオリジナルストーリーで、原作小説・テレビアニメでは描かれていない物語を扱う。ジャンル・課金形態・正式な配信日は未発表で、続報は本作の公式 X で公開される予定。",
+      news: [
+        { source: "3DM（enish 発表の報道：2027年に PC・iOS・Android、開発・発行とも enish）", url: "https://www.3dmgame.com/news/202610/3957447.html" },
+        { source: "游侠网（日文原名・対応プラットフォーム・海外展開の報道）", url: "https://www.ali213.net/news/html/2026-10/1048469.html" }
+      ],
+      videos: [
+        { label: "3DM（新作発表を報じた記事ページ。公式映像は未公開）", platform: "媒体", url: "https://www.3dmgame.com/news/202610/3957447.html" }
+      ],
+      hype: {
+        score: 52,
+        signals: [
+          "『ダンまち』は GA 文庫の看板 IP で、テレビアニメも長期シリーズとして続いている",
+          "発表当日で映像・事前登録・期待榜などの定量シグナルはまだ存在しない",
+          "スマートフォンと PC のクロスプラットフォーム＋海外展開という設計で、IP の海外人気を取り込む狙い",
+          "配信は 2027 年で、時期・ジャンル・課金形態はいずれも未発表"
+        ]
+      },
+      tags: ["IP授权", "手游", "跨平台", "新作発表"],
+      caution: "日文の一次源（enish の公式発表・公式サイト・公式 X）を本稿では確認できておらず、中国語メディア 2 社（3DM・游侠网）の報道にもとづく。ジャンル・課金形態・正式な配信時期は公式未発表。",
+      mobile: {
+        status: "配信予定（2027年）",
+        os: ["iOS", "Android"],
+        monetization: "未発表",
+        preReg: {
+          open: false,
+          since: "未発表",
+          reward: "未発表"
+        },
+        developer: "株式会社enish",
+        publisher: "株式会社enish",
+        region: "日本および海外",
+        distribution: "App Store / Google Play / PC",
+        ipSource: "『ダンジョンに出会いを求めるのは間違っているだろうか』（原作：大森藤野／イラスト：ヤスダスズヒト、GA 文庫）",
+        series: "同作は GA 文庫のライトノベルで、テレビアニメも制作されている。ゲームは本作が 2026-10-22 に発表されたクロスプラットフォーム新作",
+        features: [
+          "原作者・大森藤野が協力するオリジナルストーリー（原作小説・アニメ未描写の物語）",
+          "スマートフォン（iOS／Android）と PC のクロスプラットフォーム展開",
+          "日本国内に加え海外向けの配信も予定",
+          "続報は本作の公式 X アカウントで順次公開"
+        ],
+        synopsis: "原作小説とテレビアニメでは描かれていない物語を、原作者・大森藤野の協力のもとで描く新作。プレイヤーはゲームでしか触れられない新たな『ダンまち』の物語を体験する。ジャンルや遊びの詳細は現時点で公表されていない。",
+        cast: "公式発表なし"
+      }
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -11486,7 +11551,7 @@ window.OBSERVATORY = {
         { name: "株式会社カイロソフト", short: "カイロソフト", status: "covered", gameIds: ["onepiece-marine-gourmet"], focus: false, note: "日本 IP（ONE PIECE）との初コラボを万代南梦宫と共同で担当" },
         { name: "カバー株式会社", short: "COVER", status: "covered", gameIds: ["regloss-cross", "hololive-dreams", "holovillage-our-cozy-days", "hololive-mahjong-holojan"], note: "女性VTuberグループ「hololive」運営元。初の公式スマホゲームを QualiArts と共同開発。2026-10-09 には Aiming との協業で hololive 初の麻雀ゲーム『ホロライブ麻雀 -ホロじゃん-』を発表した" },
         { name: "株式会社QualiArts", short: "QualiArts", status: "covered", gameIds: ["hololive-dreams"], note: "サイバーエージェント連結子会社。『hololive Dreams』の開発・配信元" },
-        { name: "株式会社enish", short: "enish", status: "covered", gameIds: ["yowamushi-pedal-resonance-pedaism", "chirucamp"], note: "東証グロース上場。Gホールディングスと共同で『弱虫ペダル』新作アプリを運営。『ゆるキャン△ つなげるみんなのオールインワン!!』を 2026-10-22 のアップデートで『ちるキャン△』へ改修し、同日 Steam 早期アクセス（買い切り 1,300 円）も開始する" },
+        { name: "株式会社enish", short: "enish", status: "covered", gameIds: ["yowamushi-pedal-resonance-pedaism", "chirucamp", "danmachi-frontier-zero"], note: "東証グロース上場。Gホールディングスと共同で『弱虫ペダル』新作アプリを運営。『ゆるキャン△ つなげるみんなのオールインワン!!』を 2026-10-22 のアップデートで『ちるキャン△』へ改修し、同日 Steam 早期アクセス（買い切り 1,300 円）も開始する。2026-10-22 には『ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ』（2027 年・スマホ＋PC）を発表した" },
         { name: "株式会社gumi", short: "gumi", status: "covered", gameIds: ["mha-united-survival"], note: "KLab と共同で『僕のヒーローアカデミア UNITED SURVIVAL』を開発" },
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
@@ -11588,8 +11653,25 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-22 朝：国内発売ラッシュ開幕（FF RESONANCE／Switch Sports Resort／DEMONS' NIGHT FEVER 他）。Android ハクスラ『Gravemark』を新収録し、『ラグナロク：アドベンチャーズ』は 11-04 開始が決定",
+    headline: "10-22 夕：enish が『ダンまち フロンティア・ゼロ』（2027年・スマホ＋PC のクロスプラットフォーム）を発表。『BLEACH Mirrors High』は事前登録 100 万件突破、Switch 2 版『ぷちホロの村』が本日発売",
     history: [
+      {
+        at: "2026-10-22 19:00",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "【スマホ・新規】enish が 2026-10-22、『ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ』を発表した。2027 年配信予定で、iOS／Android と PC のクロスプラットフォーム、日本国内に加えて海外展開も予定する。原作者・大森藤野が協力するオリジナルストーリーで、原作小説・テレビアニメでは描かれていない物語を扱う。開発・発行はいずれも enish。ジャンル・課金形態・正式な配信日は未発表で、続報は本作の公式 X で公開される予定。発表当日のため映像・事前登録はまだ存在しない。",
+          "【スマホ・更新】バンダイナムコエンターテインメントの『BLEACH Mirrors High』が、2026-08 の受付開始から 2 か月足らずで世界の事前登録 100 万件を突破した（10-21 公式発表）。達成特典としてミラージェム 9,000 個（30 連相当）、★3［死神代行］黒崎一護、★3［十三番隊副隊長］朽木ルキア、★3 以上確定召喚チケット 5 枚を配信時に全員へ配布する。70 万件時点の 7,200 個から増額され、配信日は 2026 年内のまま未確定。10-27 19:00 の SPECIAL BROADCAST が次の情報点になる。",
+          "【主机・PC・更新】COVER の holo Indie（運営 CCMC、開発 Roboqlo）『holoVillage: Our Cozy Days（ぷちホロの村）』の Nintendo Switch 2 版が本日 10-22 に発売された（税込 2,900 円、ニンテンドー e ショップ）。PC（Steam）版は 2026-04-24 配信済みで本体は観測窓の外にあるため、他機種版の展開として既収録カードを「発売済み」に更新した。47 名のホロライブタレントが二頭身で登場し、日本語・英語に対応する。",
+          "条目総数は 198 → 199（スマホ区 54 → 55、主机・PC 区 160 のまま）。platformClass は multi 16 → 17（mobile 38／console 123／pc 21 は不変）。bucket は new 118 → 119、update 80 のまま（本場の更新 2 件はいずれも既存 update 条目）。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（10-22 に日本でサービス開始した約 3 分のタワーディフェンス、10-22 に大型オープンワールド RPG の実機映像を公開した案件、10-22 に新バージョンを配信したアクション RPG 等）。② 韓国資本は不収録（『希望M2』の韓国サービス開始、NHN の『推しの子』原作パズル）。③ 10-22 に Switch 2 版が発売された対戦格闘ゲームは本体が観測窓より前で、同日の DLC キャラクター追加は内容更新にあたるため見送り。④ 在営タイトルの内容更新（『ラグナロクX』新マップ、『幻想神域』新武器、各社ハロウィン施策 等）は口径どおり不収録。⑤ 『CRYMELIGHT』の PS5／Switch 2 体験版（10-22）は発売前デモのため更新せず。⑥ 10-22 に復刻・リニューアルした既存スマホアプリは本体更新にあたるため対象外。",
+          "運営終了：4Gamer が 10-22 に報じたところによると、旅行ゲーム『ワールドクエスト』が 2026-10-21 をもってサービスを終了した（運営終了は口径どおり digest のみ）。",
+          "companies：4 分類 8／16／16／10＝50、補充監視（extra）48 社、いずれも不変。株式会社enish の gameIds に新規 1 件を追加して 2 → 3 件とした（status は covered のまま）。新規案件の発行元は既にリスト内のため extra の追加はない。",
+          "漏収核查：4Gamer の 10-22 分（12:00〜15:00 の新着を含む）、AppBank の 10-21 夜〜10-22 分、PR TIMES のゲーム分類、Famitsu.com の 10-22 分を機械照合した。IP 名検索（ダンジョンに出会いを求める／呪術廻戦／鬼滅の刃／ブルーロック／東京リベンジャーズ／ハイキュー／ONE PIECE／BLEACH／ホロライブ／刀剣乱舞／無職転生／転スラ）では、日方主導の新規スマホ作は『ダンまち フロンティア・ゼロ』の 1 件のみ。朝の部の区間（09:00 まで）では発表されておらず、本場の増分区間で捕捉した。",
+          "会社地図（data/map.js）：新規打点・住所・座標・officeKind・hqLat/hqLng の変更なし（97 社＝hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）。株式会社enish の games を 2 → 3 に更新し、全 97 社を機械再計算して乖離 0 件を確認。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：10-22 発売号に合わせた新期集計は本稿時点で未確認（直近は 10-18 報道＝10-11 期）。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-23 の『ONE PIECE 海のごちそうレストラン』iOS／Android・Steam 配信。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日発表の可能性）。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。④『ダンまち フロンティア・ゼロ』の日文一次源（enish 公式）と公式 X の開設確認。⑤『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑥『ディズニー スパークリンク・スターズ』の配信日と課金体系。⑦ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
+        ]
+      },
       {
         at: "2026-10-22 09:00",
         scene: "定時巡検（朝の部）",
@@ -11606,24 +11688,6 @@ window.OBSERVATORY = {
           "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（97 社＝hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）。新規 2 件はいずれも地図の母集団外（Tokyo hammock／Q-Games は未収録社）で games カウントの変動なし。meta.asOf を 2026-10-22 に更新し、全 97 社の games フィールドを機械再計算して乖離 0 件を確認。geo-check は要確認 0 件。",
           "Famitsu 期待榜：10-22 号の発売に合わせた新期集計は本稿時点で未確認。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 10-23 の『ONE PIECE 海のごちそうレストラン』iOS／Android・Steam 配信と、『ちるキャン△』Steam 早期アクセスの初日情報。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。④『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑤『ディズニー スパークリンク・スターズ』の配信日と課金体系。⑥『JockeyBox』のストア・映像公開待ち。⑦ RAIDENWORKS『EGO DESCENT』の法人情報。⑧ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
-        ]
-      },
-      {
-        at: "2026-10-21 19:00",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "【スマホ】本場の増分区間（12:40〜19:00）で、日方主導の新規スマホ作として『ディズニー スパークリンク・スターズ』（coly）を収録した。ディズニー／ピクサー作品をモチーフにした 4 ユニット 15 名の「スパークライダー」を育てる三消パズル＋ライブレースで、2026-10-21 に事前登録者数が 70 万人に到達。70 万人達成分として★3 メモリー確定オファーレター 1 点が追加され、80 万人達成時は「好きなスパークライダーを選んで★3 メモリーが獲れる」仕様に強化される。配信日は未発表のまま。　本体の初公開は 2026-06-23、ストア予約は 08-05 でいずれも観測窓の左端（08-21）より前だが、未発売作の事前登録の進捗が窗口内の重要進展にあたるため初収録として記録した。",
-          "【スマホ・漏収追補】京都の合同会社SNAPLACE が 2026-10-21 に iOS／iPadOS／Android で配信開始した高校数学パズル『式霊の書』も追補した。数I〜数III の全 51 単元を 153 面にし、数式で動く 20 種類の装置を手で操作して「観測」で確かめる形式。広告・ガチャ・スタミナなしの 500 円買い切りで、初 4 単元 12 面は無料。同日 08:10 のプレスリリースで、朝の部の区間内でありながら未収録だった。",
-          "条目総数は 193 → 196（スマホ区 50 → 53、主机・PC 区 157 → 159）。platformClass は mobile 35 → 37、pc 20 → 21（console 122／multi 16 は不変）。bucket は new 113 → 116、update 80 のまま。",
-          "更新 3 件：①『薬屋のひとりごと ～偽りの皇弟～』＝2027-03-18 の発売が決定し、通常版 8,580 円（税込）と PV2 が公開された。壬氏と猫の毛毛を操作する多角的探索、依頼達成で親密度を上げる「人物調査録」、羅門と挑む「調薬」ミニゲーム、条件達成でスチルが解放される「達成印」、新規オリジナルキャラ 3 名（冠宇・妍希・宸翰）が新たに公表されている。②『歌マクロス』復活プロジェクト＝クラウドファンディングの支援総額が 1 億 5,000 万円を突破し、5 つ目のストレッチゴール「複数の家庭用ゲーム機版の開発に着手」を達成。10-31 の終了に向けて最後のストレッチゴール（1 億 8,000 万円＝衣装追加、2 億円＝旧作未収録の新曲）が設定された。③『A Game About Digging A Hole Together』（松竹ゲームズ）＝2026-12-04 発売・700 円・Xbox Game Pass 対応が決定した。",
-          "主机・PC の新規 1 件：『PROTOCOL: NOAH』（シンエンスタジオ、2026-04 設立・東京都千代田区）。PC（Steam／Windows・macOS）向けビジュアルノベル ADV で 2026-11 発売予定、価格未定。20 万文字超のシナリオ、200 枚超の CG、13 種のエンディング（うち 9 本がフルアニメーションの「デスエンド」）を備え、Steam Next Fest（10-20〜10-27）に出展中。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（10-21 に約 22 分の実機映像を公開した大型オープンワールド RPG、PC タイトルの国内配信 等）。② 韓国資本は不収録（NC 系『リネージュ クラシック』の日本サービスが 12-01 プレオープン決定・事前登録開始）。③ 10-21 に正式リリースされた AI キャラチャット系ノベルアプリは、既存サービスのリニューアル＝本体更新にあたるため口径外。④ 在営タイトルの内容更新（『プロセカ』総集編イベント、『学マス』新プロデュースアイドル、各社ハロウィンセール 等）は口径どおり不収録。",
-          "運営終了：サイバード『イケメン革命◆アリスと恋の魔法』が 2026-10-21 をもってサービスを終了した。今後は「Dreamoire（ドリモワ）」での IP 展開を予定するとしている（運営終了は口径どおり digest のみ）。",
-          "companies：4 分類 8／16／16／10＝50 は不変。補充監視（extra）は 47 → 48 社とし、ディズニーから直接ライセンスを受けて自社開発する東証スタンダード上場のモバイルゲーム会社・株式会社coly を追加、gameIds に『ディズニー スパークリンク・スターズ』を登録した。SNAPLACE とシンエンスタジオは母集団外のまま（前者は既存 2 件と同じ判断、後者は単一タイトルの新規スタジオ）。",
-          "漏収核查：gamebiz の 10-21 分全記事、4Gamer の 10-21 分、AppBank の 10-21 分、PR TIMES のゲーム分類、日服ストアの新着を機械照合した。IP 名検索（呪術廻戦／鬼滅の刃／ブルーロック／東京リベンジャーズ／ハイキュー／ONE PIECE／BLEACH／ポケモン／ホロライブ／刀剣乱舞／ディズニー／グリザイア）では、ディズニー（スパークリンク）以外に日方主導の新規スマホ作は確認できなかった。『グリザイア 集結の百果』は 10-16 開始分を既収録で確認している。",
-          "会社地図（data/map.js）：96 → 97 社。株式会社coly を新規に打点した（東京都港区三田1-4-1 住友不動産麻布十番ビル3F／officeKind=hq／precision=block／35.653156, 139.742737）。住所の一次源は同社公式の会社概要（英語版プロフィール）で、座標は国土地理院 住所検索 API の返却値（東京都港区三田一丁目４番）を目視で検算した。内訳は hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97。全 97 社の games フィールドを機械再計算し、乖離 0 件。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：10-21 時点で新期の発表なし（次号は 10-22 発売）。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-22 の国内発売ラッシュ（FF RESONANCE／Nintendo Switch Sports Resort／DEMONS' NIGHT FEVER／GUNVOLT／ちるキャン△ Steam）の初日情報。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（重大発表）。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版発売。④『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑤『ディズニー スパークリンク・スターズ』の配信日と課金体系。⑥『JockeyBox』のストア・映像公開待ち。⑦ 資本構成を一次源で確認できなかった国内パブリッシャー発の PC アクション RPG 1 件（社名は保留）。⑧ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
         ]
       },
     ]

@@ -866,7 +866,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都港区六本木6-1-20 六本木電気ビルディング4F", pref: "東京都",
       lat: 35.662449, lng: 139.731354, hqLat: 35.662449, hqLng: 139.731354, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 2,
+      logo: null, games: 3,
       match: ["enish"],
       top: {"t":"De:Lithe","b":"同社の自社タイトル"},
       eq: [
