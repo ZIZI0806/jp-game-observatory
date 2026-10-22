@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-21T18:16:00+08:00",
-    edition: "2026-10-21",
-    window: "2026-08-21 ~ 2026-10-21（滚动最近 2 个月）",
+    updatedAt: "2026-10-22T08:10:00+08:00",
+    edition: "2026-10-22",
+    window: "2026-08-22 ~ 2026-10-22（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -2441,16 +2441,16 @@ window.OBSERVATORY = {
       bucket: "update",
       platformClass: "console",
       announceDate: "2026-10-18（ファミ通クロスレビューで 36/40）",
-      capturedAt: "2026-10-19",
+      capturedAt: "2026-10-22",
       title: { jp: "FINAL FANTASY RESONANCE", cn: "最终幻想 Resonance", en: "FINAL FANTASY RESONANCE" },
       genre: "HD-2D 回合制 RPG",
       platforms: ["Switch", "Switch 2", "PS5", "Xbox Series X|S", "PC"],
       release: "2026-10-22",
-      releasePrecision: "日",
+      releasePrecision: "已发售",
       summary: "系列首款 HD-2D 作品，将 2015 年手游《FF Brave Exvius》的开篇剧情重编为完整单机游戏，并且不含抽卡。战斗为经典回合制（非 ATB），带可见时间轴、Stagger 窗口、Limit Burst、幻兽与历代英雄「Visions」。第一章 Demo 已配信且存档可继承。",
-      highlight: "【2026-10-18 ファミ通 36/40】週刊ファミ通のクロスレビューで 9／9／9／9 の 36 点。4 名のレビュアー全員が 9 点を付けたのは今号で本作のみ。HD-2D の描画、Visions による歴代英雄の召喚、Guard Break と Resonance Moves の戦術性が評価され、本編 20〜30 時間／やり込み 70 時間というボリュームも言及された。　【TGS2026 9/17】Square Enix 展台提供试玩，同日新预告确认 10/22 发售、eShop 免费试玩版存档可继承至正式版——本作是 SE 展台双试玩之一。",
+      highlight: "【2026-10-22 発売】HD-2D で『FF ブレイブエクスヴィアス』序盤を再構成した本作が、PS5／Switch 2／Switch／Xbox Series X|S／PC で発売された。海外レビューは分かれ、Game Informer は 9/10 と高く評価した一方、GameSpot は 7/10、Kotaku は物語と世界観の薄さを指摘している。\u3000【2026-10-18 ファミ通 36/40】週刊ファミ通のクロスレビューで 9／9／9／9 の 36 点。4 名のレビュアー全員が 9 点を付けたのは今号で本作のみ。HD-2D の描画、Visions による歴代英雄の召喚、Guard Break と Resonance Moves の戦術性が評価され、本編 20〜30 時間／やり込み 70 時間というボリュームも言及された。　【TGS2026 9/17】Square Enix 展台提供试玩，同日新预告确认 10/22 发售、eShop 免费试玩版存档可继承至正式版——本作是 SE 展台双试玩之一。",
       console: {
-        status: "2026年10月22日発売予定（第一章 Demo 配信中／ファミ通クロスレビュー 36/40）",
+        status: "2026-10-22 発売（PS5／Nintendo Switch 2／Nintendo Switch／Xbox Series X|S／PC）",
         os: ["Nintendo Switch", "Nintendo Switch 2", "PlayStation 5", "Xbox Series X|S", "PC"],
         monetization: "7,678 円（税込・小売リスト集計値／Switch 2 版は Game Key Card 形式）。買い切りでガチャ要素はなし",
         developer: "スクウェア・エニックス",
@@ -2472,6 +2472,7 @@ window.OBSERVATORY = {
         { source: "Eurogamer（State of Play 汇总）", url: "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026" },
         { source: "Gurugamer（JRPG 盘点）", url: "https://gurugamer.com/pc-console/top-10-upcoming-jrpgs-to-release-in-2026-and-2027-27290" },
         { source: "GoNintendo（ファミ通クロスレビュー 2026-10-18：36/40）", url: "https://gonintendo.com/contents/66238-famitsu-review-scores-for-oct-18th-2026" },
+        { source: "GamesRadar+（発売日レビュー：HD-2D の完成度と構造の安全性を評価）", url: "https://www.gamesradar.com/games/final-fantasy/final-fantasy-resonance-review/" },
       ],
       videos: [
         { label: "Eurogamer 汇总（含 Demo 公布预告影像）", platform: "媒体", url: "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026" },
@@ -3339,16 +3340,16 @@ window.OBSERVATORY = {
       bucket: "update",
       platformClass: "multi",
       announceDate: "2026-09-24（モバイル版の予約受付を開始）",
-      capturedAt: "2026-09-24",
+      capturedAt: "2026-10-22",
       title: { jp: "ONE PIECE 海のごちそうレストラン", cn: "海贼王 海洋盛宴", en: "ONE PIECE: Grand Gourmet" },
       genre: "海上レストラン経営シミュレーション",
       platforms: ["Nintendo Switch 2", "Nintendo Switch", "PC (Steam)", "iOS", "Android"],
       release: "2026-10-22（主机版）／2026-10-23（Steam・手机版）",
-      releasePrecision: "日",
+      releasePrecision: "已发售",
       summary: "万代南梦宫发行、开罗游戏（カイロソフト）开发的《ONE PIECE》题材像素风经营模拟，于 Nintendo Direct 首发公开。玩家作为海上餐厅「巴拉蒂 2 号店」的新人店员，与草帽一伙共同把餐厅做成「这片海上最美味的地方」。与山治一起用冒险中获得的食材开发菜谱，可把主菜／副菜／甜点／饮料自由组合成套餐并获得额外加成，也会出现运用恶魔果实能力的特殊料理。收录 400 名以上系列角色、200 种以上家具与内饰。主机版 2,700 日元、手机版 2,000 日元，支持含简繁中文在内的 12 种语言。TGS2026 设置餐厅主题展台并提供 20 分钟试玩。",
-      highlight: "【2026-09-24 モバイル版予約受付開始】バンダイナムコエンターテインメントが iOS／Android 版の予約受付を開始した（発売はコンシューマ版の翌日、2026-10-23。買い切りのため追加課金なし）。同日、新米スタッフの一日を紹介する「あそびかた紹介 ～新米スタッフの１日～」と、レストラン従業員募集を題材にした 2 本の映像が公開された。　【TGS2026 9/18】バンダイナムコ 综合展台提供含 iOS／Android 版在内的跨平台试玩，未单独划入移动端专区，与《BLEACH Mirrors High》同在主力展位露出；展台还公开了「バラティエ 2 号店」的玩法介绍影像与一份以该店为舞台的架空新人招募影像。　IP 授权经营模拟：把「吃饭」这条原作主线做成核心玩法，而不是又一款战斗手游。",
+      highlight: "【2026-10-22 発売】カイロソフト開発／バンダイナムコエンターテインメント発売の『ONE PIECE 海のごちそうレストラン』が、Switch 2／Switch で本日発売された。iOS／Android と Steam は明日 10-23 の配信。\u3000【2026-09-24 モバイル版予約受付開始】バンダイナムコエンターテインメントが iOS／Android 版の予約受付を開始した（発売はコンシューマ版の翌日、2026-10-23。買い切りのため追加課金なし）。同日、新米スタッフの一日を紹介する「あそびかた紹介 ～新米スタッフの１日～」と、レストラン従業員募集を題材にした 2 本の映像が公開された。　【TGS2026 9/18】バンダイナムコ 综合展台提供含 iOS／Android 版在内的跨平台试玩，未单独划入移动端专区，与《BLEACH Mirrors High》同在主力展位露出；展台还公开了「バラティエ 2 号店」的玩法介绍影像与一份以该店为舞台的架空新人招募影像。　IP 授权经营模拟：把「吃饭」这条原作主线做成核心玩法，而不是又一款战斗手游。",
       console: {
-        status: "2026年10月22日発売予定（Switch 2 / Switch）／ Steam は 2026年10月23日。予約受付中",
+        status: "2026年10月22日 発売（Switch 2 / Switch）。iOS／Android と Steam は 2026年10月23日",
         os: ["Nintendo Switch 2", "Nintendo Switch", "PC（Steam）"],
         monetization: "3,960 円（税込・ゲームキーカード／小売リスト集計値）。モバイル版は買い切り 2,000 円で、コンシューマ版とは価格帯が異なる",
         developer: "カイロソフト",
@@ -6935,20 +6936,20 @@ window.OBSERVATORY = {
       companyJp: "ガンホー・オンライン・エンターテイメント株式会社",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-08-13（日本国内でのサービス提供が決定、同日より事前登録受付を開始）",
-      capturedAt: "2026-09-22",
+      announceDate: "2026-10-21（日本国内の正式サービス開始日が 11-04 に決定）",
+      capturedAt: "2026-10-22",
       title: { jp: "ラグナロク:アドベンチャーズ", cn: "仙境传说：冒险（Ragnarok: Adventures）", en: "Ragnarok: Adventures" },
       genre: "かんたんオートバトルRPG（縦画面・放置育成）",
       platforms: ["iOS", "Android"],
-      release: "2026年内（配信時期は 2026 年と発表）",
-      releasePrecision: "年",
-      summary: "GungHo 决定在日本国内推出的纵向单手操作自动战斗 RPG。沿用《仙境传说 Online》系列世界观，以竖屏＋离线放置成长为主轴，定位为比系列本体更轻的「RO 入口」。2026 年 8 月 13 日宣布日本国内服务并同时开启事前登录，9 月 9 日公开介绍冒险世界的新 PV，并追加「梦幻波利发型配方」等登录奖励。玩法包含多职业与转职系统、5 名 NPC 随行编队、Boss 副本／竞技场／公会内容，另有换装、宠物养成、钓鱼与「My Town」等生活要素。对应 iOS 17.0／Android 9.0 以上（需 RAM 4.0GB 以上），基本免费加部分付费道具。海外已以《Ragnarok Idle Adventure Plus》等名称先行上线，本次为日本国内版。",
-      highlight: "【2026-09-09 新 PV・事前登録受付中】冒険世界を紹介する新 PV を 9 月 9 日に公開し、これに合わせて事前登録特典に「ゆめかわポリンヘアのレシピ」が追加された。配信は 2026 年内を予定。　シリーズ本流は横画面の重厚な MMORPG だが、本作は縦画面・片手操作のオートバトルに放置育成を組み合わせ、ライト層向けの「RO の入り口」として位置づけられている。",
+      release: "2026-11-04（日本国内の正式サービス開始日が決定）",
+      releasePrecision: "日",
+      summary: "GungHo 决定在日本国内推出的纵向单手操作自动战斗 RPG。沿用《仙境传说 Online》系列世界观，以竖屏＋离线放置成长为主轴，定位为比系列本体更轻的「RO 入口」。2026 年 8 月 13 日宣布日本国内服务并同时开启事前登录，9 月 9 日公开介绍冒险世界的新 PV，并追加「梦幻波利发型配方」等登录奖励。玩法包含多职业与转职系统、5 名 NPC 随行编队、Boss 副本／竞技场／公会内容，另有换装、宠物养成、钓鱼与「My Town」等生活要素。对应 iOS 17.0／Android 9.0 以上（需 RAM 4.0GB 以上），基本免费加部分付费道具。10 月 21 日进一步确定日本国内正式服务开始日为 11 月 4 日，并追加第 3 弹事前登录特典（「波利太阳镜配方」等）。海外已以《Ragnarok Idle Adventure Plus》等名称先行上线，本次为日本国内版。",
+      highlight: "【2026-10-21 日本国内の正式サービス開始日が 11-04 に決定】ガンホーが『ラグナロク：アドベンチャーズ』の日本国内サービスを 2026-11-04 に開始すると発表し、事前登録の第 3 弾特典として「ポリンサングラスのレシピ」等のアイテムを追加した。配信は当初「2026 年内」とされていたが、今回で日付が確定した。　シリーズ本流は横画面の重厚な MMORPG だが、本作は縦画面・片手操作のオートバトルに放置育成を組み合わせ、ライト層向けの「RO の入り口」として位置づけられている。",
       mobile: {
-        status: "事前登録受付中（2026 年内の日本国内サービス提供を予定）",
+        status: "配信予定（2026-11-04 に日本国内の正式サービスを開始）",
         os: ["iOS", "Android"],
         monetization: "基本無料（一部アイテム課金あり）",
-        preReg: { open: true, since: "2026-08-13 〜 正式サービス開始前まで", reward: "登録者全員に「正式サービス記念の称号」「4 時間分 Base 経験値」などのアイテムを正式サービス開始時に付与。PV 公開（09-09）に合わせ「ゆめかわポリンヘアのレシピ」を追加" },
+        preReg: { open: true, since: "2026-08-13 〜 正式サービス開始前まで", reward: "登録者全員に「正式サービス記念の称号」「4 時間分 Base 経験値」などのアイテムを正式サービス開始時に付与。PV 公開（09-09）に合わせ「ゆめかわポリンヘアのレシピ」を追加。開始日決定（10-21）に伴い第 3 弾特典として「ポリンサングラスのレシピ」等を追加" },
         developer: "ガンホー・オンライン・エンターテイメント（日本国内のサービス提供。開発体制は公表されていない）",
         publisher: "ガンホー・オンライン・エンターテイメント株式会社",
         region: "日本（国内版。海外では『Ragnarok Idle Adventure Plus』等の名称で先行配信）",
@@ -10504,14 +10505,14 @@ window.OBSERVATORY = {
       bucket: "new",
       platformClass: "console",
       announceDate: "2026-06-09（Nintendo Direct で 2026-10-22 発売を発表）",
-      capturedAt: "2026-10-19",
+      capturedAt: "2026-10-22",
       title: { jp: "Nintendo Switch Sports Resort", cn: "Nintendo Switch Sports Resort", en: "Nintendo Switch Sports Resort" },
       genre: "体感スポーツ（12 種目／最大 4 人）",
       platforms: ["Nintendo Switch 2"],
       release: "2026-10-22",
-      releasePrecision: "日",
+      releasePrecision: "已发售",
       summary: "任天堂把 2009 年《Wii Sports Resort》的乌富岛搬回 Switch 2，做成 12 种体感项目的度假村合集。新增「拇指相扑」「滑板」，并把「动力巡航」「螺旋桨飞机」做成可自由环岛探索的模式；复活的还有保龄球、网球、乒乓球、拳击、射箭、排球、篮球、高尔夫。单人可挑战各地「岛屿冠军／岛屿传说」的 Island Crown 模式，本地最多 4 人，线上分职业联赛与休闲赛。项目积分「Spocco Point」可在道具中心换装。2026-10-22 发售，Switch 2 专用。",
-      highlight: "【2026-10-22 発売・Switch 2 専用】12 種目の体感スポーツと、ウーフーアイランドを自由に巡る探索モードを 1 本にまとめた Switch 2 専用ソフト。　新規は「親指相撲」「スケートボード」、復活は「パワークルーズ」「プロペラ機」「アーチェリー」「ボウリング」「卓球」「ボクシング」「テニス」「バレーボール」「バスケットボール」「ゴルフ」。オフラインの「アイランドクラウン」で各地のチャンピオン／レジェンドに挑み、オンラインは「プロリーグ」とカジュアル戦を用意する。Joy-Con 2 に加えて Switch の Joy-Con でも遊べる（スケートボードを除く）。",
+      highlight: "【2026-10-22 発売】Nintendo Switch 2 専用『Nintendo Switch Sports Resort』が予定どおり本日発売された。12 種目の体感スポーツと、ウーフーアイランドを自由に巡る探索モードを収録する。\u3000【2026-10-22 発売・Switch 2 専用】12 種目の体感スポーツと、ウーフーアイランドを自由に巡る探索モードを 1 本にまとめた Switch 2 専用ソフト。　新規は「親指相撲」「スケートボード」、復活は「パワークルーズ」「プロペラ機」「アーチェリー」「ボウリング」「卓球」「ボクシング」「テニス」「バレーボール」「バスケットボール」「ゴルフ」。オフラインの「アイランドクラウン」で各地のチャンピオン／レジェンドに挑み、オンラインは「プロリーグ」とカジュアル戦を用意する。Joy-Con 2 に加えて Switch の Joy-Con でも遊べる（スケートボードを除く）。",
       news: [
         { source: "任天堂公式（Nintendo Switch Sports Resort 紹介映像・TVCM 公開／香港）", url: "https://www.nintendo.com/hk/topics/article/2pdLIMh8gWKuOXC4AMDSF007" },
         { source: "Nintendo 公式（12 種目の紹介と予約開始・北米）", url: "https://www.nintendo.com/us/whatsnew/get-warmed-up-for-the-new-and-returning-sports-in-nintendo-switch-sports-resort/" },
@@ -10531,7 +10532,7 @@ window.OBSERVATORY = {
       },
       tags: ["新作発表", "体感スポーツ", "Switch 2専用", "任天堂"],
       console: {
-        status: "2026-10-22 発売予定（Nintendo Switch 2 専用）",
+        status: "2026-10-22 発売（Nintendo Switch 2 専用）",
         os: ["Nintendo Switch 2"],
         monetization: "買い切り。北米はダウンロード 49.99 ドル／パッケージ 59.99 ドル（日本国内価格は一次源で未確認）",
         developer: "任天堂",
@@ -10561,14 +10562,14 @@ window.OBSERVATORY = {
       bucket: "new",
       platformClass: "console",
       announceDate: "2026-09-13（Nintendo eShop で予約受付開始・テーマ曲「Dropout」の新 PV 公開）",
-      capturedAt: "2026-10-19",
+      capturedAt: "2026-10-22",
       title: { jp: "DEMONS' NIGHT FEVER", cn: "恶魔夜疯狂（DEMONS' NIGHT FEVER）", en: "Demons' Night Fever" },
       genre: "シミュレーション RPG（グリッド制ターン戦術／育成 RTA）",
       platforms: ["Nintendo Switch", "PlayStation 5", "PC (Steam)"],
       release: "2026-10-22",
-      releasePrecision: "日",
+      releasePrecision: "已发售",
       summary: "《魔界战记》生父新川宗平（原日本一软件社长）担任制作人、Drecom 与 SuperNiche 共同开发的网格回合制 SRPG。舞台是另一个地球：最强邪神「吉猛」在弑神前一步被变成婴儿，启动复活程序「DEMONS' NIGHT FEVER」，把憎世的程序员「邪龙院狂死狼」卷了进来。核心是「剥削侍从系统」——牺牲己方侍从引爆「屠杀技能」或当祭品，侍从死得越多重生越强；战斗与作恶赚「恶德点数」强化军团，章节有时间限制，超时也把成果转为下一轮加成。2026-10-22 于 PS5／Switch／Steam 发售，4,950 日元。",
-      highlight: "【2026-09-13 eShop 予約開始】テーマ曲「Dropout」（syudou）を使った新 PV とともに、Nintendo Switch 版の予約受付が始まった。　新川宗平（『魔界戦記ディスガイア』シリーズ生みの親、元日本一ソフトウェア社長）がプロデューサーを務め、開発はドリコムと SuperNiche。味方を犠牲にする「搾取従者システム」を中心に据えたグリッド制 SRPG で、2026-09-17 から公式 Web マンガ全 8 話の連載も始まっている。価格はパッケージ・ダウンロードとも 4,950 円（税込）。",
+      highlight: "【2026-10-22 発売】アークシステムワークス『DEMONS' NIGHT FEVER』が PS5／Nintendo Switch／Steam で本日発売された。味方を爆発させて強化する「搾取従者システム」を中心に据えたグリッド制 SRPG。\u3000【2026-09-13 eShop 予約開始】テーマ曲「Dropout」（syudou）を使った新 PV とともに、Nintendo Switch 版の予約受付が始まった。　新川宗平（『魔界戦記ディスガイア』シリーズ生みの親、元日本一ソフトウェア社長）がプロデューサーを務め、開発はドリコムと SuperNiche。味方を犠牲にする「搾取従者システム」を中心に据えたグリッド制 SRPG で、2026-09-17 から公式 Web マンガ全 8 話の連載も始まっている。価格はパッケージ・ダウンロードとも 4,950 円（税込）。",
       news: [
         { source: "Arc System Works 公式（Nintendo eShop 予約開始・新 PV）", url: "https://www.arcsystemworks.com/?p=15499" },
         { source: "GoNintendo（ファミ通クロスレビュー 2026-10-18／29 点）", url: "https://gonintendo.com/contents/66238-famitsu-review-scores-for-oct-18th-2026" },
@@ -10588,7 +10589,7 @@ window.OBSERVATORY = {
       },
       tags: ["新作発表", "SRPG", "ダークコメディ", "オリジナルIP"],
       console: {
-        status: "2026-10-22 発売予定（PS5／Nintendo Switch／Steam）",
+        status: "2026-10-22 発売（PS5／Nintendo Switch／Steam）",
         os: ["PlayStation 5", "Nintendo Switch", "Windows 11"],
         monetization: "買い切り。パッケージ・ダウンロードとも 4,950 円（税込）",
         developer: "株式会社ドリコム／SuperNiche LLC",
@@ -10617,14 +10618,14 @@ window.OBSERVATORY = {
       bucket: "update",
       platformClass: "console",
       announceDate: "2026-10-15（PS5／Steam 向け DLC『蒼き雷霆 ガンヴォルト GX』の詳細と紹介映像を公開）",
-      capturedAt: "2026-10-19",
+      capturedAt: "2026-10-22",
       title: { jp: "蒼き雷霆 ガンヴォルト トライアングル エディション Nintendo Switch 2 Edition", cn: "苍蓝雷霆 GUNVOLT 三棱合极版 Nintendo Switch 2 Edition", en: "Azure Striker Gunvolt Trilogy Enhanced: Nintendo Switch 2 Edition" },
       genre: "軽小説 2D アクション（3 部作＋新規シナリオ）",
       platforms: ["Nintendo Switch 2"],
       release: "2026-10-22",
-      releasePrecision: "日",
+      releasePrecision: "已发售",
       summary: "Inti Creates 把 2025-07-24 发售的《苍蓝雷霆 GUNVOLT 三棱合极版》（收录 2014／2016／2022 三部正传与全部 DLC）移植到 Switch 2，并加入全新剧本「苍蓝雷霆 GUNVOLT GX」。GX 让钢伏特与 Copen 双主角同场，靠「灵感」系统切换角色积累增幅、攒满 GX 槽发动合击；Copen 每击破一名 Boss 获得专用 EX 武器。Switch 2 版支持更高分辨率与帧率，既有 Switch 版可花 1,500 日元买升级通行证；PS5／Steam 则在同日以 1,500 日元单独售卖 GX。2026-10-22 发售，6,480 日元。",
-      highlight: "【2026-10-15 GX の詳細と紹介映像】PS5／Steam 向け DLC「蒼き雷霆 ガンヴォルト GX」の詳細と紹介映像が公開された（1,500 円）。　Switch 2 Edition は 10-22 発売で 6,480 円（11-04 まで 21% OFF の 5,085 円）、既存 Switch 版からのアップグレードパスは 1,500 円（10% OFF の 1,350 円）。GX はガンヴォルトと Copen を切り替えながら進む書き下ろしの全編フルボイスストーリーで、待機中の相方が「インスピレーション」を溜め、満タンで交代すると一時強化と GX スキルにつながる。",
+      highlight: "【2026-10-22 発売】『蒼き雷霆 ガンヴォルト トライアングル エディション Nintendo Switch 2 Edition』が本日発売された。PS5／Steam 向け DLC『蒼き雷霆 ガンヴォルト GX』も展開中。\u3000【2026-10-15 GX の詳細と紹介映像】PS5／Steam 向け DLC「蒼き雷霆 ガンヴォルト GX」の詳細と紹介映像が公開された（1,500 円）。　Switch 2 Edition は 10-22 発売で 6,480 円（11-04 まで 21% OFF の 5,085 円）、既存 Switch 版からのアップグレードパスは 1,500 円（10% OFF の 1,350 円）。GX はガンヴォルトと Copen を切り替えながら進む書き下ろしの全編フルボイスストーリーで、待機中の相方が「インスピレーション」を溜め、満タンで交代すると一時強化と GX スキルにつながる。",
       news: [
         { source: "公式サイト（蒼き雷霆 ガンヴォルト トライアングル エディション）", url: "https://gunvolt.com/TE/" },
         { source: "公式サイト（Nintendo Switch 2 Edition 特設・限定版／店舗特典）", url: "https://gunvolt.com/TE/jp/switch2/" },
@@ -10644,7 +10645,7 @@ window.OBSERVATORY = {
       },
       tags: ["移植", "2Dアクション", "追加シナリオ", "Switch 2"],
       console: {
-        status: "2026-10-22 発売予定（Nintendo Switch 2 Edition）",
+        status: "2026-10-22 発売（Nintendo Switch 2 Edition）",
         os: ["Nintendo Switch 2"],
         monetization: "買い切り。Switch 2 Edition 6,480 円（11-04 まで 5,085 円）／アップグレードパス 1,500 円（同 1,350 円）。PS5・Steam 版の追加シナリオ「蒼き雷霆 ガンヴォルト GX」は 1,500 円（いずれも税込）",
         developer: "株式会社インティ・クリエイツ",
@@ -11265,6 +11266,120 @@ window.OBSERVATORY = {
       },
       tags: ["主机", "PC", "ビジュアルノベル", "新規スタジオ", "Steam", "新作発表"]
     },
+    {
+      id: "gravemark",
+      company: "Tokyo hammock",
+      companyJp: "株式会社Tokyo hammock",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-10-15（Google Play にて日本先行配信を開始）",
+      capturedAt: "2026-10-22",
+      title: { jp: "Gravemark（グレイヴマーク）", cn: "Gravemark（グレイヴマーク）", en: "Gravemark" },
+      genre: "ダークファンタジー・ハクスラ（縦画面／自動戦闘ローグライト）",
+      platforms: ["Android"],
+      release: "2026-10-15（日本先行配信）／2026-10-19（全世界配信）。Android（Google Play）専用で、iOS 版は配信状況を見て検討",
+      releasePrecision: "已发售",
+      summary: "Tokyo hammock 的竖屏单手暗黑刷宝游戏，Android 先行。规则是「带不回来就不是你的」：越深装备越好，但死亡会失去背包、本次金钱与冒险中换上的装备，只有出发前穿好的与仓库里的保留。战斗全自动，玩家只操作技能与药水；每层两条路线二选一，卡面标出敌人一击伤害，用剩余 HP 判断「再下一层还是撤退」。击杀后时间暂停，在 5×6 格背包里挑选战利品，回城鉴定才知道是什么。四名潜行者各有技能树与「刻印」契约，四层深度加无限深渊设赛季最深纪录排行，全程无课金石。",
+      highlight: "【2026-10-15 日本先行配信／10-19 全世界配信】東京のゲームスタジオ Tokyo hammock が、縦持ち・片手で遊ぶダークファンタジー・ハクスラ『Gravemark（グレイヴマーク）』を Android（Google Play）で配信開始した。基本プレイ無料＋アプリ内課金と動画広告。　攻撃は自動で、触るのはスキルとポーションだけ。拾った物は街に持ち帰るまで自分の物にならず、死ねば袋・ゴールド・冒険中に装備した物をすべて失う。「あと一階か、ここで引き返すか」の判断が遊びの中心で、装備・レリック・刻印は課金で買えず課金石も存在しない。iOS 版は配信状況を見て検討するとしている。",
+      mobile: {
+        status: "正式サービス中",
+        os: ["Android（iOS 版は未配信。配信状況を見て検討中）"],
+        monetization: "基本プレイ無料（アプリ内課金＋動画広告）。課金石は存在せず、装備・レリック・刻印は課金で入手不可。販売されるのは一部キャラクター、袋・倉庫の広さ、戦闘速度などの快適性、広告スキップパスのみ",
+        preReg: {
+          open: false,
+          since: "—",
+          reward: "事前登録なし（すでに配信開始済み）"
+        },
+        developer: "株式会社Tokyo hammock",
+        publisher: "株式会社Tokyo hammock",
+        region: "日本（178 の国と地域で配信。日本語・英語対応、プレイにはインターネット接続が必要）",
+        distribution: "Google Play（Android）。基本プレイ無料、パッケージ・PC 版はなし",
+        payment: [],
+        ipSource: "オリジナル IP（同社の自社企画。既存 IP のライセンスではない）",
+        series: "Tokyo hammock の Android 向け第 1 弾タイトル。社名は AppBank の報道による表記で、法人住所・設立年は一次源で未確認",
+        features: [
+          "縦持ち・片手操作。戦闘はリアルタイムの自動進行で、プレイヤーが触れるのはスキルとポーションのみ。マナは自然回復しないため、撃つ順番も判断になる",
+          "拾得物は「街に持ち帰るまで自分の物にならない」。死亡すると袋の中身・その冒険で拾ったゴールド・冒険中に身に着けた装備を失い、街で装備して出た物と倉庫の中身だけが残る",
+          "毎階二択の分かれ道。カードには敵から一撃で受けるダメージと落としやすい部位が表示され、残り HP と相談して進路と撤退を決める。泉は HP 全快と引き換えにその階層が深度に数えられない",
+          "敵を倒すたびに時間が止まり、5×6 マスの袋に何を詰めるかを選ぶ。持ち帰った品は街で鑑定するまで中身が分からず、装備は 10 部位。エンチャントとセット効果も鑑定で判明する",
+          "4 人の潜り手（Knight／Reaver／Sentinel／Mage）が各 3 系統のスキルツリーと「刻印」を持ち、倉庫は共有。深度は Limbo（10 階）／Malebolge（20 階）／Cocytus（30 階）／無限の深淵 Judecca の 4 段で、Judecca は生きて帰った最深階層をシーズンランキングで競う"
+        ],
+        synopsis: "潜れば潜るほど良い物が落ちる。けれど拾った物は、街に持ち帰るまで自分の物ではない。攻撃は自動で進み、プレイヤーが決めるのはポーションを飲むか、もう一階潜るか、何を袋に詰めて帰るか。深いほど実入りは良いが、死ねば袋もゴールドも失う——「あと一階か、ここで引き返すか」の一瞬を遊ぶゲーム。",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "AppBank（配信開始・ゲームシステム・課金形態・配信地域）", url: "https://www.appbank.net/2026/10/22/game/3139597.php" },
+        { source: "Gravemark 公式サイト（システム・レリック・刻印の詳細）", url: "https://gravemark.net" },
+        { source: "mobi.gg（海外向け紹介：4 クラス・課金方針・対応状況）", url: "https://mobi.gg/en/news/gravemark-the-mobile-hack-and-slash" }
+      ],
+      videos: [
+        { label: "公式プロモーション映像（ショート）", platform: "YouTube", url: "https://youtube.com/shorts/i7Uan5Q4LfY" },
+        { label: "Google Play ストアページ（スクリーンショット・紹介映像）", platform: "Google Play", url: "https://play.google.com/store/apps/details?id=com.tokyohammock.gravemark" }
+      ],
+      hype: {
+        score: 18,
+        signals: [
+          "10-15 の日本先行から 10-19 の全世界展開へと静かに始まり、日本語圏の報道は AppBank 1 本が中心。事前登録や大型広告を伴わない小規模ローンチ",
+          "「持ち帰るまで自分の物にならない」という没入型ルールと、課金石を置かない設計が海外のモバイル媒体（mobi.gg 等）で取り上げられている",
+          "Famitsu 期待榜・ストアランキング指標は本稿時点で未形成",
+          "開発・販売は東京のスタジオ Tokyo hammock（国内法人）。外資の関与は確認できない"
+        ]
+      },
+      tags: ["新作", "手游", "ハクスラ", "ローグライト", "Android専用", "Tokyo hammock"]
+    },
+    {
+      id: "beyond-the-dark-nightwatch",
+      company: "Q-Games",
+      companyJp: "株式会社Q-Games",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-10-22（Nintendo Switch 2 版を発売）",
+      capturedAt: "2026-10-22",
+      title: { jp: "Beyond the Dark:ナイトウォッチ", cn: "Beyond the Dark：夜巡（无官方简中名）", en: "Beyond the Dark: Nightwatch" },
+      genre: "2人専用・非対称協力ホラー（脱出アドベンチャー）",
+      platforms: ["Switch 2"],
+      release: "2026-10-22（Nintendo Switch 2・2,480 円）",
+      releasePrecision: "已发售",
+      summary: "京都 Q-Games 负责亚洲发行、法国 Atlantis Studio 开发的两人专用非对称合作恐怖游戏。一人以第一人称潜入洋馆当探索者，另一人在镜头后操作监控系统与文件当监视者，两人各自只掌握部分信息，靠语音交换线索解开谜题，在被称为「グローム」的存在发现前逃出。错误的指示或漏看的细节会把同伴推向危险。支持本地、分享通信、局域网与在线联机，分享通信时第二台主机用 Switch 也可参加。",
+      highlight: "【2026-10-22 本日発売】京都の Q-Games がアジア地域のパブリッシングを担当し、フランスの Atlantis Studio が開発した 2 人専用・非対称協力ホラー『Beyond the Dark:ナイトウォッチ』が Nintendo Switch 2 で発売された（2,480 円）。　1 人が一人称の探索者、もう 1 人がカメラ越しの監視役になり、互いに見えていない情報を声で突き合わせて屋敷からの脱出を目指す。発売同日から 11-02 まで、2 人 1 組で Twitch 配信しながら競う「ワールドチャンピオンシップ」を開催し、優勝組にはエディンバラ旅行（5 泊・往復交通費込み）を贈る。",
+      console: {
+        status: "2026-10-22 発売（Nintendo Switch 2 専用）",
+        os: ["Nintendo Switch 2"],
+        monetization: "2,480 円（税込）の買い切り。追加課金・シーズンパスの記載はなし",
+        developer: "Atlantis Studio（フランス）",
+        publisher: "株式会社Q-Games（アジア地域のパブリッシング）",
+        region: "日本（アジア地域向け。日本限定の映画風ポスター 3 種も制作）",
+        distribution: "パッケージ版・ダウンロード版（Nintendo Store）",
+        stores: ["Nintendo Store"],
+        features: [
+          "2 人プレイ専用で、1 人が探索者、1 人が監視役という非対称な役割分担。片方だけでは脱出できない設計",
+          "探索者は一人称で屋敷を歩き手がかりと謎を解き、監視役はカメラ・文書・戦術ツールで状況を把握して音声で誘導する",
+          "ローカルプレイ、おすそわけ通信、ローカル通信、オンラインプレイに対応。おすそわけ通信なら 2 台目が Switch でも参加できる",
+          "発売同日から 11-02 まで「ワールドチャンピオンシップ」を開催。2 人 1 組で Twitch 配信しながらスコアを競い、優勝組にはエディンバラ旅行（賞品総額最大 4,500 ユーロ相当）"
+        ],
+        synopsis: "1 人が探索者として一人称で屋敷に入り、もう 1 人が監視役としてカメラの向こうから指示を出す。互いに見えていない情報を突き合わせ、謎の存在「グローム」の気配を避けながら脱出を目指す 2 人専用の非対称ホラー。",
+        ipSource: "オリジナル IP（Atlantis Studio の新作。既存 IP のライセンスではない）",
+        series: "Q-Games は京都のインディースタジオで、『PixelJunk』シリーズなどの自社開発と、海外タイトルのアジア向けパブリッシングを手がける。本作は同社がアジア地域向けに発売する海外開発タイトル"
+      },
+      news: [
+        { source: "ファミ通.com（発売日・価格・世界大会・ゲーム内容）", url: "https://www.famitsu.com/article/202610/91608" },
+        { source: "Nintendo Store（製品ページ）", url: "https://store-jp.nintendo.com/list/software/70010000138491.html" }
+      ],
+      videos: [
+        { label: "ローンチトレーラー", platform: "YouTube", url: "https://youtu.be/S7UAVm2GHkc" },
+        { label: "ワールドチャンピオンシップ トレーラー", platform: "YouTube", url: "https://youtu.be/AGdWhYcKZlE" }
+      ],
+      hype: {
+        score: 22,
+        signals: [
+          "発売初日から世界大会（10-22〜11-02）を重ねる発表で、配信者経由の露出を狙う設計",
+          "2 人専用・非対称という協力特化のため、ひとり用ホラーに比べ拡散は限定的",
+          "京都の Q-Games がアジア向けパブリッシングを担当し、日本限定の映画風ポスター 3 種を無料配布",
+          "Famitsu 期待榜には登場していない（Switch 2 専用の小規模タイトル）"
+        ]
+      },
+      tags: ["新作", "主机", "ホラー", "協力プレイ", "Switch 2", "Q-Games"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -11272,7 +11387,7 @@ window.OBSERVATORY = {
    *    focus:  true 标记为本职业务直接相关，优先补卡
    * ------------------------------------------------------- */
   companies: {
-    asOf: "2026-10-21",
+    asOf: "2026-10-22",
     listTotal: 50,
     categories: [
       {
@@ -11473,8 +11588,26 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-21 夕：未収録だった coly の『ディズニー スパークリンク・スターズ』が事前登録 70 万人を突破。SNAPLACE の高校数学パズル『式霊の書』が配信開始、コーエーテクモ『薬屋のひとりごと』は 2027-03-18 発売決定",
+    headline: "10-22 朝：国内発売ラッシュ開幕（FF RESONANCE／Switch Sports Resort／DEMONS' NIGHT FEVER 他）。Android ハクスラ『Gravemark』を新収録し、『ラグナロク：アドベンチャーズ』は 11-04 開始が決定",
     history: [
+      {
+        at: "2026-10-22 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ】本場の増分区間（10-21 19:00〜10-22 09:00）で、日方主導の新規スマホ作は 1 件。東京のスタジオ Tokyo hammock が Android 向けに配信した『Gravemark（グレイヴマーク）』を収録した。縦持ち・片手のダークファンタジー・ハクスラで、拾った戦利品は街に持ち帰るまで自分の物にならず、死ねば袋・ゴールド・冒険中に装備した物をすべて失う。攻撃は自動で、触るのはスキルとポーションだけ。毎階二択の分かれ道で「あと一階か、引き返すか」を選び、撃破ごとに止まる時間で 5×6 マスの袋に戦利品を詰める。課金石は存在せず、装備・レリック・刻印は課金で買えない。配信は日本が 2026-10-15、全世界が 10-19。",
+          "【スマホ・漏収追補】ガンホーの『ラグナロク：アドベンチャーズ』が 2026-10-21 16:27 に日本国内の正式サービス開始日を 11-04 と発表し、事前登録の第 3 弾特典「ポリンサングラスのレシピ」等を追加した。前場の区間内（19:00 前）の発表ながら未反映だったため、本場で追補した。",
+          "【主机・PC】本日 10-22 は国内の発売ラッシュ。『FINAL FANTASY RESONANCE』（Square Enix／HD-2D）、『Nintendo Switch Sports Resort』（任天堂／Switch 2 専用）、『DEMONS' NIGHT FEVER』（アークシステムワークス）、『蒼き雷霆 ガンヴォルト トライアングル エディション Switch 2 Edition』、『ONE PIECE 海のごちそうレストラン』（カイロソフト開発／バンダイナムコ）の 5 本が発売され、既収録 5 件を「已发售」に更新した。FF RESONANCE の海外評価は分かれ、Game Informer 9/10、GameSpot 7/10、Kotaku は物語の薄さを指摘。",
+          "【主机・PC・新規】京都の Q-Games がアジア地域のパブリッシングを担い、フランスの Atlantis Studio が開発した 2 人専用・非対称協力ホラー『Beyond the Dark:ナイトウォッチ』を新収録した。Switch 2 専用・2,480 円で本日発売。1 人が一人称の探索者、1 人がカメラ越しの監視役になり、見えていない情報を声で突き合わせて屋敷から脱出する。発売同日から 11-02 まで世界大会を開催する。",
+          "条目総数は 196 → 198（スマホ区 53 → 54、主机・PC 区 159 → 160）。platformClass は mobile 37 → 38、console 122 → 123（multi 16／pc 21 は不変）。bucket は new 116 → 118、update 80 のまま。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（10-22 に日本で配信開始したマージ RPG、10-22 に計費テストを始めた国内向けストラテジー、10-22 にスマホ版を配信したローグライク 等）。② 韓国資本は不収録（NHN の『推しの子』原作パズルが 10-20 に世界事前登録、NC 系のハロウィン施策）。③ 在営タイトルの内容更新（『ラグナロクX』新マップ「ウンバラ」と新職業「忍者」、『幻想神域』新武器、『プロセカ』総集編、Cygames 各作の緊急メンテ 等）は口径どおり不収録。④ 10-21 に正式リリースされた AI キャラチャット系ノベルアプリは既存サービスのリニューアルで本体更新にあたるため対象外。⑤ 『CRYMELIGHT』は 10-22 に PS5／Switch 2 の体験版が配信されたが、本体 11-05 発売前のデモ提供にあたるため更新せず。",
+          "運営終了・事業情報：該当なし（本場の増分区間で新たなサービス終了の告知は確認できなかった）。",
+          "companies：4 分類 8／16／16／10＝50、補充監視（extra）48 社、いずれも不変。新規 2 件の発行元（Tokyo hammock／Q-Games）はいずれも 50 家清单外で、うち Q-Games は家庭用のパブリッシャー、Tokyo hammock は Android 単独の新興スタジオのため extra 追加は見送った（SNAPLACE・シンエンスタジオと同じ判断）。",
+          "漏収核查：AppBank の 10-22 分、4Gamer の 10-21 分、ファミ通.com の 10-21 夜〜10-22 朝、PR TIMES のゲーム分類、quest-board.jp の 10-21 日次を機械照合した。IP 名検索（呪術廻戦／鬼滅の刃／ブルーロック／東京リベンジャーズ／ハイキュー／ONE PIECE／BLEACH／ホロライブ／刀剣乱舞）では、日方主導の新規スマホ作は追加で確認できなかった。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（97 社＝hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）。新規 2 件はいずれも地図の母集団外（Tokyo hammock／Q-Games は未収録社）で games カウントの変動なし。meta.asOf を 2026-10-22 に更新し、全 97 社の games フィールドを機械再計算して乖離 0 件を確認。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：10-22 号の発売に合わせた新期集計は本稿時点で未確認。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
+          "【持越し】① 10-23 の『ONE PIECE 海のごちそうレストラン』iOS／Android・Steam 配信と、『ちるキャン△』Steam 早期アクセスの初日情報。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。④『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑤『ディズニー スパークリンク・スターズ』の配信日と課金体系。⑥『JockeyBox』のストア・映像公開待ち。⑦ RAIDENWORKS『EGO DESCENT』の法人情報。⑧ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
+        ]
+      },
       {
         at: "2026-10-21 19:00",
         scene: "定時巡検（夕方の部）",
@@ -11493,23 +11626,6 @@ window.OBSERVATORY = {
           "【持越し】① 10-22 の国内発売ラッシュ（FF RESONANCE／Nintendo Switch Sports Resort／DEMONS' NIGHT FEVER／GUNVOLT／ちるキャン△ Steam）の初日情報。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（重大発表）。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版発売。④『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑤『ディズニー スパークリンク・スターズ』の配信日と課金体系。⑥『JockeyBox』のストア・映像公開待ち。⑦ 資本構成を一次源で確認できなかった国内パブリッシャー発の PC アクション RPG 1 件（社名は保留）。⑧ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
         ]
       },
-      {
-        at: "2026-10-21 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【スマホ】本場の増分区間（10-20 19:10〜10-21 12:40）で、日方主導の新規スマホ作は 1 件。京都の合同会社SNAPLACE が 2026-10-13 に iOS／Android で配信した高校物理アドベンチャー『さわる物理 ― 高校物理を実験で覚える』を漏収追補した。物理定数が壊れた世界で、依頼人の話から原因を推理し、測定・実験を経て公式を自分で組み立て、装置が動くかどうかで採点される。全 113 単元・5 地区 30 装置・26 の「もしも物理」・10 章の物語を収録し、無料＋買い切り 500 円・広告なし・通信なし。10-15 の AppBank、10-20 の gamebiz で報じられていたが未収録だった。",
-          "条目総数は 190 → 193（スマホ区 49 → 50、主机・PC 区 156 → 157）。platformClass は mobile 34 → 35（console 121 → 122／multi 15 → 16／pc 20 は不変）。bucket は new 112 → 113、update 78 → 80。『さわる物理』は本体配信が窗口内（2026-08-21 以降）のため new、『ちるキャン△』『カルドセプト ビギンズ』は本体が窗口左端より前の在営・発売済み作で、本場の観測点が他機種版（Steam）の配信決定のため update。",
-          "更新 1 件：『ハイキュー!! ALL Challengers』（TOHO Games／開発・運営 G2 Studios）。2026-10-20 に App Store／Google Play での事前登録を開始し、メインビジュアルと公式 PV を公開、公式サイトもリニューアルした。3 月の発表時は公式 SNS と TOHO-ONE 経由の登録のみだったため、ストア側の受付開始は初。announceDate・capturedAt・highlight 先頭・news 先頭・videos（公式 X と App Store）を更新し、features を 6 条から 5 条に整理した。",
-          "漏収 2 件（他機種版・作業支援の大型改修）：①『ゆるキャン△ つなげるみんなのオールインワン!! ちるタイム』（通称ちるキャン△、enish）＝2026-10-22 に Steam 早期アクセス開始、買い切り 1,300 円・ガチャなし。同一日に iOS／Android 版もアップデートで本作へ移行し、再インストールは不要。ウィッシュリストは 1 万件を突破。②『カルドセプト ビギンズ』（ネオス）＝Switch／Switch 2 版は 2026-07-16 発売済みで世界累計 10 万本。2026-10-20 に PC（Steam）版を 10-28 発売と発表し、新対戦マップ 3 枚・Book カバー 10 種・カード図鑑の読み上げを追加する。両件とも本体が窗口外のため bucket=update。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（10-21 に国内配信が始まったスマホ新作、10-20 に世界事前登録を始めた大型オープンワールド、10-21 の海外アップデート 等）。② 韓国資本は不収録（NHN の『推しの子』原作パズルが 10-20 に世界事前登録開始、GRAVITY のバスケカードゲームが 10-20 に配信開始）。③ 在営タイトルの内容更新（『ステラソラ』1 周年 POP UP STORE、『Wizardry Variants Daphne』2 周年、『SDガンダム ジージェネレーション エターナル』新イベント 等）は口径どおり不収録。④ 香港法人が発行する『THANKS, LIGHT.』（10-20 リリース）は紅線口径どおり見送り。⑤ 10-20 に Steam ストアページを公開した『EGO DESCENT』（RAIDENWORKS）は、法人の国籍・資本構成を一次源で確認できず持越し。",
-          "運営終了・事業情報：該当なし（本場の増分区間で新たなサービス終了の告知は確認できなかった）。",
-          "companies：4 分類 8／16／16／10＝50、補充監視（extra）47 社、いずれも不変。ネオスの gameIds に culdcept-begins、enish の gameIds に chirucamp を追記し、双方の note を更新した。『さわる物理』の SNAPLACE は extra 未登録のまま（京都の小規模法人で、既存 2 件と同じ判断）。",
-          "漏収核查：gamebiz の 10-20 分全記事、4Gamer の 10-20〜10-21 分、AppBank の 10-20 分、PR TIMES のゲーム分類、iTunes Search API（jp）を機械照合した。IP 名検索（呪術廻戦／鬼滅の刃／ブルーロック／東京リベンジャーズ／ホロライブ／刀剣乱舞／ポケモン／ハイキュー／ONE PIECE／BLEACH）では、日方主導の新規スマホ作は追加で確認できなかった。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（96 社＝hq 75／branch 11／out 10、onMap 86・outsideTokyo 10・hqPlotted 96）。新規 3 件のうち SNAPLACE は母集団外、enish・ネオスは既存社で games カウントが 1 件ずつ増えるため、全 96 社を機械再計算した。meta.asOf を 2026-10-21 に更新。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：10-21 時点で新期の発表なし（次号は 10-22 発売）。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-22 の国内発売ラッシュ（FF RESONANCE／Nintendo Switch Sports Resort／DEMONS' NIGHT FEVER／GUNVOLT／ちるキャン△ Steam）の初日情報。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（重大発表）。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版発売。④『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑤『JockeyBox』のストア・映像公開待ち。⑥ RAIDENWORKS『EGO DESCENT』の法人情報。⑦ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
-        ]
-      }
     ]
   }
 };
