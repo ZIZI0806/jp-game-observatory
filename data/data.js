@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-10-17
+ * 最后更新: 2026-10-23
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-22T19:05:00+08:00",
-    edition: "2026-10-22",
-    window: "2026-08-22 ~ 2026-10-22（滚动最近 2 个月）",
+    updatedAt: "2026-10-23T11:40:00+08:00",
+    edition: "2026-10-23",
+    window: "2026-08-23 ~ 2026-10-23（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -3339,15 +3339,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント（開発：カイロソフト）",
       bucket: "update",
       platformClass: "multi",
-      announceDate: "2026-09-24（モバイル版の予約受付を開始）",
-      capturedAt: "2026-10-22",
+      announceDate: "2026-10-23（Steam／App Store／Google Play 版が配信開始）",
+      capturedAt: "2026-10-23",
       title: { jp: "ONE PIECE 海のごちそうレストラン", cn: "海贼王 海洋盛宴", en: "ONE PIECE: Grand Gourmet" },
       genre: "海上レストラン経営シミュレーション",
       platforms: ["Nintendo Switch 2", "Nintendo Switch", "PC (Steam)", "iOS", "Android"],
       release: "2026-10-22（主机版）／2026-10-23（Steam・手机版）",
       releasePrecision: "已发售",
       summary: "万代南梦宫发行、开罗游戏（カイロソフト）开发的《ONE PIECE》题材像素风经营模拟，于 Nintendo Direct 首发公开。玩家作为海上餐厅「巴拉蒂 2 号店」的新人店员，与草帽一伙共同把餐厅做成「这片海上最美味的地方」。与山治一起用冒险中获得的食材开发菜谱，可把主菜／副菜／甜点／饮料自由组合成套餐并获得额外加成，也会出现运用恶魔果实能力的特殊料理。收录 400 名以上系列角色、200 种以上家具与内饰。主机版 2,700 日元、手机版 2,000 日元，支持含简繁中文在内的 12 种语言。TGS2026 设置餐厅主题展台并提供 20 分钟试玩。",
-      highlight: "【2026-10-22 発売】カイロソフト開発／バンダイナムコエンターテインメント発売の『ONE PIECE 海のごちそうレストラン』が、Switch 2／Switch で本日発売された。iOS／Android と Steam は明日 10-23 の配信。\u3000【2026-09-24 モバイル版予約受付開始】バンダイナムコエンターテインメントが iOS／Android 版の予約受付を開始した（発売はコンシューマ版の翌日、2026-10-23。買い切りのため追加課金なし）。同日、新米スタッフの一日を紹介する「あそびかた紹介 ～新米スタッフの１日～」と、レストラン従業員募集を題材にした 2 本の映像が公開された。　【TGS2026 9/18】バンダイナムコ 综合展台提供含 iOS／Android 版在内的跨平台试玩，未单独划入移动端专区，与《BLEACH Mirrors High》同在主力展位露出；展台还公开了「バラティエ 2 号店」的玩法介绍影像与一份以该店为舞台的架空新人招募影像。　IP 授权经营模拟：把「吃饭」这条原作主线做成核心玩法，而不是又一款战斗手游。",
+      highlight: "【スマホ／Steam 版 10/23 配信開始】バンダイナムコエンターテインメントの『ONE PIECE 海のごちそうレストラン』が、Steam と App Store／Google Play で本日 2026-10-23 に配信開始された。Switch 2／Switch 版が 10-22 に先行しており、これで 5 機種すべてが出揃った。買い切り（モバイル 2,000 円）で追加課金はなく、1 人プレイ専用・CERO A。　【2026-10-22 発売】カイロソフト開発の経営シミュレーション。400 名以上のキャラクターと 200 種以上の家具・内装、9 種のミニゲームを収録し、海域ごとの目標達成で偽バラティエとの料理対決に挑む。　IP 授权经营模拟：把「吃饭」这条原作主线做成核心玩法，而不是又一款战斗手游。",
       console: {
         status: "2026年10月22日 発売（Switch 2 / Switch）。iOS／Android と Steam は 2026年10月23日",
         os: ["Nintendo Switch 2", "Nintendo Switch", "PC（Steam）"],
@@ -3363,7 +3363,6 @@ window.OBSERVATORY = {
           "悪魔の実の能力を活かした特別料理が登場",
           "200 種類以上の家具・建築物・インテリアを自由配置。常連客イベントも用意",
           "総勢 400 以上のキャラクターが来店（四皇・海軍・革命軍なども含む）",
-          "コンシューマ版は 10月22日、Steam・モバイル版は 10月23日と 1 日差で展開"
         ],
         synopsis: "『ONE PIECE』の世界で海上レストランを経営するシミュレーション。物語の起点である「バラティエ」の 2 号店を舞台に、麦わらの一味と協力して「この海で一番のレストラン」を目指す。冒険で新素材を入手するとレシピが拡張し、招待したキャラクターが内装を気に入れば常連客になる。",
         ipSource: "『ONE PIECE』（尾田栄一郎／集英社）",
@@ -3375,7 +3374,9 @@ window.OBSERVATORY = {
         { source: "Third News（TGS2026 试玩与预约活动）", url: "https://third-news.com/article/9089a9b6-90b1-11f1-b03b-9ca3ba08e13f" },
         { source: "開羅遊戲 官方作品页", url: "https://kairosoft.net/game/appli/op_restaurant.html" },
         { source: "GameForce Mobile（TGS2026 でのモバイル版を含む試遊出展）", url: "https://www.gameforcemobile.com/news/5080-one-piece-grand-gourmet-brings-mobile-build-to-tokyo-game-show" },
-        { source: "3DM 游戏网（海外媒体／モバイル版の予約受付開始を報道）", url: "https://www.3dmgame.com/news/202609/3954465.html" }
+        { source: "3DM 游戏网（海外媒体／モバイル版の予約受付開始を報道）", url: "https://www.3dmgame.com/news/202609/3954465.html" },
+        { source: "Quest Board.JP（Switch 版 10-22／Steam・モバイル版 10-23 配信・Ver.1.0.4 の内容）", url: "https://quest-board.jp/en/quests/one-piece-2" },
+        { source: "4Gamer.net（カイロソフト開発の経営シムとしての内容紹介）", url: "https://www.4gamer.net/games/010/G101093/20261022005/" }
       ],
       videos: [
         { label: "官方特设站（アナウンスメントトレーラー・预约入口）", platform: "官方站", url: "https://op-restaurant.bn-ent.net" },
@@ -3393,7 +3394,7 @@ window.OBSERVATORY = {
       tags: ["IP授权", "手游", "经营模拟", "跨平台", "TGS2026"],
       caution: "モバイル版の予約受付開始（2026-09-24）は海外（中国語圏）メディアが報じたバンダイナムコエンターテインメントの発表にもとづくもので、同日時点で日本語の公式サイトでは当該告知を確認できていない。日本語の公式告知を確認でき次第、記載を更新する",
       mobile: {
-        status: "2026-10-23 配信予定（主机版は 10-22 先行）。モバイル版の予約受付は 2026-09-24 より開始",
+        status: "正式サービス中（2026-10-23 配信開始）",
         os: ["iOS", "Android"],
         monetization: "買い切り（モバイル版 2,000 円。追加課金の記載なし）",
         payment: [],
@@ -3410,7 +3411,6 @@ window.OBSERVATORY = {
           "悪魔の実の能力を活かした特別料理が登場",
           "200 種類以上の家具・建築物・インテリアを自由配置、常連客イベントあり",
           "総勢 400 以上のキャラクターが来店（四皇・海軍・革命軍なども含む）",
-          "ホールケーキアイランド風・エッグヘッド風など、作中の島モチーフの家具を収録"
         ],
         synopsis: "『ONE PIECE』の世界で海上レストランを経営する経営シミュレーション。物語の起点である海上レストラン「バラティエ」の 2 号店を舞台に、麦わらの一味と協力して「この海で一番のレストラン」を目指す。冒険で新素材を入手するとレシピが拡張し、招待したキャラクターが内装を気に入れば常連客になってくれる。原作でも重要だった「食」に焦点を当てた、シリーズ初の本格経営シミュレーション。",
         cast: "未発表（原作アニメに準拠）"
@@ -6814,8 +6814,8 @@ window.OBSERVATORY = {
       companyJp: "株式会社エンターグラム（企画・製作：株式会社カバー）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-17（ティザーサイト開設。TGS2026 の ENTERGRAM ブースで初公開）",
-      capturedAt: "2026-09-22",
+      announceDate: "2026-10-22（オフィシャルサイト公開・ストーリー／キャラクター／イベントスチル解禁）",
+      capturedAt: "2026-10-23",
       title: {
         jp: "コヨリニウム",
         cn: "Koyorenium（コヨリニウム）",
@@ -6823,12 +6823,12 @@ window.OBSERVATORY = {
       },
       genre: "ビジュアルノベル",
       platforms: ["未発表"],
-      release: "未発表（正式サイトは 2026-10-22 公開予定）",
+      release: "未発表（商品情報は 2026-11-19 公開予定）",
       releasePrecision: "未定",
-      summary: "ホロライブ 6 期生「秘密結社 holoX」の博衣こより（Hakui Koyori）を主演に据えたビジュアルノベル新作。企画・製作を所属事務所のカバー（COVER）が担い、配信をエンターグラムが担当する。2026-09-17 にティザーサイトが開設され、キービジュアルが公開された。正式サイトは 2026-10-22 に開設予定。博衣こより本人は主演に加えて監修にも関与しており、自身の X アカウントで発表を行い、パッケージ用にオリジナルの衣装が用意されることにも言及している。対応機種・発売時期・価格・ストーリーは 2026-09-22 時点でいずれも未発表。TGS2026 ではエンターグラム ブース（3 号館 03-N05）にキービジュアルの大型展示と直筆サイン入りパネル、本人からの特別メッセージ映像が出展された。",
-      highlight: "【2026-09-17 ティザーサイト開設】エンターグラムがホロライブ・博衣こより 主演／監修のビジュアルノベル『コヨリニウム』のティザーサイトを公開し、キービジュアルを初披露した。企画・製作は COVER、配信は ENTERGRAM。正式サイトは 2026-10-22 にオープン予定。　TGS2026 のエンターグラム ブース（3 号館 03-N05）ではキービジュアルの大型展示・直筆サイン入りパネル・本人の特別メッセージ映像が出展され、会場で最初に情報が露出した形。対応機種や発売時期は未発表で、続報は 10-22 の正式サイト公開に集約される見込み。",
+      summary: "ホロライブ 6 期生「秘密結社 holoX」の博衣こより（Hakui Koyori）を主演に据えたビジュアルノベル新作。企画・製作を所属事務所のカバー（COVER）が担い、配信をエンターグラムが担当する。2026-09-17 にティザーサイトが開設され、キービジュアルが公開された。正式サイトは 2026-10-22 に予定どおり開設され、ストーリー・キャラクター情報・イベントスチルが公開された。博衣こより本人は主演に加えて監修にも関与しており、自身の X アカウントで発表を行い、パッケージ用にオリジナルの衣装が用意されることにも言及している。対応機種・発売時期・価格は 2026-10-22 時点でいずれも未発表で、商品情報は 11-19 に公開予定。TGS2026 ではエンターグラム ブース（3 号館 03-N05）にキービジュアルの大型展示と直筆サイン入りパネル、本人からの特別メッセージ映像が出展された。",
+      highlight: "【公式サイト開設 10/22】エンターグラムがホロライブ・博衣こより 主演／監修のビジュアルノベル『コヨリニウム』のオフィシャルサイトを公開し、ストーリー・キャラクター情報・イベントスチルを解禁した。プレイヤーは後輩として未来科学部に入部し、「助手くん」としてこよりと学園を駆け回る。商品情報（対応機種・価格・発売日）は 11-19 に公開予定。　2026-09-17 のティザーサイト開設から約 1 か月でストーリーが初公開され、TGS2026 のブース展示を経て情報公開が本格化した段階。企画・製作は COVER、配信は ENTERGRAM。",
       console: {
-        status: "開発中（対応機種・発売時期・価格はいずれも未発表）",
+        status: "開発中（2026-10-22 にオフィシャルサイト開設。対応機種・発売時期・価格は未発表、商品情報は 11-19 公開予定）",
         monetization: "未発表（同社の既存ビジュアルノベルは買い切り）",
         developer: "未発表（企画・製作は株式会社カバー）",
         publisher: "株式会社エンターグラム",
@@ -6850,11 +6850,14 @@ window.OBSERVATORY = {
       news: [
         { source: "Quest Board.JP（ティザーサイト開設・企画製作と配信の分業体制・TGS2026 ブース内容）", url: "https://quest-board.jp/en/quests/buzz-leak-2026-09-17-leak-2-20260917" },
         { source: "巴哈姆特 GNN（TGS26：由 VTuber 博衣小夜璃主演的視覺小說新作確認開發中）", url: "https://gnn.gamer.com.tw/detail.php?sn=311863" },
-        { source: "ホロライブ公式タレントページ（博衣こより のプロフィールと設定語「コヨリニウム」）", url: "https://hololive.hololivepro.com/talents/hakui-koyori/" }
+        { source: "ホロライブ公式タレントページ（博衣こより のプロフィールと設定語「コヨリニウム」）", url: "https://hololive.hololivepro.com/talents/hakui-koyori/" },
+        { source: "ファミ通.com（オフィシャルサイト公開・ストーリーとイベントスチル・商品情報は 11-19）", url: "https://www.famitsu.com/article/202610/91768" },
+        { source: "コヨリニウム オフィシャルサイト（エンターグラム）", url: "https://www.entergram.co.jp/koyorenium/" }
       ],
       videos: [
         { label: "Quest Board.JP の発表整理（ティザーサイトと TGS2026 ブースの内容）", platform: "媒体", url: "https://quest-board.jp/en/quests/buzz-leak-2026-09-17-leak-2-20260917" },
-        { label: "巴哈姆特 GNN 報導（主演與監修體制・預告官網）", platform: "媒体", url: "https://gnn.gamer.com.tw/detail.php?sn=311863" }
+        { label: "巴哈姆特 GNN 報導（主演與監修體制・預告官網）", platform: "媒体", url: "https://gnn.gamer.com.tw/detail.php?sn=311863" },
+        { label: "コヨリニウム オフィシャルサイト（ストーリー・イベントスチル）", platform: "官方站", url: "https://www.entergram.co.jp/koyorenium/" }
       ],
       hype: {
         score: 52,
@@ -11104,17 +11107,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社coly（本社：東京都港区三田）",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-10-21（事前登録者数 70 万人突破。作品の初公開は 2026-06-23）",
-      capturedAt: "2026-10-21",
+      announceDate: "2026-10-22（配信日 2026-11-04 決定・AGF2026 初出展を coly が発表）",
+      capturedAt: "2026-10-23",
       title: { jp: "ディズニー スパークリンク・スターズ", cn: "Disney Sparklink Stars（官方未公布简中译名）", en: "Disney Sparklink Stars" },
       genre: "育成アドベンチャー（三消パズル＋ライブレース）／基本プレイ無料",
       platforms: ["iOS", "Android"],
-      release: "未定（配信日は公式未発表）",
-      releasePrecision: "未定",
-      summary: "日本 coly 与迪士尼合作的自研手游，定位「让梦想成真的 Spark Rider 养成 ADV」。玩家扮演指挥者，在米奇轮廓造型的未来都市 Luminoustair 培育以迪士尼／皮克斯作品为原型、共 4 组 15 名的原创偶像：米奇与伙伴们系 UPbeats!、怪兽电力公司系 aMazINC.、美女与野兽系 Endelore、灰姑娘系 Midveil。玩法分两段：先以三消拼图闯关提升等级并取得技能，再带进舞台竞演「Spark Ride」争夺第一。基本游玩免费＋道具收费，仅预定日语版。2026-06-23 开设官网并启动事前登录，08-05 起开放 App Store／Google Play 商店预约，10-21 事前登录突破 70 万人。著作权标示为 © Disney，由 coly 自主发行。",
-      highlight: "【2026-10-21 事前登録 70 万人突破】coly とディズニーの共同プロジェクト『ディズニー スパークリンク・スターズ』で、事前登録者数が 70 万人に到達した。70 万人達成分として★3 メモリー確定オファーレター 1 点が追加され、80 万人達成時には「好きなスパークライダーを選んで★3 メモリーが獲得できる」仕様にアップグレードされる。　配信日は依然として未発表で、2026-06-23 の初公開から 4 か月で 70 万人に到達した計算になる。ディズニーの男性アイドルものを日本市場向けに作る、という『ツイステッドワンダーランド』とは別チームの挑戦で、三消パズルで育成しライブレースで競う二段構成が特徴。",
+      release: "2026-11-04（iOS／Android）",
+      releasePrecision: "日",
+      summary: "日本 coly 与迪士尼合作的自研手游，定位「让梦想成真的 Spark Rider 养成 ADV」。玩家扮演指挥者，在米奇轮廓造型的未来都市 Luminoustair 培育以迪士尼／皮克斯作品为原型、共 4 组 15 名的原创偶像：米奇与伙伴们系 UPbeats!、怪兽电力公司系 aMazINC.、美女与野兽系 Endelore、灰姑娘系 Midveil。玩法分两段：先以三消拼图闯关提升等级并取得技能，再带进舞台竞演「Spark Ride」争夺第一。基本游玩免费＋道具收费，仅预定日语版。2026-06-23 开设官网并启动事前登录，08-05 起开放商店预约，10-21 突破 70 万人；2026-10-22 官方定档 2026-11-04 配信，同日宣布首次出展 AGF2026（11-07～08）。著作权标示为 © Disney，由 coly 自主发行。",
+      highlight: "【配信日 2026-11-04 決定 10/22】coly が『ディズニー スパークリンク・スターズ』の配信日を 2026 年 11 月 4 日（水）に決定した。あわせて 11-07〜08 のアニメイトガールズフェスティバル 2026（White AREA・W-01）への初出展も発表し、会場限定アイテムを含むグッズ販売とオリジナルショッパーの配布を予定する。事前登録キャンペーンは継続中で、報酬は育成アイテム 3 点セット・オファーレター 10 点・★3 メモリー確定オファーレター 1 点。80 万人達成で★3 メモリーが「好きなスパークライダーを選べる」仕様に強化される。　2026-06-23 の初公開から 4 か月で 70 万人に到達し、配信日が確定したことで予約・事前登録が最終局面に入る。三消パズルで育成しライブレースで競う二段構成の、ディズニー男性アイドル企画。",
       mobile: {
-        status: "配信予定（日付未定・事前登録受付中）",
+        status: "配信予定（2026-11-04 配信決定・事前登録受付中）",
         os: ["iOS", "Android"],
         monetization: "基本プレイ無料＋アプリ内課金（アイテム課金）",
         preReg: { open: true, since: "2026-06-23（公式サイト・X・YouTube で開始）／2026-08-05（App Store・Google Play のストア予約）", reward: "スパークライダー育成アイテム 3 点セット（ダンスチャージ S／シングチャージ S／アクトチャージ S）、オファーレター 10 点、★3 メモリー確定オファーレター 1 点（70 万人達成で追加）。80 万人達成で、★3 メモリーは好きなスパークライダーを選べる仕様に強化。受け取り期限はリリース後にゲーム内で告知される" },
@@ -11138,11 +11141,15 @@ window.OBSERVATORY = {
       news: [
         { source: "公式サイト ニュース（事前登録者数 70 万人突破・80 万人達成の追加報酬）", url: "https://colyinc.com/sparklink-stars/news/info/184/" },
         { source: "gamebiz（70 万人達成と追加報酬の内容）", url: "https://gamebiz.jp/news/434477" },
-        { source: "公式サイト（作品概要・事前登録）", url: "https://colyinc.com/sparklink-stars" }
+        { source: "公式サイト（作品概要・事前登録）", url: "https://colyinc.com/sparklink-stars" },
+        { source: "公式サイト ニュース（配信日 2026-11-04 決定・AGF2026 初出展・事前登録報酬）", url: "https://colyinc.com/sparklink-stars/news/info/159/" },
+        { source: "ファミ通.com（配信日決定と AGF2026 出展の発表）", url: "https://www.famitsu.com/article/202610/91771" },
+        { source: "4Gamer.net（配信日 11-04 決定・AGF2026 出展）", url: "https://www.4gamer.net/games/008/G100854/20261022029/" }
       ],
       videos: [
         { label: "公式サイト ニュース（スパークライダーPV 公開）", platform: "官方站", url: "https://colyinc.com/sparklink-stars/news/info/151/" },
-        { label: "公式 X（@spalik_jp／最新 PV とキャンペーン情報）", platform: "X", url: "https://x.com/spalik_jp" }
+        { label: "公式 X（@spalik_jp／最新 PV とキャンペーン情報）", platform: "X", url: "https://x.com/spalik_jp" },
+        { label: "公式 YouTube チャンネル（@spalik_jp／PV と配信前情報）", platform: "YouTube", url: "https://www.youtube.com/@spalik_jp" }
       ],
       hype: {
         score: 74,
@@ -11445,6 +11452,177 @@ window.OBSERVATORY = {
         cast: "公式発表なし"
       }
     },
+    {
+      id: "zoku-portpia",
+      company: "G-MODE（開発協力：room6）",
+      companyJp: "株式会社ジー・モード（開発協力：株式会社room6）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-10-23（発売日 2027-03-04 決定・パッケージ予約受付開始）",
+      capturedAt: "2026-10-23",
+      title: { jp: "続ポートピア連続殺人事件:忘却の埋葬", cn: "续・波多比亚连续杀人事件：忘却的埋葬（官方未公布简中译名）", en: "Zoku Portopia Renzoku Satsujin Jiken: Boukyaku no Maisou" },
+      genre: "アドベンチャー（推理／コマンド選択）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PC (Steam)"],
+      release: "2027-03-04（Nintendo Switch 2／Nintendo Switch／PC。Steam 表記は 2027 年）",
+      releasePrecision: "日",
+      summary: "ジー・モード（開発協力 room6）推出的《波多比亚连续杀人事件》系列新作，2027-03-04 登陆 Switch 2／Switch，PC（Steam）商店页记为 2027 年。本作把 1983 年 FC 版《ポートピア連続殺人事件》完全重制，并追加 5 个全新搜查档案：舞台搬到 1980 年代的神户，玩家与全新登场人物一起追查隐藏在「波多比亚事件」背后的秘密。原作与总监督为堀井雄二，角色设计由 WIT STUDIO 的浅野恭司担任，音乐请到钢琴家清塚信也。Switch 实体版分通常版与限定版，两者都同梱可完整游玩的 FC 版（下载版与 Steam 版不含），限定版另附小册子与 OST CD。",
+      highlight: "【2027-03-04 発売日決定】ジー・モードが『続ポートピア連続殺人事件:忘却の埋葬』の発売日を 2027 年 3 月 4 日に決定し、Switch 2／Switch のパッケージ予約受付を開始した。FC 版『ポートピア連続殺人事件』をフルリメイクしたうえで 5 本の新規捜査ファイルを加えた完全新作で、舞台は 1980 年代の神戸。原作・制作総監督に堀井雄二、キャラクターデザインに浅野恭司（WIT STUDIO）、音楽にピアニストの清塚信也を迎える。　パッケージは通常版と限定版の 2 種で、いずれも FC 版を丸ごと同梱して遊べる（ダウンロード版と Steam 版では遊べない）。限定版にはブックレットとオリジナルサウンドトラック CD が付属する。",
+      console: {
+        status: "2027-03-04 発売予定（Switch 2／Switch は予約受付中）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "Windows (Steam)"],
+        monetization: "買い切り。価格は未発表（通常版・限定版の 2 種を予定）",
+        developer: "ジー・モード ／ room6",
+        publisher: "ジー・モード",
+        region: "日本",
+        distribution: "パッケージ版（Switch 2／Switch）およびダウンロード版（Nintendo eShop／Steam）",
+        stores: ["Nintendo eShop", "Steam", "全国のゲーム取扱店"],
+        preOrder: "Switch 2／Switch のパッケージ予約を受付中（通常版・限定版）",
+        features: [
+          "1983 年のファミコン版『ポートピア連続殺人事件』をフルリメイクし、新規の捜査ファイル 5 本を追加した完全新作",
+          "舞台は 1980 年代の神戸。新規登場人物たちとともに、ポートピア事件の裏に隠された秘密を追う",
+          "原作・制作総監督に堀井雄二、キャラクターデザインに浅野恭司（WIT STUDIO）、音楽に清塚信也",
+          "パッケージ版は通常版・限定版ともファミコン版を同梱し、丸ごとプレイできる（DL 版と Steam 版は非対応）",
+          "限定版にはブックレットとオリジナルサウンドトラック CD が付属。1 人プレイ専用"
+        ],
+        synopsis: "1980 年代の神戸を舞台に、プレイヤーは新たな登場人物たちとともに捜査を進める。ファミコン版『ポートピア連続殺人事件』で語られた事件の裏側に隠された秘密が、5 本の新規捜査ファイルを通じて明らかになっていく。",
+        ipSource: "堀井雄二 原作・制作総監督によるファミコン版『ポートピア連続殺人事件』（1983 年、エニックス）のフルリメイク＋新規ストーリー",
+        series: "1983 年の『ポートピア連続殺人事件』を起点とするアドベンチャーシリーズ。本作は同作の正式な続編として、当時の事件の裏側を描く",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "4Gamer.net（発売日 2027-03-04 決定・パッケージ同梱物・制作体制）", url: "https://www.4gamer.net/games/041/G104110/20261022038/" },
+        { source: "ファミ通.com（発売日決定と Switch パッケージ特典）", url: "https://www.famitsu.com/article/202610/91715" },
+        { source: "公式サイト（ジー・モード『続ポートピア連続殺人事件:忘却の埋葬』）", url: "https://gmodecorp.com/cs/portpia" },
+        { source: "Steam ストアページ（対応機種・発売時期）", url: "https://store.steampowered.com/app/5137520/" }
+      ],
+      videos: [
+        { label: "公式サイト（ティザー映像・スクリーンショット）", platform: "官方站", url: "https://gmodecorp.com/cs/portpia" },
+        { label: "Steam ストアページ（トレーラー）", platform: "Steam", url: "https://store.steampowered.com/app/5137520/" },
+        { label: "4Gamer.net 記事（発表内容と画面ギャラリー）", platform: "媒体", url: "https://www.4gamer.net/games/041/G104110/20261022038/" }
+      ],
+      hype: {
+        score: 58,
+        signals: [
+          "堀井雄二が原作・制作総監督を務める 1983 年名作のフルリメイクで、発表当日から国内主要媒体が一斉に報じた",
+          "キャラクターデザインに浅野恭司（WIT STUDIO）、音楽に清塚信也と、ゲーム外の著名クリエイターを起用",
+          "Switch パッケージにファミコン版を丸ごと同梱する特典設計で、当時のプレイヤー層への訴求が明確",
+          "家庭用タイトルのため事前登録などの数値シグナルはなく、価格も未発表。Famitsu 期待榜には次回以降の登場待ち"
+        ]
+      },
+      tags: ["主机", "推理ADV", "リメイク", "ジー・モード", "新作発表"]
+    },
+    {
+      id: "gimai-seikatsu-lo-fi",
+      company: "Minstrel（株式会社テイルポット）／ 開発：Neilo Inc.",
+      companyJp: "株式会社テイルポット（クリエイティブブランド「Minstrel」）／ 開発：Neilo Inc.",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-10-22（制作発表・Steam ストアページ公開）",
+      capturedAt: "2026-10-23",
+      title: { jp: "義妹生活 Days with My Lo-Fi Sister", cn: "义妹生活 Days with My Lo-Fi Sister（官方未公布简中译名）", en: "Days with My Lo-Fi Sister" },
+      genre: "作業用アドベンチャー（作業支援×コミュニケーション）",
+      platforms: ["PC (Steam)"],
+      release: "2026年冬（予定）",
+      releasePrecision: "季",
+      summary: "角川 MF 文库 J 轻小说《义妹生活》（系列累计 130 万部）的游戏化作品，由 テイルポット 新设创作品牌 Minstrel 发行，2026 年冬季在 Steam 上线，定价 1,500 日元（含税）。原作者三河ごーすと亲自负责剧本与制作指挥：玩家学习或工作时与义妹绫濑沙季（CV：中岛由贵）视频通话，随累计作业时间解锁游戏原创剧情。沙季台词由原作者新写，沿用动画版声优全语音；另收录 Lo-Fi 乐曲与动画版剧伴、可导入自有音乐、番茄钟／ToDo／备忘录，环境音用雅马哈 ViReal 麦克风与立体音响技术收录，还有以 KU100 双耳录音的「陪睡」模式。开发由 Neilo 负责。",
+      highlight: "【2026-10-22 制作発表】テイルポットの新ブランド Minstrel 第 1 弾として、MF 文庫 J『義妹生活』のゲーム化『義妹生活 Days with My Lo-Fi Sister』が発表され、Steam ストアページが公開された。2026 年冬発売予定・1,500 円（税込）で、原作者 三河ごーすと がシナリオと制作指揮を担当。綾瀬沙季（CV：中島由貴）とのビデオ通話を眺めながら勉強や仕事ができ、累計作業時間に応じて書き下ろしストーリーが解放される。　ポモドーロタイマー・ToDo・メモを備え、環境音はヤマハの ViReal マイクと Sound xR Core で立体収録、添い寝モードは KU100 のバイノーラル収録。読売栞（CV：鈴木みのり）との追加 DLC を目指すクラウドファンディングが 10-27 19 時から 45 日間実施予定。",
+      console: {
+        status: "2026 年冬 発売予定（Steam ストアページ公開済み・ウィッシュリスト受付中）",
+        os: ["Windows (Steam)"],
+        monetization: "買い切り 1,500 円（税込）。追加 DLC（読売栞）はクラウドファンディングの達成状況により制作",
+        developer: "Neilo Inc.",
+        publisher: "Minstrel（株式会社テイルポット）",
+        region: "日本",
+        distribution: "ダウンロード（Steam）",
+        stores: ["Steam"],
+        features: [
+          "原作者 三河ごーすと がシナリオと制作指揮を担当。沙季のセリフは原作者書き下ろしで、テレビアニメ版と同じ中島由貴のフルボイス",
+          "作業時間の累積に応じてゲームオリジナルの物語が解放。季節イベントや誕生日の会話も用意",
+          "ポモドーロタイマー・ToDo リスト・メモを搭載し、実作業の支援ツールとしても使える",
+          "音楽・環境音・窓の外の風景を選んで作業環境を構築。手持ちの音楽ファイルのインポートにも対応",
+          "添い寝モードはダミーヘッドマイク KU100 によるバイノーラル収録。1 人プレイ専用"
+        ],
+        synopsis: "親の再婚で義理の兄妹になった浅村悠太と綾瀬沙季。ゲームではプレイヤーが沙季とビデオ通話をつなぎながら、勉強や仕事、くつろぎの時間を一緒に過ごす。机に向かう時間が積み重なるほど、沙季との会話と物語が少しずつ深まっていく。",
+        ipSource: "三河ごーすと『義妹生活』（イラスト：Hiten、KADOKAWA MF 文庫 J）。シリーズ累計 130 万部、テレビアニメ化もされた作品",
+        series: "テイルポットのクリエイティブブランド Minstrel の第 1 弾タイトル。同社は小説・漫画・ゲーム・音声作品・映像を横断する IP 制作会社",
+        cast: "綾瀬沙季：中島由貴。追加 DLC では読売栞：鈴木みのり（クラウドファンディング達成が前提）"
+      },
+      news: [
+        { source: "ファミ通.com（制作発表・原作者の関与・クラウドファンディング）", url: "https://www.famitsu.com/article/202610/91798" },
+        { source: "Steam ストアページ（発売時期・対応言語・開発元）", url: "https://store.steampowered.com/app/5175020/" },
+        { source: "Minstrel 公式サイト", url: "https://minstrel-official.com/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー）", platform: "Steam", url: "https://store.steampowered.com/app/5175020/" },
+        { label: "Minstrel 公式サイト（ブランド情報）", platform: "官方站", url: "https://minstrel-official.com/" },
+        { label: "ファミ通.com 記事（メインビジュアルとゲーム画面）", platform: "媒体", url: "https://www.famitsu.com/article/202610/91798" }
+      ],
+      hype: {
+        score: 44,
+        signals: [
+          "原作はシリーズ累計 130 万部・テレビアニメ化済みで、原作ファンの母数が既に存在する",
+          "原作者がシナリオと制作指揮を自ら担当する点が、IP ゲーム化としては異例の関与度として報じられた",
+          "「作業用」ジャンルは『ちるキャン△』など同週の類似作が複数あり、Steam 上で比較されやすい",
+          "価格 1,500 円の小規模タイトルで、Famitsu 期待榜などの国内指標には登場しない見込み"
+        ]
+      },
+      tags: ["主机", "PC", "作業用ADV", "IP改编", "KADOKAWA", "Steam", "新作発表"]
+    },
+    {
+      id: "maburavu-garden-mellow-days",
+      company: "DESK GARDEN PROJECT ／ aNCHOR",
+      companyJp: "DESK GARDEN PROJECT（販売：株式会社aNCHOR）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-10-22（発売日 2026-11-19 決定・体験版配信中）",
+      capturedAt: "2026-10-23",
+      title: { jp: "マブラヴ ガールズガーデン Mellow Days", cn: "Muv-Luv 少女庭园 Mellow Days（官方未公布简中译名）", en: "Muv-Luv Girls Garden: Mellow Days" },
+      genre: "作業支援×コミュニケーションアドベンチャー",
+      platforms: ["PC (Steam)"],
+      release: "2026-11-19（PC／Steam）",
+      releasePrecision: "日",
+      summary: "《Muv-Luv 少女庭园》的派生作业支援 ADV，由 DESK GARDEN PROJECT 开发、aNCHOR 参与发行，2026-11-19 在 PC（Steam）推出，体验版已可下载。玩家与「桃园める」一起开始作业，她会以表情、动作与语音陪伴；累计作业时间会解锁新对话与剧情，其中包含 ASMR 内容。内置番茄钟（可设作业／休息时长与循环次数）、ToDo 与日历，作业空间可自由组合音乐、环境音、时间段与背景，例如边听雨声边工作、或在夜晚的房间里放安静的音乐。对应日语、英语、简体中文。",
+      highlight: "【2026-11-19 発売日決定】aNCHOR と DESK GARDEN PROJECT の『マブラヴ ガールズガーデン Mellow Days』が 2026 年 11 月 19 日に発売決定。Steam ではすでに体験版が配信中で、ウィッシュリスト登録を受け付けている。　スマホ／PC 向け RPG『マブラヴ ガールズガーデン』のスピンオフで、桃園める と一緒に作業を進める「作業支援×コミュニケーションアドベンチャー」。ポモドーロタイマー・ToDo・カレンダーを備え、音楽／環境音／時間帯／背景を組み替えて作業空間を整えられる。めるの表情・モーション・ボイスで作業に寄り添い、一部シナリオは ASMR 仕様。",
+      console: {
+        status: "2026-11-19 発売予定（体験版配信中）",
+        os: ["Windows (Steam)"],
+        monetization: "買い切り。価格は未発表",
+        developer: "DESK GARDEN PROJECT",
+        publisher: "DESK GARDEN PROJECT ／ 株式会社aNCHOR",
+        region: "日本（日本語・英語・簡体字中国語に対応）",
+        distribution: "ダウンロード（Steam）",
+        stores: ["Steam"],
+        features: [
+          "『マブラヴ ガールズガーデン』の桃園める と一緒に作業できるスピンオフ。作業支援と会話を両立させる設計",
+          "作業時間の累積で新しい会話とストーリーが解放され、一部は ASMR 仕様のシナリオになる",
+          "ポモドーロタイマー（作業・休憩時間と繰り返し回数を設定可能）・ToDo・カレンダーを搭載",
+          "音楽・環境音・時間帯・背景を自由に組み合わせて作業空間をカスタマイズできる",
+          "2026-10-22 時点で体験版を配信中。1 人プレイ専用"
+        ],
+        synopsis: "プレイヤーが作業を始めると、桃園めるも隣で作業を始める。表情・モーション・ボイスで作業に寄り添い、一緒に過ごした時間に応じて新しい会話や物語が解放されていく日常的なコミュニケーションアドベンチャー。",
+        ipSource: "『マブラヴ ガールズガーデン』（aNCHOR／アージュ系の『マブラヴ』世界観を基にしたスマホ・PC 向け RPG）のスピンオフ",
+        series: "『マブラヴ』シリーズの派生ブランドとなる『マブラヴ ガールズガーデン』初のスピンオフタイトル",
+        cast: "桃園める（担当声優は本記事では明示なし）"
+      },
+      news: [
+        { source: "ファミ通.com（発売日 2026-11-19 決定・体験版配信・ゲーム内容）", url: "https://www.famitsu.com/article/202610/91810" },
+        { source: "Steam ストアページ（開発元・販売元・対応言語・体験版）", url: "https://store.steampowered.com/app/5005700/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー・体験版）", platform: "Steam", url: "https://store.steampowered.com/app/5005700/" },
+        { label: "ファミ通.com 記事（ゲーム画面とシステム紹介）", platform: "媒体", url: "https://www.famitsu.com/article/202610/91810" }
+      ],
+      hype: {
+        score: 38,
+        signals: [
+          "『マブラヴ』ブランドの派生作だが、ジャンルは作業支援アプリ寄りで既存ファン以外への訴求は限定的",
+          "同週に『義妹生活』『ちるキャン△』など同系統の作業用タイトルが重なり、Steam 上で直接比較される",
+          "体験版を先行配信してウィッシュリストを集める段階で、価格は未発表",
+          "Famitsu 期待榜などの国内指標には登場しない規模のタイトル"
+        ]
+      },
+      tags: ["主机", "PC", "作業用ADV", "マブラヴ", "aNCHOR", "Steam"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -11565,7 +11743,7 @@ window.OBSERVATORY = {
         { name: "株式会社サンリオ（Sanrio Games）", short: "Sanrio Games", status: "covered", gameIds: ["hello-kitty-party-land", "sanrio-kawaii-me-live", "fragaria-memories-color-of-wishes"], focus: true, note: "国内最大级キャラクター IP ホルダーが 2026 年に立ち上げた自社ゲームブランド。外部ライセンスではなく自社で企画・開発を主導し、3 年で 10 タイトルを計画。家庭用『Hello Kitty パーティランド』とスマホ『Sanrio Kawaii Me Live!』『FRAGARIAMEMORIES Color of Wishes』の 3 作で TGS2026 に初出展した" },
         { name: "株式会社ドラガミゲームス", short: "Dragami Games", status: "covered", gameIds: ["lollipop-chainsaw-new-project"], note: "角川ゲームスの家庭用ゲーム事業を引き継ぐスタジオ。『ロリポップチェーンソー』新作を TGS2026 の SEGA／ATLUS ブース内で初のプレイアブル出展（正式タイトル・対応機種は未発表）" },
         { name: "東映株式会社 ゲーム事業ブランド「東映ゲームス」", short: "TOEI Games", status: "covered", gameIds: ["toei-games-hino", "toei-games-killa", "toei-games-debug-nephemee"], focus: true, note: "映画・テレビ・特撮・アニメを扱ってきた東映が 2026-04-21 に立ち上げた自社ゲームブランド。既存の影视・アニメ IP のゲーム化ではなく、国内外のクリエイター／スタジオと組んだ完全新規オリジナル企画のパブリッシングを柱に据える。TGS2026 に初出展し『HINO』『KILLA』『DEBUG NEPHEMEE』3 作の展場特別試玩版を提供した。これで東宝（TOHO Games）・松竹ゲームズ と合わせ、映画大手 3 社の自営ゲームブランドが揃った" },
-        { name: "株式会社ジー・モード", short: "G-MODE", status: "covered", gameIds: ["haishin-shoujo-no-uraaka-meikyuu"], note: "『クリミナルガールズ』ではなく『ククリよみ』系のノベルや、DATA EAST ライセンス事業・フィーチャーフォン復刻企画『G-MODEアーカイブス』を手がける老舗パブリッシャー。Acacia 原作の『配信少女ノ裏垢迷宮』（PC／Switch、2026 年内）を発売し、TGS2026 のインディーゲームコーナー（09-E03）で初の試遊出展を行った" },
+        { name: "株式会社ジー・モード", short: "G-MODE", status: "covered", gameIds: ["haishin-shoujo-no-uraaka-meikyuu", "zoku-portpia"], note: "『クリミナルガールズ』ではなく『ククリよみ』系のノベルや、DATA EAST ライセンス事業・フィーチャーフォン復刻企画『G-MODEアーカイブス』を手がける老舗パブリッシャー。Acacia 原作の『配信少女ノ裏垢迷宮』（PC／Switch、2026 年内）を発売し、TGS2026 のインディーゲームコーナー（09-E03）で初の試遊出展を行った" },
         { name: "株式会社工画堂スタジオ", short: "Kogado Studio", status: "covered", gameIds: ["sugar-lies"], note: "東京都立川市の老舗パブリッシャーで、短編ビジュアルノベルや音楽・教育関連ソフトを手がけてきた。2026-09-18 の KONAMI TGS2026 生放送で新作『Sugar Lies』（PC／Steam 2026 年末、Nintendo Switch 2027 年春）を発表したため補充監視に追加" },
         { name: "株式会社アクティブゲーミングメディア（PLAYISM）", short: "PLAYISM", status: "covered", gameIds: ["devil-connection"], note: "インディーゲームのローカライズとパブリッシングを手がける日本企業。PLAYISM ブランドで家庭用・モバイル向けの発行を行い、『DevilConnection』（開発：ChaoGames）の Switch／iOS／Android 版を 2027-01-21 に発売する。PLAYISM GAME SHOW: TGS 2026 Preview で本作の発売日を発表し、TGS2026 会場ではプレイアブル出展も行った" },
         { name: "株式会社エンターグラム", short: "ENTERGRAM", status: "covered", gameIds: ["koyorenium", "sentimental-graffiti-remake", "azure-memoria"], note: "ビジュアルノベルのパッケージ・ダウンロード販売を手がける日本企業。ホロライブ関連では『おかゆにゅ～～む！』『おかゆにゅ～～む！R』を展開してきた。『コヨリニウム』は カバー（COVER）が企画・製作し、同社が配信を担当する 2026-09-17 発表の新規企画" },
@@ -11653,8 +11831,27 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-22 夕：enish が『ダンまち フロンティア・ゼロ』（2027年・スマホ＋PC のクロスプラットフォーム）を発表。『BLEACH Mirrors High』は事前登録 100 万件突破、Switch 2 版『ぷちホロの村』が本日発売",
+    headline: "10-23 朝：ディズニー『スパークリンク・スターズ』が 11/4 配信決定、ホロライブ『コヨリニウム』が公式サイト開設。主机側は『続ポートピア連続殺人事件』2027-03-04 発売と『義妹生活』ゲーム化を収録",
     history: [
+      {
+        at: "2026-10-23 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【スマホ・更新】coly の『ディズニー スパークリンク・スターズ』が 2026-11-04 配信決定（10-22 発表）。11-07〜08 の AGF2026 に初出展し、会場限定グッズとオリジナルショッパーを配布する。事前登録は 70 万人突破済みで、80 万人達成時は★3 メモリーを好きなスパークライダーで選べる仕様に強化。",
+          "【スマホ・更新】バンダイナムコエンターテインメントの『ONE PIECE 海のごちそうレストラン』が、Steam と App Store／Google Play で本日 10-23 に配信開始。Switch 2／Switch 版の 10-22 に続き、これで 5 機種が出揃った。買い切り 2,000 円で追加課金なし。",
+          "【主机・新規】ジー・モード『続ポートピア連続殺人事件:忘却の埋葬』が 2027-03-04 発売決定（10-23 発表）。FC 版のフルリメイクに新規捜査ファイル 5 本を追加し、舞台は 1980 年代の神戸。堀井雄二が原作・制作総監督、浅野恭司（WIT STUDIO）がキャラクターデザイン、清塚信也が音楽を担当。Switch パッケージは通常版・限定版とも FC 版を同梱する。",
+          "【主机・更新】ホロライブ・博衣こより 主演／監修の『コヨリニウム』（企画製作 COVER／配信 ENTERGRAM）が 10-22 にオフィシャルサイトを公開し、ストーリー・キャラクター・イベントスチルを解禁。対応機種・価格・発売日は未発表で、商品情報は 11-19 公開予定。",
+          "【PC・新規】KADOKAWA MF 文庫 J『義妹生活』が Minstrel（テイルポット）ブランドでゲーム化。2026 年冬に Steam で 1,500 円、原作者 三河ごーすと がシナリオ・制作指揮を担当し、綾瀬沙季（CV：中島由貴）との作業通話を軸にする。読売栞 DLC に向けたクラウドファンディングが 10-27 19 時開始予定。",
+          "【PC・新規】『マブラヴ ガールズガーデン Mellow Days』（DESK GARDEN PROJECT／aNCHOR）が 2026-11-19 発売決定。桃園める と一緒に作業する支援系アドベンチャーで、体験版を配信中。",
+          "条目総数は 199 → 202（スマホ区 55 のまま、主机・PC 区 161 → 164）。platformClass は console 123 → 124、pc 21 → 23（mobile 38／multi 17 は不変）。bucket は new 119 → 122、update 80 のまま。",
+          "見送り：① 中国資本の案件は社名・作品名とも記載しない（10-22 に日本配信された新作群、事前登録 2,500 万件規模のオープンワールド RPG、マージ RPG 等）。② 韓国資本は不収録。③ 在営タイトルの内容更新（『アナザーエデン』Ver 3.17.50、ガルパ×外部 IP コラボ告知、『ラグナロクX』新マップ等）は口径どおり対象外。④ 海外版のみの告知（『イースⅧ』Switch 2 英仏西語版、NIS America 発売）。",
+          "companies：4 分類 8／16／16／10＝50、補充監視（extra）48 社でいずれも不変。株式会社ジー・モード の gameIds に『続ポートピア連続殺人事件:忘却の埋葬』を追加（1 → 2 件、status は covered のまま）。新規 3 件のうち 2 件（テイルポット／DESK GARDEN PROJECT）は 50 家清单外かつ家庭用・PC 主体のため extra 追加は見送り。",
+          "漏収核查：4Gamer の 10-22〜10-23 分、AppBank の 10-22 夜〜10-23 分、ファミ通.com の新着、app.famitsu のスマホ枠を機械照合。IP 名検索（鬼滅の刃／ポケモン／ドラゴンボール／呪術廻戦／ブルーロック／東京リベンジャーズ／ハイキュー／ONE PIECE／BLEACH／ホロライブ）では、日方主導の新規スマホ作は追加で確認できなかった。手游の增量は『スパークリンク・スターズ』の配信日決定と『海のごちそうレストラン』配信開始の 2 件のみ。",
+          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（97 社＝hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）。ジー・モード の games を 1 → 2 に更新し、全 97 社を機械再計算。geo-check は要確認 0 件。",
+          "Famitsu 期待榜：10-23 時点で新期集計は未確認のため mostWanted は据え置き。TGS2026 は展後記録として凍結を継続（booths 26 件）。",
+          "【持越し】① 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日発表の可能性）。② 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。③『ダンまち フロンティア・ゼロ』の日文一次源。④『EGO DESCENT』（RAIDENWORKS）の法人情報。⑤ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）。"
+        ]
+      },
       {
         at: "2026-10-22 19:00",
         scene: "定時巡検（夕方の部）",
@@ -11670,24 +11867,6 @@ window.OBSERVATORY = {
           "会社地図（data/map.js）：新規打点・住所・座標・officeKind・hqLat/hqLng の変更なし（97 社＝hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）。株式会社enish の games を 2 → 3 に更新し、全 97 社を機械再計算して乖離 0 件を確認。geo-check は要確認 0 件。",
           "Famitsu 期待榜：10-22 発売号に合わせた新期集計は本稿時点で未確認（直近は 10-18 報道＝10-11 期）。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
           "【持越し】① 10-23 の『ONE PIECE 海のごちそうレストラン』iOS／Android・Steam 配信。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日発表の可能性）。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。④『ダンまち フロンティア・ゼロ』の日文一次源（enish 公式）と公式 X の開設確認。⑤『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑥『ディズニー スパークリンク・スターズ』の配信日と課金体系。⑦ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
-        ]
-      },
-      {
-        at: "2026-10-22 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【スマホ】本場の増分区間（10-21 19:00〜10-22 09:00）で、日方主導の新規スマホ作は 1 件。東京のスタジオ Tokyo hammock が Android 向けに配信した『Gravemark（グレイヴマーク）』を収録した。縦持ち・片手のダークファンタジー・ハクスラで、拾った戦利品は街に持ち帰るまで自分の物にならず、死ねば袋・ゴールド・冒険中に装備した物をすべて失う。攻撃は自動で、触るのはスキルとポーションだけ。毎階二択の分かれ道で「あと一階か、引き返すか」を選び、撃破ごとに止まる時間で 5×6 マスの袋に戦利品を詰める。課金石は存在せず、装備・レリック・刻印は課金で買えない。配信は日本が 2026-10-15、全世界が 10-19。",
-          "【スマホ・漏収追補】ガンホーの『ラグナロク：アドベンチャーズ』が 2026-10-21 16:27 に日本国内の正式サービス開始日を 11-04 と発表し、事前登録の第 3 弾特典「ポリンサングラスのレシピ」等を追加した。前場の区間内（19:00 前）の発表ながら未反映だったため、本場で追補した。",
-          "【主机・PC】本日 10-22 は国内の発売ラッシュ。『FINAL FANTASY RESONANCE』（Square Enix／HD-2D）、『Nintendo Switch Sports Resort』（任天堂／Switch 2 専用）、『DEMONS' NIGHT FEVER』（アークシステムワークス）、『蒼き雷霆 ガンヴォルト トライアングル エディション Switch 2 Edition』、『ONE PIECE 海のごちそうレストラン』（カイロソフト開発／バンダイナムコ）の 5 本が発売され、既収録 5 件を「已发售」に更新した。FF RESONANCE の海外評価は分かれ、Game Informer 9/10、GameSpot 7/10、Kotaku は物語の薄さを指摘。",
-          "【主机・PC・新規】京都の Q-Games がアジア地域のパブリッシングを担い、フランスの Atlantis Studio が開発した 2 人専用・非対称協力ホラー『Beyond the Dark:ナイトウォッチ』を新収録した。Switch 2 専用・2,480 円で本日発売。1 人が一人称の探索者、1 人がカメラ越しの監視役になり、見えていない情報を声で突き合わせて屋敷から脱出する。発売同日から 11-02 まで世界大会を開催する。",
-          "条目総数は 196 → 198（スマホ区 53 → 54、主机・PC 区 159 → 160）。platformClass は mobile 37 → 38、console 122 → 123（multi 16／pc 21 は不変）。bucket は new 116 → 118、update 80 のまま。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（10-22 に日本で配信開始したマージ RPG、10-22 に計費テストを始めた国内向けストラテジー、10-22 にスマホ版を配信したローグライク 等）。② 韓国資本は不収録（NHN の『推しの子』原作パズルが 10-20 に世界事前登録、NC 系のハロウィン施策）。③ 在営タイトルの内容更新（『ラグナロクX』新マップ「ウンバラ」と新職業「忍者」、『幻想神域』新武器、『プロセカ』総集編、Cygames 各作の緊急メンテ 等）は口径どおり不収録。④ 10-21 に正式リリースされた AI キャラチャット系ノベルアプリは既存サービスのリニューアルで本体更新にあたるため対象外。⑤ 『CRYMELIGHT』は 10-22 に PS5／Switch 2 の体験版が配信されたが、本体 11-05 発売前のデモ提供にあたるため更新せず。",
-          "運営終了・事業情報：該当なし（本場の増分区間で新たなサービス終了の告知は確認できなかった）。",
-          "companies：4 分類 8／16／16／10＝50、補充監視（extra）48 社、いずれも不変。新規 2 件の発行元（Tokyo hammock／Q-Games）はいずれも 50 家清单外で、うち Q-Games は家庭用のパブリッシャー、Tokyo hammock は Android 単独の新興スタジオのため extra 追加は見送った（SNAPLACE・シンエンスタジオと同じ判断）。",
-          "漏収核查：AppBank の 10-22 分、4Gamer の 10-21 分、ファミ通.com の 10-21 夜〜10-22 朝、PR TIMES のゲーム分類、quest-board.jp の 10-21 日次を機械照合した。IP 名検索（呪術廻戦／鬼滅の刃／ブルーロック／東京リベンジャーズ／ハイキュー／ONE PIECE／BLEACH／ホロライブ／刀剣乱舞）では、日方主導の新規スマホ作は追加で確認できなかった。",
-          "会社地図（data/map.js）：住所・座標・officeKind・hqLat/hqLng に変更なし（97 社＝hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）。新規 2 件はいずれも地図の母集団外（Tokyo hammock／Q-Games は未収録社）で games カウントの変動なし。meta.asOf を 2026-10-22 に更新し、全 97 社の games フィールドを機械再計算して乖離 0 件を確認。geo-check は要確認 0 件。",
-          "Famitsu 期待榜：10-22 号の発売に合わせた新期集計は本稿時点で未確認。mostWanted は 10-17 期のまま据え置き。TGS2026 は展後記録として凍結を継続。",
-          "【持越し】① 10-23 の『ONE PIECE 海のごちそうレストラン』iOS／Android・Steam 配信と、『ちるキャン△』Steam 早期アクセスの初日情報。② 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。④『チェンソーマン』スマホ新作の開発・発行元は依然未公表。⑤『ディズニー スパークリンク・スターズ』の配信日と課金体系。⑥『JockeyBox』のストア・映像公開待ち。⑦ RAIDENWORKS『EGO DESCENT』の法人情報。⑧ 発行元が香港法人のタイトル、VR 作品の分類、18 禁タイトルの収録可否は引き続き用户裁定待ち。"
         ]
       },
     ]
