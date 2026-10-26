@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-26T11:30:00+08:00",
+    updatedAt: "2026-10-26T12:10:00+08:00",
     edition: "2026-10-26",
     window: "2026-08-26 ~ 2026-10-26（滚动最近 2 个月）",
     sources: [
@@ -3493,15 +3493,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-10-21（事前登録 100 万件突破をバンダイナムコが公式発表）",
-      capturedAt: "2026-10-22",
+      announceDate: "2026-10-23（配信時実装キャラクター陣容を公式サイトで公開）",
+      capturedAt: "2026-10-26",
       title: { jp: "BLEACH Mirrors High", cn: "BLEACH Mirrors High", en: "BLEACH Mirrors High" },
       genre: "カードベース アクション RPG（3v3）",
       platforms: ["iOS", "Android"],
       release: "2026年内（App Store 表記は 2026-11-28）",
       releasePrecision: "年",
-      summary: "万代南梦宫发行的《BLEACH》改编卡片动作 RPG。故事设定在「千年血战篇」之后，玩家以护廷十三队一员、自定义新人死神的身份展开冒险；原作久保带人参与企划概念与角色设计，并设计了 Shirin Migishima、Shirane Sanari（双主角）以及 Naru Jurinna、Giro Hando、Maiko Tokishima 等原创角色。系统上提供「Avatar Customization」自定义外貌与「Customize Zanpakuto」自定义斩魄刀（刀镡・刀身・刀鞘），战斗为 3 人编队、以卡牌输入触发战术交锋，可用 Chain／Link Attack 把队友技能连成连续攻击，另有可扭转战局的「SOUL DRIVE」连携系统。2026-07 完成封闭 β 测试，2026-08-27 官方 X 宣布 2026 年内上线，TGS2026 提供试玩。本届 TGS2026 上，本作是万代南梦宫主展台里少数的手机作品之一，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》等主机大作同区展出，自 9 月 17 日起提供可试玩版本并配合周边发放。官方把手机游戏放进综合大厂主展台、而非另设小型手游展区，显示宣传投入正在加码。2026-10-11 官方宣布全球事前登录突破 70 万件，并追加 7200 个 Mirror Gems（约 24 抽）、★3［死神代行］一护、★3［十三番队副队长］露琪亚与 ★3 以上确定召唤券 5 张作为上线奖励。2026-10-21 バンダイナムコ 再宣布自 2026 年 8 月开跑以来全球事前登录突破 100 万件，达成奖励提升为 9000 个 Mirror Gems（约 30 抽）、★3［死神代行］黑崎一护、★3［十三番队副队长］朽木露琪亚与 ★3 以上确定召唤券 5 张，配信日与课金形态仍未公布。",
-      highlight: "【事前登録 100 万件突破 10/21】バンダイナムコが受付開始から 2 か月足らずで世界 100 万件突破を公式発表し、9,000 ミラージェム（30 連相当）／★3［死神代行］黒崎一護／★3［十三番隊副隊長］朽木ルキア／★3 以上確定チケット 5 枚を配信時の全員配布特典に増額した。　【10/27 特番告知 10/13】2026-10-27（火）19:00 から YouTube で「BLEACH Mirrors High SPECIAL BROADCAST」を配信し、本作の新情報を発表すると告知。出演は小林千晃（右島志燐役）・指出毬亜（佐鳴白祢役）・森田成一（黒崎一護役）・折笠富美子（朽木ルキア役）、MC 松澤ネキ。　久保帯人が制作協力・概念・キャラクターデザインで参画し、オリジナル両主人公を描き下ろし——原作サイドの深い関与が最大の差別化点。",
+      summary: "万代南梦宫发行的《BLEACH》改编卡片动作 RPG。故事设定在「千年血战篇」之后，玩家以护廷十三队一员、自定义新人死神的身份展开冒险；原作久保带人参与企划概念与角色设计，并设计了 Shirin Migishima、Shirane Sanari（双主角）以及 Naru Jurinna、Giro Hando、Maiko Tokishima 等原创角色。系统上提供「Avatar Customization」自定义外貌与「Customize Zanpakuto」自定义斩魄刀（刀镡・刀身・刀鞘），战斗为 3 人编队、以卡牌输入触发战术交锋，可用 Chain／Link Attack 把队友技能连成连续攻击，另有可扭转战局的「SOUL DRIVE」连携系统。2026-07 完成封闭 β 测试，2026-08-27 官方 X 宣布 2026 年内上线，TGS2026 提供试玩。本届 TGS2026 上，本作是万代南梦宫主展台里少数的手机作品之一，与《ACE COMBAT 8》《ドラゴンボール ゼノバース3》等主机大作同区展出，自 9 月 17 日起提供可试玩版本并配合周边发放。官方把手机游戏放进综合大厂主展台、而非另设小型手游展区，显示宣传投入正在加码。2026-10-11 官方宣布全球事前登录突破 70 万件，并追加 7200 个 Mirror Gems（约 24 抽）、★3［死神代行］一护、★3［十三番队副队长］露琪亚与 ★3 以上确定召唤券 5 张作为上线奖励。2026-10-21 バンダイナムコ 再宣布自 2026 年 8 月开跑以来全球事前登录突破 100 万件，达成奖励提升为 9000 个 Mirror Gems（约 30 抽）、★3［死神代行］黑崎一护、★3［十三番队副队长］朽木露琪亚与 ★3 以上确定召唤券 5 张。2026-10-23 官方站公开「Release Character Lineup」，配信时可用角色确定为：原作 13 名（黒崎一護・朽木ルキア・石田雨竜・井上織姫・茶渡泰虎・四楓院夜一・朽木白哉・阿散井恋次・日番谷冬獅郎・松本乱菊・涅マユリ・グリムジョー・バンビエッタ）加上久保帯人设计的原创 5 名，共 18 名。配信日与课金形态仍未公布。",
+      highlight: "【配信時キャラ 18 体公開 10/23】バンダイナムコが公式サイトで「Release Character Lineup」を公開し、配信時に使用できるキャラクターを明らかにした。原作からは黒崎一護・朽木ルキア・石田雨竜・井上織姫・茶渡泰虎・四楓院夜一・朽木白哉・阿散井恋次・日番谷冬獅郎・松本乱菊・涅マユリ・グリムジョー・バンビエッタの 13 名、これに久保帯人がデザインしたオリジナル 5 名（右島志燐・佐鳴白祢ほか 3 名）を加えた計 18 名。配信日は依然未発表。　【事前登録 100 万件突破 10/21】バンダイナムコが受付開始から 2 か月足らずで世界 100 万件突破を公式発表し、9,000 ミラージェム（30 連相当）／★3［死神代行］黒崎一護／★3［十三番隊副隊長］朽木ルキア／★3 以上確定チケット 5 枚を配信時の全員配布特典に増額した。　【10/27 特番告知 10/13】2026-10-27（火）19:00 から YouTube で「BLEACH Mirrors High SPECIAL BROADCAST」を配信し、本作の新情報を発表すると告知。出演は小林千晃（右島志燐役）・指出毬亜（佐鳴白祢役）・森田成一（黒崎一護役）・折笠富美子（朽木ルキア役）、MC 松澤ネキ。　久保帯人が制作協力・概念・キャラクターデザインで参画し、オリジナル両主人公を描き下ろし——原作サイドの深い関与が最大の差別化点。",
       news: [
         { source: "Anime News Network（バンダイナムコ公式プレスリリース：事前登録 100 万件突破と達成特典の増額）", url: "https://www.animenewsnetwork.com/press-release/2026-10-21/bleach-mirrors-high-pre-registration-campaign-reaches-1-million-worldwide-in-under-2-months-new-/.242996" },
         { source: "Final Weapon（100 万件突破の報道・特典内容・2026 年内配信）", url: "https://finalweapon.net/2026/10/21/bleach-mirrors-high-1-million-pre-registrations-new-rewards" },
@@ -3511,7 +3511,9 @@ window.OBSERVATORY = {
         { source: "Quest Board.JP（官方 X 公告与 TGS2026 试玩）", url: "https://quest-board.jp/en/quests/bleach-mirrors-high/" },
         { source: "iGMBUY（系统机制与自定义要素详解）", url: "https://www.igmbuy.com/en/news/357.html" },
         { source: "Overcentral（CBT 结束与最新主视觉公开）", url: "https://overcentral.com/en/bleach-mirrors-high-mobile-launch-79157/" },
-      { source: "GameForce Mobile（TGS2026 試遊と主展台での扱い）", url: "https://www.gameforcemobile.com/news/5035-bleach-mirrors-high-gets-playable-tokyo-game-show-demonstration" }
+      { source: "GameForce Mobile（TGS2026 試遊と主展台での扱い）", url: "https://www.gameforcemobile.com/news/5035-bleach-mirrors-high-gets-playable-tokyo-game-show-demonstration" },
+        { source: "BLEACH Mirrors High 公式サイト（2026-10-23「Release Character Lineup」：配信時実装キャラクターの公開）", url: "https://bleach-mh.bn-ent.net/en/news/36512" },
+        { source: "Final Weapon（配信時キャラ 18 名＝原作 13＋オリジナル 5 の内訳、必殺技名と 3★ 絵柄）", url: "https://finalweapon.net/2026/10/23/bleach-mirrors-high-launch-characters-roster" },
       ],
       videos: [
         { label: "官方站（英文版・预告影像与最新主视觉）", platform: "官方站", url: "https://bleach-mh.bn-ent.net/en" },
@@ -11398,7 +11400,7 @@ window.OBSERVATORY = {
       bucket: "new",
       platformClass: "multi",
       announceDate: "2026-10-22",
-      capturedAt: "2026-10-22",
+      capturedAt: "2026-10-26",
       title: {
         jp: "ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ",
         cn: "在地下城寻求邂逅是否搞错了什么 Frontier Zero",
@@ -11412,10 +11414,13 @@ window.OBSERVATORY = {
       highlight: "【新作発表 10/22】株式会社enish が『ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ』を 2027 年配信予定で発表。スマートフォン（iOS／Android）と PC のクロスプラットフォームで、日本国内に加えて海外展開も予定する。　原作者・大森藤野が協力するオリジナルストーリーで、原作小説・テレビアニメでは描かれていない物語を扱う。ジャンル・課金形態・正式な配信日は未発表で、続報は本作の公式 X で公開される予定。",
       news: [
         { source: "3DM（enish 発表の報道：2027年に PC・iOS・Android、開発・発行とも enish）", url: "https://www.3dmgame.com/news/202610/3957447.html" },
-        { source: "游侠网（日文原名・対応プラットフォーム・海外展開の報道）", url: "https://www.ali213.net/news/html/2026-10/1048469.html" }
+        { source: "游侠网（日文原名・対応プラットフォーム・海外展開の報道）", url: "https://www.ali213.net/news/html/2026-10/1048469.html" },
+        { source: "GamingOnPhone（enish 発表の報道：2027 年世界配信、iOS／Android／PC、公式 X の日本語告知原文を引用）", url: "https://gamingonphone.com/news/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-frontier-zero-announced-for-pc-and-mobile-launching-worldwide-in-2027" },
+        { source: "巴哈姆特 GNN（日文原名・対応機種・海外展開・公式 X の案内）", url: "https://news.pchome.com.tw/game/gamer/20261022/index-79264076389939203104.html" },
       ],
       videos: [
-        { label: "3DM（新作発表を報じた記事ページ。公式映像は未公開）", platform: "媒体", url: "https://www.3dmgame.com/news/202610/3957447.html" }
+        { label: "3DM（新作発表を報じた記事ページ。公式映像は未公開）", platform: "媒体", url: "https://www.3dmgame.com/news/202610/3957447.html" },
+        { label: "公式 X（@danmachidanzero・2026-10-22 の発表ポスト）", platform: "X", url: "https://x.com/danmachidanzero" },
       ],
       hype: {
         score: 52,
@@ -11427,7 +11432,7 @@ window.OBSERVATORY = {
         ]
       },
       tags: ["IP授权", "手游", "跨平台", "新作発表"],
-      caution: "日文の一次源（enish の公式発表・公式サイト・公式 X）を本稿では確認できておらず、中国語メディア 2 社（3DM・游侠网）の報道にもとづく。ジャンル・課金形態・正式な配信時期は公式未発表。",
+      caution: "一次源は本作の公式 X（@danmachidanzero、2026-10-22 投稿）の告知で、その日本語原文は GamingOnPhone が引用している。enish 公式サイトのニュースページは本稿執筆時に取得できなかった。ジャンル・課金形態・正式な配信日はいずれも公式未発表。",
       mobile: {
         status: "配信予定（2027年）",
         os: ["iOS", "Android"],
@@ -11945,20 +11950,20 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-24〜10-26 昼：週末から月曜午前まで国内の新作発表・配信・事前登録がなく、新規 0 件／更新 0 件。既存 204 件を維持し、地図 97 社も変更なし",
+    headline: "10-24〜10-26：国内の新作発表・配信はゼロ。10-23 に公式公開されていた『BLEACH Mirrors High』の配信時実装キャラ 18 名を追補し、『ダンまち フロンティア・ゼロ』は公式 X の日本語告知を確認して出典を強化した",
     history: [
       {
-        at: "2026-10-26 12:00",
-        scene: "定時巡検（10-24〜10-26 増分・昼の部）",
+        at: "2026-10-26 13:10",
+        scene: "定時巡検（10-24〜10-26 増分・午後の追補）",
         items: [
-          "【結論】本場は 10-24 00:00〜10-26 12:00 の増分。国内の新作発表・配信開始・事前登録・発売日決定はいずれもゼロで、既存 204 件をそのまま維持した（新規 0 件／更新 0 件）。土曜と日曜は国内新作の告知がなく、月曜午前も新規タイトルの告知は確認できなかった。",
-          "確認した範囲：4Gamer の 10-24／10-25／10-26 の新着（それぞれ 8 本・6 本・昼までに 5 本）、AppBank ゲームの 10-24〜10-26 更新分、ファミ通.com の新着、PR TIMES のゲーム分類（10-24 以降の新規は 3 本のみ）、gamebiz（10-25 以降はメンテナンスで閲覧不可）。内容は『ウマ娘』の新シナリオと新ウマ娘、『NIKKE』4 周年の新ニケ 3 体、『ブルアカ』の国内配信元変更など、稼働中タイトルの更新と運営施策が中心だった。",
-          "見送り（口径どおり）：10-24〜10-26 に配信開始や配信日決定の動きがあった案件のうち、中国資本の 3 件（1 件は日中共同の IP 原作タイトル）と、日本の法人ながら資本構成を一次源で確定できず、かつ海外展開を前提とした記述がある新作ブラウザ 1 件は収録していない。社名・作品名は本ファイルにもコミットにも記載しない。",
-          "漏収核查：IP 名で『チェンソーマン』『地獄楽』『キン肉マン』『刀剣乱舞』『ONE PIECE』『BLEACH』『呪術廻戦』『ハイキュー』『ホロライブ』を再照合した。キン肉マン（10-01 事前登録開始）、刀剣乱舞ぱずぎり（09-24 配信開始）、ハイキュー（10-20 事前登録開始）はいずれも既収録を確認。地獄楽パラダイスバトルは 2025-11-04 配信で観測窓の外、チェンソーマンのスマホゲームは 06-19 の初出で観測窓より前のため、新規条目にはしていない。",
-          "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10）で増減なし。新規収録がゼロのため games フィールドは全社を機械再計算して乖離 0 を確認、座標・officeKind・hqLat/hqLng の変更もない。meta.asOf のみ 2026-10-26 に更新した。geo-check は要確認 0 件。",
-          "データ整合：『ONE PIECE 海のごちそうレストラン』の mobile.preReg.open が正式サービス開始後も true のままだったため false に修正した（10-23 に配信開始済みで、買い切りのため事前登録の受付は終了している）。本文の記載は変更していない。",
-          "Famitsu 期待榜：10-24 発売号のレビュー点数は確認できたが、票数付きの期待ランキングの一次ソースが取れず mostWanted は 10-17 期のまま据え置いた。TGS2026 は展後記録として凍結を継続（booths 26 件）。",
-          "【持越し】① 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日発表の可能性）。② 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。③ 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）。④『ダンまち フロンティア・ゼロ』の日文一次源。⑤ チェンソーマンのスマホゲームの正式タイトルと開発・配信元（判明時に観測窓との関係を再判定）。"
+          "【結論】本場は 10-24 以降の増分。国内の新作発表・配信開始・事前登録開始はゼロで、新規条目はなし。ただし 10-23 に公式サイトで公開されていた『BLEACH Mirrors High』の配信時実装キャラクター（原作 13 名＋久保帯人デザインのオリジナル 5 名＝計 18 名）が未反映だったため 1 件を更新した。条目総数は 204 のまま。",
+          "確認した範囲：4Gamer の 10-24〜10-26 新着、AppBank ゲームの同時期更新分、ファミ通.com の新着、PR TIMES のゲーム分類、gamebiz（10-25 以降はメンテナンスで閲覧不可）、Nintendo の 10-29 国内発売スケジュール。内容は『ウマ娘』新シナリオ・『NIKKE』4 周年・『ブルアカ』配信元変更など稼働中タイトルの更新が中心で、本体レベルの新規展開はなかった。",
+          "見送り（口径どおり）：10-24〜10-26 に配信開始・配信日決定の動きがあった案件のうち、中国資本の 3 件（1 件は日中共同の IP 原作タイトル）と、日本の法人ながら資本構成を一次源で確定できず、かつ海外展開を前提とした記述がある新作ブラウザ 1 件は収録していない。社名・作品名は本ファイルにもコミットにも記載しない。",
+          "漏収核查：IP 名で『BLEACH』『呪術廻戦』『鬼滅の刃』『ホロライブ』『ONE PIECE』『ハイキュー』『刀剣乱舞』『チェンソーマン』『地獄楽』を再照合。BLEACH は今回の陣容公開で既収録を確認、他は日方主導の新規スマホ作なし。地獄楽パラダイスバトル（2025-11-04 配信）とチェンソーマンのスマホゲーム（2026-06-19 初出）は観測窓の外のため新規条目にしない。",
+          "データ整合：『ダンまち フロンティア・ゼロ』の caution を更新——公式 X（@danmachidanzero、2026-10-22）の日本語告知原文が引用報道で確認できたため「日文一次源未確認」の留保を外し、GamingOnPhone と巴哈姆特 GNN を出典に追加した。ジャンル・課金形態・正式配信日は依然未発表。",
+          "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10）で増減なし。新規会社の追加も games 件数の変動もなく、住所・座標・officeKind・hqLat/hqLng は変更なし。meta.asOf のみ 2026-10-26 に更新。",
+          "Famitsu 期待榜：票数付きの新期ランキングは一次ソースを確認できず mostWanted は据え置き。TGS2026 は展後記録として凍結を継続（booths 26 件）。",
+          "【持越し】① 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日発表の可能性）。② 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。③ 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）。④ チェンソーマンのスマホゲームの正式タイトルと開発・配信元。⑤ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）。"
         ]
       },
       {
