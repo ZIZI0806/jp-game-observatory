@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-26T12:10:00+08:00",
+    updatedAt: "2026-10-26T18:10:00+08:00",
     edition: "2026-10-26",
     window: "2026-08-26 ~ 2026-10-26（滚动最近 2 个月）",
     sources: [
@@ -11891,20 +11891,40 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-10-17",
+    asOf: "2026-10-25",
     source: "Famitsu 週刊ファミ通 读者期待榜",
-    url: "https://gonintendo.com/contents/66231-famitsu-most-wanted-games-for-oct-17th-2026",
+    url: "https://nintendoeverything.com/famitsus-most-wanted-games-october-25-2026/",
     list: [
-      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 636 },
-      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 594 },
-      { rank: 3, title: "Persona 4 Revival", platform: "PS5", votes: 482 },
-      { rank: 4, title: "Persona 6", platform: "PS5", votes: 479 },
-      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 307 },
-      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 281 },
-      { rank: 7, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 260 },
-      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 191 },
-      { rank: 9, title: "Xenoblade Genesis", platform: "NS2", votes: 182 },
-      { rank: 10, title: "Final Fantasy Resonance", platform: "NS2", votes: 180 }
+      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 721 },
+      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 599 },
+      { rank: 3, title: "Persona 4 Revival", platform: "PS5", votes: 572 },
+      { rank: 4, title: "Persona 6", platform: "PS5", votes: 498 },
+      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 376 },
+      { rank: 6, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 320 },
+      { rank: 7, title: "Grand Theft Auto 6", platform: "PS5", votes: 318 },
+      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 244 },
+      { rank: 9, title: "Persona 4 Revival", platform: "NS2", votes: 175 },
+      { rank: 10, title: "Persona 6", platform: "NS2", votes: 170 },
+      { rank: 11, title: "Xenoblade Genesis", platform: "NS2", votes: 166 },
+      { rank: 12, title: "Professor Layton and the New World of Steam", platform: "NS2", votes: 164 },
+      { rank: 13, title: "Resident Evil Veronica", platform: "PS5", votes: 106 },
+      { rank: 14, title: "The Duskbloods", platform: "NS2", votes: 98 },
+      { rank: 15, title: "Monster Hunter Wilds", platform: "NS2", votes: 95 },
+      { rank: 16, title: "Genshin Impact", platform: "NSW", votes: 92 },
+      { rank: 17, title: "Kirby and the World Beyond", platform: "NS2", votes: 90 },
+      { rank: 18, title: "Professor Layton and the New World of Steam", platform: "NSW", votes: 88 },
+      { rank: 19, title: "Stranger Than Heaven", platform: "PS5", votes: 87 },
+      { rank: 20, title: "Dragon Quest Monsters: The Withered World", platform: "PS5", votes: 85 },
+      { rank: 21, title: "Romancing SaGa 3: Destinies Untied", platform: "NSW", votes: 82 },
+      { rank: 22, title: "Atelier Karia", platform: "PS5", votes: 80 },
+      { rank: 23, title: "Metaphor: ReFantazio", platform: "NS2", votes: 74 },
+      { rank: 24, title: "Final Fantasy 7 Revelation", platform: "NS2", votes: 72 },
+      { rank: 25, title: "Romancing SaGa 3: Destinies Untied", platform: "NS2", votes: 71 },
+      { rank: 26, title: "Kingdom Hearts 4", platform: "PS5", votes: 69 },
+      { rank: 27, title: "Metroid Ravenous", platform: "NS2", votes: 64 },
+      { rank: 28, title: "Danganronpa 2x2", platform: "NS2", votes: 58 },
+      { rank: 29, title: "Attack on Titan 3", platform: "NS2", votes: 55 },
+      { rank: 30, title: "Romancing SaGa 3: Destinies Untied", platform: "PS5", votes: 53 }
     ]
   },
 
@@ -11950,8 +11970,21 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-24〜10-26：国内の新作発表・配信はゼロ。10-23 に公式公開されていた『BLEACH Mirrors High』の配信時実装キャラ 18 名を追補し、『ダンまち フロンティア・ゼロ』は公式 X の日本語告知を確認して出典を強化した",
+    headline: "10-26 夕方の部：国内の新作発表・配信開始はゼロで条目 204 は据え置き。Famitsu 期待榜を 10-25 期に更新し、Switch 2 版『Persona 4 Revival』『Persona 6』が初のトップ 10 入り",
     history: [
+      {
+        at: "2026-10-26 19:00",
+        scene: "定時巡検（夕方の部）",
+        items: [
+          "【結論】本場は 19:00 場。増分は 13:43 の追補コミット以降〜19:00。国内の新作発表・配信開始・事前登録開始はいずれもゼロで、新規条目なし・更新条目なし。条目総数は 204 のまま（スマホ区 56／主机・PC 区 165、console 124／multi 17／mobile 39／pc 24、bucket new 124／update 80）。",
+          "確認した範囲：4Gamer の 10-26 新着全件（12:36〜18:00 の 14 本）、AppBank のゲーム／ゲームアプリ両分類の 10-26 更新分、ファミ通.com の新着、PR TIMES のゲーム分類（直近 3 時間分）。国内勢の話題は稼働中タイトルの更新が中心——『ウマ娘』新育成シナリオ「朋、史解き ―午式駿大祭―」の配信開始、『NIKKE』4 周年のトレンド報告、『D4DJ Groovy Mix』6 周年、『文豪とアルケミスト』書店コラボ、『コトダマン』新 WEB CM、『スロパチスピリット』への機種追加で、いずれも本体レベルの新規展開ではないため口径どおり不収録。",
+          "見送り（口径どおり）：10-26 に配信開始・配信日決定の動きがあった案件のうち、中国資本の 3 件（『鳴潮』のデスクトップマスコット、『原神』Ver.7.2、日中共同の IP 原作タイトル）は社名・作品名とも記載せず収録しない。韓国資本の新作（NEXON Games の新規サブカルチャー作、Netmarble の MMORPG）も対象外。国内 IP のリズムゲーム新作（9-24 全世界同時配信）は、海外版の販売元が中国資本であり、中国語圏メディアが日中の共同展開と報じているため、資本構成を一次源で確定できるまで収録を見送る（社名・作品名は本書にもコミットにも記載しない）。",
+          "漏収核查：『鬼滅の刃』『ブルーロック』『東京リベンジャーズ』の 3 IP を重点照合（いずれも本サイト未収録）。10-26 時点で日方主導の新規スマホ作は確認できず、既存作への DLC・コラボ（SNK の対戦格闘への原作キャラ追加など）と稼働中のパズル／シミュレーション作のみだった。『ハイキュー』『呪術廻戦』『ホロライブ』『刀剣乱舞』『ONE PIECE』『僕のヒーローアカデミア』『無職転生』『SAKAMOTO DAYS』は既収録を再確認、追加の日方主導新作はなし。『チェンソーマン』のスマホゲームは 2026-06-19 初出で観測窓の外、『地獄楽 パラダイスバトル』は 2025-11-04 配信で窓外のため新規条目にしない。",
+          "Famitsu 期待榜：10-25 期（投票期間 10-07〜10-13）を一次ソースで確認し、mostWanted を 30 位まで更新（asOf 2026-10-25）。1 位『ゼルダの伝説 時のオカリナ』721 票で 3 週連続首位、2 位『Pokemon Winds / Waves』599 票、3 位『Persona 4 Revival』(PS5) 572 票。Switch 2 版の『Persona 4 Revival』『Persona 6』が初めてトップ 10 に入り、『Attack on Titan 3』が 29 位で初登場。午前の部で「一次ソース未確認」として据え置いた分を本場で解消した。",
+          "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）で増減なし。新規会社の追加も社名変更・移転・資本関係の異動もなく、住所・座標・officeKind・hqLat/hqLng は変更なし。meta.asOf のみ 2026-10-26 に更新。geo-check は本環境で外部 HTTPS が通らず（国土地理院 API への接続が SSL エラーで失敗）未完走のため、地図の会社行が無変更であることを確認したうえで前回検算値（要確認 0 件／対象 107 件）を流用した。",
+          "【持越し】① 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日正式発表の可能性）。② 10-27 の『ロコキングダム』CBT 開始。③ 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。④ 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）。⑤ チェンソーマンのスマホゲームの正式タイトルと開発・配信元。⑥ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）。"
+        ]
+      },
       {
         at: "2026-10-26 13:10",
         scene: "定時巡検（10-24〜10-26 増分・午後の追補）",
@@ -11965,23 +11998,7 @@ window.OBSERVATORY = {
           "Famitsu 期待榜：票数付きの新期ランキングは一次ソースを確認できず mostWanted は据え置き。TGS2026 は展後記録として凍結を継続（booths 26 件）。",
           "【持越し】① 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日発表の可能性）。② 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。③ 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）。④ チェンソーマンのスマホゲームの正式タイトルと開発・配信元。⑤ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）。"
         ]
-      },
-      {
-        at: "2026-10-23 19:00",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "【スマホ・新規】Tokyo hammock が ポッピンゲームズジャパン との共同で、ホラーミステリー『午前2時の交換手』を 10-22 に iOS／Android で配信開始していた（10-23 に AppBank が報道）。600 円の買い切りで追加課金なし、日本語・英語対応。夜間の電話交換手となり、発話・回線情報・局内記録の 3 つを照合して接続先を見極める。質問と局内調査は合計回数が限られ、プラグを挿した判断が引継ぎとして後の夜に残る。全 5 夜・35 通。朝の部の区間で拾えていなかった漏収分を本場で補填した。",
-          "【スマホ・更新】CTW の G123 オリジナル作『サイマジック 魔法世界のバグ、科学で直します！』が本日 10-23 に正式サービスを開始した（G123 公式のお知らせは 11 時台、4Gamer の報道は 13:18）。9-15 の事前登録開始から約 5 週間での配信で、事前登録 5 万件達成特典の仲間キャラクター「アルキメデス」は配布条件を満たした扱い。ブラウザ配信のため引き続きダウンロード・会員登録は不要で、日本語・英語・繁体字中国語・韓国語の 4 言語に対応する。",
-          "【PC・新規】株式会社灯白社の初オリジナル PC タイトル『つみみじかん 狂オシイホド愛シテル』が 10-22 に Steam で発売された（日本標準価格 1,980 円、4Gamer も 10-23 13:56 に配信開始を報道）。前アイドル・つみみ の配信を外から眺める「視聴者」として、昼は SNS・ファンフォーラム・地図情報から調査ファイルを作り、夜は投げ銭・コメント・ギフトで配信に介入する 14 日周期の構成。キャラクターデザインは 緜／wata、主題歌は 神楽めあ が歌唱し きくお が作詞作曲。ウィッシュリストは 20 万件、主題歌 MV は 300 万回再生を超えた。",
-          "条目総数は 202 → 204（スマホ区 55 → 56、主机・PC 区 164 → 165）。platformClass は mobile 38 → 39、pc 23 → 24（console 124／multi 17 は不変）。bucket は new 122 → 124、update 80 のまま（本場の更新 1 件は既存 new 条目のステータス更新）。",
-          "見送り：① 中国資本の案件は社名・作品名とも記載しない（本日 13:03 に配信日を公表した大型オープンワールド RPG、12:49 に予告番組の日程を出したスローライフ作。いずれも事前登録規模は大きいが口径どおり対象外）。② 韓国・シンガポール資本は不収録（10-23 に 1.0 正式版へ移行したターン制経営シム、10-23 に正式サービス入りした PC 向け MMORPG）。③ 在営タイトルの内容更新（『アナザーエデン』『オクトパストラベラー 大陸の覇者』6 周年、ガルパ コラボ告知、『ペルソナ4 リバイバル』新情報、『ロックマン: デュアル オーバーライド』新ボス公開 等）は口径どおり不収録。④ 他機種版のみの展開（10-23 に Switch 2／PS5／Xbox 向けが出た協力登山ゲーム、10-22 の Switch 2 版対戦格闘）は、本体が観測窓より前かつ開発が国内資本でないため見送り。⑤ 10-22 に PS4／PS5／Switch で出た海外産ホラーの移植版は発売元が国内でも開発が海外のため対象外。",
-          "companies：4 分類 8／16／16／10＝50、補充監視（extra）48 社でいずれも不変。新規 2 件の発行元（ポッピンゲームズジャパン／株式会社灯白社）はいずれも 50 家清单外だが、灯白社は本社所在地を一次源（PR TIMES の会社概要）で確認できた一方、法人としての資本関係・上場情報の裏取りが未完のため extra 追加は次場以降に持ち越した。Tokyo hammock も引き続き extra 未登録（法人住所が一次源で未確認）。",
-          "漏収核查：4Gamer のスマホ枠（10-23 分の新着は 12:49／13:03／13:18 の 3 本のみ）、4Gamer 総合の 10-23 分、AppBank の 10-23 分、ファミ通.com の新着を機械照合した。IP 名検索（ONE PIECE／BLEACH／呪術廻戦／鬼滅の刃／ハイキュー／ブルーロック／東京リベンジャーズ／ホロライブ／刀剣乱舞／無職転生／転スラ／ポケモン／ドラゴンボール）では、日方主導の新規スマホ作は追加で確認できなかった。本場の手游增量は『サイマジック』の正式サービス開始 1 件と、朝の部までに拾えていなかった『午前2時の交換手』の補填 1 件。",
-          "会社地図（data/map.js）：新規打点・住所・座標・officeKind・hqLat/hqLng の変更なし（97 社＝hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）。games フィールドは全 97 社を機械再計算し、増減 0 件（新規 2 件の発行元はいずれも地図未登録社のため該当なし）。geo-check は要確認 0 件（検算対象 107 件）。",
-          "Famitsu 期待榜：10-23 時点で票数付きの新期集計（一次ソース）を確認できず、mostWanted は 10-17 期のまま据え置き。中国語圏で出回っている「最新版」と称する順位は、本サイトが保持する 10-17 期と順位が食い違うため採用しなかった。TGS2026 は展後記録として凍結を継続（booths 26 件）。",
-          "【持越し】① 10-27 19:00 の『BLEACH Mirrors High』SPECIAL BROADCAST（配信日発表の可能性）。② 10-28 のバンダイナムコ「ガンダムゲーム 40 周年記念配信」と『カルドセプト ビギンズ』Steam 版。③『ダンまち フロンティア・ゼロ』の日文一次源（enish 公式）。④『EGO DESCENT』（RAIDENWORKS）の法人情報。⑤ 灯白社・ポッピンゲームズジャパン・Tokyo hammock の extra 登録可否（法人住所と資本関係の一次源待ち）。⑥ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）。"
-        ]
-      },
+      }
     ]
   }
 };
