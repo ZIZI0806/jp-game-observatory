@@ -1,7 +1,7 @@
 /* ============================================================
  * 日本ゲーム観測台 / Japan Game Observatory
  * 数据文件 — 由每日自动巡检任务维护
- * 最后更新: 2026-10-27
+ * 最后更新: 2026-10-29
  *
  * 数据结构:
  *   meta    — 元信息与数据源清单
@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-28T18:10:00+08:00",
-    edition: "2026-10-28",
-    window: "2026-08-28 ~ 2026-10-28（滚动最近 2 个月）",
+    updatedAt: "2026-10-29T09:20:00+08:00",
+    edition: "2026-10-29",
+    window: "2026-08-29 ~ 2026-10-29（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -11121,20 +11121,20 @@ window.OBSERVATORY = {
       companyJp: "株式会社coly（本社：東京都港区三田）",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-10-22（配信日 2026-11-04 決定・AGF2026 初出展を coly が発表）",
-      capturedAt: "2026-10-23",
+      announceDate: "2026-10-28（事前登録 80 万人突破・90 万人報酬の追加を coly が発表）",
+      capturedAt: "2026-10-29",
       title: { jp: "ディズニー スパークリンク・スターズ", cn: "Disney Sparklink Stars（官方未公布简中译名）", en: "Disney Sparklink Stars" },
       genre: "育成アドベンチャー（三消パズル＋ライブレース）／基本プレイ無料",
       platforms: ["iOS", "Android"],
       release: "2026-11-04（iOS／Android）",
       releasePrecision: "日",
-      summary: "日本 coly 与迪士尼合作的自研手游，定位「让梦想成真的 Spark Rider 养成 ADV」。玩家扮演指挥者，在米奇轮廓造型的未来都市 Luminoustair 培育以迪士尼／皮克斯作品为原型、共 4 组 15 名的原创偶像：米奇与伙伴们系 UPbeats!、怪兽电力公司系 aMazINC.、美女与野兽系 Endelore、灰姑娘系 Midveil。玩法分两段：先以三消拼图闯关提升等级并取得技能，再带进舞台竞演「Spark Ride」争夺第一。基本游玩免费＋道具收费，仅预定日语版。2026-06-23 开设官网并启动事前登录，08-05 起开放商店预约，10-21 突破 70 万人；2026-10-22 官方定档 2026-11-04 配信，同日宣布首次出展 AGF2026（11-07～08）。著作权标示为 © Disney，由 coly 自主发行。",
-      highlight: "【配信日 2026-11-04 決定 10/22】coly が『ディズニー スパークリンク・スターズ』の配信日を 2026 年 11 月 4 日（水）に決定した。あわせて 11-07〜08 のアニメイトガールズフェスティバル 2026（White AREA・W-01）への初出展も発表し、会場限定アイテムを含むグッズ販売とオリジナルショッパーの配布を予定する。事前登録キャンペーンは継続中で、報酬は育成アイテム 3 点セット・オファーレター 10 点・★3 メモリー確定オファーレター 1 点。80 万人達成で★3 メモリーが「好きなスパークライダーを選べる」仕様に強化される。　2026-06-23 の初公開から 4 か月で 70 万人に到達し、配信日が確定したことで予約・事前登録が最終局面に入る。三消パズルで育成しライブレースで競う二段構成の、ディズニー男性アイドル企画。",
+      summary: "日本 coly 与迪士尼合作的自研手游，定位「让梦想成真的 Spark Rider 养成 ADV」。玩家扮演指挥者，在米奇轮廓造型的未来都市 Luminoustair 培育以迪士尼／皮克斯作品为原型、共 4 组 15 名的原创偶像：米奇与伙伴们系 UPbeats!、怪兽电力公司系 aMazINC.、美女与野兽系 Endelore、灰姑娘系 Midveil。玩法分两段：先以三消拼图闯关提升等级并取得技能，再带进舞台竞演「Spark Ride」争夺第一。基本游玩免费＋道具收费，仅预定日语版。2026-06-23 开设官网并启动事前登录，08-05 起开放商店预约，10-28 突破 80 万人；2026-10-22 官方定档 2026-11-04 配信，同日宣布首次出展 AGF2026（11-07～08）。著作权标示为 © Disney，由 coly 自主发行。",
+      highlight: "【10-28 事前登録 80 万人突破】coly が『ディズニー スパークリンク・スターズ』の事前登録者数 80 万人突破を発表した。達成に伴い「★3 メモリー確定オファーレター」は好きなスパークライダーを選べる仕様に強化され、次の節目として 90 万人達成報酬（オファーレター 10 点）が追加された。配信日は 2026-11-04 のまま変わらない。　【配信日 2026-11-04 決定 10/22】配信日を 2026 年 11 月 4 日（水）に決定し、11-07〜08 のアニメイトガールズフェスティバル 2026（White AREA・W-01）への初出展も発表した。会場限定アイテムを含むグッズ販売とオリジナルショッパーの配布を予定する。　2026-06-23 の初公開から 4 か月で 70 万人、そこから 1 週間で 80 万人に到達し、配信日が確定したことで予約・事前登録が最終局面に入る。三消パズルで育成しライブレースで競う二段構成の、ディズニー男性アイドル企画。",
       mobile: {
         status: "配信予定（2026-11-04 配信決定・事前登録受付中）",
         os: ["iOS", "Android"],
         monetization: "基本プレイ無料＋アプリ内課金（アイテム課金）",
-        preReg: { open: true, since: "2026-06-23（公式サイト・X・YouTube で開始）／2026-08-05（App Store・Google Play のストア予約）", reward: "スパークライダー育成アイテム 3 点セット（ダンスチャージ S／シングチャージ S／アクトチャージ S）、オファーレター 10 点、★3 メモリー確定オファーレター 1 点（70 万人達成で追加）。80 万人達成で、★3 メモリーは好きなスパークライダーを選べる仕様に強化。受け取り期限はリリース後にゲーム内で告知される" },
+        preReg: { open: true, since: "2026-06-23（公式サイト・X・YouTube で開始）／2026-08-05（App Store・Google Play のストア予約）", reward: "スパークライダー育成アイテム 3 点セット（ダンスチャージ S／シングチャージ S／アクトチャージ S）、オファーレター 10 点、★3 メモリー確定オファーレター 1 点（70 万人達成で追加）。80 万人達成（2026-10-28）で★3 メモリーは好きなスパークライダーを選べる仕様に強化され、次の節目として 90 万人達成でオファーレター 10 点が追加された。受け取り期限はリリース後にゲーム内で告知される" },
         developer: "株式会社coly",
         publisher: "株式会社coly（© Disney のライセンス許諾のもとで企画・開発・運営）",
         region: "日本（日本語版のみを予定）",
@@ -11153,6 +11153,7 @@ window.OBSERVATORY = {
         cast: "公式発表なし（一部キャラクターの担当声優は公開済みだが、全 15 名の一覧は公式サイトで未整理）"
       },
       news: [
+        { source: "gamebiz（事前登録 80 万人達成・90 万人達成報酬の追加）", url: "https://gamebiz.jp/news/434731" },
         { source: "公式サイト ニュース（事前登録者数 70 万人突破・80 万人達成の追加報酬）", url: "https://colyinc.com/sparklink-stars/news/info/184/" },
         { source: "gamebiz（70 万人達成と追加報酬の内容）", url: "https://gamebiz.jp/news/434477" },
         { source: "公式サイト（作品概要・事前登録）", url: "https://colyinc.com/sparklink-stars" },
@@ -11166,7 +11167,7 @@ window.OBSERVATORY = {
         { label: "公式 YouTube チャンネル（@spalik_jp／PV と配信前情報）", platform: "YouTube", url: "https://www.youtube.com/@spalik_jp" }
       ],
       hype: {
-        score: 74,
+        score: 76,
         signals: [
           "事前登録はストア予約開始前から 30 万人、10-05 に 60 万人、10-21 に 70 万人と、公開されている数値シグナルが明確に出ている",
           "ディズニーの IP を日本のアイドル育成ジャンルに落とし込む企画で、英語圏・中国語圏の媒体も発表時から継続的に報じている",
@@ -11873,6 +11874,136 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "PC", "デッキ構築", "ローグライク", "ボードゲーム", "ドリコム", "Steam"]
     },
+    {
+      id: "gundam-battle-operation-3",
+      company: "Bandai Namco Entertainment（開発：Bandai Namco Forge Digitals）",
+      companyJp: "株式会社バンダイナムコエンターテインメント",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-10-28（ガンダムゲーム 40 周年記念配信で発表）",
+      capturedAt: "2026-10-29",
+      title: { jp: "機動戦士ガンダム バトルオペレーション3", cn: "机动战士高达 战斗行动3", en: "Mobile Suit Gundam: Battle Operation 3" },
+      genre: "チーム対戦アクション（基本プレイ無料・最大 6vs6）",
+      platforms: ["PlayStation 5", "PC (Steam)"],
+      release: "未定（配信日は未発表。先行ネットワークテストは 2026-11-20／11-22）",
+      releasePrecision: "未定",
+      summary: "万代南梦宫在 2026-10-28 的「高达游戏 40 周年纪念直播」中正式发表《战斗行动3》，是 2012 年起步、2018 年起由《战斗行动2》长期运营的系列正统续作。平台限定 PS5 与 PC(Steam)，首发即支持跨平台联机，对应日／英／韩／简繁中五种语言。沿用系列「MS＋步兵」的混合战斗：可下机安放基地炸弹、呼叫支援火力、徒步争夺据点，战间则回到社交中枢「Base Camp」。新增每台机体专属的「SP 技能」与简化连段操作的「Battle Assist」，UI 全面重做。首发收录宇宙世纪（初代／第08MS小队／0083）与《高达 SEED》，服务首年内再追加 2–3 部非 UC 作品。基本游玩免费，配信日未定；开发为 Bandai Namco Forge Digitals，引擎改用 Unreal Engine。",
+      highlight: "【2026-10-28 ガンダムゲーム40周年記念配信で発表】バンダイナムコエンターテインメントが『機動戦士ガンダム バトルオペレーション3』を正式発表した。PS5／PC(Steam) の 2 機種で、シリーズ初の PS5・Steam クロスプレイに対応する。基本プレイ無料、配信日は未定。11-20 と 11-22 に国内の『バトオペ2』プレイヤー限定で先行ネットワークテストを実施し、申込は 10-29 から前作の作内告知で受け付ける（11-08 まで）。　開発は Bandai Namco Forge Digitals、エンジンは Unreal Engine に刷新。全機体固有の「SP スキル」と、複雑な操作を補助する「Battle Assist」を新搭載し UI も一新する。発売時の参戦作は宇宙世紀（初代／第08MS小隊／0083）と『SEED』で、サービス初年度に非 UC 作品を 2〜3 作追加する計画。前作とは同時運用せず、機体資産の引き継ぎも行わない方針。",
+      news: [
+        { source: "Anime News Network（バンダイナムコ公式プレスリリース転載）", url: "https://www.animenewsnetwork.com/press-release/2026-10-28/bandai-namco-reveals-mobile-suit-gundam-battle-operation-3-during-gundam-games-40th-anniversary-/.243293" },
+        { source: "Gematsu（対応機種・対応言語・ネットワークテストの日程）", url: "https://www.gematsu.com/2026/10/mobile-suit-gundam-battle-operation-3-announced-for-ps5-pc" },
+        { source: "公式サイト（バトルオペレーション3／英語版）", url: "https://bobobo-sp.ggame.jp/en/" },
+        { source: "Inven Global（SP スキル・Battle Assist・参戦作の解説）", url: "https://www.invenglobal.com/articles/27832/mobile-suit-gundam-battle-operation-3-announced-supports-ps5-and-steam-cross-play" }
+      ],
+      videos: [
+        { label: "アナウンストレーラー（公式）", platform: "YouTube", url: "https://youtu.be/Gu1qWj6gYks" },
+        { label: "ガンダムゲーム40周年記念配信 特設（公式・アーカイブ）", platform: "官方站", url: "https://bnent.jp/ggame40thlive_en/" }
+      ],
+      hype: {
+        score: 79,
+        signals: [
+          "ガンダムゲーム 40 周年という節目の単独配信で発表され、同配信の目玉として扱われた",
+          "シリーズ初の PS5・Steam クロスプレイと Unreal Engine への刷新で、英語圏・韓国語圏・中国語圏の媒体が一斉に報じた",
+          "前作『バトオペ2』は 2018 年から 8 年以上の長期運営で、続編への移行が明言されたことで既存プレイヤーの関心が直接向く",
+          "配信日・価格・課金体系が未発表で、Famitsu 期待榜にもまだ登場していない"
+        ]
+      },
+      tags: ["新作発表", "アクション", "ガンダム", "バンダイナムコ", "クロスプレイ", "基本無料", "PS5", "Steam"]
+    },
+    {
+      id: "charisma-de-murder-mystery",
+      company: "株式会社オルトプラス（企画・開発・運営）",
+      companyJp: "株式会社オルトプラス（東京都豊島区）",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-10-28（配信時期を 2027 年春へ変更）",
+      capturedAt: "2026-10-29",
+      title: { jp: "カリスマダミス CHARISMA de MURDER MYSTERY", cn: "Charisma de MURDER MYSTERY（官方未公布简中译名）", en: "Charisma de MURDER MYSTERY" },
+      genre: "超能力推理アドベンチャー（マーダーミステリー型）",
+      platforms: ["iOS", "Android"],
+      release: "2027年春（当初は 2026 年内予定）",
+      releasePrecision: "時期",
+      summary: "オルトプラス以 EVIL LINE RECORDS（KING RECORDS）与 Dazed 共同推进的 2D 角色企划《超人的シェアハウスストーリー『カリスマ』》为原作开发的首款手游。7 名同居人各自背负「性／反発／服従／正邪／秩序／内罰／自愛」之一，在新舞台「New Charisma House」挑战谋杀之谜（剧本杀）。玩法为超能力推理 ADV：拼合资料与痕迹破解超能力事件的谜团，玩家的推理会让故事分支，可推翻既定结局抵达隐藏真相。2026-03-28 的 AnimeJapan 2026「カリスマ」舞台首次发表，原定 2026 年内配信；2026-10-28 オルトプラス以「扩充游戏内容、提升画面与演出品质」为由，将配信时期改为 2027 年春。事前登录尚未开始，课金形态亦未公布。",
+      highlight: "【2026-10-28 配信時期を 2027 年春へ変更】オルトプラスホールディングスが『カリスマダミス CHARISMA de MURDER MYSTERY』のリリース時期を 2026 年内から 2027 年春に変更すると適時開示した。理由はゲーム内コンテンツの拡充とグラフィック・演出の品質向上で、業績への影響は精査中としている。　2026-03-28 の AnimeJapan 2026「カリスマ」ステージで発表された同 IP 初のゲーム化作品。7 人のカリスマが「New Charisma House」でマーダーミステリーに挑む超能力推理アドベンチャーで、資料と痕跡をつなぎ合わせて事件の謎を暴き、プレイヤーの推理で物語が分岐する。事前登録はまだ開始していない。",
+      mobile: {
+        status: "配信予定（2027 年春）",
+        os: ["iOS", "Android"],
+        monetization: "未発表",
+        preReg: { open: false, since: "", reward: "事前登録は未実施（2026-10-29 時点）。開始時期・達成報酬とも未発表" },
+        developer: "株式会社オルトプラス",
+        publisher: "株式会社オルトプラス（オルトプラスホールディングス傘下）",
+        region: "日本",
+        distribution: "App Store / Google Play",
+        payment: [],
+        ipSource: "EVIL LINE RECORDS（KING RECORDS）と Dazed が手がける 2D キャラクターコンテンツ「超人的シェアハウスストーリー『カリスマ』」のゲーム化許諾作品",
+        series: "カリスマは 2021 年始動の音楽原作キャラクターラッププロジェクト。楽曲・YouTube ドラマ・舞台・漫画へ展開し、TV アニメ『カリスマ』が 2027 年 1 月から TBS 系で放送予定。ゲーム化は本作が初",
+        features: [
+          "7 人のカリスマが新たな舞台「New Charisma House」でマーダーミステリー（殺人事件の謎解き）に挑む",
+          "ジャンルは超能力推理アドベンチャー。資料や痕跡をつなぎ合わせて超能力事件の謎を暴く",
+          "プレイヤーの推理で物語が分岐し、決められた結末を覆して隠された真実に到達する設計",
+          "キャラクターは「性」「反発」「服従」「正邪」「秩序」「内罰」「自愛」という 7 つのカリスマ属性をそれぞれ持つ",
+          "原作は楽曲と YouTube ドラマを軸に展開する企画で、TV アニメが 2027 年 1 月から放送予定"
+        ],
+        synopsis: "「カリスマハウス」で共同生活を送りながら、それぞれのカリスマ性と向き合う 7 人。本作では彼らが「New Charisma House」を舞台に殺人事件の謎解きへ挑む。プレイヤーは超能力事件の資料と痕跡を突き合わせて推理し、用意された結末を覆す真相にたどり着く。",
+        cast: "公式発表なし（TV アニメ『カリスマ』は原作キャストが続投するが、本作の出演情報は未公開）"
+      },
+      news: [
+        { source: "gamebiz（リリース時期を 2027 年春へ変更・延期理由）", url: "https://gamebiz.jp/news/434734" },
+        { source: "PR TIMES（オルトプラス公式リリース：ゲーム化許諾と当初の 2026 年内リリース予定）", url: "https://prtimes.jp/main/html/rd/p/000000322.000053906.html" },
+        { source: "ゲームウィズ（ゲーム概要・ジャンル・7 人のカリスマ属性）", url: "https://gamewith.jp/gamedb/16390/articles/55778" },
+        { source: "オルトプラス IR（リリース時期変更に関する適時開示）", url: "https://www.altplus.co.jp/ir/ir-news" }
+      ],
+      videos: [
+        { label: "公式 X（@charisma__house／シリーズ公式アカウント）", platform: "X", url: "https://x.com/charisma__house" },
+        { label: "ゲームウィズ（ゲーム概要と発表情報のまとめ）", platform: "媒体", url: "https://gamewith.jp/gamedb/16390/articles/55778" }
+      ],
+      hype: {
+        score: 36,
+        signals: [
+          "原作『カリスマ』は楽曲・舞台・漫画・アニメへ展開する国内 2D キャラクターコンテンツで、TV アニメが 2027 年 1 月に TBS 系で放送予定",
+          "オルトプラスにとっては自社開発の大型国内 IP タイトルで、リリース時期変更を適時開示する規模の案件として扱われている",
+          "事前登録が未開始で、PV 以外のゲーム画面・課金形態が公開されておらず、数値シグナルは存在しない",
+          "Famitsu 期待榜には未登場"
+        ]
+      },
+      tags: ["手游", "推理ADV", "マーダーミステリー", "IP改编", "オルトプラス", "カリスマ"]
+    },
+    {
+      id: "bakudo",
+      company: "集英社ゲームズ（発売）／SAYIL Games（開発）",
+      companyJp: "株式会社集英社ゲームズ",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-10-28（Indie World で Switch 2 版と 2027 年発売を発表）",
+      capturedAt: "2026-10-29",
+      title: { jp: "BAKUDO", cn: "BAKUDO（官方未公布简中译名）", en: "BAKUDO" },
+      genre: "ボールスポーツ×ボスラッシュアクション",
+      platforms: ["Nintendo Switch 2", "PC (Steam)"],
+      release: "2027年（時期未定）",
+      releasePrecision: "年",
+      summary: "集英社ゲームズ发行、SAYIL Games（2022 年末由五名大学同学创立）开发的首款作品。舞台是只为「Coreball」这项球技设立的菁英学园 Soliris Academy，主角 Yuria 为追寻失踪父亲的线索入学，却在入学考试中为救同伴违规而被取消资格；学园最强、位居「Stellar Eight」之首的 Aria 给她十天内击败八人的条件。玩法为投球手段各异的实时 Boss 战，观察对手动作、抓住破绽反击。单机一人，对应日／英／繁中／简中。2026-10-28 的 Indie World 2026.10.28 中确认新增 Nintendo Switch 2 版（原先只有 Steam），并明确 2027 年发售、同步放出学园生活新预告与三名主要角色设定。Steam 已有体验版。",
+      highlight: "【2026-10-28 Indie World で Switch 2 版と 2027 年発売を発表】集英社ゲームズが、SAYIL Games 開発の『BAKUDO』について Nintendo Switch 2 版を追加すると発表し、Switch 2／Steam の 2027 年発売を明言した。学園生活を軸にした新トレーラーと、主人公 Yuria・相棒 Evie・Stellar Eight 首位 Aria の 3 名の設定が公開されている。　球技「Coreball」のボスラッシュアクションで、投球を軸にしたリアルタイム戦闘が中核。単独プレイ専用で、日本語・英語・繁体字中国語・簡体字中国語に対応する。Steam ではすでに体験版が配信中。",
+      news: [
+        { source: "Anime News Network（Indie World での Switch 2 版発表と 2027 年発売）", url: "https://animenewsnetwork.com/news/2026-10-28/bakudo-action-game-trailer-reveals-switch-2-version-2027-release/.243289" },
+        { source: "Games Press（集英社ゲームズ公式プレスリリース：仕様・対応言語・開発元）", url: "https://www.gamespress.com/en-GB/BAKUDO-Confirms-Nintendo-Switch-2-Version-Coming-in-2027" },
+        { source: "公式サイト（BAKUDO／集英社ゲームズ）", url: "https://shueisha-games.com/games/bakudo/" },
+        { source: "Steam ストアページ（体験版・対応言語・開発元）", url: "https://store.steampowered.com/app/2275860/BAKUDO/" }
+      ],
+      videos: [
+        { label: "新トレーラー（公式・学園生活編）", platform: "YouTube", url: "https://youtu.be/Avr0HfdpAfs" },
+        { label: "公式サイト（BAKUDO／作品紹介）", platform: "官方站", url: "https://shueisha-games.com/games/bakudo/" }
+      ],
+      hype: {
+        score: 48,
+        signals: [
+          "任天堂の Indie World 2026.10.28 で取り上げられ、Switch 2 という新ハードのローンチ期に名前が挙がった",
+          "集英社のゲームパブリッシングブランドとして、書店・出版側の販路とプロモーション網が使える立場にある",
+          "英語圏の専門メディア（Anime News Network・Final Weapon・GoNintendo）が同日に一斉報道した",
+          "発売日・価格・レーティングが未発表で、Famitsu 期待榜にも未登場"
+        ]
+      },
+      tags: ["アクション", "ボスラッシュ", "学園", "集英社ゲームズ", "Switch 2", "Steam", "Indie World"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -11891,7 +12022,7 @@ window.OBSERVATORY = {
           { name: "任天堂株式会社", short: "Nintendo", status: "covered", gameIds: ["metroid-ravenous", "zelda-oot-remake", "xenoblade-genesis", "splatoon-raiders", "nintendo-switch-sports-resort"] },
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
-          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order", "tales-of-eternia-remastered", "digimon-alysion"] },
+          { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order", "tales-of-eternia-remastered", "digimon-alysion", "gundam-battle-operation-3"] },
           { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
@@ -11984,7 +12115,7 @@ window.OBSERVATORY = {
         { name: "株式会社HONEY∞PARADE GAMES", short: "HONEY∞PARADE GAMES", status: "covered", gameIds: ["shinobi-nexus-senran-kagura"], note: "マーベラスグループ。『閃乱カグラ』シリーズのアプリ開発を担当" },
         { name: "株式会社アソビモ", short: "ASOBIMO", status: "covered", gameIds: ["mushoku-tensei-chronicle-of-echoes"], note: "『無職転生 クロエコ』の開発・運営を担当" },
         { name: "株式会社アークシステムワークス", short: "Arc System Works", status: "covered", gameIds: ["marvel-tokon-fighting-souls", "qliphah-in-providences-shadow", "blazblue-centralfiction-ps5", "demons-night-fever"], note: "『MARVEL Tōkon: Fighting Souls』を開発（販売は PlayStation Publishing）。『BLAZBLUE CENTRALFICTION』PS5 版は自社 IP の機種追加として 2026-10-10 に発表。2026-10-22 には新川宗平（元日本一ソフトウェア社長）プロデュース、ドリコム×SuperNiche 開発の新規 SRPG『DEMONS' NIGHT FEVER』を発売する" },
-        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton", "hoshin-engi-re-surrection", "atmosfar"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展。2026-10-10 には、同ブランドが発行する空中サバイバル『ATMOSFAR』（開発：Apog Labs＝スウェーデン、PC 早期アクセス 2026-10-29 予定）を追記した" },
+        { name: "株式会社集英社ゲームズ", short: "Shueisha Games", status: "covered", gameIds: ["unme", "jujutsu-kaisen-rumble-survivaton", "hoshin-engi-re-surrection", "atmosfar", "bakudo"], note: "集英社のゲームパブリッシングブランド。新作『UN:Me』に加え、『呪術廻戦 RUMBLE: SURVIVATON』（開発：poncle）を 2027 年に発売延期。TGS2026 は 5 号館 05-C10 で両作の体験版を出展。2026-10-10 には、同ブランドが発行する空中サバイバル『ATMOSFAR』（開発：Apog Labs＝スウェーデン、PC 早期アクセス 2026-10-29 予定）を追記した" },
         { name: "BOUNTYKINDS SOLUTIONS INC.", short: "BOUNTYKINDS", status: "covered", gameIds: ["exe-arena"], note: "2022年設立。同名のブロックチェーンゲーム『Bountykinds』を運営。『EXE ARENA』は2026年10月リリース予定で TGS2025・2026 と2年連続出展（所在地・資本関係は未確認）" },
       { name: "CTW株式会社", short: "CTW", status: "covered", gameIds: ["shakugan-no-shana-blaze-edge", "scimagic-g123"], note: "ダウンロード不要のブラウザゲームプラットフォーム「G123」を運営。アニメ IP を題材にした放置型 RPG を継続的に投入しており、9/14 に『灼眼のシャナ ブレイズエッジ』を 4 言語で同時配信開始。9/15 には G123 では珍しい自社オリジナル IP『サイマジック 魔法世界のバグ、科学で直します！』の事前登録を開始し、IP ライセンス依存からの脱却を試す" },
       { name: "株式会社Plott", short: "Plott", status: "covered", gameIds: ["blackchannel-blaze-road"], note: "ゲームの企画・開発を手がけてきたスタジオが自社パブリッシングへ広げた事例。YouTube アニメ『ブラックチャンネル』（チャンネル登録者 130 万人超、小学館）の初のスマートフォンゲーム化を 9/14 に配信開始" },
@@ -12013,7 +12144,7 @@ window.OBSERVATORY = {
         { name: "ネオス株式会社", short: "ネオス", status: "covered", gameIds: ["crayon-shinchan-switch2", "culdcept-begins"], note: "東京都千代田区神田須田町に本社を置き、コンシューマゲーム事業と DX ソリューション事業を展開する日本企業。親会社はテクミラホールディングス（東証スタンダード 3627）。『クレヨンしんちゃん』ゲームシリーズ 2 作の Nintendo Switch 2 版（2027-03-04）を 2026-10-13 に発表した。2026-10-20 には『カルドセプト ビギンズ』の PC（Steam）版を 10-28 に発売すると発表している" },
         { name: "フォーミライ株式会社", short: "フォーミライ", status: "covered", gameIds: ["morpho-reverie"], note: "音楽 ADV のパブリッシングを手がける国内企業。開発は Spectra Motif Studio。2026-08-31 に Steam ストアページと初報 PV を公開し、2026-10-15 に無料体験版を配信した『Morpho Reverie』（PC／Steam、本編の発売日・価格は未発表）を補充監視に追加した" },
         { name: "C#4R4CT3R", short: "C#4R4CT3R", status: "covered", gameIds: ["rain98"], note: "東京都渋谷区を拠点とするインディーゲームのレーベル兼パブリッシャー。2026-10-17 に Steam で無料体験版を配信した『Rain98』（PC／Steam、2026 年内発売予定・価格未発表）を手がける。代表作の初公開は 2025-04 で観測期間より前のため、体験版配信を更新として記録した。本社の登記住所は一次源で未確認のため会社地図には未打点" },
-        { name: "株式会社coly", short: "coly", status: "covered", gameIds: ["disney-sparklink-stars"], note: "東証スタンダード上場（証券コード 4175）の女性向けモバイルゲーム会社。本社は東京都港区三田（住友不動産麻布十番ビル）。『魔法使いの約束』『スタンドマイヒーローズ』『ブレイクマイケース』を自社で企画・開発・運営する。ディズニーから直接ライセンスを受けて自社開発する『ディズニー スパークリンク・スターズ』を 2026-06-23 に発表し、2026-10-21 に事前登録 70 万人を突破したため補充監視に追加（IP ホルダー直営ではなく、外資 IP の国内ライセンス開発という形態）" },
+        { name: "株式会社coly", short: "coly", status: "covered", gameIds: ["disney-sparklink-stars"], note: "東証スタンダード上場（証券コード 4175）の女性向けモバイルゲーム会社。本社は東京都港区三田（住友不動産麻布十番ビル）。『魔法使いの約束』『スタンドマイヒーローズ』『ブレイクマイケース』を自社で企画・開発・運営する。ディズニーから直接ライセンスを受けて自社開発する『ディズニー スパークリンク・スターズ』を 2026-06-23 に発表し、2026-10-21 に 70 万人、2026-10-28 に 80 万人の事前登録を達成したため補充監視に追加（IP ホルダー直営ではなく、外資 IP の国内ライセンス開発という形態）" },
       ]
     }
   },
@@ -12101,8 +12232,25 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-28 夜の部：増分区間（17:18〜19:00 JST）に国内スマホの新作発表・配信はゼロ。朝の部で反映した BLEACH・デジモンの続報のみで条目 206 は不変、Cygames の対戦格闘フリー版終了告知を記録",
+    headline: "10-29 朝の部：ガンダム40周年配信で『バトオペ3』、Indie World で集英社ゲームズ『BAKUDO』Switch 2 版。国内スマホは新作ゼロ、オルトプラス『カリスマダミス』は 2027 年春へ延期、coly のディズニー新作は事前登録 80 万人。",
     history: [
+      {
+        at: "2026-10-29 09:00",
+        scene: "定時巡検（朝の部）",
+        items: [
+          "【結論】本場は 09:00 場。増分区間＝前回コミット（10-28 19:03 JST）以降〜10-29 09:00。新規 3 件／更新 1 件で、条目総数は 206 → 209（スマホ区 57／主机・PC 区 169。console 126／multi 17／mobile 40／pc 26、bucket new 127／update 82）。前場から持ち越した 2 つの大型配信——10-28 20:00 の「ガンダムゲーム 40 周年記念配信」と 23:00 の「Indie World 2026.10.28」——を照合し、どちらも本サイトの収録対象となる新規タイトルを生んだ。国内スマホの新作発表そのものはゼロ。",
+          "【主机・PC 新作①】バンダイナムコエンターテインメントが『機動戦士ガンダム バトルオペレーション3』を発表した。PS5／PC(Steam)、基本プレイ無料、シリーズ初のクロスプレイ対応で、配信日は未定。開発は Bandai Namco Forge Digitals でエンジンを Unreal Engine に刷新し、全機体固有の「SP スキル」と操作補助の「Battle Assist」を新搭載。発売時は宇宙世紀（初代／第08MS小隊／0083）と『SEED』が参戦し、初年度に非 UC 作品を 2〜3 作追加する。11-20・11-22 に国内の前作プレイヤー限定ネットワークテスト（申込は 10-29〜11-08）。同配信では『GUNDAM 異軌征途』が 9 月の映像の再掲にとどまり、新情報はなかった。",
+          "【スマホ 新規】オルトプラスが『カリスマダミス CHARISMA de MURDER MYSTERY』の配信時期を 2026 年内から 2027 年春へ変更すると適時開示した。理由はコンテンツ拡充とグラフィック・演出の品質向上。EVIL LINE RECORDS と Dazed の『カリスマ』を原作とする同 IP 初のゲーム化で、7 人のカリスマが「New Charisma House」でマーダーミステリーに挑む超能力推理アドベンチャー。窓外（2026-03-28 の AnimeJapan 2026）の初出だが、発売時期の変更が窓内のため条目化した（bucket は update）。",
+          "【主机・PC 新作②】集英社ゲームズが Indie World 2026.10.28 で、SAYIL Games 開発『BAKUDO』の Nintendo Switch 2 版を追加すると発表し、Switch 2／Steam で 2027 年発売と明言した。学園生活を軸にした新トレーラーと主要 3 名の設定も公開。球技「Coreball」のボスラッシュアクションで、Steam ではすでに体験版が配信中。",
+          "【スマホ 更新】coly『ディズニー スパークリンク・スターズ』が 10-28 に事前登録 80 万人を突破し、★3 メモリー確定オファーレターが「好きなスパークライダーを選べる」仕様に強化された。次の節目として 90 万人達成報酬（オファーレター 10 点）も追加。配信日は 2026-11-04 のまま変わらない。",
+          "【運営終了・口径外】ナルコナルが『忍たま乱太郎 ふっとびパズル！の段 あげいん！』『忍たま乱太郎 ムゲンのツボ大暴走の段』の 2 タイトルを 2026-12-16 12:00 で終了する。いずれも本体は窓外のため条目にはせず、運営終了の記録としてここに留める。Indie World の他の発表は海外スタジオの作品が中心で、日方主導の自社パブリッシング作は BAKUDO のみだった。",
+          "確認した範囲：4Gamer の RSS（10-28〜10-29 の新着全件）、gamebiz の 10-28 全記事一覧と「おはよう gamebiz(10/29)」、AppBank の 10-28／10-29 アーカイブ、Gematsu・Anime News Network・Siliconera・Kotaku・Nintendo Everything・GoNintendo の Indie World まとめ、Games Press の集英社ゲームズ リリース、Inven Global・Tech Times のバトオペ3 関連、ゲームウィズ・GameWith のカリスマダミス 関連。",
+          "見送り（口径どおり）：稼働中タイトルのイベント・カード追加・コラボは不収録（『Shadowverse: Worlds Beyond』新カードパック、『AION2』インフォグラフィック、各種コラボ告知など）。10-29 に世界配信されたハンティング大作は IP 許諾が日本側でも開発・販売が中国資本のため対象外。Indie World の発表作は開発・発売とも海外スタジオのため収録対象外（『Sword of the Sea』『Witchbrook』『R.E.P.O.』『Tenjutsu』ほか）。10-29 15:00 開始予定の新作ブラウザは資本構成を一次源で確定できず引き続き見送り。パチスロ実機シミュレーターアプリ（10-29 iOS 配信）はゲームアプリの口径外。",
+          "漏収核查：『ガンダム』『ワンピース』『呪術廻戦』『鬼滅の刃』『ブルーロック』『ハイキュー』『BLEACH』『デジモン』『東京リベンジャーズ』を IP 名で照合。窓内に日方主導の未収録スマホ新作はゼロ（『ガンダム』は既収録の『ブリッツオーダー』と本場のバトオペ3 のみ、他は稼働中タイトルのコラボ・グッズ）。",
+          "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）で増減なし。本場の新規 3 件はいずれも既登録社（バンダイナムコエンターテインメント、集英社ゲームズ）または地図未登録の小規模社（オルトプラス）で、社名変更・移転・拠点新設閉鎖・資本異動はゼロ。住所・座標・officeKind・hqLat/hqLng は変更せず、meta.asOf のみ 2026-10-29 に更新した。geo-check の結果は本文末尾の検算欄に記す。",
+          "【持越し】① 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）② 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）③ オルトプラスを companies.extra に追加するか（本社住所の一次源確認と地図打点が必要）④ Aiming『ホロじゃん』の 4Q リリース予定（決算資料ベースの言及のみで、公式の配信日発表ではない）。"
+        ]
+      },
       {
         at: "2026-10-28 19:00",
         scene: "定時巡検（夕方の部）",
@@ -12115,21 +12263,6 @@ window.OBSERVATORY = {
           "漏収核查：本場は『呪術廻戦』『鬼滅の刃』『ブルーロック』を IP 名で再照合し、朝の部の『ハイキュー』『BLEACH』『デジモン』『ポケモン』『東京リベンジャーズ』『葬送のフリーレン』の照合結果と突き合わせた。窓内に日方主導の未収録スマホ新作はゼロ（『BLEACH』『デジモン』は既収録、他は稼働中タイトルのコラボ・グッズのみ）。",
           "【持越し】① 本日 20:00 の「ガンダムゲーム 40 周年記念配信」② 本日 23:00 の Nintendo Indie World（約 25 分、Switch／Switch 2）——いずれも本場の締切後、次場（10-29 09:00）で内容を照合する。③ 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）④ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）。",
           "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）で増減なし。本場は新規会社・移転・東京拠点の新設閉鎖・資本関係の異動がいずれもゼロで、住所・座標・officeKind・hqLat/hqLng は変更しない（meta.asOf のみ 2026-10-28 に更新）。geo-check は本機の外部 HTTPS 不通（国土地理院 API が HTTP 000）のため未走行——地図の会社行が無変更のため前回検算値を流用した。"
-        ]
-      },
-      {
-        at: "2026-10-28 09:00",
-        scene: "定時巡検（朝の部）",
-        items: [
-          "【結論】本場は 09:00 場。増分区間＝前回コミット（10-27 19:06 JST）以降〜10-28 17:00。新規 0 件／更新 3 件で、条目総数は 206 で不変（スマホ区 56／主机・PC 区 167、console 124／multi 17／mobile 39／pc 26、bucket new 126／update 80）。国内スマホの新作発表はゼロだったが、『BLEACH Mirrors High』のサービス開始と『デジモンアリシオン』の事前登録開始というスマホ 2 件の実進展を反映した。",
-          "【スマホ① 配信開始】バンダイナムコエンターテインメント『BLEACH Mirrors High』が 10-28 にサービス開始。前夜 19:00 の SPECIAL BROADCAST で久保帯人デザインの新人隊士 10 名を追加解禁し、配信後最初のガシャに［天に立つ］藍染惣右介を実装（登場は〜2026-11-24 14:59 予定）。OP アニメは PIERROT FILMS 制作、主題歌「CRITICAL」は水槽＋山田貴洋。事前登録は世界 100 万件を突破し、9,000 ミラージェム（30 連相当）・★3 一護・★3 ルキア・★3 以上確定チケット 5 枚を配布する。",
-          "【スマホ② 事前登録】バンダイ『デジモンアリシオン』が 10-28、日本を含む世界 49 の国と地域で事前登録受付を開始した。リリースは年内予定。物理『デジモンカードゲーム』のメモリーシステムと進化をほぼそのまま再現し、本作限定の新規カードも収録。ストーリーモードは Web マンガ／ノベル『デジモンリベレイター』の世界観に沿う。配信日・達成報酬は未発表。",
-          "【主机・PC】ネオス『カルドセプト ビギンズ』の PC（Steam）版が 10-28 に配信開始。6,380 円（11-11 まで 10%OFF、早期購入特典は 12-27 まで）で、新対戦マップ 3 枚（X／Fortune Array／Holy Hammer）・Book カバー 10 種・カード図鑑の読み上げを追加。追加要素は後日 Switch／Switch 2 へ無償アップデートで還元されるが、Steam 版と Switch 版のクロスプレイには非対応。",
-          "確認した範囲：4Gamer の 10-27 18:00〜10-28 の新着全件（モバイル含む）、AppBank の 10-28 日付アーカイブ全件、ファミ通.com の新着、PR TIMES のゲーム分類、Gematsu／Final Weapon／Anime News Network の BLEACH 関連、GameMeca の 10-28 新着。",
-          "見送り（口径どおり）：稼働中タイトルの更新——『七つの大罪 グラクロ』P5R コラボ直前生放送、『ウマ娘』『ブルーアーカイブ』等のイベント・コスプレ系は不収録。中国資本のモバイル新作（10-28 事前ダウンロード開始・10-29 配信のハンティング大作など）と韓国資本の世界同時展開作（10-28 世界サービス開始のダークファンタジー MMORPG 等）も対象外。パチスロ実機シミュレーターアプリ（10-29 iOS 配信）はゲームアプリの口径外として見送った。",
-          "漏収核查：『呪術廻戦』『鬼滅の刃』『東京リベンジャーズ』『ブルーロック』『葬送のフリーレン』『ハイキュー』『BLEACH』『ポケモン』『デジモン』を IP 名で照合。窓内に日方主導の未収録スマホ新作はゼロ（『BLEACH』『デジモン』は既収録を更新、他は稼働中タイトルのコラボ・グッズのみ）。",
-          "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）で増減なし。本場の更新 2 件はいずれも既登録社（バンダイナムコエンターテインメント＝major、ネオス＝small）で、住所・座標・officeKind・hqLat/hqLng の変更はない。積み残しとして extra の「フォーミライ株式会社」が地図未登録（本社住所を一次源で確認できず今回は追加を見送り）。meta.asOf のみ 2026-10-28 に更新。",
-          "【持越し】① 本日 20:00 開始の「ガンダムゲーム 40 周年記念配信」（『ガンダム ブリッツオーダー』『GUNDAM 異軌征途』『SD ガンダム G ジェネ エターナル』の新情報が見込まれる）② 本日 23:00 の Nintendo Indie World（約 25 分）③ 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）④ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）。"
         ]
       },
     ]
