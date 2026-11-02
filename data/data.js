@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-10-30T18:05:00+08:00",
-    edition: "2026-10-30",
-    window: "2026-08-30 ~ 2026-10-30（滚动最近 2 个月）",
+    updatedAt: "2026-11-02T16:40:00+08:00",
+    edition: "2026-11-02",
+    window: "2026-09-02 ~ 2026-11-02（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -2056,7 +2056,7 @@ window.OBSERVATORY = {
       kvSrc: "公式サイト",
       company: "COLOPL",
       companyJp: "株式会社コロプラ",
-      bucket: "new",
+      bucket: "update",
       platformClass: "mobile",
       announceDate: "2026-09-01",
       capturedAt: "2026-09-15",
@@ -12238,6 +12238,202 @@ window.OBSERVATORY = {
       },
       tags: ["主机", "ADV", "オカルト", "MAGES.", "科学アドベンチャー", "Switch 2", "PS5"]
     },
+    {
+      id: "galast",
+      company: "イヴセンス",
+      companyJp: "イヴセンス株式会社",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-11-02（正式サービス開始 15:00）",
+      capturedAt: "2026-11-02",
+      title: { jp: "GALAST（ギャラスト）", cn: "GALAST 在线对战棋盘游戏（暂译，官方未公布简中译名）", en: "GALAST" },
+      genre: "オンライン対戦ボードゲーム（将棋・麻雀・チェス・大富豪ほか／基本プレイ無料＋アイテム課金）",
+      platforms: ["iOS", "Android"],
+      release: "2026-11-02（iOS／Android 正式サービス開始）",
+      releasePrecision: "日",
+      summary: "イヴセンス（日本）的在线对战棋盘游戏应用，2026-11-02 15:00 正式开服，iOS／Android，基本免费＋道具收费。把将棋、麻将（东风战与三麻）、国际象棋、黑白棋、五子棋、围棋、大富豪、こいこい、台球（9 球／8 球／マッセ）等 9 种经典棋牌收进一个 App，对手可选真人实时匹配或 AI。外围包装成「惑星」：每个棋牌项目是一颗行星，用胜利获得的钥匙解锁，每颗需 10 把，首次登录赠送 30 把（可开 3 颗）；另有每周综合与分类排行榜（前 100 名有奖）、每日／每周任务、五连胜奖励、探索奖励、看广告奖励与好友邀请。官方称对应 175 个国家、12 种语言同时配信，事前登录自 2026-08-07 起在官网与两家商店进行。",
+      highlight: "【11-02 15:00 正式开服】イヴセンス『GALAST』按预告在 11-02 15:00 开始正式服务，iOS／Android 双平台，将棋・麻将・国际象棋・大富豪等 9 种棋牌收进同一个 App。　把棋牌做成「惑星解锁」的收集循环（每颗 10 把钥匙、首登送 30 把），再用每周排行榜与连胜奖励把单局对弈拉成长期留存——这是它区别于普通棋牌合集的地方。",
+      mobile: {
+        status: "正式サービス中（2026-11-02 15:00 サービス開始）",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料（アイテム課金あり）",
+        preReg: {
+          open: true,
+          since: "2026-08-07（4Gamer 報道。公式サイトおよび App Store／Google Play で受付）",
+          reward: "事前登録の個別報酬は記事時点で明示なし。初回ログイン時にキー 30 個（惑星 3 つ分）を配布"
+        },
+        developer: "イヴセンス株式会社",
+        publisher: "イヴセンス株式会社",
+        region: "日本（世界 175 か国へ同時配信・12 言語対応と公式に案内）",
+        distribution: "App Store / Google Play",
+        payment: [],
+        ipSource: "オリジナル IP（既存 IP のライセンス表記なし）",
+        series: "イヴセンスは Apple Watch 向けペット育成アプリ「エーライフ」など小規模タイトルを手がけてきた国内スタジオ。GALAST は同社として最大規模の配信作にあたる",
+        features: [
+          "将棋・麻雀・チェス・リバーシ・五目並べ・囲碁・大富豪・こいこい・ビリヤードを 1 本に収録し、対戦相手は実プレイヤーか AI を選べる",
+          "「惑星」単位で種目を解放するメタ構造。勝利で得たキー 10 個で次の惑星が開き、初回ログインでキー 30 個が配られる",
+          "週間ランキング（総合・種目別）で上位 100 名に報酬。デイリー／ウィークリー任務、5 連勝ボーナス、探索報酬、広告視聴報酬を重ねる",
+          "麻雀は東風戦と三麻、ビリヤードは 9 ボール・8 ボール・マッセに対応するなど、種目ごとにルールを分けて実装",
+          "アストレア、ゼル、ルミィ、ピコ、グラビティの 5 名が進行役として惑星探索の物語を案内する"
+        ],
+        synopsis: "宇宙を舞台に、定番の盤上競技で世界中のプレイヤーと真剣勝負を繰り広げるオンライン対戦ボードゲーム。勝利のたびに手に入るキーで新しい「惑星」を解放し、自分の銀河を広げていく。案内役のアストレアたちと星海を巡りながら、ランキングの頂点を目指す。",
+        cast: "公式発表なし（作中キャラクターはアストレア／ゼル／ルミィ／ピコ／グラビティの 5 名。声優は記事時点で公表なし）",
+        caution: "運営会社の資本構成・本社所在地は一次源で確認できていない（4Gamer の出版社ページと公式サイトの著作権表記で日本法人であることは確認）。事前登録者数は非公表"
+      },
+      news: [
+        { source: "AppBank（正式サービス開始・収録種目とゲーム概要）", url: "https://www.appbank.net/2026/11/02/game/3151853.php" },
+        { source: "公式サイト（GALAST／作品情報）", url: "https://galast.net/" },
+        { source: "App Store（ストアページ）", url: "https://apps.apple.com/jp/app/id6744635653" },
+        { source: "Google Play（ストアページ）", url: "https://play.google.com/store/apps/details?id=com.eve.galast" }
+      ],
+      videos: [
+        { label: "App Store ストアページ（アプリプレビュー）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6744635653" },
+        { label: "公式サイト（GALAST／対戦画面と演出）", platform: "官方站", url: "https://galast.net/" }
+      ],
+      hype: {
+        score: 38,
+        signals: [
+          "配信初日から 175 か国・12 言語の同時展開を掲げるが、告知は公式サイトとストア中心でテレビ・大型イベント露出は確認できない",
+          "棋牌という国内に厚い需要のあるジャンルを、F2P とランキングで長期運用する設計。ガチャではなくアイテム課金",
+          "Famitsu 期待榜には未登場。事前登録者数・広告量は非公表で、話題の量的指標が存在しない",
+          "イヴセンスは Apple Watch 向けアプリなど小規模作が中心の国内スタジオで、この規模の 同時配信は初"
+        ]
+      },
+      tags: ["手游", "新作", "ボードゲーム", "イヴセンス", "オリジナルIP", "オンライン対戦"]
+    },
+    {
+      id: "mogumogu-kushimori",
+      company: "グローバルギアラボ",
+      companyJp: "株式会社グローバルギアラボ（株式会社グローバルギアの子会社）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-10-30（App Store／Google Play にて配信開始）",
+      capturedAt: "2026-11-02",
+      title: { jp: "もぐもぐ くしもり", cn: "贪吃串烧（暂译，官方未公布简中译名）", en: "Nom nom Kushimori" },
+      genre: "マージパズル×お店経営シミュレーション（基本プレイ無料）",
+      platforms: ["iOS", "Android"],
+      release: "2026-10-30（配信開始済み）",
+      releasePrecision: "日",
+      summary: "グローバルギアラボ（グローバルギア子会社、日本）于 2026-10-30 在 App Store／Google Play 推出的休闲新作，基本免费。玩家扮演见习串烧师，拜师天野こえ蔵，目标是复现失传的「幻の串焼き」，把店铺做成日本第一。核心是合并玩法：把相同的串料（ねぎま、もも、レバー 等）滑动合并，逐步开发 200 种以上菜单；经营侧要按订单出串、提升客人满意度以解锁「マル秘プロフィール」，用 VIP 券触发限时贵客事件冲营业额，还能与对手职人进行「串焼き大会」小游戏拿大会限定道具。店铺风格可在时髦隐藏酒吧、人情味屋台、家庭食堂之间切换。日本含全球多国配信，部分国家与地区除外；对应 iOS 15.0 以上、Android 6.0 以上且 RAM 2GB 以上。",
+      highlight: "【10-30 配信開始】グローバルギアラボ『もぐもぐ くしもり』已上架 App Store／Google Play，基本免费，合并串料＋经营串烧店双循环，收录 200 种以上菜单。　选题极本土：把「焼き鳥」的串料合并当解谜核心，海外版改题 Nom nom Kushimori，是典型的小体量全球同发休闲作。",
+      mobile: {
+        status: "正式サービス中（2026-10-30 配信開始）",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料（記事時点で課金項目の詳細は明示なし）",
+        preReg: {
+          open: false,
+          since: "事前登録なし（配信開始済み）",
+          reward: "該当なし"
+        },
+        developer: "株式会社グローバルギアラボ",
+        publisher: "株式会社グローバルギアラボ",
+        region: "日本を含む世界各国（一部の国・地域は対象外）",
+        distribution: "App Store / Google Play",
+        payment: [],
+        ipSource: "オリジナル IP",
+        series: "グローバルギアの子会社レーベル。親会社は国内向けカジュアルゲームを複数配信している",
+        features: [
+          "同じ串ネタをスワイプでくっつけるマージパズル。タップとスワイプだけで進むため、アクションが苦手な層も遊べる設計",
+          "ねぎま・もも・レバーなど定番から変わり種まで 200 種類以上の焼鳥メニューを開発していく",
+          "注文どおりに串を提供してフーディーの満足度を上げ、店のランクを上げると常連客が増える経営パート",
+          "VIP チケットで特別な客を招く限定イベント。制限時間内にオーダーをさばくと売上が大きく伸びる",
+          "ライバル職人と腕を競うミニゲーム「串焼き大会」。勝ち抜くと大会限定のレアアイテムが手に入る"
+        ],
+        synopsis: "見習いの串焼き職人として、師匠・天野こえ蔵のもとで修行を始める。失われた「幻の串焼き」を再現するため、串ネタを組み合わせてメニューを開発し、訪れる客をもてなしていく。隠れ家バルから屋台、食堂まで店の雰囲気を整え、いつか日本一の繁盛店に育て上げる。",
+        cast: "公式発表なし",
+        caution: "課金形態（アイテム課金の有無・価格）は一次源で明示されていない。事前登録は実施していない"
+      },
+      news: [
+        { source: "AppBank（配信開始・ゲーム概要・対応端末）", url: "https://www.appbank.net/2026/10/31/game/3150364.php" },
+        { source: "App Store（ストアページ）", url: "https://apps.apple.com/us/app/nom-nom-kushimori/id6822588273" },
+        { source: "グローバルギアラボ 公式サイト", url: "https://lab.global-gear.jp/" }
+      ],
+      videos: [
+        { label: "App Store ストアページ（アプリプレビュー）", platform: "App Store", url: "https://apps.apple.com/us/app/nom-nom-kushimori/id6822588273" },
+        { label: "グローバルギアラボ 公式サイト", platform: "官方站", url: "https://lab.global-gear.jp/" }
+      ],
+      hype: {
+        score: 28,
+        signals: [
+          "配信告知は AppBank の 1 本が中心で、事前登録や大型 PR を伴わない静かなローンチ",
+          "マージ＋経営という国内で実績のある組み合わせだが、題材（焼き鳥）が強くローカルで海外展開は題名ごと差し替え",
+          "Famitsu 期待榜・ストアランキングいずれにも浮上を確認できず、DL 数は非公表",
+          "グローバルギアラボは親会社のカジュアル事業を補完する子会社レーベルで、大作ではない"
+        ]
+      },
+      tags: ["手游", "新作", "マージパズル", "経営シミュレーション", "グローバルギア"]
+    },
+    {
+      id: "kakan-ruirui",
+      company: "ボルテージ",
+      companyJp: "株式会社ボルテージ（AmuLit）× 東映アニメーション株式会社",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-11-02（完全新作の発表・2027 年発売決定）",
+      capturedAt: "2026-11-02",
+      title: { jp: "枷檻累々―うら黄泉照らす鬼灯夜―", cn: "枷槛累累―照亮幽黄泉的鬼灯夜―（暂译，官方未公布简中译名；略称「かかるい」）", en: "Kakan Ruirui: Urayomi Terasu Hoozuki Yo" },
+      genre: "和風ダークファンタジー・アドベンチャー（乙女ゲーム）",
+      platforms: ["Nintendo Switch"],
+      release: "2027年（予定・時期未発表）",
+      releasePrecision: "年",
+      summary: "ボルテージ 的 consumer 品牌 AmuLit 与東映アニメーション 协业的全新乙女游戏，2026-11-02 发表，Nintendo Switch 下载专用，2027 年发售，对应日语与英语。企划为ボルテージ，制作由ボルテージ 与東映アニメーション 共同担当。宣传语「すべては、失った命から始まった――」，走和风黑暗奇幻路线：插画由カズキヨネ（『薄桜鬼』系列）担当，剧本为吉村りりか（『ネオンクラッシュ -Echoes of the Lost-』），背景美术ユウキナオヒロ、BGM 大和（ハートカンパニー）、主题歌 Arika。制作人为野原悟史（ボルテージ）、柴田宏明与岸穂乃花（東映アニメーション），开发制作人東風輪敬久（ハイド），导演御﨑嶺与吉村りりか。11-07／08 在池袋 sunshine city 举办的 AGF2026 的 AmuLit 展位（R-8）将先行公开初报影像并发放限定小册子与提袋。价格未发表。",
+      highlight: "【11-02 新作发表】ボルテージ×東映アニメーション 的完全新作乙女游戏《枷檻累々―うら黄泉照らす鬼灯夜―》定于 2027 年在 Nintendo Switch 发售（下载专用、日语／英语）。　卖点在班底而非玩法披露：カズキヨネ 作画＋吉村りりか 剧本，東映アニメーション 首次与 AmuLit 深度共同制作，初报影像要等到 11-07 的 AGF2026 才公开。",
+      news: [
+        { source: "gamebiz（東映アニメとボルテージの完全新作発表・作品概要）", url: "https://gamebiz.jp/news/434933" },
+        { source: "AppBank（発表内容・クリエイター陣・AGF2026 出展）", url: "https://www.appbank.net/2026/11/02/game/3151967.php" },
+        { source: "AmuLit 公式サイト（ボルテージ consumer ブランド）", url: "https://products.voltage.co.jp/switch/" }
+      ],
+      videos: [
+        { label: "初報映像（AGF2026 で先行公開／発表記事内にビジュアル）", platform: "报道页", url: "https://www.appbank.net/2026/11/02/game/3151967.php" },
+        { label: "AmuLit 公式サイト（ブランド作品情報）", platform: "官方站", url: "https://products.voltage.co.jp/switch/" }
+      ],
+      hype: {
+        score: 45,
+        signals: [
+          "ボルテージの乙女ゲームブランド AmuLit に、東映アニメーションが制作側として入る初の大型協業。発表当日に gamebiz・AppBank が一斉報道",
+          "カズキヨネ（薄桜鬼）と吉村りりか（ネオンクラッシュ）という、国内乙女ゲーム層に直撃するスタッフ構成",
+          "発売は 2027 年で時期未定、価格も未発表。現時点で映像は AGF2026 の会場限定公開のみ",
+          "乙女ゲームは Famitsu 期待榜の上位に入りにくく、販売指標は発売直前まで出ない"
+        ]
+      },
+      tags: ["主机", "乙女ゲーム", "ADV", "ボルテージ", "東映アニメーション", "Switch", "和風ダークファンタジー"]
+    },
+    {
+      id: "dokapon-kingdom-connect-2",
+      company: "コンパイルハート",
+      companyJp: "株式会社コンパイルハート（発売：アイディアファクトリー株式会社／開発：株式会社スティング）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-10-29（正式発表・アナウンストレーラー公開）",
+      capturedAt: "2026-11-02",
+      title: { jp: "ドカポンキングダム コネクト2", cn: "多卡波王国 连接2（官方繁体中文名；简中名未公布）", en: "Dokapon Kingdom: Connect 2" },
+      genre: "RPG風ボードゲーム（1〜4 人／オンライン 2〜4 人）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PC (Steam)"],
+      release: "2027年夏（世界同時）",
+      releasePrecision: "季",
+      summary: "コンパイルハート（発売、海外由アイディアファクトリー国际部门统括）与スティング（开发）的《ドカポン》系列全新作，2026-10-29 在泰国游戏展 2026 的日本馆首次公开并放出公布预告。对应 Switch 2／Switch／Steam，2027 年夏季全球同步发售，语言含日／英／泰／繁中／简中，是该系列首次全球同日发行。玩法仍是 RPG 风桌游：转盘前进、打怪救村赚钱，但赢法只有一条——把对手的钱和道具抢光。新增全员协力的「ギガモンスター」合作战（战利品可平分也可独吞）、发型与眼口可调的捏人系统（设计可保存复用），以及从高等级＋强力装备直接开局的新模式。线上 2〜4 人、本地 1〜4 人，单人亦可。",
+      highlight: "【10-29 正式公布】コンパイルハート×スティング《ドカポンキングダム コネクト2》定于 2027 年夏季在 Switch 2／Switch／Steam 全球同步发售，首次支持日英泰与繁简中五语言。　系列首次全球同日发行，还第一次加入全员协力的巨兽战与捏人系统——把「破坏友情」的桌游框架再往派对向推一步。",
+      news: [
+        { source: "PR TIMES（コンパイルハート公式発表）", url: "https://prtimes.jp/main/html/rd/p/000001109.000080401.html" },
+        { source: "Gematsu（発表・アナウンストレーラー・作品概要）", url: "https://www.gematsu.com/2026/10/dokapon-kingdom-connect-2-announced-for-switch-2-switch-and-pc" },
+        { source: "Steam ストアページ", url: "https://store.steampowered.com/app/5268930/Dokapon_Kingdom_Connect_2/" },
+        { source: "公式サイト（コンパイルハート）", url: "https://www.compileheart.com/dokaponkingdom2/en/" }
+      ],
+      videos: [
+        { label: "アナウンストレーラー（Steam ストアページ内）", platform: "Steam", url: "https://store.steampowered.com/app/5268930/Dokapon_Kingdom_Connect_2/" },
+        { label: "アナウンストレーラーとプレイ映像（Gematsu 記事内に埋め込み）", platform: "报道页", url: "https://www.gematsu.com/2026/10/dokapon-kingdom-connect-2-announced-for-switch-2-switch-and-pc" }
+      ],
+      hype: {
+        score: 48,
+        signals: [
+          "シリーズ初の世界同時発売で、対応言語も日英泰＋繁簡中の 5 言語。海外向けに Idea Factory International が前面に出る",
+          "タイ・ゲームショー 2026 のジャパンパビリオンで初のお披露目と試遊を実施し、アジア市場を意識した立ち上げ",
+          "前作『ドカポンキングダム コネクト』から 3 年。固定ファンの厚いシリーズで、発表直後から英語圏メディアも一斉報道",
+          "発売は 2027 年夏で日付未定。Famitsu 期待榜にはまだ登場していない"
+        ]
+      },
+      tags: ["主机", "ボードゲーム", "RPG", "コンパイルハート", "スティング", "Steam", "Switch 2"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -12274,7 +12470,7 @@ window.OBSERVATORY = {
           { name: "株式会社日本一ソフトウェア", short: "Nippon Ichi", status: "covered", gameIds: ["honogurashi-no-niwa", "gobble"], note: "《ほの暮しの庭》7/30 発売・国内累計20万本突破。社内提案制度「Project Pitch Fest」から生まれた横スクロールアクション『GOBBLE（ガブル）』を 2026-09-24 に発売した" },
           { name: "株式会社スパイク・チュンソフト", short: "Spike Chunsoft", status: "covered", gameIds: ["danganronpa-2x2"] },
           { name: "株式会社マーベラス", short: "Marvelous", status: "covered", gameIds: ["eternal-anima", "shinobi-nexus-senran-kagura", "oboromuramasa-kaikitan"], note: "子会社 HONEY∞PARADE GAMES が『シノビNEXUS –閃乱カグラ–』を企画（事前登録中）。9/10 に『朧村正怪奇譚』（ヴァニラウェア開発）を 2027-02-04 発売で発表" },
-          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball","hakuoki-shinkai-kiwame","kimi-wa-yukima-koimusubi","shinso-no-doppelt","velvet-candy-tint-kiss","genroh-switch","iconology"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中（9/13 の Otomate Party 2026 で『薄桜鬼 真改 極』『深窓のドッペルト』『VELVET CANDY TINT KISS』『君は雪間に希う -恋結び-』『源狼 GENROH』の 5 作を追加発表し、本台も同日付で 5 件を建卡）。9/30 にはアドベンチャー専門の新ブランド「IFChronicle」を設立し、第 1 弾『ICONOLOGY』を同日付で建卡した" },
+          { name: "アイディアファクトリー株式会社", short: "Idea Factory", status: "covered", gameIds: ["hakuoki-ibun-berezinsky-no-majo","kimi-ni-madoi-kimi-ni-oboreru","black-wolves-saga-switch","mix-dunk-king-of-basketball","hakuoki-shinkai-kiwame","kimi-wa-yukima-koimusubi","shinso-no-doppelt","velvet-candy-tint-kiss","genroh-switch","iconology", "dokapon-kingdom-connect-2"], focus: true, note: "女性向ブランド「オトメイト」を擁し、2026 年に 5 作を連続投入。『薄桜鬼異聞 ベレジンスキーの魔女』（8/27）、オトメイト初のオメガバース題材『君に惑い、君に溺れる。』（7/30）、移植作『BLACK WOLVES SAGA -Weiβ und Schwarz- for Nintendo Switch』（9/10）が発売済み、『MIX DUNK -KING OF BASKETBALL-』（11/26）が予約受付中（9/13 の Otomate Party 2026 で『薄桜鬼 真改 極』『深窓のドッペルト』『VELVET CANDY TINT KISS』『君は雪間に希う -恋結び-』『源狼 GENROH』の 5 作を追加発表し、本台も同日付で 5 件を建卡）。9/30 にはアドベンチャー専門の新ブランド「IFChronicle」を設立し、第 1 弾『ICONOLOGY』を同日付で建卡した" },
           { name: "日本ファルコム株式会社", short: "Nihon Falcom", status: "covered", gameIds: ["trails-2nd-chapter", "kyoto-xanadu"] },
           { name: "プラチナゲームズ株式会社", short: "PlatinumGames", status: "watch" },
           { name: "株式会社SNK", short: "SNK", status: "watch" },
@@ -12387,40 +12583,20 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-10-25",
-    source: "Famitsu 週刊ファミ通 读者期待榜",
-    url: "https://nintendoeverything.com/famitsus-most-wanted-games-october-25-2026/",
+    asOf: "2026-11-01",
+    source: "Famitsu 週刊ファミ通 読者期待榜",
+    url: "https://www.163.com/dy/article/LAO4RG9005561FY7.html",
     list: [
-      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 721 },
-      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 599 },
-      { rank: 3, title: "Persona 4 Revival", platform: "PS5", votes: 572 },
-      { rank: 4, title: "Persona 6", platform: "PS5", votes: 498 },
-      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 376 },
-      { rank: 6, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 320 },
-      { rank: 7, title: "Grand Theft Auto 6", platform: "PS5", votes: 318 },
-      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 244 },
-      { rank: 9, title: "Persona 4 Revival", platform: "NS2", votes: 175 },
-      { rank: 10, title: "Persona 6", platform: "NS2", votes: 170 },
-      { rank: 11, title: "Xenoblade Genesis", platform: "NS2", votes: 166 },
-      { rank: 12, title: "Professor Layton and the New World of Steam", platform: "NS2", votes: 164 },
-      { rank: 13, title: "Resident Evil Veronica", platform: "PS5", votes: 106 },
-      { rank: 14, title: "The Duskbloods", platform: "NS2", votes: 98 },
-      { rank: 15, title: "Monster Hunter Wilds", platform: "NS2", votes: 95 },
-      { rank: 16, title: "Genshin Impact", platform: "NSW", votes: 92 },
-      { rank: 17, title: "Kirby and the World Beyond", platform: "NS2", votes: 90 },
-      { rank: 18, title: "Professor Layton and the New World of Steam", platform: "NSW", votes: 88 },
-      { rank: 19, title: "Stranger Than Heaven", platform: "PS5", votes: 87 },
-      { rank: 20, title: "Dragon Quest Monsters: The Withered World", platform: "PS5", votes: 85 },
-      { rank: 21, title: "Romancing SaGa 3: Destinies Untied", platform: "NSW", votes: 82 },
-      { rank: 22, title: "Atelier Karia", platform: "PS5", votes: 80 },
-      { rank: 23, title: "Metaphor: ReFantazio", platform: "NS2", votes: 74 },
-      { rank: 24, title: "Final Fantasy 7 Revelation", platform: "NS2", votes: 72 },
-      { rank: 25, title: "Romancing SaGa 3: Destinies Untied", platform: "NS2", votes: 71 },
-      { rank: 26, title: "Kingdom Hearts 4", platform: "PS5", votes: 69 },
-      { rank: 27, title: "Metroid Ravenous", platform: "NS2", votes: 64 },
-      { rank: 28, title: "Danganronpa 2x2", platform: "NS2", votes: 58 },
-      { rank: 29, title: "Attack on Titan 3", platform: "NS2", votes: 55 },
-      { rank: 30, title: "Romancing SaGa 3: Destinies Untied", platform: "PS5", votes: 53 }
+      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 716 },
+      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 572 },
+      { rank: 3, title: "Persona 4 Revival", platform: "PS5", votes: 461 },
+      { rank: 4, title: "Persona 6", platform: "PS5", votes: 429 },
+      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 403 },
+      { rank: 6, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 392 },
+      { rank: 7, title: "Grand Theft Auto 6", platform: "PS5", votes: 307 },
+      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 207 },
+      { rank: 9, title: "Xenoblade Genesis", platform: "NS2", votes: 186 },
+      { rank: 10, title: "Professor Layton and the New World of Steam", platform: "NS2", votes: 154 }
     ]
   },
 
@@ -12466,8 +12642,24 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "10-30 夕方の部：コロプラ『ウィズジェネレーション』が 12-01 配信決定、EXE ARENA は本日 12 時に開服、ディズニーの事前登録は 90 万人突破。新規は SEVEN NEXUS の平成ヤンキー生存アクション 1 件、MAGES.『覗怪』は 2027-02-25 に発売日決定。",
+    headline: "11-02 夕方の部：イヴセンス『GALAST』が 11-02 15:00 に正式開服、グローバルギアラボ『もぐもぐ くしもり』は 10-30 配信開始。ボルテージ×東映アニメの乙女ゲーム『枷檻累々』は Switch で 2027 年、『ドカポン コネクト2』は 2027 年夏に世界同時。",
     history: [
+      {
+        at: "2026-11-02 19:00",
+        scene: "定時巡検（夕方の部・3 日ぶんの追補／前倒し実行）",
+        items: [
+          "【結論】本場は 19:00 場（前倒し実行）。前回コミット（10-30 19:10 JST）以降の 10-31〜11-02 をまとめた 3 日ぶんの追補で、新規 4 件／更新 0 件。条目総数は 213 → 217（スマホ区 62／主机・PC 区 172。console 129／multi 17／mobile 45／pc 26、bucket new 134／update 83）。",
+          "【スマホ 新規①】イヴセンス『GALAST（ギャラスト）』が 11-02 15:00 に正式サービスを開始した。将棋・麻雀・チェス・リバーシ・五目並べ・囲碁・大富豪・こいこい・ビリヤードの 9 種を 1 本に収め、基本無料＋アイテム課金。各競技は「惑星」としてキー 10 個で解放、初回ログインで 30 個配布。週間ランキング上位 100 名に報酬、5 連勝ボーナスや探索報酬も用意する。175 か国・12 言語の同時配信を掲げ、事前登録は 2026-08-07 開始。",
+          "【スマホ 新規②】グローバルギアラボ『もぐもぐ くしもり』が 10-30 に App Store／Google Play で配信開始。串料をスワイプでくっつけるマージパズルと串焼き店経営の二層構造で、メニューは 200 種以上。VIP チケットによる貴客イベント、ライバルとの「串焼き大会」を備え、基本無料。英語題は Nom nom Kushimori で、日本を含む多国に配信（一部地域除く）。",
+          "【主机・PC 新規①】ボルテージ（AmuLit）×東映アニメーションの完全新作乙女ゲーム『枷檻累々―うら黄泉照らす鬼灯夜―』が 11-02 発表、Nintendo Switch のダウンロード専用ソフトとして 2027 年発売予定（日本語／英語）。カズキヨネ（薄桜鬼）が作画、吉村りりか（ネオンクラッシュ）が脚本。価格未発表で、初報映像は 11-07 の AGF2026・AmuLit ブース（R-8）で先行公開。",
+          "【主机・PC 新規②／補収】コンパイルハート×スティング『ドカポンキングダム コネクト2』が 10-29 に正式発表。Switch 2／Switch／Steam で 2027 年夏・世界同時、日英泰＋繁簡中の 5 言語対応とシリーズ初の全球同日発売。タイ・ゲームショー 2026 の日本パビリオンで初公開された分で、10-29・10-30 の両場が拾い落としていたため本場で補収した。",
+          "【期待榜】Famitsu の読者期待榜が 11-01 号に更新（投票期間 10-14〜10-20）。1 位 Zelda: Ocarina of Time（716 票）、2 位 Pokemon Winds / Waves（572）、3 位 Persona 4 Revival（461）、4 位 Persona 6（429）、5 位 Final Fantasy 7 Revelation（403）。Metroid Ravenous が 27 位→15 位（103 票）と急上昇、Muramasa: Revenant Blades が 25 位で初登場。mostWanted は上位 10 件を差し替えた。",
+          "【見送り・口径どおり】① 10-31 に配信日が決まった中国資本の UE5 オープンワールド（PC／PS5／iOS／Android）と、11-01 に Switch 2 版と配信日が告知された中国資本の生活シムは、開発・販売が中国資本のため社名・作品名とも記録しない。② 10-29 に世界配信された中国資本スタジオが開発したハンティング大作も同じ扱い。③ 稼働中タイトルのイベント・ガチャ・周年・コラボ（FGO 朗読劇、プロセカ新曲、ブルアカ、NIKKE、東京リベンジャーズ新章、BIOHAZARD Survival Unit 1 周年など）は不収録。④ 既存作の他機種版のみ（ピクミン4 Switch 2 Edition、FFXIV 拡張『白銀のワンダラー』、URANUS の Steam 版）は条目化しない。⑤ LINE ミニアプリ専用の『ラッキーどうぶつ農園』と、稼働タイトルの新生 DX 版『もふもふハムスター団 夢の大冒険DX』は、本体が窓外のため条目化しない。",
+          "漏収核查：呪術廻戦／鬼滅の刃／ブルーロック／東京リベンジャーズ／ハイキュー／ONE PIECE／ホロライブ／ご注文はうさぎですか？ の 8 IP を再照合し、AppBank・gamebiz・4Gamer の 10-31〜11-02 新着と機械突合した。日方主導の未収録スマホ新作はゼロ。console 側は 10-29 発表の『ドカポン コネクト2』1 件を補収した。",
+          "会社地図（data/map.js）：97 社のまま（hq 76／branch 11／out 10）。本場で新会社の追加・社名変更・移転・資本関係の異動はいずれも無く、会社行は無変更。新規作のイヴセンス／グローバルギアラボ／ボルテージ／コンパイルハートは extra 未登録・未打点（本社住所を一次源で確定できていないため、フォーミライと同じ扱いで持越し）。map.js の meta.asOf のみ 2026-11-02 に更新。",
+          "確認した範囲：AppBank のゲーム／ゲームアプリ新着一覧（11-02 15:00 まで）、gamebiz の全記事一覧と「事前登録」カテゴリ（11-02 12:14 まで）、4Gamer のニュース一覧、Gematsu、PR TIMES、famitsu 期待榜（11-01 号）、各社公式サイト・App Store・Steam、Web 検索 12 グループ。"
+        ]
+      },
       {
         at: "2026-10-30 19:00",
         scene: "定時巡検（夕方の部）",
@@ -12483,20 +12675,6 @@ window.OBSERVATORY = {
           "漏収核查：『ご注文はうさぎですか？』『デジモン』『呪術廻戦』『ホロライブ』『鬼滅の刃』『ブルーロック』『東京リベンジャーズ』『ハイキュー』を IP 名で照合し、AppBank・gamebiz の 10-29〜10-30 新着と機械突合した。日方主導の未収録スマホ新作は SEVEN NEXUS の 1 件のみで、本場で補った。それ以外に新規の国内スマホ発表はゼロ。",
           "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）で増減なし。新規発行元の SEVEN NEXUS は companies.extra 未登録・地図未打点で、本社（山口県山口市小郡令和1-1-1）は一次源で確認したが、座標のジオコーディングは本機の外部 HTTPS 不通で実施できず、extra 追加と打点は次場以降の持越しとした。住所・座標・officeKind・hqLat/hqLng の変更はゼロ、meta.asOf は 2026-10-30 のまま。",
           "【持越し】① SEVEN NEXUS の extra 追加と地図打点（住所は取得済み、座標検算が未完）② 10-29 15:00 開始の新作ブラウザ（資本確認待ち）③ 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）④ フォーミライ本社住所 ⑤ geo-check は外部 HTTPS 不通で未完走（地図の会社行に変更がないことを確認したうえで、前回の 97 社検算値を踏襲）。"
-        ]
-      },
-      {
-        at: "2026-10-29 19:00",
-        scene: "定時巡検（夕方の部）",
-        items: [
-          "【結論】本場は 19:00 場。増分区間＝朝の部のコミット（10-29 09:24 JST）以降〜19:00。新規 0 件／更新 1 件で、条目総数は 209 で不変（スマホ区 57／主机・PC 区 169。console 126／multi 17／mobile 40／pc 26、bucket new 127／update 82）。国内スマホの新作発表・配信開始・事前登録開始はいずれもゼロだった。",
-          "【主机・PC 更新】フリュー『アノマリス/ANOMALITH』が本日 10-29 に予定どおり発売された。PS5／Nintendo Switch 2／PC（Steam）の 3 機種同時で通常版 8,580 円、Steam は 11-11 まで 10% オフ（$44.99）。早期購入特典『遺失物統轄機構』コラボセットと『Peripeteia』との 10% バンドルも同時展開。発売に合わせてローンチトレーラーと MON 描き下ろしの記念イラストが公開され、プロデューサー城戸剛のレターで Steam ウィッシュリストが 13 万件を超えたことが明かされた。体験版は本編の約 1 割相当。",
-          "【スマホ】本場の増分なし。国内スマホの新作発表・配信開始・事前登録開始はゼロで、本体レベルの構造展開（他機種版・発売日の決定や変更）も新規には出なかった。朝の部で扱ったオルトプラス『カリスマダミス』『ディズニー スパークリンク・スターズ』に新情報はなく、バンダイナムコ『BLEACH Mirrors High』（10-28 開服）は初期限定ガチャ「天に立つ」藍染惣右介が 11-24 14:59 までという既報の範囲にとどまる。",
-          "【見送り・口径どおり】① 10-29 に世界配信されたハンティング大作——IP 許諾は日本側だが開発・販売が中国資本のため、社名・作品名とも本記録に残さない。② 集英社ゲームズの Switch 2 単独版 2 本（10-29 配信、既存 Switch 版から 100 円アップグレード）は、本体が窓外（2025-02／2026-05）の旧作の他機種版であるため新規条目にしない。③ SNK 許諾の KOF カードゲーム（10-29、東南アジア向け）は発売元が日本法人でなく日版発売もないため対象外。④ 10-29 15:00 開始予定の新作ブラウザは資本構成を一次源で確定できず引き続き見送り。⑤ 稼働中タイトルのイベント・カード追加・コラボは不収録。",
-          "確認した範囲：Web 検索 12 グループ（スマホ新作の事前登録開始／配信開始／アニメ IP 改編／4Gamer／gamebiz／ファミ通App／PR TIMES／ブラウザ新作の服務開始／運営終了／KLab・コロプラ・アカツキ／IP 名個別）と、AppBank・Saiga NAK・Anime News Network・Gematsu・Steam 公式ニュース・Enduins・GameHaunt・GamesRadar の個別記事。4Gamer・AppBank・ファミ通の一覧ページは本機の外部 HTTPS 不通で直接取得できず、検索インデックス経由の照合となった。",
-          "漏収核查：『呪術廻戦』『ホロライブ』『東京リベンジャーズ』『ブルーロック』『鬼滅の刃』『ONE PIECE』を IP 名で照合し、朝の部の『BLEACH』『デジモン』『ハイキュー』『ガンダム』の結果と突き合わせた。窓内に日方主導の未収録スマホ新作はゼロ（『呪術廻戦』は既収録の『RUMBLE: SURVIVATON』のみ、『ホロライブ』は 7-23 開服の『hololive Dreams』で窓外、他は稼働中タイトルのコラボ・グッズ）。",
-          "会社地図（data/map.js）：97 社（hq 76／branch 11／out 10、onMap 87・outsideTokyo 10・hqPlotted 97）で増減なし。本場の更新 1 件は既登録社フリューの既存条目で、社名変更・移転・東京拠点の新設閉鎖・資本異動はいずれもゼロ。住所・座標・officeKind・hqLat/hqLng は変更せず、meta.asOf のみ 2026-10-29 に更新した。geo-check の結果は本文末尾の検算欄に記す。",
-          "【持越し】① 10-29 15:00 開始予定の新作ブラウザ（資本確認待ち）② 待拆 2 件（松竹 TGS 聚合・HYPER REAL TGS 聚合）③ オルトプラスを companies.extra に追加するか（本社住所の一次源確認と地図打点が必要）④ Aiming『ホロじゃん』の 4Q リリース予定（決算資料ベースの言及のみ）。"
         ]
       },
     ]
