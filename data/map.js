@@ -24,11 +24,11 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-03",
-    count: 97,
-    onMap: 87,
+    asOf: "2026-11-04",
+    count: 98,
+    onMap: 88,
     outsideTokyo: 10,
-    hqPlotted: 97,   // 全国地図（本社位置）に打点できる社数
+    hqPlotted: 98,   // 全国地図（本社位置）に打点できる社数
     tileCredit: "地図タイル：国土地理院（淡色地図）",
     geoCredit: "住所検索：国土地理院 住所検索API",
     note: "ピンの位置は本社ビルの所在地（街区レベル）。【首都圏】表示は本社が道府県外の社を東京拠点の位置に打点し、その旨をカード内に表示する。【全国】表示は全社を本社位置（hqLat/hqLng）に打点する。破線リングは所在地が都道府県・市区町村レベルまでの確認にとどまる社。"
@@ -179,7 +179,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都港区芝5-37-8 バンダイナムコ未来研究所", pref: "東京都",
       lat: 35.643997, lng: 139.745132, hqLat: 35.643997, hqLng: 139.745132, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/bandai-namco.png", games: 12,
+      logo: "assets/logo/bandai-namco.png", games: 13,
       match: ["バンダイナムコ", "Bandai Namco"],
       top: {"t":"ELDEN RING","b":"販売元として世界累計 3,000 万本超（2025 年発表）"},
       eq: [
@@ -226,7 +226,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都豊島区東池袋3-1-4 サンシャインシティ文化会館ビル6F", pref: "東京都",
       lat: 35.727917, lng: 139.719849, hqLat: 35.727917, hqLng: 139.719849, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/idea-factory.png", games: 10,
+      logo: "assets/logo/idea-factory.png", games: 11,
       match: ["アイディアファクトリー", "Idea Factory"],
       top: {"t":"薄桜鬼","b":"ブランド「オトメイト」最大のヒット"},
       eq: [
@@ -657,7 +657,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区神田神保町2-10-4 PMO神保町10F", pref: "東京都",
       lat: 35.697018, lng: 139.75592, hqLat: 35.697018, hqLng: 139.75592, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/shueisha-games.png", games: 4,
+      logo: "assets/logo/shueisha-games.png", games: 5,
       match: ["集英社ゲームズ", "Shueisha Games"],
       top: null,
       eq: [
@@ -748,7 +748,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都港区六本木1-9-10 アークヒルズ仙石山森タワー29F", pref: "東京都",
       lat: 35.663464, lng: 139.741165, hqLat: 35.663464, hqLng: 139.741165, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/ctw.ico", games: 2,
+      logo: "assets/logo/ctw.ico", games: 3,
       match: ["CTW"],
       top: {"t":"G123（ブラウザゲーム基盤）","b":"同社の主力プラットフォーム"},
       eq: [
@@ -761,7 +761,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都新宿区西新宿3-8-3 新都心丸善ビル3F", pref: "東京都",
       lat: 35.685627, lng: 139.689453, hqLat: 35.685627, hqLng: 139.689453, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/g-holdings.png", games: 2,
+      logo: "assets/logo/g-holdings.png", games: 3,
       match: ["Gホールディングス", "G Holdings"],
       top: null,
       eq: [
@@ -1328,6 +1328,19 @@ window.OBSERVATORY_MAP = {
       top: {"t":"魔法使いの約束","b":"自社開発・運営の看板タイトル"},
       eq: [
         {"rel":"listed","name":"東証スタンダード 4175"},
+      ],
+    },
+    {
+      id: "donuts", name: "株式会社DONUTS", short: "DONUTS",
+      tier: "mid", color: "#ff9fbf",
+      addr: "東京都渋谷区代々木2-2-1 小田急サザンタワー8F", pref: "東京都",
+      lat: 35.685749, lng: 139.700729, hqLat: 35.685749, hqLng: 139.700729, precision: "block",
+      officeKind: "hq", officeLabel: "本社",
+      logo: null, games: 1,
+      match: ["DONUTS"],
+      top: {"t":"D4DJ Groovy Mix","b":"自社運営の音楽ゲーム。2026-10 に配信 6 周年を迎えた"},
+      eq: [
+        {"rel":"note","name":"非上場（DONUTS グループ）"},
       ],
     }
   ],
