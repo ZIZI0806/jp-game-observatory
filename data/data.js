@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-05T12:25:00+08:00",
+    updatedAt: "2026-11-05T12:45:00+08:00",
     edition: "2026-11-05",
     window: "2026-09-05 ~ 2026-11-05（滚动最近 2 个月）",
     sources: [
@@ -12920,6 +12920,88 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "パーティゲーム", "インディー", "タカラトミー", "Steam", "正体隠匿"]
     },
+    {
+      id: "valkyrie-tune-synthesis-of-souls",
+      company: "グッドスマイルカンパニー（開発：フロントウイング）",
+      companyJp: "株式会社グッドスマイルカンパニー（開発：株式会社フロントウイング）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-11-05（Nintendo Switch 版リリース）",
+      capturedAt: "2026-11-05",
+      title: {
+        jp: "ヴァルキリーチューン:機械仕掛けのアイ",
+        cn: "VALKYRIE TUNE 机械装置之眼（中文圈译名；官方简中名未公布）",
+        en: "Valkyrie Tune: Synthesis of Souls"
+      },
+      genre: "SF サスペンス ビジュアルノベル",
+      platforms: ["Nintendo Switch", "PC (Steam)"],
+      release: "Nintendo Switch：2026-11-05／PC (Steam)：2026-07-23（各税込 3,150 円）",
+      releasePrecision: "日",
+      summary: "Good Smile Company 以自家美少女拼装模型企划「VALKYRIE TUNE」为世界观基础、由 Frontwing 开发的 SF 悬疑视觉小说。2026-07-23 先行登陆 Steam，2026-11-05 推出 Nintendo Switch 下载版（税后 3,150 日元）。舞台是只有女性的穹顶都市「イニティウム」，失去记忆的青年レイ被宣布为「救世主」，与六名操纵武装乐器「ハーモニックウェポン」的少女共同生活，逐步逼近这个世界的另一副面孔。制作人为曾任《偶像大师》综合监督的石原章弘，主题歌由今井麻美演唱，支持日语、英语、韩语与简繁中文。",
+      highlight: "【11-05 Switch 版発売】グッドスマイルカンパニーが『ヴァルキリーチューン:機械仕掛けのアイ』の Nintendo Switch ダウンロード版を配信開始した（税込 3,150 円）。　Steam 版は 2026-07-23 に発売済みで、今回が初の他機種版。フロントウイング開発・石原章弘プロデュースの SF サスペンスノベルで、女性だけのドーム都市と 6 人の少女との共同生活を描く。",
+      console: {
+        status: "2026-11-05 配信（Nintendo Switch ダウンロード専用）",
+        os: ["Nintendo Switch", "Windows"],
+        monetization: "買い切り 3,150 円（税込）。Steam 版も同価格",
+        developer: "株式会社フロントウイング",
+        publisher: "株式会社グッドスマイルカンパニー",
+        region: "日本（日本語・英語・韓国語・簡体字・繁体字の 5 言語で同時配信）",
+        distribution: "ダウンロード専用（Nintendo Store／Steam）",
+        stores: ["Nintendo Store", "Steam"],
+        features: [
+          "プラモデルシリーズ「VALKYRIE TUNE」の世界観を掘り下げる書き下ろしノベルの位置づけ。初見でも単体で読める構成",
+          "記憶を失った青年レイが、武装楽器ハーモニックウェポンを操る 6 人の少女たちと共同生活を送りながら世界の秘密に迫る",
+          "プロデューサー・原案・シナリオは石原章弘（元アイドマス総合ディレクター）、開発はグリザイアシリーズのフロントウイング",
+          "フル HD（1920×1080）対応。オート／スキップ／テキストバックログなど読み進め用の機能を実装",
+          "主題歌「song of birth」は今井麻美。劇中歌・キャラクターソングを含む 36 曲のオリジナルサウンドトラックも別売で配信"
+        ],
+        synopsis: "女性だけが暮らすドーム都市イニティウム。長い冷凍睡眠から目覚めた青年レイは、都市の管理者アイリーンから「救世主」と呼ばれる。記憶を取り戻すため、彼は TUNED と呼ばれる 6 人の少女たちと暮らし始めるが、都市を律する奇妙な規則と、自分の眠っていた理由が少しずつ胸に引っかかり続ける。",
+        ipSource: "オリジナル IP（グッドスマイルカンパニーのプラモデルシリーズ「VALKYRIE TUNE」を原作とする同社製作作品）",
+        series: "VALKYRIE TUNE（PLAMATEA でリサ＝カスター／アイリス＝ブルックナー／マチルダ＝パトリコラが立体化）",
+        cast: "リサ＝カスター：Karin Isobe／エリカ＝ストラディヴァリ：Hitomi Owada／アイリス＝ブルックナー：Shiori Izawa／マチルダ＝パトリコラ：Misato Matsuoka／ローラ＝クラヴィエ：Sumire Uesaka／メイス＝アルトゥス：Hikaru Tono／アイリーン＝セルマー：Rina Sato（公式サイトは英字表記）",
+        caution: "本作の本体は 2026-07-23 に Steam で発売済みで、観測窓の外にある。本条目が記録するのは他機種版（Nintendo Switch）の配信で、口径により bucket は update。Switch 版の追加要素・価格改定の有無は公式に明示なし"
+      },
+      news: [
+        {
+          source: "gamebiz（Switch 版リリース・開発体制・スタッフ）",
+          url: "https://gamebiz.jp/news/435086"
+        },
+        {
+          source: "公式サイト（作品情報・スタッフ・キャスト）",
+          url: "https://valkyrietune-official.com/game/"
+        },
+        {
+          source: "Steam ストアページ（2026-07-23 発売・対応言語・価格）",
+          url: "https://store.steampowered.com/app/4211810/Valkyrie_Tune_Synthesis_of_Souls/"
+        },
+        {
+          source: "Nintendo Store（Switch 版 2026-11-05 配信・対応言語）",
+          url: "https://www.nintendo.com/us/store/products/valkyrie-tune-synthesis-of-souls-switch/"
+        }
+      ],
+      videos: [
+        {
+          label: "Steam ストアページ（PV・ゲームプレイ映像を掲載）",
+          platform: "Steam",
+          url: "https://store.steampowered.com/app/4211810/Valkyrie_Tune_Synthesis_of_Souls/"
+        },
+        {
+          label: "公式サイト（PV・SPEC・キャラクター紹介）",
+          platform: "Official",
+          url: "https://valkyrietune-official.com/game/"
+        }
+      ],
+      hype: {
+        score: 41,
+        signals: [
+          "プラモデル企画「VALKYRIE TUNE」の派生ノベルとして、模型側の固定ファンとゲーム層の両方に接点がある",
+          "石原章弘（元アイドマス総合ディレクター）×フロントウイングという布陣で、国内ノベルゲーム層の関心を集めやすい",
+          "Steam 版が 2026-07 に先行配信済みで初動情報は出尽くし。Switch 版は本体新規層の取り込みが主眼",
+          "Famitsu 期待榜・大型展示会での露出は確認できず、話題量は中位にとどまる"
+        ]
+      },
+      tags: ["ビジュアルノベル", "SF", "サスペンス", "他機種版", "プラモデル発想", "グッドスマイルカンパニー"]
+    }
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -13015,7 +13097,7 @@ window.OBSERVATORY = {
       items: [
         { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026", "digging-a-hole-together", "invokyr", "muugen-oukakaku"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
-          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect", "grisaia-shuuketsu-no-hyakka", "grisaia-shin-kajitsu-shuuketsu-no-hyakka"] },
+          { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect", "grisaia-shuuketsu-no-hyakka", "grisaia-shin-kajitsu-shuuketsu-no-hyakka", "valkyrie-tune-synthesis-of-souls"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
         { name: "株式会社モノリスソフト", short: "Monolith Soft", status: "covered", gameIds: ["xenoblade-genesis"] },
         { name: "株式会社ポケモン", short: "The Pokémon Company", status: "covered", gameIds: ["pokemon-winds-waves"] },
@@ -13129,11 +13211,24 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-05 夕方の部：国内スマホ新作はゼロ。主机・PC は松竹ゲームズ『夢幻桜楼閣』と CygamesEdge『崩落の国』が発売、タカラトミーがインディー新ブランド ENJOYN GAMES を設立した。条目 225、地図 98 社は変更なし。",
+    headline: "11-05 午前の部：国内スマホ新作はゼロ。主机・PC はグッドスマイル『ヴァルキリーチューン』Switch 版が配信、松竹ゲームズ『夢幻桜楼閣』と CygamesEdge『崩落の国』も本日発売。条目 226、地図 98 社は変更なし。",
     history: [
       {
+        at: "2026-11-05 12:45",
+        scene: "定時巡検（11-05 午前の部・前場コミット以降の残区間）",
+        items: [
+          "【結論】増分区間＝11-05 12:10（前場コミット）〜12:45。新規 1 件（純スマホ 0／跨平台 0／主机・PC 1）／既存更新 0 件、条目 225 → 226。国内スマホの新規発表・事前登録開始はこの区間でもゼロで、朝の時間帯は国内新作スマホの発表がそもそも出ない。",
+          "【新規・主机PC】グッドスマイルカンパニー『ヴァルキリーチューン:機械仕掛けのアイ』＝11-05 12:52 に gamebiz が Nintendo Switch 版の配信開始を報道。Steam 版が 2026-07-23 発売済みで本体の初出は観測窓の外にあるため、口径どおり他機種版として bucket は update。フロントウイング開発、石原章弘プロデュースの SF サスペンスノベルで、税込 3,150 円、日・英・韓・簡繁中の 5 言語。プラモデルシリーズ「VALKYRIE TUNE」の世界観を掘り下げる書き下ろし。",
+          "【更新ゼロ】前場で状態を更新した 5 件（ディズニー スパークリンク・スターズの配信開始、クライムライト／崩落の国の発売、カタルシスの発売日決定、信長の野望・飛翔の延期）から追加の進展はなく、capturedAt も据え置いた。",
+          "【見送り】①『四人麻雀』iOS 版の配信再開（既存アプリの継続配信で新作ではない）②稼働中タイトルのイベント・周年・コラボ（ウマ娘レジェンドレース、けものフレンズ３のすてっぷ、D2 メガテンの復刻コラボ、プロセカ MV 等）③海外産インディー（Loftia、Critters Vs. Predators 等）④運営元の資本を一次源で確定できない新作、および中国資本の新作（社名・作品名とも不記載）。",
+          "【漏収核查】呪術廻戦・ブルーロック・鬼滅の刃・ハイキュー!!・ONE PIECE の IP 名照合に加え、gamebiz の全記事一覧と新作ゲーム一覧、4Gamer トップ新着、AppBank のゲーム／ゲームアプリ一覧（11-05 分）、ファミ通.com 新着を機械突合。日方主導の未収録スマホ新作はゼロ。朝の部は PR TIMES とゲームアプリ専門媒体が最も早いが、本日は該当なし。",
+          "【会社地図】98 社で変更なし（hq 77／branch 11／out 10、onMap 88・outsideTokyo 10・hqPlotted 98）。今回の新規条目の発行元グッドスマイルカンパニーは extra に登録済みで、gameIds に 1 件追加したのみ。住所・座標・officeKind・hqLat/hqLng の変更はゼロ、map.js は meta.asOf のみ 2026-11-05。geo-check.js は要確認 0 件。",
+          "【確認範囲】gamebiz（新作ゲーム／全記事一覧）、4Gamer（トップ新着／RSS）、AppBank（ゲーム／ゲームアプリ）、ファミ通.com、Nintendo Store、ヴァルキリーチューン公式サイト・Steam ストア。ツール：validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0 件）。"
+        ]
+      },
+      {
         at: "2026-11-05 12:00",
-        scene: "定時巡検（夕方の部・前回 11-04 09:30 以降の残区間）",
+        scene: "定時巡検（11-05 前場・11-04 09:30 以降の残区間）",
         items: [
           "【結論】増分区間＝11-04 09:30〜11-05 12:00（約 26 時間／11-04 の夕方の部と 11-05 の朝の部は未実行のため 2 場分をまとめて補収）。新規 2 件（純スマホ 0／跨平台 0／主机・PC 2）／既存更新 5 件、条目 223 → 225。内訳は mobile 48／multi 19／console 130／pc 28（スマホ区 67／主机・PC 区 177）、bucket new 140／update 85。国内スマホの新規発表・事前登録開始はこの区間でゼロ。",
           "【新規①・主机PC】松竹ゲームズ『夢幻桜楼閣』＝11-05 12:42 に gamebiz が発売を報道。インディーサークル電猫遊戯（約 5 人）開発のローグライト 3D アクションで、Nintendo Switch／Steam 同時、税込 1,500 円（11-18 まで 20％オフ 1,200 円）。双剣の猫耳少女レトラが無限楼閣を下る構成で、50 種以上の強化アイテムと「夢幻深度」による難度上昇、エンドレスモードを搭載する。映画会社のゲーム事業室が外部サークルを自社レーベルで発売する案件として条目化。",
@@ -13144,19 +13239,8 @@ window.OBSERVATORY = {
           "【会社地図】98 社で変更なし（hq 77／branch 11／out 10、onMap 88・outsideTokyo 10・hqPlotted 98）。新規 2 件の発行元は既存社（松竹＝extra 登録済み、タカラトミー＝50 家リスト外かつスマホ新作がないため extra 追加は見送り）。住所・座標・officeKind・hqLat/hqLng の変更はゼロで、map.js は meta.asOf のみ 2026-11-05 に更新。geo-check.js は要確認 0 件。",
           "【確認範囲】gamebiz（新作ゲーム／全記事一覧／決算）、4Gamer、AppBank、ファミ通.com、Cygames 公式、松竹ゲームズ公式、タカラトミー公式。ツール：validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0 件）。"
         ]
-      },
-      {
-        at: "2026-11-04 09:00",
-        scene: "定時巡検（朝の部・前夜コミット以降の残区間）",
-        items: [
-          "【結論】増分区間＝11-03 19:10（夕方の部コミット）〜11-04 09:30。新規 1 件（純スマホ 1／跨平台 0／主机・PC 0）／既存更新 0 件、条目 222 → 223。内訳は mobile 48／multi 19／console 129／pc 27（スマホ区 67／主机・PC 区 175）、bucket new 138／update 85。夜間〜早朝に出たのはスマホ 1 件のみで、主机・PC は国内新作の発表なし。",
-          "【新規・純スマホ】株式会社DONUTS×東映アニメーション『ガールズバンドクライ First Riff』＝11-03 21:30 に 4Gamer が事前登録開始を報道、11-04 10:22 には gamebiz も追随。発表自体は 2025-09 の東京ゲームショウで既出のため bucket は update。ぴあアリーナMM の単独公演「赤色の響祭」で解禁され、公式サイトを改版、手島nari 描き下ろしの KV と PV 第 1 弾（主題歌はトゲナシトゲアリ「剥き出しの共鳴」）を公開した。ジャンルは「路上からアリーナまで駆け上がるガールズロック RPG」、iOS／Android 向けで配信日・課金形態は未発表。11-07 19:00 の公式生放送 第 4 回で実機画面を初公開する予定。",
-          "【見送り】10-29 から海外で配信中のハンティング大作は、日本 IP の許諾を受けた中国資本スタジオが開発・配信しているため不収録（社名・作品名は記載しない）。11-04 に配信予定の国内新作スマホは、本場時点（10:30 JST）でサービス開始の一次確認が取れていないため状態を変更しなかった。稼働中タイトルのイベント・周年は口径により不収録。",
-          "【会社地図】DONUTS を extra に新規追加（48 → 49 社）し、地図にも打点（97 → 98 社、hq 77／branch 11／out 10、onMap 88・outsideTokyo 10・hqPlotted 98）。住所は同社プレスリリースの会社概要（東京都渋谷区代々木 2-2-1 小田急サザンタワー 8 階）、座標は国土地理院 API が返した「代々木二丁目２番１号」を採用した。既存社の住所・座標・officeKind・hqLat/hqLng の変更はなし。あわせて直近の追加分が未反映だった 5 社の games 件数を再計算（バンダイナムコ 13／アイディアファクトリー 11／集英社ゲームズ 5／Gホールディングス 3／CTW 3）。",
-          "【漏収核查】呪術廻戦・鬼滅の刃・ハイキュー!!・ONE PIECE・BLEACH・ブルーロック・ガンダム・ポケモンの 8 IP を IP 名で照合し、日方主導の未収録スマホ新作はゼロ。AppBank の 11-03／11-04 日別アーカイブ、gamebiz 全記事一覧、4Gamer RSS、ファミ通.com 新着、PR TIMES ゲームカテゴリを機械突合した。",
-          "【確認範囲】上記 5 媒体＋各社公式（DONUTS ニュース、ガルリフ公式サイト・公式ニュース、coly ニュース）。ツール：validate.js（失敗 0）／audit-collection.js（硬違例 0・R1 既知 2）／geo-check.js（要確認 0 件）。"
-        ]
-      },
+      }
+
     ]
   }
 };
