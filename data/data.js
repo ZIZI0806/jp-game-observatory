@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-06T09:20:00+08:00",
+    updatedAt: "2026-11-06T19:05:00+08:00",
     edition: "2026-11-06",
     window: "2026-09-06 ~ 2026-11-06（滚动最近 2 个月）",
     sources: [
@@ -13226,6 +13226,118 @@ window.OBSERVATORY = {
       },
       tags: ["手游", "ビジュアルノベル", "TYPE-MOON", "アニプレックス", "移植", "劇場版"]
     },
+    {
+      id: "sora-no-sekai-shelterra",
+      company: "ケムコ",
+      companyJp: "コトブキソリューション株式会社（KEMCO ブランド／開発：MAGITEC）",
+      bucket: "new",
+      platformClass: "console",
+      announceDate: "2026-11-06（配信開始）",
+      capturedAt: "2026-11-06",
+      title: { jp: "天空の世界シェルテーラ", cn: "天空世界谢尔泰拉（暂译）", en: "Shelterra the Skyworld" },
+      genre: "ファンタジー RPG（王道 RPG）",
+      platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "Xbox One", "PC (Steam)"],
+      release: "2026-11-06（Switch 2／Switch／PS5／PS4／Xbox Series X|S／Xbox One／PC (Steam)。通常版 税込 1,540 円、Switch 2 Edition 1,640 円、Special Edition 2,860 円）",
+      releasePrecision: "日",
+      summary: "KEMCO 于 2026-11-06 在 Switch 2／Switch／PS5／PS4／Xbox Series X|S／Xbox One／PC（Steam）同日推出幻想 RPG《天空の世界シェルテーラ》，通常版税后 1,540 日元，Special Edition 2,860 日元。玩家扮演立志成为冒险者的青年，为拯救濒临坠落的浮空大陆「シェルテーラ」与同伴踏上旅途，特色是空中世界的高低差探索、从敌人身上学习技能的「ラーニング」，以及召唤精灵作战的「アーティファクト」。开发为 MAGITEC。",
+      highlight: "【11-06 配信開始】ケムコが『天空の世界シェルテーラ』を Switch 2／Switch／PS5／PS4／Xbox／Steam の 7 機種で同日配信開始、通常版 1,540 円（Switch 2 Edition 1,640 円、Special Edition 2,860 円）。　落下の危機にある浮遊大陸を舞台に、敵から技を学ぶ「ラーニング」と精霊召喚「アーティファクト」を軸にした王道 RPG で、開発は MAGITEC。",
+      console: {
+        status: "2026-11-06 配信開始（Switch 2／Switch／PS5／PS4／Xbox Series X|S／Xbox One／PC (Steam)）",
+        os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "PlayStation 4", "Xbox Series X|S", "Xbox One", "Windows"],
+        monetization: "買い切り 1,540 円（税込）。Switch 2 Edition 1,640 円、PS5／PS4／Xbox の Special Edition 2,860 円（本編＋追加コンテンツ 3 種）",
+        developer: "MAGITEC",
+        publisher: "コトブキソリューション株式会社（KEMCO ブランド）",
+        region: "日本（各ストアで国内配信／日本語）",
+        distribution: "ダウンロード専用（Nintendo Store／PlayStation Store／Microsoft Store／Steam）",
+        stores: ["Nintendo Store", "PlayStation Store", "Microsoft Store", "Steam"],
+        features: [
+          "落下の危機に瀕した浮遊大陸「シェルテーラ」を救うため、冒険者を夢見る青年と仲間が世界の謎に迫る王道ファンタジー RPG",
+          "高低差を感じられる天空世界の探索。浮遊島や空中回廊を行き来しながらマップを埋めていく構造で、移動そのものが謎解きになる",
+          "敵から新たな技を習得する「ラーニング」と、精霊を召喚して共に戦う「アーティファクト」の 2 系統で戦術を組む",
+          "Switch 2／Switch／PS5／PS4／Xbox Series X|S／Xbox One／Steam の 7 機種で同時配信し、発売記念セールを各ストアで実施",
+          "PS5／PS4／Xbox 向けに、経験値 3 倍・エンカウント無効・ダメージ 2 倍の追加コンテンツ 3 種を同梱した Special Edition を用意"
+        ],
+        synopsis: "空に浮かぶ大陸シェルテーラは、いつ落ちてもおかしくない状態にある。冒険者を夢見る青年は、旅先で出会った仲間とともに大陸を巡り、落下の原因と世界の成り立ちに迫っていく。",
+        ipSource: "オリジナル IP（KEMCO／MAGITEC の新規企画。既存 IP のライセンス作品ではない）",
+        series: "KEMCO の単発ファンタジー RPG（同社のコンシューマ・PC 向け配信ラインナップの 1 本）",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "gamebiz（11-06 配信開始・7 機種・価格・収録内容の報）", url: "https://gamebiz.jp/news/435169" },
+        { source: "Nintendo Store（Switch 版 製品ページ）", url: "https://store-jp.nintendo.com/item/software/D70010000130918" },
+        { source: "Steam ストアページ", url: "https://store.steampowered.com/app/4770220/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー・スクリーンショット）", platform: "Steam", url: "https://store.steampowered.com/app/4770220/" },
+        { label: "gamebiz 記事（作品紹介と画面ギャラリー）", platform: "媒体", url: "https://gamebiz.jp/news/435169" }
+      ],
+      hype: {
+        score: 27,
+        signals: [
+          "KEMCO の定期的な配信ラインナップの 1 本で、7 機種同時という配信規模の割に事前の話題形成は小さい",
+          "Famitsu 期待榜には未登場。体験版・事前登録などの数値シグナルも公開されていない",
+          "国内媒体では gamebiz が配信開始を報じた程度で、海外メディアの coverage はほぼない",
+          "1,540 円の買い切りで、同社の過去作と同じ価格帯・同じ販売導線を踏襲している"
+        ]
+      },
+      tags: ["新作", "RPG", "ケムコ", "マルチプラットフォーム", "買い切り"]
+    },
+    {
+      id: "zashiki-warashi-kareshi",
+      company: "Phoenixx",
+      companyJp: "株式会社Phoenixx（開発：荒花ぬぬ）",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-11-06（Steam 版配信開始）",
+      capturedAt: "2026-11-06",
+      title: { jp: "座敷童カレシ ILOVEラーメン", cn: "座敷童子男友 I LOVE拉面（暂译）", en: "Zashiki-Warashi Boyfriend: I LOVE Ramen" },
+      genre: "ラブコメ ビジュアルノベル（ラーメン作り）",
+      platforms: ["PC (Steam)"],
+      release: "2026-11-06 17:00（PC (Steam)。税込 1,200 円、11-21 3:00 まで 20％オフの 960 円）",
+      releasePrecision: "日",
+      summary: "Phoenixx 于 2026-11-06 在 PC（Steam）发售《座敷童カレシ ILOVEラーメン》，税后 1,200 日元（至 11-21 03:00 为 20％ 折扣的 960 日元），开发为创作者荒花ぬぬ。作品把拉面制作与恋爱喜剧结合：立志成为传说级拉面师傅的ささみ，与既是师父又是男友、真身是座敷童的マリリン一起，按客人订单选汤底与配菜做出一碗面，并在与妖怪往来中追问「这一碗是为谁而做」。Steam 版把免费公开的本篇「1」与新增长篇「2」合并收录。",
+      highlight: "【11-06 17:00 Steam 配信開始】Phoenixx が荒花ぬぬ氏のラブコメノベル『座敷童カレシ ILOVEラーメン』を Steam で発売した（1,200 円、11-21 3:00 まで 20％オフの 960 円）。　無料公開されてきた本編「1」に新規長編「2」を合わせた完全版で、注文どおりの一杯を作るラーメンパートと妖怪たちとの会話劇を軸にしている。",
+      console: {
+        status: "2026-11-06 17:00 配信開始（PC (Steam)）",
+        os: ["Windows"],
+        monetization: "買い切り 1,200 円（税込）。11-21 3:00 まで 20％オフの 960 円（ローンチセール）",
+        developer: "荒花ぬぬ",
+        publisher: "株式会社Phoenixx",
+        region: "日本（Steam 全世界配信／日本語）",
+        distribution: "ダウンロード専用（Steam）",
+        stores: ["Steam"],
+        features: [
+          "注文に合わせてスープとトッピングを選び、一杯のラーメンを組み立てるパートと、妖怪たちとの会話劇を交互に進める",
+          "これまで無料公開されていた本編「1」に、その先を描く新規長編「2」を収録した完全版として Steam で販売",
+          "「2」では新たなラーメン作りに加えてミニゲームと探索パートを追加し、登場人物の関係と抱えた想いを掘り下げる",
+          "発売記念として 11-21 3:00 まで 20％オフのローンチセールを実施（1,200 円 → 960 円）",
+          "Phoenixx が国内の個人クリエイター作品を Steam でパブリッシングする定例ラインの 1 本"
+        ],
+        synopsis: "自分の店を開き、伝説級のラーメン職人になることを夢見るささみ。その前に現れたのが、ラーメンをこよなく愛するイケメン・マリリンだった。師匠であり恋人でもある彼の正体は、店を繁盛させ人々を幸せに導く妖怪・座敷童。一杯のラーメンを通じて、二人は人や妖怪の悩みに向き合っていく。",
+        ipSource: "オリジナル IP（クリエイター荒花ぬぬ氏の新規企画。既存 IP のライセンス作品ではない）",
+        series: "『座敷童カレシ ILOVEラーメン』シリーズ（無料公開版「1」＋新規「2」を 1 本に収録）",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "gamebiz（11-06 17:00 Steam 配信・価格・収録内容の報）", url: "https://gamebiz.jp/news/435191" },
+        { source: "Phoenixx 公式 作品ページ", url: "https://phoenixx.ne.jp/work/%e5%ba%a7%e6%95%b7%e7%ab%a5%e3%82%ab%e3%83%ac%e3%82%b7-ilove%e3%83%a9%e3%83%bc%e3%83%a1%e3%83%b3/" },
+        { source: "Phoenixx 公式ニュース（11-06 本日発売の告知）", url: "https://phoenixx.ne.jp/%e3%80%8e%e5%ba%a7%e6%95%b7%e7%ab%a5%e3%82%ab%e3%83%ac%e3%82%b7-ilove%e3%83%a9%e3%83%bc%e3%83%a1%e3%83%b3%e3%80%8fsteam%e7%89%88%e3%80%81%e6%9c%ac%e6%97%a5%e7%99%ba%e5%a3%b2%ef%bc%81/" }
+      ],
+      videos: [
+        { label: "Phoenixx 公式 作品ページ（紹介映像・画面）", platform: "Official", url: "https://phoenixx.ne.jp/work/%e5%ba%a7%e6%95%b7%e7%ab%a5%e3%82%ab%e3%83%ac%e3%82%b7-ilove%e3%83%a9%e3%83%bc%e3%83%a1%e3%83%b3/" },
+        { label: "gamebiz 記事（作品紹介と画面）", platform: "媒体", url: "https://gamebiz.jp/news/435191" }
+      ],
+      hype: {
+        score: 29,
+        signals: [
+          "無料公開版「1」で一定の口コミがあった企画の商業版で、既存ファンからの注目は限定的ながら確実にある",
+          "Phoenixx のパブリッシング作品として国内インディー文脈で紹介されるが、事前登録や Wishlist 数の公開はない",
+          "Famitsu 期待榜には未登場。海外メディアの coverage も現時点でなし",
+          "1,200 円の短編ノベルで、話題の上限は価格帯相応"
+        ]
+      },
+      tags: ["新作", "ビジュアルノベル", "ラブコメ", "インディー", "Steam", "妖怪"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -13435,8 +13547,22 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-06 朝の部：国内スマホの新規発表はゼロ。漏収補完でアニプレックス『魔法使いの夜』スマホ版（11-20 配信・買い切り 2,900 円）を追加し条目 229。地図 98 社は変更なし。",
+    headline: "11-06 夜の部：国内スマホの新規発表は本日 3 場連続でゼロ。主机・PC で新規 2 件（KEMCO『天空の世界シェルテーラ』／Phoenixx『座敷童カレシ』）を追加し条目 231。地図 98 社は変更なし。",
     history: [
+      {
+        at: "2026-11-06 19:00",
+        scene: "定時巡検（11-06 夜の部・09:20 以降の残区間）",
+        items: [
+          "【結論】増分区間＝11-06 09:20（前場コミット 9f6a95a の meta.updatedAt）〜19:00。新規 2 件（純スマホ 0／跨平台 0／主机・PC 2）／既存更新 0 件、条目 229 → 231。国内スマホの新規発表・事前登録開始は本日 3 場連続でゼロだった。",
+          "【新規①・主机PC】ケムコ『天空の世界シェルテーラ』＝11-06 14:34 に gamebiz が配信開始を報道。Switch 2／Switch／PS5／PS4／Xbox Series X|S／Xbox One／Steam の 7 機種同時、通常版 1,540 円・Switch 2 Edition 1,640 円・Special Edition 2,860 円、開発は MAGITEC。浮遊大陸の探索、敵から技を学ぶ「ラーニング」、精霊召喚「アーティファクト」を軸にした王道 RPG。",
+          "【新規②・主机PC】Phoenixx『座敷童カレシ ILOVEラーメン』＝11-06 17:41 に gamebiz が報道。同日 17:00 に Steam で 1,200 円（11-21 3:00 まで 20％オフの 960 円）、開発は荒花ぬぬ。無料公開版「1」に新規長編「2」を収録した完全版で、ラーメン作りと妖怪との会話劇を軸にしたラブコメノベル。",
+          "【更新ゼロ】前場で状態を更新した『魔法使いの夜』スマホ版（11-20 配信）から追加の進展はなく、capturedAt も据え置いた。11 月配信予定の『ヤンキーサバイバー』『ケロロ軍曹☆ ぽちっと大出動であります！』は配信開始の一次源が確認できず、状態は変更していない。",
+          "【見送り】①『にほんの田舎ぐらし』PS4 版（11-06、2,750 円）＝本体は 2023 年 Apple Arcade／2026-03 の Switch・Steam で観測窓の外にあり、他機種版のみの案件は条目化しない ②H2 INTERACTIVE『リボルト』と SHIFT UP『Stellar Blade コンプリートエディション』Switch2 版＝発行・開発が韓国資本 ③Polden Publishing／Toxic Studio など海外インディー、NBA 2K27 Arcade Edition（米 2K）④稼働中タイトルのイベント・楽曲追加・セール（プロセカ 6 周年 MV、D4DJ、NIKKE 4 周年、地獄楽 1 周年、Shadowverse×ゴジラ等）⑤中国資本の新作（社名・作品名とも不記載）。",
+          "【漏収核查】呪術廻戦・鬼滅の刃・ブルーロック・東京リベンジャーズ・ハイキュー!!・ONE PIECE・BLEACH・ホロライブの IP 名で照合。BLEACH Mirrors High は既収録で、ほかに日方主導の未収録スマホ新作はゼロ。4Gamer の 11-06 モバイル枠は韓国向け TALESWEAVER MOBILE のみ、PR TIMES のスマホゲーム関連は最新が 10-31、AppBank の 11-06 分は稼働中タイトルの話題のみだった。",
+          "【会社地図】98 社で変更なし（hq 77／branch 11／out 10、onMap 88・outsideTokyo 10・hqPlotted 98）。新規 2 件の発行元（ケムコ／Phoenixx）はいずれも 50 家リスト・extra に未登録で、携帯向けの新作発行主体でもないため追加していない。map.js は meta.asOf のみ更新し、住所・座標・officeKind・hqLat/hqLng の変更はゼロ。geo-check.js は 108 件で要確認 0 件。",
+          "【確認範囲】gamebiz（全記事一覧／新作ゲーム 11-06 分）、4Gamer（トップ新着）、AppBank（ゲーム／ゲームアプリ）、ファミ通.com（新着ニュース）、PR TIMES（スマホゲーム）、QooApp、Phoenixx 公式、各ストア。ツール：node --check／validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0 件）。"
+        ]
+      },
       {
         at: "2026-11-06 09:00",
         scene: "定時巡検（11-06 午前の部・11-05 19:11 以降の残区間）",
@@ -13448,21 +13574,7 @@ window.OBSERVATORY = {
           "【会社地図】98 社で変更なし（hq 77／branch 11／out 10、onMap 88・outsideTokyo 10・hqPlotted 98）。発行元アニプレックスは ip カテゴリ登録済み・地図打点済みで、gameIds に 1 件追加したのみ。住所・座標・officeKind・hqLat/hqLng の変更なし、geo-check は 108 件で要確認 0 件。",
           "【確認範囲】gamebiz（全記事一覧／おはようgamebiz 11/6）、4Gamer（トップ新着／RSS）、AppBank（ゲーム／ゲームアプリ）、ファミ通.com（新着／11 月スマホ新作）、GAME Watch、電ファミニコゲーマー、PR TIMES、TYPE-MOON 公式。ツール：validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0）。"
         ]
-      },
-      {
-        at: "2026-11-05 19:00",
-        scene: "定時巡検（11-05 夜の部・12:45 以降の残区間）",
-        items: [
-          "【結論】増分区間＝11-05 12:45（前場コミット）〜19:00。新規 2 件（純スマホ 0／跨平台 0／主机・PC 2）／既存更新 0 件、条目 226 → 228。国内スマホの新規発表・事前登録開始はこの区間でもゼロで、本日は 09:00 場・12:45 補巡・19:00 場を通じて国内スマホ新作の発表が 1 件も出ていない。",
-          "【新規①・主机PC】ツムギゲームズ『宅建らぶ -異世界アルカナシア・土地法復興記-』＝11-05 19:24 に 4Gamer が報じた。宅建学習×異世界恋愛ビジュアルノベルで、11-06 19:00 に PC（Steam）で 1,980 円、14 日間は 25％オフの 1,485 円。過去問 9 年分 450 問、50 問 120 分の模試、暗記カード 103 枚、SVG 図解 73 種を収録し、教材内検索はローカル動作。前作『電工らぶ』に続く資格学習系の第 2 弾。",
-          "【新規②・主机PC】ファイン『さとり中二病相談室 -第二現実の翻訳者-』＝11-05 11:49 に gamebiz が正式版 12-15 配信を報道。開発は Shadow Glove、共感型心理ミステリー ADV。2026-10-09 から Steam で早期アクセス中（序章〜第四章）で、正式版は第五章・第六章・エピローグを追加、本編約 40 万字・12〜14 時間。11-13 17:59 まで 1,280 円、以降 1,980 円。本体の初出（早期アクセス開始）が観測窓内のため bucket は new。",
-          "【更新ゼロ】前場で状態を更新した 7 件（ディズニー スパークリンク・スターズ配信開始、クライムライト／崩落の国／夢幻桜楼閣の発売、カタルシスの発売日決定、信長の野望・飛翔の延期、ヴァルキリーチューン Switch 版）から追加の進展はなく、capturedAt も据え置いた。",
-          "【見送り】①『UMAMIパズル』Nintendo Switch 版（11-19、1,400 円）＝Steam 版が 2025-11 発売済みで本体の初出が観測窓の外にあり、他機種版のみの案件は条目化しない ②『四人麻雀』iOS 版の配信再開（既存アプリの継続配信）③稼働中タイトルのイベント・周年・コラボ ④海外産インディー ⑤中国資本の新作（11-05 の大型発表を含め、社名・作品名とも不記載）。",
-          "【漏収核查】呪術廻戦・ブルーロック・東京リベンジャーズ・鬼滅の刃・ハイキュー!!・ONE PIECE の IP 名照合に加え、gamebiz の全記事一覧・新作ゲーム一覧、4Gamer の新着とモバイル枠、AppBank のゲーム／ゲームアプリ一覧（11-05 分）、PR TIMES のスマホゲーム関連リリース（最新は 10-31 で本日の該当なし）を機械突合。日方主導の未収録スマホ新作はゼロ。",
-          "【会社地図】98 社で変更なし（hq 77／branch 11／out 10、onMap 88・outsideTokyo 10・hqPlotted 98）。新規 2 件の発行元（ツムギゲームズ／ファイン）はいずれも PC 中心の小規模配信元で、50 家リストにも extra にも未登録のため追加せず。住所・座標・officeKind・hqLat/hqLng の変更はゼロで、map.js は meta.asOf のみ 2026-11-05 に更新。geo-check.js は要確認 0 件。",
-          "【確認範囲】gamebiz（全記事一覧／新作ゲーム／事前登録）、4Gamer（トップ新着／新着ニュース／個別記事）、AppBank（ゲーム／ゲームアプリ）、PR TIMES（スマホゲーム）、Steam ストア API、各作品の公式サイト。ツール：validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0 件）。"
-        ]
-      },
+      }
     ]
   }
 };
