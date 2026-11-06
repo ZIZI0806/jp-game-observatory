@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-05",
+    asOf: "2026-11-06",
     count: 98,
     onMap: 88,
     outsideTokyo: 10,
@@ -85,7 +85,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区六番町4-5", pref: "東京都",
       lat: 35.688583, lng: 139.734894, hqLat: 35.688583, hqLng: 139.734894, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/aniplex.png", games: 2,
+      logo: "assets/logo/aniplex.png", games: 3,
       match: ["アニプレックス", "Aniplex"],
       top: {"t":"Fate/Grand Order","b":"同社ゲーム事業の最大収益源"},
       eq: [
@@ -417,7 +417,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区外神田3-16-12 アキバCOビル8F", pref: "東京都",
       lat: 35.702534, lng: 139.771484, hqLat: 35.702534, hqLng: 139.771484, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/good-smile.png", games: 6,
+      logo: "assets/logo/good-smile.png", games: 7,
       match: ["グッドスマイル", "Good Smile"],
       top: null,
       eq: [
@@ -683,7 +683,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都中央区築地4-1-1 東劇ビル", pref: "東京都",
       lat: 35.667961, lng: 139.76857, hqLat: 35.667961, hqLng: 139.76857, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 3,
+      logo: null, games: 4,
       match: ["松竹"],
       top: null,
       eq: [
@@ -696,7 +696,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都中央区銀座3-2-17", pref: "東京都",
       lat: 35.67345, lng: 139.764633, hqLat: 35.67345, hqLng: 139.764633, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/toei-games.ico", games: 3,
+      logo: "assets/logo/toei-games.ico", games: 5,
       match: ["東映", "TOEI"],
       top: null,
       eq: [
@@ -1025,7 +1025,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都新宿区新宿5-15-5 新宿三光町ビル7・8F", pref: "東京都",
       lat: 35.693821, lng: 139.707016, hqLat: 35.693821, hqLng: 139.707016, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/iruka.jpg", games: 6,
+      logo: "assets/logo/iruka.jpg", games: 7,
       match: ["イルカ"],
       top: null,
       eq: [
