@@ -25,10 +25,10 @@
 window.OBSERVATORY_MAP = {
   meta: {
     asOf: "2026-11-07",
-    count: 98,
-    onMap: 88,
+    count: 99,
+    onMap: 89,
     outsideTokyo: 10,
-    hqPlotted: 98,   // 全国地図（本社位置）に打点できる社数
+    hqPlotted: 99,   // 全国地図（本社位置）に打点できる社数
     tileCredit: "地図タイル：国土地理院（淡色地図）",
     geoCredit: "住所検索：国土地理院 住所検索API",
     note: "ピンの位置は本社ビルの所在地（街区レベル）。【首都圏】表示は本社が道府県外の社を東京拠点の位置に打点し、その旨をカード内に表示する。【全国】表示は全社を本社位置（hqLat/hqLng）に打点する。破線リングは所在地が都道府県・市区町村レベルまでの確認にとどまる社。"
@@ -85,7 +85,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区六番町4-5", pref: "東京都",
       lat: 35.688583, lng: 139.734894, hqLat: 35.688583, hqLng: 139.734894, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/aniplex.png", games: 3,
+      logo: "assets/logo/aniplex.png", games: 4,
       match: ["アニプレックス", "Aniplex"],
       top: {"t":"Fate/Grand Order","b":"同社ゲーム事業の最大収益源"},
       eq: [
@@ -1341,6 +1341,19 @@ window.OBSERVATORY_MAP = {
       top: {"t":"D4DJ Groovy Mix","b":"自社運営の音楽ゲーム。2026-10 に配信 6 周年を迎えた"},
       eq: [
         {"rel":"note","name":"非上場（DONUTS グループ）"},
+      ],
+    },
+    {
+      id: "cybird", name: "株式会社サイバード", short: "CYBIRD",
+      tier: "mid", color: "#9f7aea",
+      addr: "東京都品川区西五反田7-22-17", pref: "東京都",
+      lat: 35.621418, lng: 139.719604, hqLat: 35.621418, hqLng: 139.719604, precision: "block",
+      officeKind: "hq", officeLabel: "本社",
+      logo: null, games: 2,
+      match: ["サイバード", "CYBIRD", "Cybird"],
+      top: {"t":"イケメンシリーズ","b":"累計会員数4,500万人の自社ブランド"},
+      eq: [
+        {"rel":"note","name":"アエリアグループ"},
       ],
     }
   ],
