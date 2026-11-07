@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-06",
+    asOf: "2026-11-07",
     count: 98,
     onMap: 88,
     outsideTokyo: 10,
@@ -1089,7 +1089,7 @@ window.OBSERVATORY_MAP = {
       addr: "広島県呉市中通2-6-6", pref: "広島県",
       lat: 34.244488, lng: 132.564407, hqLat: 34.244488, hqLng: 132.564407, precision: "block",
       officeKind: "out", officeLabel: "本社", hqAddr: "広島県呉市中通2-6-6",
-      logo: null, games: 1,
+      logo: null, games: 2,
       match: ["ケムコ", "KEMCO", "コトブキソリューション"],
       top: null,
       eq: [
