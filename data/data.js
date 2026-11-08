@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-07T19:00:00+08:00",
-    edition: "2026-11-07",
-    window: "2026-09-07 ~ 2026-11-07（滚动最近 2 个月）",
+    updatedAt: "2026-11-08T09:12:00+08:00",
+    edition: "2026-11-08",
+    window: "2026-09-08 ~ 2026-11-08（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -12753,15 +12753,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社DONUTS（共同企画・製作：東映アニメーション株式会社）",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-11-03（事前登録開始・PV 第 1 弾公開）",
-      capturedAt: "2026-11-04",
+      announceDate: "2026-11-07（ゲーム内容公開・公式生放送 第 4 回）",
+      capturedAt: "2026-11-08",
       title: { jp: "ガールズバンドクライ First Riff", cn: "少女乐队呐喊 First Riff（中文圈译名；官方简中名未公布）", en: "Girls Band Cry: First Riff" },
       genre: "ガールズロック RPG（ストーリー＋フル 3D ライブ）",
       platforms: ["iOS", "Android"],
       release: "未定（配信日は未発表）",
       releasePrecision: "未定",
       summary: "DONUTS 与东映动画共同企划、以东映动画原创 TV 动画《ガールズバンドクライ》（2024 年播出）为原作的完全新作手游。2026-11-03 在ぴあアリーナMM 的单独公演「赤色の響祭」上解禁事前登录，官网同步改版重开，并放出由手島nari 绘制的主视觉与 PV 第 1 弹。玩家与「トゲナシトゲアリ」五名成员，加上游戏原创的三支乐队——Canna Lily、F-272、クズミミズク——一同从川崎的街头舞台向 Arena 攀爬。剧情由各乐队不同的执笔者分别执笔，演出侧为收录 3D 建模的 LIVE 关卡。事前登录通过关注游戏官方 X 或订阅动画官方 YouTube 频道参与，本轮未设人数阶梯奖励。",
-      highlight: "【11-03 事前登録開始】DONUTS×東映アニメーション《ガールズバンドクライ First Riff》在ぴあアリーナMM 公演上解禁，官网改版并公开 PV 第 1 弹，主题歌为トゲナシトゲアリ「剥き出しの共鳴」。　作品把四支乐队「从街头到 Arena」的成长线做成主线，配信日仍未定；11-07 19:00 的第 4 回官方直播将首次展示实际游玩画面。",
+      highlight: "【11-07 ゲーム内容公開】第 4 回公式生放送で「ストーリー」「ライブゲーム」「全国ツアー」の 3 本柱と、トゲナシトゲアリのゲームキービジュアルが公開された。　11-03 の事前登録開始時DONUTS×東映アニメーション《ガールズバンドクライ First Riff》在ぴあアリーナMM 公演上解禁，官网改版并公开 PV 第 1 弹，主题歌为トゲナシトゲアリ「剥き出しの共鳴」。　作品把四支乐队「从街头到 Arena」的成长线做成主线，配信日仍未定；11-07 19:00 的第 4 回官方直播将首次展示实际游玩画面。",
       mobile: {
         status: "事前登録受付中",
         os: ["iOS", "Android"],
@@ -12780,20 +12780,21 @@ window.OBSERVATORY = {
         series: "ガールズバンドクライ（TV アニメ 2024 年／劇場版『THE MOVIE』2027-05-21 公開予定）",
         features: [
           "アニメのトゲナシトゲアリに加え、ゲームオリジナルの 3 バンド（Canna Lily／F-272／クズミミズク）が登場。バンドごとに異なる書き手が描き下ろすストーリーを軸にする",
-          "フル 3D のライブゲーム。川崎の路上からアリーナまで駆け上がる過程を、演奏シーン込みの 3D で追体験する構成",
+          "ゲームは「ストーリー」「ライブゲーム」「全国ツアー」の 3 本柱（2026-11-07 の第 4 回公式生放送で公表）。ライブゲームはフル 3D で、川崎の路上からアリーナまで駆け上がる過程を演奏シーン込みで追体験する構成",
           "主題歌はトゲナシトゲアリの新曲「剥き出しの共鳴」。キービジュアルはイラストレーター手島nari の描き下ろし",
           "事前登録は X フォローと YouTube チャンネル登録の 2 経路。人数達成型の報酬は置かず、続報で積み増す設計",
           "ゲーム外でも各バンドが単独ライブを展開（クズミミズクは川崎で 4 公演、F-272 は 2027-01-29 CLUB CITTA'、Canna Lily は 2027-02-07 EX THEATER ROPPONGI）"
         ],
         synopsis: "舞台は川崎。挫折や不条理、拭いきれない過去を抱えた少女たちの感情が「衝動」となり、音になっていく。アニメ本編の系譜を継ぎつつ、ゲームオリジナルのバンドとキャラクターが加わって、彼女たちが路上からアリーナへ駆け上がる軌跡を描く。",
-        cast: "キャスト一覧は未公開（アニメ版トゲナシトゲアリのメンバーが登場）。11-07 の公式生放送にトゲナシトゲアリ・Canna Lily・F-272・クズミミズクの各バンドが出演予定",
+        cast: "キャスト一覧は未公開（アニメ版トゲナシトゲアリのメンバーが登場）。第 4 回公式生放送は 2026-11-07 19:00 に実施済み（トゲナシトゲアリ・Canna Lily・F-272・クズミミズクが出演）",
         caution: "配信日・課金形態・ゲームシステムの詳細は未発表（公式サイトの GAME SYSTEM は COMING SOON）。発表自体は 2025-09 の東京ゲームショウで既出のため bucket は update"
       },
       news: [
         { source: "DONUTS 公式プレスリリース（事前登録開始・会社概要・リリース日未定）", url: "https://www.donuts.ne.jp/news/2026/1103_gbcfr_pre-registration/" },
         { source: "4Gamer（事前登録開始・PV 第 1 弾・共同開発体制）", url: "https://www.4gamer.net/games/834/G083422/20261102040/" },
         { source: "公式サイト ニュース（事前登録の参加方法・PV・生放送）", url: "https://gbc-firstriff.com/news/post-13.html" },
-        { source: "gamebiz（ジャンル・事前登録開始の報道）", url: "https://gamebiz.jp/news/435001" }
+        { source: "gamebiz（ジャンル・事前登録開始の報道）", url: "https://gamebiz.jp/news/435001" },
+        { source: "4Gamer（第 4 回公式生放送でのゲーム内容公開・トゲナシトゲアリのゲーム KV）", url: "https://www.4gamer.net/games/834/G083422/20261106040/" }
       ],
       videos: [
         { label: "PV 第 1 弾（主題歌「剥き出しの共鳴」／開発中のゲーム画面と 3D ライブ）", platform: "YouTube", url: "https://youtu.be/h-loUJpbz6k" },
@@ -13556,6 +13557,61 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "主机", "乙女向け", "ADV", "アニプレックス", "サイバード"]
     },
+    {
+      id: "algorithm-prescription",
+      company: "松竹ゲームズ（松竹株式会社 ゲーム事業室）",
+      companyJp: "松竹株式会社 イノベーション推進部 ゲーム事業室（松竹ゲームズ）",
+      bucket: "update",
+      platformClass: "console",
+      announceDate: "2026-11-07（Nintendo Switch 2 版の追加と 2028 年発売を発表）",
+      capturedAt: "2026-11-08",
+      title: { jp: "Algorithm Prescription（アルゴリズム・プレスクリプション）", cn: "心象演算℞（松竹官方简中名）", en: "Algorithm Prescription" },
+      genre: "沼系恋愛サスペンス（ビジュアルノベル／恋愛シミュレーション）",
+      platforms: ["Nintendo Switch 2", "PC (Steam)"],
+      release: "2028年（予定）",
+      releasePrecision: "年",
+      summary: "松竹游戏事业室（松竹ゲームズ）自研并发行的女性向视觉小说。舞台是世界首座完全由 AI 管理的都市「Xenoria」，信任、职业乃至恋爱都由「共感分数」决定；主人公作为实习医生在此工作，逐渐被卷入失控的 AI 与动摇的秩序之中。玩法不以好感度满值为目标，而是追求「对双方都最优的百分之一好感度」，溺爱、束缚、监禁等扭曲结局都可能出现。原案由松竹、Leona Software、GameBridge 共同署名，剧本为松竹与合同会社 Re,AER，插画白皙，日语全语音、日英简繁中字幕。2026-02-12 企划启动，04-28 起在 Steam 配信免费体验版；2026-11-07 于 AGF2026 舞台宣布追加 Nintendo Switch 2 版、2028 年发售。",
+      highlight: "【11-07 Switch 2 版追加・2028 年発売】松竹ゲームズが池袋サンシャインシティの AGF2026 特別ステージで、『Algorithm Prescription』を 2028 年に Nintendo Switch 2 と Steam で発売すると発表し、白皙氏の描き下ろし立ち絵を初公開した。　同ステージには柊役の深町寿成、タチバナ役の石谷春貴、アクト役の土岐隼一が登壇。Steam では 2026-04-28 から無料体験版を配信中で、価格は未定。",
+      console: {
+        status: "2028年発売予定（Nintendo Switch 2／PC (Steam)。価格未定）",
+        os: ["Nintendo Switch 2", "Windows"],
+        monetization: "買い切り（価格未定）。追加課金の有無は未発表",
+        developer: "松竹株式会社 イノベーション推進部 ゲーム事業室（松竹ゲームズ）",
+        publisher: "松竹株式会社 イノベーション推進部 ゲーム事業室（松竹ゲームズ）",
+        region: "日本",
+        distribution: "ダウンロード専用（Nintendo Store／Steam）",
+        stores: ["Nintendo Store", "Steam"],
+        features: [
+          "好感度を最大化しても幸福な結末になるとは限らない「沼系恋愛サスペンス」。溺愛・束縛・監禁といった歪んだ結末を含む分岐設計",
+          "AI が信頼・職業・恋愛まで「共感スコア」で決める世界初の完全 AI 管理都市「Xenoria」が舞台。主人公は研修医として街に入る",
+          "イラストは白皙氏、脚本は松竹と合同会社 Re,AER（『魔法少女ノ魔女裁判』）、日本語フルボイス。字幕は日・英・簡体字・繁体字",
+          "2026-04-28 から Steam で無料体験版を配信。本編とは別に、第三者（光）の視点で描く全 voice のオリジナルシナリオを収録する"
+        ],
+        synopsis: "世界初の完全 AI 管理都市「Xenoria」。技術も経済も飛躍的に発展し、人々は AI に最適化された環境で暮らしている。研修医としてこの街で働き始めた主人公は、同僚の光、精神科医の柊、隣人のタチバナ、謎めいたアクトらと関わりながら、平穏に見えた都市に走り始めた綻びと、AI の乱れ、揺らぐ秩序の奥にある真実を追っていく。",
+        ipSource: "オリジナル IP（原案＝松竹株式会社／Leona Software／GameBridge の共同署名）",
+        series: "単独作。松竹ゲームズの自社オリジナル・ビジュアルノベルとして 2026-02-12 に企画が始動した",
+        cast: "深町寿成（柊）、石谷春貴（タチバナ）、土岐隼一（アクト）、関根明良、亀山雄慈、天崎滉平、保志総一朗"
+      },
+      news: [
+        { source: "gamebiz（Switch 2／2028 年発売の発表・AGF2026 ステージ・スタッフ一覧）", url: "https://gamebiz.jp/news/435212" },
+        { source: "4Gamer（AGF2026 特別ステージでの発表・白皙氏の描き下ろし立ち絵）", url: "https://www.4gamer.net/games/982/G098281/20261107003/" },
+        { source: "松竹ゲームズ 公式作品ページ（ゲーム内容・対応言語・スタッフ）", url: "https://game.shochiku.co.jp/ja/games/algorithm-prescription/" },
+        { source: "Steam ストアページ（無料体験版・対応言語・PV）", url: "https://store.steampowered.com/app/3227510/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（日本語版 PV「algorithm_pv01_ja」ほかトレーラー）", platform: "Steam", url: "https://store.steampowered.com/app/3227510/" },
+        { label: "松竹ゲームズ 公式作品ページ（ムービー・ゲーム内容）", platform: "公式サイト", url: "https://game.shochiku.co.jp/ja/games/algorithm-prescription/" }
+      ],
+      hype: {
+        score: 42,
+        signals: [
+          "映画大手・松竹の自社ゲームレーベルによる初のオリジナル女性向けビジュアルノベルで、発表から体験版配信まで国内乙女ゲー媒体が継続的に追っている",
+          "AGF2026 の特別ステージで声優 3 名が登壇し、描き下ろし立ち絵を初公開するなど、女性向け層への露出はイベント主導",
+          "Famitsu 期待榜への登場や Wishlist 数の公開はなく、Steam では「近日登場」表記のまま。数値指標は存在しない"
+        ]
+      },
+      tags: ["主机・PC", "ビジュアルノベル", "女性向け", "恋愛ADV", "サスペンス", "松竹ゲームズ", "Nintendo Switch 2", "Steam"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -13649,7 +13705,7 @@ window.OBSERVATORY = {
       label: "指定清单外 · 补充监测",
       note: "以下厂商不在指定清单内，但本期已有实际新作动态，或为新手游发行方，故纳入监测。",
       items: [
-        { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026", "digging-a-hole-together", "invokyr", "muugen-oukakaku"] },
+        { name: "松竹株式会社 ゲーム事業室", short: "松竹ゲームズ", status: "covered", gameIds: ["shochiku-tgs-2026", "digging-a-hole-together", "invokyr", "muugen-oukakaku", "algorithm-prescription"] },
         { name: "株式会社産経デジタル「HYPER REAL」", short: "HYPER REAL", status: "covered", gameIds: ["hyperreal-tgs-new"] },
           { name: "株式会社グッドスマイルカンパニー", short: "Good Smile", status: "covered", gameIds: ["dawngazer-ignisphere", "patlabor-the-case-files", "magical-girl-incustom-village", "nekopara-sekai-connect", "grisaia-shuuketsu-no-hyakka", "grisaia-shin-kajitsu-shuuketsu-no-hyakka", "valkyrie-tune-synthesis-of-souls"] },
         { name: "株式会社インテリジェントシステムズ", short: "Intelligent Systems", status: "covered", gameIds: ["fire-emblem-fortunes-weave"] },
@@ -13766,8 +13822,21 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-07 夜の部：国内スマホは CYBIRD『イケメンシリーズ』15 周年記念作（2027 年内）1 件、主机・PC は同社×アニプレックスの初タッグ『LunaReverse』1 件。『ホロじゃん』は 11-25 配信決定で追補。条目 233 → 235、地図 99 社。",
+    headline: "11-08 朝の部：国内スマホの新規発表はゼロ。主机・PC は松竹ゲームズ『Algorithm Prescription』が AGF2026 で Switch 2 版追加と 2028 年発売を発表した 1 件、『ガルリフ』はゲーム内容の 3 本柱が公開。条目 235 → 236、地図 99 社。",
     history: [
+      {
+        at: "2026-11-08 09:00",
+        scene: "定時巡検（11-08 午前の部・11-07 19:13 以降の残区間）",
+        items: [
+          "【結論】増分区間＝11-07 19:13（前場コミット e5e21ea、meta.updatedAt 19:00）〜11-08 09:12。新規 1 件（純スマホ 0／跨平台 0／主机・PC 1）／既存更新 1 件、条目 235 → 236。",
+          "【新規・主机PC／bucket update】松竹ゲームズ『Algorithm Prescription（心象演算℞）』＝11-07、池袋サンシャインシティの AGF2026 特別ステージで Nintendo Switch 2 版の追加と 2028 年発売を発表（gamebiz 11-07 21:06／4Gamer 11-08 08:00 報道）。本体の初出は 2026-02-12 で窓外、Steam の無料体験版は 2026-04-28 から配信済みのため、口径どおり他機種版＝update。原案は松竹／Leona Software／GameBridge の共同署名、開発・販売は松竹ゲームズ、脚本は松竹と合同会社 Re,AER、イラスト白皙、日本語フルボイスで日英簡繁中字幕、価格未定。",
+          "【更新・追補】『ガールズバンドクライ First Riff』＝11-07 19:00 の第 4 回公式生放送でゲーム内容が公開され、4Gamer が 21:30 に報道。「ストーリー」「ライブゲーム」「全国ツアー」の 3 本柱とトゲナシトゲアリのゲーム KV が明らかに。配信日は依然未発表で事前登録は継続中。",
+          "【見送り】①中国資本の新作（社名・作品名とも不記載）②香港資本のオープンワールド大作（同）③韓国資本の 2 件 ④稼働中タイトルのイベント・周年・コラボ（白猫プロジェクト、黒猫のウィズ、駅メモ！、東京リベンジャーズ UNLIMITED 等）⑤海外産 Steam インディー小品（Siege of Akanor／Frontier Forge／Silent Mainland／Pathos 等）⑥アーケード筐体・パチスロアプリ。",
+          "【漏収核查】呪術廻戦・鬼滅の刃・ブルーロック・ハイキュー!!・ONE PIECE・BLEACH の 6 IP を IP 名で照合 → 日方主導の未収録スマホ新作はゼロ。あわせて 4Gamer RSS（11-08 分は 1 本のみ）・gamebiz 全記事（11-08 は「今日は何の日」のみ）・AppBank・ファミ通.com・Quest Board.JP の日次まとめを機械突合したが、夜間〜早朝に国内スマホの新規発表自体がなかった。",
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元は既登録の松竹ゲームズで、住所・座標・officeKind・hqLat/hqLng の変更はゼロ。map.js は games を 4 → 5 に更新し meta.asOf を 2026-11-08 へ。geo-check.js は 109 件で要確認 0 件。",
+          "【確認範囲】4Gamer（トップ新着／RSS 全 120 件）、gamebiz（全記事一覧）、AppBank（ゲーム／ゲームアプリ）、ファミ通.com（新着ニュース）、PR TIMES（ゲーム）、Quest Board.JP（11-07 日次まとめ）、松竹ゲームズ公式サイト・Steam API。ツール：node --check／validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0 件）。"
+        ]
+      },
       {
         at: "2026-11-07 19:00",
         scene: "定時巡検（11-07 夜の部・09:14 以降の残区間）",
@@ -13781,19 +13850,6 @@ window.OBSERVATORY = {
           "【会社地図】株式会社サイバードを新規登録し 98 → 99 社（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。住所＝東京都品川区西五反田7-22-17（同社「会社概要」＝一次源）、座標＝35.621418／139.719604（国土地理院 住所検索 API・街区レベル）。あわせて map.js の games フィールドを全社機械再計算し、aniplex を 3 → 4 に更新（edia は「Switch Media」への部分一致という既知の偽陽性を除外して 3 のまま据え置き）。geo-check.js は 109 件で要確認 0 件。"
         ]
       },
-      {
-        at: "2026-11-07 09:00",
-        scene: "定時巡検（11-07 午前の部・11-06 19:11 以降の残区間）",
-        items: [
-          "【結論】増分区間＝11-06 19:11（前場コミット 57364ca の meta.updatedAt 19:05）〜11-07 09:00。新規 2 件（純スマホ 1／跨平台 0／主机・PC 1）／既存更新 0 件、条目 231 → 233。",
-          "【新規①・純スマホ】もりみらい『虫ストライクZ』＝11-06 に iOS／Android で配信開始（アプリ版 1.0.2）。3 枚のカード合計を「10」に近づけるほど大ダメージという算数バトルに、写実的な虫 100 種以上の編成・育成を重ねる。基本無料＋アイテム課金、事前登録は 2026-09-25 から公式サイトと「予約トップ10」で実施。本体の初出・配信がともに窓内のため bucket は new。",
-          "【新規②・主机PC／bucket update】エクスペリエンス『デモンキルデモン ～黄泉1984～』＝11-06 18:00 にファミ通が PS5／PS4／Steam 版の 2027-02-25 発売を報道、予約は 11-12 から。Nintendo Switch 版は 2026-05 発売済み＝本体初出が窓外なので、口径どおり他機種版として update。パッケージ 8,800 円（転移編＋復讐編同梱）、DL は各 3,900 円、CERO D。",
-          "【見送り】①Nexon の韓国向け新作 2 件（『TALESWEAVER MOBILE』『TEMPPAL: OVERGEARED』＝韓国資本・国内配信なし）②ILLUMINATION『スーパーリアル麻雀AC』＝アーケード筐体で platformClass の対象外 ③SHIFT UP『Stellar Blade コンプリートエディション』Switch2 版＝韓国資本 ④『鳴潮』Ver.3.8、NIKKE 4 周年、地獄楽 1 周年、プロスピA コラボ等の稼働中タイトルのイベント ⑤個人開発の Steam 小品（Goblin Gnome Horn 続編『Dash Two』ほか、発売日未定）⑥中国資本の新作（社名・作品名とも不記載）。",
-          "【漏収核查】呪術廻戦・鬼滅の刃・東京リベンジャーズ・ブルーロック・刀剣乱舞・ホロライブ・ポケモンの IP 名で照合したが、日方主導の未収録スマホ新作はゼロ。4Gamer の 11-06 夜〜11-07 早朝枠は稼働中タイトルの更新と海外産インディーのみ、gamebiz のおはよう gamebiz は 11/7 分が未掲載（最新は 11/6）、AppBank の 11-06 分で拾えたのは『虫ストライクZ』だけだった。",
-          "【会社地図】98 社で変更なし（hq 77／branch 11／out 10、onMap 88・outsideTokyo 10・hqPlotted 98）。新規 2 件の発行元（もりみらい／エクスペリエンス）はいずれも 50 家リスト・extra に未登録で、住所を一次源で確定できていないため追加していない。map.js は meta.asOf のみ 2026-11-07 に更新し、住所・座標・officeKind・hqLat/hqLng の変更はゼロ。geo-check.js は 108 件で要確認 0 件。",
-          "【確認範囲】gamebiz（全記事一覧／新作ゲーム／事前登録／おはようgamebiz）、4Gamer（トップ新着）、AppBank（ゲーム／ゲームアプリ）、ファミ通.com（新着ニュース）、Quest Board.JP（11-06 日次まとめ）、RPG Site／RPGamer、各ストア。ツール：node --check／validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0 件）。"
-        ]
-      }
     ]
   }
 };

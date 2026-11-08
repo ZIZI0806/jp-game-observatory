@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-07",
+    asOf: "2026-11-08",
     count: 99,
     onMap: 89,
     outsideTokyo: 10,
@@ -683,7 +683,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都中央区築地4-1-1 東劇ビル", pref: "東京都",
       lat: 35.667961, lng: 139.76857, hqLat: 35.667961, hqLng: 139.76857, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 4,
+      logo: null, games: 5,
       match: ["松竹"],
       top: null,
       eq: [
