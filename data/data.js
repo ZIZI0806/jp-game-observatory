@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-09T09:00:00+08:00",
+    updatedAt: "2026-11-09T19:00:00+08:00",
     edition: "2026-11-09",
     window: "2026-09-09 ~ 2026-11-09（滚动最近 2 个月）",
     sources: [
@@ -8554,25 +8554,29 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "new",
       platformClass: "mobile",
-      announceDate: "2026-10-01（事前登録の受付開始と「キン肉マン 超人総選挙2026」の開催を発表）",
-      capturedAt: "2026-10-08",
+      announceDate: "2026-11-09（配信開始）",
+      capturedAt: "2026-11-09",
       title: { jp: "キン肉マン マッスルタッグマッチ 令和復活編", cn: "金肉人 摔角大赛 令和复活篇", en: "Kinnikuman Muscle Tag Match: Reiwa Fukkatsu-hen" },
       genre: "タッグ対戦アクション（買い切り・Bluetooth 2P対戦対応）",
       platforms: ["iOS", "Android"],
-      release: "2026年秋（日本。発売時期は調整中で、App Store の予約ページは 2026-11-30 を表示）",
-      releasePrecision: "季",
+      release: "2026-11-09（iOS／Android。各 1,000 円・税込の買い切り）",
+      releasePrecision: "日",
       summary: "万代南梦宫娱乐把 1985 年在红白机（FC）发售的动作游戏《キン肉マン マッスルタッグマッチ》强化后搬到手机平台的新作，2026-10-01 随事前登录开跑一并发表。玩法沿袭原作：从擂台上选两名超人组队，接住ミートくん抛出的「命の玉」即可发动必杀技，攻防节奏保留当年的手感。作为强化点，参战超人由原作的 8 名扩充到 50 名，并首次实装蓝牙通信的 2 人对战。售价 1,000 日元（含税）、买断制、没有转蛋与道具课金。官方同日启动「キン肉マン 超人総選挙2026」（10-01〜10-12），得票第 1〜20 名、第 29 名与第 50 名的超人将取得参战资格，结果预定刊于 11-09 发售的《週刊プレイボーイ》第 47 期。",
-      highlight: "【2026-10-01 発表】バンダイナムコエンターテインメントが、1985 年のファミコン用『キン肉マン マッスルタッグマッチ』をパワーアップしてスマートフォン向けに復活させると発表した（1,000 円・税込の買い切り）。　参戦超人を原作の 8 名から 50 名へ拡大し、Bluetooth 通信による 2P 対戦を新たに実装。同時に「超人総選挙2026」を開始し、上位 20 名に加えて 29 位・50 位の超人にも参戦権を与える。",
+      highlight: "【11-09 配信開始】バンダイナムコエンターテインメントが『キン肉マン マッスルタッグマッチ 令和復活編』を App Store／Google Play で配信開始した（各 1,000 円・税込の買い切り）。　参戦超人は「超人総選挙2026」の上位20名に29位・50位を加え、ゆでたまご両先生と安元洋貴・稲田徹の推薦分を合わせて50名。原作どおりミートくんの「命の玉」で必殺技が発動し、Bluetooth で 2P 対戦もできる。",
       news: [
-        { source: "Quest Board.JP（発表内容・機種・価格・超人総選挙2026 の詳細）", url: "https://quest-board.jp/en/quests/buzz-leak-2026-10-01-leak-1-20261001" },
-        { source: "mixi ニュース（超人総選挙2026 の開催と参戦権の付与条件）", url: "https://news.mixi.jp/view_news.pl?id=8970492&media_id=54" },
-        { source: "巴哈姆特 GNN（事前登録開始・価格・50 名参戦・Bluetooth 対戦）", url: "https://gnn.gamer.com.tw/detail.php?sn=312603" }
+        { source: "4Gamer（配信開始・価格・50 超人・Bluetooth 2P 対戦）", url: "https://www.4gamer.net/games/046/G104685/20261109032/" },
+        { source: "gamebiz（配信開始・超人総選挙2026 の結果と推薦超人の内訳）", url: "https://gamebiz.jp/news/435263" },
+        { source: "公式サイト（製品概要：買い切り 1,000 円・配信日 2026-11-09）", url: "https://kin29man-mtm.bn-ent.net/" },
+        { source: "App Store（日本ストア・配信ページ）", url: "https://apps.apple.com/jp/app/id6775757720" },
+        { source: "Google Play（日本ストア・配信ページ）", url: "https://play.google.com/store/apps/details?id=com.bandainamcoent.muscletagmatch" }
       ],
       videos: [
-        { label: "App Store 予約ページ（スクリーンショット・事前登録）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6775757720" }
+        { label: "公式サイト（PV・操作方法・リング紹介）", platform: "公式サイト", url: "https://kin29man-mtm.bn-ent.net/" },
+        { label: "App Store ストアページ（PV・スクリーンショット）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6775757720" },
+        { label: "4Gamer 記事（プロモーションムービー埋め込み）", platform: "媒体", url: "https://www.4gamer.net/games/046/G104685/20261109032/" }
       ],
       hype: {
-        score: 62,
+        score: 66,
         signals: [
           "1985 年のファミコン定番作を約 41 年ぶりにスマートフォンへ復活させる企画で、当時遊んだ世代の懐古需要が大きい",
           "「超人総選挙2026」で参戦超人をファン投票で決める仕組みが話題を集め、投票は 10-12 まで実施される",
@@ -8582,10 +8586,10 @@ window.OBSERVATORY = {
       },
       tags: ["IP授权", "手游", "买断制", "Bandai Namco", "キン肉マン"],
       mobile: {
-        status: "事前登録受付中（2026-10-01 開始。発売時期は調整中）",
+        status: "配信中（2026-11-09 配信開始・買い切り 1,000 円）",
         os: ["iOS", "Android"],
         monetization: "買い切り 1,000 円（税込）。ガチャおよびアイテム課金はなし",
-        preReg: { open: true, since: "2026-10-01", reward: "App Store の予約受付と Google Play の事前登録を受付中。人数マイルストーン型の特典内容は公式発表待ち。" },
+        preReg: { open: false, since: "2026-10-01", reward: "事前登録キャンペーンは配信開始に伴い終了。買い切りアプリのため人数マイルストーン型の特典配布はなし" },
         developer: "バンダイナムコエンターテインメント（個別の開発会社名は非公表）",
         publisher: "バンダイナムコエンターテインメント",
         region: "日本（海外配信は未発表）",
@@ -13676,6 +13680,124 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "手游", "バトルロイヤル", "僕のヒーローアカデミア", "事前登録中", "バンダイナムコ", "IPゲーム"]
     },
+    {
+      id: "dq-rpg-makaitju",
+      company: "Square Enix",
+      companyJp: "株式会社スクウェア・エニックス",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-11-09（電撃発表・公式X開設）",
+      capturedAt: "2026-11-09",
+      title: { jp: "ドラゴンクエストRPG 魔界樹と導かれし島", cn: "勇者斗恶龙RPG 魔界树与引导之岛（官方未公布简中译名）", en: "Dragon Quest RPG: The Cursed Tree and the Chosen Isle" },
+      genre: "コマンドRPG（スマートフォン向け）",
+      platforms: ["iOS", "Android"],
+      release: "配信日未定",
+      releasePrecision: "未定",
+      summary: "史克威尔艾尼克斯于 2026-11-09 突然公布《勇者斗恶龙》系列面向智能手机的新作《ドラゴンクエストRPG 魔界樹と導かれし島》，官方把它定位为「コマンドRPG」（指令制 RPG）。目前只公开了标题、平台（iOS／Android）与类型，玩法机制、收费方式、配信日期均未发表。官方同时开设 X 账号（@DQRPG_JP），并在该账号说明本作是手机端指令制 RPG，公布预告片预定 2026-11-10 20:00（日本时间）在 YouTube 以首播形式放出，时长约 2 分钟，除日语外还准备了英语、韩语、繁体中文版本。这是继 2026-04-21 正式开服的《ドラゴンクエストスマッシュグロウ》之后，DQ 系列在手机端的又一款新作。",
+      highlight: "【11-09 電撃発表】スクウェア・エニックスがスマホ向けコマンドRPG『ドラゴンクエストRPG 魔界樹と導かれし島』を突如発表し、公式X（@DQRPG_JP）を開設した。11-10 20:00 に約2分のアナウンストレーラーを YouTube プレミア公開する。　タイトルとジャンル以外は伏せたままで、配信日・課金形態は未発表。日・英・韓・繁体字の4言語トレーラーが用意されている。",
+      mobile: {
+        status: "配信予定（時期未定）",
+        os: ["iOS", "Android"],
+        monetization: "未発表",
+        preReg: {
+          open: false,
+          since: "未開始",
+          reward: "事前登録は未開始（2026-11-09 時点で公式発表なし）"
+        },
+        developer: "株式会社スクウェア・エニックス",
+        publisher: "株式会社スクウェア・エニックス",
+        region: "日本（海外展開は未発表）",
+        distribution: "App Store／Google Play（配信予定）",
+        payment: [],
+        ipSource: "『ドラゴンクエスト』シリーズ（スクウェア・エニックス）。シリーズの完全新作で、既存作の移植ではない",
+        series: "『ドラゴンクエスト』シリーズ。スマートフォン向けは 2026-04-21 正式サービス開始の『ドラゴンクエストスマッシュグロウ』に続く新作",
+        features: [
+          "「ドラゴンクエスト」シリーズのスマートフォン向け新作で、ジャンルはコマンドRPG（公式X が明言）",
+          "対応機種は iOS／Android。配信日・価格・課金形態はいずれも未発表",
+          "2026-11-10 20:00 より YouTube プレミア公開で約2分のアナウンストレーラーを公開予定",
+          "トレーラーは日本語のほか英語・韓国語・繁体字中国語の4言語が用意されている",
+          "2026-04-21 に正式サービスを開始した『ドラゴンクエストスマッシュグロウ』に続くモバイル向け新作"
+        ],
+        synopsis: "タイトルと「コマンドRPG」というジャンル、対応機種（iOS／Android）以外は未公開。世界観・物語・ゲームシステム・配信時期はいずれも公式発表待ちで、2026-11-10 20:00 のアナウンストレーラーで初めて明らかになる見込み。",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "4Gamer（電撃発表・iOS/Android・トレーラー公開予定・公式Xのジャンル言及）", url: "https://www.4gamer.net/games/056/G105640/20261109004/" },
+        { source: "gamebiz（発表・アナウンストレーラーの YouTube URL）", url: "https://gamebiz.jp/news/435236" },
+        { source: "Gematsu（英語タイトル・各国時刻・4言語トレーラー）", url: "https://www.gematsu.com/2026/11/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-ios-android" },
+        { source: "ドラゴンクエストRPG 公式X（@DQRPG_JP）の発表ポスト", url: "https://x.com/DQRPG_JP/status/2119628440118911153" }
+      ],
+      videos: [
+        { label: "アナウンストレーラー（11-10 20:00 プレミア公開・約2分）", platform: "YouTube", url: "https://www.youtube.com/watch?v=TVZtZAPrQy8" },
+        { label: "4Gamer 記事（トレーラー埋め込み）", platform: "媒体", url: "https://www.4gamer.net/games/056/G105640/20261109004/" }
+      ],
+      hype: {
+        score: 78,
+        signals: [
+          "「ドラゴンクエスト」という国内最大級の IP の新作で、発表から数時間で日英のゲーム媒体（4Gamer／gamebiz／Gematsu ほか）が一斉に報じた",
+          "タイトルと「コマンドRPG」以外を伏せ、翌日 20:00 のトレーラー公開に情報を集約する出し方で、SNS 上の話題が一日に集中する",
+          "日・英・韓・繁体字の4言語トレーラーを同時用意しており、アジア市場を最初から視野に入れている",
+          "配信日・事前登録・課金形態がすべて未発表のため、事前登録者数などの数値指標は存在しない"
+        ]
+      },
+      tags: ["新作", "手游", "コマンドRPG", "ドラゴンクエスト", "スクウェア・エニックス", "電撃発表"]
+    },
+    {
+      id: "quiet-express-cabin-909",
+      company: "ドリコム",
+      companyJp: "株式会社ドリコム",
+      bucket: "new",
+      platformClass: "pc",
+      announceDate: "2026-11-09（国内パブリッシング発表）",
+      capturedAt: "2026-11-09",
+      title: { jp: "クワイエット急行909号室", cn: "静穆急行列车909号房", en: "Quiet Express: Cabin 909" },
+      genre: "ミステリーアドベンチャー（7日間ループ×車両組み替え探索）",
+      platforms: ["PC (Steam)"],
+      release: "2027年（予定。価格未定）",
+      releasePrecision: "年",
+      summary: "ドリコムのインディーゲームスタジオ「DRECOM CREATORS STUDIO」が 2026-11-09 に国内パブリッシングを担当すると発表した、STUDIO909 の Kazuhide Oka 氏が開発するミステリーアドベンチャー。舞台は7日間かけて大陸を横断する列車「クワイエット急行」で、プレイヤーは存在しないはずの「909号室」を探して車内を巡る。扉の前に立つたびに客車・食堂車・貨物車などから3つの候補がランダムに提示され、選んだ車両によって入手アイテムや出会う乗客が変わる「車両組み替え探索」が中核。獣人・巨人・ホムンクルスなど多種族の乗客の依頼を解き、7日目に起きる事故を回避するために同じ一週間を繰り返す。PC（Steam）向けに 2027 年発売予定、価格未定。日本語・英語・簡体字／繁体字中国語・韓国語に対応し、Steam では体験版が配信中。",
+      highlight: "【11-09 パブリッシング発表】ドリコムの DRECOM CREATORS STUDIO が、STUDIO909（Kazuhide Oka 氏）開発の『クワイエット急行909号室』の国内パブリッシングを担当すると発表した。2027 年に Steam で発売予定、価格未定。　7日間で大陸を横断する列車が舞台のループ・ミステリーADVで、扉ごとに3つの車両から進路を選ぶ「車両組み替え探索」が特徴。体験版はすでに Steam で配信中。",
+      console: {
+        status: "2027年 発売予定（PC (Steam)）",
+        os: ["Windows"],
+        monetization: "未定（価格未発表）",
+        developer: "STUDIO909（Kazuhide Oka）",
+        publisher: "株式会社ドリコム（DRECOM CREATORS STUDIO）",
+        region: "日本（Steam 全世界配信／日本語・英語・簡体字・繁体字・韓国語対応）",
+        distribution: "ダウンロード専用（Steam）",
+        stores: ["Steam"],
+        features: [
+          "7日間かけて大陸を横断する列車「クワイエット急行」を舞台に、存在しないはずの「909号室」を探すミステリーADV",
+          "扉の前に立つたびに客車・食堂車・貨物車などから3つの候補がランダム提示され、選んだ車両で入手アイテムと出会う乗客が変わる「車両組み替え探索」",
+          "獣人・巨人・ホムンクルスなど多種族の乗客の悩みを聞き、依頼を解決することで物語が進む",
+          "7日目に起きる列車事故を回避するため同じ一週間を繰り返し、909号室の存在と自分が乗車した目的を解き明かす",
+          "Steam では体験版（約30分）が配信中。日本語・英語・簡体字／繁体字中国語・韓国語に対応"
+        ],
+        synopsis: "プレイヤーは7日間で大陸を横断する「クワイエット急行」の最後尾車両で目を覚ます。目的は、車内に存在しないはずの「909号室」を探すこと。車両を選びながら車内を進み、乗客の依頼を解決して手がかりを集めるが、7日目に列車は事故に巻き込まれ、気づくと出発前の車内に戻っている。同じ一週間を繰り返すうちに、909号室と自分自身の乗車理由が少しずつ明らかになる。",
+        ipSource: "オリジナル IP（STUDIO909 による新規企画。既存 IP のライセンス作品ではない）",
+        series: "DRECOM CREATORS STUDIO のパブリッシングタイトル。同レーベルは国内外のインディー開発作を継続的に展開している",
+        cast: "公式発表なし"
+      },
+      news: [
+        { source: "4Gamer（国内パブリッシング発表・2027年 Steam・車両組み替え探索の詳細）", url: "https://www.4gamer.net/games/943/G094358/20261109023/" },
+        { source: "gamebiz（DRECOM CREATORS STUDIO のパブリッシング担当発表）", url: "https://gamebiz.jp/news/435260" },
+        { source: "ドリコム 公式リリース（開発体制・対応言語・Steam URL）", url: "https://drecom.co.jp/en/product_news/2026/11/20261109-01.php" },
+        { source: "Steam ストアページ（体験版配信・対応言語）", url: "https://store.steampowered.com/app/3962240/Quiet_Express_Cabin_909/" }
+      ],
+      videos: [
+        { label: "Steam ストアページ（トレーラー・スクリーンショット・体験版）", platform: "Steam", url: "https://store.steampowered.com/app/3962240/Quiet_Express_Cabin_909/" },
+        { label: "『クワイエット急行909号室』公式X（STUDIO909）", platform: "X", url: "https://x.com/STUDIO909info" }
+      ],
+      hype: {
+        score: 41,
+        signals: [
+          "開発の Kazuhide Oka 氏は『ガールズメイドプディング』『ナツノカナタ』で知られ、国内インディー層に固定ファンがいる",
+          "The MIX Fall Showcase 2026 で体験版とトレーラーを公開済みで、Steam のウィッシュリスト導線がすでに存在する",
+          "発売は 2027 年で価格未定、パブリッシング発表段階のため販売本数やウィッシュリスト数の公開値はない"
+        ]
+      },
+      tags: ["新作", "PC", "ミステリーADV", "ループもの", "ドリコム", "Steam", "インディー"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -13695,7 +13817,7 @@ window.OBSERVATORY = {
           { name: "株式会社ソニー・インタラクティブエンタテインメント", short: "SIE", status: "watch", note: "本社位于美国加州，本台按其日系阵营属性纳入观察；PS 平台作品已散见于各条目" },
           { name: "株式会社セガ", short: "SEGA", status: "covered", note: "子会社 ATLUS 已建卡并标注 ATLUS（SEGA）；9/16 の TGS2026 開幕之夜で龍が如くスタジオの完全新規 IP『STRANGER THAN HEAVEN』（2027-01-15）が、9/17 には『クレイジータクシー ワールドツアー』の TGS プレイアブル出展が確定。2026-07-30 には GPTRACK50 の新規 IP『Stupid Never Dies』（10-21 発売）の共同パブリッシング体制を発表した", gameIds: ["persona-6", "persona-4-revival", "metaphor-refantazio-switch2", "stranger-than-heaven", "crazy-taxi-world-tour", "stupid-never-dies"] },
           { name: "株式会社バンダイナムコエンターテインメント", short: "Bandai Namco", status: "covered", gameIds: ["idolmaster-sidem-console", "blood-of-dawnwalker", "onepiece-marine-gourmet", "bleach-mirrors-high", "digimon-up", "ace-combat-8-wings-of-theve", "dragon-ball-xenoverse-3", "gundam-rogue-orbit", "kinnikuman-muscle-tag-match-reiwa", "gundam-blitz-order", "tales-of-eternia-remastered", "digimon-alysion", "gundam-battle-operation-3"] },
-          { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2"] },
+          { name: "株式会社スクウェア・エニックス", short: "Square Enix", status: "covered", gameIds: ["ff7-revelation", "ff-resonance", "kingdom-hearts-4", "dq-monsters-withered-world", "romancing-saga-3-destinies-united", "dragon-quest-xi-s-switch-2", "dq-rpg-makaitju"] },
           { name: "株式会社カプコン", short: "Capcom", status: "covered", gameIds: ["mhw-switch2-ascendance", "onimusha-way-of-the-sword", "mega-man-dual-override", "dragon-dogma-2-dark-arisen", "resident-evil-switch-2-trilogy"], note: "9/16 23:00 JST の「Capcom Spotlight | TGS 2026」で Monster Hunter Wilds: Ascendance／Dragon's Dogma 2: Dark Arisen／Mega Man: Dual Override／Street Fighter 6 の 4 本を扱う。9/9 の Nintendo Direct では『ロックマン デュアルオーバーライド』の 2027 年春発売に加え、『バイオハザード RE:2／RE:3／RE:4』の Nintendo Switch 2 版（10/16）も発表された" },
           { name: "株式会社コナミデジタルエンタテインメント", short: "KONAMI", status: "covered", gameIds: ["castlevania-classic-mobile", "rhapsody-in-scarlet", "project-zircon", "rev-noir", "suikoden-star-leap", "castlevania-belmonts-curse", "silent-hill-townfall", "yu-gi-oh-tag-force-gx"] },
           { name: "株式会社コーエーテクモゲームス", short: "Koei Tecmo", status: "covered", gameIds: ["wo-long-2-wings-of-ember", "attack-on-titan-3", "atelier-karia", "haruka-ryugu-no-miko", "nobunaga-hishou", "sophiechat-ai", "dynasty-warriors-3-complete-edition-remastered", "apothecary-diaries-false-imperial-brother"], note: "Team NINJA の『Wo Long 2: Wings of Ember』を 2027-03-04 に世界同時発売決定（9/16、TGS2026 開幕前夜に発表）。シリーズ第 1 作は 2023 年 3 月の『Wo Long: Fallen Dynasty』。女性向けブランド ルビーパーティー の『遙かなる時空の中で 龍宮の神子』（2025-11-28 サービス開始済み）も当社の自社配信タイトルで、2026-09-01 に新八葉 武田信玄 を追加、TGS2026 に出展した（9/19 14:30 の TGS2026 特別ステージで『信長の野望・飛翔』の都市築内政復活・主題歌・企業コラボ・発売時期を発表。9/10 には東宝 TOHO Games と共同で『薬屋のひとりごと ～偽りの皇弟～』（開発：ガスト／2027 年初頭、Switch 2・Switch・PS5・Steam）を発表した）" },
@@ -13886,8 +14008,21 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-09 午前の部：バンダイナムコが『僕のヒーローアカデミア ULTRA RUMBLE モバイル』を正式発表し事前登録を開始した 1 件（11-05 の誌面先行分の漏収を補填）。条目 236 → 237、地図 99 社。",
+    headline: "11-09 夜の部：スクウェア・エニックスがスマホ向けコマンドRPG『ドラゴンクエストRPG 魔界樹と導かれし島』を電撃発表（トレーラーは 11-10 20:00）、バンダイナムコの『キン肉マン マッスルタッグマッチ 令和復活編』が配信開始。",
     history: [
+      {
+        at: "2026-11-09 19:00",
+        scene: "定時巡検（11-09 夜の部・09:14 以降の残区間）",
+        items: [
+          "【結論】増分区間＝11-09 09:14（前場コミット fa3d7c4）〜19:00。新規 2 件（純スマホ 1／跨平台 0／主机・PC 1）／既存更新 1 件、条目 237 → 239。",
+          "【新規・純スマホ】『ドラゴンクエストRPG 魔界樹と導かれし島』＝スクウェア・エニックスが 11-09 12:13 に電撃発表。スマホ向けコマンドRPGで iOS／Android、配信日・課金形態は未発表。公式X（@DQRPG_JP）を同時開設し、11-10 20:00 に約2分のアナウンストレーラーを YouTube プレミア公開する。日・英・韓・繁体字の4言語版を用意。",
+          "【更新・純スマホ】『キン肉マン マッスルタッグマッチ 令和復活編』＝11-09 に App Store／Google Play で配信開始（各 1,000 円・税込の買い切り）。参戦超人 50 名の内訳（超人総選挙2026 の上位20名＋29位・50位＋推薦分）が確定し、Bluetooth の 2P 対戦とタッグ名表示を実装。『週刊プレイボーイ』47号が総力24ページの特集を掲載。",
+          "【新規・主机PC】『クワイエット急行909号室』＝ドリコムの DRECOM CREATORS STUDIO が 11-09 16:40 に国内パブリッシングを発表。開発は STUDIO909 の Kazuhide Oka 氏、2027 年に Steam で発売予定・価格未定。7日間ループ×車両組み替え探索のミステリーADVで、体験版は配信中。",
+          "【見送り】①中国資本（スマホ新作のテスト募集・配信日発表 各 1 件、社名・作品名とも不記載）②韓国資本（NEXON 系の IP コラボ、Smilegate の事前登録中作）③稼働中タイトルのイベント・カード追加（プロセカ、ウマ娘、バンドリ、雀魂）④海外産 Steam インディー小品（AppBank・gamebiz 11-09 分の大半）⑤『続ポートピア連続殺人事件:忘却の埋葬』＝11-09 は第二弾キャスト解禁のみで、初報が窓内かを一次源で確定できず保留（Switch／Switch2／Steam・2027-03-04）。",
+          "【漏収核查】呪術廻戦・鬼滅の刃・ブルーロック・BLEACH・ホロライブ・ポケモンの 6 IP を IP 名で照合し、日方主導の未収録スマホ新作はゼロ（呪術廻戦 Phantom Parade は 3 周年イベント、BLEACH Soul Resonance は稼働中でいずれも口径外）。『ドラゴンクエスト』で新規 1 件を捕捉。Famitsu 期待榜は最新が 11-01 集計分のままで更新なし。",
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元は既登録のスクウェア・エニックス（新宿区新宿6-27-30・hq）とドリコム（50 社リスト・extra いずれにも未登録のため打点対象外）。住所・座標・officeKind・hqLat/hqLng の変更はゼロ。map.js は square-enix の games を 6 → 7 に更新。"
+        ]
+      },
       {
         at: "2026-11-09 09:00",
         scene: "定時巡検（11-09 午前の部・11-08 19:07 以降の残区間）",
@@ -13897,18 +14032,7 @@ window.OBSERVATORY = {
           "【漏収補填】本作は 11-05 に週刊少年ジャンプ誌面で先行判明していた（Gematsu が 11-04 23:49 EST に報道）が、11-05 場・11-08 場とも拾えていなかった。公式発表に合わせて本場で補填した。",
           "【見送り】①中国資本の作品（社名・作品名とも不記載。11-08〜09 に大型オープンワールドの公測日発表と予約2500万件の報道があったが紅線どおり不収録）②韓国資本（Nexon『TALESWEAVER MOBILE』、Netmarble 系 2 件）③稼働中タイトルのイベント・コラボ（雀魂×葬送のフリーレン大会、崩壊：スターレイル×横浜市、呪術廻戦 Phantom Parade）④海外産 Steam インディー小品（AppBank 11-08 分の大半）⑤『Hozy』PS5 版＝海外スタジオ。",
           "【漏収核查】呪術廻戦・鬼滅の刃・ブルーロック・ホロライブ・ポケモン・東京リベンジャーズの 6 IP を IP 名で照合し、『僕のヒーローアカデミア』で 1 件の漏収を発見（上記）。他 5 IP は日方主導の未収録スマホ新作ゼロ。Famitsu 期待榜は最新が 11-01 集計分のままで更新なし。",
-          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元は既登録のバンダイナムコエンターテインメント（東京都港区芝5-37-8 バンダイナムコ未来研究所・hq）で、住所・座標・officeKind・hqLat/hqLng の変更はゼロ。map.js は同社の games を 13 → 14 に更新し meta.asOf を 2026-11-09 へ。",
-          "【確認範囲】4Gamer RSS（11-08 18:00〜11-09 分は 2 本、うち 1 本が本場の新規条目）、gamebiz（新着／新作／事前登録／サービス終了）、AppBank ゲーム、ファミ通.com、Gematsu、Quest Board.JP。ツール：node --check／validate.js（失敗 0）／audit-collection.js（硬違例 0）／geo-check.js（要確認 0 件）。"
-        ]
-      },
-      {
-        at: "2026-11-08 19:00",
-        scene: "定時巡検（11-08 夜の部・09:12 以降の残区間）",
-        items: [
-          "【結論】増分区間＝11-08 09:12（前場コミット 0e44842、meta.updatedAt 09:12）〜19:00。新規 0 件／既存更新 1 件、条目 236 で変わらず。",
-          "【更新・主机PC】『枷檻累々―うら黄泉照らす鬼灯夜―』＝11-08 17:00 に 4Gamer が初報映像と登場キャラクター5名（伊折・都紀・観果・菜葱・梗）を公開。AGF2026 の会場限定公開だった映像が公式解禁となり、背景美術と各キャラのキャッチコピーも判明した。発売は 2027 年 Switch ダウンロード専用、声優・物語詳細・価格は未発表のまま。bucket は new（本体は 11-02 に窓内初出）を維持し、capturedAt のみ 11-08 へ更新。",
-          "【見送り】①中国資本の作品（社名・作品名とも不記載）②香港資本のオープンワールド大作（同）③稼働中タイトルのイベント・周年・コラボ（呪術廻戦 Phantom Parade 3 周年、鳴潮 Ver.3.8、ホロライブ Dreams の韓国イベント等）④『アルカナ・ファミリア 幽霊船の魔術師』Switch／Steam＝2012 年 PSP 版の移植で本体が窓外 ⑤ハピネット『Lost Museum -カイガミ追想譚-』＝資本構成を一次源で確定できず保留 ⑥海外産 Steam インディー小品。",
-          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10）。住所・座標・officeKind・hqLat/hqLng の変更はゼロ。geo-check.js は要確認 0 件。"
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元は既登録のバンダイナムコエンターテインメント（東京都港区芝5-37-8 バンダイナムコ未来研究所・hq）で、住所・座標・officeKind・hqLat/hqLng の変更はゼロ。map.js は同社の games を 13 → 14 に更新し meta.asOf を 2026-11-09 へ。"
         ]
       }
     ]

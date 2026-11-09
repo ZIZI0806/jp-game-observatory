@@ -138,7 +138,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都新宿区新宿6-27-30 新宿イーストサイドスクエア", pref: "東京都",
       lat: 35.696678, lng: 139.707687, hqLat: 35.696678, hqLng: 139.707687, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/square-enix.ico", games: 6,
+      logo: "assets/logo/square-enix.ico", games: 7,
       match: ["スクウェア・エニックス", "Square Enix"],
       top: {"t":"FINAL FANTASY XIV","b":"サブスクリプション型で同社の長期収益の柱"},
       eq: [
