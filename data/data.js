@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-09T19:00:00+08:00",
-    edition: "2026-11-09",
-    window: "2026-09-09 ~ 2026-11-09（滚动最近 2 个月）",
+    updatedAt: "2026-11-10T09:58:00+08:00",
+    edition: "2026-11-10",
+    window: "2026-09-10 ~ 2026-11-10（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -9434,15 +9434,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社エディア（女性向けブランド：MintLip+）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-10-19（正式タイトル『アストライアの罪咎』と 2027-03-25 の発売日を発表）",
-      capturedAt: "2026-10-20",
+      announceDate: "2026-11-09（第2弾PV公開・メインキャスト6名のボイス解禁）",
+      capturedAt: "2026-11-10",
       title: { jp: "アストライアの罪咎", cn: "阿斯特莱亚的罪咎", en: "Astraea no Zaikyou" },
       genre: "女性向け 本格クライムサスペンス × 恋愛アドベンチャー",
       platforms: ["Nintendo Switch"],
       release: "2027-03-25（Nintendo Switch／Switch Lite。通常版・ダウンロード版 8,580 円、特装版 14,080 円・いずれも税込）",
       releasePrecision: "日",
       summary: "エディアが 2025-09-30 に設立した女性向けコンシューマーブランド「MintLip+」の完全新規タイトル第 1 弾。2026-10-13 に『PROJECT SIGN：Astraea』の仮名でティザーサイトを開いていた企画が、10-19 に正式タイトル『アストライアの罪咎』と 2027-03-25 の発売日、メインキャスト、製品仕様を公開して予約受付を開始した。主人公レベッカ・アシュレイは相棒の失踪捜査が打ち切られたことを機にガルテナス連邦警察局（GFPA）へ入局し、「最終処分場」と呼ばれる第 11 情報調査室（通称イレブン）へ配属される。表向きは雑用部署だが、実態は国家の重大事件を扱う専門部署で、一癖ある仲間たちと犯罪の最前線に身を投じる。キャラクターデザインはウエハラ蜂、メインシナリオは御門蓮。",
-      highlight: "【2026-10-19 正式タイトルと発売日 2027-03-25 を発表】エディアの MintLip+ 第 1 弾が『アストライアの罪咎』として正式発表され、Switch で 2027-03-25 に発売、同日から予約受付が始まった。通常版・DL 版 8,580 円、特装版 14,080 円（いずれも税込）で、1st PV とメインキャスト 7 名も公開された。　10-13 に『PROJECT SIGN：Astraea』の仮名でティザーを出していた企画の続報にあたり、窓口内で本体が初めて具体化したもの。",
+      highlight: "【2026-11-09 第2弾PVでメインキャスト6名のボイスを解禁】エディアの MintLip+ 第 1 弾『アストライアの罪咎』が、第 1 弾 PV の映像にアクセル（石川界人）・ユアン（岡本信彦）・リアム（小西克幸）・ロレンツォ（古川慎）・ルイス（木村良平）・ジャン（鈴木崚汰）のボイスを重ねた 2nd PV を公式 X と YouTube で公開した。　11-07・08 開催の AGF2026 ティームエンタテインメントブースで先行上映されたものを一般公開した形で、Switch 2027-03-25 発売・予約受付中という本体の枠組みは変わらない。",
       console: {
         status: "2027-03-25 発売予定（予約受付中）",
         os: ["Nintendo Switch", "Nintendo Switch Lite"],
@@ -9466,6 +9466,7 @@ window.OBSERVATORY = {
         cast: "レベッカ・アシュレイ（主人公／ボイスなし）、アクセル・バレット：石川界人、ユアン・ライネス：岡本信彦、リアム・レミントン：小西克幸、ロレンツォ・カルヴァノ：古川慎、ルイス・ベルテ：木村良平、ジャン・ウォーカー：鈴木崚汰（サブキャラクターは後日公開）"
       },
       news: [
+        { source: "4Gamer（第2弾PV公開・メインキャスト6名のボイス、AGF2026 での先行上映）", url: "https://www.4gamer.net/games/949/G094998/20261109047/" },
         { source: "AppBank（正式タイトル・発売日・価格・キャスト・スタッフ・公式URL）", url: "https://www.appbank.net/2026/10/20/game/3137751.php" },
         { source: "4Gamer（ティザーサイト公開、10-19 12:00 の「資料」公開と主要スタッフ）", url: "https://www.4gamer.net/games/949/G094998/20261010012/" },
         { source: "INSIDE（ティザーサイト公開の報道）", url: "https://www.inside-games.jp/article/2026/10/13/189162.html" }
@@ -13949,20 +13950,20 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-11-01",
+    asOf: "2026-11-08",
     source: "Famitsu 週刊ファミ通 読者期待榜",
-    url: "https://www.163.com/dy/article/LAO4RG9005561FY7.html",
+    url: "https://nintendoeverything.com/famitsus-most-wanted-games-november-8-2026/",
     list: [
-      { rank: 1, title: "Zelda: Ocarina of Time", platform: "NS2", votes: 716 },
-      { rank: 2, title: "Pokemon Winds / Waves", platform: "NS2", votes: 572 },
-      { rank: 3, title: "Persona 4 Revival", platform: "PS5", votes: 461 },
-      { rank: 4, title: "Persona 6", platform: "PS5", votes: 429 },
-      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 403 },
-      { rank: 6, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 392 },
-      { rank: 7, title: "Grand Theft Auto 6", platform: "PS5", votes: 307 },
-      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 207 },
-      { rank: 9, title: "Xenoblade Genesis", platform: "NS2", votes: 186 },
-      { rank: 10, title: "Professor Layton and the New World of Steam", platform: "NS2", votes: 154 }
+      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 610 },
+      { rank: 2, title: "Persona 4 Revival", platform: "PS5", votes: 435 },
+      { rank: 3, title: "Persona 6", platform: "PS5", votes: 429 },
+      { rank: 4, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 421 },
+      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 360 },
+      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 297 },
+      { rank: 7, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 249 },
+      { rank: 8, title: "Xenoblade Genesis", platform: "NS2", votes: 233 },
+      { rank: 9, title: "Professor Layton and the New World of Steam", platform: "NS2", votes: 159 },
+      { rank: 10, title: "Persona 6", platform: "NS2", votes: 148 }
     ]
   },
 
@@ -14008,8 +14009,20 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-09 夜の部：スクウェア・エニックスがスマホ向けコマンドRPG『ドラゴンクエストRPG 魔界樹と導かれし島』を電撃発表（トレーラーは 11-10 20:00）、バンダイナムコの『キン肉マン マッスルタッグマッチ 令和復活編』が配信開始。",
+    headline: "11-10 朝の部：夜間〜早朝の国内新規発表はゼロで条目 239 のまま。エディア『アストライアの罪咎』が第 2 弾 PV でメインキャスト 6 名のボイスを解禁し、Famitsu 期待榜は 11-08 集計分（1 位 Pokemon Winds/Waves）に更新した。",
     history: [
+      {
+        at: "2026-11-10 09:00",
+        scene: "定時巡検（11-10 午前の部・11-09 19:09 以降の残区間）",
+        items: [
+          "【結論】増分区間＝11-09 19:09（前場コミット e816499）〜11-10 09:55。新規 0 件／既存更新 1 件、条目は 239 のまま（純スマホ 53／跨平台 19／主机・PC 167）。",
+          "【更新・主机PC】『アストライアの罪咎』＝エディアの MintLip+ 第 1 弾が 11-09 21:19 に第 2 弾 PV を公開。第 1 弾 PV の映像にメインキャスト 6 名のボイスを重ねたもので、アクセル＝石川界人、ユアン＝岡本信彦、リアム＝小西克幸、ロレンツォ＝古川慎、ルイス＝木村良平、ジャン＝鈴木崚汰。11-07・08 の AGF2026 ティームエンタテインメントブースでの先行上映を経ての一般公開。Switch・2027-03-25 発売、通常版 8,580 円／特装版 14,080 円は変更なし。",
+          "【増分の実態】夜間〜早朝の国内新規発表はゼロ。4Gamer の 11-10 00:00〜08:00 は 4 本のみで、内訳は『ホロじゃん』媒体先行体験会レポート（発売日 11-25 は既報）、海外産『Beholder 4』、Golden Joystick Awards 2026 の配信告知、『シーオブレムナンツ』CBT（中国資本のため口径外）。AppBank・gamebiz・ファミ通・INSIDE はいずれも 11-09 19 時台で更新が止まっており、朝の発表帯（10 時〜）は次場の担当。",
+          "【見送り】①中国資本 2 件（スマホ向け新作の CBT 開始＝12-04、大型オープンワールドの公測日報道。社名・作品名とも不記載）②『ホロライブ麻雀 -ホロじゃん-』の体験会レポート＝本体の窓内初出は 10-09 で既収録、新規判明が実装タレント内訳・親密度システム・月次イベント構想にとどまり、⑦f の構造的展開（他機種版／発売日確定・変更／運営終了）に当たらないため更新せず③稼働中タイトルのイベント・コラボ（プロセカ、原神×マクドナルド、雀魂×葬送のフリーレン、呪術廻戦 Phantom Parade 3 周年）④海外産 Steam インディー小品（Beholder 4 ほか）。",
+          "【漏収核查】呪術廻戦（Phantom Parade は 3 周年イベントのみ）・鬼滅の刃・ブルーロック（BLUE LOCK PWC は稼働中）・BLEACH（Mirrors High 稼働中）の 4 IP を日英両表記で照合 → 日方主導の未収録スマホ新作はゼロ。Famitsu 期待榜は 11-08 集計分（投票期間 10-21〜27）が新規に出ていたため mostWanted を 11-01 → 11-08 に更新（1 位 Pokemon Winds/Waves 610 票、Zelda 時のオカリナは発売により圏外）。",
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目ゼロのため各社 games の増減もゼロ、住所・座標・officeKind・hqLat/hqLng の変更なし。map.js は meta.asOf のみ 2026-11-10 へ更新。",
+        ]
+      },
       {
         at: "2026-11-09 19:00",
         scene: "定時巡検（11-09 夜の部・09:14 以降の残区間）",
@@ -14021,18 +14034,6 @@ window.OBSERVATORY = {
           "【見送り】①中国資本（スマホ新作のテスト募集・配信日発表 各 1 件、社名・作品名とも不記載）②韓国資本（NEXON 系の IP コラボ、Smilegate の事前登録中作）③稼働中タイトルのイベント・カード追加（プロセカ、ウマ娘、バンドリ、雀魂）④海外産 Steam インディー小品（AppBank・gamebiz 11-09 分の大半）⑤『続ポートピア連続殺人事件:忘却の埋葬』＝11-09 は第二弾キャスト解禁のみで、初報が窓内かを一次源で確定できず保留（Switch／Switch2／Steam・2027-03-04）。",
           "【漏収核查】呪術廻戦・鬼滅の刃・ブルーロック・BLEACH・ホロライブ・ポケモンの 6 IP を IP 名で照合し、日方主導の未収録スマホ新作はゼロ（呪術廻戦 Phantom Parade は 3 周年イベント、BLEACH Soul Resonance は稼働中でいずれも口径外）。『ドラゴンクエスト』で新規 1 件を捕捉。Famitsu 期待榜は最新が 11-01 集計分のままで更新なし。",
           "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元は既登録のスクウェア・エニックス（新宿区新宿6-27-30・hq）とドリコム（50 社リスト・extra いずれにも未登録のため打点対象外）。住所・座標・officeKind・hqLat/hqLng の変更はゼロ。map.js は square-enix の games を 6 → 7 に更新。"
-        ]
-      },
-      {
-        at: "2026-11-09 09:00",
-        scene: "定時巡検（11-09 午前の部・11-08 19:07 以降の残区間）",
-        items: [
-          "【結論】増分区間＝11-08 19:07（前場コミット d711bb9）〜11-09 09:00。新規 1 件（純スマホ 1／跨平台 0／主机・PC 0）／既存更新 0 件、条目 236 → 237。",
-          "【新規・純スマホ】『僕のヒーローアカデミア ULTRA RUMBLE モバイル』＝11-09 00:00 にバンダイナムコエンターテインメントが正式発表し、App Store／Google Play で事前登録を開始（4Gamer 20261105059／Gematsu 11-08 10:00 EST＝日本時間 11-09 00:00）。8チーム×3人＝24人のバトルロイヤルをスマホ向けに再設計して試合時間を短縮、「\"個性\"技カード」で個性を強化、一般市民の救助が役割ごとに勝敗を左右する。30万人達成で緑谷出久・爆豪勝己・轟焦凍・オールマイトの「1億部記念コスチューム」＋ガシャチケット最大200枚（モバイル版限定）。家庭用・PC版とはクロスプレイ／クロスプログレッション非対応で、iOS／Android 間のみ相互対戦可。配信日は未定。",
-          "【漏収補填】本作は 11-05 に週刊少年ジャンプ誌面で先行判明していた（Gematsu が 11-04 23:49 EST に報道）が、11-05 場・11-08 場とも拾えていなかった。公式発表に合わせて本場で補填した。",
-          "【見送り】①中国資本の作品（社名・作品名とも不記載。11-08〜09 に大型オープンワールドの公測日発表と予約2500万件の報道があったが紅線どおり不収録）②韓国資本（Nexon『TALESWEAVER MOBILE』、Netmarble 系 2 件）③稼働中タイトルのイベント・コラボ（雀魂×葬送のフリーレン大会、崩壊：スターレイル×横浜市、呪術廻戦 Phantom Parade）④海外産 Steam インディー小品（AppBank 11-08 分の大半）⑤『Hozy』PS5 版＝海外スタジオ。",
-          "【漏収核查】呪術廻戦・鬼滅の刃・ブルーロック・ホロライブ・ポケモン・東京リベンジャーズの 6 IP を IP 名で照合し、『僕のヒーローアカデミア』で 1 件の漏収を発見（上記）。他 5 IP は日方主導の未収録スマホ新作ゼロ。Famitsu 期待榜は最新が 11-01 集計分のままで更新なし。",
-          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元は既登録のバンダイナムコエンターテインメント（東京都港区芝5-37-8 バンダイナムコ未来研究所・hq）で、住所・座標・officeKind・hqLat/hqLng の変更はゼロ。map.js は同社の games を 13 → 14 に更新し meta.asOf を 2026-11-09 へ。"
         ]
       }
     ]
