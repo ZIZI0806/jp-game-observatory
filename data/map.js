@@ -268,7 +268,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都港区六本木6-11-1 六本木ヒルズゲートタワー", pref: "東京都",
       lat: 35.658768, lng: 139.731949, hqLat: 35.658768, hqLng: 139.731949, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 1,
+      logo: null, games: 2,
       match: ["グリー", "GREE"],
       top: {"t":"釣り★スタ","b":"同社のフィーチャーフォン期最大のヒット"},
       eq: [
@@ -657,7 +657,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区神田神保町2-10-4 PMO神保町10F", pref: "東京都",
       lat: 35.697018, lng: 139.75592, hqLat: 35.697018, hqLng: 139.75592, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/shueisha-games.png", games: 5,
+      logo: "assets/logo/shueisha-games.png", games: 6,
       match: ["集英社ゲームズ", "Shueisha Games"],
       top: null,
       eq: [
