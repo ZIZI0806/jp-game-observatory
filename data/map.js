@@ -709,7 +709,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都立川市曙町2-8-18 東京建物ファーレ立川ビル", pref: "東京都",
       lat: 35.700932, lng: 139.414276, hqLat: 35.700932, hqLng: 139.414276, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/nihon-falcom.png", games: 2,
+      logo: "assets/logo/nihon-falcom.png", games: 3,
       match: ["日本ファルコム", "ファルコム", "Nihon Falcom"],
       top: {"t":"英雄伝説 軌跡 シリーズ","b":"同社の主力シリーズ"},
       eq: [
