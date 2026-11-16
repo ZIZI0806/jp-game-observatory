@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-12",
+    asOf: "2026-11-16",
     count: 99,
     onMap: 89,
     outsideTokyo: 10,
@@ -1284,7 +1284,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都千代田区一ツ橋2-4-3 光文恒産ビル7F", pref: "東京都",
       lat: 35.694088, lng: 139.757599, hqLat: 35.694088, hqLng: 139.757599, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 3,
+      logo: null, games: 4,
       match: ["エディア", "Edia", "MintLip"],
       top: null,
       eq: [
