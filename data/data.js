@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-16T17:00:00+08:00",
-    edition: "2026-11-16",
-    window: "2026-09-16 ~ 2026-11-16（滚动最近 2 个月）",
+    updatedAt: "2026-11-17T19:00:00+08:00",
+    edition: "2026-11-17",
+    window: "2026-09-17 ~ 2026-11-17（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -3764,7 +3764,7 @@ window.OBSERVATORY = {
       kvSrc: "cgmagonline.com",
       company: "Wright Flyer Studios",
       companyJp: "株式会社ライトフライヤースタジオ（開発協力：Studio Prisma）",
-      bucket: "new",
+      bucket: "update",
       platformClass: "console",
       announceDate: "2026-09-17（TGS2026 ハピネット展台 6 号館 N04 に出品）",
       capturedAt: "2026-09-17",
@@ -6169,15 +6169,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社スパイク・チュンソフト",
       bucket: "update",
       platformClass: "console",
-      announceDate: "2026-09-20（日本ゲーム大賞 2026 フューチャー部門 受賞／TGS2026 ハピネット展台に出展）",
-      capturedAt: "2026-09-20",
+      announceDate: "2026-11-16（学級裁判の新ミニゲーム「議論コレクト」発表・システム紹介映像公開）",
+      capturedAt: "2026-11-17",
       title: { jp: "スーパーダンガンロンパ2×2", cn: "超级弹丸论破 2×2", en: "Super Danganronpa 2x2" },
       genre: "ハイスピード推理アクション（リメイク）",
       platforms: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Xbox Series X|S", "PC (Steam / Epic Games Store)"],
       release: "2027-01-14（世界同時）",
       releasePrecision: "日",
-      summary: "2012 年《超级弹丸论破 2 再见绝望学园》的重制版。2025-09 的 Nintendo Direct 首次公布，原定 2026 年内、2026-07-03 宣布延至 2027 年初，最终于 2026-09-09 的 Nintendo Direct 确定为 2027-01-14 全球同日发售，对应 Switch 2／Switch／PS5／Xbox Series X|S／PC（Steam／Epic Games Store）。画面与动画全面翻新，并收录与原版不同的全新剧情模式「Slayhem」，地图也从横向卷轴改为可自由探索的 3D 世界地图。2026-08-26 官方宣布北美与欧洲的 Switch 2 实体版由真卡带改为 Game-Key Card 形式。2026-09-20 在日本游戏大奖 2026「未来部门」（未发售参展作品、由玩家投票选出）获奖。",
-      highlight: "【TGS2026 9/20】日本ゲーム大賞 2026 フューチャー部門を受賞（537 作品中 10 本）。同日ハピネット 展台（6 号馆 N04）に出展。　2027-01-14 の発売に向けて 9/09 の Nintendo Direct で日付が確定し、8/26 には北米・欧州の Switch 2 パッケージ版が Game-Key Card 形式へ変更されることが告知された。",
+      summary: "2012 年《超级弹丸论破 2 再见绝望学园》的重制版。2025-09 的 Nintendo Direct 首次公布，原定 2026 年内、2026-07-03 宣布延至 2027 年初，最终于 2026-09-09 的 Nintendo Direct 确定为 2027-01-14 全球同日发售，对应 Switch 2／Switch／PS5／Xbox Series X|S／PC（Steam／Epic Games Store）。画面与动画全面翻新，并收录与原版不同的全新剧情模式「Slayhem」，地图也从横向卷轴改为可自由探索的 3D 世界地图。2026-08-26 官方宣布北美与欧洲的 Switch 2 实体版由真卡带改为 Game-Key Card 形式。2026-09-20 在日本游戏大奖 2026「未来部门」（未发售参展作品、由玩家投票选出）获奖。2026-11-16 官方公布学级裁判的新迷你游戏「議論コレクト」（Akimbo Consensus）：面对互相矛盾的证言，玩家要用「赞成／反驳」两种真相子弹逐条裁决，形成「合意」后由玩家决定接下来的议题（三选一）；该系统仅在全新剧情模式「Slayhem」中生效，并与主角日向创被其他学生挑战时的「反驳对决」联动。同日公开系统介绍影像，并确认《V3》的「议论 Scrum」也会在 Slayhem 模式的「狂气模式」中登场。",
+      highlight: "【11-16 新システム「議論コレクト」発表】スパイク・チュンソフトが学級裁判の新ミニゲームを公開し、システム紹介映像を配信した。対立する証言に「賛成／反論」の真実の弾を撃ち分けて議論の方向を決め、合意がまとまれば次の議題 3 択へ進む。『V3』の議論スクラムは「キョウキモード」に登場。　2027-01-14 の世界同時発売に向け、9/09 の Nintendo Direct で日付が確定し、8/26 には北米・欧州の Switch 2 パッケージ版が Game-Key Card 形式へ変更されることが告知された。",
       console: {
         status: "2027年1月14日発売予定（世界同時）",
         os: ["Nintendo Switch 2", "Nintendo Switch", "PlayStation 5", "Xbox Series X|S", "PC（Steam / Epic Games Store）"],
@@ -6203,14 +6203,18 @@ window.OBSERVATORY = {
       news: [
         { source: "スパイク・チュンソフト 公式サイト（Danganronpa 2×2 リリース情報・お知らせ）", url: "https://www.spike-chunsoft.com/" },
         { source: "Yomimono（日本ゲーム大賞 2026 フューチャー部門 受賞 10 タイトル／GAME Watch 出典）", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" },
-        { source: "Inven Global（フューチャー部門 授賞式の模様）", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" }
+        { source: "Inven Global（フューチャー部門 授賞式の模様）", url: "https://www.invenglobal.com/articles/26262/10-new-titles-at-tgs-japan-game-awards-future-division-ceremony-held" },
+        { source: "ファミ通（2026-11-16 学級裁判の新システム「議論コレクト」とシステム紹介映像・『V3』議論スクラムのキョウキモード登場）", url: "https://www.famitsu.com/article/202611/94244" },
+        { source: "AppBank（2026-11-17 学級裁判の新システム「議論コレクト」判明・システムトレーラー公開・1 月 14 日発売）", url: "https://www.appbank.net/2026/11/17/game/3168665.php" },
+        { source: "4Gamer（2026-11-17 議論コレクトの内容とシステムトレーラー）", url: "https://www.4gamer.net/games/945/G094561/20261117021/" }
       ],
       videos: [
         { label: "スパイク・チュンソフト 公式サイト（最新映像・お知らせ）", platform: "官方站", url: "https://www.spike-chunsoft.com/" },
-        { label: "Yomimono 報道（フューチャー部門 受賞 10 作品）", platform: "媒体", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" }
+        { label: "Yomimono 報道（フューチャー部門 受賞 10 作品）", platform: "媒体", url: "https://www.yomimono.id/japan-game-awards-2026-future-division-names-10-winners" },
+        { label: "4Gamer 記事（システムトレーラーとスクリーンショット）", platform: "媒体", url: "https://www.4gamer.net/games/945/G094561/20261117021/" }
       ],
       hype: {
-        score: 74,
+        score: 76,
         signals: [
           "日本ゲーム大賞 2026 フューチャー部門（537 作品から一般投票で 10 本）に選出",
           "国内外でカルト的人気を持つ推理 ADV シリーズの看板タイトルのリメイク",
@@ -8030,19 +8034,19 @@ window.OBSERVATORY = {
       companyJp: "株式会社ライドオンジャパン",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-25（新作発表）",
-      capturedAt: "2026-09-28",
+      announceDate: "2026-11-17（PS5 版の発売日 2026-11-25 決定・価格 3,850 円を発表）",
+      capturedAt: "2026-11-17",
       title: { jp: "Mercenaries Grace: Black Feather and the Golden Right Arm", cn: "佣兵传说 黑羽与黄金右臂", en: "Mercenaries Grace: Black Feather and the Golden Right Arm" },
       genre: "タクティカルシミュレーション RPG（ストラテジー RPG）",
       platforms: ["PlayStation 5", "Nintendo Switch", "PC（Steam）"],
-      release: "2026-11（日本でのデジタル配信。英語版は時期未発表）",
-      releasePrecision: "月",
-      summary: "Rideon Japan（株式会社ライドオンジャパン）于 2026 年 9 月 25 日发表的战术 RPG 新作，属其长销系列 Mercenaries Saga 的最新一作（系列第 8 作）。预定 2026 年 11 月在日本以数字版形式登陆 PlayStation 5／Nintendo Switch／PC（Steam），英文版亦在准备中。玩家自行组建佣兵部队，在四分之一视角的网格地图上推进战斗，角色可通过升级或装备专属技能与装备来强化。本作最大的变化是废弃了系列一贯的「我方全员行动完毕再交由敌方行动」的完整回合制，改为类似将棋与象棋的交替行动——我方 1 个单位行动后立刻由敌方 1 个单位行动，因此每一步都必须预判即时的反击风险。官方表示详情将后续公布。",
-      highlight: "【2026-09-25 新作発表】Rideon Japan が『Mercenaries Saga』シリーズ第 8 作を発表した。日本では 2026 年 11 月に PlayStation 5／Nintendo Switch／PC（Steam）向けのデジタル配信を予定し、英語版も準備中とされている。　戦闘システムをシリーズ従来の完全ターン制から、将棋・チェスのように自軍と敵軍が 1 体ずつ交互に行動する方式へ刷新したのが最大の変更点で、1 手ごとに反撃のリスクを読む必要がある。キャラクターデザインはイラストレーターの mitsu_plus が担当し、グラウセス王国の王位継承を巡る独立した物語が描かれる。",
+      release: "2026-11-25（PS5・日本／3,850 円）／Nintendo Switch 2026-12／PC（Steam）2027 年初頭",
+      releasePrecision: "日",
+      summary: "Rideon Japan（株式会社ライドオンジャパン）于 2026 年 9 月 25 日发表的战术 RPG 新作，属其长销系列 Mercenaries Saga 的最新一作（系列第 8 作）。预定 2026 年 11 月在日本以数字版形式登陆 PlayStation 5／Nintendo Switch／PC（Steam），英文版亦在准备中。玩家自行组建佣兵部队，在四分之一视角的网格地图上推进战斗，角色可通过升级或装备专属技能与装备来强化。本作最大的变化是废弃了系列一贯的「我方全员行动完毕再交由敌方行动」的完整回合制，改为类似将棋与象棋的交替行动——我方 1 个单位行动后立刻由敌方 1 个单位行动，因此每一步都必须预判即时的反击风险。官方当时仅表示详情将后续公布。2026-11-17 に機種ごとの発売日が判明し、PS5 版を 2026-11-25 に 3,850 円（税込）で発売、Nintendo Switch 版は 2026-12、PC（Steam）版は 2027 年初頭となった。",
+      highlight: "【11-17 PS5 版 11-25 発売決定】Rideon Japan が PlayStation 5 版を 2026-11-25 に 3,850 円（税込）で発売すると発表し、PS Store のストアページを開設した。Nintendo Switch 版は 2026-12、PC（Steam）版は 2027 年初頭で、機種ごとの段階配信となる。　2026-09-25 の新作発表時点では 3 機種同時・2026 年 11 月とされ、価格も未発表だった。",
       console: {
-        status: "2026年11月 発売予定（日本でのデジタル配信。英語版はリリース時期未発表）",
+        status: "2026-11-25 発売（PS5・日本）／Nintendo Switch 2026-12／PC（Steam）2027 年初頭",
         os: ["PlayStation 5", "Nintendo Switch", "PC（Steam）"],
-        monetization: "デジタル配信のみ（価格は未発表）",
+        monetization: "デジタル配信のみ。PS5 版 3,850 円（税込）、Nintendo Switch 版・Steam 版の価格は未発表",
         developer: "Rideon Japan（株式会社ライドオンジャパン）",
         publisher: "Rideon Japan（株式会社ライドオンジャパン）",
         region: "日本（日本語。英語版の制作も公式が認めている）",
@@ -8059,18 +8063,22 @@ window.OBSERVATORY = {
         ipSource: "ライドオンジャパンの自社シリーズ『Mercenaries Saga』（旧作に『Mercenaries Wings』『Mercenaries Lament』など）の完全新作。外部 IP のライセンスではなく、同社オリジナルの企画",
         series: "『Mercenaries Saga』はファイアーエムブレムやファイナルファンタジータクティクスに影響を受けたとされる日本のタクティカル RPG シリーズ。直近では 2025 年に『Mercenaries Lament: Requiem of the Silver Wolf』が PC（Steam）で配信され、Nintendo Switch・PlayStation 4・PlayStation 5 でも展開されている",
         cast: "未発表（キャラクターデザインはイラストレーターの mitsu_plus が担当）",
-        caution: "公式に公表されているタイトルは英語表記のみで、日本語版の正式タイトルは発表されていない。発売時期についても、Nintendo Everything は 2027 年と報じる一方、Gematsu 系の複数メディアは日本での 2026 年 11 月配信と報じており、報道間で相違がある（日本版は 2026 年 11 月とする報道が多数）"
+        caution: "公式に公表されているタイトルは英語表記のみで、日本語版の正式タイトルは発表されていない。2026-11-17 の公式発表で日本国内の機種別発売日が確定した（PS5 2026-11-25／Switch 2026-12／Steam 2027 年初頭）。発表当初に一部海外メディアが報じた 2027 年は誤りで、日本版は 2026 年 11 月で正しかった。英語版の時期は依然として未発表"
       },
       news: [
         { source: "Final Weapon（発表内容：対応機種・発売時期・シリーズ第 8 作・英語版準備中）", url: "https://finalweapon.net/2026/09/25/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-ps5-switch-and-pc" },
-        { source: "Nintendo Everything（Nintendo Switch 向け発表・戦闘システムとあらすじの概要）", url: "https://nintendoeverything.com/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-nintendo-switch/" }
+        { source: "Nintendo Everything（Nintendo Switch 向け発表・戦闘システムとあらすじの概要）", url: "https://nintendoeverything.com/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-nintendo-switch/" },
+        { source: "4Gamer（2026-11-17 PS5 版を 11-25 に発売決定・新 PV 公開）", url: "https://www.4gamer.net/games/045/G104563/20261116032/" },
+        { source: "AppBank（2026-11-17 PS5 版 11-25 発売・3,850 円／Switch は 12 月・Steam は 2027 年初頭）", url: "https://www.appbank.net/2026/11/17/game/3168589.php" },
+        { source: "PlayStation Store（PS5 版 ストアページ）", url: "https://store.playstation.com/ja-jp/concept/10020817" }
       ],
       videos: [
         { label: "Nintendo Everything 発表記事（初公開スクリーンショットと作品概要を掲載）", platform: "海外メディア", url: "https://nintendoeverything.com/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-nintendo-switch/" },
-        { label: "GameLoop 解説記事（発売時期の報道差と交互ターン制の解説）", platform: "海外メディア", url: "https://gameloop.gg/articles/mercenaries-grace-switch-announcement-leaves-release-timing-unclear-black-feather-golden-right" }
+        { label: "GameLoop 解説記事（発売時期の報道差と交互ターン制の解説）", platform: "海外メディア", url: "https://gameloop.gg/articles/mercenaries-grace-switch-announcement-leaves-release-timing-unclear-black-feather-golden-right" },
+        { label: "4Gamer 記事（PS5 版の新 PV とスクリーンショット）", platform: "媒体", url: "https://www.4gamer.net/games/045/G104563/20261116032/" }
       ],
       hype: {
-        score: 42,
+        score: 46,
         signals: [
           "『Mercenaries Saga』は日本と北米で複数作が Steam・Nintendo Switch・PlayStation 4／5 に展開されてきた息の長いシリーズで、第 8 作の発表として既存ファンに届いている",
           "Gematsu の報道を起点に RPGamer・Noisy Pixel・Nintendo Everything・Console Creatures など複数の海外メディアが一斉に取り上げ、英語圏のタクティカル RPG ファン層での露出を確保した",
@@ -14732,6 +14740,69 @@ window.OBSERVATORY = {
       },
       tags: ["主机PC", "新作", "RPG", "リマスター", "Switch", "エディア"]
     },
+    {
+      id: "seikon-no-artemist",
+      company: "Instansys",
+      companyJp: "合同会社Instansys",
+      bucket: "update",
+      platformClass: "mobile",
+      announceDate: "2026-11-16（配信日 2026-12-15 決定・事前登録受付開始）",
+      capturedAt: "2026-11-17",
+      title: { jp: "聖痕のアルテミスト", cn: "圣痕的阿尔忒弥斯特（官方未公布简中译名）", en: "Seikon no Artemist" },
+      genre: "ファンタジーコメディ×ローグライトタワーディフェンス RPG",
+      platforms: ["iOS", "Android"],
+      release: "2026-12-15",
+      releasePrecision: "日",
+      summary: "合同会社Instansys 于 2026-11-16 宣布，智能手机新作《聖痕のアルテミスト》定于 2026-12-15 配信，并同步开放事前登录（App Store 为预约订购／Google Play 为事前登录）。舞台是英雄养成所「セイント魔法学園」：父亲是魔王、母亲是圣女的少女アルタ隐藏身份潜入，目标是学园顶点「聖斗会」。玩法为奇幻喜剧×Roguelite 塔防 RPG——玩家编成伙伴挡住一波波敌军的进军，并撑过アルタ威力极高但咏唱极长的终极魔法《メドロノヴァ》；把地面上的属性场与另一属性叠加会触发反应（水×冰＝冻结、火×风＝扩散、火×雷＝燃烧），Burst 技能则用手指在画面上划出轨迹、把伙伴的强力一击打进指定位置。每次挑战从 3 张强化卡中选 1 张，辅以「加护树」的永久强化与用敌人掉落素材锻造的装备成长。基本游玩免费＋道具收费，战斗为像素画、剧情为立绘对话。官方同时公布 18 名角色的声优，11-16 起进行约两周的 β 测试。",
+      highlight: "【11-16 配信日決定・事前登録開始】合同会社Instansysが『聖痕のアルテミスト』を 2026-12-15 に配信すると発表し、App Store の予約注文と Google Play の事前登録を開始した。18 キャラクター分の声優と導入 PV も同時公開。　同作は 2026-07-06 の公式サイト開設で初出しており、本体の初出は観測窓の外。今回は「配信日の確定＋事前登録開始」という本体レベルの展開として記録する。ローグライト×タワーディフェンスに属性反応とドット絵を組み合わせ、詠唱が終わるまで主人公を守り切るという設計が軸。",
+      mobile: {
+        status: "事前登録受付中（2026-12-15 配信予定）",
+        os: ["iOS", "Android"],
+        monetization: "基本プレイ無料＋アイテム課金",
+        preReg: {
+          open: true,
+          since: "2026-11-16（App Store は予約注文／Google Play は事前登録）",
+          reward: "事前登録者全員に先行スタート特典を配布（内容の詳細は公式サイトの事前登録ページ参照）"
+        },
+        developer: "合同会社Instansys",
+        publisher: "合同会社Instansys",
+        region: "日本（日本語）",
+        distribution: "App Store（予約注文）／Google Play（事前登録）。配信開始時に通知され、それぞれのストアからダウンロードする形式",
+        payment: [],
+        ipSource: "オリジナル IP（特定の原作を持たない新規企画。© 2026 Instansys LLC）",
+        series: "シリーズなし（単独作）",
+        features: [
+          "地面に置いた属性の場に別の属性を重ねて反応を起こす。水×氷で凍結、火×風で拡散、火×雷で燃焼し、敵の群れをまとめて足止め・焼却できる",
+          "仲間を編成して迫り来る敵の進軍を食い止め、アルタの長い詠唱が終わるまで守り切るローグライトタワーディフェンス",
+          "バーストスキルは画面を指でなぞって狙った地点へ仲間の強力な一撃を撃ち込む操作系。バリアからあふれた回復は聖魔弾に変わる",
+          "挑戦ごとに強化カード 3 枚から 1 枚を選んで戦い方を組み立て、加護ツリーの恒久強化と、敵が落とす素材から鍛冶で作る装備で育てる",
+          "バトルはドット絵、ストーリーは立ち絵で進行。1 日 1 回のミニゲーム「朝ノヴァ」とオートプレイにも対応する"
+        ],
+        synopsis: "父が魔王、母が聖女という生まれながらの少女アルタは、人間と魔族の争いを再び起こさないため正体を隠して英雄養成所《セイント魔法学園》へ潜入し、学園の頂点《聖斗会》をめざす。ただし本人はひとりではスライムにも負けるほど弱く、切り札の最強魔法は詠唱が異常に長い。プレイヤーは個性豊かな仲間たちを編成して敵の進軍を止め、詠唱が完成する瞬間までアルタを守り抜く。",
+        cast: "アルタ：鈴代紗弓／セレーネ：本多真梨子／魔王：黒田浩一／ルーク・アルフレッド：大桃陽介／シトリー：本渡楓／ジャジャム：白石冬弥／サディアス：柳晃平／フレイヤ：春海百乃／ランファ：鈴木あやか／ロピ：積田陽乃香／オーウェン：中山亮太／パンナ：幸田ゆきの／ニコラス：優巴／マヤヤ・セリナ・デルルク：柳澤美月／ニア：栁桃香（18 キャラクター分を発表。残りは配信後に登場タイミングで順次発表）",
+        caution: "開発・配信は合同会社Instansys。法人の登記住所・資本構成を示す一次源（会社概要ページ）は公式サイト上で未確認のため、extra および会社地図への追加は見送った。事前登録者数は未公表。βテストは 11-16 から約 2 週間で、参加者には個別に案内が送付されている。"
+      },
+      news: [
+        { source: "AppBank（2026-11-16 配信日 2026-12-15 決定・事前登録開始・声優 18 名・βテスト実施・ゲーム内容）", url: "https://www.appbank.net/2026/11/16/game/3168035.php" },
+        { source: "公式サイト お知らせ（12 月 15 日配信決定・事前登録開始・声優陣と導入 PV 公開）", url: "https://ultemist.jp/news/release-date-cast-pv" },
+        { source: "App Store「聖痕のアルテミスト」（予約注文ページ）", url: "https://apps.apple.com/jp/app/id6743342428" },
+        { source: "Google Play「聖痕のアルテミスト」（事前登録ページ）", url: "https://play.google.com/store/apps/details?id=jp.co.instansys.ultemist" }
+      ],
+      videos: [
+        { label: "公式 YouTube チャンネル（導入 PV を公開）", platform: "YouTube", url: "https://www.youtube.com/@ultemist" },
+        { label: "App Store ページ（スクリーンショットと紹介映像）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6743342428" }
+      ],
+      hype: {
+        score: 38,
+        signals: [
+          "配信 1 か月前に 18 キャラクター分の声優（鈴代紗弓・本渡楓・本多真梨子ら）と導入 PV をまとめて公開し、発売前の情報出しとしては厚い",
+          "事前登録者数・βテスト参加者数はいずれも未公表で、Famitsu 期待榜にも未登場。発表を扱ったのは AppBank など国内スマホ系媒体が中心",
+          "「ローグライト×タワーディフェンス」に属性反応とドット絵を載せた企画で、同系統の競合が多いなか差別化は運営開始後のアップデート次第",
+          "運営は合同会社Instansys の単独パブリッシング。公式サイト開設は 2026-07-06 で、発表から配信までの露出期間は約 5 か月と短い"
+        ]
+      },
+      tags: ["手游", "定档", "事前登録", "ローグライト", "タワーディフェンス", "ファンタジー", "Instansys"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -14942,8 +15013,21 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-13〜16 の未巡検区間：国内スマホの新作発表・事前登録開始・配信開始は 4 日間でゼロ。動きは『JockeyBox』Android 版の事前登録と『デジモンアリシオン』の追加報酬のみ。主机・PC は MAGES. のガルパン麻雀など 3 本を追加。",
+    headline: "11-17：国内スマホの新作発表はゼロ。『聖痕のアルテミスト』が 12-15 配信決定・事前登録開始（初出は 7 月で窓外→update 記録）、主机・PC は『Mercenaries Grace』PS5 版 11-25 と『ダンガンロンパ2×2』の新システム映像を更新。",
     history: [
+      {
+        at: "2026-11-17 19:00",
+        scene: "定時巡検（11-17 夜の部）",
+        items: [
+          "【結論】増分区間＝11-16 17:00（前回コミット 31c1c86）〜11-17 19:00。新規 1 件（純スマホ 1／跨平台 0／主机・PC 0）／既存更新 2 件、条目 253 → 254（純スマホ 56／跨平台 20／主机・PC 178（console 140／pc 38）、スマホ区 76／主机・PC 区 198（multi 20 を含む））。国内スマホの「新作発表」はゼロで、動いたのは配信日決定と事前登録開始のみ。",
+          "【新規・スマホ】『聖痕のアルテミスト』（合同会社Instansys／iOS・Android／2026-12-15）＝11-16 に配信日を決定し、App Store の予約注文と Google Play の事前登録を開始。18 キャラクター分の声優と導入 PV を同時公開し、11-16 から約 2 週間の β テストも実施中。基本プレイ無料＋アイテム課金。初出は 2026-07-06 の公式サイト開設で窓外のため、bucket は update で記録する（前例：『ナイトメア・オペレーター』『覗怪』と同じ口径）。",
+          "【更新・主机PC】『Mercenaries Grace: Black Feather and the Golden Right Arm』＝Rideon Japan が 11-17 に PS5 版を 11-25 発売・3,850 円（税込）と発表。Nintendo Switch は 2026-12、PC（Steam）は 2027 年初頭で、PS Store のストアページも開設された。9-25 の新作発表時点では「2026 年 11 月に 3 機種同時デジタル配信」だったため、機種ごとの段階配信へ情報を更新した。",
+          "【更新・主机PC】『スーパーダンガンロンパ2×2』＝11-16 に学級裁判の新ミニゲーム「議論コレクト」を発表し、システム紹介映像を公開。対立する証言に対し「賛成／反論」の真実の弾を撃ち分けて議論の方向を決め、無事に合意をまとめると次の議題 3 択へ進む。『V3』の議論スクラムも「キョウキモード」に登場する。発売は 2027-01-14。",
+          "【見送り】①中国資本の新作・CBT 2 件（社名・作品名とも不記載）②韓国資本（Netmarble『七つの大罪：Origin』生放送、Gravity『RO Lite - Match』全球配信、Com2uS『Cartoon Wars』Steam 版）③台湾 Imanity 開発・松竹ゲームズ発行の『Estella』（開発が海外のため、従来の松竹案件と同じ口径で見送り）④稼働中タイトルのイベント・アップデート（テイペンウォーズ 3 周年、モンモンマスターズ リブート、白猫プロジェクト グッズ、NIKKE 新ニケ、ポケモン GO×Duolingo）⑤体験版・DLC・セール・物販（桃鉄2 体験版、スプラトゥーン レイダース 体験版、カプコン／セガ／スクエニの Black Friday）⑥『ナイト・アンド・ドラゴン外伝』（dgjam studio／iOS 11-16 配信）は開発元の法人格・資本構成を一次源で確認できず保留。",
+          "【漏収核查】呪術廻戦・ブルーロック・ホロライブ・東京リベンジャーズ・ポケモン・刀剣乱舞の 6 IP を照合 → 未収録の日方主導スマホ新作はゼロ。ホロライブは『ホロじゃん』（11-25 配信）ほか既収録 4 本で確認、刀剣乱舞は当日の発表が TV アニメ関連のみだった。",
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。本場の新規条目は 50 家リスト・extra とも未登録の Instansys のため games 再計算のドリフトなし。住所・座標・officeKind・hqLat/hqLng の変更なし、meta.asOf のみ 2026-11-17 へ更新。"
+        ]
+      },
       {
         at: "2026-11-16 17:00",
         scene: "追補巡検（前回コミット 11-12 19:06 以降の未巡検区間 11-13〜16 をまとめて処理）",
@@ -14957,18 +15041,6 @@ window.OBSERVATORY = {
           "【見送り】①香港資本のスマホ麻雀（法人登記が香港のため厳格に不収録。社名・作品名とも不記載）②韓国 IP の MMORPG 国内サービス開始発表（ガンホー）③稼働中タイトルのイベント・ガチャ・コラボ（ウマ娘×F1、プリコネ×ウマ娘、モンスト×無職転生、学マス、パワプロアプリ、MJ×ヤニねこ ほか）④海外資本の新作・CBT（韓国 Sile、台湾の個人開発、ScorpTerra Studio ほか）⑤松竹ゲームズがアジアパブリッシングのみ担当する 2 作（開発は海外）⑥TCG・物販・セール・決算・株価・eスポーツ。",
           "【漏収核查】呪術廻戦・ホロライブ・ブルーロック・東京リベンジャーズ・名探偵コナン・ポケモンの 6 IP を日英中で照合 → 未収録の日方主導スマホ新作はゼロ。呪術廻戦は稼働中の『ファントムパレード』（開発 Sumzap／発行は中資系のため既存条目なし）、東京リベンジャーズは『UNLIMITED』が 2026-02-26 配信で窓外、ホロライブは『ホロじゃん』ほか 4 本を既収録で確認。",
           "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。本場で games が動いたのはエディア（3 → 4、『天使の詩 Memorial Collection』追加）のみ。MAGES.・Hot Tea Works は 50 家リスト・extra とも未登録のため追加せず。住所・座標・officeKind・hqLat/hqLng の変更なし、meta.asOf を 2026-11-16 へ更新。"
-        ]
-      },
-      {
-        at: "2026-11-12 19:00",
-        scene: "定時巡検（11-12 夜の部・15:22 以降の残区間）",
-        items: [
-          "【結論】増分区間＝11-12 15:22（朝の部コミット 825efc4）〜19:00。新規 0 件／既存更新 1 件、条目 250 で不変。国内スマホの新規発表・事前登録開始・配信開始はいずれもゼロ。",
-          "【更新・主机PC】『ロマンシング サガ3 デスティニーユナイテッド』＝スクウェア・エニックスが 11-12 16:58 までに発売日を 2027-02-16 から 2027-02-04 へ前倒しすると発表（Steam 版は 02-05）。Switch 2／Switch のダウンロード版は現行予約がキャンセル扱いとなり、再受付は 11-26 頃。DL 版の「予約特典」は「早期購入特典 特典装飾品セット」へ、デジタルデラックス版の 72 時間アーリーアクセスは 02-01 0:00 開始（Steam は 02-02 2:00）へ変更。",
-          "【増分の実態】4Gamer の 11-12 は 17:34 まで確認。gamebiz は 11:00 の海外資本 CBT が最後で新作枠は 11-11 13:20 から停止、AppBank の 11-12 は物販・amiibo・海外産が中心、ファミ通は 18 時台に『MONOMOON』発売と『にゃんこ』TCG のみ。",
-          "【見送り】他機種版（グリム・ガーディアンズ Switch 2 版体験版、メタファー／Stray／パラソーシャルの Switch 2 版）／稼働中タイトルのイベント・コラボ／中国資本の新作・CBT／海外産 Steam 小品／TCG・amiibo・物販・eスポーツ・セール。",
-          "【運営終了・記録のみ】ガンホーの Apple Arcade 向け『パズル＆ドラゴンズ ストーリー』が 2026-11-20 をもって配信終了（11-11 発表）。本体は窓外のため条目化せず。",
-          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10）。本場の更新は既登録のスクウェア・エニックス案件のため map.js は diff なし。"
         ]
       }
     ]
