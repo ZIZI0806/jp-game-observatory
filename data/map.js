@@ -745,10 +745,10 @@ window.OBSERVATORY_MAP = {
     {
       id: "ctw", name: "CTW株式会社", short: "CTW",
       tier: "small", color: "#4da3ff",
-      addr: "東京都港区六本木1-9-10 アークヒルズ仙石山森タワー29F", pref: "東京都",
-      lat: 35.663464, lng: 139.741165, hqLat: 35.663464, hqLng: 139.741165, precision: "block",
+      addr: "東京都港区芝2-7-17 住友芝公園ビル17F", pref: "東京都",
+      lat: 35.652313, lng: 139.749939, hqLat: 35.652313, hqLng: 139.749939, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/ctw.ico", games: 3,
+      logo: "assets/logo/ctw.ico", games: 4,
       match: ["CTW"],
       top: {"t":"G123（ブラウザゲーム基盤）","b":"同社の主力プラットフォーム"},
       eq: [
