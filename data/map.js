@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-17",
+    asOf: "2026-11-18",
     count: 99,
     onMap: 89,
     outsideTokyo: 10,
@@ -1102,7 +1102,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都品川区東品川4-12-8 品川シーサイドイーストタワー7F", pref: "東京都",
       lat: 35.611389, lng: 139.748795, hqLat: 35.611389, hqLng: 139.748795, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: null, games: 2,
+      logo: null, games: 3,
       match: ["ジー・モード", "G-MODE"],
       top: null,
       eq: [
