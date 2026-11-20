@@ -696,7 +696,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都中央区銀座3-2-17", pref: "東京都",
       lat: 35.67345, lng: 139.764633, hqLat: 35.67345, hqLng: 139.764633, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/toei-games.ico", games: 5,
+      logo: "assets/logo/toei-games.ico", games: 6,
       match: ["東映", "TOEI"],
       top: null,
       eq: [
