@@ -16,7 +16,7 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-23T11:24:00+08:00",
+    updatedAt: "2026-11-23T19:20:00+08:00",
     edition: "2026-11-23",
     window: "2026-09-23 ~ 2026-11-23（滚动最近 2 个月）",
     sources: [
@@ -9044,16 +9044,17 @@ window.OBSERVATORY = {
       companyJp: "株式会社フェイズ（Phase Co., Ltd.）",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-10-02（無料体験版の配信日と Steam Next Fest 参加を発表）",
-      capturedAt: "2026-10-09",
+      announceDate: "2026-11-23（製品版を Steam・iOS・Android で同時配信開始）",
+      capturedAt: "2026-11-23",
       title: { jp: "華麗 無限城の死闘", cn: "华丽 无限城死斗", en: "KAREI - ENDLESS DEATH MATCH" },
       genre: "ターン制パズルローグライク",
       platforms: ["Steam（Windows）", "iOS", "Android"],
-      release: "2026年第4四半期（Steam 製品版。iOS は『KAREI 序章』として 2026-10-10 に無料配信、Android も同日から無料体験版）",
-      releasePrecision: "季",
-      summary: "东京游戏开发公司 Phase（株式会社フェイズ）自社开发、自社发行的回合制解谜 Roguelike。2026-10-02 宣布免费体验版将于 10-10 在 Steam（Windows）、iOS、Android 三平台同步推出，并确定参加 10-20〜27 的 Steam Next Fest。舞台是 8×8 棋盘：玩家每走一步敌人也走一步，必须在「斩击／闪避／设下机关」之间做出选择，能否看穿敌人下一步决定能否继续向上攀层。玩家扮演一名女忍者，携带卷轴、手里剑、隐身三种忍具挑战无人归来的「无限城」。楼层每次重新生成且不继承进度，途中取得的秘具可扭转战局。体验版可玩第 1〜10 层并迎战首位头目「がしゃどくろ」，iOS 版以《KAREI 序章》名义在 App Store 接受预约（仅 iPhone、iOS 15.0 以上）。对应日语与英语，未支持中文。本作曾在 TGS2026 展出试玩。",
-      highlight: "【2026-10-02 発表】東京のゲーム開発会社フェイズが、自社開発・自社販売のターン制パズルローグライク『華麗 無限城の死闘』の無料体験版を 10-10 に Steam（Windows）・iOS・Android の 3 プラットフォームで同時配信すると発表した。Steam Next Fest（10-20〜27）への参加も決定。　舞台は 8×8 の盤面で、自分が一手動くと敵も一手動く。体験版は第 1〜10 層と最初のボス「がしゃどくろ」まで遊べ、専用のオンラインランキングシーズン「黎明の足音」も開催される。iOS 版は『KAREI 序章』のタイトルで App Store にて予約注文を受付中。",
+      release: "2026-11-23（Steam（Windows）・iOS・Android 同時配信。Steam は買い切り、モバイルは基本無料）",
+      releasePrecision: "日",
+      summary: "东京游戏开发公司 Phase（株式会社フェイズ）自社开发、自社发行的回合制解谜 Roguelike，2026-11-23 正午（日本时间）在 Steam（Windows）、iOS、Android 三平台同步推出正式版。玩法是 8×8 棋盘上「自己走一步、敌人也走一步」的回合制抉择：玩家扮演女忍者，用卷轴、手里剑、隐身三种忍具突破无人归来的「无限城」，每一层都是需要解开的机关房间，途中取得的秘具可扭转战局。楼层每次重新生成且进度不继承，并有地板本身会攻击的「からくり」层与在线排行（最快击破がしゃどくろ／国家别榜）。付费形态按平台区分：Steam 版买断制、首发 7 天 15% 折扣，iOS／Android 基本免费；此前的 Android 体验版与 iOS『KAREI 序章』在正式版上线后可直接升级为正式版。对应日语与英语，未支持中文。",
+      highlight: "【2026-11-23 発売】フェイズの自社開発・自社販売『華麗 無限城の死闘』が、日本時間 11-23 正午に Steam（Windows）・iOS・Android の 3 プラットフォームで正式配信を開始した。Steam 版は買い切りで発売から 7 日間 15％オフ、iOS／Android は基本無料。Android の体験版と iOS『KAREI 序章』はそのまま製品版へアップデートされる。　公式ランキング（karei.net）では新シーズンが開幕。舞台は 8×8 の盤面で、自分が一手動くと敵も一手動く。",
       news: [
+        { source: "Steam 公式コミュニティ告知（KAREI 開発チーム「KAREI - ENDLESS DEATH MATCH is out now!」＝2026-11-23 12:01 JST 配信開始、Steam 15％オフ、iOS／Android も同時展開）", url: "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110440187" },
         { source: "AppBank（体験版の配信日・対応機種・体験版で遊べる範囲と価格）", url: "https://www.appbank.net/2026/10/07/game/3123994.php" },
         { source: "QooApp（フェイズ発表の原文・玩法特徴・Steam 新品節への参加）", url: "https://news.qoo-app.com/post/446739/karei-endless-death-match-demo" }
       ],
@@ -9073,14 +9074,14 @@ window.OBSERVATORY = {
       },
       tags: ["新作", "跨平台", "パズルローグライク", "インディー", "和風"],
       mobile: {
-        status: "配信予定（2026-10-10 に無料体験版を配信。製品版は Steam で 2026 年第 4 四半期予定）",
+        status: "正式サービス中（2026-11-23 正午に iOS／Android 正式版を配信開始）",
         os: ["iOS", "Android"],
-        monetization: "未発表（体験版は無料。製品版の価格は未公表）",
-        preReg: { open: true, since: "2026-10-02", reward: "iOS 版『KAREI 序章』は App Store で予約注文を受付中（2026-10-10 配信予定・無料、第 10 階層まで収録）。人数マイルストーン型の特典は未発表" },
+        monetization: "iOS／Android は基本無料（課金要素の詳細は未公表）。Steam 版は買い切りで、発売から 7 日間 15％オフ",
+        preReg: { open: false, since: "2026-10-02", reward: "事前登録は 2026-11-23 の配信開始をもって終了。iOS『KAREI 序章』の予約注文分と Android 体験版は、そのまま製品版へアップデートされる" },
         developer: "株式会社フェイズ（Phase Co., Ltd.／東京）",
         publisher: "株式会社フェイズ（Phase Co., Ltd.）",
         region: "日本（Steam 版は日本語・英語に対応。中国語・韓国語は未対応）",
-        distribution: "App Store（iOS・『KAREI 序章』として）／ Google Play（Android 体験版）／ Steam（Windows）",
+        distribution: "App Store（iOS）／ Google Play（Android）／ Steam（Windows）",
         payment: [],
         ipSource: "オリジナル IP（株式会社フェイズによる自社企画・開発・販売。既存 IP のライセンスではない）",
         series: "新規オリジナル IP。フェイズは東京を拠点に自社タイトルの企画・開発・販売を行うゲームスタジオで、本作はその自社パブリッシング作のひとつ",
@@ -15549,20 +15550,20 @@ window.OBSERVATORY = {
    * D. 期待榜 — Famitsu 读者期待榜（2026-09-13 发表）
    * ------------------------------------------------------- */
   mostWanted: {
-    asOf: "2026-11-08",
+    asOf: "2026-11-22",
     source: "Famitsu 週刊ファミ通 読者期待榜",
-    url: "https://nintendoeverything.com/famitsus-most-wanted-games-november-8-2026/",
+    url: "https://nintendoeverything.com/famitsus-most-wanted-games-november-22-2026/",
     list: [
-      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 610 },
-      { rank: 2, title: "Persona 4 Revival", platform: "PS5", votes: 435 },
-      { rank: 3, title: "Persona 6", platform: "PS5", votes: 429 },
-      { rank: 4, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 421 },
-      { rank: 5, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 360 },
-      { rank: 6, title: "Grand Theft Auto 6", platform: "PS5", votes: 297 },
-      { rank: 7, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 249 },
-      { rank: 8, title: "Xenoblade Genesis", platform: "NS2", votes: 233 },
-      { rank: 9, title: "Professor Layton and the New World of Steam", platform: "NS2", votes: 159 },
-      { rank: 10, title: "Persona 6", platform: "NS2", votes: 148 }
+      { rank: 1, title: "Pokemon Winds / Waves", platform: "NS2", votes: 594 },
+      { rank: 2, title: "Dragon Quest Monsters: The Withered World", platform: "NS2", votes: 466 },
+      { rank: 3, title: "Persona 6", platform: "PS5", votes: 413 },
+      { rank: 4, title: "Final Fantasy 7 Revelation", platform: "PS5", votes: 368 },
+      { rank: 5, title: "Persona 4 Revival", platform: "PS5", votes: 366 },
+      { rank: 6, title: "Xenoblade Genesis", platform: "NS2", votes: 212 },
+      { rank: 7, title: "Professor Layton and the New World of Steam", platform: "NS2", votes: 198 },
+      { rank: 8, title: "Dragon Quest Monsters: The Withered World", platform: "NSW", votes: 198 },
+      { rank: 9, title: "Persona 6", platform: "NS2", votes: 157 },
+      { rank: 10, title: "Monster Hunter Wilds", platform: "NS2", votes: 154 }
     ]
   },
 
@@ -15608,8 +15609,20 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-23 朝の部（実実行 11:24）：直前の夜の部追補（11:10）から約 15 分しか経ておらず、増分区間が実質ゼロのため新規収録なし。実質的な最新は土日の『シノビNEXUS -閃乱カグラ-』11-29 配信決定と、KAWAII LAB. 初の公式スマホゲーム（アピリッツ）の収録。",
+    headline: "11-23 夜の部（実実行 19:20）：増分区間 11:28〜19:20 に国内スマホの新作発表はゼロ。Phase『華麗 無限城の死闘』が正午に Steam・iOS・Android で正式配信を開始。Famitsu 期待榜を 11-22 号へ更新。",
     history: [
+      {
+        at: "2026-11-23 19:20",
+        scene: "定時巡検（11-23 夜の部・実実行 19:20）",
+        items: [
+          "【結論】増分区間＝11-23 11:28（朝の部コミット 23bd42b）〜19:20。本日 3 場目にあたるが、国内スマホの「新作発表・事前登録開始」はゼロ。構造的な動きは Phase『華麗 無限城の死闘』の正式配信開始 1 件のみで、条目 263 のまま（新規 0／更新 1、純スマホ 59／跨平台 20／主机・PC 184）。",
+          "【更新・跨平台スマホ】『華麗 無限城の死闘』（株式会社フェイズ／Steam（Windows）・iOS・Android／ターン制パズルローグライク）＝Steam 公式コミュニティ告知「KAREI - ENDLESS DEATH MATCH is out now!」（2026-11-23 12:01 JST）で正式配信を確認した。PC は買い切りで発売から 7 日間 15％オフ、iOS／Android は基本無料。Android の体験版と iOS『KAREI 序章』はそのまま製品版へアップデートされる。公式ランキング（karei.net）は新シーズンが開幕。release を「2026-11-23」、releasePrecision を「日」、mobile.status を「正式サービス中」へ更新し、Steam 公式告知を news の先頭に追加した。本体の初出は 2026-10-02 で窓内のため bucket は new のまま据え置き。",
+          "【期待榜】Famitsu 11-22 号（投票期間 11-05〜11-10）へ整表更新した。1 位 Pokemon Winds / Waves 594 票、2 位 DQ モンスターズ 朽ちた世界 466 票、3 位 Persona 6 413 票、4 位 FF7 Revelation 368 票、5 位 Persona 4 Revival 366 票。Xenoblade Genesis が 212 票で自己最高の 6 位に入り、11-19 に発売された GTA VI は圏外へ抜けた。",
+          "【見送り】①中国資本の新作スマホ（11-23 に 12-17 全平台公測を発表した 3D 格闘、11-24 配信のサバイバル、11-25 削档テストの育成 RPG、11-26 配信のオープンワールド RPG、11-27 限量テストの戦術 FPS）＝開発・配信の資本が中国のためいずれも対象外（社名・作品名とも不記載） ②韓国資本（WEBZEN の防衛シム SLG＝11-19 から日本を含む CBT 募集、MSSoft の武侠 MMORPG 11-23 公測）③稼働中タイトルの内容更新（各社の C109 グッズ展開、周年特番、ブラックフライデー施策）④主机・PC の小規模インディー単発（『Topdeck Automat』『Last Paddle Standing』『Picky Numbers』『Sudoku Defense』等）と『ステューピッド・ネバー・ダイズ』最終トレーラー。",
+          "【漏収核查】ポケモン・ドラゴンボール・ホロライブ・名探偵コナンの 4 IP を照合 → 未収録の日方主導スマホ新作はゼロ。ポケモンは『Pokemon Winds / Waves』（Switch 2・2027 年）が期待榜 1 位で推移、ドラゴンボールは『GEKISHIN SQUADRA』『LEGENDS』がいずれも稼働中、ホロライブは『ホロじゃん』（11-25 配信）を既収録、名探偵コナンはサイバードのパズル作が稼働中で新作なし。",
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。本場に新規会社の追加はなく、全 99 社を機械再計算して games のドリフトもゼロ（フェイズの games は 1 件のまま）。住所・座標・officeKind・hqLat/hqLng の変更はなく、map.js は meta.asOf が既に 2026-11-23 のため diff なし。"
+        ]
+      },
       {
         at: "2026-11-23 11:10",
         scene: "定時巡検（11-23 夜の部・実実行 11:10）",
@@ -15620,19 +15633,6 @@ window.OBSERVATORY = {
           "【見送り】①香港法人が開発・配信する MMO 戦略 SLG（11-19 事前登録開始・iOS／Android）＝プレスリリースの発行元も同法人で、App Store／Google Play の開発者情報から法人登記住所が香港であることを確認したため紅線に沿って見送り（社名・作品名は記載しない） ②中国資本の新作スマホ 2 件（11-19 日本向け Android CBT 開始の三国志 SLG、11-26 配信のオープンワールド RPG）＝開発・配信の資本が中国のため対象外（社名・作品名とも不記載） ③韓国資本（IMC Games『Tree of Savior M』全世界事前登録、Webzen『ゲートオブゲイツ』12 月 CBT、Netmarble 各作のアップデート）④稼働中タイトルの内容更新（『アークナイツ：エンドフィールド』Ver.2.0、『遙かなる時空の中で 龍宮の神子』1 周年、『三國志 真戦』新シナリオ、『にゃんこ大戦争』Google Play ベスト オブ 2026 受賞、各社ブラックフライデーセール）⑤『魚は飛ばない』（11-18 配信・基本無料の日常の謎 ADV）＝販売元が PLAY GO GAMES（韓国）で日本企業の作品ではないため対象外。",
           "【漏収核查】葬送のフリーレン・ブルーロック・BLEACH・呪術廻戦の 4 IP を照合 → 未収録の日方主導スマホ新作はゼロ。フリーレンは『雀魂 -じゃんたま-』とのコラボ（11-18〜12-09）のみで稼働中タイトルの内容更新、ブルーロックは RUDEL の『Project: World Champion』が稼働中で新作なし、BLEACH は『Mirrors High』（10-28 配信）を既収録、呪術廻戦は『RUMBLE: SURVIVATON』を既収録。",
           "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元アピリッツ・ファンカルチャーパートナーは 50 家リストの「株式会社アピリッツ」に該当するため、同社の status を watch → covered、gameIds に新条目を追加。全 99 社を機械再計算し games のドリフトはアピリッツ 0 → 1 の 1 件のみ（match の「アピリッツ」が新条目に命中）。住所・座標・officeKind・hqLat/hqLng の変更はなく、map.js は meta.asOf のみ 2026-11-23 へ更新。"
-        ]
-      },
-      {
-        at: "2026-11-20 19:20",
-        scene: "定時巡検（11-20 夜の部）",
-        items: [
-          "【結論】増分区間＝11-20 11:25（前回コミット 3aaf809／朝の部の実実行 11:18）〜19:20。新規 2 件（純スマホ 1／跨平台 0／主机・PC 1）／既存更新 1 件、条目 260 → 262（純スマホ 58／跨平台 20／主机・PC 184（console 145／pc 39）、スマホ区 78／主机・PC 区 204（multi 20 を含む））。国内スマホの「新作発表」は本日 2 場連続でゼロで、動いたのは発売日当日の買い切りタイトルと、11-11 に配信済みだった小規模アプリの補収、主机・PC 側の 1 件。",
-          "【新規・スマホ】『スヌーピー ゲームズ ～ サクッと脳トレパズル』（テレビ東京コミュニケーションズ発行・運営／開発 株式会社ユニティ／iOS 15.6 以上・Android 8.0 以上／2026-11-11 配信開始／完全無料・広告表示あり／配信地域は日本国内のみ）＝11-20 の AppBank 記事で配信開始が判明した。11-11 に事前登録なしで直接配信されていたため、11-19 までの各場で検知できていなかった漏収分。マッチナンバーズ／フラワーパズル／ソートパズル／スターキャッチの 4 種を 1 本に収録し、スヌーピーとピーナッツの仲間たちが登場する。",
-          "【新規・主机PC】『楽園追放 -The Stellar Angel-』（東映アニメーション×Studio51／Nintendo Switch・PC Steam／2026-11-26 同時発売／DL 5,280 円・パッケージ 6,380 円・限定版 11,880 円・CERO C・日英対応）＝11-19 に最序盤約 33 分の実機プレイ映像を公開し、K2-SYSTEM が実機画面で動作する様子を初公開した。脚本は劇場版前日譚小説『mission.0』の手代木正太郎、要所で「絆 -KIZUNA-」と「覚悟 -KAKUGO-」を選ばせて経路と結末を分岐させる。初報は 2026-05-14 で観測窓の外にあるため bucket は update。朝の部で「初出不明のため保留」としていた件を、初報日を確定させて収録した。",
-          "【更新・スマホ】『魔法使いの夜』スマホ版（アニプレックス発売／企画・制作 TYPE-MOON／iOS・Android）＝予定どおり 11-20 に発売。2,900 円（税込）の買い切りで、ufotable 制作の劇場版と同日展開。mobile.status を「正式サービス中」へ更新し、当日のファミ通・4Gamer 記事を news に追加した。本体（2012 年 PC 版／2022 年コンシューマ版）の初出は窓外のため bucket は update のまま据え置き。",
-          "【見送り】①『ボクらの消しゴム落とし4 オンラインバトル』（SAT-BOX／Switch・Switch 2 Edition／11-19・700 円）＝本編『時空バトル』からオンライン対戦に特化した派生版で、独立した新作とは見なし難い ②復刻・移植の単発（『さいはて駅 Twilight Edition』Switch 2027-03-25、『トロイメライの月あかり』Switch は朝の部で見送り済み）③『Maisy』（ApexGame／日本語非対応の 2D アクション ADV）④韓国資本（WEBZEN『GATE OF GATES』、WEMADE PLAY『ガンズタワー』、NEOWIZ『Goodbye Seoul:梨泰院編』）⑤中国資本・香港法人の新作 2 件（社名・作品名とも不記載）。",
-          "【漏収核查】呪術廻戦・東京リベンジャーズ・BLEACH・ブルーロック・鬼滅の刃の 5 IP を照合 → 未収録の日方主導スマホ新作はゼロ。呪術廻戦は『Phantom Parade』が 3 周年記念イベント「大感謝祭」を開催中、東京リベンジャーズは『UNLIMITED』が天竺編第 4 章を 11-09 に実装、BLEACH は『Mirrors High』（10-28 配信）の運用が継続。いずれも稼働中タイトルの内容更新で収録対象外。",
-          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規 2 件の発行元（テレビ東京コミュニケーションズ／東映アニメーション）はいずれも 50 家リスト・extra とも未登録のため、全 99 社を機械照合して games のドリフトはゼロ。住所・座標・officeKind・hqLat/hqLng の変更もなく、map.js は meta.asOf が既に 2026-11-20 のため diff なし。"
         ]
       }
     ]
