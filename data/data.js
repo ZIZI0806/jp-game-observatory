@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-20T19:20:00+08:00",
-    edition: "2026-11-20",
-    window: "2026-09-20 ~ 2026-11-20（滚动最近 2 个月）",
+    updatedAt: "2026-11-23T11:20:00+08:00",
+    edition: "2026-11-23",
+    window: "2026-09-23 ~ 2026-11-23（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -1307,15 +1307,15 @@ window.OBSERVATORY = {
       companyJp: "株式会社HONEY∞PARADE GAMES（マーベラスグループ）",
       bucket: "new",
       platformClass: "multi",
-      announceDate: "2026-10-07（新情報映像を公開し、15 名のシノビ少女とストーリー序盤を紹介）",
-      capturedAt: "2026-10-09",
+      announceDate: "2026-11-21（公式番組でサービス開始日 11-29・11-28 事前ダウンロード開始を発表）",
+      capturedAt: "2026-11-23",
       title: { jp: "シノビNEXUS –閃乱カグラ–", cn: "忍者NEXUS -闪乱神乐-", en: "Shinobi NEXUS -Senran Kagura-" },
       genre: "コマンド RPG（ハイパーシノビバトル）",
       platforms: ["iOS", "Android", "Windows 11（DMM GAMES）"],
-      release: "2026年内（配信日未定・事前登录中）",
-      releasePrecision: "年",
-      summary: "HONEY∞PARADE GAMES 的《闪乱神乐》系列新作手游，2026 年 8 月 14 日在 Google Play 开启事前登录，iOS 与 DMM GAMES（Windows 11 64bit）版同步受理，预计 2026 年内开服。故事舞台设定在前作《忍者大师 闪乱神乐 NEW LINK》三年后，描写忍者学生们在善与恶交错之中各自背负信念、直面残酷命运的成长过程。战斗是洗练的指令式 RPG 与忍法结合的「超忍战斗」，角色表现采用卡通渲染 3D，并延续该工作室惯有的「换装、交流、立体场景」功能。角色设计仍由系列元老八重樫南担任。2026-10-07 官方公开新情报影像，介绍从三所学园选出的 15 名忍者少女，并展示主线剧情序盘（コヒメ・イノリ・アキラ 三人相遇），11 月将播出以实机玩法为中心的情报节目。",
-      highlight: "【2026-10-07 新情報映像】TGS2026 の配信中止を受けて、HONEY∞PARADE GAMES は 10-07 に新情報映像を公開した。姫路バビ女子学園・綺羅星天女学園・紫月月弦女学園の 3 学園から選ばれた 15 名のシノビ少女が勢ぞろいし、メインストーリー序盤（コヒメ・イノリ・アキラ が出会う場面）も披露。2026 年 11 月にはゲームプレイを中心にした情報番組の配信を予定している。　系列新作回归手机端，前作三年后的全新忍者少女阵容，指令制 RPG＋忍法战斗。",
+      release: "2026-11-29（配信予定・11-28 から事前ダウンロード開始）",
+      releasePrecision: "日",
+      summary: "HONEY∞PARADE GAMES 的《闪乱神乐》系列新作手游，2026 年 8 月 14 日在 Google Play 开启事前登录，iOS 与 DMM GAMES（Windows 11 64bit）版同步受理。2026-11-21 的官方节目「シノビNEXUS スペシャル 2026」上公布服务开始日为 11 月 29 日（周日），11-28 起开放事前下载，具体开服时刻将在官方 X 另行告知。开服纪念向全体玩家发放 1,500 忍魂（相当于 10 连）与 SR 卡「紅姫（忍転身）」，教程后还有可重抽的 10 连扭蛋。故事舞台设定在前作《忍者大师 闪乱神乐 NEW LINK》三年后，描写忍者学生们在善与恶交错之中各自背负信念、直面残酷命运的成长过程。战斗是洗练的指令式 RPG 与忍法结合的「超忍战斗」，角色表现采用卡通渲染 3D，并延续该工作室惯有的「换装、交流、立体场景」功能。角色设计仍由系列元老八重樫南担任。",
+      highlight: "【11-29 配信決定】HONEY∞PARADE GAMES は 11-21 の公式番組「シノビNEXUS スペシャル 2026」でサービス開始日を 11 月 29 日（日）と発表し、11-28 から事前ダウンロードを開始する。開始時刻は公式 X で後日告知。開服記念で忍魂 1,500（10 連分）と SR「紅姫（忍転身）」を全員配布し、チュートリアル後には引き直し可能な 10 連ガチャも用意する。　系列新作回归手机端，前作三年后的全新忍者少女阵容，指令制 RPG＋忍法战斗。",
       mobile: {
         status: "事前登録受付中",
         os: ["iOS", "Android"],
@@ -1337,6 +1337,8 @@ window.OBSERVATORY = {
         { source: "QooApp ニュース（Android 事前登録開始と作品概要）", url: "https://news.qoo-app.com/post/442839" },
         { source: "公式サイト（キャラクター紹介・秘伝忍法映像）", url: "https://hpgames.jp/shinovi-nexus/" },
         { source: "Yomimono（電ファミニコゲーマー発の報道：10-07 の新情報映像と 11 月の情報番組）", url: "https://www.yomimono.id/honey-parade-games-details-shinobi-nexus-senran-kagura" },
+        { source: "ファミ通（11-21 サービス開始日が 11-29 に決定・11-28 事前ダウンロード開始）", url: "https://www.famitsu.com/article/202611/94710" },
+        { source: "AppBank（11-21 HONEY∞PARADE GAMES 発表・開始記念で忍魂 1,500 と SR「紅姫」配布）", url: "https://www.appbank.net/2026/11/21/game/3174111.php" },
       ],
       videos: [
         { label: "タイトル発表PV", platform: "YouTube", url: "https://youtu.be/_avt71u1eZc" },
@@ -15320,6 +15322,82 @@ window.OBSERVATORY = {
       },
       tags: ["手游", "パズル", "脳トレ", "テレビ東京コミュニケーションズ", "スヌーピー", "ピーナッツ", "ライセンス"]
     },
+    {
+      id: "kawaii-lab-game-project",
+      company: "アピリッツ・ファンカルチャーパートナー（アピリッツグループ）× アソビシステム",
+      companyJp: "株式会社アピリッツ・ファンカルチャーパートナー／株式会社アソビシステム（協力）",
+      bucket: "new",
+      platformClass: "mobile",
+      announceDate: "2026-11-21（KAWAII LAB. 初のスマートフォン向け公式ゲームプロジェクトを発表）",
+      capturedAt: "2026-11-23",
+      title: {
+        jp: "KAWAII LAB. ゲームプロジェクト（仮）",
+        cn: "KAWAII LAB. 游戏企划（暂定）",
+        en: "KAWAII LAB. Game Project (working title)"
+      },
+      genre: "リズムゲーム",
+      platforms: ["iOS", "Android"],
+      release: "配信日未定（11-26 20:00 の公式特番で続報予定）",
+      releasePrecision: "未定",
+      summary: "原宿発のアイドルプロジェクト「KAWAII LAB.」にとって初となるスマートフォン向け公式ゲームプロジェクト。2026-11-21 にアピリッツ・ファンカルチャーパートナーとアソビシステムが共同で発表した。ジャンルはリズムゲームで、対応 OS は iOS／Android、価格は基本無料（アプリ内課金あり）。企画・開発・運営はアピリッツ・ファンカルチャーパートナーが担当し、アソビシステムが協力する。KAWAII LAB. に所属する 5 グループ（FRUITS ZIPPER・CANDY TUNE・CUTIE STREET・SWEET STEADY・MORE STAR）のメンバーを起用し、11-26 20:00 からの公式特番でプロジェクトの魅力と最新情報を紹介する予定。配信日は未定で、事前登録もまだ開始されていない。",
+      highlight: "【11-21 プロジェクト発表】アピリッツ・ファンカルチャーパートナーとアソビシステムが、KAWAII LAB. 初のスマートフォン向け公式ゲームプロジェクトを発表した。ジャンルはリズムゲーム、iOS／Android 向けの基本無料（アプリ内課金あり）で、企画・開発・運営はアピリッツ・ファンカルチャーパートナー。11-26 20:00 から公式 X と公式 YouTube で特番を配信し、5 グループのメンバーが出演して続報を出す。　配信日・事前登録は未発表で、特番が実質的な初出情報の場になる。",
+      mobile: {
+        status: "配信予定（時期未定）",
+        os: ["iOS", "Android"],
+        monetization: "基本無料（アプリ内課金あり）",
+        preReg: {
+          open: false,
+          since: "未開始",
+          reward: "公式発表なし"
+        },
+        developer: "株式会社アピリッツ・ファンカルチャーパートナー",
+        publisher: "株式会社アピリッツ・ファンカルチャーパートナー",
+        region: "日本",
+        distribution: "App Store / Google Play（予定）",
+        payment: [],
+        ipSource: "アソビシステムが展開するアイドルプロジェクト「KAWAII LAB.」（FRUITS ZIPPER・CANDY TUNE・CUTIE STREET・SWEET STEADY・MORE STAR）。IP 保有側のアソビシステムが協力し、アピリッツ・ファンカルチャーパートナーが企画・開発・運営を担う",
+        series: "KAWAII LAB. 初のスマートフォン向け公式ゲームプロジェクト",
+        features: [
+          "ジャンルはリズムゲーム（公式発表）",
+          "KAWAII LAB. 所属 5 グループのメンバーを起用",
+          "基本無料＋アプリ内課金の運営型",
+          "11-26 20:00 の公式特番で企画の魅力と最新情報を公開予定"
+        ],
+        synopsis: "原宿発のアイドルプロジェクト「KAWAII LAB.」を題材にした初の公式スマートフォンゲーム。リズムゲームとして企画・開発が進められている。",
+        cast: "公式発表なし（出演予定：真中まな／南なつ／宮野静／桜庭遥花／遠藤まりん）"
+      },
+      news: [
+        {
+          source: "AppBank（11-21 発表・リズムゲーム／基本無料／11-26 特番の出演者と配信先を掲載）",
+          url: "https://www.appbank.net/2026/11/22/game/3173811.php"
+        },
+        {
+          source: "公式サイト「KAWAII LAB. リズムゲームプロジェクトはじまる！」",
+          url: "https://kawaiilab-newgameproject.com"
+        }
+      ],
+      videos: [
+        {
+          label: "公式 YouTube チャンネル（11-26 20:00 特番の配信先）",
+          platform: "YouTube",
+          url: "https://www.youtube.com/@kawaiilab_game"
+        },
+        {
+          label: "公式 X（プロジェクト最新情報）",
+          platform: "X",
+          url: "https://x.com/kawaiilab_game"
+        }
+      ],
+      hype: {
+        score: 33,
+        signals: [
+          "KAWAII LAB. は FRUITS ZIPPER・CANDY TUNE・CUTIE STREET らが日本レコード大賞新人賞を受賞した国内で認知の高いアイドル群だが、ゲーム単体の露出は特番前で限定的",
+          "発表時点ではタイトルが「（仮）」で、配信日・事前登録・映像素材がいずれも未公開",
+          "開発元のアピリッツ・ファンカルチャーパートナーはアイドル／ファンカルチャー領域の専業で、運営型リズムゲームは初の大型企画"
+        ]
+      },
+      tags: ["新作", "手游", "リズムゲーム", "アイドル", "KAWAII LAB.", "アピリッツ", "アソビシステム"]
+    },
   ],
   /* ---------------------------------------------------------
    * C. 厂商监测名单 — 按用户指定清单建档（50 社 + 40 社补充）
@@ -15387,7 +15465,7 @@ window.OBSERVATORY = {
           { name: "KLab株式会社", short: "KLab", status: "covered", gameIds: ["mha-united-survival"], note: "『僕のヒーローアカデミア UNITED SURVIVAL』を gumi と共同開発（8/6 全世界配信）" },
           { name: "株式会社バンク・オブ・イノベーション", short: "Bank of Innovation", status: "watch" },
           { name: "ワンダープラネット株式会社", short: "WonderPlanet", status: "watch" },
-          { name: "株式会社アピリッツ", short: "Appirits", status: "watch" },
+          { name: "株式会社アピリッツ", short: "Appirits", status: "covered", gameIds: ["kawaii-lab-game-project"] },
           { name: "株式会社Aiming", short: "Aiming", status: "covered", gameIds: ["eminence-in-shadow-phantom-echoes", "hololive-mahjong-holojan"], note: "自社スタジオ Team CARAVAN が『陰の実力者になりたくて！ ファントムエコーズ』を開発し、スマホ中心の事業からコンシューマ 3D アクションへ領域を広げる（2027 年発売予定、KADOKAWA が原作監修）" },
         ]
       },
@@ -15530,8 +15608,20 @@ window.OBSERVATORY = {
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */
   digest: {
-    headline: "11-20 夜の部：国内スマホの新作発表は本日 2 場連続でゼロ。『魔法使いの夜』スマホ版が予定どおり発売、11-11 配信済みの『スヌーピー ゲームズ』を漏収補填し、東映アニメーションの『楽園追放 -The Stellar Angel-』（11-26）を収録した。",
+    headline: "11-23 夜の部：土日の国内スマホは『シノビNEXUS -閃乱カグラ-』の 11-29 配信決定が最大の動き。KAWAII LAB. 初の公式スマホゲーム（リズムゲーム／アピリッツ・ファンカルチャーパートナー）を新規収録し、香港・中国・韓国資本の新作は紅線に沿って見送った。",
     history: [
+      {
+        at: "2026-11-23 11:10",
+        scene: "定時巡検（11-23 夜の部・実実行 11:10）",
+        items: [
+          "【結論】増分区間＝11-20 19:20（前回コミット c6e5257）〜11-23 11:10。11-21・11-22 の土日と 11-23 午前をまとめて追補した。新規 1 件（純スマホ 1／跨平台 0／主机・PC 0）／既存更新 1 件、条目 262 → 263（純スマホ 59／跨平台 20／主机・PC 184（console 145／pc 39）、スマホ区 79／主机・PC 区 204（multi 20 を含む））。土日の国内スマホは『シノビNEXUS -閃乱カグラ-』の配信日決定が最大の動きで、新規に拾えたのはアイドル IP の新規プロジェクト 1 件のみ。",
+          "【更新・跨平台スマホ】『シノビNEXUS -閃乱カグラ-』（HONEY∞PARADE GAMES／マーベラス／iOS・Android・DMM GAMES（Windows 11 64bit））＝11-21 の公式番組「シノビNEXUS スペシャル 2026 いろいろ試してみる特別編」で、サービス開始日が 11 月 29 日（日）に決定。11-28 から事前ダウンロードを開始し、開始時刻は公式 X で後日告知。番組では声優 3 名による実機プレイが初公開され、開服記念として忍魂 1,500（10 連分）と SR「紅姫（忍転身）」を全員配布、チュートリアル後に引き直し可能な 10 連ガチャも用意される。release を「2026-11-29」、releasePrecision を「日」へ更新し、ファミ通・AppBank の 11-21 記事を news に追加した。",
+          "【新規・スマホ】『KAWAII LAB. ゲームプロジェクト（仮）』（企画・開発・運営 株式会社アピリッツ・ファンカルチャーパートナー／協力 株式会社アソビシステム／iOS・Android／リズムゲーム／基本無料＋アプリ内課金／配信日未定）＝11-21 に両社が発表。原宿発のアイドルプロジェクト「KAWAII LAB.」にとって初のスマートフォン向け公式ゲームで、所属 5 グループ（FRUITS ZIPPER・CANDY TUNE・CUTIE STREET・SWEET STEADY・MORE STAR）のメンバーを起用する。11-26 20:00 から公式 X と公式 YouTube で特番を配信し、真中まな・南なつ・宮野静・桜庭遥花・遠藤まりんが出演して企画の魅力と最新情報を紹介する。タイトルが「（仮）」で配信日・事前登録とも未発表のため、本条目は特番での続報待ちの位置づけ。",
+          "【見送り】①香港法人が開発・配信する MMO 戦略 SLG（11-19 事前登録開始・iOS／Android）＝プレスリリースの発行元も同法人で、App Store／Google Play の開発者情報から法人登記住所が香港であることを確認したため紅線に沿って見送り（社名・作品名は記載しない） ②中国資本の新作スマホ 2 件（11-19 日本向け Android CBT 開始の三国志 SLG、11-26 配信のオープンワールド RPG）＝開発・配信の資本が中国のため対象外（社名・作品名とも不記載） ③韓国資本（IMC Games『Tree of Savior M』全世界事前登録、Webzen『ゲートオブゲイツ』12 月 CBT、Netmarble 各作のアップデート）④稼働中タイトルの内容更新（『アークナイツ：エンドフィールド』Ver.2.0、『遙かなる時空の中で 龍宮の神子』1 周年、『三國志 真戦』新シナリオ、『にゃんこ大戦争』Google Play ベスト オブ 2026 受賞、各社ブラックフライデーセール）⑤『魚は飛ばない』（11-18 配信・基本無料の日常の謎 ADV）＝販売元が PLAY GO GAMES（韓国）で日本企業の作品ではないため対象外。",
+          "【漏収核查】葬送のフリーレン・ブルーロック・BLEACH・呪術廻戦の 4 IP を照合 → 未収録の日方主導スマホ新作はゼロ。フリーレンは『雀魂 -じゃんたま-』とのコラボ（11-18〜12-09）のみで稼働中タイトルの内容更新、ブルーロックは RUDEL の『Project: World Champion』が稼働中で新作なし、BLEACH は『Mirrors High』（10-28 配信）を既収録、呪術廻戦は『RUMBLE: SURVIVATON』を既収録。",
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規条目の発行元アピリッツ・ファンカルチャーパートナーは 50 家リストの「株式会社アピリッツ」に該当するため、同社の status を watch → covered、gameIds に新条目を追加。全 99 社を機械再計算し games のドリフトはアピリッツ 0 → 1 の 1 件のみ（match の「アピリッツ」が新条目に命中）。住所・座標・officeKind・hqLat/hqLng の変更はなく、map.js は meta.asOf のみ 2026-11-23 へ更新。"
+        ]
+      },
       {
         at: "2026-11-20 19:20",
         scene: "定時巡検（11-20 夜の部）",
@@ -15543,18 +15633,6 @@ window.OBSERVATORY = {
           "【見送り】①『ボクらの消しゴム落とし4 オンラインバトル』（SAT-BOX／Switch・Switch 2 Edition／11-19・700 円）＝本編『時空バトル』からオンライン対戦に特化した派生版で、独立した新作とは見なし難い ②復刻・移植の単発（『さいはて駅 Twilight Edition』Switch 2027-03-25、『トロイメライの月あかり』Switch は朝の部で見送り済み）③『Maisy』（ApexGame／日本語非対応の 2D アクション ADV）④韓国資本（WEBZEN『GATE OF GATES』、WEMADE PLAY『ガンズタワー』、NEOWIZ『Goodbye Seoul:梨泰院編』）⑤中国資本・香港法人の新作 2 件（社名・作品名とも不記載）。",
           "【漏収核查】呪術廻戦・東京リベンジャーズ・BLEACH・ブルーロック・鬼滅の刃の 5 IP を照合 → 未収録の日方主導スマホ新作はゼロ。呪術廻戦は『Phantom Parade』が 3 周年記念イベント「大感謝祭」を開催中、東京リベンジャーズは『UNLIMITED』が天竺編第 4 章を 11-09 に実装、BLEACH は『Mirrors High』（10-28 配信）の運用が継続。いずれも稼働中タイトルの内容更新で収録対象外。",
           "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規 2 件の発行元（テレビ東京コミュニケーションズ／東映アニメーション）はいずれも 50 家リスト・extra とも未登録のため、全 99 社を機械照合して games のドリフトはゼロ。住所・座標・officeKind・hqLat/hqLng の変更もなく、map.js は meta.asOf が既に 2026-11-20 のため diff なし。"
-        ]
-      },
-      {
-        at: "2026-11-20 09:00",
-        scene: "定時巡検（11-20 朝の部）",
-        items: [
-          "【結論】増分区間＝11-19 09:10（前回コミット 3b549ec／朝の部の実実行 09:10）〜11-20 11:25。この間に 11-19 19:00 場は実行されておらず（コミットなし・meta.updatedAt も 11-19T09:00 のまま）、本場が前夜と今朝の 2 区画をまとめて追補した。新規 1 件（純スマホ 0／跨平台 0／主机・PC 1）／既存更新 1 件、条目 259 → 260（純スマホ 57／跨平台 20／主机・PC 183（console 144／pc 39）、スマホ区 77／主机・PC 区 203（multi 20 を含む））。国内スマホの新作発表・事前登録開始・配信開始は 11-19 午後から 11-20 午前まで一件もなく、動いたのは主机・PC 側の 2 件。",
-          "【新規・主机PC】『THE FIRST ZOMBIE』（Phoenixx／THE FIRST ZOMBIE 製作委員会／Nintendo Switch・PC Steam／2026-12-17、価格未定）＝11-19 12:43 のファミ通（プレスリリース全文）で発売日を決定。『水曜日のダウンタウン』の藤井健太郎がプロデュースする「逆ゾンビゲー」で、ゾンビを倒すのではなく街の人間を襲って増やし、渋谷・新宿・上野など実在街区を制圧していく。体当たりと噛みつきで人をゾンビ化し、群れが大きいほど Z-Level が上昇。重撃を受けると這い状態になり移動が鈍り被ダメージが増える。各街のボスは仲間と共にダウンさせたうえで制限時間内のコマンド入力で撃破し、一部は次街へ連れていけるバディになる。1 人プレイ専用、日本語・英語対応。初出は 2026-09-17 の PR TIMES で窓左端（09-20）より前のため bucket は update（本体レベルの構造的展開＝発売日定档として収録）。",
-          "【更新・主机PC】『マブラヴ ガールズガーデン Mellow Days』（DESK GARDEN PROJECT／aNCHOR／PC Steam・DMM GAMES・DLsite）＝予定どおり 11-19 に発売。10％OFF のローンチセールを実施中。release を「発売済み」、console.status を「発売中」に更新し、11-19 のファミ通・AppBank の記事を news に追加した。",
-          "【見送り】①稼働中タイトルの周年・コラボ・アップデート（パズドラ×BLEACH、太鼓の達人 25 周年、プロセカ、千年戦争アイギス 13 周年、PSO2 NGS ver.2 ほか）②復刻・移植の単発（EGGコンソール『テグザー MSX』、『ぎゅわんぶらあ自己中心派』Switch、『奈落』Switch、『トロイメライの月あかり』Switch／Switch 2 Edition）＝いずれも小規模で本体の初出が窓外 ③『楽園追放 -The Stellar Angel-』（東映アニメーション／11-26 Switch・Steam）＝初出が 09-24 以前と推定され bucket を確定できないため保留 ④セール・受賞・物販（GTA6 発売、App Store Awards 2026 ファイナリスト、各社 Black Friday）⑤韓国資本（Webzen『Gate of Gates』『LAST STAGE』CBT、NEXON、NC、Com2uS）⑥中国資本・香港法人の新作（社名・作品名とも不記載）。",
-          "【漏収核查】呪術廻戦・僕のヒーローアカデミア・BLEACH・鬼滅の刃・東京リベンジャーズ・ブルーロックの 6 IP を照合 → 未収録の日方主導スマホ新作はゼロ。呪術廻戦は『RUMBLE: SURVIVATON』既収録、ヒロアカは『UNITED SURVIVAL』『ULTRA RUMBLE モバイル』既収録、BLEACH は『Mirrors High』（10-28 配信）既収録で当日はパズドラ側のコラボのみ、鬼滅・東リベ・ブルーロックは現行の日方主導スマホ作なし。",
-          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規・更新条目の Phoenixx／aNCHOR／DESK GARDEN PROJECT はいずれも 50 家リスト・extra とも未登録のため games 再計算のドリフトなし（全社機械照合）。住所・座標・officeKind・hqLat/hqLng の変更なし、meta.asOf のみ 2026-11-20 へ更新。"
         ]
       }
     ]

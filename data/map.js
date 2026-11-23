@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-20",
+    asOf: "2026-11-23",
     count: 99,
     onMap: 89,
     outsideTokyo: 10,
@@ -985,7 +985,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都渋谷区桜丘町1-1 渋谷サクラステージ SHIBUYAタワー24階", pref: "東京都",
       lat: 35.657352, lng: 139.701874, hqLat: 35.657352, hqLng: 139.701874, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/appirits.png", games: 0,
+      logo: "assets/logo/appirits.png", games: 1,
       match: ["アピリッツ", "Appirits"],
       top: null,
       eq: [
