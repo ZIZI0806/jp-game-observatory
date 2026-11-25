@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-24",
+    asOf: "2026-11-25",
     count: 99,
     onMap: 89,
     outsideTokyo: 10,
@@ -351,7 +351,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都港区六本木6-11-1 六本木ヒルズゲートタワー", pref: "東京都",
       lat: 35.658768, lng: 139.731949, hqLat: 35.658768, hqLng: 139.731949, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/wfs.ico", games: 0,
+      logo: "assets/logo/wfs.ico", games: 2,
       match: ["株式会社WFS（ライトフライヤースタジオ）"],
       top: {"t":"ヘブンバーンズレッド","b":"同社の直近最大級ヒット（開発は Key との共同）"},
       eq: [
@@ -643,7 +643,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都文京区音羽2-12-21", pref: "東京都",
       lat: 35.717751, lng: 139.727936, hqLat: 35.717751, hqLng: 139.727936, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/kodansha.png", games: 1,
+      logo: "assets/logo/kodansha.png", games: 2,
       match: ["株式会社講談社（講談社ゲームラボ）"],
       top: null,
       eq: [
