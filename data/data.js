@@ -16,9 +16,9 @@
 window.OBSERVATORY = {
 
   meta: {
-    updatedAt: "2026-11-25T19:05:00+08:00",
-    edition: "2026-11-25",
-    window: "2026-09-25 ~ 2026-11-25（滚动最近 2 个月）",
+    updatedAt: "2026-11-26T18:05:00+08:00",
+    edition: "2026-11-26",
+    window: "2026-09-26 ~ 2026-11-26（滚动最近 2 个月）",
     sources: [
       { name: "Famitsu (週刊ファミ通)", url: "https://www.famitsu.com/" },
       { name: "AppBank ゲーム", url: "https://www.appbank.net/category/game" },
@@ -220,17 +220,17 @@ window.OBSERVATORY = {
       companyJp: "アイディアファクトリー株式会社（オトメイト）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-07-20（発売日 2026-11-26 を発表）",
-      capturedAt: "2026-09-18",
+      announceDate: "2026-11-26（予定どおり発売）",
+      capturedAt: "2026-11-26",
       title: { jp: "MIX DUNK -KING OF BASKETBALL-", cn: "MIX DUNK -KING OF BASKETBALL-", en: "MIX DUNK -KING OF BASKETBALL-" },
       genre: "女性向け恋愛 ADV（スポーツ）",
       platforms: ["Nintendo Switch"],
-      release: "2026-11-26（発売予定。Nintendo Switch / Switch Lite）",
-      releasePrecision: "日",
+      release: "2026-11-26（発売済み。Nintendo Switch / Switch Lite）",
+      releasePrecision: "已发售",
       summary: "Otomate 首款运动题材乙女向恋爱 ADV，以男女混合的职业篮球联赛为舞台：主人公进入公司后，原本所属的球队因退出联赛而解散，她在现实与理想之间被迫抉择，仍继续追逐篮球梦，并与队友们在竞技与情感两条线上交错发展。由职业篮球队川崎ブレイブサンダース 与偶像团体 AKB48 共同监修，是乙女游戏里少见的跨界赞助型企划。角色原画中村龍德，声优为沢城千春、榎木淳弥、寺島拓篤、中島ヨシキ、杉田智和。2026-07-20 公布发售日，定为 2026-11-26 在 Nintendo Switch / Switch Lite 发售，通常版与下载版 8,580 日元、特装版 10,780 日元（均含税），预约受理中。",
-      highlight: "【定档 2026-11-26】7/20 公布发售日，Switch 版定于 11/26 发售，通常版 8,580 日元／特装版 10,780 日元，预约受理中。　与川崎ブレイブサンダース 及 AKB48 的三方监修把真实职业篮球与偶像资源引进乙女向，属该品类少见的跨界赞助型企划，也是 Otomate 首次做运动题材。",
+      highlight: "【11-26 予定どおり発売】アイディアファクトリー（オトメイト）『MIX DUNK -KING OF BASKETBALL-』が 11-26 に Nintendo Switch / Switch Lite で発売された。通常版・DL 版 8,580 円、特装版・Digital Deluxe 10,780 円（いずれも税込）。　川崎ブレイブサンダース と AKB48 の監修による男女混合リーグもので、恋愛対象は 5 人（荒木五百都／窪田樹／倉野グレン／真子圭吾／中井祐也）。発売後の購入者キャンペーンで中村龍德 描き下ろし色紙とキャスト寄せ書き色紙が当たる。",
       console: {
-        status: "2026-11-26 発売予定（予約受付中）",
+        status: "2026-11-26 発売（販売中）",
         os: ["Nintendo Switch"],
         monetization: "パッケージ版・ダウンロード版。通常版／DL 版 8,580 円（税込）、特装版 10,780 円（税込）",
         developer: "アイディアファクトリー（オトメイト）",
@@ -252,6 +252,7 @@ window.OBSERVATORY = {
         cast: "沢城千春／榎木淳弥／寺島拓篤／中島ヨシキ／杉田智和"
       },
       news: [
+        { source: "Quest Board.JP（2026-11-26 発売当日の仕様・価格・購入者キャンペーン報道）", url: "https://quest-board.jp/en/quests/official-ideafactory-mix-dunk-king-of-basketball" },
         { source: "SouNova（11/26 発売決定と作品概要）", url: "https://sounova.com/game/mix-dunk-king-of-basketball-switch-announcement" },
         { source: "Yomimono（発売日発表と監修・キャスト情報）", url: "http://yomimono.id/otomate-s-basketball-romance-mix-dunk-launches-november-26" },
         { source: "SouNova（Dessert de Otomate 2026 発表 5 タイトル一覧）", url: "https://sounova.com/game/dessert-de-otomate-2026" }
@@ -4571,20 +4572,23 @@ window.OBSERVATORY = {
       companyJp: "株式会社アニプレックス（開発：FRENCH-BREAD）",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-09-20（TGS2026 期間の合同インタビューで Grand Scenario の内容量と戦闘調整方針を公開）",
-      capturedAt: "2026-09-21",
+      announceDate: "2026-11-25（メイントレーラー公開・弓塚さつき参戦とシリーズ初のクロスプレイを発表）",
+      capturedAt: "2026-11-26",
       title: { jp: "MELTY BLOOD: TWI-LUMINA", cn: "月姬格斗 TWI-LUMINA", en: "MELTY BLOOD: TWI-LUMINA" },
       genre: "2D 対戦格闘",
       platforms: ["PS5", "PS4", "Nintendo Switch 2", "Nintendo Switch", "Xbox One", "PC(Steam)"],
       release: "2027-04-22",
       releasePrecision: "日",
-      summary: "TYPE-MOON《月姬》世界观下的 2D 对战格斗系列新作，由 Aniplex 发行、FRENCH-BREAD 开发，9 月 12 日公开新 PV 并确定 2027 年 4 月 22 日发售，登陆 PS5／PS4／Switch 2／Switch／Xbox One／Steam 六个平台。本作是对 2021 年《MELTY BLOOD: TYPE LUMINA》的全面翻新版：奈须蘑菇新写剧本，武内崇负责角色设计，新角色「莲」参战，并首次公开武内崇绘制的「白莲」。战斗系统追加 Act／Duel 两种操作模式与强化的 Rapid Beat，让不擅长指令输入的玩家也能上手。TGS2026 首日公布的试玩阵容为 7 名可操作角色（遠野志貴／アルクェイド／シエル／ロア／ネコアルク／マシュ／レン）。",
-      highlight: "【TGS2026 9/20】合同インタビューでディレクター 芹澤鴨音 氏が Grand Scenario の内容量（約 20 時間・奈須きのこ執筆）と、Shield／Shield Counter の整理方針、LastArc の発動条件緩和を明かした。　アニプレックス 展位（4 号馆 04-C04）与 ハピネット 展位（6 号馆 N04）两处提供系列首次一般试玩，试玩可操作 7 人（遠野志貴／アルクェイド／シエル／ロア／ネコアルク／マシュ／レン）。对 2021 年版的「翻新而非续作」：奈须蘑菇新写剧本、武内崇负责角色设计并首次披露其绘制的「白蓮」，用 Act／Duel 双操作模式把格斗门槛降给新玩家。",
+      summary: "TYPE-MOON《月姬》世界观下的 2D 对战格斗系列新作，由 Aniplex 发行、FRENCH-BREAD 开发，9 月 12 日公开新 PV 并确定 2027 年 4 月 22 日发售，登陆 PS5／PS4／Switch 2／Switch／Xbox One／Steam 六个平台。本作是对 2021 年《MELTY BLOOD: TYPE LUMINA》的全面翻新版：奈须蘑菇新写剧本，武内崇负责角色设计，新角色「莲」参战，并首次公开武内崇绘制的「白莲」。战斗系统追加 Act／Duel 两种操作模式与强化的 Rapid Beat，让不擅长指令输入的玩家也能上手。TGS2026 首日公布的试玩阵容为 7 名可操作角色（遠野志貴／アルクェイド／シエル／ロア／ネコアルク／マシュ／レン）。2026-11-25 的「TYPE-MOON TIMES MELTY BLOOD 最新情報スペシャル」公开主预告片与武内崇新绘主视觉，宣布新参战角色弓塚さつき（CV：田中美海）与系列首次跨平台对战；同时说明 Act／Duel 双操作体系、奈须蘑菇执笔的分支型「Grand Scenario」与风险回报型 Lumina Gauge，并开放数字豪华版预约（附三名新角色的播报员语音）。",
+      highlight: "【11-25 新PV・弓塚さつき参戦・クロスプレイ対応】アニプレックスが「TYPE-MOON TIMES MELTY BLOOD 最新情報スペシャル」でメイントレーラーと武内崇描き下ろしのキービジュアルを公開し、新プレイアブル「弓塚さつき」（CV：田中美海）とシリーズ初のクロスプラットフォーム対戦を発表した。　Act／Duel の 2 操作体系（Act はボタン一つで必殺技が出る入門向け）、奈須きのこ執筆の分岐型「Grand Scenario」、攻撃力が上がる代わりに隙が増える Lumina Gauge も改めて解説。発売は 2027-04-22、PS5／PS4／Switch 2／Switch／Xbox One／Steam の 6 機種で 8 言語のテキストに対応する。",
       news: [
+        { source: "Anime News Network プレスリリース（2026-11-26 メイントレーラー・弓塚さつき参戦・クロスプラットフォーム対戦・Grand Scenario・予約特典）", url: "https://www.animenewsnetwork.com/press-release/2026-11-26/2d-fighter-melty-blood-twi-lumina-key-visual-illustrated-by-takashi-takeuchi-and-latest-trailer-/.244215" },
+        { source: "EventHubs（2026-11-25 レン／白レン／弓塚さつきのプレイ映像とクロスプレイ報道）", url: "https://www.eventhubs.com/news/2026/nov/25/trailers-len-satsuki-twi-lumina" },
         { source: "Games Press（Aniplex 官方新闻稿全文，含发售日・平台・官方站・预告片地址）", url: "https://www.gamespress.com/ru/New-Entry-in-MELTY-BLOOD-Series-2D-Fighter-MELTY-BLOOD-TWI-LUMINA-To-B" },
         { source: "Yomimono（発売日PV・操作モード・TGS2026 試遊／ANN・4Gamer・GAME Watch・Automaton を出典）", url: "https://www.yomimono.id/melty-blood-twi-lumina-sets-april-22-2027-release-and-white-len" }
       ],
       videos: [
+        { label: "メイントレーラー（TYPE-MOON TIMES 2026-11-25 公開・弓塚さつき／Grand Scenario／クロスプレイ）", platform: "YouTube", url: "https://youtu.be/-itIG-yUwFA" },
         { label: "発売日発表トレーラー（Aniplex 官方新闻稿刊载的正式预告片）", platform: "YouTube", url: "https://youtu.be/901ronfe540" },
         { label: "公式サイト（MELTY BLOOD: TWI-LUMINA 英文官方站）", platform: "官方站", url: "http://meltyblood.twilumina-en.com/" },
         { label: "Steam 商店页（可查看预告影像与截图）", platform: "Steam", url: "https://store.steampowered.com/app/4113000/MELTY_BLOOD_TWILUMINA/" }
@@ -10329,28 +10333,28 @@ window.OBSERVATORY = {
       companyJp: "株式会社バンダイナムコエンターテインメント",
       bucket: "update",
       platformClass: "mobile",
-      announceDate: "2026-11-15（発売時パック第 4 弾 BD-04 と 45 万人報酬を公開）",
-      capturedAt: "2026-11-16",
+      announceDate: "2026-11-24（正式配信開始・世界 183 の国と地域で展開）",
+      capturedAt: "2026-11-26",
       title: { jp: "DIGIMON ALYSION", cn: "数码宝贝 Alysion", en: "Digimon Alysion" },
       genre: "デジタルカードゲーム（リアルタイム対戦／基本無料・アイテム課金型）",
       platforms: ["iOS", "Android"],
-      release: "2026年内（配信日は未発表）",
-      releasePrecision: "年",
-      summary: "《DIGIMON ALYSION》是万代（バンダイ）以实体《数码宝贝卡牌游戏》为原型的智能手机数字卡牌游戏。2026-10-28 起在日本在内的全球 49 个国家与地区开始事前登录。规则近乎原样复刻实体版——保留「内存系统」与「进化」，玩家把数码宝贝放进战斗区域、靠进化强化并打穿对手全部安全区取胜；除既存卡牌数字化外另收本作限定新卡。剧情模式以 Web 漫画／小说《数码宝贝 Liberator》世界观为底。2026-11-10 官方宣布日本与北美合计事前登录突破 20 万人，并公开 25 万／30 万／35 万（各 BD 卡包券 10 张）与 40 万（BT1-084 奥米加兽）的加码报酬。配信日仍未公布。2026-11-15 的「DIGI-ALY TIMES」生放送进一步公开：发售时的第 4 弹卡包 [BD-04] GREAT LEGEND（前有 BD-01 NEW EVOLUTION／BD-02 ULTIMATE POWER／BD-03 UNION IMPACT）、带引导对战的剧情模式、以及发售纪念活动「バトルカーニバル デュークモン Ver.」；每日可免费开 1 包，多余卡可换成代币再换指定卡。事前登录追加新档：45 万人达成送 BT1-010 亚古兽（异画），官方 Discord 达 1.5 万人送 BD-04 卡包券 5 张。配信日仍未公布。",
-      highlight: "【11-15 第4弾パックと新報酬を公開】バンダイが「DIGI-ALY TIMES」で発売時パック第 4 弾「[BD-04] GREAT LEGEND」、指南付きのストーリーモード、発売記念イベント「バトルカーニバル デュークモン Ver.」を発表した。　事前登録 45 万人で「BT1-010 アグモン（別イラスト）」、公式 Discord 1.5 万人で BD-04 チケット 5 枚を追加。1 日 1 パックは無料で開封できる。　本体の初出は 2025-03-20 の「DIGIMON CON 2025」で観測窓より前のため、更新として記録する。",
+      release: "2026-11-24（配信済み。世界 183 の国と地域）",
+      releasePrecision: "日",
+      summary: "《DIGIMON ALYSION》是万代（バンダイ）以实体《数码宝贝卡牌游戏》为原型的智能手机数字卡牌游戏。2026-10-28 起在日本在内的全球 49 个国家与地区开始事前登录。规则近乎原样复刻实体版——保留「内存系统」与「进化」，玩家把数码宝贝放进战斗区域、靠进化强化并打穿对手全部安全区取胜；除既存卡牌数字化外另收本作限定新卡。剧情模式以 Web 漫画／小说《数码宝贝 Liberator》世界观为底。2026-11-10 官方宣布日本与北美合计事前登录突破 20 万人，并公开 25 万／30 万／35 万（各 BD 卡包券 10 张）与 40 万（BT1-084 奥米加兽）的加码报酬。2026-11-15 的「DIGI-ALY TIMES」生放送进一步公开：发售时的第 4 弹卡包 [BD-04] GREAT LEGEND（前有 BD-01 NEW EVOLUTION／BD-02 ULTIMATE POWER／BD-03 UNION IMPACT）、带引导对战的剧情模式、以及发售纪念活动「バトルカーニバル デュークモン Ver.」；每日可免费开 1 包，多余卡可换成代币再换指定卡。事前登录追加新档：45 万人达成送 BT1-010 亚古兽（异画），官方 Discord 达 1.5 万人送 BD-04 卡包券 5 张。2026-11-24 正式配信，覆盖全球 183 个国家与地区（事前登录阶段仅 49 个），事前登录最终突破 45 万人；全服发放 BD-01〜BD-04 卡包券各 10 张（合计 40 张）、ゲムモン／メタルガルルモン／ウォーグレイモン／オメガモン／アグモン（异画）与 SEC 确定券 1 张，需在游戏内邮箱 30 日内领取，另附 10 天登录奖励；11-26 起开放排位赛与「バトルカーニバル デュークモン Ver.」限时活动。",
+      highlight: "【11-24 配信開始・世界 183 の国と地域へ】バンダイの『DIGIMON ALYSION』が配信を開始した。事前登録は 49 か国で始まり 45 万人を集め、ローンチ時に 183 の国と地域へ一気に拡大した。　全員配布は BD-01〜BD-04 のパックチケット各 10 枚（計 40 枚）＋ゲムモン／メタルガルルモン／ウォーグレイモン／オメガモン／アグモン（別イラスト）＋SEC 確定チケット 1 枚。受け取りはゲーム内メールから 30 日以内で、11-26 からランクマッチと「バトルカーニバル デュークモン Ver.」が始まる。　本体の初出は 2025-03-20 の「DIGIMON CON 2025」で観測窓より前のため、更新として記録する。",
       mobile: {
-        status: "事前登録受付中（2026 年内配信予定）",
+        status: "正式サービス中",
         os: ["iOS", "Android"],
-        monetization: "基本プレイ無料（アイテム課金型）。詳細は未発表",
+        monetization: "基本プレイ無料（アイテム課金型。プレミアムバトルパスあり）",
         preReg: {
-          open: true,
+          open: false,
           since: "2026-10-28",
-          reward: "20 万人達成（2026-11-10 発表）。25 万人：BD-02 チケット×10／30 万人：BD-03 チケット×10／35 万人：BD-04 チケット×10／40 万人：BT1-084 オメガモン／45 万人：BT1-010 アグモン（別イラスト、2026-11-15 追加）。公式 Discord 1.5 万人達成で BD-04 チケット×5（2026-11-15 追加）",
+          reward: "45 万人で配信開始（2026-11-24）。全員配布：BD-01 NEW EVOLUTION／BD-02 ULTIMATE POWER／BD-03 UNION IMPACT／BD-04 GREAT LEGEND のパックチケット各 10 枚（計 40 枚）、BT1-002 ゲムモン、BT1-044 メタルガルルモン、BT1-025 ウォーグレイモン、BT1-084 オメガモン、BT1-010 アグモン（別イラスト）、SEC 確定チケット 1 枚。ゲーム内メールから 30 日以内に受け取り",
         },
         developer: "株式会社バンダイナムコエンターテインメント",
         publisher: "株式会社バンダイナムコエンターテインメント",
-        region: "日本（多言語対応を予定）",
-        distribution: "App Store / Google Play（日本を含む世界 49 の国と地域で受付中）",
+        region: "日本を含む世界 183 の国と地域（日本語・英語・簡体字／繁体字中国語・韓国語）",
+        distribution: "App Store / Google Play（世界 183 の国と地域で配信中）",
         payment: [],
         ipSource: "『デジタルモンスター／デジモンカードゲーム』（権利元：株式会社バンダイ）。Web コミック『デジモンリベレイター』と世界観を共有",
         series: "デジモンシリーズは 1997 年の携帯育成玩具「デジタルモンスター」に始まり、アニメ・玩具・カードゲームへ展開してきた。スマホ向けでは既に『デジモンUP』が配信されており、本作はカードゲーム部門のデジタル展開として位置づけられる",
@@ -10362,9 +10366,13 @@ window.OBSERVATORY = {
         ],
         synopsis: "物理カードゲーム『デジモンカードゲーム』をそのままデジタルに移植するのではなく、スマートフォン向けに対戦体験を再設計したオンラインカードゲーム。プレイヤーはデッキを組んでリアルタイムに対戦し、進化の過程がアニメーションで描かれる。",
         cast: "公式発表なし",
-        caution: "配信日・課金詳細は未発表（達成報酬は 2026-11-15 に 45 万人ぶんまで公開）。米国 App Store の表示は 2026-12-23 だが、これは端末基準の予約表記で公式の発売日ではないと注記されている。",
+        caution: "配信日について一次源で 1 日の差がある。バンダイのプレスリリースは「Official release: Tuesday, November 24, 2026」、公式サイトの告知は「11/25 に正式リリース」と表記しており、本条目は PR の 11-24 を採用した。",
       },
       news: [
+        { source: "Anime News Network ニュース（2026-11-25 配信開始・183 の国と地域・基本無料・『デジモンリベレイター』世界観）", url: "https://www.animenewsnetwork.com/news/2026-11-25/bandai-card-games-launches-digimon-alysion-game/.244210" },
+        { source: "PR Newswire（バンダイ公式リリース 2026-11-26 配信・Official release 2026-11-24・5 言語対応・ストアリンク）", url: "https://en.yna.co.kr/view/RPR20261126000100353" },
+        { source: "App Store（日本ストア・配信ページ）", url: "https://apps.apple.com/jp/app/id6740988190" },
+        { source: "Google Play（配信ページ）", url: "https://play.google.com/store/apps/details?id=com.bandai.digimonalysion" },
         { source: "Anime News Network プレスリリース（2026-11-15 DIGI-ALY TIMES・BD-04 GREAT LEGEND・ストーリーモード・バトルカーニバル・45 万人で BT1-010 アグモン）", url: "https://www.animenewsnetwork.com/press-release/2026-11-15/digimon-alysion-digialy-times-livestream-reveals-new-card-pack-details-and-core-gameplay-mechanics/.243835" },
         { source: "4Gamer.net（2026-11-10 事前登録 20 万人突破・25 万〜40 万人の追加報酬・事前登録は 10-28 開始）", url: "https://www.4gamer.net/games/893/G089331/20261109033/" },
         { source: "Anime News Network プレスリリース（20 万人突破・40 万人で BT1-084 オメガモン・開発運営 BANDAI CO., LTD.）", url: "https://www.animenewsnetwork.com/press-release/2026-11-10/digimon-alysion-pre-registrations-pass-200000-digimon-tamers/.243675" },
@@ -10375,6 +10383,8 @@ window.OBSERVATORY = {
         { source: "公式 X @DIGIMON_ALYSION（事前登録の近日開始を告知した 2026-10-16 の投稿）", url: "https://x.com/DIGIMON_ALYSION/status/2111004227778625592" }
       ],
       videos: [
+        { label: "App Store 配信ページ（PV・スクリーンショット）", platform: "App Store", url: "https://apps.apple.com/jp/app/id6740988190" },
+        { label: "Google Play 配信ページ（PV・スクリーンショット）", platform: "Google Play", url: "https://play.google.com/store/apps/details?id=com.bandai.digimonalysion" },
         { label: "4Gamer.net 記事（事前登録開始・ゲーム画面ギャラリー）", platform: "媒体", url: "https://www.4gamer.net/games/893/G089331/20261028008/" },
         { label: "公式サイト（作品紹介・世界観解説）", platform: "公式サイト", url: "https://www.digimon-alysion.com/" },
         { label: "公式 X の告知投稿（事前登録開始予定のアナウンス）", platform: "X", url: "https://x.com/DIGIMON_ALYSION/status/2111004227778625592" }
@@ -14378,8 +14388,8 @@ window.OBSERVATORY = {
       companyJp: "日本コロムビア株式会社",
       bucket: "new",
       platformClass: "console",
-      announceDate: "2026-11-12（無料体験版を配信開始）",
-      capturedAt: "2026-11-12",
+      announceDate: "2026-11-26（予定どおり発売）",
+      capturedAt: "2026-11-26",
       title: {
         jp: "最強王図鑑 クラッシュバトルキングス",
         cn: "最强王图鉴  Crash Battle Kings（官方简中名未公布）",
@@ -14387,12 +14397,12 @@ window.OBSERVATORY = {
       },
       genre: "対戦アクション（パーティー）",
       platforms: ["Nintendo Switch 2"],
-      release: "2026-11-26（6,380 円・税込）",
-      releasePrecision: "日",
-      summary: "日本コロムビア把学研的儿童图鉴 IP《最強王図鑑》（以动画《最強王図鑑 ～The Ultimate Tournament～》为原作）做成 Switch 2 对战动作游戏，2026-11-26 发售、6,380 日元。玩家操纵昆虫、现生动物、恐龙、灭绝动物与传说巨龙，在「生存」「组队」「King 战（3 打 1 巨型生物）」三种模式里最多 4 人对战，被打倒的玩家还能丢陨石继续干扰战局；单人「挑战战斗」共 50 关。2026-11-12 起在各国 eShop 放出免费体验版，可玩挑战战斗前段，并能在「生物性能介绍」里查看全部生物的性能。",
-      highlight: "【11-12 無料体験版を配信開始】日本コロムビアが各国ニンテンドーeショップで体験版の配信を開始、製品版は 11-26 発売・6,380 円。　体験版はひとり用「チャレンジバトル」の序盤と、全生物の性能が確認できる「生物性能紹介」を収録。攻撃・防御・ダッシュをすべて 1 ボタンで出せる操作と、キングゲージを溜めて巨大化する「キング化」が売り。",
+      release: "2026-11-26（発売済み。6,380 円・税込）",
+      releasePrecision: "已发售",
+      summary: "日本コロムビア把学研的儿童图鉴 IP《最強王図鑑》（以动画《最強王図鑑 ～The Ultimate Tournament～》为原作）做成 Switch 2 对战动作游戏，2026-11-26 发售、6,380 日元。玩家操纵昆虫、现生动物、恐龙、灭绝动物与传说巨龙，在「生存」「组队」「King 战（3 打 1 巨型生物）」三种模式里最多 4 人对战，被打倒的玩家还能丢陨石继续干扰战局；单人「挑战战斗」共 50 关。2026-11-12 起在各国 eShop 放出免费体验版，可玩挑战战斗前段，并能在「生物性能介绍」里查看全部生物的性能。2026-11-26 按计划发售。",
+      highlight: "【11-26 予定どおり発売】日本コロムビア『最強王図鑑 クラッシュバトルキングス』が 11-26 に Nintendo Switch 2 で発売された。6,380 円（税込）、CERO A、日本語・英語・簡体字／繁体字中国語・韓国語の 5 言語。　TV／テーブルモードで 1〜4 人、ローカル通信の「おすそわけ通信」とゲームチャットに対応し、倒されても隕石で妨害を続けられる。体験版は引き続き配信中で、ひとり用「チャレンジバトル」の序盤と全生物の性能紹介が遊べる。",
       console: {
-        status: "2026-11-26 発売予定（体験版配信中）",
+        status: "2026-11-26 発売（販売中・体験版も配信中）",
         os: ["Nintendo Switch 2"],
         monetization: "パッケージ版・ダウンロード版 6,380 円（税込）",
         developer: "日本コロムビア株式会社",
@@ -15673,8 +15683,24 @@ window.OBSERVATORY = {
   /* ---------------------------------------------------------
    * E. 更新履歴（直近 2 回の観測のみ）
    * ------------------------------------------------------- */  digest: {
-    headline: "11-25 夜の部：増分区間の国内スマホ新作発表はゼロ。カバー×Aiming『ホロライブ麻雀 -ホロじゃん-』が本日 12:00 に iOS／Android／Windows で正式サービスを開始し、既録条目を配信済みへ更新した（条目 264・新規 0／更新 1）。",
+    headline: "11-26 朝の部：増分区間の国内スマホ新作発表はゼロ。バンダイ『DIGIMON ALYSION』が 11-24 に世界 183 の国と地域で配信開始、アニプレックス『MELTY BLOOD』新作が新 PV と弓塚さつき参戦を発表（条目 264・新規 0／更新 4）。",
     history: [
+      {
+        at: "2026-11-26 18:05",
+        scene: "定時巡検（11-26 朝の部・実実行 18:05）",
+        items: [
+          "【結論】増分区間＝11-25 19:06（前回コミット 51a2560・夜の部）〜11-26 18:00。本場は 09:00 場だが実実行が 18:00 にずれ込んだため、区間を実行時刻まで延長して追補した。国内スマホの「新作発表・事前登録開始」はゼロで、条目は 264 を据え置き（新規 0／更新 4）。増分はすべて既録タイトルの本体レベル進展。",
+          "【配信開始】『DIGIMON ALYSION』（バンダイ）＝11-24 に App Store／Google Play で配信開始。事前登録は 49 か国・45 万人で、ローンチ時に 183 の国と地域へ拡大した。全員配布は BD-01〜BD-04 のパックチケット各 10 枚（計 40 枚）＋ゲムモン／メタルガルルモン／ウォーグレイモン／オメガモン／アグモン（別イラスト）＋SEC 確定チケット 1 枚で、11-26 からランクマッチと「バトルカーニバル デュークモン Ver.」。バンダイの PR は 11-24、公式サイト告知は 11/25 表記で 1 日の差があり、条目は PR の 11-24 を採った。",
+          "【続報】『MELTY BLOOD: TWI-LUMINA』（アニプレックス／開発 FRENCH-BREAD）＝11-25 の「TYPE-MOON TIMES MELTY BLOOD 最新情報スペシャル」でメイントレーラーと武内崇のキービジュアルを公開、新プレイアブル「弓塚さつき」（CV：田中美海）とシリーズ初のクロスプラットフォーム対戦を発表した。発売は 2027-04-22、6 機種・8 言語。",
+          "【発売】『最強王図鑑 クラッシュバトルキングス』（日本コロムビア）＝11-26 に Nintendo Switch 2 で予定どおり発売（6,380 円・CERO A・5 言語）。『MIX DUNK -KING OF BASKETBALL-』（アイディアファクトリー／オトメイト）＝11-26 に Switch で予定どおり発売（通常版 8,580 円／特装版 10,780 円）。いずれも既録条目を発売済みへ更新した。",
+          "【見送り・資本未確認】11-26 に事前登録を開始した国内 IP ライセンスの新作スマホ RPG は、開発・配信元が海外法人で資本構成を一次源で確定できないため、社名・作品名とも不記載のうえ見送った（資本が判明した時点で再判定）。",
+          "【見送り・紅線】中国資本の新作（11-26 に日韓台で同時配信されたペット収集オープンワールド、11-25 に初報 PV と 2027-01 首測招募を出した多人対戦アクション、12-17 公測が決まった 3D 格闘）は開発・配信の資本が中国のため対象外（社名・作品名とも不記載）。",
+          "【見送り・その他】①家庭用の内容更新（『僕のヒーローアカデミア ULTRA RUMBLE』の Plus Ultra Season 1 が 11-25 開始。モバイル版は公式 SPEC が依然「Release Date: TBD」で、北米チャートへの登場は提携先行テスト段階とみられ正式サービス開始として扱わない）②東方が原作の同人二次創作（Steam 11-26 配信、開発は個人スタジオ）③韓国資本の新作（11-26 に韓台港澳で同時開服の MMORPG）。",
+          "【漏収核查】デジモン・メルティブラッド・僕のヒーローアカデミア・呪術廻戦・ホロライブ・ポケモン の 6 IP を照合 → 日方主導の未収録スマホ新作はゼロ。デジモンは本件（アリシオン）で配信開始、メルティブラッドはコンソール続報のみ。KAWAII LAB. ゲームプロジェクトは本日 20:00 の公式特番待ちで、本場の実行時刻（18:00）時点では続報未出。",
+          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規会社・社名変更・本社移転・東京拠点の新設／閉鎖・資本関係の異動はいずれもなし。全 99 社の games を機械再計算してドリフト 0。map.js は meta.asOf のみ 2026-11-26 へ更新し、geo-check は 109 件で要確認 0 件（exit 0）。",
+          "【次場】11-26 19:00 場の注目：KAWAII LAB. ゲームプロジェクトの 20:00 公式特番（タイトル・配信日・事前登録の初出情報）と「ととのい湯」の配信状況、12 月の新作ラッシュ（『シノビNEXUS -閃乱カグラ-』11-28 事前DL／11-29 配信）、Famitsu 期待榜 11-26 号（木曜）。",
+        ]
+      },
       {
         at: "2026-11-25 19:05",
         scene: "定時巡検（11-25 夜の部・実実行 19:05）",
@@ -15687,21 +15713,6 @@ window.OBSERVATORY = {
           "【漏収核查】ホロライブ・デジモン・呪術廻戦・ドラゴンボール・ポケモン・閃乱カグラ の 6 IP を照合 → 日方主導の未収録スマホ新作はゼロ。呪術は『ファンパレ』が稼働中、ドラゴンボールは『LEGENDS』のバージョン更新のみ、ポケモンは 11-30 の公式カウントダウン（30 周年）待ちで新作発表なし。『シノビNEXUS -閃乱カグラ-』は 11-28 事前DL／11-29 配信で既録のまま据え置いた。",
           "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規会社・社名変更・本社移転・東京拠点の新設／閉鎖・資本関係の異動はいずれもなし。ホロじゃん は既録のためカバー／Aiming の games 件数も変動なし。map.js は asOf が既に 2026-11-25 のため中身は触らず、geo-check は 109 件で要確認 0 件（exit 0）。",
           "【次場】11-26 19:00 場の注目：『ととのい湯』11-26 配信、KAWAII LAB. ゲームプロジェクトの 11-26 20:00 特番、『楽園追放 -The Stellar Angel-』11-26 発売、Famitsu 期待榜は 11-26 号（木曜）待ち。"
-        ]
-      },
-      {
-        at: "2026-11-25 09:05",
-        scene: "定時巡検（11-25 朝の部・実実行 09:05）",
-        items: [
-          "【結論】増分区間＝11-24 19:05（前回コミット 6d07179・夜の部）〜11-25 09:00。この区間に国内スマホの「新作発表・事前登録開始」はゼロ。条目は 264 を据え置き（新規 0／更新 1）。唯一の増分は前場が取りこぼした『ヤンキーサバイバー 転生したら平成ヤンキーだった件』の 11-24 配信で、新作ではなく既録条目の本体レベル進展として更新した。",
-          "【更新・配信開始】『ヤンキーサバイバー 転生したら平成ヤンキーだった件』（SEVEN NEXUS）＝11-24 に App Store／Google Play で配信開始。ジャンルは「オラオラ系サバイバルアクション」、基本プレイ無料＋アイテム課金。配信記念でジェム 3,000・マネー 20,000・金の福引券 10 枚を全員配布、配信から 2 週間以内のログインで限定称号「初期メンバー」。release を「2026-11（予定）」から配信済みへ、mobile.status を「正式サービス中」へ更新し、features も 6→5 条に整理した。",
-          "【bucket 矯正】観測窓が 1 日滑って左端が 2026-09-25 になったため、本体が 09-24 の 3 条（`touken-ranbu-pazugiri`・`gobble`・`sento-survivor`）が validate ⑦f に抵触。いずれも new → update へ矯正し、capturedAt は据え置いた（履歴は書き換えない）。",
-          "【検索】10 組を投入。①AppBank 日付アーカイブ（11-24・11-25）②Gamer 新着（11-25 は 00:00 の DQ モンスターズ 4 TVCM のみ）③4Gamer の 11-24 夜〜11-25 09:00（11-25 付は 3 本）④GAME Watch ⑤INSIDE ⑥gamewith 新作配信カレンダー⑦PR TIMES ゲーム⑧〜⑩ IP 別・事前登録別の横断検索。11-25 朝の PR 帯は動いておらず、国内スマホ新作はゼロ。",
-          "【見送り・紅線】中国資本の新作（中国国内向けに発表された対戦格闘と復刻版の 2 本、11-25 配信の育成 RPG、11-25 に 2027-10-28 へ再延期された 1 本ほか）は開発・配信の資本が中国のため対象外（社名・作品名とも不記載）。",
-          "【見送り・その他】①韓国資本（『ODIN Q: VALKYRIE'S CALL』＝Kakao Games／開発 Lionheart Studio、2027-01-26 に日韓台同時、12-29 11:00 から事前登録）②稼働中タイトルの内容更新（『白猫プロジェクト NEW WORLD'S』×MINISOF、『グラクロ』第 86 回情報局 11-25 20:00、『六本木サディスティックナイト』11 周年、『あんスタ！！』楽曲配信）③主机・PC の小規模インディー・セール・体験版（Steam Edia Sale 2026、『SO-JI』体験版、『オリオン・ブルー』11-30 など）。",
-          "【漏収核查】ONE PIECE・呪術廻戦・ブルーロック・刀剣乱舞・ポケモン・ホロライブ・ハイキュー・東京リベンジャーズの 8 IP を照合 → 日方主導の未収録スマホ新作はゼロ。いずれも稼働中タイトルの施策か、窓外で配信済みの作品のみ。ポケモンは 11-30 の 30 周年ミュージックビデオ発表のみで新作情報なし。",
-          "【会社地図】99 社で変更なし（hq 78／branch 11／out 10、onMap 89・outsideTokyo 10・hqPlotted 99）。新規会社・社名変更・本社移転・東京拠点の新設／閉鎖・資本関係の異動はいずれもなし。全 99 社の games を機械再計算してドリフト 0（SEVEN NEXUS は地図未登録）。map.js は meta.asOf のみ 2026-11-25 へ更新。geo-check は 109 件で要確認 0 件（exit 0）。",
-          "【次場】11-25 19:00 場の注目：『ホロライブ麻雀 -ホロじゃん-』の配信状況、『ととのい湯』11-26、『シノビNEXUS -閃乱カグラ-』11-28 事前ダウンロード・11-29 配信、KAWAII LAB. ゲームプロジェクトの 11-26 20:00 特番、Famitsu 期待榜は 11-26 号（木曜）待ち。"
         ]
       },
     ]
