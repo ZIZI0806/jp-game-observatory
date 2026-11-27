@@ -24,7 +24,7 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-26",
+    asOf: "2026-11-27",
     count: 99,
     onMap: 89,
     outsideTokyo: 10,
@@ -1063,7 +1063,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都中野区中野3-33-18", pref: "東京都",
       lat: 35.703075, lng: 139.665405, hqLat: 35.703075, hqLng: 139.665405, precision: "block",
       officeKind: "hq", officeLabel: "本社",
-      logo: "assets/logo/kairosoft.ico", games: 1,
+      logo: "assets/logo/kairosoft.ico", games: 2,
       match: ["カイロソフト", "Kairosoft"],
       top: {"t":"ゲーム発展国++","b":"同社の代表作"},
       eq: [
