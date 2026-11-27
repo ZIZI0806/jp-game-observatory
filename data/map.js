@@ -1310,7 +1310,7 @@ window.OBSERVATORY_MAP = {
       addr: "大阪府大阪市浪速区難波中2-10-70 パークスタワー17F", pref: "大阪府",
       lat: 34.662411, lng: 135.501251, hqLat: 34.662411, hqLng: 135.501251, precision: "block",
       officeKind: "out", officeLabel: "本社", hqAddr: "大阪府大阪市浪速区難波中2-10-70 パークスタワー17F",
-      logo: null, games: 1,
+      logo: null, games: 2,
       match: ["ビジュアルアーツ", "VisualArts", "VISUAL ARTS"],
       top: {"t":"CLANNAD","b":"ブランド Key の代表作"},
       eq: [
