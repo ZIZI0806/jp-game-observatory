@@ -99,7 +99,7 @@ window.OBSERVATORY_MAP = {
       addr: "東京都新宿区西新宿2-1-1 新宿三井ビル", pref: "東京都",
       lat: 35.691662, lng: 139.693924, hqLat: 34.687443, hqLng: 135.511459, precision: "block",
       officeKind: "branch", officeLabel: "東京支社", hqPref: "大阪府", hqAddr: "大阪府大阪市中央区内平野町3-1-3",
-      logo: "assets/logo/capcom.ico", games: 5,
+      logo: "assets/logo/capcom.ico", games: 6,
       match: ["カプコン", "Capcom"],
       top: {"t":"モンスターハンター: ワールド","b":"同社史上最大の単作ヒット（世界 2,000 万本超）"},
       eq: [
