@@ -24,11 +24,11 @@
 
 window.OBSERVATORY_MAP = {
   meta: {
-    asOf: "2026-11-27",
-    count: 99,
-    onMap: 89,
+    asOf: "2026-11-28",
+    count: 100,
+    onMap: 90,
     outsideTokyo: 10,
-    hqPlotted: 99,   // 全国地図（本社位置）に打点できる社数
+    hqPlotted: 100,   // 全国地図（本社位置）に打点できる社数
     tileCredit: "地図タイル：国土地理院（淡色地図）",
     geoCredit: "住所検索：国土地理院 住所検索API",
     note: "ピンの位置は本社ビルの所在地（街区レベル）。【首都圏】表示は本社が道府県外の社を東京拠点の位置に打点し、その旨をカード内に表示する。【全国】表示は全社を本社位置（hqLat/hqLng）に打点する。破線リングは所在地が都道府県・市区町村レベルまでの確認にとどまる社。"
@@ -1355,7 +1355,18 @@ window.OBSERVATORY_MAP = {
       eq: [
         {"rel":"note","name":"アエリアグループ"},
       ],
-    }
+    },
+    {
+      id: "beeworks", name: "株式会社ビーワークス（BEEWORKS GAMES）", short: "BEEWORKS",
+      tier: "small", color: "#b8a06a",
+      addr: "東京都港区高輪1-3-13 NBF高輪ビル9F", pref: "東京都",
+      lat: 35.643368, lng: 139.734619, hqLat: 35.643368, hqLng: 139.734619, precision: "block",
+      officeKind: "hq", officeLabel: "本社",
+      logo: null, games: 1,
+      match: ["BEEWORKS", "ビーワークス"],
+      top: {"t":"なめこ栽培キット","b":"シリーズ累計 3,800 万 DL 超の看板作"},
+      eq: [],
+    },
   ],
   edges: [
     { a: "toho-games", b: "koei-tecmo", kind: "partner", label: "" },
